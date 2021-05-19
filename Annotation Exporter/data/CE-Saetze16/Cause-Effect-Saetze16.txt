@@ -1,0 +1,1080 @@
+T1	KEY_C 0 2	If
+T2	VARIABLE 3 11	chemical
+T3	CONDITION 12 38	has splashed into the eyes
+T4	VARIABLE 40 44	they
+T5	CONDITION 45 81	shall be flushed with plenty of soap
+T6	CONDITION 86 91	water
+T7	AND 45 91	shall be flushed with plenty of soap and water
+T8	STATEMENT 40 91	they shall be flushed with plenty of soap and water
+T9	STATEMENT 3 38	chemical has splashed into the eyes
+T10	CAUSE 0 38	If chemical has splashed into the eyes
+T11	VARIABLE 96 123	immediate medical attention
+T12	CONDITION 124 139	shall be sought
+T13	STATEMENT 96 139	immediate medical attention shall be sought
+T14	AND 40 139	they shall be flushed with plenty of soap and water and immediate medical attention shall be sought
+T15	CAUSE_EFFECT_RELATION 0 139	If chemical has splashed into the eyes, they shall be flushed with plenty of soap and water and immediate medical attention shall be sought
+T16	ROOT_SENTENCE 0 140	If chemical has splashed into the eyes, they shall be flushed with plenty of soap and water and immediate medical attention shall be sought.
+T17	KEY_C 142 144	If
+T18	VARIABLE 145 150	there
+T19	CONDITION 151 164	is a concrete
+T20	CONDITION 168 201	masonry apron around the building
+T21	OR 151 201	is a concrete or masonry apron around the building
+T22	VARIABLE 203 237	approximately 12 mm diameter holes
+T23	CONDITION 238 254	shall be drilled
+T24	CONDITION 255 294	as close as possible to the plinth wall
+T25	CONDITION 295 313	about 300 mm apart
+T26	CONDITION 315 350	deep enough to reach the soil below
+T27	VARIABLE 355 376	the chemical emulsion
+T28	CONDITION 377 400	pumped into these holes
+T29	NONE_CAUSAL 401 467	to soak the soil below at the rate of 2.25 litres per linear metre
+T30	STATEMENT 355 400	the chemical emulsion pumped into these holes
+T31	AND 238 350	shall be drilled as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below
+T32	STATEMENT 203 350	approximately 12 mm diameter holes shall be drilled as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below
+T33	STATEMENT 145 201	there is a concrete or masonry apron around the building
+T34	CAUSE 142 201	If there is a concrete or masonry apron around the building
+T35	AND 203 400	approximately 12 mm diameter holes shall be drilled as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below and the chemical emulsion pumped into these holes
+T36	CAUSE_EFFECT_RELATION 142 400	If there is a concrete or masonry apron around the building, approximately 12 mm diameter holes shall be drilled as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below and the chemical emulsion pumped into these holes
+T37	ROOT_SENTENCE 142 468	If there is a concrete or masonry apron around the building, approximately 12 mm diameter holes shall be drilled as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below and the chemical emulsion pumped into these holes to soak the soil below at the rate of 2.25 litres per linear metre.
+T38	KEY_C 470 472	If
+T39	VARIABLE 473 481	the wood
+T40	CONDITION 489 507	protected by paint
+T41	CONDITION 511 518	varnish
+T42	OR 489 518	protected by paint or varnish
+T43	NEGATION 482 518	is not protected by paint or varnish
+T44	STATEMENT 473 518	the wood is not protected by paint or varnish
+T45	VARIABLE 519 545	two coats of the chemicals
+T46	CONDITION 546 580	shall be given on all the surfaces
+T47	CONDITION 585 615	crevices adjoining the masonry
+T48	AND 546 615	shall be given on all the surfaces and crevices adjoining the masonry
+T49	STATEMENT 519 615	two coats of the chemicals shall be given on all the surfaces and crevices adjoining the masonry
+T50	CAUSE 470 518	If the wood is not protected by paint or varnish
+T51	CAUSE_EFFECT_RELATION 470 615	If the wood is not protected by paint or varnish two coats of the chemicals shall be given on all the surfaces and crevices adjoining the masonry
+T52	ROOT_SENTENCE 470 616	If the wood is not protected by paint or varnish two coats of the chemicals shall be given on all the surfaces and crevices adjoining the masonry.
+T53	KEY_C 618 620	If
+T54	VARIABLE 621 645	the level of diagnostics
+T55	CONDITION 653 690	specified in the procurement document
+T56	NEGATION 646 690	is not specified in the procurement document
+T57	STATEMENT 621 690	the level of diagnostics is not specified in the procurement document
+T58	CAUSE 618 690	If the level of diagnostics is not specified in the procurement document
+T59	VARIABLE 692 711	the system designer
+T60	CONDITION 712 811	shall use the Diagnostic Decision Tree (Figure 1) as a guide in developing a diagnostic test system
+T61	CONDITION 880 923	potential failure of the appropriate system
+T62	CONDITION 925 934	subsystem
+T63	CONDITION 938 947	equipment
+T64	OR 880 947	potential failure of the appropriate system, subsystem or equipment
+T65	CONDITION 812 838	that will most effectively
+T66	CONDITION 843 876	economically identify any failure
+T67	AND 812 876	that will most effectively and economically identify any failure
+T68	OR 812 947	that will most effectively and economically identify any failure or potential failure of the appropriate system, subsystem or equipment
+T69	AND 712 947	shall use the Diagnostic Decision Tree (Figure 1) as a guide in developing a diagnostic test system that will most effectively and economically identify any failure or potential failure of the appropriate system, subsystem or equipment
+T70	STATEMENT 692 947	the system designer shall use the Diagnostic Decision Tree (Figure 1) as a guide in developing a diagnostic test system that will most effectively and economically identify any failure or potential failure of the appropriate system, subsystem or equipment
+T71	CAUSE_EFFECT_RELATION 618 947	If the level of diagnostics is not specified in the procurement document, the system designer shall use the Diagnostic Decision Tree (Figure 1) as a guide in developing a diagnostic test system that will most effectively and economically identify any failure or potential failure of the appropriate system, subsystem or equipment
+T72	ROOT_SENTENCE 618 948	If the level of diagnostics is not specified in the procurement document, the system designer shall use the Diagnostic Decision Tree (Figure 1) as a guide in developing a diagnostic test system that will most effectively and economically identify any failure or potential failure of the appropriate system, subsystem or equipment.
+T73	KEY_C 950 952	If
+T74	VARIABLE 953 955	it
+T75	CONDITION 956 1066	is demonstrated that the susceptibility to shock of the space segment equipment is above the shock environment
+T76	VARIABLE 1068 1076	the test
+T78	NEGATION 1077 1102	needs not to be performed
+T79	STATEMENT 953 1066	it is demonstrated that the susceptibility to shock of the space segment equipment is above the shock environment
+T80	STATEMENT 1068 1102	the test needs not to be performed
+T81	CAUSE 950 1066	If it is demonstrated that the susceptibility to shock of the space segment equipment is above the shock environment
+T82	CAUSE_EFFECT_RELATION 950 1102	If it is demonstrated that the susceptibility to shock of the space segment equipment is above the shock environment, the test needs not to be performed
+T83	ROOT_SENTENCE 950 1103	If it is demonstrated that the susceptibility to shock of the space segment equipment is above the shock environment, the test needs not to be performed.
+T84	KEY_C 1105 1107	If
+T85	VARIABLE 1108 1118	the launch
+T86	CONDITION 1119 1139	impacts the lifetime
+T87	VARIABLE 1141 1179	test simulating the launch constraints
+T88	CONDITION 1180 1222	shall be performed prior the lifetime test
+T89	NONE_CAUSAL 1223 1258	to ensure proper mechanical setting
+T90	STATEMENT 1141 1222	test simulating the launch constraints shall be performed prior the lifetime test
+T91	STATEMENT 1108 1139	the launch impacts the lifetime
+T92	CAUSE 1105 1139	If the launch impacts the lifetime
+T93	CAUSE_EFFECT_RELATION 1105 1222	If the launch impacts the lifetime, test simulating the launch constraints shall be performed prior the lifetime test
+T94	ROOT_SENTENCE 1105 1259	If the launch impacts the lifetime, test simulating the launch constraints shall be performed prior the lifetime test to ensure proper mechanical setting.
+T95	KEY_C 1261 1263	If
+T96	VARIABLE 1264 1275	an on?board
+T97	VARIABLE 1279 1302	an EGSE software update
+T98	OR 1264 1302	an on?board or an EGSE software update
+T99	CONDITION 1303 1337	is needed during the test campaign
+T100	STATEMENT 1264 1337	an on?board or an EGSE software update is needed during the test campaign
+T101	VARIABLE 1339 1379	the step at which the software is loaded
+T102	VARIABLE 1392 1414	the level of retesting
+T103	AND 1339 1414	the step at which the software is loaded, as well as the level of retesting
+T104	CONDITION 1416 1449	shall be agreed with the customer
+T105	STATEMENT 1339 1449	the step at which the software is loaded, as well as the level of retesting, shall be agreed with the customer
+T106	CAUSE 1261 1337	If an on?board or an EGSE software update is needed during the test campaign
+T107	CAUSE_EFFECT_RELATION 1261 1449	If an on?board or an EGSE software update is needed during the test campaign, the step at which the software is loaded, as well as the level of retesting, shall be agreed with the customer
+T108	ROOT_SENTENCE 1261 1450	If an on?board or an EGSE software update is needed during the test campaign, the step at which the software is loaded, as well as the level of retesting, shall be agreed with the customer.
+T109	KEY_C 1452 1454	If
+T110	VARIABLE 1455 1478	results of PIM analysis
+T111	CONDITION 1479 1507	show that PIM can be present
+T112	VARIABLE 1509 1534	the space segment element
+T113	CONDITION 1535 1586	shall be subjected to passive intermodulation tests
+T114	STATEMENT 1509 1586	the space segment element shall be subjected to passive intermodulation tests
+T115	STATEMENT 1455 1507	results of PIM analysis show that PIM can be present
+T116	CAUSE 1452 1507	If results of PIM analysis show that PIM can be present
+T117	CAUSE_EFFECT_RELATION 1452 1586	If results of PIM analysis show that PIM can be present, the space segment element shall be subjected to passive intermodulation tests
+T118	ROOT_SENTENCE 1452 1587	If results of PIM analysis show that PIM can be present, the space segment element shall be subjected to passive intermodulation tests.
+T119	VARIABLE 1589 1619	All stories labeled as “could”
+T120	CONDITION 1620 1660	will be implemented in the software tool
+T121	KEY_C 1661 1663	if
+T122	VARIABLE 1664 1673	resources
+T123	CONDITION 1674 1741	are available after implementation of the stories labeled as “must”
+T124	CONDITION 1746 1754	“should”
+T125	AND 1674 1754	are available after implementation of the stories labeled as “must” and “should”
+T126	STATEMENT 1664 1754	resources are available after implementation of the stories labeled as “must” and “should”
+T127	CAUSE 1661 1754	if resources are available after implementation of the stories labeled as “must” and “should”
+T128	STATEMENT 1589 1660	All stories labeled as “could” will be implemented in the software tool
+T129	CAUSE_EFFECT_RELATION 1589 1754	All stories labeled as “could” will be implemented in the software tool if resources are available after implementation of the stories labeled as “must” and “should”
+T130	ROOT_SENTENCE 1589 1755	All stories labeled as “could” will be implemented in the software tool if resources are available after implementation of the stories labeled as “must” and “should”.
+T131	KEY_C 1757 1759	If
+T132	VARIABLE 1760 1770	the number
+T133	CONDITION 1771 1787	is higher than 0
+T134	KEY_C 1789 1793	then
+T135	VARIABLE 1794 1807	cost coverage
+T136	CONDITION 1808 1821	is guaranteed
+T137	STATEMENT 1794 1821	cost coverage is guaranteed
+T138	EFFECT 1789 1821	then cost coverage is guaranteed
+T139	STATEMENT 1760 1787	the number is higher than 0
+T140	CAUSE 1757 1787	If the number is higher than 0
+T141	CAUSE_EFFECT_RELATION 1757 1821	If the number is higher than 0, then cost coverage is guaranteed
+T142	ROOT_SENTENCE 1757 1822	If the number is higher than 0, then cost coverage is guaranteed.
+T143	KEY_C 1955 1957	If
+T144	VARIABLE 1958 1968	the number
+T145	CONDITION 1969 1985	is less than 1.0
+T146	KEY_C 1987 1991	then
+T147	VARIABLE 1992 2018	the cost- benefit analysis
+T148	CONDITION 2019 2030	is negative
+T149	STATEMENT 1992 2030	the cost- benefit analysis is negative
+T150	EFFECT 1987 2030	then the cost- benefit analysis is negative
+T152	CAUSE 1955 1985	If the number is less than 1.0
+T153	CAUSE_EFFECT_RELATION 1955 2030	If the number is less than 1.0, then the cost- benefit analysis is negative
+T154	ROOT_SENTENCE 1955 2031	If the number is less than 1.0, then the cost- benefit analysis is negative.
+T167	KEY_C 2092 2094	If
+T168	VARIABLE 2095 2117	accelerated life tests
+T169	CONDITION 2118 2129	are planned
+T170	VARIABLE 2131 2145	the contractor
+T171	CONDITION 2146 2169	shall identify the test
+T172	CONDITION 2174 2190	analysis methods
+T173	CONDITION 2192 2210	statistical models
+T174	CONDITION 2216 2235	acceleration factor
+T175	AND 2146 2190	shall identify the test and analysis methods
+T176	AND 2146 2235	shall identify the test and analysis methods, statistical models, and acceleration factor
+T177	STATEMENT 2131 2235	the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T178	STATEMENT 2095 2129	accelerated life tests are planned
+T179	CAUSE 2092 2129	If accelerated life tests are planned
+T180	CAUSE_EFFECT_RELATION 2092 2235	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T181	ROOT_SENTENCE 2092 2236	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor.
+T182	KEY_C 2238 2240	If
+T183	VARIABLE 2241 2260	a delivery schedule
+T184	CONDITION 2268 2289	specified in the CDRL
+T185	VARIABLE 2291 2328	the Failure Analysis Reports on parts
+T186	VARIABLE 2332 2341	materials
+T187	OR 2291 2341	the Failure Analysis Reports on parts or materials
+T188	CONDITION 2342 2391	shall be included with the failure closure report
+T189	STATEMENT 2291 2391	the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T190	STATEMENT 2241 2289	a delivery schedule is not specified in the CDRL
+T191	CAUSE 2238 2289	If a delivery schedule is not specified in the CDRL
+T192	NEGATION 2261 2289	is not specified in the CDRL
+T193	CAUSE_EFFECT_RELATION 2238 2391	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T194	ROOT_SENTENCE 2238 2392	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report.
+T195	KEY_C 2394 2396	If
+T196	VARIABLE 2397 2416	a delivery schedule
+T197	CONDITION 2424 2445	specified in the CDRL
+T198	NEGATION 2417 2445	is not specified in the CDRL
+T199	STATEMENT 2397 2445	a delivery schedule is not specified in the CDRL
+T200	CAUSE 2394 2445	If a delivery schedule is not specified in the CDRL
+T201	VARIABLE 2447 2464	the documentation
+T202	CONDITION 2465 2501	shall be submitted with the proposal
+T203	CONDITION 2502 2534	and at the formal design reviews
+T204	AND 2465 2534	shall be submitted with the proposal and at the formal design reviews
+T205	STATEMENT 2447 2534	the documentation shall be submitted with the proposal and at the formal design reviews
+T206	CAUSE_EFFECT_RELATION 2394 2534	If a delivery schedule is not specified in the CDRL, the documentation shall be submitted with the proposal and at the formal design reviews
+T207	ROOT_SENTENCE 2394 2535	If a delivery schedule is not specified in the CDRL, the documentation shall be submitted with the proposal and at the formal design reviews.
+T208	KEY_C 2537 2539	If
+T209	VARIABLE 2540 2596	the procuring activity's human engineering practitioners
+T210	CONDITION 2606 2659	already been involved in this decision-making process
+T211	NEGATION 2597 2659	have not already been involved in this decision-making process
+T212	VARIABLE 2661 2665	they
+T213	CONDITION 2666 2697	must be consulted at this point
+T214	NONE_CAUSAL 2698 2763	to ensure that the standard is not erroneously involved or waived
+T215	KEY_NC 2698 2712	to ensure that
+T216	VARIABLE 2713 2725	the standard
+T217	CONDITION 2733 2753	erroneously involved
+T218	CONDITION 2757 2763	waived
+T219	OR 2733 2763	erroneously involved or waived
+T220	NEGATION 2726 2763	is not erroneously involved or waived
+T221	STATEMENT 2713 2763	the standard is not erroneously involved or waived
+T222	STATEMENT 2661 2697	they must be consulted at this point
+T223	STATEMENT 2540 2659	the procuring activity's human engineering practitioners have not already been involved in this decision-making process
+T224	CAUSE 2537 2659	If the procuring activity's human engineering practitioners have not already been involved in this decision-making process
+T225	CAUSE_EFFECT_RELATION 2537 2697	If the procuring activity's human engineering practitioners have not already been involved in this decision-making process, they must be consulted at this point
+T226	ROOT_SENTENCE 2537 2764	If the procuring activity's human engineering practitioners have not already been involved in this decision-making process, they must be consulted at this point to ensure that the standard is not erroneously involved or waived.
+T227	KEY_C 2766 2768	If
+T228	VARIABLE 2769 2783	drainage holes
+T229	CONDITION 2784 2796	are required
+T230	VARIABLE 2798 2830	pre-perforated convoluted tubing
+T231	CONDITION 2831 2843	is preferred
+T232	STATEMENT 2798 2843	pre-perforated convoluted tubing is preferred
+T233	STATEMENT 2769 2796	drainage holes are required
+T234	CAUSE 2766 2796	If drainage holes are required
+T235	CAUSE_EFFECT_RELATION 2766 2843	If drainage holes are required, pre-perforated convoluted tubing is preferred
+T236	ROOT_SENTENCE 2766 2844	If drainage holes are required, pre-perforated convoluted tubing is preferred.
+T237	KEY_C 2846 2848	If
+T238	VARIABLE 2849 2866	convoluted tubing
+T239	CONDITION 2874 2878	used
+T240	NEGATION 2867 2878	is not used
+T241	STATEMENT 2849 2878	convoluted tubing is not used
+T242	CAUSE 2846 2878	If convoluted tubing is not used
+T243	KEY_C 2880 2884	then
+T244	CONDITION 2965 2978	shall be used
+T245	VARIABLE 2885 2937	an alternative means such as abrasion resistant tape
+T246	VARIABLE 2941 2964	other type outer tubing
+T247	OR 2885 2964	an alternative means such as abrasion resistant tape or other type outer tubing
+T248	STATEMENT 2885 2978	an alternative means such as abrasion resistant tape or other type outer tubing shall be used
+T249	EFFECT 2880 2978	then an alternative means such as abrasion resistant tape or other type outer tubing shall be used
+T250	CAUSE_EFFECT_RELATION 2846 2978	If convoluted tubing is not used, then an alternative means such as abrasion resistant tape or other type outer tubing shall be used
+T251	ROOT_SENTENCE 2846 2979	If convoluted tubing is not used, then an alternative means such as abrasion resistant tape or other type outer tubing shall be used.
+T252	KEY_C 2981 2983	If
+T253	VARIABLE 2984 3019	the middle of the mechanical splice
+T254	CONDITION 3020 3047	is affixed to a cable clamp
+T255	KEY_C 3049 3053	then
+T256	VARIABLE 3054 3153	place the lacing ties on the mechanical splice prior to fastening the cable clamp (primary support)
+T257	EFFECT 3049 3153	then place the lacing ties on the mechanical splice prior to fastening the cable clamp (primary support)
+T258	STATEMENT 2984 3047	the middle of the mechanical splice is affixed to a cable clamp
+T259	CAUSE 2981 3047	If the middle of the mechanical splice is affixed to a cable clamp
+T260	CAUSE_EFFECT_RELATION 2981 3153	If the middle of the mechanical splice is affixed to a cable clamp, then place the lacing ties on the mechanical splice prior to fastening the cable clamp (primary support)
+T261	ROOT_SENTENCE 2981 3154	If the middle of the mechanical splice is affixed to a cable clamp, then place the lacing ties on the mechanical splice prior to fastening the cable clamp (primary support).
+T262	AND 295 350	about 300 mm apart, deep enough to reach the soil below
+T263	AND 255 350	as close as possible to the plinth wall about 300 mm apart, deep enough to reach the soil below
+T264	OR 925 947	subsystem or equipment
+T77	AND 2192 2235	statistical models, and acceleration factor
+T265	VARIABLE 3156 3228	Affixing the mechanical splice in the middle of/underneath a cable clamp
+T266	CONDITION 3229 3246	is less preferred
+T267	VARIABLE 3251 3264	shall be done
+T268	KEY_C 3265 3272	only if
+T269	VARIABLE 3273 3285	the location
+T270	CONDITION 3295 3326	provide an alternative solution
+T271	NEGATION 3286 3326	does not provide an alternative solution
+T272	STATEMENT 3273 3326	the location does not provide an alternative solution
+T273	CAUSE 3265 3326	only if the location does not provide an alternative solution
+T274	CAUSE_EFFECT_RELATION 3251 3326	shall be done only if the location does not provide an alternative solution
+T275	NONE_CAUSAL 3156 3246	Affixing the mechanical splice in the middle of/underneath a cable clamp is less preferred
+T276	AND 3156 3326	Affixing the mechanical splice in the middle of/underneath a cable clamp is less preferred and shall be done only if the location does not provide an alternative solution
+T277	ROOT_SENTENCE 3156 3327	Affixing the mechanical splice in the middle of/underneath a cable clamp is less preferred and shall be done only if the location does not provide an alternative solution.
+T278	VARIABLE 3361 3431	needed to meet the other installation requirements in Requirement 1101
+T279	KEY_C 3358 3360	if
+T280	CAUSE 3358 3431	if needed to meet the other installation requirements in Requirement 1101
+T281	VARIABLE 3329 3343	Longer lengths
+T282	CONDITION 3344 3357	are permitted
+T283	STATEMENT 3329 3357	Longer lengths are permitted
+T284	CAUSE_EFFECT_RELATION 3329 3431	Longer lengths are permitted if needed to meet the other installation requirements in Requirement 1101
+T285	ROOT_SENTENCE 3329 3432	Longer lengths are permitted if needed to meet the other installation requirements in Requirement 1101.
+T286	KEY_C 3434 3436	If
+T287	VARIABLE 3437 3482	an unacceptable level of optical transmission
+T288	CONDITION 3483 3491	is found
+T289	VARIABLE 3493 3496	BIT
+T290	CONDITION 3497 3569	shall include features to (1) interrogate the fiber optic cabling system
+T291	CONDITION 3571 3599	(2) identify the fault/break
+T292	CONDITION 3601 3673	and (3) store the fault/break data in terms of location from transmitter
+T293	AND 3571 3673	(2) identify the fault/break, and (3) store the fault/break data in terms of location from transmitter
+T294	AND 3497 3673	shall include features to (1) interrogate the fiber optic cabling system, (2) identify the fault/break, and (3) store the fault/break data in terms of location from transmitter
+T295	STATEMENT 3493 3673	BIT shall include features to (1) interrogate the fiber optic cabling system, (2) identify the fault/break, and (3) store the fault/break data in terms of location from transmitter
+T296	STATEMENT 3437 3491	an unacceptable level of optical transmission is found
+T297	CAUSE 3434 3491	If an unacceptable level of optical transmission is found
+T298	CAUSE_EFFECT_RELATION 3434 3673	If an unacceptable level of optical transmission is found, BIT shall include features to (1) interrogate the fiber optic cabling system, (2) identify the fault/break, and (3) store the fault/break data in terms of location from transmitter
+T299	ROOT_SENTENCE 3434 3674	If an unacceptable level of optical transmission is found, BIT shall include features to (1) interrogate the fiber optic cabling system, (2) identify the fault/break, and (3) store the fault/break data in terms of location from transmitter.
+T300	KEY_C 3676 3678	If
+T301	VARIABLE 3679 3695	this loss budget
+T302	CONDITION 3696 3703	is used
+T303	KEY_C 3705 3709	then
+T304	VARIABLE 3710 3715	there
+T305	CONDITION 3716 3768	is no leeway to go beyond the determined loss budget
+T306	STATEMENT 3710 3768	there is no leeway to go beyond the determined loss budget
+T307	EFFECT 3705 3768	then there is no leeway to go beyond the determined loss budget
+T308	STATEMENT 3679 3703	this loss budget is used
+T309	CAUSE 3676 3703	If this loss budget is used
+T310	CAUSE_EFFECT_RELATION 3676 3768	If this loss budget is used, then there is no leeway to go beyond the determined loss budget
+T311	ROOT_SENTENCE 3676 3769	If this loss budget is used, then there is no leeway to go beyond the determined loss budget.
+T312	VARIABLE 3774 3784	applicable
+T313	KEY_C 3771 3773	If
+T314	NONE_CAUSAL 3785 3806	and as an alternative
+T315	VARIABLE 3808 3823	the loss budget
+T316	CONDITION 3824 3885	may be calculated using the method specified in MIL- STD-2052
+T317	STATEMENT 3808 3885	the loss budget may be calculated using the method specified in MIL- STD-2052
+T318	CAUSE 3771 3784	If applicable
+T319	CAUSE_EFFECT_RELATION 3771 3885	If applicable and as an alternative, the loss budget may be calculated using the method specified in MIL- STD-2052
+T320	ROOT_SENTENCE 3771 3886	If applicable and as an alternative, the loss budget may be calculated using the method specified in MIL- STD-2052.
+T321	KEY_C 3888 3890	If
+T322	VARIABLE 3891 3912	good statistical data
+T323	CONDITION 3920 3948	available for all components
+T324	NEGATION 3913 3948	is not available for all components
+T325	VARIABLE 3950 3974	“In-between” statistical
+T326	VARIABLE 3979 4000	worst case approaches
+T327	AND 3950 4000	“In-between” statistical and worst case approaches
+T328	CONDITION 4001 4015	are also valid
+T329	STATEMENT 3950 4015	“In-between” statistical and worst case approaches are also valid
+T330	STATEMENT 3891 3948	good statistical data is not available for all components
+T331	CAUSE 3888 3948	If good statistical data is not available for all components
+T332	CAUSE_EFFECT_RELATION 3888 4015	If good statistical data is not available for all components, “In-between” statistical and worst case approaches are also valid
+T333	ROOT_SENTENCE 3888 4016	If good statistical data is not available for all components, “In-between” statistical and worst case approaches are also valid.
+T334	VARIABLE 4023 4054	cite the material specification
+T335	KEY_C 4056 4058	if
+T336	VARIABLE 4059 4069	applicable
+T337	NONE_CAUSAL 4018 4022	Also
+T338	CAUSE 4056 4069	if applicable
+T339	CAUSE_EFFECT_RELATION 4023 4069	cite the material specification, if applicable
+T340	ROOT_SENTENCE 4018 4070	Also cite the material specification, if applicable.
+T341	VARIABLE 4072 4103	Alternate protection treatments
+T342	CONDITION 4104 4115	may be used
+T343	KEY_C 4116 4118	if
+T344	VARIABLE 4119 4153	approved by the procuring activity
+T345	VARIABLE 4158 4194	dictated by performance requirements
+T346	AND 4119 4194	approved by the procuring activity and dictated by performance requirements
+T347	CAUSE 4116 4194	if approved by the procuring activity and dictated by performance requirements
+T348	STATEMENT 4072 4115	Alternate protection treatments may be used
+T349	CAUSE_EFFECT_RELATION 4072 4194	Alternate protection treatments may be used if approved by the procuring activity and dictated by performance requirements
+T350	ROOT_SENTENCE 4072 4195	Alternate protection treatments may be used if approved by the procuring activity and dictated by performance requirements.
+T351	KEY_C 4197 4199	If
+T352	VARIABLE 4200 4213	the equipment
+T353	CONDITION 4214 4236	has several connectors
+T354	VARIABLE 4238 4248	visibility
+T355	VARIABLE 4253 4282	clearance around each of them
+T356	CONDITION 4283 4315	shall be such as to allow mating
+T357	CONDITION 4319 4327	demating
+T358	CONDITION 4328 4370	without disturbing others already in place
+T359	CONDITION 4374 4413	necessitate special custom-made tooling
+T360	OR 4328 4413	without disturbing others already in place or necessitate special custom-made tooling
+T361	OR 4283 4327	shall be such as to allow mating or demating
+T362	AND 4283 4413	shall be such as to allow mating or demating without disturbing others already in place or necessitate special custom-made tooling
+T363	AND 4238 4282	visibility and clearance around each of them
+T364	STATEMENT 4238 4413	visibility and clearance around each of them shall be such as to allow mating or demating without disturbing others already in place or necessitate special custom-made tooling
+T365	STATEMENT 4200 4236	the equipment has several connectors
+T366	CAUSE 4197 4236	If the equipment has several connectors
+T367	CAUSE_EFFECT_RELATION 4197 4413	If the equipment has several connectors, visibility and clearance around each of them shall be such as to allow mating or demating without disturbing others already in place or necessitate special custom-made tooling
+T368	ROOT_SENTENCE 4197 4414	If the equipment has several connectors, visibility and clearance around each of them shall be such as to allow mating or demating without disturbing others already in place or necessitate special custom-made tooling.
+T369	KEY_C 4494 4496	If
+T370	VARIABLE 4497 4517	the bypass operation
+T371	CONDITION 4525 4538	instantaneous
+T372	NEGATION 4518 4538	is not instantaneous
+T373	VARIABLE 4540 4563	the power system design
+T374	CONDITION 4564 4611	shall take into account the transient situation
+T375	STATEMENT 4540 4611	the power system design shall take into account the transient situation
+T376	STATEMENT 4497 4538	the bypass operation is not instantaneous
+T377	CAUSE 4494 4538	If the bypass operation is not instantaneous
+T378	CAUSE_EFFECT_RELATION 4494 4611	If the bypass operation is not instantaneous, the power system design shall take into account the transient situation
+T379	ROOT_SENTENCE 4494 4612	If the bypass operation is not instantaneous, the power system design shall take into account the transient situation.
+T380	KEY_C 4614 4616	If
+T381	VARIABLE 4617 4626	batteries
+T382	CONDITION 4627 4640	are connected
+T383	CONDITION 4644 4666	discharged in parallel
+T384	OR 4627 4666	are connected or discharged in parallel
+T385	VARIABLE 4668 4687	the current sharing
+T386	CONDITION 4688 4746	shall be taken into account in the sizing of the batteries
+T387	STATEMENT 4668 4746	the current sharing shall be taken into account in the sizing of the batteries
+T388	STATEMENT 4617 4666	batteries are connected or discharged in parallel
+T389	CAUSE 4614 4666	If batteries are connected or discharged in parallel
+T390	CAUSE_EFFECT_RELATION 4614 4746	If batteries are connected or discharged in parallel, the current sharing shall be taken into account in the sizing of the batteries
+T391	ROOT_SENTENCE 4614 4747	If batteries are connected or discharged in parallel, the current sharing shall be taken into account in the sizing of the batteries.
+T392	KEY_C 4749 4751	If
+T393	VARIABLE 4752 4761	batteries
+T394	CONDITION 4762 4787	are connected in parallel
+T395	CONDITION 4791 4800	in series
+T396	OR 4762 4800	are connected in parallel or in series
+T397	VARIABLE 4802 4889	the maximum temperature difference between all corresponding locations in the batteries
+T398	CONDITION 4890 4949	shall be limited according to manufacturers recommendations
+T399	STATEMENT 4802 4949	the maximum temperature difference between all corresponding locations in the batteries shall be limited according to manufacturers recommendations
+T400	STATEMENT 4752 4800	batteries are connected in parallel or in series
+T401	CAUSE 4749 4800	If batteries are connected in parallel or in series
+T402	CAUSE_EFFECT_RELATION 4749 4949	If batteries are connected in parallel or in series, the maximum temperature difference between all corresponding locations in the batteries shall be limited according to manufacturers recommendations
+T403	ROOT_SENTENCE 4749 4950	If batteries are connected in parallel or in series, the maximum temperature difference between all corresponding locations in the batteries shall be limited according to manufacturers recommendations.
+T404	KEY_C 4952 4954	If
+T405	VARIABLE 4955 4976	a switching converter
+T406	CONDITION 4977 5003	is externally synchronized
+T407	VARIABLE 5005 5007	it
+T408	CONDITION 5008 5058	shall remain in nominal operation for any increase
+T409	CONDITION 5062 5097	decrease of synchronizing frequency
+T410	CONDITION 5099 5145	intermediate amplitude of synchronizing signal
+T411	CONDITION 5149 5175	phase jumps of this signal
+T412	OR 5008 5097	shall remain in nominal operation for any increase or decrease of synchronizing frequency
+T413	OR 5099 5175	intermediate amplitude of synchronizing signal or phase jumps of this signal
+T414	OR 5008 5175	shall remain in nominal operation for any increase or decrease of synchronizing frequency, intermediate amplitude of synchronizing signal or phase jumps of this signal
+T415	STATEMENT 5005 5175	it shall remain in nominal operation for any increase or decrease of synchronizing frequency, intermediate amplitude of synchronizing signal or phase jumps of this signal
+T416	STATEMENT 4955 5003	a switching converter is externally synchronized
+T417	CAUSE 4952 5003	If a switching converter is externally synchronized
+T418	CAUSE_EFFECT_RELATION 4952 5175	If a switching converter is externally synchronized, it shall remain in nominal operation for any increase or decrease of synchronizing frequency, intermediate amplitude of synchronizing signal or phase jumps of this signal
+T419	ROOT_SENTENCE 4952 5176	If a switching converter is externally synchronized, it shall remain in nominal operation for any increase or decrease of synchronizing frequency, intermediate amplitude of synchronizing signal or phase jumps of this signal.
+T420	KEY_C 5178 5180	If
+T421	VARIABLE 5181 5186	fuses
+T422	CONDITION 5187 5195	are used
+T423	KEY_C 5196 5198	to
+T424	VARIABLE 5199 5234	protect main bus distribution lines
+T425	CAUSE 5196 5234	to protect main bus distribution lines
+T426	CAUSE_EFFECT_RELATION 5187 5234	are used to protect main bus distribution lines
+T427	STATEMENT 5181 5234	fuses are used to protect main bus distribution lines
+T428	CAUSE 5178 5234	If fuses are used to protect main bus distribution lines
+T429	VARIABLE 5236 5246	the design
+T430	CONDITION 5247 5359	shall ensure that the power generation system can fuse them in case of load short circuit within less than 50 ms
+T431	STATEMENT 5236 5359	the design shall ensure that the power generation system can fuse them in case of load short circuit within less than 50 ms
+T432	CAUSE_EFFECT_RELATION 5178 5359	If fuses are used to protect main bus distribution lines, the design shall ensure that the power generation system can fuse them in case of load short circuit within less than 50 ms
+T433	ROOT_SENTENCE 5178 5360	If fuses are used to protect main bus distribution lines, the design shall ensure that the power generation system can fuse them in case of load short circuit within less than 50 ms.
+T434	KEY_C 5362 5364	If
+T435	VARIABLE 5365 5368	two
+T436	VARIABLE 5372 5386	more rotations
+T437	CONDITION 5387 5442	are used in a transformation between coordinate systems
+T438	VARIABLE 5444 5448	they
+T439	CONDITION 5449 5514	should be indicated on the figure with intermediate rotation axes
+T440	STATEMENT 5444 5514	they should be indicated on the figure with intermediate rotation axes
+T441	OR 5365 5386	two or more rotations
+T442	STATEMENT 5365 5442	two or more rotations are used in a transformation between coordinate systems
+T443	CAUSE 5362 5442	If two or more rotations are used in a transformation between coordinate systems
+T444	CAUSE_EFFECT_RELATION 5362 5514	If two or more rotations are used in a transformation between coordinate systems, they should be indicated on the figure with intermediate rotation axes
+T445	ROOT_SENTENCE 5362 5515	If two or more rotations are used in a transformation between coordinate systems, they should be indicated on the figure with intermediate rotation axes.
+T446	KEY_C 5517 5519	If
+T447	VARIABLE 5520 5532	the rotation
+T448	CONDITION 5533 5563	is represented by a quaternion
+T449	VARIABLE 5565 5574	the order
+T450	VARIABLE 5579 5631	mathematical definition of the quaternion parameters
+T451	AND 5565 5631	the order and mathematical definition of the quaternion parameters
+T452	CONDITION 5632 5685	shall be specified in the Coordinate Systems Document
+T453	STATEMENT 5565 5685	the order and mathematical definition of the quaternion parameters shall be specified in the Coordinate Systems Document
+T454	STATEMENT 5520 5563	the rotation is represented by a quaternion
+T455	CAUSE 5517 5563	If the rotation is represented by a quaternion
+T456	CAUSE_EFFECT_RELATION 5517 5685	If the rotation is represented by a quaternion, the order and mathematical definition of the quaternion parameters shall be specified in the Coordinate Systems Document
+T457	ROOT_SENTENCE 5517 5686	If the rotation is represented by a quaternion, the order and mathematical definition of the quaternion parameters shall be specified in the Coordinate Systems Document.
+T458	KEY_C 5688 5690	If
+T459	VARIABLE 5691 5703	the rotation
+T460	CONDITION 5704 5734	is represented by a 3x3 matrix
+T461	VARIABLE 5736 5755	each matrix element
+T462	STATEMENT 5756 5772	shall be defined
+T463	STATEMENT 5736 5772	each matrix element shall be defined
+T464	STATEMENT 5691 5734	the rotation is represented by a 3x3 matrix
+T465	CAUSE 5688 5734	If the rotation is represented by a 3x3 matrix
+T466	CAUSE_EFFECT_RELATION 5688 5772	If the rotation is represented by a 3x3 matrix, each matrix element shall be defined
+T467	ROOT_SENTENCE 5688 5773	If the rotation is represented by a 3x3 matrix, each matrix element shall be defined.
+T468	KEY_C 5946 5948	If
+T469	VARIABLE 5949 5961	the material
+T470	CONDITION 5962 5993	is delivered in several batches
+T471	VARIABLE 5995 6024	the allowables test programme
+T472	CONDITION 6025 6089	shall consider the probability of variations from batch to batch
+T473	STATEMENT 5995 6089	the allowables test programme shall consider the probability of variations from batch to batch
+T474	STATEMENT 5949 5993	the material is delivered in several batches
+T475	CAUSE 5946 5993	If the material is delivered in several batches
+T476	CAUSE_EFFECT_RELATION 5946 6089	If the material is delivered in several batches, the allowables test programme shall consider the probability of variations from batch to batch
+T477	ROOT_SENTENCE 5946 6090	If the material is delivered in several batches, the allowables test programme shall consider the probability of variations from batch to batch.
+T478	VARIABLE 6092 6097	Loads
+T479	CONDITION 6098 6125	can be replaced by stresses
+T480	KEY_C 6126 6128	if
+T481	VARIABLE 6129 6157	the load-stress relationship
+T482	CONDITION 6158 6167	is linear
+T483	STATEMENT 6129 6167	the load-stress relationship is linear
+T484	CAUSE 6126 6167	if the load-stress relationship is linear
+T485	STATEMENT 6092 6125	Loads can be replaced by stresses
+T486	CAUSE_EFFECT_RELATION 6092 6167	Loads can be replaced by stresses if the load-stress relationship is linear
+T487	ROOT_SENTENCE 6092 6168	Loads can be replaced by stresses if the load-stress relationship is linear.
+T488	KEY_C 6170 6172	If
+T489	VARIABLE 6173 6182	necessary
+T490	VARIABLE 6184 6215	a correlated mathematical model
+T491	CONDITION 6216 6261	shall be used to demonstrate representativity
+T492	STATEMENT 6184 6261	a correlated mathematical model shall be used to demonstrate representativity
+T493	CAUSE 6170 6182	If necessary
+T494	CAUSE_EFFECT_RELATION 6170 6261	If necessary, a correlated mathematical model shall be used to demonstrate representativity
+T495	ROOT_SENTENCE 6170 6262	If necessary, a correlated mathematical model shall be used to demonstrate representativity.
+T496	KEY_C 6264 6266	If
+T497	VARIABLE 6267 6298	the normal measurement sequence
+T498	CONDITION 6308 6360	provide for control verification in a timely fashion
+T499	NEGATION 6299 6360	does not provide for control verification in a timely fashion
+T500	VARIABLE 6362 6379	such measurements
+T501	CONDITION 6380 6409	shall be made out of sequence
+T502	STATEMENT 6362 6409	such measurements shall be made out of sequence
+T503	STATEMENT 6267 6360	the normal measurement sequence does not provide for control verification in a timely fashion
+T504	CAUSE 6264 6360	If the normal measurement sequence does not provide for control verification in a timely fashion
+T505	CAUSE_EFFECT_RELATION 6264 6409	If the normal measurement sequence does not provide for control verification in a timely fashion, such measurements shall be made out of sequence
+T506	ROOT_SENTENCE 6264 6410	If the normal measurement sequence does not provide for control verification in a timely fashion, such measurements shall be made out of sequence.
+T516	KEY_C 6590 6592	If
+T517	VARIABLE 6593 6609	loss of function
+T518	CONDITION 6610 6628	is safety critical
+T519	CONDITION 6632 6644	catastrophic
+T520	VARIABLE 6646 6666	the explosive system
+T521	CONDITION 6667 6700	shall avoid single-point failures
+T522	CONDITION 6705 6736	include at least two initiators
+T523	AND 6667 6736	shall avoid single-point failures and include at least two initiators
+T524	STATEMENT 6646 6736	the explosive system shall avoid single-point failures and include at least two initiators
+T525	OR 6610 6644	is safety critical or catastrophic
+T526	STATEMENT 6593 6644	loss of function is safety critical or catastrophic
+T527	CAUSE 6590 6644	If loss of function is safety critical or catastrophic
+T528	CAUSE_EFFECT_RELATION 6590 6736	If loss of function is safety critical or catastrophic, the explosive system shall avoid single-point failures and include at least two initiators
+T529	ROOT_SENTENCE 6590 6737	If loss of function is safety critical or catastrophic, the explosive system shall avoid single-point failures and include at least two initiators.
+T530	KEY_C 6739 6741	If
+T531	VARIABLE 6742 6759	accelerated aging
+T532	CONDITION 6760 6767	is used
+T533	VARIABLE 6769 6771	it
+T534	CONDITION 6772 6790	shall be justified
+T535	STATEMENT 6769 6790	it shall be justified
+T536	STATEMENT 6742 6767	accelerated aging is used
+T537	CAUSE 6739 6767	If accelerated aging is used
+T538	CAUSE_EFFECT_RELATION 6739 6790	If accelerated aging is used, it shall be justified
+T539	ROOT_SENTENCE 6739 6791	If accelerated aging is used, it shall be justified.
+T540	KEY_C 6793 6795	If
+T541	VARIABLE 6796 6802	a unit
+T542	CONDITION 6803 6839	is composed of many complex elements
+T543	CONDITION 6843 6850	modules
+T544	VARIABLE 6852 6854	it
+T545	CONDITION 6855 6909	can be necessary to provide a lower level of breakdown
+T546	STATEMENT 6852 6909	it can be necessary to provide a lower level of breakdown
+T547	OR 6803 6850	is composed of many complex elements or modules
+T548	STATEMENT 6796 6850	a unit is composed of many complex elements or modules
+T549	CAUSE 6793 6850	If a unit is composed of many complex elements or modules
+T550	CAUSE_EFFECT_RELATION 6793 6909	If a unit is composed of many complex elements or modules, it can be necessary to provide a lower level of breakdown
+T551	ROOT_SENTENCE 6793 6910	If a unit is composed of many complex elements or modules, it can be necessary to provide a lower level of breakdown.
+T552	KEY_C 6913 6915	If
+T553	VARIABLE 6916 6920	this
+T554	CONDITION 6928 6943	known precisely
+T555	NEGATION 6921 6943	is not known precisely
+T556	VARIABLE 6945 6966	the time of detection
+T557	CONDITION 6967 6993	shall be indicated instead
+T558	STATEMENT 6945 6993	the time of detection shall be indicated instead
+T559	STATEMENT 6916 6943	this is not known precisely
+T560	CAUSE 6913 6943	If this is not known precisely
+T561	CAUSE_EFFECT_RELATION 6913 6993	If this is not known precisely, the time of detection shall be indicated instead
+T562	ROOT_SENTENCE 6913 6994	If this is not known precisely, the time of detection shall be indicated instead.
+T563	KEY_C 6996 6998	If
+T564	VARIABLE 6999 7010	a procedure
+T565	CONDITION 7018 7035	constituent steps
+T566	NEGATION 7011 7035	has no constituent steps
+T567	VARIABLE 7037 7039	it
+T568	CONDITION 7040 7061	is equivalent to body
+T569	STATEMENT 7037 7061	it is equivalent to body
+T570	STATEMENT 6999 7035	a procedure has no constituent steps
+T571	CAUSE 6996 7035	If a procedure has no constituent steps
+T572	CAUSE_EFFECT_RELATION 6996 7061	If a procedure has no constituent steps, it is equivalent to body
+T573	ROOT_SENTENCE 6996 7062	If a procedure has no constituent steps, it is equivalent to body.
+T574	VARIABLE 7064 7079	This capability
+T575	CONDITION 7080 7097	can be unfeasible
+T576	KEY_C 7098 7100	if
+T577	VARIABLE 7101 7119	the redundant unit
+T578	CONDITION 7120 7140	has a momentum wheel
+T579	STATEMENT 7101 7140	the redundant unit has a momentum wheel
+T580	CAUSE 7098 7140	if the redundant unit has a momentum wheel
+T581	STATEMENT 7064 7097	This capability can be unfeasible
+T582	CAUSE_EFFECT_RELATION 7064 7140	This capability can be unfeasible if the redundant unit has a momentum wheel
+T583	ROOT_SENTENCE 7064 7141	This capability can be unfeasible if the redundant unit has a momentum wheel.
+T584	NONE_CAUSAL 7143 7168	It follows therefore that
+T585	VARIABLE 7169 7185	the requirements
+T586	CONDITION 7186 7205	are only applicable
+T587	KEY_C 7206 7208	if
+T588	VARIABLE 7209 7235	the corresponding function
+T589	CONDITION 7236 7268	is actually implemented on-board
+T590	STATEMENT 7209 7268	the corresponding function is actually implemented on-board
+T591	STATEMENT 7169 7205	the requirements are only applicable
+T592	CAUSE 7206 7268	if the corresponding function is actually implemented on-board
+T593	CAUSE_EFFECT_RELATION 7169 7268	the requirements are only applicable if the corresponding function is actually implemented on-board
+T594	ROOT_SENTENCE 7143 7269	It follows therefore that the requirements are only applicable if the corresponding function is actually implemented on-board.
+T595	KEY_C 7271 7273	If
+T596	VARIABLE 7274 7287	a telecommand
+T597	CONDITION 7288 7325	executes more than one control action
+T598	VARIABLE 7327 7340	these actions
+T599	CONDITION 7341 7380	shall be strictly operationally related
+T600	VARIABLE 7392 7396	they
+T601	CONDITION 7397 7445	constitute a single logical telecommand function
+T602	STATEMENT 7392 7445	they constitute a single logical telecommand function
+T603	STATEMENT 7327 7380	these actions shall be strictly operationally related
+T604	AND 7327 7445	these actions shall be strictly operationally related, such that they constitute a single logical telecommand function
+T605	STATEMENT 7274 7325	a telecommand executes more than one control action
+T606	CAUSE 7271 7325	If a telecommand executes more than one control action
+T607	CAUSE_EFFECT_RELATION 7271 7445	If a telecommand executes more than one control action, these actions shall be strictly operationally related, such that they constitute a single logical telecommand function
+T608	ROOT_SENTENCE 7271 7446	If a telecommand executes more than one control action, these actions shall be strictly operationally related, such that they constitute a single logical telecommand function.
+T609	KEY_C 7448 7450	If
+T610	KEY_C 7468 7472	that
+T611	CONDITION 7473 7499	is implemented in software
+T612	CAUSE 7468 7499	that is implemented in software
+T613	CONDITION 7507 7516	available
+T614	NEGATION 7500 7516	is not available
+T615	VARIABLE 7451 7467	an FDIR function
+T616	STATEMENT 7451 7516	an FDIR function that is implemented in software is not available
+T617	CAUSE 7448 7516	If an FDIR function that is implemented in software is not available
+T618	VARIABLE 7518 7538	a fallback mechanism
+T619	CONDITION 7539 7587	shall be provided using an independent mechanism
+T620	STATEMENT 7518 7587	a fallback mechanism shall be provided using an independent mechanism
+T621	CAUSE_EFFECT_RELATION 7448 7587	If an FDIR function that is implemented in software is not available, a fallback mechanism shall be provided using an independent mechanism
+T622	ROOT_SENTENCE 7448 7588	If an FDIR function that is implemented in software is not available, a fallback mechanism shall be provided using an independent mechanism.
+T623	VARIABLE 7590 7618	Failure detection algorithms
+T624	CONDITION 7629 7682	repeat the generation of the same exception telemetry
+T625	NEGATION 7619 7682	shall not repeat the generation of the same exception telemetry
+T626	KEY_C 7683 7685	if
+T627	VARIABLE 7686 7702	the same failure
+T628	CONDITION 7703 7757	is detected at each successive failure detection cycle
+T629	STATEMENT 7686 7757	the same failure is detected at each successive failure detection cycle
+T630	CAUSE 7683 7757	if the same failure is detected at each successive failure detection cycle
+T631	STATEMENT 7590 7682	Failure detection algorithms shall not repeat the generation of the same exception telemetry
+T632	CAUSE_EFFECT_RELATION 7590 7757	Failure detection algorithms shall not repeat the generation of the same exception telemetry if the same failure is detected at each successive failure detection cycle
+T633	ROOT_SENTENCE 7590 7758	Failure detection algorithms shall not repeat the generation of the same exception telemetry if the same failure is detected at each successive failure detection cycle.
+T634	VARIABLE 7760 7791	A separate telemetry indication
+T635	CONDITION 7792 7811	should be generated
+T636	KEY_C 7812 7814	if
+T637	VARIABLE 7815 7838	the exception condition
+T638	CONDITION 7839 7849	disappears
+T639	STATEMENT 7815 7849	the exception condition disappears
+T640	CAUSE 7812 7849	if the exception condition disappears
+T641	STATEMENT 7760 7811	A separate telemetry indication should be generated
+T642	CAUSE_EFFECT_RELATION 7760 7849	A separate telemetry indication should be generated if the exception condition disappears
+T643	ROOT_SENTENCE 7760 7850	A separate telemetry indication should be generated if the exception condition disappears.
+T644	KEY_C 7852 7854	If
+T645	VARIABLE 7855 7883	a failure detection function
+T646	CONDITION 7884 7937	uses multiple inputs which are combined (e.g. OR/AND)
+T647	KEY_C 7939 7943	then
+T648	VARIABLE 7944 7956	these inputs
+T649	CONDITION 7957 7987	shall be independently derived
+T650	STATEMENT 7944 7987	these inputs shall be independently derived
+T651	EFFECT 7939 7987	then these inputs shall be independently derived
+T652	STATEMENT 7855 7937	a failure detection function uses multiple inputs which are combined (e.g. OR/AND)
+T653	CAUSE 7852 7937	If a failure detection function uses multiple inputs which are combined (e.g. OR/AND)
+T654	CAUSE_EFFECT_RELATION 7852 7987	If a failure detection function uses multiple inputs which are combined (e.g. OR/AND), then these inputs shall be independently derived
+T655	ROOT_SENTENCE 7852 7988	If a failure detection function uses multiple inputs which are combined (e.g. OR/AND), then these inputs shall be independently derived.
+T656	KEY_C 7990 7992	If
+T657	VARIABLE 7993 8031	an on-board failure detection function
+T658	CONDITION 8032 8065	identifies an anomalous situation
+T659	VARIABLE 8067 8069	it
+T660	CONDITION 8070 8190	shall trigger autonomous recovery actions consistent with the specific mission needs without ground segment intervention
+T661	STATEMENT 8067 8190	it shall trigger autonomous recovery actions consistent with the specific mission needs without ground segment intervention
+T662	STATEMENT 7993 8065	an on-board failure detection function identifies an anomalous situation
+T663	CAUSE 7990 8065	If an on-board failure detection function identifies an anomalous situation
+T664	CAUSE_EFFECT_RELATION 7990 8190	If an on-board failure detection function identifies an anomalous situation, it shall trigger autonomous recovery actions consistent with the specific mission needs without ground segment intervention
+T665	ROOT_SENTENCE 7990 8191	If an on-board failure detection function identifies an anomalous situation, it shall trigger autonomous recovery actions consistent with the specific mission needs without ground segment intervention.
+T666	VARIABLE 8193 8207	The spacecraft
+T667	CONDITION 8218 8237	enter survival mode
+T668	NEGATION 8208 8237	shall not enter survival mode
+T669	KEY_C 8238 8240	if
+T670	VARIABLE 8244 8250	hazard
+T671	NEGATION 8241 8250	no hazard
+T672	CONDITION 8251 8257	exists
+T673	CONDITION 8263 8281	affects spacecraft
+T674	CONDITION 8285 8299	payload health
+T675	CONDITION 8303 8321	mission objectives
+T676	OR 8285 8321	payload health or mission objectives
+T677	OR 8263 8321	affects spacecraft or payload health or mission objectives
+T678	AND 8251 8321	exists that affects spacecraft or payload health or mission objectives
+T679	STATEMENT 8241 8321	no hazard exists that affects spacecraft or payload health or mission objectives
+T680	CAUSE 8238 8321	if no hazard exists that affects spacecraft or payload health or mission objectives
+T681	STATEMENT 8193 8237	The spacecraft shall not enter survival mode
+T682	CAUSE_EFFECT_RELATION 8193 8321	The spacecraft shall not enter survival mode if no hazard exists that affects spacecraft or payload health or mission objectives
+T683	ROOT_SENTENCE 8193 8322	The spacecraft shall not enter survival mode if no hazard exists that affects spacecraft or payload health or mission objectives.
+T684	KEY_C 8432 8434	If
+T685	VARIABLE 8435 8463	the on-board monitoring list
+T686	CONDITION 8464 8520	contains checks that are used by on-board FDIR functions
+T687	KEY_C 8522 8526	then
+T688	VARIABLE 8527 8544	the clear command
+T689	CONDITION 8545 8595	shall be implemented as a mission-critical command
+T690	STATEMENT 8527 8595	the clear command shall be implemented as a mission-critical command
+T691	EFFECT 8522 8595	then the clear command shall be implemented as a mission-critical command
+T692	STATEMENT 8435 8520	the on-board monitoring list contains checks that are used by on-board FDIR functions
+T693	CAUSE 8432 8520	If the on-board monitoring list contains checks that are used by on-board FDIR functions
+T694	CAUSE_EFFECT_RELATION 8432 8595	If the on-board monitoring list contains checks that are used by on-board FDIR functions, then the clear command shall be implemented as a mission-critical command
+T695	ROOT_SENTENCE 8432 8596	If the on-board monitoring list contains checks that are used by on-board FDIR functions, then the clear command shall be implemented as a mission-critical command.
+T696	VARIABLE 8598 8620	The storage of packets
+T697	CONDITION 8631 8645	be interrupted
+T698	NEGATION 8621 8645	shall not be interrupted
+T699	KEY_C 8646 8648	if
+T700	VARIABLE 8649 8667	the ground segment
+T701	CONDITION 8668 8693	requests a retrieval from
+T702	CONDITION 8698 8728	reset of, the on-board storage
+T703	OR 8668 8728	requests a retrieval from, or reset of, the on-board storage
+T704	STATEMENT 8649 8728	the ground segment requests a retrieval from, or reset of, the on-board storage
+T705	CAUSE 8646 8728	if the ground segment requests a retrieval from, or reset of, the on-board storage
+T706	STATEMENT 8598 8645	The storage of packets shall not be interrupted
+T707	CAUSE_EFFECT_RELATION 8598 8728	The storage of packets shall not be interrupted if the ground segment requests a retrieval from, or reset of, the on-board storage
+T708	ROOT_SENTENCE 8598 8729	The storage of packets shall not be interrupted if the ground segment requests a retrieval from, or reset of, the on-board storage.
+T709	KEY_C 8900 8902	If
+T710	VARIABLE 8903 8916	a requirement
+T711	CONDITION 8917 8932	is tailored out
+T712	VARIABLE 8934 8938	this
+T713	CONDITION 8939 9014	can give rise to a requirement for special ground segment functions instead
+T714	STATEMENT 8934 9014	this can give rise to a requirement for special ground segment functions instead
+T715	STATEMENT 8903 8932	a requirement is tailored out
+T716	CAUSE 8900 8932	If a requirement is tailored out
+T717	CAUSE_EFFECT_RELATION 8900 9014	If a requirement is tailored out, this can give rise to a requirement for special ground segment functions instead
+T718	ROOT_SENTENCE 8900 9015	If a requirement is tailored out, this can give rise to a requirement for special ground segment functions instead.
+T719	VARIABLE 9017 9047	Recognised international names
+T720	CONDITION 9059 9066	be used
+T721	NEGATION 9048 9066	should not be used
+T722	KEY_C 9067 9069	if
+T723	VARIABLE 9070 9090	the exact definition
+T724	CONDITION 9091 9106	is not followed
+T725	STATEMENT 9070 9106	the exact definition is not followed
+T726	CAUSE 9067 9106	if the exact definition is not followed
+T727	STATEMENT 9017 9066	Recognised international names should not be used
+T728	CAUSE_EFFECT_RELATION 9017 9106	Recognised international names should not be used if the exact definition is not followed
+T729	ROOT_SENTENCE 9017 9107	Recognised international names should not be used if the exact definition is not followed.
+T730	KEY_C 9109 9111	If
+T732	VARIABLE 9119 9133	more rotations
+T733	VARIABLE 9112 9115	two
+T731	OR 9112 9133	two or more rotations
+T734	CONDITION 9134 9189	are used in a transformation between coordinate systems
+T735	VARIABLE 9191 9195	they
+T736	CONDITION 9196 9261	should be indicated on the figure with intermediate rotation axes
+T737	STATEMENT 9191 9261	they should be indicated on the figure with intermediate rotation axes
+T738	STATEMENT 9112 9189	two or more rotations are used in a transformation between coordinate systems
+T739	CAUSE 9109 9189	If two or more rotations are used in a transformation between coordinate systems
+T740	CAUSE_EFFECT_RELATION 9109 9261	If two or more rotations are used in a transformation between coordinate systems, they should be indicated on the figure with intermediate rotation axes
+T741	ROOT_SENTENCE 9109 9262	If two or more rotations are used in a transformation between coordinate systems, they should be indicated on the figure with intermediate rotation axes.
+T742	KEY_C 9264 9266	If
+T743	KEY_C 9306 9310	then
+T744	VARIABLE 9267 9286	a coordinate system
+T745	CONDITION 9287 9304	is time dependent
+T746	VARIABLE 9311 9325	its time scale
+T747	CONDITION 9326 9342	shall be defined
+T748	STATEMENT 9311 9342	its time scale shall be defined
+T749	EFFECT 9306 9342	then its time scale shall be defined
+T750	STATEMENT 9267 9304	a coordinate system is time dependent
+T751	CAUSE 9264 9304	If a coordinate system is time dependent
+T752	CAUSE_EFFECT_RELATION 9264 9342	If a coordinate system is time dependent, then its time scale shall be defined
+T753	ROOT_SENTENCE 9264 9343	If a coordinate system is time dependent, then its time scale shall be defined.
+T754	KEY_C 9345 9347	If
+T755	VARIABLE 9348 9356	rotation
+T756	CONDITION 9357 9398	is composed of three elementary rotations
+T757	VARIABLE 9400 9422	the order of rotations
+T758	CONDITION 9423 9441	shall be specified
+T759	STATEMENT 9400 9441	the order of rotations shall be specified
+T760	STATEMENT 9348 9398	rotation is composed of three elementary rotations
+T761	CAUSE 9345 9398	If rotation is composed of three elementary rotations
+T762	CAUSE_EFFECT_RELATION 9345 9441	If rotation is composed of three elementary rotations, the order of rotations shall be specified
+T763	ROOT_SENTENCE 9345 9442	If rotation is composed of three elementary rotations, the order of rotations shall be specified.
+T764	KEY_C 9444 9446	If
+T765	VARIABLE 9447 9459	the rotation
+T766	CONDITION 9460 9490	is represented by a 3x3 matrix
+T767	VARIABLE 9492 9511	each matrix element
+T768	CONDITION 9512 9528	shall be defined
+T769	STATEMENT 9492 9528	each matrix element shall be defined
+T770	STATEMENT 9447 9490	the rotation is represented by a 3x3 matrix
+T771	CAUSE 9444 9490	If the rotation is represented by a 3x3 matrix
+T772	CAUSE_EFFECT_RELATION 9444 9528	If the rotation is represented by a 3x3 matrix, each matrix element shall be defined
+T773	ROOT_SENTENCE 9444 9529	If the rotation is represented by a 3x3 matrix, each matrix element shall be defined.
+T774	KEY_C 9531 9533	If
+T775	VARIABLE 9534 9543	a surface
+T776	CONDITION 9544 9575	is maintained at high potential
+T777	VARIABLE 9577 9579	it
+T778	CONDITION 9580 9611	draws a current from the plasma
+T779	KEY_NC 9613 9625	particularly
+T780	CONDITION 9626 9654	in the dense LEO environment
+T781	NONE_CAUSAL 9613 9654	particularly in the dense LEO environment
+T782	STATEMENT 9577 9611	it draws a current from the plasma
+T783	STATEMENT 9534 9575	a surface is maintained at high potential
+T784	CAUSE 9531 9575	If a surface is maintained at high potential
+T785	CAUSE_EFFECT_RELATION 9531 9611	If a surface is maintained at high potential, it draws a current from the plasma
+T786	ROOT_SENTENCE 9531 9655	If a surface is maintained at high potential, it draws a current from the plasma, particularly in the dense LEO environment.
+T787	KEY_C 9657 9659	If
+T788	VARIABLE 9660 9690	the limits specified in 6.2.1a
+T789	CONDITION 9699 9702	met
+T790	NEGATION 9691 9702	are not met
+T791	STATEMENT 9660 9702	the limits specified in 6.2.1a are not met
+T792	VARIABLE 9704 9716	the assembly
+T793	CONDITION 9717 9780	shall be submitted to charging tests as described in clause 6.6
+T794	STATEMENT 9704 9780	the assembly shall be submitted to charging tests as described in clause 6.6
+T795	CAUSE 9657 9702	If the limits specified in 6.2.1a are not met
+T796	CAUSE_EFFECT_RELATION 9657 9780	If the limits specified in 6.2.1a are not met, the assembly shall be submitted to charging tests as described in clause 6.6
+T797	ROOT_SENTENCE 9657 9781	If the limits specified in 6.2.1a are not met, the assembly shall be submitted to charging tests as described in clause 6.6.
+T798	KEY_C 9783 9785	If
+T799	VARIABLE 9786 9819	assessment of the electric fields
+T800	VARIABLE 9824 9862	space charge density in a large volume
+T801	AND 9786 9862	assessment of the electric fields and space charge density in a large volume
+T802	CONDITION 9863 9875	is performed
+T803	VARIABLE 9877 9921	the 3?D spacecraft charging codes to be used
+T804	CONDITION 9922 9938	shall be defined
+T805	STATEMENT 9877 9938	the 3?D spacecraft charging codes to be used shall be defined
+T806	STATEMENT 9786 9875	assessment of the electric fields and space charge density in a large volume is performed
+T807	CAUSE 9783 9875	If assessment of the electric fields and space charge density in a large volume is performed
+T808	CAUSE_EFFECT_RELATION 9783 9938	If assessment of the electric fields and space charge density in a large volume is performed, the 3?D spacecraft charging codes to be used shall be defined
+T809	ROOT_SENTENCE 9783 9939	If assessment of the electric fields and space charge density in a large volume is performed, the 3?D spacecraft charging codes to be used shall be defined.
+T810	VARIABLE 9941 9961	A self?sustained arc
+T811	CONDITION 9962 9987	is described as temporary
+T812	KEY_C 9988 9990	if
+T813	VARIABLE 9991 9993	it
+T814	CONDITION 9994 10036	stops even though power is still available
+T815	CONDITION 10041 10050	permanent
+T816	KEY_C 10051 10053	if
+T817	VARIABLE 10054 10056	it
+T818	CONDITION 10066 10110	stop while external power is still available
+T819	NEGATION 10057 10110	does not stop while external power is still available
+T820	STATEMENT 10054 10110	it does not stop while external power is still available
+T821	CAUSE 10051 10110	if it does not stop while external power is still available
+T822	CAUSE_EFFECT_RELATION 10041 10110	permanent if it does not stop while external power is still available
+T823	STATEMENT 9991 10036	it stops even though power is still available
+T824	CAUSE 9988 10036	if it stops even though power is still available
+T825	STATEMENT 9941 9987	A self?sustained arc is described as temporary
+T826	CAUSE_EFFECT_RELATION 9941 10036	A self?sustained arc is described as temporary if it stops even though power is still available
+T827	OR 9941 10110	A self?sustained arc is described as temporary if it stops even though power is still available, or permanent if it does not stop while external power is still available
+T828	ROOT_SENTENCE 9941 10111	A self?sustained arc is described as temporary if it stops even though power is still available, or permanent if it does not stop while external power is still available.
+T837	VARIABLE 10284 10361	Any method of creating the initial conductive path to trigger a secondary arc
+T838	CONDITION 10362 10373	may be used
+T839	KEY_C 10374 10376	if
+T840	VARIABLE 10377 10402	all the available current
+T841	CONDITION 10403 10429	can flow through this path
+T842	STATEMENT 10377 10429	all the available current can flow through this path
+T843	CAUSE 10374 10429	if all the available current can flow through this path
+T844	STATEMENT 10284 10373	Any method of creating the initial conductive path to trigger a secondary arc may be used
+T845	CAUSE_EFFECT_RELATION 10284 10429	Any method of creating the initial conductive path to trigger a secondary arc may be used if all the available current can flow through this path
+T846	ROOT_SENTENCE 10284 10430	Any method of creating the initial conductive path to trigger a secondary arc may be used if all the available current can flow through this path.
+T847	KEY_C 10432 10434	If
+T848	VARIABLE 10435 10461	the nominal string current
+T849	CONDITION 10462 10505	is already flowing through the diodes cells
+T850	VARIABLE 10507 10511	LSAS
+T851	VARIABLE 10516 10531	the wire length
+T852	AND 10507 10531	LSAS and the wire length
+T853	CONDITION 10541 10553	be specified
+T854	NEGATION 10532 10553	need not be specified
+T855	STATEMENT 10507 10553	LSAS and the wire length need not be specified
+T856	STATEMENT 10435 10505	the nominal string current is already flowing through the diodes cells
+T857	CAUSE 10432 10505	If the nominal string current is already flowing through the diodes cells
+T858	CAUSE_EFFECT_RELATION 10432 10553	If the nominal string current is already flowing through the diodes cells, LSAS and the wire length need not be specified
+T859	ROOT_SENTENCE 10432 10554	If the nominal string current is already flowing through the diodes cells, LSAS and the wire length need not be specified.
+T860	KEY_C 10643 10645	if
+T861	VARIABLE 10646 10659	the following
+T862	CONDITION 10660 10680	has been established
+T863	VARIABLE 10556 10620	Detailed assessment of the surface voltages on internal surfaces
+T864	CONDITION 10630 10642	be performed
+T865	NEGATION 10621 10642	need not be performed
+T866	STATEMENT 10556 10642	Detailed assessment of the surface voltages on internal surfaces need not be performed
+T867	STATEMENT 10646 10680	the following has been established
+T868	CAUSE 10643 10680	if the following has been established
+T869	CAUSE_EFFECT_RELATION 10556 10680	Detailed assessment of the surface voltages on internal surfaces need not be performed if the following has been established
+T870	ROOT_SENTENCE 10556 10681	Detailed assessment of the surface voltages on internal surfaces need not be performed if the following has been established.
+T871	KEY_C 10683 10685	If
+T872	VARIABLE 10686 10700	the spacecraft
+T873	CONDITION 10701 10741	is intended to be held at a bias voltage
+T874	VARIABLE 10743 10758	the neutralizer
+T875	CONDITION 10759 10805	shall be attached to ground via a power source
+T876	STATEMENT 10743 10805	the neutralizer shall be attached to ground via a power source
+T877	STATEMENT 10686 10741	the spacecraft is intended to be held at a bias voltage
+T878	CAUSE 10683 10741	If the spacecraft is intended to be held at a bias voltage
+T879	CAUSE_EFFECT_RELATION 10683 10805	If the spacecraft is intended to be held at a bias voltage, the neutralizer shall be attached to ground via a power source
+T880	ROOT_SENTENCE 10683 10806	If the spacecraft is intended to be held at a bias voltage, the neutralizer shall be attached to ground via a power source.
+T881	KEY_C 10915 10917	If
+T882	VARIABLE 10918 10932	ground testing
+T883	CONDITION 10933 10992	is used for ESD validation of electrical propulsion systems
+T884	VARIABLE 10994 11052	the effects of vacuum chamber limitations used in the test
+T885	CONDITION 11053 11091	shall be established through modelling
+T886	STATEMENT 10994 11091	the effects of vacuum chamber limitations used in the test shall be established through modelling
+T887	STATEMENT 10918 10992	ground testing is used for ESD validation of electrical propulsion systems
+T888	CAUSE 10915 10992	If ground testing is used for ESD validation of electrical propulsion systems
+T889	CAUSE_EFFECT_RELATION 10915 11091	If ground testing is used for ESD validation of electrical propulsion systems, the effects of vacuum chamber limitations used in the test shall be established through modelling
+T890	ROOT_SENTENCE 10915 11092	If ground testing is used for ESD validation of electrical propulsion systems, the effects of vacuum chamber limitations used in the test shall be established through modelling.
+T891	KEY_C 11094 11096	If
+T892	VARIABLE 11097 11117	the sheath thickness
+T893	CONDITION 11118 11171	is much greater than the central spacecraft dimension
+T894	VARIABLE 11173 11217	the ability of particle to reach the surface
+T895	CONDITION 11218 11297	is more limited by particle orbit considerations than by the size of the sheath
+T896	STATEMENT 11173 11297	the ability of particle to reach the surface is more limited by particle orbit considerations than by the size of the sheath
+T897	STATEMENT 11097 11171	the sheath thickness is much greater than the central spacecraft dimension
+T898	CAUSE 11094 11171	If the sheath thickness is much greater than the central spacecraft dimension
+T899	CAUSE_EFFECT_RELATION 11094 11297	If the sheath thickness is much greater than the central spacecraft dimension, the ability of particle to reach the surface is more limited by particle orbit considerations than by the size of the sheath
+T900	ROOT_SENTENCE 11094 11298	If the sheath thickness is much greater than the central spacecraft dimension, the ability of particle to reach the surface is more limited by particle orbit considerations than by the size of the sheath.
+T901	KEY_C 11300 11302	If
+T902	VARIABLE 11303 11328	the electro?dynamic force
+T903	CONDITION 11329 11335	varies
+T904	VARIABLE 11411 11423	oscillations
+T905	CONDITION 11424 11435	can develop
+T906	NONE_CAUSAL 11336 11410	(e.g. due to varying magnetic field or current collection along the orbit)
+T907	STATEMENT 11303 11335	the electro?dynamic force varies
+T908	STATEMENT 11411 11435	oscillations can develop
+T909	CAUSE 11300 11335	If the electro?dynamic force varies
+T910	CAUSE_EFFECT_RELATION 11300 11435	If the electro?dynamic force varies (e.g. due to varying magnetic field or current collection along the orbit) oscillations can develop
+T911	ROOT_SENTENCE 11300 11436	If the electro?dynamic force varies (e.g. due to varying magnetic field or current collection along the orbit) oscillations can develop.
+T912	KEY_C 11438 11440	If
+T913	VARIABLE 11441 11465	high?energy primary ions
+T914	CONDITION 11466 11503	collide with neutral propellant atoms
+T915	VARIABLE 11505 11532	a charge?exchange collision
+T916	CONDITION 11533 11542	can occur
+T917	STATEMENT 11505 11542	a charge?exchange collision can occur
+T918	STATEMENT 11441 11503	high?energy primary ions collide with neutral propellant atoms
+T919	CAUSE 11438 11503	If high?energy primary ions collide with neutral propellant atoms
+T920	CAUSE_EFFECT_RELATION 11438 11542	If high?energy primary ions collide with neutral propellant atoms, a charge?exchange collision can occur
+T921	ROOT_SENTENCE 11438 11543	If high?energy primary ions collide with neutral propellant atoms, a charge?exchange collision can occur.
+T922	KEY_C 11663 11671	in which
+T923	VARIABLE 11672 11681	deposited
+T924	VARIABLE 11686 11704	conducted currents
+T925	CONDITION 11705 11714	are equal
+T926	AND 11672 11704	deposited and conducted currents
+T927	STATEMENT 11672 11714	deposited and conducted currents are equal
+T928	CAUSE 11663 11714	in which deposited and conducted currents are equal
+T929	VARIABLE 11590 11617	the internal electric field
+T930	CONDITION 11618 11661	rises only until an equilibrium is achieved
+T931	STATEMENT 11590 11661	the internal electric field rises only until an equilibrium is achieved
+T932	CAUSE_EFFECT_RELATION 11590 11714	the internal electric field rises only until an equilibrium is achieved, in which deposited and conducted currents are equal
+T933	KEY_C 11545 11547	If
+T934	VARIABLE 11548 11566	a charging current
+T935	CONDITION 11567 11588	is constantly applied
+T936	STATEMENT 11548 11588	a charging current is constantly applied
+T937	CAUSE 11545 11588	If a charging current is constantly applied
+T938	CAUSE_EFFECT_RELATION 11545 11714	If a charging current is constantly applied, the internal electric field rises only until an equilibrium is achieved, in which deposited and conducted currents are equal
+T939	ROOT_SENTENCE 11545 11715	If a charging current is constantly applied, the internal electric field rises only until an equilibrium is achieved, in which deposited and conducted currents are equal.
+T940	KEY_C 11795 11799	when
+T941	VARIABLE 11800 11821	the spacecraft ground
+T942	CONDITION 11822 11855	is negative with respect to space
+T943	STATEMENT 11800 11855	the spacecraft ground is negative with respect to space
+T944	VARIABLE 11759 11773	this condition
+T945	CONDITION 11774 11794	can only be attained
+T946	STATEMENT 11759 11794	this condition can only be attained
+T947	CAUSE 11795 11855	when the spacecraft ground is negative with respect to space
+T948	CAUSE_EFFECT_RELATION 11759 11855	this condition can only be attained when the spacecraft ground is negative with respect to space
+T949	KEY_C 11717 11719	If
+T950	VARIABLE 11720 11731	a conductor
+T951	CONDITION 11732 11757	is at the frame potential
+T952	STATEMENT 11720 11757	a conductor is at the frame potential
+T953	CAUSE 11717 11757	If a conductor is at the frame potential
+T954	CAUSE_EFFECT_RELATION 11717 11855	If a conductor is at the frame potential, this condition can only be attained when the spacecraft ground is negative with respect to space
+T955	ROOT_SENTENCE 11717 11856	If a conductor is at the frame potential, this condition can only be attained when the spacecraft ground is negative with respect to space.
+T956	KEY_C 11858 11860	If
+T957	VARIABLE 11861 11908	the general configuration of the electric field
+T958	CONDITION 11909 11942	provides trajectories to infinity
+T959	VARIABLE 11944 11963	secondary electrons
+T960	CONDITION 11964 11977	are blown off
+T961	STATEMENT 11944 11977	secondary electrons are blown off
+T962	STATEMENT 11861 11942	the general configuration of the electric field provides trajectories to infinity
+T963	CAUSE 11858 11942	If the general configuration of the electric field provides trajectories to infinity
+T964	CAUSE_EFFECT_RELATION 11858 11977	If the general configuration of the electric field provides trajectories to infinity, secondary electrons are blown off
+T965	ROOT_SENTENCE 11858 11978	If the general configuration of the electric field provides trajectories to infinity, secondary electrons are blown off.
+T966	KEY_C 11980 11982	If
+T967	VARIABLE 11983 12007	the differential voltage
+T968	CONDITION 12008 12051	reaches the hazard threshold of about 100 V
+T969	VARIABLE 12053 12059	arcing
+T970	CONDITION 12060 12138	becomes possible (Figure C?9) with the same process as for grounded conductors
+T971	STATEMENT 12053 12138	arcing becomes possible (Figure C?9) with the same process as for grounded conductors
+T972	STATEMENT 11983 12051	the differential voltage reaches the hazard threshold of about 100 V
+T973	CAUSE 11980 12051	If the differential voltage reaches the hazard threshold of about 100 V
+T974	CAUSE_EFFECT_RELATION 11980 12138	If the differential voltage reaches the hazard threshold of about 100 V, arcing becomes possible (Figure C?9) with the same process as for grounded conductors
+T975	ROOT_SENTENCE 11980 12139	If the differential voltage reaches the hazard threshold of about 100 V, arcing becomes possible (Figure C?9) with the same process as for grounded conductors.
+T976	VARIABLE 12141 12158	These simulations
+T977	CONDITION 12159 12169	are useful
+T978	KEY_C 12170 12177	only if
+T979	VARIABLE 12178 12182	they
+T980	CONDITION 12183 12245	are able to realistically represent the main charging currents
+T981	CONDITION 12247 12264	primary electrons
+T982	CONDITION 12266 12278	primary ions
+T983	CONDITION 12280 12294	photo?emission
+T984	CONDITION 12296 12314	secondary emission
+T985	CONDITION 12319 12329	conduction
+T986	AND 12296 12329	secondary emission and conduction
+T987	AND 12280 12329	photo?emission, secondary emission and conduction
+T988	AND 12266 12329	primary ions, photo?emission, secondary emission and conduction
+T989	AND 12247 12329	primary electrons, primary ions, photo?emission, secondary emission and conduction
+T990	AND 12183 12329	are able to realistically represent the main charging currents, primary electrons, primary ions, photo?emission, secondary emission and conduction
+T991	STATEMENT 12178 12329	they are able to realistically represent the main charging currents, primary electrons, primary ions, photo?emission, secondary emission and conduction
+T992	CAUSE 12170 12329	only if they are able to realistically represent the main charging currents, primary electrons, primary ions, photo?emission, secondary emission and conduction
+T993	STATEMENT 12141 12169	These simulations are useful
+T994	CAUSE_EFFECT_RELATION 12141 12329	These simulations are useful only if they are able to realistically represent the main charging currents, primary electrons, primary ions, photo?emission, secondary emission and conduction
+T995	ROOT_SENTENCE 12141 12330	These simulations are useful only if they are able to realistically represent the main charging currents, primary electrons, primary ions, photo?emission, secondary emission and conduction.
+T1001	KEY_C 12426 12428	If
+T1002	VARIABLE 12429 12434	there
+T1003	CONDITION 12435 12484	is an added resistance to the discharging circuit
+T1004	VARIABLE 12486 12488	it
+T1005	CONDITION 12489 12544	also affects the operating point on the discharge curve
+T1006	STATEMENT 12486 12544	it also affects the operating point on the discharge curve
+T1007	STATEMENT 12429 12484	there is an added resistance to the discharging circuit
+T1008	CAUSE 12426 12484	If there is an added resistance to the discharging circuit
+T1009	CAUSE_EFFECT_RELATION 12426 12544	If there is an added resistance to the discharging circuit, it also affects the operating point on the discharge curve
+T1010	ROOT_SENTENCE 12426 12545	If there is an added resistance to the discharging circuit, it also affects the operating point on the discharge curve.
+T1011	NONE_CAUSAL 12547 12560	In conclusion
+T1012	VARIABLE 12562 12564	it
+T1013	CONDITION 12565 12603	is important to let the arc disconnect
+T1014	KEY_C 12604 12606	if
+T1015	VARIABLE 12607 12609	it
+T1016	CONDITION 12610 12622	is realistic
+T1017	STATEMENT 12607 12622	it is realistic
+T1018	CAUSE 12604 12622	if it is realistic
+T1019	STATEMENT 12562 12603	it is important to let the arc disconnect
+T1020	CAUSE_EFFECT_RELATION 12562 12622	it is important to let the arc disconnect if it is realistic
+T1021	ROOT_SENTENCE 12547 12623	In conclusion, it is important to let the arc disconnect if it is realistic.
+T1022	KEY_C 12673 12675	if
+T1023	VARIABLE 12676 12681	there
+T1024	CONDITION 12682 12731	is enough surface area for the required radiators
+T1025	VARIABLE 12625 12629	This
+T1026	CONDITION 12630 12672	is achievable using body mounted radiators
+T1027	STATEMENT 12625 12672	This is achievable using body mounted radiators
+T1028	STATEMENT 12676 12731	there is enough surface area for the required radiators
+T1029	CAUSE 12673 12731	if there is enough surface area for the required radiators
+T1030	CAUSE_EFFECT_RELATION 12625 12731	This is achievable using body mounted radiators if there is enough surface area for the required radiators
+T1031	ROOT_SENTENCE 12625 12732	This is achievable using body mounted radiators if there is enough surface area for the required radiators.
+T1032	KEY_C 12734 12736	If
+T1033	VARIABLE 12737 12745	the crew
+T1034	CONDITION 12746 12778	vacates one module of the system
+T1035	CONDITION 12782 12854	transfers to another Human-Rated system as part of the reference mission
+T1036	VARIABLE 12856 12861	there
+T1037	CONDITION 12862 12922	is a capability for humans to monitor the unoccupied modules
+T1038	STATEMENT 12856 12922	there is a capability for humans to monitor the unoccupied modules
+T1039	OR 12746 12854	vacates one module of the system or transfers to another Human-Rated system as part of the reference mission
+T1040	STATEMENT 12737 12854	the crew vacates one module of the system or transfers to another Human-Rated system as part of the reference mission
+T1041	CAUSE 12734 12854	If the crew vacates one module of the system or transfers to another Human-Rated system as part of the reference mission
+T1042	CAUSE_EFFECT_RELATION 12734 12922	If the crew vacates one module of the system or transfers to another Human-Rated system as part of the reference mission, there is a capability for humans to monitor the unoccupied modules
+T1043	ROOT_SENTENCE 12734 12923	If the crew vacates one module of the system or transfers to another Human-Rated system as part of the reference mission, there is a capability for humans to monitor the unoccupied modules.
+T1044	VARIABLE 12925 12935	Robot mass
+T1045	VARIABLE 12940 12945	power
+T1046	AND 12925 12945	Robot mass and power
+T1047	CONDITION 12946 12960	can be reduced
+T1048	KEY_C 12961 12963	if
+T1049	VARIABLE 12964 12986	some of the processing
+T1050	CONDITION 12987 13017	can happen off board the robot
+T1051	STATEMENT 12964 13017	some of the processing can happen off board the robot
+T1052	STATEMENT 12925 12960	Robot mass and power can be reduced
+T1053	CAUSE 12961 13017	if some of the processing can happen off board the robot
+T1054	CAUSE_EFFECT_RELATION 12925 13017	Robot mass and power can be reduced if some of the processing can happen off board the robot
+T1055	ROOT_SENTENCE 12925 13018	Robot mass and power can be reduced if some of the processing can happen off board the robot.
+T1056	KEY_C 13020 13022	If
+T1057	VARIABLE 13023 13045	materials flammability
+T1058	VARIABLE 13050 13073	electrical requirements
+T1059	CONDITION 13074 13085	are not met
+T1060	AND 13023 13073	materials flammability and electrical requirements
+T1061	VARIABLE 13087 13096	detection
+T1062	VARIABLE 13101 13112	suppression
+T1063	AND 13087 13112	detection and suppression
+T1064	CONDITION 13113 13163	must be discussed during the safety review process
+T1065	STATEMENT 13087 13163	detection and suppression must be discussed during the safety review process
+T1066	STATEMENT 13023 13085	materials flammability and electrical requirements are not met
+T1067	CAUSE 13020 13085	If materials flammability and electrical requirements are not met
+T1068	CAUSE_EFFECT_RELATION 13020 13163	If materials flammability and electrical requirements are not met, detection and suppression must be discussed during the safety review process
+T1069	ROOT_SENTENCE 13020 13164	If materials flammability and electrical requirements are not met, detection and suppression must be discussed during the safety review process.
+T1070	KEY_C 13166 13168	If
+T1071	CONDITION 13173 13191	properly contained
+T1072	NEGATION 13169 13191	not properly contained
+T1073	VARIABLE 13193 13201	contents
+T1074	CONDITION 13202 13224	could damage equipment
+T1075	CONDITION 13226 13244	injure crewmembers
+T1076	CONDITION 13250 13266	transmit disease
+T1077	AND 13226 13266	injure crewmembers, and transmit disease
+T1078	AND 13202 13266	could damage equipment, injure crewmembers, and transmit disease
+T1079	STATEMENT 13193 13266	contents could damage equipment, injure crewmembers, and transmit disease
+T1080	CAUSE 13166 13191	If not properly contained
+T1081	CAUSE_EFFECT_RELATION 13166 13266	If not properly contained, contents could damage equipment, injure crewmembers, and transmit disease
+T1082	ROOT_SENTENCE 13166 13267	If not properly contained, contents could damage equipment, injure crewmembers, and transmit disease.
+T1083	KEY_C 13269 13271	If
+T1084	VARIABLE 13272 13296	the combination of these
+T1085	CONDITION 13297 13303	happen
+T1086	VARIABLE 13305 13319	the crewmember
+T1087	CONDITION 13320 13389	would need a self-rescue method for survival to return to the Gateway
+T1088	STATEMENT 13305 13389	the crewmember would need a self-rescue method for survival to return to the Gateway
+T1089	STATEMENT 13272 13303	the combination of these happen
+T1090	CAUSE 13269 13303	If the combination of these happen
+T1091	CAUSE_EFFECT_RELATION 13269 13389	If the combination of these happen, the crewmember would need a self-rescue method for survival to return to the Gateway
+T1092	ROOT_SENTENCE 13269 13390	If the combination of these happen, the crewmember would need a self-rescue method for survival to return to the Gateway.
+T1097	VARIABLE 13530 13560	Complexity of a robotic system
+T1098	CONDITION 13561 13579	is greatly reduced
+T1099	KEY_C 13580 13582	if
+T1100	VARIABLE 13583 13609	design of human interfaces
+T1101	CONDITION 13610 13645	also considers robotic manipulation
+T1102	STATEMENT 13583 13645	design of human interfaces also considers robotic manipulation
+T1103	CAUSE 13580 13645	if design of human interfaces also considers robotic manipulation
+T1104	STATEMENT 13530 13579	Complexity of a robotic system is greatly reduced
+T1105	CAUSE_EFFECT_RELATION 13530 13645	Complexity of a robotic system is greatly reduced if design of human interfaces also considers robotic manipulation
+T1106	ROOT_SENTENCE 13530 13646	Complexity of a robotic system is greatly reduced if design of human interfaces also considers robotic manipulation.
+T1107	KEY_C 13648 13650	If
+T1108	VARIABLE 13651 13673	new document revisions
+T1109	CONDITION 13674 13686	are released
+T1110	STATEMENT 13651 13686	new document revisions are released
+T1111	CAUSE 13648 13686	If new document revisions are released
+T1112	VARIABLE 13688 13699	the program
+T1113	CONDITION 13700 13728	will determine applicability
+T1114	CONDITION 13733 13752	update as necessary
+T1115	AND 13700 13752	will determine applicability and update as necessary
+T1116	STATEMENT 13688 13752	the program will determine applicability and update as necessary
+T1117	CAUSE_EFFECT_RELATION 13648 13752	If new document revisions are released, the program will determine applicability and update as necessary
+T1118	ROOT_SENTENCE 13648 13753	If new document revisions are released, the program will determine applicability and update as necessary.
+T151	STATEMENT 1958 1985	the number is less than 1.0

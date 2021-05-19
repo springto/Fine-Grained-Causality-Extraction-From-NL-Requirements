@@ -1,0 +1,5 @@
+[26/07-14:25:20][INFO][Testing directory: ./results/new_results/results_account3/pos_tags/2020_07_23---15_44_766248/]
+[26/07-14:25:20][INFO][Dataset used for testing: test]
+[26/07-14:25:20][INFO][Reading trees..]
+[26/07-14:26:30][INFO][Testing...]
+[26/07-14:28:28][INFO][Cost 20.691469, Correct 6029/6613, Acc 0.911689]

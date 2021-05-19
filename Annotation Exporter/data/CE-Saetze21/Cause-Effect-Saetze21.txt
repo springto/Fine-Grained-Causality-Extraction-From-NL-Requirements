@@ -1,0 +1,396 @@
+T6	KEY_C 16937 16944	Because
+T7	VARIABLE 16945 16950	links
+T8	CONDITION 16951 16969	can be distracting
+T9	VARIABLE 16971 16975	they
+T10	CONDITION 16987 17033	be embedded in the body text on a content page
+T11	NEGATION 16976 17033	should not be embedded in the body text on a content page
+T12	STATEMENT 16971 17033	they should not be embedded in the body text on a content page
+T13	STATEMENT 16945 16969	links can be distracting
+T14	CAUSE 16937 16969	Because links can be distracting
+T15	CAUSE_EFFECT_RELATION 16937 17033	Because links can be distracting, they should not be embedded in the body text on a content page
+T16	ROOT_SENTENCE 16937 17034	Because links can be distracting, they should not be embedded in the body text on a content page.
+T17	KEY_C 16798 16805	Because
+T18	VARIABLE 16806 16816	menu pages
+T19	CONDITION 16817 16839	are visited frequently
+T20	VARIABLE 16841 16881	the number of graphic images on the page
+T21	CONDITION 16882 16934	should be minimized in order to reduce download time
+T22	STATEMENT 16841 16934	the number of graphic images on the page should be minimized in order to reduce download time
+T23	STATEMENT 16806 16839	menu pages are visited frequently
+T24	CAUSE 16798 16839	Because menu pages are visited frequently
+T25	CAUSE_EFFECT_RELATION 16798 16934	Because menu pages are visited frequently, the number of graphic images on the page should be minimized in order to reduce download time
+T26	ROOT_SENTENCE 16798 16935	Because menu pages are visited frequently, the number of graphic images on the page should be minimized in order to reduce download time.
+T27	KEY_C 16659 16666	Because
+T28	VARIABLE 16667 16678	a home page
+T29	CONDITION 16679 16700	is visited frequently
+T30	VARIABLE 16702 16742	the number of graphic images on the page
+T31	CONDITION 16743 16795	should be minimized in order to reduce download time
+T32	STATEMENT 16702 16795	the number of graphic images on the page should be minimized in order to reduce download time
+T33	STATEMENT 16667 16700	a home page is visited frequently
+T34	CAUSE 16659 16700	Because a home page is visited frequently
+T35	CAUSE_EFFECT_RELATION 16659 16795	Because a home page is visited frequently, the number of graphic images on the page should be minimized in order to reduce download time
+T36	ROOT_SENTENCE 16659 16796	Because a home page is visited frequently, the number of graphic images on the page should be minimized in order to reduce download time.
+T37	KEY_C 16498 16505	Because
+T38	VARIABLE 16506 16516	a Web page
+T39	CONDITION 16517 16576	is viewed as a sequence of vertical “chunks” of information
+T40	VARIABLE 16578 16620	the first screen of content that users see
+T41	CONDITION 16621 16656	should be the most information-rich
+T42	STATEMENT 16578 16656	the first screen of content that users see should be the most information-rich
+T43	STATEMENT 16506 16576	a Web page is viewed as a sequence of vertical “chunks” of information
+T44	CAUSE 16498 16576	Because a Web page is viewed as a sequence of vertical “chunks” of information
+T45	CAUSE_EFFECT_RELATION 16498 16656	Because a Web page is viewed as a sequence of vertical “chunks” of information, the first screen of content that users see should be the most information-rich
+T46	ROOT_SENTENCE 16498 16657	Because a Web page is viewed as a sequence of vertical “chunks” of information, the first screen of content that users see should be the most information-rich.
+T57	KEY_C 15888 15895	Because
+T58	VARIABLE 15896 15904	browsers
+T59	CONDITION 15905 15954	differ in the extent to which they support frames
+T60	CONDITION 15959 15998	some users may choose to disable frames
+T61	VARIABLE 16000 16010	a Web page
+T62	CONDITION 16011 16095	provides a “no frames” alternative that displays page content without frames enabled
+T63	STATEMENT 16000 16095	a Web page provides a “no frames” alternative that displays page content without frames enabled
+T64	AND 15905 15998	differ in the extent to which they support frames and some users may choose to disable frames
+T65	STATEMENT 15896 15998	browsers differ in the extent to which they support frames and some users may choose to disable frames
+T66	CAUSE 15888 15998	Because browsers differ in the extent to which they support frames and some users may choose to disable frames
+T67	CAUSE_EFFECT_RELATION 15888 16095	Because browsers differ in the extent to which they support frames and some users may choose to disable frames, a Web page provides a “no frames” alternative that displays page content without frames enabled
+T68	ROOT_SENTENCE 15888 16096	Because browsers differ in the extent to which they support frames and some users may choose to disable frames, a Web page provides a “no frames” alternative that displays page content without frames enabled.
+T69	KEY_C 174 176	If
+T70	VARIABLE 177 185	the risk
+T71	CONDITION 186 197	is too high
+T72	VARIABLE 199 212	the clearance
+T73	CONDITION 213 231	should be rejected
+T74	CONDITION 236 261	reconsidered for redesign
+T75	VARIABLE 266 272	a test
+T76	CONDITION 273 303	developed to mitigate the risk
+T77	STATEMENT 266 303	a test developed to mitigate the risk
+T78	AND 213 261	should be rejected and reconsidered for redesign
+T79	STATEMENT 199 261	the clearance should be rejected and reconsidered for redesign
+T80	OR 199 303	the clearance should be rejected and reconsidered for redesign, or a test developed to mitigate the risk
+T81	STATEMENT 177 197	the risk is too high
+T82	CAUSE 174 197	If the risk is too high
+T83	CAUSE_EFFECT_RELATION 174 303	If the risk is too high, the clearance should be rejected and reconsidered for redesign, or a test developed to mitigate the risk
+T84	ROOT_SENTENCE 174 304	If the risk is too high, the clearance should be rejected and reconsidered for redesign, or a test developed to mitigate the risk.
+T85	KEY_C 306 308	If
+T86	VARIABLE 309 328	the non-conformance
+T87	CONDITION 329 337	is minor
+T88	VARIABLE 339 364	a “use as is” disposition
+T89	CONDITION 365 408	may be appropriate assuming adequate margin
+T90	STATEMENT 339 408	a “use as is” disposition may be appropriate assuming adequate margin
+T91	STATEMENT 309 337	the non-conformance is minor
+T92	CAUSE 306 337	If the non-conformance is minor
+T93	CAUSE_EFFECT_RELATION 306 408	If the non-conformance is minor, a “use as is” disposition may be appropriate assuming adequate margin
+T94	KEY_C 411 413	If
+T95	VARIABLE 414 416	it
+T96	CONDITION 417 459	is determined to be hardware configuration
+T97	KEY_C 461 465	then
+T98	VARIABLE 466 476	the design
+T99	CONDITION 477 505	must be reviewed per step 20
+T100	STATEMENT 466 505	the design must be reviewed per step 20
+T101	EFFECT 461 505	then the design must be reviewed per step 20
+T102	STATEMENT 414 459	it is determined to be hardware configuration
+T103	CAUSE 411 459	If it is determined to be hardware configuration
+T104	CAUSE_EFFECT_RELATION 411 505	If it is determined to be hardware configuration, then the design must be reviewed per step 20
+T105	ROOT_SENTENCE 411 506	If it is determined to be hardware configuration, then the design must be reviewed per step 20.
+T106	KEY_C 508 510	If
+T107	VARIABLE 511 533	hardware configuration
+T108	CONDITION 534 563	is determined to be the cause
+T109	VARIABLE 572 609	a rework to print and re-verification
+T110	CONDITION 610 631	may solve the problem
+T111	VARIABLE 638 651	design change
+T112	CONDITION 652 668	may be necessary
+T113	STATEMENT 638 668	design change may be necessary
+T114	STATEMENT 572 631	a rework to print and re-verification may solve the problem
+T115	OR 565 668	either a rework to print and re-verification may solve the problem, or a design change may be necessary
+T116	STATEMENT 511 563	hardware configuration is determined to be the cause
+T117	CAUSE 508 563	If hardware configuration is determined to be the cause
+T118	CAUSE_EFFECT_RELATION 508 668	If hardware configuration is determined to be the cause, either a rework to print and re-verification may solve the problem, or a design change may be necessary
+T119	ROOT_SENTENCE 508 669	If hardware configuration is determined to be the cause, either a rework to print and re-verification may solve the problem, or a design change may be necessary.
+T125	KEY_C 775 777	If
+T126	VARIABLE 778 800	the per-print hardware
+T127	CONDITION 801 817	is non-compliant
+T128	KEY_C 819 823	then
+T129	VARIABLE 824 834	the design
+T130	CONDITION 835 854	must be re-assessed
+T131	STATEMENT 824 854	the design must be re-assessed
+T132	EFFECT 819 854	then the design must be re-assessed
+T133	STATEMENT 778 817	the per-print hardware is non-compliant
+T134	CAUSE 775 817	If the per-print hardware is non-compliant
+T135	CAUSE_EFFECT_RELATION 775 854	If the per-print hardware is non-compliant, then the design must be re-assessed
+T136	ROOT_SENTENCE 775 855	If the per-print hardware is non-compliant, then the design must be re-assessed.
+T138	KEY_C 1062 1064	If
+T139	VARIABLE 1065 1108	significant changes in structural stiffness
+T140	VARIABLE 1112 1120	geometry
+T141	VARIABLE 1125 1129	both
+T142	OR 1112 1129	geometry, or both
+T143	OR 1065 1129	significant changes in structural stiffness or geometry, or both
+T144	CONDITION 1131 1163	follow from a structural failure
+T145	CONDITION 1168 1183	partial failure
+T146	OR 1131 1183	follow from a structural failure, or partial failure
+T147	STATEMENT 1065 1183	significant changes in structural stiffness or geometry, or both, follow from a structural failure, or partial failure
+T148	CAUSE 1062 1183	If significant changes in structural stiffness or geometry, or both, follow from a structural failure, or partial failure
+T149	VARIABLE 1185 1215	the effect on damage tolerance
+T150	CONDITION 1216 1244	must be further investigated
+T151	STATEMENT 1185 1244	the effect on damage tolerance must be further investigated
+T152	CAUSE_EFFECT_RELATION 1062 1244	If significant changes in structural stiffness or geometry, or both, follow from a structural failure, or partial failure, the effect on damage tolerance must be further investigated
+T153	ROOT_SENTENCE 1062 1245	If significant changes in structural stiffness or geometry, or both, follow from a structural failure, or partial failure, the effect on damage tolerance must be further investigated.
+T154	KEY_C 1247 1249	If
+T155	VARIABLE 1250 1281	limit combined tensile stresses
+T156	CONDITION 1282 1322	are enveloped by these pressure stresses
+T157	VARIABLE 1324 1357	the application of external loads
+T158	CONDITION 1365 1373	required
+T159	NEGATION 1358 1373	is not required
+T160	STATEMENT 1324 1373	the application of external loads is not required
+T161	STATEMENT 1250 1322	limit combined tensile stresses are enveloped by these pressure stresses
+T162	CAUSE 1247 1322	If limit combined tensile stresses are enveloped by these pressure stresses
+T163	CAUSE_EFFECT_RELATION 1247 1373	If limit combined tensile stresses are enveloped by these pressure stresses, the application of external loads is not required
+T164	ROOT_SENTENCE 1247 1374	If limit combined tensile stresses are enveloped by these pressure stresses, the application of external loads is not required.
+T165	KEY_C 1376 1378	If
+T166	VARIABLE 1379 1412	the application of external loads
+T167	CONDITION 1413 1424	is required
+T168	VARIABLE 1426 1434	the load
+T169	CONDITION 1435 1545	should be cycled to limit for four times the predicted number of operating cycles of the most design condition
+T170	STATEMENT 1426 1545	the load should be cycled to limit for four times the predicted number of operating cycles of the most design condition
+T171	STATEMENT 1379 1424	the application of external loads is required
+T172	CAUSE 1376 1424	If the application of external loads is required
+T173	CAUSE_EFFECT_RELATION 1376 1545	If the application of external loads is required, the load should be cycled to limit for four times the predicted number of operating cycles of the most design condition
+T174	ROOT_SENTENCE 1376 1546	If the application of external loads is required, the load should be cycled to limit for four times the predicted number of operating cycles of the most design condition.
+T175	VARIABLE 1548 1571	The proof-pressure test
+T176	CONDITION 1572 1613	can be conducted at cryogenic temperature
+T177	KEY_C 1614 1616	if
+T178	VARIABLE 1617 1668	deemed necessary for the purpose of screening flaws
+T179	CAUSE 1614 1668	if deemed necessary for the purpose of screening flaws
+T180	STATEMENT 1548 1613	The proof-pressure test can be conducted at cryogenic temperature
+T181	CAUSE_EFFECT_RELATION 1548 1668	The proof-pressure test can be conducted at cryogenic temperature if deemed necessary for the purpose of screening flaws
+T182	ROOT_SENTENCE 1548 1669	The proof-pressure test can be conducted at cryogenic temperature if deemed necessary for the purpose of screening flaws.
+T183	KEY_C 1671 1673	If
+T184	VARIABLE 1674 1693	a payload interface
+T185	CONDITION 1694 1706	is undefined
+T186	VARIABLE 1708 1732	a range of 28VDC +8, -6V
+T187	CONDITION 1733 1749	shall be assumed
+T188	STATEMENT 1708 1749	a range of 28VDC +8, -6V shall be assumed
+T189	STATEMENT 1674 1706	a payload interface is undefined
+T190	CAUSE 1671 1706	If a payload interface is undefined
+T191	CAUSE_EFFECT_RELATION 1671 1749	If a payload interface is undefined, a range of 28VDC +8, -6V shall be assumed
+T192	ROOT_SENTENCE 1671 1750	If a payload interface is undefined, a range of 28VDC +8, -6V shall be assumed.
+T193	KEY_C 1752 1754	If
+T194	VARIABLE 1755 1765	redundancy
+T195	CONDITION 1766 1796	is used in the essential loads
+T196	VARIABLE 1798 1818	separate load groups
+T197	CONDITION 1819 1874	shall be used for each set of redundant essential loads
+T198	STATEMENT 1798 1874	separate load groups shall be used for each set of redundant essential loads
+T199	STATEMENT 1755 1796	redundancy is used in the essential loads
+T200	CAUSE 1752 1796	If redundancy is used in the essential loads
+T201	CAUSE_EFFECT_RELATION 1752 1874	If redundancy is used in the essential loads, separate load groups shall be used for each set of redundant essential loads
+T202	ROOT_SENTENCE 1752 1875	If redundancy is used in the essential loads, separate load groups shall be used for each set of redundant essential loads.
+T208	NONE_CAUSAL 2021 2032	For example
+T209	VARIABLE 2034 2036	it
+T210	CONDITION 2044 2110	required to use aphelion sun along with the longest eclipse length
+T211	NEGATION 2037 2110	is not required to use aphelion sun along with the longest eclipse length
+T212	KEY_C 2112 2114	if
+T213	VARIABLE 2115 2117	it
+T214	CONDITION 2118 2175	is true that the longest eclipse length occurs at equinox
+T215	STATEMENT 2115 2175	it is true that the longest eclipse length occurs at equinox
+T216	CAUSE 2112 2175	if it is true that the longest eclipse length occurs at equinox
+T217	STATEMENT 2034 2110	it is not required to use aphelion sun along with the longest eclipse length
+T218	CAUSE_EFFECT_RELATION 2034 2175	it is not required to use aphelion sun along with the longest eclipse length, if it is true that the longest eclipse length occurs at equinox
+T219	ROOT_SENTENCE 2021 2176	For example, it is not required to use aphelion sun along with the longest eclipse length, if it is true that the longest eclipse length occurs at equinox.
+T220	KEY_C 2178 2180	If
+T221	VARIABLE 2181 2204	negative energy balance
+T222	CONDITION 2205 2212	existed
+T223	VARIABLE 2214 2227	the batteries
+T224	CONDITION 2228 2255	would be completely drained
+T225	VARIABLE 2261 2275	the spacecraft
+T226	CONDITION 2276 2299	would cease to function
+T227	STATEMENT 2261 2299	the spacecraft would cease to function
+T228	STATEMENT 2214 2255	the batteries would be completely drained
+T229	AND 2214 2299	the batteries would be completely drained, and the spacecraft would cease to function
+T230	STATEMENT 2181 2212	negative energy balance existed
+T231	CAUSE 2178 2212	If negative energy balance existed
+T232	CAUSE_EFFECT_RELATION 2178 2299	If negative energy balance existed, the batteries would be completely drained, and the spacecraft would cease to function
+T233	ROOT_SENTENCE 2178 2300	If negative energy balance existed, the batteries would be completely drained, and the spacecraft would cease to function.
+T234	KEY_C 2302 2304	If
+T235	VARIABLE 2305 2344	the maximum allowed DoD for the mission
+T236	CONDITION 2345 2351	is 60%
+T237	VARIABLE 2353 2357	this
+T238	CONDITION 2358 2402	means we could hypothetically add more loads
+T239	STATEMENT 2353 2402	this means we could hypothetically add more loads
+T240	STATEMENT 2305 2351	the maximum allowed DoD for the mission is 60%
+T241	CAUSE 2302 2351	If the maximum allowed DoD for the mission is 60%
+T242	CAUSE_EFFECT_RELATION 2302 2402	If the maximum allowed DoD for the mission is 60%, this means we could hypothetically add more loads
+T243	ROOT_SENTENCE 2302 2403	If the maximum allowed DoD for the mission is 60%, this means we could hypothetically add more loads.
+T244	KEY_C 2633 2635	If
+T245	VARIABLE 2636 2643	nothing
+T246	CONDITION 2644 2669	is known about the wiring
+T247	STATEMENT 2636 2669	nothing is known about the wiring
+T248	CAUSE 2633 2669	If nothing is known about the wiring
+T249	VARIABLE 2671 2712	assume 5% of the total maximum load power
+T250	CAUSE_EFFECT_RELATION 2633 2712	If nothing is known about the wiring, assume 5% of the total maximum load power
+T251	ROOT_SENTENCE 2633 2713	If nothing is known about the wiring, assume 5% of the total maximum load power.
+T252	KEY_C 2715 2717	If
+T253	VARIABLE 2718 2722	this
+T254	CONDITION 2723 2738	is factored out
+T255	CONDITION 2743 2768	booked as a separate load
+T256	AND 2723 2768	is factored out and booked as a separate load
+T257	STATEMENT 2718 2768	this is factored out and booked as a separate load
+T258	CAUSE 2715 2768	If this is factored out and booked as a separate load
+T259	VARIABLE 2770 2772	it
+T260	CONDITION 2773 2902	decreases the effective variation in the true conversion efficiency of the converter over the range of minimum to maximum current
+T261	STATEMENT 2770 2902	it decreases the effective variation in the true conversion efficiency of the converter over the range of minimum to maximum current
+T262	CAUSE_EFFECT_RELATION 2715 2902	If this is factored out and booked as a separate load, it decreases the effective variation in the true conversion efficiency of the converter over the range of minimum to maximum current
+T263	ROOT_SENTENCE 2715 2903	If this is factored out and booked as a separate load, it decreases the effective variation in the true conversion efficiency of the converter over the range of minimum to maximum current.
+T265	KEY_C 3104 3106	If
+T266	VARIABLE 3107 3113	arcing
+T267	CONDITION 3114 3130	is a possibility
+T268	VARIABLE 3132 3135	one
+T269	CONDITION 3136 3202	must look at surrounding materials that could feed a sustained arc
+T270	STATEMENT 3132 3202	one must look at surrounding materials that could feed a sustained arc
+T271	STATEMENT 3107 3130	arcing is a possibility
+T272	CAUSE 3104 3130	If arcing is a possibility
+T273	CAUSE_EFFECT_RELATION 3104 3202	If arcing is a possibility, one must look at surrounding materials that could feed a sustained arc
+T274	ROOT_SENTENCE 3104 3203	If arcing is a possibility, one must look at surrounding materials that could feed a sustained arc.
+T275	KEY_C 3760 3762	If
+T276	VARIABLE 3763 3778	any PWB section
+T277	CONDITION 3779 3784	fails
+T278	VARIABLE 3786 3793	the lot
+T279	CONDITION 3794 3811	shall be rejected
+T280	STATEMENT 3786 3811	the lot shall be rejected
+T281	STATEMENT 3763 3784	any PWB section fails
+T282	CAUSE 3760 3784	If any PWB section fails
+T283	CAUSE_EFFECT_RELATION 3760 3811	If any PWB section fails, the lot shall be rejected
+T284	ROOT_SENTENCE 3760 3812	If any PWB section fails, the lot shall be rejected.
+T285	KEY_C 15676 15683	Because
+T286	VARIABLE 15684 15689	users
+T287	CONDITION 15690 15762	expect that links will navigate to a different page within the same site
+T288	VARIABLE 15764 15792	the use of within-page links
+T289	CONDITION 15793 15812	should be minimized
+T290	VARIABLE 15818 15859	links that take users to a different site
+T291	CONDITION 15860 15885	should be labeled as such
+T292	STATEMENT 15818 15885	links that take users to a different site should be labeled as such
+T293	STATEMENT 15764 15812	the use of within-page links should be minimized
+T294	AND 15764 15885	the use of within-page links should be minimized, and links that take users to a different site should be labeled as such
+T295	STATEMENT 15684 15762	users expect that links will navigate to a different page within the same site
+T296	CAUSE 15676 15762	Because users expect that links will navigate to a different page within the same site
+T297	CAUSE_EFFECT_RELATION 15676 15885	Because users expect that links will navigate to a different page within the same site, the use of within-page links should be minimized, and links that take users to a different site should be labeled as such
+T298	ROOT_SENTENCE 15676 15886	Because users expect that links will navigate to a different page within the same site, the use of within-page links should be minimized, and links that take users to a different site should be labeled as such.
+T299	KEY_C 5077 5079	If
+T300	VARIABLE 5080 5093	lack of space
+T301	CONDITION 5094 5105	requires it
+T302	VARIABLE 5107 5125	container packages
+T303	CONDITION 5126 5144	only may be marked
+T304	STATEMENT 5107 5144	container packages only may be marked
+T305	STATEMENT 5080 5105	lack of space requires it
+T306	CAUSE 5077 5105	If lack of space requires it
+T307	CAUSE_EFFECT_RELATION 5077 5144	If lack of space requires it, container packages only may be marked
+T308	ROOT_SENTENCE 5077 5145	If lack of space requires it, container packages only may be marked.
+T309	KEY_C 5147 5149	If
+T310	VARIABLE 5150 5176	internal power dissipation
+T311	CONDITION 5177 5213	activates a thermal shutdown circuit
+T312	KEY_C 5215 5219	then
+T313	VARIABLE 5220 5240	the test temperature
+T314	CONDITION 5241 5255	may be reduced
+T315	VARIABLE 5260 5273	the test time
+T316	CONDITION 5274 5282	extended
+T317	STATEMENT 5260 5282	the test time extended
+T318	STATEMENT 5220 5255	the test temperature may be reduced
+T319	AND 5220 5282	the test temperature may be reduced and the test time extended
+T320	EFFECT 5215 5282	then the test temperature may be reduced and the test time extended
+T321	STATEMENT 5150 5213	internal power dissipation activates a thermal shutdown circuit
+T322	CAUSE 5147 5213	If internal power dissipation activates a thermal shutdown circuit
+T323	CAUSE_EFFECT_RELATION 5147 5282	If internal power dissipation activates a thermal shutdown circuit, then the test temperature may be reduced and the test time extended
+T324	ROOT_SENTENCE 5147 5283	If internal power dissipation activates a thermal shutdown circuit, then the test temperature may be reduced and the test time extended.
+T326	KEY_C 5951 5953	If
+T327	VARIABLE 5954 5971	correlation units
+T328	CONDITION 5980 5989	available
+T329	NEGATION 5972 5989	are not available
+T330	STATEMENT 5954 5989	correlation units are not available
+T331	CAUSE 5951 5989	If correlation units are not available
+T332	VARIABLE 5991 5995	they
+T333	CONDITION 5996 6039	may be removed from the lot being processed
+T334	STATEMENT 5991 6039	they may be removed from the lot being processed
+T335	CAUSE_EFFECT_RELATION 5951 6039	If correlation units are not available, they may be removed from the lot being processed
+T336	ROOT_SENTENCE 5951 6040	If correlation units are not available, they may be removed from the lot being processed.
+T337	KEY_C 6042 6044	If
+T338	VARIABLE 6048 6056	failures
+T339	CONDITION 6057 6091	occur during lot conformance tests
+T340	STATEMENT 6048 6091	failures occur during lot conformance tests
+T341	NEGATION 6045 6091	no failures occur during lot conformance tests
+T342	VARIABLE 6093 6136	the remaining portion of the production lot
+T343	CONDITION 6137 6163	is certified as acceptable
+T344	STATEMENT 6093 6163	the remaining portion of the production lot is certified as acceptable
+T345	CAUSE 6042 6091	If no failures occur during lot conformance tests
+T346	CAUSE_EFFECT_RELATION 6042 6163	If no failures occur during lot conformance tests, the remaining portion of the production lot is certified as acceptable
+T347	ROOT_SENTENCE 6042 6164	If no failures occur during lot conformance tests, the remaining portion of the production lot is certified as acceptable.
+T348	KEY_C 6427 6434	Because
+T349	VARIABLE 6435 6458	of this phased delivery
+T350	CAUSE 6427 6458	Because of this phased delivery
+T351	VARIABLE 6460 6472	the document
+T352	CONDITION 6473 6527	focuses on providing detailed requirements for the NID
+T353	CONDITION 6532 6573	some of the dependent aspects of the MSVF
+T354	AND 6473 6573	focuses on providing detailed requirements for the NID and some of the dependent aspects of the MSVF
+T355	STATEMENT 6460 6573	the document focuses on providing detailed requirements for the NID and some of the dependent aspects of the MSVF
+T356	CAUSE_EFFECT_RELATION 6427 6573	Because of this phased delivery, the document focuses on providing detailed requirements for the NID and some of the dependent aspects of the MSVF
+T357	ROOT_SENTENCE 6427 6574	Because of this phased delivery, the document focuses on providing detailed requirements for the NID and some of the dependent aspects of the MSVF.
+T358	KEY_C 6845 6852	Because
+T359	VARIABLE 6853 6856	log
+T360	VARIABLE 6861 6875	trace messages
+T361	AND 6853 6875	log and trace messages
+T362	CONDITION 6876 6899	often consists of texts
+T363	VARIABLE 6901 6906	there
+T364	CONDITION 6907 6956	shall be the possibility to transmit text strings
+T365	STATEMENT 6901 6956	there shall be the possibility to transmit text strings
+T366	STATEMENT 6853 6899	log and trace messages often consists of texts
+T367	CAUSE 6845 6899	Because log and trace messages often consists of texts
+T368	CAUSE_EFFECT_RELATION 6845 6956	Because log and trace messages often consists of texts, there shall be the possibility to transmit text strings
+T369	ROOT_SENTENCE 6845 6957	Because log and trace messages often consists of texts, there shall be the possibility to transmit text strings.
+T377	KEY_C 9990 9997	Because
+T378	VARIABLE 9998 10005	of this
+T379	CAUSE 9990 10005	Because of this
+T380	VARIABLE 10007 10080	good material parameters (especially photo‐emission and secondary yields)
+T381	CONDITION 10081 10101	are necessary inputs
+T382	STATEMENT 10007 10101	good material parameters (especially photo‐emission and secondary yields) are necessary inputs
+T383	CAUSE_EFFECT_RELATION 9990 10101	Because of this, good material parameters (especially photo‐emission and secondary yields) are necessary inputs
+T384	ROOT_SENTENCE 9990 10102	Because of this, good material parameters (especially photo‐emission and secondary yields) are necessary inputs.
+T389	KEY_C 7225 7232	Because
+T390	VARIABLE 7233 7268	of the complexity of the data model
+T391	VARIABLE 7270 7283	Library Staff
+T392	CONDITION 7284 7344	will need to be able to edit multiple records simultaneously
+T393	CONDITION 7349 7374	create links between them
+T394	AND 7284 7374	will need to be able to edit multiple records simultaneously and create links between them
+T395	STATEMENT 7270 7374	Library Staff will need to be able to edit multiple records simultaneously and create links between them
+T396	CAUSE 7225 7268	Because of the complexity of the data model
+T397	CAUSE_EFFECT_RELATION 7225 7374	Because of the complexity of the data model, Library Staff will need to be able to edit multiple records simultaneously and create links between them
+T398	ROOT_SENTENCE 7225 7375	Because of the complexity of the data model, Library Staff will need to be able to edit multiple records simultaneously and create links between them.
+T399	KEY_C 7377 7384	Because
+T400	VARIABLE 7385 7399	most end users
+T401	CONDITION 7400 7442	will rarely interface with the Core System
+T402	VARIABLE 7444 7466	Misbehavior Management
+T403	CONDITION 7467 7529	will also accept reports of misbehaving users from other users
+T404	STATEMENT 7444 7529	Misbehavior Management will also accept reports of misbehaving users from other users
+T405	STATEMENT 7385 7442	most end users will rarely interface with the Core System
+T406	CAUSE 7377 7442	Because most end users will rarely interface with the Core System
+T407	CAUSE_EFFECT_RELATION 7377 7529	Because most end users will rarely interface with the Core System, Misbehavior Management will also accept reports of misbehaving users from other users
+T408	ROOT_SENTENCE 7377 7530	Because most end users will rarely interface with the Core System, Misbehavior Management will also accept reports of misbehaving users from other users.
+T413	KEY_C 7723 7730	Because
+T414	VARIABLE 7731 7735	this
+T415	CONDITION 7736 7764	is a Linux‐based application
+T416	VARIABLE 7765 7767	it
+T417	CONDITION 7768 7821	relies on some other software in order for it to work
+T418	STATEMENT 7765 7821	it relies on some other software in order for it to work
+T419	STATEMENT 7731 7764	this is a Linux‐based application
+T420	CAUSE 7723 7764	Because this is a Linux‐based application
+T421	CAUSE_EFFECT_RELATION 7723 7821	Because this is a Linux‐based application it relies on some other software in order for it to work
+T422	ROOT_SENTENCE 7723 7822	Because this is a Linux‐based application it relies on some other software in order for it to work.
+T120	KEY_C 3555 3557	If
+T121	VARIABLE 3558 3570	the supplier
+T122	CONDITION 3571 3600	is only certified to IPC 6012
+T123	VARIABLE 3602 3616	the contractor
+T124	CONDITION 3617 3658	shall verify that the build documentation
+T137	CONDITION 3660 3680	in- process controls
+T203	CONDITION 3682 3703	qualification testing
+T204	CONDITION 3708 3757	construction review meet the program requirements
+T205	AND 3682 3757	qualification testing and construction review meet the program requirements
+T206	AND 3660 3757	in- process controls, qualification testing and construction review meet the program requirements
+T207	AND 3617 3757	shall verify that the build documentation, in- process controls, qualification testing and construction review meet the program requirements
+T264	STATEMENT 3602 3757	the contractor shall verify that the build documentation, in- process controls, qualification testing and construction review meet the program requirements
+T423	STATEMENT 3558 3600	the supplier is only certified to IPC 6012
+T424	CAUSE 3555 3600	If the supplier is only certified to IPC 6012
+T425	CAUSE_EFFECT_RELATION 3555 3757	If the supplier is only certified to IPC 6012, the contractor shall verify that the build documentation, in- process controls, qualification testing and construction review meet the program requirements
+T426	ROOT_SENTENCE 3555 3758	If the supplier is only certified to IPC 6012, the contractor shall verify that the build documentation, in- process controls, qualification testing and construction review meet the program requirements.
+T1	ROOT_SENTENCE 306 409	If the non-conformance is minor, a “use as is” disposition may be appropriate assuming adequate margin.

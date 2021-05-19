@@ -1,0 +1,792 @@
+T1	KEY_C 12426 12428	If
+T2	VARIABLE 12429 12437	a device
+T3	CONDITION 12438 12456	is uncharacterised
+T4	VARIABLE 12458 12463	tests
+T5	CONDITION 12464 12482	shall be performed
+T6	STATEMENT 12458 12482	tests shall be performed
+T7	CAUSE 12426 12456	If a device is uncharacterised
+T8	CAUSE_EFFECT_RELATION 12426 12482	If a device is uncharacterised, tests shall be performed
+T9	ROOT_SENTENCE 12426 12483	If a device is uncharacterised, tests shall be performed.
+T10	KEY_C 13561 13563	If
+T11	VARIABLE 13564 13590	multiples of the same item
+T12	CONDITION 13599 13632	allowed in the list being created
+T13	NEGATION 13591 13632	are not allowed in the list being created
+T14	STATEMENT 13564 13632	multiples of the same item are not allowed in the list being created
+T15	CAUSE 13561 13632	If multiples of the same item are not allowed in the list being created
+T16	VARIABLE 13639 13647	the item
+T17	CONDITION 13648 13674	is moved into the new list
+T18	VARIABLE 13675 13677	it
+T19	CONDITION 13678 13709	is deleted from the source list
+T20	STATEMENT 13675 13709	it is deleted from the source list
+T21	STATEMENT 13639 13674	the item is moved into the new list
+T22	KEY_C 13375 13377	If
+T23	VARIABLE 13378 13386	the item
+T24	CONDITION 13387 13412	is at one end of the list
+T25	VARIABLE 13417 13443	the next button activation
+T26	CONDITION 13444 13491	would remove the item from that end of the list
+T27	VARIABLE 13493 13501	the item
+T28	CONDITION 13502 13558	is allowed to “wrap around” to the other end of the list
+T29	VARIABLE 12398 12413	some processing
+T30	CONDITION 12414 12423	is needed
+T31	KEY_C 12395 12397	if
+T32	STATEMENT 12398 12423	some processing is needed
+T33	CAUSE 12395 12423	if some processing is needed
+T34	VARIABLE 12347 12364	Each payload item
+T35	CONDITION 12365 12394	incorporates its own computer
+T36	STATEMENT 12347 12394	Each payload item incorporates its own computer
+T37	CAUSE_EFFECT_RELATION 12347 12423	Each payload item incorporates its own computer if some processing is needed
+T38	ROOT_SENTENCE 12347 12424	Each payload item incorporates its own computer if some processing is needed.
+T39	VARIABLE 12259 12264	a USO
+T40	KEY_C 12256 12258	If
+T41	CONDITION 12265 12276	is required
+T42	VARIABLE 12278 12280	it
+T43	CONDITION 12281 12307	should be thermally stable
+T44	CONDITION 12316 12344	effected by magnetic sources
+T45	NEGATION 12312 12344	not effected by magnetic sources
+T46	AND 12281 12344	should be thermally stable and not effected by magnetic sources
+T47	STATEMENT 12278 12344	it should be thermally stable and not effected by magnetic sources
+T48	CAUSE 12256 12276	If a USO is required
+T49	CAUSE_EFFECT_RELATION 12256 12344	If a USO is required, it should be thermally stable and not effected by magnetic sources
+T50	ROOT_SENTENCE 12256 12345	If a USO is required, it should be thermally stable and not effected by magnetic sources.
+T51	KEY_C 12138 12140	If
+T52	VARIABLE 12141 12159	loss of a function
+T53	CONDITION 12160 12193	could cause a catastrophic hazard
+T54	STATEMENT 12141 12193	loss of a function could cause a catastrophic hazard
+T55	CAUSE 12138 12193	If loss of a function could cause a catastrophic hazard
+T56	VARIABLE 12198 12219	two credible failures
+T57	CONDITION 12220 12253	shall cause loss of that function
+T58	STATEMENT 12198 12253	two credible failures shall cause loss of that function
+T59	NEGATION 12195 12253	no two credible failures shall cause loss of that function
+T60	CAUSE_EFFECT_RELATION 12138 12253	If loss of a function could cause a catastrophic hazard, no two credible failures shall cause loss of that function
+T61	ROOT_SENTENCE 12138 12254	If loss of a function could cause a catastrophic hazard, no two credible failures shall cause loss of that function.
+T62	VARIABLE 12010 12030	Two or more inhibits
+T63	CONDITION 12031 12046	are independent
+T64	KEY_C 12047 12049	if
+T65	VARIABLE 12053 12076	single credible failure
+T66	VARIABLE 12078 12083	event
+T67	VARIABLE 12088 12099	environment
+T68	CONDITION 12100 12135	can eliminate more than one inhibit
+T69	OR 12078 12099	event, or environment
+T70	OR 12053 12099	single credible failure, event, or environment
+T71	STATEMENT 12053 12135	single credible failure, event, or environment can eliminate more than one inhibit
+T72	NEGATION 12050 12135	no single credible failure, event, or environment can eliminate more than one inhibit
+T73	CAUSE 12047 12135	if no single credible failure, event, or environment can eliminate more than one inhibit
+T74	STATEMENT 12010 12046	Two or more inhibits are independent
+T75	CAUSE_EFFECT_RELATION 12010 12135	Two or more inhibits are independent if no single credible failure, event, or environment can eliminate more than one inhibit
+T76	ROOT_SENTENCE 12010 12136	Two or more inhibits are independent if no single credible failure, event, or environment can eliminate more than one inhibit.
+T77	VARIABLE 11932 11972	covered in the software development plan
+T78	NEGATION 11928 11972	not covered in the software development plan
+T79	KEY_C 11925 11927	If
+T80	CAUSE 11925 11972	If not covered in the software development plan
+T81	VARIABLE 11974 11988	the life cycle
+T82	CONDITION 11989 12007	shall be described
+T83	STATEMENT 11974 12007	the life cycle shall be described
+T84	CAUSE_EFFECT_RELATION 11925 12007	If not covered in the software development plan, the life cycle shall be described
+T85	ROOT_SENTENCE 11925 12008	If not covered in the software development plan, the life cycle shall be described.
+T86	VARIABLE 11681 11685	this
+T87	KEY_C 11678 11680	If
+T88	CONDITION 11693 11706	be guaranteed
+T89	NEGATION 11686 11706	cannot be guaranteed
+T90	STATEMENT 11681 11706	this cannot be guaranteed
+T91	CAUSE 11678 11706	If this cannot be guaranteed
+T92	VARIABLE 11708 11747	measures to prevent cross contamination
+T93	CONDITION 11748 11769	should be established
+T94	STATEMENT 11708 11769	measures to prevent cross contamination should be established
+T95	CAUSE_EFFECT_RELATION 11678 11769	If this cannot be guaranteed, measures to prevent cross contamination should be established
+T96	ROOT_SENTENCE 11678 11770	If this cannot be guaranteed, measures to prevent cross contamination should be established.
+T97	VARIABLE 11560 11574	more pertinent
+T98	KEY_C 11557 11559	If
+T99	VARIABLE 11576 11610	the basic function of the assembly
+T100	CONDITION 11611 11675	shall be listed in replacement of the basic function of the part
+T101	STATEMENT 11576 11675	the basic function of the assembly shall be listed in replacement of the basic function of the part
+T102	CAUSE 11557 11574	If more pertinent
+T103	CAUSE_EFFECT_RELATION 11557 11675	If more pertinent, the basic function of the assembly shall be listed in replacement of the basic function of the part
+T104	ROOT_SENTENCE 11557 11676	If more pertinent, the basic function of the assembly shall be listed in replacement of the basic function of the part.
+T105	VARIABLE 11433 11448	a brazing alloy
+T106	CONDITION 11449 11456	is used
+T107	STATEMENT 11433 11456	a brazing alloy is used
+T108	KEY_C 11430 11432	If
+T109	CAUSE 11430 11456	If a brazing alloy is used
+T110	VARIABLE 11458 11532	the compatibility of the brazing material with the black?anodizing process
+T111	CONDITION 11533 11554	shall be demonstrated
+T112	STATEMENT 11458 11554	the compatibility of the brazing material with the black?anodizing process shall be demonstrated
+T113	CAUSE_EFFECT_RELATION 11430 11554	If a brazing alloy is used, the compatibility of the brazing material with the black?anodizing process shall be demonstrated
+T114	ROOT_SENTENCE 11430 11555	If a brazing alloy is used, the compatibility of the brazing material with the black?anodizing process shall be demonstrated.
+T115	VARIABLE 11350 11362	The customer
+T117	KEY_C 11408 11410	if
+T118	VARIABLE 11411 11427	deemed necessary
+T119	CAUSE 11408 11427	if deemed necessary
+T120	STATEMENT 11350 11407	The customer shall audit before using the modified system
+T121	CAUSE_EFFECT_RELATION 11350 11427	The customer shall audit before using the modified system if deemed necessary
+T122	ROOT_SENTENCE 11350 11428	The customer shall audit before using the modified system if deemed necessary.
+T123	VARIABLE 11218 11230	The customer
+T124	CONDITION 11231 11293	shall make the limits defined in clause 5.5.3.1 more stringent
+T125	KEY_C 11294 11296	if
+T126	VARIABLE 11297 11320	the materials concerned
+T127	CONDITION 11321 11347	are used in critical areas
+T128	STATEMENT 11297 11347	the materials concerned are used in critical areas
+T129	CAUSE 11294 11347	if the materials concerned are used in critical areas
+T130	STATEMENT 11218 11293	The customer shall make the limits defined in clause 5.5.3.1 more stringent
+T131	CAUSE_EFFECT_RELATION 11218 11347	The customer shall make the limits defined in clause 5.5.3.1 more stringent if the materials concerned are used in critical areas
+T132	ROOT_SENTENCE 11218 11348	The customer shall make the limits defined in clause 5.5.3.1 more stringent if the materials concerned are used in critical areas.
+T133	VARIABLE 11065 11114	the contamination potential of selected materials
+T134	CONDITION 11115 11132	is still too high
+T135	STATEMENT 11065 11132	the contamination potential of selected materials is still too high
+T136	KEY_C 11062 11064	If
+T137	CAUSE 11062 11132	If the contamination potential of selected materials is still too high
+T138	VARIABLE 11134 11157	bakeout of the hardware
+T139	CONDITION 11158 11194	should be considered before assembly
+T140	CONDITION 11198 11215	even during tests
+T141	OR 11158 11215	should be considered before assembly or even during tests
+T142	STATEMENT 11134 11215	bakeout of the hardware should be considered before assembly or even during tests
+T143	CAUSE_EFFECT_RELATION 11062 11215	If the contamination potential of selected materials is still too high, bakeout of the hardware should be considered before assembly or even during tests
+T144	ROOT_SENTENCE 11062 11216	If the contamination potential of selected materials is still too high, bakeout of the hardware should be considered before assembly or even during tests.
+T145	VARIABLE 10980 10991	air showers
+T146	CONDITION 10992 11000	are used
+T147	STATEMENT 10980 11000	air showers are used
+T148	KEY_C 10977 10979	If
+T149	CAUSE 10977 11000	If air showers are used
+T150	VARIABLE 11002 11033	only suitably clothed personnel
+T151	CONDITION 11034 11059	shall be allowed to enter
+T152	STATEMENT 11002 11059	only suitably clothed personnel shall be allowed to enter
+T153	CAUSE_EFFECT_RELATION 10977 11059	If air showers are used, only suitably clothed personnel shall be allowed to enter
+T154	ROOT_SENTENCE 10977 11060	If air showers are used, only suitably clothed personnel shall be allowed to enter.
+T155	VARIABLE 10821 10850	the contamination predictions
+T156	VARIABLE 10854 10888	when available actual measurements
+T157	OR 10821 10888	the contamination predictions or when available actual measurements
+T158	CONDITION 10890 10933	result in a higher than the specified level
+T159	STATEMENT 10821 10933	the contamination predictions or when available actual measurements, result in a higher than the specified level
+T160	KEY_C 10818 10820	If
+T161	CAUSE 10818 10933	If the contamination predictions or when available actual measurements, result in a higher than the specified level
+T162	KEY_C 10935 10939	then
+T163	VARIABLE 10940 10958	corrective actions
+T164	CONDITION 10959 10974	and implemented
+T165	STATEMENT 10940 10974	corrective actions and implemented
+T166	EFFECT 10935 10974	then corrective actions and implemented
+T167	CAUSE_EFFECT_RELATION 10818 10974	If the contamination predictions or when available actual measurements, result in a higher than the specified level, then corrective actions and implemented
+T168	ROOT_SENTENCE 10818 10975	If the contamination predictions or when available actual measurements, result in a higher than the specified level, then corrective actions and implemented.
+T169	VARIABLE 10730 10756	acceptable proton SEE data
+T170	CONDITION 10764 10773	available
+T171	NEGATION 10757 10773	is not available
+T172	STATEMENT 10730 10773	acceptable proton SEE data is not available
+T173	KEY_C 10727 10729	If
+T174	CAUSE 10727 10773	If acceptable proton SEE data is not available
+T175	VARIABLE 10775 10796	proton ground testing
+T176	CONDITION 10797 10815	shall be performed
+T177	STATEMENT 10775 10815	proton ground testing shall be performed
+T178	CAUSE_EFFECT_RELATION 10727 10815	If acceptable proton SEE data is not available, proton ground testing shall be performed
+T179	ROOT_SENTENCE 10727 10816	If acceptable proton SEE data is not available, proton ground testing shall be performed.
+T180	KEY_C 10556 10558	If
+T181	VARIABLE 10559 10562	one
+T182	CONDITION 10570 10579	delivered
+T183	NEGATION 10563 10579	is not delivered
+T184	STATEMENT 10559 10579	one is not delivered
+T185	CAUSE 10556 10579	If one is not delivered
+T186	VARIABLE 10581 10589	all data
+T187	CONDITION 10590 10652	shall be retained by the manufacturer for a minimum of 5 years
+T188	CONDITION 10658 10724	available during this time to the customer for review upon request
+T189	AND 10590 10724	shall be retained by the manufacturer for a minimum of 5 years, and available during this time to the customer for review upon request
+T190	STATEMENT 10581 10724	all data shall be retained by the manufacturer for a minimum of 5 years, and available during this time to the customer for review upon request
+T191	CAUSE_EFFECT_RELATION 10556 10724	If one is not delivered, all data shall be retained by the manufacturer for a minimum of 5 years, and available during this time to the customer for review upon request
+T192	ROOT_SENTENCE 10556 10725	If one is not delivered, all data shall be retained by the manufacturer for a minimum of 5 years, and available during this time to the customer for review upon request.
+T193	KEY_C 10405 10407	If
+T194	VARIABLE 10408 10435	the gaseous nitrogen supply
+T195	CONDITION 10436 10471	is connected to the ECS duct system
+T196	VARIABLE 10473 10476	ECS
+T197	CONDITION 10477 10553	shall include the capability of monitoring the oxygen content in the ducting
+T198	STATEMENT 10473 10553	ECS shall include the capability of monitoring the oxygen content in the ducting
+T199	STATEMENT 10408 10471	the gaseous nitrogen supply is connected to the ECS duct system
+T200	CAUSE 10405 10471	If the gaseous nitrogen supply is connected to the ECS duct system
+T201	CAUSE_EFFECT_RELATION 10405 10553	If the gaseous nitrogen supply is connected to the ECS duct system, ECS shall include the capability of monitoring the oxygen content in the ducting
+T202	ROOT_SENTENCE 10405 10554	If the gaseous nitrogen supply is connected to the ECS duct system, ECS shall include the capability of monitoring the oxygen content in the ducting.
+T203	VARIABLE 10285 10298	the equipment
+T204	CONDITION 10299 10306	is COTS
+T205	CAUSE 10282 10306	If the equipment is COTS
+T206	KEY_C 10282 10284	If
+T207	VARIABLE 10308 10332	the colors in Appendix A
+T208	CONDITION 10333 10402	should be used as guidance to make equipment consistent with other GS
+T209	STATEMENT 10308 10402	the colors in Appendix A should be used as guidance to make equipment consistent with other GS
+T210	CAUSE_EFFECT_RELATION 10282 10402	If the equipment is COTS, the colors in Appendix A should be used as guidance to make equipment consistent with other GS
+T211	ROOT_SENTENCE 10282 10403	If the equipment is COTS, the colors in Appendix A should be used as guidance to make equipment consistent with other GS.
+T212	VARIABLE 10156 10179	manufacturing equipment
+T213	CONDITION 10180 10233	is to be used after flight hardware processing begins
+T214	KEY_C 10153 10155	If
+T215	STATEMENT 10156 10233	manufacturing equipment is to be used after flight hardware processing begins
+T216	CAUSE 10153 10233	If manufacturing equipment is to be used after flight hardware processing begins
+T217	VARIABLE 10235 10237	it
+T218	CONDITION 10238 10279	must be designed to meet GSE requirements
+T219	STATEMENT 10235 10279	it must be designed to meet GSE requirements
+T220	CAUSE_EFFECT_RELATION 10153 10279	If manufacturing equipment is to be used after flight hardware processing begins, it must be designed to meet GSE requirements
+T221	ROOT_SENTENCE 10153 10280	If manufacturing equipment is to be used after flight hardware processing begins, it must be designed to meet GSE requirements.
+T222	KEY_C 10080 10082	If
+T223	VARIABLE 10083 10094	the residue
+T224	CONDITION 10095 10122	is visible to the naked eye
+T225	VARIABLE 10124 10135	the solvent
+T226	CONDITION 10143 10150	be used
+T227	NEGATION 10136 10150	cannot be used
+T228	STATEMENT 10124 10150	the solvent cannot be used
+T229	STATEMENT 10083 10122	the residue is visible to the naked eye
+T230	CAUSE 10080 10122	If the residue is visible to the naked eye
+T231	CAUSE_EFFECT_RELATION 10080 10150	If the residue is visible to the naked eye, the solvent cannot be used
+T232	ROOT_SENTENCE 10080 10151	If the residue is visible to the naked eye, the solvent cannot be used.
+T233	KEY_C 9981 9983	If
+T234	VARIABLE 9984 9991	the lid
+T235	CONDITION 9992 10015	is made of polyethylene
+T236	VARIABLE 10017 10025	the caps
+T237	CONDITION 10026 10077	can contain a slipping agent used during production
+T238	STATEMENT 10017 10077	the caps can contain a slipping agent used during production
+T239	STATEMENT 9984 10015	the lid is made of polyethylene
+T240	CAUSE 9981 10015	If the lid is made of polyethylene
+T241	CAUSE_EFFECT_RELATION 9981 10077	If the lid is made of polyethylene, the caps can contain a slipping agent used during production
+T242	ROOT_SENTENCE 9981 10078	If the lid is made of polyethylene, the caps can contain a slipping agent used during production.
+T243	KEY_C 9859 9861	If
+T244	CONDITION 9862 9870	there is
+T245	VARIABLE 9871 9894	a contamination problem
+T246	VARIABLE 9896 9911	witness plate 2
+T247	CONDITION 9912 9978	can be analysed in order to confirm the results of witness plate 1
+T248	STATEMENT 9896 9978	witness plate 2 can be analysed in order to confirm the results of witness plate 1
+T249	STATEMENT 9862 9894	there is a contamination problem
+T250	CAUSE 9859 9894	If there is a contamination problem
+T251	CAUSE_EFFECT_RELATION 9859 9978	If there is a contamination problem, witness plate 2 can be analysed in order to confirm the results of witness plate 1
+T252	ROOT_SENTENCE 9859 9979	If there is a contamination problem, witness plate 2 can be analysed in order to confirm the results of witness plate 1.
+T253	KEY_C 9714 9716	If
+T254	VARIABLE 9717 9722	there
+T257	CONDITION 9730 9782	contamination problem during the total exposure time
+T258	VARIABLE 9578 9591	contamination
+T259	CONDITION 9592 9615	is evident from plate 2
+T260	STATEMENT 9578 9615	contamination is evident from plate 2
+T261	KEY_C 9575 9577	If
+T262	VARIABLE 9622 9660	plate 1, the accumulated witness plate
+T263	KEY_C 9617 9621	then
+T264	CONDITION 9662 9711	can be analysed to confirm the results of plate 2
+T265	STATEMENT 9622 9711	plate 1, the accumulated witness plate, can be analysed to confirm the results of plate 2
+T266	EFFECT 9617 9711	then plate 1, the accumulated witness plate, can be analysed to confirm the results of plate 2
+T267	CAUSE 9575 9615	If contamination is evident from plate 2
+T268	CAUSE_EFFECT_RELATION 9575 9711	If contamination is evident from plate 2, then plate 1, the accumulated witness plate, can be analysed to confirm the results of plate 2
+T269	ROOT_SENTENCE 9575 9712	If contamination is evident from plate 2, then plate 1, the accumulated witness plate, can be analysed to confirm the results of plate 2.
+T270	VARIABLE 9445 9452	the lid
+T271	CONDITION 9453 9468	has to be taped
+T272	VARIABLE 9470 9513	an adhesive tape with low outgassing values
+T274	VARIABLE 9520 9556	polyimide tape with acrylic adhesive
+T275	NONE_CAUSAL 9514 9557	(e.g. polyimide tape with acrylic adhesive)
+T276	CONDITION 9558 9572	should be used
+T277	STATEMENT 9470 9572	an adhesive tape with low outgassing values (e.g. polyimide tape with acrylic adhesive) should be used
+T278	KEY_C 9442 9444	If
+T279	CAUSE 9442 9468	If the lid has to be taped
+T280	STATEMENT 9445 9468	the lid has to be taped
+T281	CAUSE_EFFECT_RELATION 9442 9572	If the lid has to be taped, an adhesive tape with low outgassing values (e.g. polyimide tape with acrylic adhesive) should be used
+T282	ROOT_SENTENCE 9442 9573	If the lid has to be taped, an adhesive tape with low outgassing values (e.g. polyimide tape with acrylic adhesive) should be used.
+T283	VARIABLE 9312 9343	different types of contaminants
+T284	CONDITION 9344 9364	are frequently found
+T285	KEY_C 9309 9311	If
+T286	STATEMENT 9312 9364	different types of contaminants are frequently found
+T287	CAUSE 9309 9364	If different types of contaminants are frequently found
+T288	VARIABLE 9366 9424	individual calibration curves for each type of contaminant
+T289	CONDITION 9425 9439	should be made
+T290	STATEMENT 9366 9439	individual calibration curves for each type of contaminant should be made
+T291	CAUSE_EFFECT_RELATION 9309 9439	If different types of contaminants are frequently found, individual calibration curves for each type of contaminant should be made
+T292	ROOT_SENTENCE 9309 9440	If different types of contaminants are frequently found, individual calibration curves for each type of contaminant should be made.
+T293	VARIABLE 9205 9231	the energy to the detector
+T294	CONDITION 9232 9243	is too high
+T295	STATEMENT 9205 9243	the energy to the detector is too high
+T296	KEY_C 9202 9204	If
+T297	CAUSE 9202 9243	If the energy to the detector is too high
+T298	VARIABLE 9245 9253	the beam
+T299	CONDITION 9265 9306	be made smaller by adjusting the aperture
+T300	NEGATION 9254 9306	should not be made smaller by adjusting the aperture
+T301	STATEMENT 9245 9306	the beam should not be made smaller by adjusting the aperture
+T302	CAUSE_EFFECT_RELATION 9202 9306	If the energy to the detector is too high, the beam should not be made smaller by adjusting the aperture
+T303	ROOT_SENTENCE 9202 9307	If the energy to the detector is too high, the beam should not be made smaller by adjusting the aperture.
+T304	VARIABLE 9089 9104	the contaminant
+T305	CONDITION 9105 9135	matches the standard materials
+T306	STATEMENT 9089 9135	the contaminant matches the standard materials
+T307	VARIABLE 9137 9148	this method
+T308	CONDITION 9149 9164	is quantitative
+T309	STATEMENT 9137 9164	this method is quantitative
+T310	KEY_NC 9166 9175	otherwise
+T311	VARIABLE 9176 9178	it
+T312	CONDITION 9179 9199	is semi-quantitative
+T313	STATEMENT 9176 9199	it is semi-quantitative
+T314	NONE_CAUSAL 9166 9199	otherwise it is semi-quantitative
+T315	CAUSE 9086 9135	If the contaminant matches the standard materials
+T316	KEY_C 9086 9088	If
+T317	CAUSE_EFFECT_RELATION 9086 9199	If the contaminant matches the standard materials, this method is quantitative, otherwise it is semi-quantitative
+T318	ROOT_SENTENCE 9086 9200	If the contaminant matches the standard materials, this method is quantitative, otherwise it is semi-quantitative.
+T255	NEGATION 9723 9782	was no contamination problem during the total exposure time
+T256	STATEMENT 9717 9782	there was no contamination problem during the total exposure time
+T321	CAUSE 9714 9782	If there was no contamination problem during the total exposure time
+T322	VARIABLE 9784 9791	plate 1
+T323	CONDITION 9792 9856	can be analysed to quantify the accumulated contamination levels
+T324	STATEMENT 9784 9856	plate 1 can be analysed to quantify the accumulated contamination levels
+T325	CAUSE_EFFECT_RELATION 9714 9856	If there was no contamination problem during the total exposure time, plate 1 can be analysed to quantify the accumulated contamination levels
+T326	ROOT_SENTENCE 9714 9857	If there was no contamination problem during the total exposure time, plate 1 can be analysed to quantify the accumulated contamination levels.
+T337	VARIABLE 8510 8535	Additional test equipment
+T338	CONDITION 8536 8547	may be used
+T339	KEY_C 8548 8550	if
+T340	VARIABLE 8551 8564	further tests
+T341	CONDITION 8565 8591	are invoked by the project
+T342	STATEMENT 8551 8591	further tests are invoked by the project
+T343	CAUSE 8548 8591	if further tests are invoked by the project
+T344	STATEMENT 8510 8547	Additional test equipment may be used
+T345	CAUSE_EFFECT_RELATION 8510 8591	Additional test equipment may be used if further tests are invoked by the project
+T346	ROOT_SENTENCE 8510 8592	Additional test equipment may be used if further tests are invoked by the project.
+T347	KEY_C 8309 8311	If
+T348	VARIABLE 8312 8314	it
+T349	CONDITION 8322 8362	practicable to test completed assemblies
+T350	NEGATION 8315 8362	is not practicable to test completed assemblies
+T351	STATEMENT 8312 8362	it is not practicable to test completed assemblies
+T352	CAUSE 8309 8362	If it is not practicable to test completed assemblies
+T353	VARIABLE 8364 8380	the manufacturer
+T354	CONDITION 8381 8507	shall submit samples made from the same materials and by the same processes as those used in the manufacture of the assemblies
+T355	STATEMENT 8364 8507	the manufacturer shall submit samples made from the same materials and by the same processes as those used in the manufacture of the assemblies
+T356	CAUSE_EFFECT_RELATION 8309 8507	If it is not practicable to test completed assemblies, the manufacturer shall submit samples made from the same materials and by the same processes as those used in the manufacture of the assemblies
+T357	VARIABLE 8163 8187	a black-anodized surface
+T358	CONDITION 8188 8197	is welded
+T359	VARIABLE 8199 8224	the impact of the welding
+T360	CONDITION 8225 8278	shall be validated with dedicated engineering samples
+T361	CONDITION 8283 8306	dedicated qualification
+T362	AND 8225 8306	shall be validated with dedicated engineering samples and dedicated qualification
+T363	STATEMENT 8199 8306	the impact of the welding shall be validated with dedicated engineering samples and dedicated qualification
+T364	STATEMENT 8163 8197	a black-anodized surface is welded
+T365	KEY_C 8160 8162	If
+T366	CAUSE 8160 8197	If a black-anodized surface is welded
+T367	CAUSE_EFFECT_RELATION 8160 8306	If a black-anodized surface is welded, the impact of the welding shall be validated with dedicated engineering samples and dedicated qualification
+T368	ROOT_SENTENCE 8160 8307	If a black-anodized surface is welded, the impact of the welding shall be validated with dedicated engineering samples and dedicated qualification.
+T369	VARIABLE 8031 8037	a part
+T370	CONDITION 8038 8062	contains welded elements
+T371	STATEMENT 8031 8062	a part contains welded elements
+T372	KEY_C 8028 8030	If
+T373	CAUSE 8028 8062	If a part contains welded elements
+T374	VARIABLE 8064 8089	a qualification programme
+T375	CONDITION 8090 8157	shall be set up to qualify the black-anodizing on the specific weld
+T376	STATEMENT 8064 8157	a qualification programme shall be set up to qualify the black-anodizing on the specific weld
+T377	CAUSE_EFFECT_RELATION 8028 8157	If a part contains welded elements, a qualification programme shall be set up to qualify the black-anodizing on the specific weld
+T378	ROOT_SENTENCE 8028 8158	If a part contains welded elements, a qualification programme shall be set up to qualify the black-anodizing on the specific weld.
+T379	VARIABLE 7805 7822	the initial audit
+T380	CONDITION 7823 7845	shows a nonconformance
+T381	VARIABLE 7847 7874	all necessary modifications
+T382	VARIABLE 7879 7897	corrective actions
+T383	AND 7847 7897	all necessary modifications and corrective actions
+T384	CONDITION 7898 7929	shall be made by the test house
+T385	VARIABLE 7934 7951	a follow-up audit
+T386	CONDITION 7952 7981	shall be made by the customer
+T387	VARIABLE 7989 8014	a certificate of approval
+T388	CONDITION 8015 8025	is granted
+T389	STATEMENT 7989 8025	a certificate of approval is granted
+T390	NONE_CAUSAL 7735 7739	Also
+T391	VARIABLE 7741 7760	infrared inspection
+T392	CONDITION 7761 7775	may be invoked
+T393	VARIABLE 7779 7799	considered necessary
+T394	KEY_C 7776 7778	if
+T395	CAUSE 7776 7799	if considered necessary
+T396	STATEMENT 7741 7775	infrared inspection may be invoked
+T397	CAUSE_EFFECT_RELATION 7735 7799	Also, infrared inspection may be invoked if considered necessary
+T398	ROOT_SENTENCE 7735 7800	Also, infrared inspection may be invoked if considered necessary.
+T399	VARIABLE 7674 7677	not
+T400	KEY_C 7671 7673	If
+T401	CAUSE 7671 7677	If not
+T402	VARIABLE 7679 7716	the ratio of metal mass to total mass
+T403	CONDITION 7717 7732	shall be stated
+T404	STATEMENT 7679 7732	the ratio of metal mass to total mass shall be stated
+T405	CAUSE_EFFECT_RELATION 7671 7732	If not, the ratio of metal mass to total mass shall be stated
+T406	ROOT_SENTENCE 7671 7733	If not, the ratio of metal mass to total mass shall be stated.
+T407	VARIABLE 7571 7584	the substrate
+T408	CONDITION 7585 7600	is non-metallic
+T409	STATEMENT 7571 7600	the substrate is non-metallic
+T410	KEY_C 7568 7570	If
+T411	CAUSE 7568 7600	If the substrate is non-metallic
+T412	VARIABLE 7602 7628	a sample of that substrate
+T413	CONDITION 7629 7668	shall be submitted for separate testing
+T414	STATEMENT 7602 7668	a sample of that substrate shall be submitted for separate testing
+T415	CAUSE_EFFECT_RELATION 7568 7668	If the substrate is non-metallic, a sample of that substrate shall be submitted for separate testing
+T416	ROOT_SENTENCE 7568 7669	If the substrate is non-metallic, a sample of that substrate shall be submitted for separate testing.
+T417	VARIABLE 7478 7487	a process
+T418	CONDITION 7488 7516	is considered to be critical
+T419	VARIABLE 7518 7548	references to the relevant RFA
+T420	CONDITION 7549 7565	shall be entered
+T421	STATEMENT 7518 7565	references to the relevant RFA shall be entered
+T422	STATEMENT 7478 7516	a process is considered to be critical
+T423	KEY_C 7475 7477	If
+T424	CAUSE 7475 7516	If a process is considered to be critical
+T425	CAUSE_EFFECT_RELATION 7475 7565	If a process is considered to be critical, references to the relevant RFA shall be entered
+T426	ROOT_SENTENCE 7475 7566	If a process is considered to be critical, references to the relevant RFA shall be entered.
+T427	VARIABLE 7356 7364	approval
+T428	CONDITION 7372 7380	be given
+T429	VARIABLE 7385 7407	one of the other codes
+T430	CONDITION 7408 7419	are entered
+T431	STATEMENT 7385 7419	one of the other codes are entered
+T432	NEGATION 7365 7380	cannot be given
+T433	STATEMENT 7356 7380	approval cannot be given
+T434	AND 7356 7419	approval cannot be given and one of the other codes are entered
+T435	CAUSE 7353 7419	If approval cannot be given and one of the other codes are entered
+T436	KEY_C 7353 7355	If
+T437	VARIABLE 7421 7429	comments
+T438	CONDITION 7430 7472	shall be entered in the appropriate column
+T439	STATEMENT 7421 7472	comments shall be entered in the appropriate column
+T440	CAUSE_EFFECT_RELATION 7353 7472	If approval cannot be given and one of the other codes are entered, comments shall be entered in the appropriate column
+T441	ROOT_SENTENCE 7353 7473	If approval cannot be given and one of the other codes are entered, comments shall be entered in the appropriate column.
+T442	VARIABLE 7239 7256	a mechanical part
+T443	CONDITION 7257 7279	is considered critical
+T444	KEY_C 7236 7238	If
+T445	STATEMENT 7239 7279	a mechanical part is considered critical
+T446	CAUSE 7236 7279	If a mechanical part is considered critical
+T447	VARIABLE 7280 7310	the reason for the criticality
+T448	VARIABLE 7315 7333	methods of control
+T449	AND 7280 7333	the reason for the criticality and methods of control
+T450	CONDITION 7334 7350	shall be entered
+T451	STATEMENT 7280 7350	the reason for the criticality and methods of control shall be entered
+T452	CAUSE_EFFECT_RELATION 7236 7350	If a mechanical part is considered critical the reason for the criticality and methods of control shall be entered
+T453	ROOT_SENTENCE 7236 7351	If a mechanical part is considered critical the reason for the criticality and methods of control shall be entered.
+T454	VARIABLE 7159 7168	tradename
+T455	CONDITION 7169 7175	exists
+T456	STATEMENT 7159 7175	tradename exists
+T457	NEGATION 7156 7175	no tradename exists
+T458	KEY_C 7153 7155	If
+T459	CAUSE 7153 7175	If no tradename exists
+T460	KEY_C 7177 7181	then
+T461	VARIABLE 7182 7205	the manufacturers’ name
+T462	VARIABLE 7210 7216	number
+T463	AND 7182 7216	the manufacturers’ name and number
+T464	CONDITION 7217 7233	shall be entered
+T465	STATEMENT 7182 7233	the manufacturers’ name and number shall be entered
+T466	EFFECT 7177 7233	then the manufacturers’ name and number shall be entered
+T467	CAUSE_EFFECT_RELATION 7153 7233	If no tradename exists, then the manufacturers’ name and number shall be entered
+T468	ROOT_SENTENCE 7153 7234	If no tradename exists, then the manufacturers’ name and number shall be entered.
+T469	VARIABLE 7034 7042	approval
+T470	CONDITION 7050 7058	be given
+T471	VARIABLE 7063 7085	one of the other codes
+T472	CONDITION 7086 7097	are entered
+T473	STATEMENT 7063 7097	one of the other codes are entered
+T474	NEGATION 7043 7058	cannot be given
+T475	STATEMENT 7034 7058	approval cannot be given
+T476	AND 7034 7097	approval cannot be given and one of the other codes are entered
+T477	KEY_C 7031 7033	If
+T478	CAUSE 7031 7097	If approval cannot be given and one of the other codes are entered
+T479	VARIABLE 7099 7107	comments
+T480	CONDITION 7108 7150	shall be entered in the appropriate column
+T481	STATEMENT 7099 7150	comments shall be entered in the appropriate column
+T482	ROOT_SENTENCE 7031 7151	If approval cannot be given and one of the other codes are entered, comments shall be entered in the appropriate column.
+T483	VARIABLE 6912 6925	the CI number
+T484	CONDITION 6933 6960	included in the list header
+T485	NEGATION 6926 6960	is not included in the list header
+T486	STATEMENT 6912 6960	the CI number is not included in the list header
+T487	KEY_C 6909 6911	If
+T488	CAUSE 6909 6960	If the CI number is not included in the list header
+T489	KEY_C 6962 6966	then
+T490	VARIABLE 6967 7016	a suitable abbreviation of the relevant subsystem
+T491	CONDITION 7017 7028	is included
+T492	STATEMENT 6967 7028	a suitable abbreviation of the relevant subsystem is included
+T493	EFFECT 6962 7028	then a suitable abbreviation of the relevant subsystem is included
+T494	CAUSE_EFFECT_RELATION 6909 7028	If the CI number is not included in the list header, then a suitable abbreviation of the relevant subsystem is included
+T495	ROOT_SENTENCE 6909 7029	If the CI number is not included in the list header, then a suitable abbreviation of the relevant subsystem is included.
+T496	VARIABLE 6810 6823	several lines
+T497	CONDITION 6824 6859	are used for different applications
+T498	CONDITION 6863 6873	processing
+T499	OR 6824 6873	are used for different applications or processing
+T500	STATEMENT 6810 6873	several lines are used for different applications or processing
+T501	KEY_C 6807 6809	If
+T502	CAUSE 6807 6873	If several lines are used for different applications or processing
+T503	VARIABLE 6875 6891	sub-item numbers
+T504	CONDITION 6892 6906	shall be added
+T505	STATEMENT 6875 6906	sub-item numbers shall be added
+T506	CAUSE_EFFECT_RELATION 6807 6906	If several lines are used for different applications or processing, sub-item numbers shall be added
+T507	ROOT_SENTENCE 6807 6907	If several lines are used for different applications or processing, sub-item numbers shall be added.
+T518	VARIABLE 6482 6508	The following requirements
+T519	CONDITION 6509 6541	shall only be taken into account
+T520	KEY_C 6542 6544	if
+T521	VARIABLE 6545 6588	the environmental conditions of the mission
+T522	CONDITION 6589 6614	require their application
+T523	STATEMENT 6545 6614	the environmental conditions of the mission require their application
+T524	CAUSE 6542 6614	if the environmental conditions of the mission require their application
+T525	STATEMENT 6482 6541	The following requirements shall only be taken into account
+T526	CAUSE_EFFECT_RELATION 6482 6614	The following requirements shall only be taken into account if the environmental conditions of the mission require their application
+T527	ROOT_SENTENCE 6482 6615	The following requirements shall only be taken into account if the environmental conditions of the mission require their application.
+T528	VARIABLE 6300 6329	the application surge current
+T529	CONDITION 6330 6340	is limited
+T530	STATEMENT 6300 6340	the application surge current is limited
+T531	CAUSE 6297 6340	If the application surge current is limited
+T532	KEY_C 6297 6299	If
+T533	VARIABLE 6342 6367	the customer organization
+T534	CONDITION 6368 6427	shall approve the application of steady state voltage ratio
+T535	KEY_NC 6428 6433	where
+T536	VARIABLE 6434 6460	repetitive inrush currents
+T537	CONDITION 6468 6479	exceed 10 A
+T538	NEGATION 6461 6479	do not exceed 10 A
+T539	STATEMENT 6434 6479	repetitive inrush currents do not exceed 10 A
+T540	NONE_CAUSAL 6428 6479	where repetitive inrush currents do not exceed 10 A
+T541	STATEMENT 6342 6427	the customer organization shall approve the application of steady state voltage ratio
+T542	CAUSE_EFFECT_RELATION 6297 6479	If the application surge current is limited, the customer organization shall approve the application of steady state voltage ratio where repetitive inrush currents do not exceed 10 A
+T543	ROOT_SENTENCE 6297 6480	If the application surge current is limited, the customer organization shall approve the application of steady state voltage ratio where repetitive inrush currents do not exceed 10 A.
+T544	VARIABLE 6201 6212	A component
+T545	CONDITION 6213 6239	operates in a reliable way
+T546	KEY_C 6240 6242	if
+T547	VARIABLE 6243 6265	its parameter strength
+T548	CONDITION 6266 6294	exceeds the parameter stress
+T549	STATEMENT 6243 6294	its parameter strength exceeds the parameter stress
+T550	CAUSE 6240 6294	if its parameter strength exceeds the parameter stress
+T551	STATEMENT 6201 6239	A component operates in a reliable way
+T552	CAUSE_EFFECT_RELATION 6201 6294	A component operates in a reliable way if its parameter strength exceeds the parameter stress
+T553	ROOT_SENTENCE 6201 6295	A component operates in a reliable way if its parameter strength exceeds the parameter stress.
+T559	VARIABLE 5773 5783	a document
+T560	CONDITION 5784 5818	is delivered before being complete
+T561	VARIABLE 5820 5857	each page with incomplete information
+T562	CONDITION 5858 5881	shall be clearly marked
+T563	STATEMENT 5773 5818	a document is delivered before being complete
+T564	CAUSE 5770 5818	If a document is delivered before being complete
+T565	KEY_C 5770 5772	If
+T566	STATEMENT 5820 5881	each page with incomplete information shall be clearly marked
+T567	CAUSE_EFFECT_RELATION 5770 5881	If a document is delivered before being complete, each page with incomplete information shall be clearly marked
+T568	ROOT_SENTENCE 5770 5882	If a document is delivered before being complete, each page with incomplete information shall be clearly marked.
+T569	VARIABLE 5591 5650	simultaneous changes of operational modes for several items
+T570	CONDITION 5651 5662	are planned
+T571	KEY_C 5588 5590	If
+T572	STATEMENT 5591 5662	simultaneous changes of operational modes for several items are planned
+T573	CAUSE 5588 5662	If simultaneous changes of operational modes for several items are planned
+T574	VARIABLE 5664 5722	pin-point them for further consideration in the next tasks
+T575	VARIABLE 5724 5728	they
+T576	CONDITION 5729 5766	are possible sources of sneak timings
+T577	NONE_CAUSAL 5724 5766	they are possible sources of sneak timings
+T578	CAUSE_EFFECT_RELATION 5588 5767	If simultaneous changes of operational modes for several items are planned, pin-point them for further consideration in the next tasks (they are possible sources of sneak timings)
+T579	ROOT_SENTENCE 5588 5768	If simultaneous changes of operational modes for several items are planned, pin-point them for further consideration in the next tasks (they are possible sources of sneak timings).
+T582	VARIABLE 5261 5328	perform a bibliographic research or consult experts on these issues
+T583	KEY_C 5171 5173	If
+T584	VARIABLE 5178 5186	familiar
+T585	CONDITION 5187 5207	with some key design
+T586	CONDITION 5211 5259	technology issues addressed in the documentation
+T587	OR 5187 5259	with some key design or technology issues addressed in the documentation
+T588	STATEMENT 5178 5259	familiar with some key design or technology issues addressed in the documentation
+T589	NEGATION 5174 5259	not familiar with some key design or technology issues addressed in the documentation
+T590	CAUSE 5171 5259	If not familiar with some key design or technology issues addressed in the documentation
+T591	CAUSE_EFFECT_RELATION 5171 5328	If not familiar with some key design or technology issues addressed in the documentation, perform a bibliographic research or consult experts on these issues
+T592	ROOT_SENTENCE 5171 5329	If not familiar with some key design or technology issues addressed in the documentation, perform a bibliographic research or consult experts on these issues.
+T593	VARIABLE 5041 5045	mass
+T594	VARIABLE 5047 5053	energy
+T595	VARIABLE 5055 5059	data
+T596	VARIABLE 5063 5083	logical control flow
+T597	CONDITION 5084 5168	along intended paths without respecting the intended dynamic behaviour of the system
+T598	OR 5055 5083	data or logical control flow
+T599	OR 5047 5083	energy, data or logical control flow
+T600	OR 5041 5083	mass, energy, data or logical control flow
+T601	STATEMENT 5041 5168	mass, energy, data or logical control flow along intended paths without respecting the intended dynamic behaviour of the system
+T602	KEY_C 5038 5040	if
+T603	CAUSE 5038 5168	if mass, energy, data or logical control flow along intended paths without respecting the intended dynamic behaviour of the system
+T604	KEY_C 4997 5006	Therefore
+T605	VARIABLE 5007 5020	sneak timings
+T606	CONDITION 5021 5037	could also occur
+T607	STATEMENT 5007 5037	sneak timings could also occur
+T608	EFFECT 4997 5037	Therefore sneak timings could also occur
+T609	CAUSE_EFFECT_RELATION 4997 5168	Therefore sneak timings could also occur if mass, energy, data or logical control flow along intended paths without respecting the intended dynamic behaviour of the system
+T610	ROOT_SENTENCE 4997 5169	Therefore sneak timings could also occur if mass, energy, data or logical control flow along intended paths without respecting the intended dynamic behaviour of the system.
+T611	KEY_C 4695 4697	If
+T612	VARIABLE 4698 4750	the material used for the parent metal shear-section
+T613	CONDITION 4751 4774	is 304L stainless steel
+T614	STATEMENT 4698 4774	the material used for the parent metal shear-section is 304L stainless steel
+T615	CAUSE 4695 4774	If the material used for the parent metal shear-section is 304L stainless steel
+T616	VARIABLE 4776 4805	checklist items 14 through 17
+T617	CONDITION 4813 4818	apply
+T618	NEGATION 4806 4818	do not apply
+T619	STATEMENT 4776 4818	checklist items 14 through 17 do not apply
+T620	CAUSE_EFFECT_RELATION 4695 4818	If the material used for the parent metal shear-section is 304L stainless steel, checklist items 14 through 17 do not apply
+T621	ROOT_SENTENCE 4695 4819	If the material used for the parent metal shear-section is 304L stainless steel, checklist items 14 through 17 do not apply.
+T622	KEY_C 4510 4512	if
+T623	VARIABLE 4513 4517	they
+T624	CONDITION 4518 4566	will meet the stress/force analysis requirements
+T625	VARIABLE 4458 4476	The standard yield
+T626	VARIABLE 4481 4497	tensile strength
+T627	AND 4458 4497	The standard yield and tensile strength
+T628	CONDITION 4498 4509	may be used
+T629	STATEMENT 4458 4509	The standard yield and tensile strength may be used
+T630	CAUSE_EFFECT_RELATION 4458 4566	The standard yield and tensile strength may be used if they will meet the stress/force analysis requirements
+T631	STATEMENT 4513 4566	they will meet the stress/force analysis requirements
+T632	CAUSE 4510 4566	if they will meet the stress/force analysis requirements
+T633	ROOT_SENTENCE 4458 4567	The standard yield and tensile strength may be used if they will meet the stress/force analysis requirements.
+T634	VARIABLE 4315 4334	Separate procedures
+T635	KEY_C 4371 4373	if
+T636	VARIABLE 4374 4384	activities
+T637	CONDITION 4385 4455	are controlled by the implementation of parent organization procedures
+T638	CONDITION 4343 4370	required in the latter case
+T639	NEGATION 4335 4370	are not required in the latter case
+T640	STATEMENT 4315 4370	Separate procedures are not required in the latter case
+T641	STATEMENT 4374 4455	activities are controlled by the implementation of parent organization procedures
+T642	CAUSE 4371 4455	if activities are controlled by the implementation of parent organization procedures
+T643	CAUSE_EFFECT_RELATION 4315 4455	Separate procedures are not required in the latter case if activities are controlled by the implementation of parent organization procedures
+T644	ROOT_SENTENCE 4315 4456	Separate procedures are not required in the latter case if activities are controlled by the implementation of parent organization procedures.
+T645	VARIABLE 4173 4191	the final Customer
+T646	CONDITION 4192 4260	reserves the right to attend DRB’s at any lower level as an observer
+T647	VARIABLE 4262 4264	he
+T648	CONDITION 4265 4312	shall be given due notice of such a DRB meeting
+T649	STATEMENT 4262 4312	he shall be given due notice of such a DRB meeting
+T650	STATEMENT 4173 4260	the final Customer reserves the right to attend DRB’s at any lower level as an observer
+T651	KEY_C 4170 4172	If
+T652	CAUSE 4170 4260	If the final Customer reserves the right to attend DRB’s at any lower level as an observer
+T653	CAUSE_EFFECT_RELATION 4170 4312	If the final Customer reserves the right to attend DRB’s at any lower level as an observer, he shall be given due notice of such a DRB meeting
+T654	ROOT_SENTENCE 4170 4313	If the final Customer reserves the right to attend DRB’s at any lower level as an observer, he shall be given due notice of such a DRB meeting.
+T655	VARIABLE 4034 4048	This criterion
+T656	CONDITION 4059 4064	apply
+T657	NEGATION 4049 4064	shall not apply
+T658	STATEMENT 4034 4064	This criterion shall not apply
+T659	KEY_C 4065 4067	if
+T660	VARIABLE 4068 4080	the Supplier
+T661	CONDITION 4089 4104	furnished items
+T662	CONDITION 4108 4167	services of the type being procured for more than two years
+T663	OR 4089 4167	furnished items or services of the type being procured for more than two years
+T664	NEGATION 4081 4167	has not furnished items or services of the type being procured for more than two years
+T665	STATEMENT 4068 4167	the Supplier has not furnished items or services of the type being procured for more than two years
+T666	CAUSE 4065 4167	if the Supplier has not furnished items or services of the type being procured for more than two years
+T667	CAUSE_EFFECT_RELATION 4034 4167	This criterion shall not apply if the Supplier has not furnished items or services of the type being procured for more than two years
+T668	ROOT_SENTENCE 4034 4168	This criterion shall not apply if the Supplier has not furnished items or services of the type being procured for more than two years.
+T672	KEY_C 3741 3743	If
+T674	VARIABLE 3744 3750	a unit
+T675	CONDITION 3751 3787	is composed of many complex elements
+T676	CONDITION 3791 3798	modules
+T677	OR 3751 3798	is composed of many complex elements or modules
+T678	STATEMENT 3744 3798	a unit is composed of many complex elements or modules
+T679	CAUSE 3741 3798	If a unit is composed of many complex elements or modules
+T680	VARIABLE 3800 3802	it
+T681	CONDITION 3803 3857	may be necessary to provide a lower level of breakdown
+T682	STATEMENT 3800 3857	it may be necessary to provide a lower level of breakdown
+T683	CAUSE_EFFECT_RELATION 3741 3857	If a unit is composed of many complex elements or modules, it may be necessary to provide a lower level of breakdown
+T684	ROOT_SENTENCE 3741 3858	If a unit is composed of many complex elements or modules, it may be necessary to provide a lower level of breakdown.
+T685	VARIABLE 3468 3472	This
+T686	CONDITION 3473 3482	can occur
+T687	KEY_C 3483 3485	if
+T688	VARIABLE 3486 3530	the physical process underlying the ensemble
+T689	CONDITION 3531 3576	is known well enough to predict its behaviour
+T690	STATEMENT 3486 3576	the physical process underlying the ensemble is known well enough to predict its behaviour
+T691	CAUSE 3483 3576	if the physical process underlying the ensemble is known well enough to predict its behaviour
+T692	STATEMENT 3468 3482	This can occur
+T693	CAUSE_EFFECT_RELATION 3468 3576	This can occur if the physical process underlying the ensemble is known well enough to predict its behaviour
+T694	ROOT_SENTENCE 3468 3577	This can occur if the physical process underlying the ensemble is known well enough to predict its behaviour.
+T695	NEGATION 3389 3392	not
+T696	KEY_C 3386 3388	If
+T697	CAUSE 3386 3392	If not
+T698	VARIABLE 3394 3403	Table B?3
+T699	CONDITION 3404 3465	shows how to find the means and variances for Gaussian errors
+T700	STATEMENT 3394 3465	Table B?3 shows how to find the means and variances for Gaussian errors
+T701	CAUSE_EFFECT_RELATION 3386 3465	If not, Table B?3 shows how to find the means and variances for Gaussian errors
+T702	ROOT_SENTENCE 3386 3466	If not, Table B?3 shows how to find the means and variances for Gaussian errors.
+T703	KEY_C 3353 3355	if
+T704	VARIABLE 3356 3374	the time variation
+T705	CONDITION 3375 3383	is known
+T706	STATEMENT 3356 3383	the time variation is known
+T707	CAUSE 3353 3383	if the time variation is known
+T708	VARIABLE 3244 3252	the mean
+T709	VARIABLE 3257 3265	variance
+T710	AND 3244 3265	the mean and variance
+T711	CONDITION 3266 3319	used in the budget relates to the variation over time
+T712	CONDITION 3325 3352	can be derived analytically
+T713	AND 3266 3352	used in the budget relates to the variation over time, and can be derived analytically
+T714	STATEMENT 3244 3352	the mean and variance used in the budget relates to the variation over time, and can be derived analytically
+T715	NONE_CAUSAL 3230 3242	In this case
+T716	CAUSE_EFFECT_RELATION 3230 3383	In this case, the mean and variance used in the budget relates to the variation over time, and can be derived analytically if the time variation is known
+T717	ROOT_SENTENCE 3230 3384	In this case, the mean and variance used in the budget relates to the variation over time, and can be derived analytically if the time variation is known.
+T718	VARIABLE 3083 3096	The situation
+T719	CONDITION 3097 3116	is more complicated
+T720	STATEMENT 3083 3116	The situation is more complicated
+T721	KEY_C 3117 3119	if
+T722	VARIABLE 3120 3135	the total error
+T723	CONDITION 3143 3171	a linear sum of contributors
+T724	NEGATION 3136 3171	is not a linear sum of contributors
+T725	CAUSE 3117 3171	if the total error is not a linear sum of contributors
+T726	STATEMENT 3120 3171	the total error is not a linear sum of contributors
+T727	KEY_NC 3173 3175	as
+T728	VARIABLE 3176 3191	the final error
+T729	CONDITION 3201 3227	have Gaussian distribution
+T730	NEGATION 3192 3227	does not have Gaussian distribution
+T731	STATEMENT 3176 3227	the final error does not have Gaussian distribution
+T732	NONE_CAUSAL 3173 3227	as the final error does not have Gaussian distribution
+T733	CAUSE_EFFECT_RELATION 3083 3227	The situation is more complicated if the total error is not a linear sum of contributors, as the final error does not have Gaussian distribution
+T734	ROOT_SENTENCE 3083 3228	The situation is more complicated if the total error is not a linear sum of contributors, as the final error does not have Gaussian distribution.
+T735	KEY_C 2903 2905	If
+T736	VARIABLE 2906 2921	the requirement
+T737	CONDITION 2922 2960	is at a high confidence (e.g. 99,73 %)
+T738	KEY_C 2961 2965	then
+T739	VARIABLE 2966 3033	small differences in the behaviour of the tails of the distribution
+T740	CONDITION 3034 3080	changes whether the system is compliant or not
+T741	STATEMENT 2966 3080	small differences in the behaviour of the tails of the distribution changes whether the system is compliant or not
+T742	EFFECT 2961 3080	then small differences in the behaviour of the tails of the distribution changes whether the system is compliant or not
+T743	STATEMENT 2906 2960	the requirement is at a high confidence (e.g. 99,73 %)
+T744	CAUSE 2903 2960	If the requirement is at a high confidence (e.g. 99,73 %)
+T745	CAUSE_EFFECT_RELATION 2903 3080	If the requirement is at a high confidence (e.g. 99,73 %) then small differences in the behaviour of the tails of the distribution changes whether the system is compliant or not
+T746	ROOT_SENTENCE 2903 3081	If the requirement is at a high confidence (e.g. 99,73 %) then small differences in the behaviour of the tails of the distribution changes whether the system is compliant or not.
+T747	KEY_C 2741 2743	If
+T748	VARIABLE 2744 2755	the mission
+T750	KEY_C 2826 2830	then
+T751	VARIABLE 2831 2863	the duration of this observation
+T752	CONDITION 2864 2900	should be used in the PDE definition
+T753	STATEMENT 2831 2900	the duration of this observation should be used in the PDE definition
+T754	EFFECT 2826 2900	then the duration of this observation should be used in the PDE definition
+T755	CONDITION 2756 2824	makes an extended observation, over many payload integration periods
+T749	STATEMENT 2744 2824	the mission makes an extended observation, over many payload integration periods
+T756	CAUSE 2741 2824	If the mission makes an extended observation, over many payload integration periods
+T757	CAUSE_EFFECT_RELATION 2741 2900	If the mission makes an extended observation, over many payload integration periods, then the duration of this observation should be used in the PDE definition
+T758	ROOT_SENTENCE 2741 2901	If the mission makes an extended observation, over many payload integration periods, then the duration of this observation should be used in the PDE definition.
+T759	KEY_C 2595 2597	If
+T760	VARIABLE 2598 2612	the spacecraft
+T761	CONDITION 2613 2668	is taking a succession of images, each lasting 1 minute
+T762	KEY_C 2670 2674	then
+T763	VARIABLE 2675 2688	all averaging
+T764	CONDITION 2689 2738	should be done over a 1 minute observation period
+T765	STATEMENT 2675 2738	all averaging should be done over a 1 minute observation period
+T766	EFFECT 2670 2738	then all averaging should be done over a 1 minute observation period
+T767	STATEMENT 2598 2668	the spacecraft is taking a succession of images, each lasting 1 minute
+T768	CAUSE 2595 2668	If the spacecraft is taking a succession of images, each lasting 1 minute
+T769	CAUSE_EFFECT_RELATION 2595 2738	If the spacecraft is taking a succession of images, each lasting 1 minute, then all averaging should be done over a 1 minute observation period
+T770	ROOT_SENTENCE 2595 2739	If the spacecraft is taking a succession of images, each lasting 1 minute, then all averaging should be done over a 1 minute observation period.
+T771	VARIABLE 2490 2504	Often there is
+T772	CONDITION 2505 2545	an obvious choice for the averaging time
+T773	STATEMENT 2490 2545	Often there is an obvious choice for the averaging time
+T774	KEY_C 2547 2560	especially if
+T775	VARIABLE 2561 2570	there are
+T776	CONDITION 2571 2592	discrete observations
+T777	STATEMENT 2561 2592	there are discrete observations
+T778	CAUSE 2547 2592	especially if there are discrete observations
+T779	CAUSE_EFFECT_RELATION 2490 2592	Often there is an obvious choice for the averaging time, especially if there are discrete observations
+T780	ROOT_SENTENCE 2490 2593	Often there is an obvious choice for the averaging time, especially if there are discrete observations.
+T781	KEY_C 2346 2348	If
+T782	VARIABLE 2349 2365	other indicators
+T783	CONDITION 2366 2394	are selected by the supplier
+T784	VARIABLE 2396 2410	this deviation
+T785	CONDITION 2411 2429	shall be justified
+T786	CONDITION 2434 2487	the relationship with the default ones be established
+T787	AND 2411 2487	shall be justified and the relationship with the default ones be established
+T788	STATEMENT 2396 2487	this deviation shall be justified and the relationship with the default ones be established
+T789	STATEMENT 2349 2394	other indicators are selected by the supplier
+T790	CAUSE 2346 2394	If other indicators are selected by the supplier
+T791	CAUSE_EFFECT_RELATION 2346 2487	If other indicators are selected by the supplier, this deviation shall be justified and the relationship with the default ones be established
+T792	ROOT_SENTENCE 2346 2488	If other indicators are selected by the supplier, this deviation shall be justified and the relationship with the default ones be established.
+T793	VARIABLE 2266 2287	a particular variance
+T794	CONDITION 2288 2299	is dominant
+T795	STATEMENT 2266 2299	a particular variance is dominant
+T796	KEY_C 2263 2265	If
+T797	CAUSE 2263 2299	If a particular variance is dominant
+T798	VARIABLE 2301 2315	its statistics
+T799	CONDITION 2316 2343	shall be treated separately
+T800	STATEMENT 2301 2343	its statistics shall be treated separately
+T801	CAUSE_EFFECT_RELATION 2263 2343	If a particular variance is dominant, its statistics shall be treated separately
+T802	ROOT_SENTENCE 2263 2344	If a particular variance is dominant, its statistics shall be treated separately.
+T327	NEGATION 7982 8025	before a certificate of approval is granted
+T328	KEY_C 7982 7988	before
+T329	STATEMENT 7934 7981	a follow-up audit shall be made by the customer
+T330	STATEMENT 7847 7929	all necessary modifications and corrective actions shall be made by the test house
+T331	AND 7847 7981	all necessary modifications and corrective actions shall be made by the test house and a follow-up audit shall be made by the customer
+T332	CAUSE_EFFECT_RELATION 7847 8025	all necessary modifications and corrective actions shall be made by the test house and a follow-up audit shall be made by the customer before a certificate of approval is granted
+T333	STATEMENT 7805 7845	the initial audit shows a nonconformance
+T334	KEY_C 7802 7804	If
+T335	CAUSE 7802 7845	If the initial audit shows a nonconformance
+T336	CAUSE_EFFECT_RELATION 7802 8025	If the initial audit shows a nonconformance, all necessary modifications and corrective actions shall be made by the test house and a follow-up audit shall be made by the customer before a certificate of approval is granted
+T508	ROOT_SENTENCE 7802 8026	If the initial audit shows a nonconformance, all necessary modifications and corrective actions shall be made by the test house and a follow-up audit shall be made by the customer before a certificate of approval is granted.
+T509	ROOT_SENTENCE 8309 8508	If it is not practicable to test completed assemblies, the manufacturer shall submit samples made from the same materials and by the same processes as those used in the manufacture of the assemblies.
+T319	STATEMENT 13378 13412	the item is at one end of the list
+T320	STATEMENT 13417 13491	the next button activation would remove the item from that end of the list
+T510	STATEMENT 13493 13558	the item is allowed to “wrap around” to the other end of the list
+T511	AND 13378 13491	the item is at one end of the list and the next button activation would remove the item from that end of the list
+T512	CAUSE 13375 13491	If the item is at one end of the list and the next button activation would remove the item from that end of the list
+T513	CAUSE_EFFECT_RELATION 13375 13558	If the item is at one end of the list and the next button activation would remove the item from that end of the list, the item is allowed to “wrap around” to the other end of the list
+T514	ROOT_SENTENCE 13375 13559	If the item is at one end of the list and the next button activation would remove the item from that end of the list, the item is allowed to “wrap around” to the other end of the list.
+T515	KEY_C 13634 13638	once
+T516	CAUSE 13634 13674	once the item is moved into the new list
+T517	CAUSE_EFFECT_RELATION 13634 13709	once the item is moved into the new list it is deleted from the source list
+T554	CAUSE_EFFECT_RELATION 13561 13709	If multiples of the same item are not allowed in the list being created, once the item is moved into the new list it is deleted from the source list
+T555	ROOT_SENTENCE 13561 13710	If multiples of the same item are not allowed in the list being created, once the item is moved into the new list it is deleted from the source list.
+T116	CONDITION 11363 11407	shall audit before using the modified system

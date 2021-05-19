@@ -1,0 +1,769 @@
+T1	VARIABLE 0 38	The NAS ground-based navigational aids
+T2	CONDITION 39 100	shall terminate transmittal of a unique identification signal
+T3	VARIABLE 106 112	system
+T4	CONDITION 113 142	is taken off-line for testing
+T5	KEY_C 101 105	when
+T6	STATEMENT 106 142	system is taken off-line for testing
+T7	CAUSE 101 142	when system is taken off-line for testing
+T8	STATEMENT 0 100	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal
+T9	CAUSE_EFFECT_RELATION 0 142	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal when system is taken off-line for testing
+T10	ROOT_SENTENCE 0 143	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal when system is taken off-line for testing.
+T11	KEY_C 239 243	when
+T12	VARIABLE 244 246	it
+T13	CONDITION 260 285	maintain normal operation
+T14	NEGATION 247 285	is unable to maintain normal operation
+T15	STATEMENT 244 285	it is unable to maintain normal operation
+T16	CAUSE 239 285	when it is unable to maintain normal operation
+T17	VARIABLE 145 152	The NAS
+T18	CONDITION 153 204	shall provide ARTCC to notify its backup facilities
+T19	CONDITION 206 226	associated terminals
+T20	CONDITION 228 238	and ARTCCC
+T21	AND 206 238	associated terminals, and ARTCCC
+T22	AND 153 238	shall provide ARTCC to notify its backup facilities, associated terminals, and ARTCCC
+T23	STATEMENT 145 238	The NAS shall provide ARTCC to notify its backup facilities, associated terminals, and ARTCCC
+T24	CAUSE_EFFECT_RELATION 145 285	The NAS shall provide ARTCC to notify its backup facilities, associated terminals, and ARTCCC when it is unable to maintain normal operation
+T25	ROOT_SENTENCE 145 286	The NAS shall provide ARTCC to notify its backup facilities, associated terminals, and ARTCCC when it is unable to maintain normal operation.
+T26	VARIABLE 288 295	The NAS
+T27	CONDITION 296 319	shall alert specialists
+T28	KEY_C 320 324	when
+T29	VARIABLE 325 350	an inbound aircraft track
+T30	CONDITION 351 367	entering an ADIZ
+T31	CONDITION 368 410	fails to correlated to a known flight plan
+T32	CONDITION 411 461	within a means response time of 0.6 of the failure
+T33	AND 368 461	fails to correlated to a known flight plan within a means response time of 0.6 of the failure
+T34	AND 351 461	entering an ADIZ fails to correlated to a known flight plan within a means response time of 0.6 of the failure
+T35	STATEMENT 325 461	an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a means response time of 0.6 of the failure
+T36	CAUSE 320 461	when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a means response time of 0.6 of the failure
+T37	STATEMENT 288 319	The NAS shall alert specialists
+T38	CAUSE_EFFECT_RELATION 288 461	The NAS shall alert specialists when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a means response time of 0.6 of the failure
+T39	ROOT_SENTENCE 288 462	The NAS shall alert specialists when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a means response time of 0.6 of the failure.
+T40	VARIABLE 464 471	The NAS
+T41	CONDITION 472 495	shall alert specialists
+T42	KEY_C 496 500	when
+T43	VARIABLE 501 526	an inbound aircraft track
+T44	CONDITION 527 543	entering an ADIZ
+T45	CONDITION 544 586	fails to correlated to a known flight plan
+T46	CONDITION 587 639	within a maximum response time of 3.0 of the failure
+T47	AND 544 639	fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure
+T48	AND 527 639	entering an ADIZ fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure
+T49	STATEMENT 501 639	an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure
+T50	CAUSE 496 639	when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure
+T51	STATEMENT 464 495	The NAS shall alert specialists
+T52	CAUSE_EFFECT_RELATION 464 639	The NAS shall alert specialists when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure
+T53	ROOT_SENTENCE 464 640	The NAS shall alert specialists when an inbound aircraft track entering an ADIZ fails to correlated to a known flight plan within a maximum response time of 3.0 of the failure.
+T54	VARIABLE 642 649	The NAS
+T55	CONDITION 650 685	shall issue automated visual alerts
+T56	KEY_C 686 690	when
+T57	VARIABLE 691 718	potential surface conflicts
+T58	CONDITION 719 790	are predicted on the movement area environment at designated aerodromes
+T59	STATEMENT 691 790	potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T60	CAUSE 686 790	when potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T61	STATEMENT 642 685	The NAS shall issue automated visual alerts
+T62	CAUSE_EFFECT_RELATION 642 790	The NAS shall issue automated visual alerts when potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T63	ROOT_SENTENCE 642 791	The NAS shall issue automated visual alerts when potential surface conflicts are predicted on the movement area environment at designated aerodromes.
+T64	VARIABLE 793 800	The NAS
+T65	CONDITION 801 835	shall issue automated aural alerts
+T66	KEY_C 836 840	when
+T67	VARIABLE 841 868	potential surface conflicts
+T68	CONDITION 869 940	are predicted on the movement area environment at designated aerodromes
+T69	STATEMENT 841 940	potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T70	CAUSE 836 940	when potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T71	STATEMENT 793 835	The NAS shall issue automated aural alerts
+T72	CAUSE_EFFECT_RELATION 793 940	The NAS shall issue automated aural alerts when potential surface conflicts are predicted on the movement area environment at designated aerodromes
+T73	ROOT_SENTENCE 793 941	The NAS shall issue automated aural alerts when potential surface conflicts are predicted on the movement area environment at designated aerodromes.
+T74	VARIABLE 943 950	The NAS
+T75	CONDITION 951 986	shall issue automated visual alerts
+T76	KEY_C 987 991	when
+T77	VARIABLE 992 1016	actual surface conflicts
+T78	CONDITION 1017 1087	are detected on the movement area environment at designated aerodromes
+T79	STATEMENT 992 1087	actual surface conflicts are detected on the movement area environment at designated aerodromes
+T80	CAUSE 987 1087	when actual surface conflicts are detected on the movement area environment at designated aerodromes
+T81	STATEMENT 943 986	The NAS shall issue automated visual alerts
+T82	CAUSE_EFFECT_RELATION 943 1087	The NAS shall issue automated visual alerts when actual surface conflicts are detected on the movement area environment at designated aerodromes
+T83	ROOT_SENTENCE 943 1088	The NAS shall issue automated visual alerts when actual surface conflicts are detected on the movement area environment at designated aerodromes.
+T84	VARIABLE 1090 1097	The NAS
+T85	CONDITION 1098 1132	shall issue automated aural alerts
+T86	KEY_C 1133 1137	when
+T87	VARIABLE 1138 1162	actual surface conflicts
+T88	CONDITION 1163 1233	are detected on the movement area environment at designated aerodromes
+T89	STATEMENT 1138 1233	actual surface conflicts are detected on the movement area environment at designated aerodromes
+T90	CAUSE 1133 1233	when actual surface conflicts are detected on the movement area environment at designated aerodromes
+T91	STATEMENT 1090 1132	The NAS shall issue automated aural alerts
+T92	CAUSE_EFFECT_RELATION 1090 1233	The NAS shall issue automated aural alerts when actual surface conflicts are detected on the movement area environment at designated aerodromes
+T93	ROOT_SENTENCE 1090 1234	The NAS shall issue automated aural alerts when actual surface conflicts are detected on the movement area environment at designated aerodromes.
+T94	VARIABLE 1236 1243	The NAS
+T95	CONDITION 1244 1307	shall establish communications between controllers and aircraft
+T96	CONDITION 1309 1327	via visual signals
+T97	KEY_C 1328 1332	when
+T98	VARIABLE 1333 1338	voice
+T99	VARIABLE 1342 1361	data communications
+T100	CONDITION 1362 1366	fail
+T101	CONDITION 1370 1385	are unavailable
+T102	OR 1362 1385	fail or are unavailable
+T103	OR 1333 1361	voice or data communications
+T104	STATEMENT 1333 1385	voice or data communications fail or are unavailable
+T105	CAUSE 1328 1385	when voice or data communications fail or are unavailable
+T106	AND 1244 1327	shall establish communications between controllers and aircraft, via visual signals
+T107	STATEMENT 1236 1327	The NAS shall establish communications between controllers and aircraft, via visual signals
+T108	CAUSE_EFFECT_RELATION 1236 1385	The NAS shall establish communications between controllers and aircraft, via visual signals when voice or data communications fail or are unavailable
+T109	ROOT_SENTENCE 1236 1386	The NAS shall establish communications between controllers and aircraft, via visual signals when voice or data communications fail or are unavailable.
+T110	VARIABLE 1388 1395	The NAS
+T111	CONDITION 1396 1419	shall alert specialists
+T112	KEY_C 1420 1424	when
+T113	VARIABLE 1425 1443	malicious activity
+T114	CONDITION 1444 1455	is detected
+T115	STATEMENT 1425 1455	malicious activity is detected
+T116	CAUSE 1420 1455	when malicious activity is detected
+T117	STATEMENT 1388 1419	The NAS shall alert specialists
+T118	CAUSE_EFFECT_RELATION 1388 1455	The NAS shall alert specialists when malicious activity is detected
+T119	ROOT_SENTENCE 1388 1456	The NAS shall alert specialists when malicious activity is detected.
+T120	KEY_C 1458 1462	When
+T121	VARIABLE 1463 1481	these requirements
+T122	CONDITION 1482 1495	become mature
+T123	CONDITION 1500 1529	have been reviewed by the FAA
+T124	AND 1482 1529	become mature and have been reviewed by the FAA
+T125	STATEMENT 1463 1529	these requirements become mature and have been reviewed by the FAA
+T126	CAUSE 1458 1529	When these requirements become mature and have been reviewed by the FAA
+T127	VARIABLE 1531 1535	they
+T128	CONDITION 1536 1566	will be added to this document
+T129	STATEMENT 1531 1566	they will be added to this document
+T130	CAUSE_EFFECT_RELATION 1458 1566	When these requirements become mature and have been reviewed by the FAA, they will be added to this document
+T131	ROOT_SENTENCE 1458 1567	When these requirements become mature and have been reviewed by the FAA, they will be added to this document.
+T132	KEY_C 1569 1573	When
+T133	VARIABLE 1574 1607	the provisions of ASPR-7-104.9(n)
+T134	CONDITION 1616 1623	invoked
+T135	NEGATION 1608 1623	are not invoked
+T136	STATEMENT 1574 1623	the provisions of ASPR-7-104.9(n) are not invoked
+T137	CAUSE 1569 1623	When the provisions of ASPR-7-104.9(n) are not invoked
+T138	VARIABLE 1625 1649	the data specified below
+T139	CONDITION 1650 1685	will be delivered by the contractor
+T140	CONDITION 1686 1730	in accordance with the contract requirements
+T141	AND 1650 1730	will be delivered by the contractor in accordance with the contract requirements
+T142	STATEMENT 1625 1730	the data specified below will be delivered by the contractor in accordance with the contract requirements
+T143	CAUSE_EFFECT_RELATION 1569 1730	When the provisions of ASPR-7-104.9(n) are not invoked, the data specified below will be delivered by the contractor in accordance with the contract requirements
+T144	ROOT_SENTENCE 1569 1731	When the provisions of ASPR-7-104.9(n) are not invoked, the data specified below will be delivered by the contractor in accordance with the contract requirements.
+T145	KEY_C 1733 1737	When
+T146	CONDITION 1738 1768	viewed from the perspective of
+T147	VARIABLE 1769 1795	a specific project context
+T148	STATEMENT 1738 1795	viewed from the perspective of a specific project context
+T149	CAUSE 1733 1795	When viewed from the perspective of a specific project context
+T150	VARIABLE 1797 1838	the requirements defined in this Standard
+T151	CONDITION 1839 1915	should be tailored to match the genuine requirements of a particular profile
+T152	CONDITION 1920 1946	circumstances of a project
+T153	AND 1839 1946	should be tailored to match the genuine requirements of a particular profile and circumstances of a project
+T154	STATEMENT 1797 1946	the requirements defined in this Standard should be tailored to match the genuine requirements of a particular profile and circumstances of a project
+T155	CAUSE_EFFECT_RELATION 1733 1946	When viewed from the perspective of a specific project context, the requirements defined in this Standard should be tailored to match the genuine requirements of a particular profile and circumstances of a project
+T156	KEY_C 1949 1953	When
+T157	VARIABLE 1954 1958	this
+T158	CONDITION 1966 1974	feasible
+T159	NEGATION 1959 1974	is not feasible
+T160	STATEMENT 1954 1974	this is not feasible
+T161	CAUSE 1949 1974	When this is not feasible
+T162	KEY_C 1976 1988	as a minimum
+T163	VARIABLE 1990 1995	power
+T164	VARIABLE 2001 2008	signals
+T165	VARIABLE 2013 2022	telemetry
+T166	AND 2001 2022	signals and telemetry
+T167	AND 1990 2022	power, and signals and telemetry
+T168	CONDITION 2023 2120	shall be separated in the connector by a set of unused pins in order to avoid failure propagation
+T169	STATEMENT 1990 2120	power, and signals and telemetry shall be separated in the connector by a set of unused pins in order to avoid failure propagation
+T170	EFFECT 1976 2120	as a minimum, power, and signals and telemetry shall be separated in the connector by a set of unused pins in order to avoid failure propagation
+T171	CAUSE_EFFECT_RELATION 1949 2120	When this is not feasible, as a minimum, power, and signals and telemetry shall be separated in the connector by a set of unused pins in order to avoid failure propagation
+T172	ROOT_SENTENCE 1949 2121	When this is not feasible, as a minimum, power, and signals and telemetry shall be separated in the connector by a set of unused pins in order to avoid failure propagation.
+T173	KEY_C 2123 2127	When
+T174	VARIABLE 2128 2146	multiple batteries
+T175	CONDITION 2147 2170	are connected in series
+T176	CONDITION 2174 2185	in parallel
+T177	OR 2147 2185	are connected in series or in parallel
+T178	STATEMENT 2128 2185	multiple batteries are connected in series or in parallel
+T179	CAUSE 2123 2185	When multiple batteries are connected in series or in parallel
+T180	VARIABLE 2187 2208	matching requirements
+T181	CONDITION 2209 2249	shall extend to these multiple batteries
+T182	STATEMENT 2187 2249	matching requirements shall extend to these multiple batteries
+T183	CAUSE_EFFECT_RELATION 2123 2249	When multiple batteries are connected in series or in parallel, matching requirements shall extend to these multiple batteries
+T184	ROOT_SENTENCE 2123 2250	When multiple batteries are connected in series or in parallel, matching requirements shall extend to these multiple batteries.
+T190	KEY_C 2460 2464	when
+T191	VARIABLE 2465 2472	shorted
+T192	CAUSE 2460 2472	when shorted
+T193	VARIABLE 2410 2414	Most
+T194	CONDITION 2415 2459	are capable of delivering very high currents
+T195	STATEMENT 2410 2459	Most are capable of delivering very high currents
+T196	CAUSE_EFFECT_RELATION 2410 2472	Most are capable of delivering very high currents when shorted
+T197	ROOT_SENTENCE 2410 2473	Most are capable of delivering very high currents when shorted.
+T198	KEY_C 2475 2479	When
+T199	VARIABLE 2480 2486	abused
+T200	CAUSE 2475 2486	When abused
+T201	VARIABLE 2488 2493	cells
+T202	CONDITION 2494 2533	can develop excessive internal pressure
+T203	CONDITION 2538 2598	eventually vent their contents, in extreme cases explosively
+T204	AND 2494 2598	can develop excessive internal pressure and eventually vent their contents, in extreme cases explosively
+T205	STATEMENT 2488 2598	cells can develop excessive internal pressure and eventually vent their contents, in extreme cases explosively
+T206	CAUSE_EFFECT_RELATION 2475 2598	When abused, cells can develop excessive internal pressure and eventually vent their contents, in extreme cases explosively
+T207	ROOT_SENTENCE 2475 2599	When abused, cells can develop excessive internal pressure and eventually vent their contents, in extreme cases explosively.
+T208	VARIABLE 2601 2617	This requirement
+T209	CONDITION 2618 2667	shall also be applicable on an inter-system basis
+T210	KEY_C 2669 2673	when
+T211	VARIABLE 2674 2699	an inter-system interface
+T212	CONDITION 2700 2711	is required
+T213	STATEMENT 2601 2667	This requirement shall also be applicable on an inter-system basis
+T214	STATEMENT 2674 2711	an inter-system interface is required
+T215	CAUSE 2669 2711	when an inter-system interface is required
+T216	CAUSE_EFFECT_RELATION 2601 2711	This requirement shall also be applicable on an inter-system basis, when an inter-system interface is required
+T217	ROOT_SENTENCE 2601 2712	This requirement shall also be applicable on an inter-system basis, when an inter-system interface is required.
+T218	VARIABLE 2714 2768	Impedance magnitudes over the affected signal spectrum
+T219	CONDITION 2769 2796	shall be taken into account
+T220	KEY_C 2797 2801	when
+T223	VARIABLE 2839 2885	signals share common paths (wire or structure)
+T224	AND 2802 2885	determining which kinds of power and signals share common paths (wire or structure)
+T226	CAUSE 2797 2885	when determining which kinds of power and signals share common paths (wire or structure)
+T227	STATEMENT 2714 2796	Impedance magnitudes over the affected signal spectrum shall be taken into account
+T228	ROOT_SENTENCE 2714 2886	Impedance magnitudes over the affected signal spectrum shall be taken into account when determining which kinds of power and signals share common paths (wire or structure).
+T229	CAUSE_EFFECT_RELATION 2714 2885	Impedance magnitudes over the affected signal spectrum shall be taken into account when determining which kinds of power and signals share common paths (wire or structure)
+T230	KEY_C 15766 15770	When
+T231	VARIABLE 15771 15800	the string dumping conditions
+T232	CONDITION 15801 15815	are well known
+T233	VARIABLE 15817 15821	they
+T234	CONDITION 15822 15881	can be simulated by inserting a pertinent serial resistance
+T235	STATEMENT 15817 15881	they can be simulated by inserting a pertinent serial resistance
+T236	STATEMENT 15771 15815	the string dumping conditions are well known
+T237	CAUSE 15766 15815	When the string dumping conditions are well known
+T238	CAUSE_EFFECT_RELATION 15766 15881	When the string dumping conditions are well known, they can be simulated by inserting a pertinent serial resistance
+T239	ROOT_SENTENCE 15766 15882	When the string dumping conditions are well known, they can be simulated by inserting a pertinent serial resistance.
+T240	KEY_C 15695 15699	When
+T241	VARIABLE 15700 15714	another method
+T242	CONDITION 15715 15722	is used
+T243	VARIABLE 15724 15738	this procedure
+T244	CONDITION 15739 15763	is modified consequently
+T245	STATEMENT 15724 15763	this procedure is modified consequently
+T246	STATEMENT 15700 15722	another method is used
+T247	CAUSE 15695 15722	When another method is used
+T248	CAUSE_EFFECT_RELATION 15695 15763	When another method is used, this procedure is modified consequently
+T249	ROOT_SENTENCE 15695 15764	When another method is used, this procedure is modified consequently.
+T250	VARIABLE 15602 15623	The success criterion
+T251	CONDITION 15624 15635	is achieved
+T252	KEY_C 15636 15640	when
+T253	VARIABLE 15641 15655	the transition
+T254	CONDITION 15656 15692	is made in less than one microsecond
+T255	STATEMENT 15641 15692	the transition is made in less than one microsecond
+T256	CAUSE 15636 15692	when the transition is made in less than one microsecond
+T257	STATEMENT 15602 15635	The success criterion is achieved
+T258	CAUSE_EFFECT_RELATION 15602 15692	The success criterion is achieved when the transition is made in less than one microsecond
+T259	ROOT_SENTENCE 15602 15693	The success criterion is achieved when the transition is made in less than one microsecond.
+T260	VARIABLE 15478 15514	Inverted voltage gradient discharges
+T261	CONDITION 15515 15542	have been observed to start
+T262	KEY_C 15543 15547	when
+T263	VARIABLE 15548 15587	potential differences of over 100 volts
+T264	CONDITION 15588 15599	are applied
+T265	STATEMENT 15548 15599	potential differences of over 100 volts are applied
+T266	STATEMENT 15478 15542	Inverted voltage gradient discharges have been observed to start
+T267	CAUSE 15543 15599	when potential differences of over 100 volts are applied
+T268	CAUSE_EFFECT_RELATION 15478 15599	Inverted voltage gradient discharges have been observed to start when potential differences of over 100 volts are applied
+T269	ROOT_SENTENCE 15478 15600	Inverted voltage gradient discharges have been observed to start when potential differences of over 100 volts are applied.
+T270	VARIABLE 15365 15374	Discharge
+T271	VARIABLE 15378 15387	breakdown
+T272	OR 15365 15387	Discharge or breakdown
+T273	CONDITION 15388 15394	occurs
+T274	KEY_C 15395 15399	when
+T275	VARIABLE 15400 15432	the stress due to electric force
+T276	CONDITION 15433 15475	exceeds the cohesion force in the material
+T277	STATEMENT 15400 15475	the stress due to electric force exceeds the cohesion force in the material
+T278	STATEMENT 15365 15394	Discharge or breakdown occurs
+T279	CAUSE 15395 15475	when the stress due to electric force exceeds the cohesion force in the material
+T280	CAUSE_EFFECT_RELATION 15365 15475	Discharge or breakdown occurs when the stress due to electric force exceeds the cohesion force in the material
+T281	ROOT_SENTENCE 15365 15476	Discharge or breakdown occurs when the stress due to electric force exceeds the cohesion force in the material.
+T282	KEY_C 15268 15272	When
+T283	VARIABLE 15273 15293	this conductive path
+T284	CONDITION 15294 15304	is created
+T285	VARIABLE 15306 15311	power
+T286	CONDITION 15312 15336	is diverted from the arc
+T287	CONDITION 15341 15362	the arcing site cools
+T288	AND 15312 15362	is diverted from the arc and the arcing site cools
+T289	STATEMENT 15306 15362	power is diverted from the arc and the arcing site cools
+T290	STATEMENT 15273 15304	this conductive path is created
+T291	CAUSE 15268 15304	When this conductive path is created
+T292	CAUSE_EFFECT_RELATION 15268 15362	When this conductive path is created, power is diverted from the arc and the arcing site cools
+T293	ROOT_SENTENCE 15268 15363	When this conductive path is created, power is diverted from the arc and the arcing site cools.
+T294	VARIABLE 15181 15194	The discharge
+T295	CONDITION 15195 15209	is interrupted
+T296	KEY_C 15210 15214	when
+T297	VARIABLE 15215 15220	there
+T298	CONDITION 15232 15265	available charge on the conductor
+T299	NEGATION 15221 15265	is no more available charge on the conductor
+T300	STATEMENT 15215 15265	there is no more available charge on the conductor
+T301	CAUSE 15210 15265	when there is no more available charge on the conductor
+T302	STATEMENT 15181 15209	The discharge is interrupted
+T303	CAUSE_EFFECT_RELATION 15181 15265	The discharge is interrupted when there is no more available charge on the conductor
+T304	ROOT_SENTENCE 15181 15266	The discharge is interrupted when there is no more available charge on the conductor.
+T305	KEY_C 15067 15069	So
+T306	KEY_C 15133 15137	when
+T307	CONDITION 15138 15144	heated
+T309	VARIABLE 15145 15178	by the increasing current density
+T310	STATEMENT 15138 15178	heated by the increasing current density
+T308	CAUSE 15133 15178	when heated by the increasing current density
+T311	VARIABLE 15071 15093	the process avalanches
+T312	CONDITION 15094 15131	only limited by the fusion of the tip
+T313	STATEMENT 15071 15131	the process avalanches only limited by the fusion of the tip
+T314	CAUSE_EFFECT_RELATION 15067 15178	So, the process avalanches only limited by the fusion of the tip, when heated by the increasing current density
+T315	ROOT_SENTENCE 15067 15179	So, the process avalanches only limited by the fusion of the tip, when heated by the increasing current density.
+T316	EFFECT 15067 15131	So, the process avalanches only limited by the fusion of the tip
+T317	KEY_C 14834 14838	When
+T318	VARIABLE 14839 14865	the voltage of a conductor
+T319	CONDITION 14866 14895	exceeds some hundred of volts
+T320	STATEMENT 14839 14895	the voltage of a conductor exceeds some hundred of volts
+T321	CAUSE 14834 14895	When the voltage of a conductor exceeds some hundred of volts
+T322	KEY_C 14897 14899	if
+T323	VARIABLE 14900 14920	the curvature radius
+T324	CONDITION 14921 14936	is small enough
+T325	STATEMENT 14900 14936	the curvature radius is small enough
+T326	CAUSE 14897 14936	if the curvature radius is small enough
+T327	AND 14834 14936	When the voltage of a conductor exceeds some hundred of volts, if the curvature radius is small enough
+T328	VARIABLE 14938 14967	the electric field on the tip
+T329	CONDITION 14968 15008	is sufficient to generate field emission
+T330	KEY_NC 15010 15014	also
+T331	VARIABLE 15015 15063	called cold emission or Fowler‐Nordheim emission
+T332	NONE_CAUSAL 15010 15063	also called cold emission or Fowler‐Nordheim emission
+T333	STATEMENT 14938 15008	the electric field on the tip is sufficient to generate field emission
+T334	CAUSE_EFFECT_RELATION 14834 15064	When the voltage of a conductor exceeds some hundred of volts, if the curvature radius is small enough, the electric field on the tip is sufficient to generate field emission (also called cold emission or Fowler‐Nordheim emission)
+T335	ROOT_SENTENCE 14834 15065	When the voltage of a conductor exceeds some hundred of volts, if the curvature radius is small enough, the electric field on the tip is sufficient to generate field emission (also called cold emission or Fowler‐Nordheim emission).
+T336	KEY_C 14552 14556	When
+T337	VARIABLE 14557 14587	the configuration of the field
+T338	VARIABLE 14591 14607	of the potential
+T339	CONDITION 14608 14624	becomes critical
+T340	OR 14557 14607	the configuration of the field or of the potential
+T341	STATEMENT 14557 14624	the configuration of the field or of the potential becomes critical
+T342	CAUSE 14552 14624	When the configuration of the field or of the potential becomes critical
+T344	KEY_C 3043 3047	When
+T345	VARIABLE 3048 3069	an alternate material
+T346	VARIABLE 3073 3080	process
+T347	CONDITION 3081 3091	is desired
+T348	OR 3048 3080	an alternate material or process
+T349	STATEMENT 3048 3091	an alternate material or process is desired
+T350	CAUSE 3043 3091	When an alternate material or process is desired
+T351	VARIABLE 3093 3167	approval of the procuring activity’s cognizant engineering authority (CEA)
+T352	CONDITION 3168 3179	is required
+T353	STATEMENT 3093 3179	approval of the procuring activity’s cognizant engineering authority (CEA) is required
+T354	CAUSE_EFFECT_RELATION 3043 3179	When an alternate material or process is desired, approval of the procuring activity’s cognizant engineering authority (CEA) is required
+T355	ROOT_SENTENCE 3043 3180	When an alternate material or process is desired, approval of the procuring activity’s cognizant engineering authority (CEA) is required.
+T356	KEY_C 3182 3186	When
+T357	VARIABLE 3187 3198	such action
+T358	CONDITION 3199 3216	has been approved
+T359	VARIABLE 3218 3229	those areas
+T360	CONDITION 3230 3248	shall be retouched
+T361	CONDITION 3249 3308	in accordance with the detailed paint schedule for the part
+T362	AND 3230 3308	shall be retouched in accordance with the detailed paint schedule for the part
+T363	STATEMENT 3218 3308	those areas shall be retouched in accordance with the detailed paint schedule for the part
+T364	STATEMENT 3187 3216	such action has been approved
+T365	CAUSE 3182 3216	When such action has been approved
+T366	CAUSE_EFFECT_RELATION 3182 3308	When such action has been approved, those areas shall be retouched in accordance with the detailed paint schedule for the part
+T367	ROOT_SENTENCE 3182 3309	When such action has been approved, those areas shall be retouched in accordance with the detailed paint schedule for the part.
+T368	KEY_C 3311 3315	When
+T369	VARIABLE 3316 3325	a topcoat
+T370	CONDITION 3326 3359	is required for interior surfaces
+T371	VARIABLE 3426 3440	those surfaces
+T372	CONDITION 3441 3451	are primed
+T373	CONDITION 3456 3483	topcoated prior to assembly
+T374	AND 3441 3483	are primed and topcoated prior to assembly
+T375	STATEMENT 3426 3483	those surfaces are primed and topcoated prior to assembly
+T376	KEY_NC 3361 3368	such as
+T377	VARIABLE 3369 3395	to prevent fluid intrusion
+T378	VARIABLE 3399 3420	to enhance visibility
+T379	OR 3369 3420	to prevent fluid intrusion or to enhance visibility
+T380	NONE_CAUSAL 3361 3420	such as to prevent fluid intrusion or to enhance visibility
+T381	STATEMENT 3316 3359	a topcoat is required for interior surfaces
+T382	AND 3316 3483	a topcoat is required for interior surfaces, such as to prevent fluid intrusion or to enhance visibility, and those surfaces are primed and topcoated prior to assembly
+T383	CAUSE 3311 3483	When a topcoat is required for interior surfaces, such as to prevent fluid intrusion or to enhance visibility, and those surfaces are primed and topcoated prior to assembly
+T384	VARIABLE 3485 3498	a finish coat
+T385	CONDITION 3499 3536	shall be applied after final assembly
+T386	STATEMENT 3485 3536	a finish coat shall be applied after final assembly
+T387	CAUSE_EFFECT_RELATION 3311 3536	When a topcoat is required for interior surfaces, such as to prevent fluid intrusion or to enhance visibility, and those surfaces are primed and topcoated prior to assembly, a finish coat shall be applied after final assembly
+T388	ROOT_SENTENCE 3311 3537	When a topcoat is required for interior surfaces, such as to prevent fluid intrusion or to enhance visibility, and those surfaces are primed and topcoated prior to assembly, a finish coat shall be applied after final assembly.
+T389	KEY_C 3539 3543	When
+T390	VARIABLE 3544 3560	liquid/cast shim
+T391	CONDITION 3561 3568	is used
+T392	VARIABLE 3570 3589	fay surface sealing
+T393	CONDITION 3590 3607	is still required
+T394	STATEMENT 3570 3607	fay surface sealing is still required
+T395	STATEMENT 3544 3568	liquid/cast shim is used
+T396	CAUSE 3539 3568	When liquid/cast shim is used
+T397	CAUSE_EFFECT_RELATION 3539 3607	When liquid/cast shim is used, fay surface sealing is still required
+T398	ROOT_SENTENCE 3539 3608	When liquid/cast shim is used, fay surface sealing is still required.
+T399	KEY_C 3610 3614	When
+T400	VARIABLE 3615 3629	fayed surfaces
+T401	CONDITION 3630 3654	are of dissimilar metals
+T402	VARIABLE 3656 3660	they
+T403	CONDITION 3661 3718	shall be sealed with sealant conforming to SAE-AMS-S-8802
+T405	CONDITION 3720 3733	MIL-PRF-81733
+T406	CONDITION 3735 3746	SAE-AMS3265
+T407	CONDITION 3748 3759	SAE-AMS3276
+T408	CONDITION 3761 3772	SAE-AMS3277
+T409	CONDITION 3777 3788	SAE-AMS3281
+T410	VARIABLE 3797 3845	prior CEA authorization for alternative sealants
+T411	CONDITION 3846 3857	is provided
+T412	STATEMENT 3797 3857	prior CEA authorization for alternative sealants is provided
+T413	CAUSE 3860 3880	For new acquisitions
+T414	KEY_C 3882 3886	when
+T415	CONDITION 3887 3928	installed in interior aluminum structures
+T416	CAUSE 3882 3928	when installed in interior aluminum structures
+T417	VARIABLE 3930 3956	all non-aluminum fasteners
+T418	KEY_C 4091 4095	When
+T419	VARIABLE 4096 4118	a solid film lubricant
+T420	CONDITION 4119 4126	is used
+T421	VARIABLE 4128 4130	it
+T422	CONDITION 4131 4147	shall be applied
+T423	CONDITION 4152 4186	completely cured prior to assembly
+T424	AND 4131 4186	shall be applied and completely cured prior to assembly
+T425	STATEMENT 4128 4186	it shall be applied and completely cured prior to assembly
+T426	STATEMENT 4096 4126	a solid film lubricant is used
+T427	CAUSE 4091 4126	When a solid film lubricant is used
+T428	CAUSE_EFFECT_RELATION 4091 4186	When a solid film lubricant is used, it shall be applied and completely cured prior to assembly
+T429	VARIABLE 4381 4391	Exceptions
+T430	CONDITION 4392 4403	may be made
+T431	KEY_C 4404 4408	when
+T432	VARIABLE 4409 4430	the part manufacturer
+T433	VARIABLE 4434 4461	a relevant technical manual
+T434	OR 4409 4461	the part manufacturer or a relevant technical manual
+T435	CONDITION 4462 4489	require parts to be greased
+T436	CONDITION 4493 4498	oiled
+T437	CONDITION 4499 4520	prior to installation
+T438	CONDITION 4524 4556	when placed in long-term storage
+T439	OR 4462 4498	require parts to be greased or oiled
+T440	OR 4499 4556	prior to installation or when placed in long-term storage
+T441	OR 4462 4556	require parts to be greased or oiled prior to installation or when placed in long-term storage
+T442	OR 4409 4556	the part manufacturer or a relevant technical manual require parts to be greased or oiled prior to installation or when placed in long-term storage
+T443	CAUSE 4404 4556	when the part manufacturer or a relevant technical manual require parts to be greased or oiled prior to installation or when placed in long-term storage
+T444	STATEMENT 4381 4403	Exceptions may be made
+T445	CAUSE_EFFECT_RELATION 4381 4556	Exceptions may be made when the part manufacturer or a relevant technical manual require parts to be greased or oiled prior to installation or when placed in long-term storage
+T446	ROOT_SENTENCE 4381 4557	Exceptions may be made when the part manufacturer or a relevant technical manual require parts to be greased or oiled prior to installation or when placed in long-term storage.
+T447	KEY_C 4559 4563	When
+T448	CONDITION 4564 4589	it is necessary to obtain
+T449	VARIABLE 4590 4598	the data
+T450	STATEMENT 4564 4598	it is necessary to obtain the data
+T451	CAUSE 4559 4598	When it is necessary to obtain the data
+T452	VARIABLE 4600 4618	the applicable DID
+T453	CONDITION 4619 4687	must be listed on the Contract Data Requirements List (DD Form 1423)
+T454	STATEMENT 4600 4687	the applicable DID must be listed on the Contract Data Requirements List (DD Form 1423)
+T455	CAUSE_EFFECT_RELATION 4559 4687	When it is necessary to obtain the data, the applicable DID must be listed on the Contract Data Requirements List (DD Form 1423)
+T456	ROOT_SENTENCE 4559 4688	When it is necessary to obtain the data, the applicable DID must be listed on the Contract Data Requirements List (DD Form 1423).
+T457	VARIABLE 4798 4802	This
+T458	CONDITION 4803 4812	can occur
+T459	KEY_C 4813 4817	when
+T460	VARIABLE 4832 4839	a robot
+T461	CONDITION 4840 4893	grapples the body to which it is physically connected
+T462	KEY_C 4898 4902	when
+T463	VARIABLE 4903 4917	two spacecraft
+T464	CONDITION 4918 4937	are docked together
+T465	NONE_CAUSAL 4819 4830	for example
+T466	STATEMENT 4832 4893	a robot grapples the body to which it is physically connected
+T467	STATEMENT 4903 4937	two spacecraft are docked together
+T468	CAUSE 4813 4893	when, for example, a robot grapples the body to which it is physically connected
+T469	CAUSE 4898 4937	when two spacecraft are docked together
+T470	OR 4813 4937	when, for example, a robot grapples the body to which it is physically connected, or when two spacecraft are docked together
+T471	STATEMENT 4798 4812	This can occur
+T472	CAUSE_EFFECT_RELATION 4798 4937	This can occur when, for example, a robot grapples the body to which it is physically connected, or when two spacecraft are docked together
+T473	ROOT_SENTENCE 4798 4938	This can occur when, for example, a robot grapples the body to which it is physically connected, or when two spacecraft are docked together.
+T484	KEY_C 5176 5180	When
+T485	VARIABLE 5181 5190	necessary
+T486	VARIABLE 5192 5202	pretension
+T487	VARIABLE 5207 5219	spin effects
+T488	CONDITION 5220 5237	shall be included
+T489	AND 5192 5219	pretension and spin effects
+T490	STATEMENT 5192 5237	pretension and spin effects shall be included
+T491	CAUSE 5176 5190	When necessary
+T492	CAUSE_EFFECT_RELATION 5176 5237	When necessary, pretension and spin effects shall be included
+T493	ROOT_SENTENCE 5176 5238	When necessary, pretension and spin effects shall be included.
+T494	VARIABLE 5240 5248	Clipping
+T495	CONDITION 5249 5255	occurs
+T496	KEY_C 5256 5260	when
+T497	VARIABLE 5261 5310	the range of the input signal voltages to the ADC
+T498	CONDITION 5311 5347	is larger than the ADC voltage range
+T499	STATEMENT 5261 5347	the range of the input signal voltages to the ADC is larger than the ADC voltage range
+T500	CAUSE 5256 5347	when the range of the input signal voltages to the ADC is larger than the ADC voltage range
+T501	STATEMENT 5240 5255	Clipping occurs
+T502	CAUSE_EFFECT_RELATION 5240 5347	Clipping occurs when the range of the input signal voltages to the ADC is larger than the ADC voltage range
+T503	ROOT_SENTENCE 5240 5348	Clipping occurs when the range of the input signal voltages to the ADC is larger than the ADC voltage range.
+T504	VARIABLE 5350 5381	The properties of the subsystem
+T505	CONDITION 5382 5408	shall remain stable before
+T506	CONDITION 5413 5425	after firing
+T507	AND 5382 5425	shall remain stable before and after firing
+T508	STATEMENT 5350 5425	The properties of the subsystem shall remain stable before and after firing
+T509	KEY_C 13652 13656	When
+T510	VARIABLE 13657 13670	a closed loop
+T511	CONDITION 13671 13704	is moving across a magnetic field
+T512	VARIABLE 13705 13733	an electromotive potential V
+T513	CONDITION 13734 13756	appears along the loop
+T514	STATEMENT 13705 13756	an electromotive potential V appears along the loop
+T515	STATEMENT 13657 13704	a closed loop is moving across a magnetic field
+T516	CAUSE 13652 13704	When a closed loop is moving across a magnetic field
+T517	CAUSE_EFFECT_RELATION 13652 13756	When a closed loop is moving across a magnetic field an electromotive potential V appears along the loop
+T518	ROOT_SENTENCE 13652 13757	When a closed loop is moving across a magnetic field an electromotive potential V appears along the loop.
+T519	KEY_C 13553 13557	When
+T520	VARIABLE 13558 13564	probes
+T521	CONDITION 13565 13606	enter the wake region near the spacecraft
+T522	VARIABLE 13608 13631	the plasma they observe
+T523	CONDITION 13632 13649	is much disturbed
+T524	STATEMENT 13608 13649	the plasma they observe is much disturbed
+T525	STATEMENT 13558 13606	probes enter the wake region near the spacecraft
+T526	CAUSE 13553 13606	When probes enter the wake region near the spacecraft
+T527	CAUSE_EFFECT_RELATION 13553 13649	When probes enter the wake region near the spacecraft, the plasma they observe is much disturbed
+T528	KEY_C 12780 12784	When
+T529	VARIABLE 12785 12814	the dominant charging process
+T530	CONDITION 12815 12844	is collection of ambient ions
+T531	CONDITION 12849 12858	electrons
+T532	AND 12815 12858	is collection of ambient ions and electrons
+T533	STATEMENT 12785 12858	the dominant charging process is collection of ambient ions and electrons
+T534	CAUSE 12780 12858	When the dominant charging process is collection of ambient ions and electrons
+T535	VARIABLE 12859 12881	the floating potential
+T536	CONDITION 12882 12893	is negative
+T537	STATEMENT 12859 12893	the floating potential is negative
+T538	CAUSE_EFFECT_RELATION 12780 12893	When the dominant charging process is collection of ambient ions and electrons the floating potential is negative
+T539	ROOT_SENTENCE 12780 12894	When the dominant charging process is collection of ambient ions and electrons the floating potential is negative.
+T540	KEY_C 12480 12484	When
+T541	VARIABLE 12485 12495	this ratio
+T542	CONDITION 12496 12507	is around 1
+T543	STATEMENT 12485 12507	this ratio is around 1
+T544	CAUSE 12480 12507	When this ratio is around 1
+T545	VARIABLE 12517 12531	these theories
+T546	CONDITION 12532 12552	is a priori suitable
+T547	VARIABLE 12557 12587	more complex models (cf below)
+T548	CONDITION 12588 12596	are used
+T549	STATEMENT 12557 12596	more complex models (cf below) are used
+T550	STATEMENT 12517 12552	these theories is a priori suitable
+T552	NEGATION 12509 12552	none of these theories is a priori suitable
+T551	AND 12509 12596	none of these theories is a priori suitable and more complex models (cf below) are used
+T553	CAUSE_EFFECT_RELATION 12480 12596	When this ratio is around 1, none of these theories is a priori suitable and more complex models (cf below) are used
+T554	ROOT_SENTENCE 12480 12597	When this ratio is around 1, none of these theories is a priori suitable and more complex models (cf below) are used.
+T559	KEY_C 6191 6195	when
+T560	VARIABLE 6196 6213	the space vehicle
+T561	CONDITION 6214 6232	is on the launcher
+T562	STATEMENT 6196 6232	the space vehicle is on the launcher
+T563	CAUSE 6191 6232	when the space vehicle is on the launcher
+T564	VARIABLE 6121 6160	The status of all pyrotechnic functions
+T565	CONDITION 6161 6190	shall be visible at all times
+T566	STATEMENT 6121 6190	The status of all pyrotechnic functions shall be visible at all times
+T567	CAUSE_EFFECT_RELATION 6121 6232	The status of all pyrotechnic functions shall be visible at all times when the space vehicle is on the launcher
+T568	ROOT_SENTENCE 6121 6233	The status of all pyrotechnic functions shall be visible at all times when the space vehicle is on the launcher.
+T569	KEY_C 6556 6560	when
+T570	VARIABLE 6561 6570	requested
+T571	CAUSE 6556 6570	when requested
+T572	VARIABLE 6507 6520	these studies
+T573	CONDITION 6521 6555	shall be made available for review
+T574	STATEMENT 6507 6555	these studies shall be made available for review
+T575	NONE_CAUSAL 6498 6505	However
+T576	CAUSE_EFFECT_RELATION 6498 6570	However, these studies shall be made available for review when requested
+T577	ROOT_SENTENCE 6498 6571	However, these studies shall be made available for review when requested.
+T578	KEY_C 7140 7144	When
+T579	VARIABLE 7145 7152	exposed
+T580	CONDITION 7153 7169	to RF conditions
+T581	VARIABLE 7171 7191	the explosive system
+T582	CONDITION 7202 7213	be degraded
+T583	NEGATION 7192 7213	shall not be degraded
+T584	STATEMENT 7171 7213	the explosive system shall not be degraded
+T585	STATEMENT 7145 7169	exposed to RF conditions
+T586	CAUSE 7140 7169	When exposed to RF conditions
+T587	CAUSE_EFFECT_RELATION 7140 7213	When exposed to RF conditions, the explosive system shall not be degraded
+T588	ROOT_SENTENCE 7140 7214	When exposed to RF conditions, the explosive system shall not be degraded.
+T589	KEY_C 7252 7256	when
+T591	VARIABLE 7216 7251	Visibility of the status indicators
+T592	KEY_C 8076 8080	when
+T593	VARIABLE 8081 8091	the packet
+T594	CONDITION 8092 8102	is created
+T595	VARIABLE 8048 8063	Generation time
+T596	CONDITION 8064 8075	is the time
+T597	STATEMENT 8048 8075	Generation time is the time
+T598	STATEMENT 8081 8102	the packet is created
+T599	CAUSE 8076 8102	when the packet is created
+T600	CAUSE_EFFECT_RELATION 8048 8102	Generation time is the time when the packet is created
+T601	ROOT_SENTENCE 8048 8103	Generation time is the time when the packet is created.
+T602	KEY_C 7522 7526	when
+T603	VARIABLE 7527 7544	the space vehicle
+T604	CONDITION 7545 7572	induces a catastrophic risk
+T605	STATEMENT 7527 7572	the space vehicle induces a catastrophic risk
+T606	CAUSE 7522 7572	when the space vehicle induces a catastrophic risk
+T607	VARIABLE 7463 7502	The status of explosive safety barriers
+T608	CONDITION 7503 7521	shall be monitored
+T609	STATEMENT 7463 7521	The status of explosive safety barriers shall be monitored
+T610	CAUSE_EFFECT_RELATION 7463 7572	The status of explosive safety barriers shall be monitored when the space vehicle induces a catastrophic risk
+T611	ROOT_SENTENCE 7463 7573	The status of explosive safety barriers shall be monitored when the space vehicle induces a catastrophic risk.
+T612	VARIABLE 14419 14445	A high electrostatic field
+T613	CONDITION 14446 14465	between two objects
+T614	STATEMENT 14419 14465	A high electrostatic field between two objects
+T615	KEY_C 14466 14470	when
+T616	VARIABLE 14471 14475	they
+T617	CONDITION 14476 14549	are in close proximity (this is the case for ESD on spacecraft, in space)
+T618	STATEMENT 14471 14549	they are in close proximity (this is the case for ESD on spacecraft, in space)
+T619	CAUSE 14466 14549	when they are in close proximity (this is the case for ESD on spacecraft, in space)
+T620	CAUSE_EFFECT_RELATION 14419 14549	A high electrostatic field between two objects when they are in close proximity (this is the case for ESD on spacecraft, in space)
+T621	ROOT_SENTENCE 14419 14550	A high electrostatic field between two objects when they are in close proximity (this is the case for ESD on spacecraft, in space).
+T622	VARIABLE 7006 7026	The explosive system
+T623	CONDITION 7027 7077	shall provide shielding to the same levels d above
+T624	KEY_C 7078 7082	when
+T625	VARIABLE 7083 7090	exposed
+T626	CONDITION 7091 7137	to externally generated electromagnetic fields
+T627	STATEMENT 7083 7137	exposed to externally generated electromagnetic fields
+T628	CAUSE 7078 7137	when exposed to externally generated electromagnetic fields
+T629	STATEMENT 7006 7077	The explosive system shall provide shielding to the same levels d above
+T630	CAUSE_EFFECT_RELATION 7006 7137	The explosive system shall provide shielding to the same levels d above when exposed to externally generated electromagnetic fields
+T631	ROOT_SENTENCE 7006 7138	The explosive system shall provide shielding to the same levels d above when exposed to externally generated electromagnetic fields.
+T632	VARIABLE 7316 7338	The firing probability
+T633	KEY_C 7339 7343	when
+T634	CONDITION 7344 7376	subjected to the no-fire current
+T637	CAUSE 7339 7410	when subjected to the no-fire current or no-fire power for five minutes
+T638	CONDITION 7411 7460	shall be less than 0,001 at 95 % confidence level
+T639	CAUSE_EFFECT_RELATION 7316 7460	The firing probability when subjected to the no-fire current or no-fire power for five minutes shall be less than 0,001 at 95 % confidence level
+T640	ROOT_SENTENCE 7316 7461	The firing probability when subjected to the no-fire current or no-fire power for five minutes shall be less than 0,001 at 95 % confidence level.
+T641	VARIABLE 13759 13783	Contamination of devices
+T642	CONDITION 13784 13807	such as optical sensors
+T643	CONDITION 13809 13840	multi layer insulation blankets
+T644	CONDITION 13846 13858	solar arrays
+T645	CONDITION 13860 13893	by deposition of neutral material
+T646	CONDITION 13895 13917	is a potential concern
+T647	KEY_C 13918 13922	when
+T648	VARIABLE 13923 13928	using
+T649	CONDITION 13929 13956	electric propulsion systems
+T650	STATEMENT 13923 13956	using electric propulsion systems
+T651	CAUSE 13918 13956	when using electric propulsion systems
+T652	AND 13809 13858	multi layer insulation blankets, and solar arrays
+T653	AND 13784 13858	such as optical sensors, multi layer insulation blankets, and solar arrays
+T654	AND 13860 13917	by deposition of neutral material, is a potential concern
+T655	AND 13784 13917	such as optical sensors, multi layer insulation blankets, and solar arrays, by deposition of neutral material, is a potential concern
+T656	STATEMENT 13759 13917	Contamination of devices such as optical sensors, multi layer insulation blankets, and solar arrays, by deposition of neutral material, is a potential concern
+T657	CAUSE_EFFECT_RELATION 13759 13956	Contamination of devices such as optical sensors, multi layer insulation blankets, and solar arrays, by deposition of neutral material, is a potential concern when using electric propulsion systems
+T658	ROOT_SENTENCE 13759 13957	Contamination of devices such as optical sensors, multi layer insulation blankets, and solar arrays, by deposition of neutral material, is a potential concern when using electric propulsion systems.
+T555	ROOT_SENTENCE 13553 13650	When probes enter the wake region near the spacecraft, the plasma they observe is much disturbed.
+T556	VARIABLE 11563 11568	there
+T557	CONDITION 11569 11615	is a risk of self‐sustained Townsend discharge
+T558	KEY_C 11616 11631	in the event of
+T659	VARIABLE 11632 11651	a pressure increase
+T660	CAUSE 11616 11651	in the event of a pressure increase
+T661	STATEMENT 11563 11615	there is a risk of self‐sustained Townsend discharge
+T662	CAUSE_EFFECT_RELATION 11563 11651	there is a risk of self‐sustained Townsend discharge in the event of a pressure increase
+T663	KEY_C 11519 11523	When
+T664	VARIABLE 11524 11561	using high voltage (>150 V) equipment
+T665	CAUSE 11519 11561	When using high voltage (>150 V) equipment
+T666	CAUSE_EFFECT_RELATION 11519 11651	When using high voltage (>150 V) equipment, there is a risk of self‐sustained Townsend discharge in the event of a pressure increase
+T667	ROOT_SENTENCE 11519 11652	When using high voltage (>150 V) equipment, there is a risk of self‐sustained Townsend discharge in the event of a pressure increase.
+T668	KEY_C 10327 10331	When
+T669	VARIABLE 10332 10356	the electronic mannequin
+T670	CONDITION 10357 10372	is used for EVA
+T671	CONDITION 10376 10403	for IVA activities analysis
+T672	KEY_C 10404 10409	where
+T673	VARIABLE 10410 10426	a dedicated suit
+T674	CONDITION 10427 10453	is worn by the crew member
+T675	VARIABLE 10455 10490	suit limitations to human movements
+T676	VARIABLE 10495 10511	its encumbrances
+T677	CONDITION 10512 10534	shall be characterized
+T678	AND 10455 10511	suit limitations to human movements and its encumbrances
+T679	STATEMENT 10455 10534	suit limitations to human movements and its encumbrances shall be characterized
+T680	STATEMENT 10410 10453	a dedicated suit is worn by the crew member
+T681	CAUSE 10404 10453	where a dedicated suit is worn by the crew member
+T682	OR 10357 10403	is used for EVA or for IVA activities analysis
+T683	STATEMENT 10332 10403	the electronic mannequin is used for EVA or for IVA activities analysis
+T684	CAUSE 10327 10403	When the electronic mannequin is used for EVA or for IVA activities analysis
+T685	AND 10327 10453	When the electronic mannequin is used for EVA or for IVA activities analysis where a dedicated suit is worn by the crew member
+T686	CAUSE_EFFECT_RELATION 10327 10534	When the electronic mannequin is used for EVA or for IVA activities analysis where a dedicated suit is worn by the crew member, suit limitations to human movements and its encumbrances shall be characterized
+T687	ROOT_SENTENCE 10327 10535	When the electronic mannequin is used for EVA or for IVA activities analysis where a dedicated suit is worn by the crew member, suit limitations to human movements and its encumbrances shall be characterized.
+T688	VARIABLE 11450 11455	Cells
+T689	CONDITION 11456 11474	shall be polarized
+T690	KEY_C 11475 11481	during
+T691	VARIABLE 11482 11490	the test
+T692	KEY_C 11491 11495	when
+T693	VARIABLE 11496 11509	the discharge
+T694	CONDITION 11510 11516	occurs
+T695	STATEMENT 11496 11516	the discharge occurs
+T696	CAUSE 11491 11516	when the discharge occurs
+T697	CAUSE 11475 11490	during the test
+T698	STATEMENT 11450 11474	Cells shall be polarized
+T699	AND 11475 11516	during the test when the discharge occurs
+T700	CAUSE_EFFECT_RELATION 11450 11516	Cells shall be polarized during the test when the discharge occurs
+T701	ROOT_SENTENCE 11450 11517	Cells shall be polarized during the test when the discharge occurs.
+T702	VARIABLE 10966 10979	This standard
+T703	CONDITION 10980 11039	is applicable to any type of spacecraft including launchers
+T704	KEY_C 11041 11045	when
+T705	VARIABLE 11046 11066	above the atmosphere
+T706	CAUSE 11041 11066	when above the atmosphere
+T707	STATEMENT 10966 11039	This standard is applicable to any type of spacecraft including launchers
+T708	CAUSE_EFFECT_RELATION 10966 11066	This standard is applicable to any type of spacecraft including launchers, when above the atmosphere
+T709	ROOT_SENTENCE 10966 11067	This standard is applicable to any type of spacecraft including launchers, when above the atmosphere.
+T710	KEY_C 8824 8828	When
+T711	VARIABLE 8829 8855	transferring a set of data
+T712	KEY_C 8856 8860	that
+T713	CONDITION 8861 8951	exceeds the maximum packet size specified for the mission (e.g. memory loading or dumping)
+T714	CAUSE 8856 8951	that exceeds the maximum packet size specified for the mission (e.g. memory loading or dumping)
+T715	VARIABLE 8953 8967	the capability
+T716	CONDITION 8968 9045	shall be provided to transfer this data in more than one packet (part packet)
+T717	CAUSE 8824 8855	When transferring a set of data
+T718	AND 8824 8951	When transferring a set of data that exceeds the maximum packet size specified for the mission (e.g. memory loading or dumping)
+T719	STATEMENT 8953 9045	the capability shall be provided to transfer this data in more than one packet (part packet)
+T720	CAUSE_EFFECT_RELATION 8824 9045	When transferring a set of data that exceeds the maximum packet size specified for the mission (e.g. memory loading or dumping), the capability shall be provided to transfer this data in more than one packet (part packet)
+T721	ROOT_SENTENCE 8824 9046	When transferring a set of data that exceeds the maximum packet size specified for the mission (e.g. memory loading or dumping), the capability shall be provided to transfer this data in more than one packet (part packet).
+T722	ROOT_SENTENCE 1733 1947	When viewed from the perspective of a specific project context, the requirements defined in this Standard should be tailored to match the genuine requirements of a particular profile and circumstances of a project.
+T185	NEGATION 3790 3857	unless prior CEA authorization for alternative sealants is provided
+T186	STATEMENT 3615 3654	fayed surfaces are of dissimilar metals
+T188	CAUSE 3610 3654	When fayed surfaces are of dissimilar metals
+T189	OR 3761 3788	SAE-AMS3277, or SAE-AMS3281
+T404	OR 3748 3788	SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T723	OR 3735 3788	SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T724	OR 3720 3788	MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T725	OR 3661 3788	shall be sealed with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T726	STATEMENT 3656 3788	they shall be sealed with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T727	CAUSE_EFFECT_RELATION 3610 3788	When fayed surfaces are of dissimilar metals, they shall be sealed with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T728	CAUSE_EFFECT_RELATION 3610 3857	When fayed surfaces are of dissimilar metals, they shall be sealed with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281, unless prior CEA authorization for alternative sealants is provided
+T729	ROOT_SENTENCE 3610 3858	When fayed surfaces are of dissimilar metals, they shall be sealed with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281, unless prior CEA authorization for alternative sealants is provided.
+T730	VARIABLE 3868 3880	acquisitions
+T731	CONDITION 3864 3867	new
+T732	KEY_C 3860 3863	For
+T733	STATEMENT 3864 3880	new acquisitions
+T734	AND 3860 3928	For new acquisitions, when installed in interior aluminum structures
+T735	CONDITION 3957 4018	shall be overcoated with sealant conforming to SAE-AMS-S-8802
+T736	CONDITION 4020 4033	MIL-PRF-81733
+T737	CONDITION 4035 4046	SAE-AMS3265
+T738	CONDITION 4048 4059	SAE-AMS3276
+T739	CONDITION 4061 4072	SAE-AMS3277
+T740	CONDITION 4077 4088	SAE-AMS3281
+T741	OR 4061 4088	SAE-AMS3277, or SAE-AMS3281
+T742	OR 4048 4088	SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T743	OR 4035 4088	SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T744	OR 4020 4088	MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T745	OR 3957 4088	shall be overcoated with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T746	STATEMENT 3930 4088	all non-aluminum fasteners shall be overcoated with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T747	CAUSE_EFFECT_RELATION 3860 4088	For new acquisitions, when installed in interior aluminum structures, all non-aluminum fasteners shall be overcoated with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281
+T748	ROOT_SENTENCE 3860 4089	For new acquisitions, when installed in interior aluminum structures, all non-aluminum fasteners shall be overcoated with sealant conforming to SAE-AMS-S-8802, MIL-PRF-81733, SAE-AMS3265, SAE-AMS3276, SAE-AMS3277, or SAE-AMS3281.
+T749	ROOT_SENTENCE 4091 4187	When a solid film lubricant is used, it shall be applied and completely cured prior to assembly.
+T476	VARIABLE 5437 5462	subject to external loads
+T478	VARIABLE 5466 5490	environmental conditions
+T750	KEY_C 5427 5436	even when
+T751	OR 5437 5490	subject to external loads or environmental conditions
+T752	CAUSE 5427 5490	even when subject to external loads or environmental conditions
+T753	KEY_C 5499 5501	if
+T754	VARIABLE 5502 5527	these external conditions
+T755	CONDITION 5528 5553	exceed the defined values
+T756	STATEMENT 5502 5553	these external conditions exceed the defined values
+T757	CAUSE 5499 5553	if these external conditions exceed the defined values
+T758	NEGATION 5492 5553	except if these external conditions exceed the defined values
+T759	AND 5427 5553	even when subject to external loads or environmental conditions, except if these external conditions exceed the defined values
+T760	CAUSE_EFFECT_RELATION 5350 5553	The properties of the subsystem shall remain stable before and after firing, even when subject to external loads or environmental conditions, except if these external conditions exceed the defined values
+T761	ROOT_SENTENCE 5350 5554	The properties of the subsystem shall remain stable before and after firing, even when subject to external loads or environmental conditions, except if these external conditions exceed the defined values.
+T590	VARIABLE 7257 7284	installed on the spacecraft
+T762	VARIABLE 7288 7296	launcher
+T763	CONDITION 7297 7313	shall be ensured
+T764	OR 7257 7296	installed on the spacecraft or launcher
+T765	CAUSE 7252 7296	when installed on the spacecraft or launcher
+T766	CAUSE_EFFECT_RELATION 7216 7313	Visibility of the status indicators when installed on the spacecraft or launcher shall be ensured
+T767	ROOT_SENTENCE 7216 7314	Visibility of the status indicators when installed on the spacecraft or launcher shall be ensured.
+T635	CONDITION 7380 7393	no-fire power
+T636	CONDITION 7394 7410	for five minutes
+T768	OR 7344 7393	subjected to the no-fire current or no-fire power
+T769	AND 7344 7410	subjected to the no-fire current or no-fire power for five minutes
+T474	VARIABLE 14629 14657	the surface of the satellite
+T475	KEY_C 14626 14628	at
+T477	CAUSE 14626 14657	at the surface of the satellite
+T479	AND 14552 14657	When the configuration of the field or of the potential becomes critical, at the surface of the satellite
+T480	VARIABLE 14659 14683	electrostatic discharges
+T481	CONDITION 14684 14773	can occur either into space by electronic blow‐off (expansion of electronic space charge)
+T482	CONDITION 14778 14831	differentially between several parts of the satellite
+T483	OR 14684 14831	can occur either into space by electronic blow‐off (expansion of electronic space charge), or differentially between several parts of the satellite
+T770	STATEMENT 14659 14831	electrostatic discharges can occur either into space by electronic blow‐off (expansion of electronic space charge), or differentially between several parts of the satellite
+T771	CAUSE_EFFECT_RELATION 14552 14831	When the configuration of the field or of the potential becomes critical, at the surface of the satellite, electrostatic discharges can occur either into space by electronic blow‐off (expansion of electronic space charge), or differentially between several parts of the satellite
+T772	ROOT_SENTENCE 14552 14832	When the configuration of the field or of the potential becomes critical, at the surface of the satellite, electrostatic discharges can occur either into space by electronic blow‐off (expansion of electronic space charge), or differentially between several parts of the satellite.
+T221	VARIABLE 2802 2834	determining which kinds of power
+T222	KEY_C 3790 3796	unless

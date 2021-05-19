@@ -1,0 +1,15 @@
+{
+  "optimizer": "adagrad",
+  "optimizer_settings": {
+    "alpha": 1e-2,
+    "minibatch": 30,
+    "epsilon": 1e-8
+  },
+  "num_epochs": 90,
+  "num_epochs_early_stop": 40,
+  "dataset": "train",
+  "outputDim": 28,
+  "wvecDim": 60,
+  "sample_size": 1.0,
+  "desc": "pos tags 50:50"
+}

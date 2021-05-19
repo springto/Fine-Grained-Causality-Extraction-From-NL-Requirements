@@ -1,0 +1,502 @@
+T1	VARIABLE 3 25	accelerated life tests
+T2	CONDITION 26 37	are planned
+T3	KEY_C 0 2	If
+T4	STATEMENT 3 37	accelerated life tests are planned
+T5	CAUSE 0 37	If accelerated life tests are planned
+T6	VARIABLE 39 53	the contractor
+T7	CONDITION 54 77	shall identify the test
+T8	CONDITION 82 98	analysis methods
+T9	CONDITION 100 118	statistical models
+T10	CONDITION 124 143	acceleration factor
+T11	AND 100 143	statistical models, and acceleration factor
+T12	AND 82 143	analysis methods, statistical models, and acceleration factor
+T13	AND 54 143	shall identify the test and analysis methods, statistical models, and acceleration factor
+T14	STATEMENT 39 143	the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T15	CAUSE_EFFECT_RELATION 0 143	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T16	ROOT_SENTENCE 0 144	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor.
+T17	KEY_C 146 148	If
+T18	VARIABLE 149 168	a delivery schedule
+T19	CONDITION 176 197	specified in the CDRL
+T20	NEGATION 169 197	is not specified in the CDRL
+T21	STATEMENT 149 197	a delivery schedule is not specified in the CDRL
+T22	CAUSE 146 197	If a delivery schedule is not specified in the CDRL
+T23	VARIABLE 199 236	the Failure Analysis Reports on parts
+T24	VARIABLE 240 249	materials
+T25	CONDITION 250 299	shall be included with the failure closure report
+T26	OR 199 249	the Failure Analysis Reports on parts or materials
+T27	STATEMENT 199 299	the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T28	CAUSE_EFFECT_RELATION 146 299	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T29	ROOT_SENTENCE 146 300	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report.
+T30	KEY_C 302 304	If
+T31	VARIABLE 305 323	a reported failure
+T32	CONDITION 331 342	be verified
+T33	CONDITION 346 355	validated
+T34	OR 331 355	be verified or validated
+T35	NEGATION 324 355	cannot be verified or validated
+T36	STATEMENT 305 355	a reported failure cannot be verified or validated
+T38	VARIABLE 364 381	corrective action
+T39	CONDITION 382 396	is appropriate
+T40	STATEMENT 364 396	corrective action is appropriate
+T41	STATEMENT 361 396	no corrective action is appropriate
+T42	AND 305 396	a reported failure cannot be verified or validated, and no corrective action is appropriate
+T43	CAUSE 302 396	If a reported failure cannot be verified or validated, and no corrective action is appropriate
+T37	VARIABLE 398 409	the failure
+T44	CONDITION 410 433	shall still be reviewed
+T45	CONDITION 438 458	approved for closure
+T46	CONDITION 464 498	such incidents shall be classified
+T47	CONDITION 503 529	tracked for trend analysis
+T48	AND 464 529	such incidents shall be classified and tracked for trend analysis
+T49	AND 410 458	shall still be reviewed and approved for closure
+T50	AND 410 529	shall still be reviewed and approved for closure, and such incidents shall be classified and tracked for trend analysis
+T51	STATEMENT 398 529	the failure shall still be reviewed and approved for closure, and such incidents shall be classified and tracked for trend analysis
+T52	ROOT_SENTENCE 302 530	If a reported failure cannot be verified or validated, and no corrective action is appropriate, the failure shall still be reviewed and approved for closure, and such incidents shall be classified and tracked for trend analysis.
+T53	CAUSE_EFFECT_RELATION 302 529	If a reported failure cannot be verified or validated, and no corrective action is appropriate, the failure shall still be reviewed and approved for closure, and such incidents shall be classified and tracked for trend analysis
+T54	KEY_C 532 534	If
+T55	VARIABLE 535 562	elevated stand temperatures
+T56	CONDITION 563 594	are expected after installation
+T57	KEY_C 596 600	then
+T58	VARIABLE 601 627	additional capacity margin
+T59	CONDITION 628 694	may be needed to offset the more rapid self-discharge of the cells
+T60	STATEMENT 601 694	additional capacity margin may be needed to offset the more rapid self-discharge of the cells
+T61	EFFECT 596 694	then additional capacity margin may be needed to offset the more rapid self-discharge of the cells
+T62	STATEMENT 535 594	elevated stand temperatures are expected after installation
+T63	CAUSE 532 594	If elevated stand temperatures are expected after installation
+T64	CAUSE_EFFECT_RELATION 532 694	If elevated stand temperatures are expected after installation, then additional capacity margin may be needed to offset the more rapid self-discharge of the cells
+T65	ROOT_SENTENCE 532 695	If elevated stand temperatures are expected after installation, then additional capacity margin may be needed to offset the more rapid self-discharge of the cells.
+T71	VARIABLE 929 937	There is
+T72	CONDITION 938 957	a high risk of fire
+T73	KEY_C 958 960	if
+T74	VARIABLE 961 980	an electrolyte leak
+T75	CONDITION 981 987	occurs
+T76	STATEMENT 961 987	an electrolyte leak occurs
+T77	CAUSE 958 987	if an electrolyte leak occurs
+T78	STATEMENT 929 957	There is a high risk of fire
+T79	CAUSE_EFFECT_RELATION 929 987	There is a high risk of fire if an electrolyte leak occurs
+T80	ROOT_SENTENCE 929 988	There is a high risk of fire if an electrolyte leak occurs.
+T81	KEY_C 990 992	If
+T82	VARIABLE 993 1005	braze metals
+T83	CONDITION 1006 1014	are used
+T84	VARIABLE 1016 1046	the requirements of MIL-B-7883
+T85	VARIABLE 1051 1063	MSFC-STD-969
+T86	AND 1016 1063	the requirements of MIL-B-7883 and MSFC-STD-969
+T87	CONDITION 1064 1082	shall be satisfied
+T88	STATEMENT 1016 1082	the requirements of MIL-B-7883 and MSFC-STD-969 shall be satisfied
+T89	STATEMENT 993 1014	braze metals are used
+T90	CAUSE 990 1014	If braze metals are used
+T91	CAUSE_EFFECT_RELATION 990 1082	If braze metals are used, the requirements of MIL-B-7883 and MSFC-STD-969 shall be satisfied
+T92	ROOT_SENTENCE 990 1083	If braze metals are used, the requirements of MIL-B-7883 and MSFC-STD-969 shall be satisfied.
+T93	KEY_C 1085 1087	If
+T94	VARIABLE 1088 1100	the hardware
+T95	CONDITION 1108 1141	meet these frequency requirements
+T96	NEGATION 1101 1141	cannot meet these frequency requirements
+T97	STATEMENT 1088 1141	the hardware cannot meet these frequency requirements
+T98	CAUSE 1085 1141	If the hardware cannot meet these frequency requirements
+T99	VARIABLE 1143 1163	generic load factors
+T100	CONDITION 1171 1189	be used for design
+T101	CONDITION 1194 1202	analysis
+T102	VARIABLE 1208 1225	the JSC–ES center
+T103	VARIABLE 1229 1260	appropriate partner/participant
+T104	CONDITION 1261 1280	should be contacted
+T105	OR 1208 1260	the JSC–ES center or appropriate partner/participant
+T106	STATEMENT 1208 1280	the JSC–ES center or appropriate partner/participant should be contacted
+T107	AND 1171 1202	be used for design and analysis
+T108	NEGATION 1164 1202	cannot be used for design and analysis
+T109	STATEMENT 1143 1202	generic load factors cannot be used for design and analysis
+T110	AND 1143 1280	generic load factors cannot be used for design and analysis, and the JSC–ES center or appropriate partner/participant should be contacted
+T111	CAUSE_EFFECT_RELATION 1085 1280	If the hardware cannot meet these frequency requirements, generic load factors cannot be used for design and analysis, and the JSC–ES center or appropriate partner/participant should be contacted
+T112	ROOT_SENTENCE 1085 1281	If the hardware cannot meet these frequency requirements, generic load factors cannot be used for design and analysis, and the JSC–ES center or appropriate partner/participant should be contacted.
+T113	KEY_C 1283 1285	If
+T114	VARIABLE 1286 1299	metal casting
+T115	CONDITION 1300 1336	is utilized as a fabrication process
+T116	VARIABLE 1338 1367	an appropriate casting factor
+T117	CONDITION 1368 1413	shall be developed by the design organization
+T118	STATEMENT 1338 1413	an appropriate casting factor shall be developed by the design organization
+T119	STATEMENT 1286 1336	metal casting is utilized as a fabrication process
+T120	CAUSE 1283 1336	If metal casting is utilized as a fabrication process
+T121	CAUSE_EFFECT_RELATION 1283 1413	If metal casting is utilized as a fabrication process, an appropriate casting factor shall be developed by the design organization
+T122	ROOT_SENTENCE 1283 1414	If metal casting is utilized as a fabrication process, an appropriate casting factor shall be developed by the design organization.
+T123	KEY_C 1416 1418	If
+T124	VARIABLE 1419 1428	a casting
+T125	CONDITION 1429 1441	is a fitting
+T126	KEY_C 1443 1447	then
+T127	VARIABLE 1448 1466	the fitting factor
+T128	CONDITION 1467 1523	shall be applied in conjunction with the casting factors
+T129	CONDITION 1528 1561	applied with the respective yield
+T130	CONDITION 1566 1577	ultimate FS
+T131	AND 1528 1577	applied with the respective yield and ultimate FS
+T132	AND 1467 1577	shall be applied in conjunction with the casting factors and applied with the respective yield and ultimate FS
+T133	STATEMENT 1448 1577	the fitting factor shall be applied in conjunction with the casting factors and applied with the respective yield and ultimate FS
+T134	EFFECT 1443 1577	then the fitting factor shall be applied in conjunction with the casting factors and applied with the respective yield and ultimate FS
+T135	STATEMENT 1419 1441	a casting is a fitting
+T136	CAUSE 1416 1441	If a casting is a fitting
+T137	CAUSE_EFFECT_RELATION 1416 1577	If a casting is a fitting, then the fitting factor shall be applied in conjunction with the casting factors and applied with the respective yield and ultimate FS
+T138	ROOT_SENTENCE 1416 1578	If a casting is a fitting, then the fitting factor shall be applied in conjunction with the casting factors and applied with the respective yield and ultimate FS.
+T139	KEY_C 1580 1582	If
+T140	VARIABLE 1583 1602	a specific location
+T141	CONDITION 1611 1624	been assigned
+T142	NEGATION 1603 1624	has not been assigned
+T143	STATEMENT 1583 1624	a specific location has not been assigned
+T144	CAUSE 1580 1624	If a specific location has not been assigned
+T145	VARIABLE 1626 1632	the PD
+T146	CONDITION 1633 1725	shall use the highest accelerations consistent with the possible locations for their payload
+T147	STATEMENT 1626 1725	the PD shall use the highest accelerations consistent with the possible locations for their payload
+T148	CAUSE_EFFECT_RELATION 1580 1725	If a specific location has not been assigned, the PD shall use the highest accelerations consistent with the possible locations for their payload
+T149	ROOT_SENTENCE 1580 1726	If a specific location has not been assigned, the PD shall use the highest accelerations consistent with the possible locations for their payload.
+T150	KEY_C 1728 1730	If
+T151	VARIABLE 1731 1750	separate components
+T152	CONDITION 1751 1788	are included in the overall structure
+T153	CONDITION 1793 1839	are considered safety critical (see section 4)
+T154	VARIABLE 1841 1888	minimum natural frequencies (in each direction)
+T155	CONDITION 1889 1934	shall also be calculated for these components
+T156	STATEMENT 1841 1934	minimum natural frequencies (in each direction) shall also be calculated for these components
+T157	AND 1751 1839	are included in the overall structure and are considered safety critical (see section 4)
+T158	STATEMENT 1731 1839	separate components are included in the overall structure and are considered safety critical (see section 4)
+T159	CAUSE 1728 1839	If separate components are included in the overall structure and are considered safety critical (see section 4)
+T160	CAUSE_EFFECT_RELATION 1728 1934	If separate components are included in the overall structure and are considered safety critical (see section 4), minimum natural frequencies (in each direction) shall also be calculated for these components
+T161	ROOT_SENTENCE 1728 1935	If separate components are included in the overall structure and are considered safety critical (see section 4), minimum natural frequencies (in each direction) shall also be calculated for these components.
+T162	VARIABLE 1937 1952	Extreme caution
+T163	CONDITION 1953 2005	shall be used for evaluations of containment vessels
+T164	KEY_C 2006 2008	if
+T165	VARIABLE 2009 2030	non-ductile materials
+T166	CONDITION 2031 2039	are used
+T167	STATEMENT 2009 2039	non-ductile materials are used
+T168	CAUSE 2006 2039	if non-ductile materials are used
+T169	STATEMENT 1937 2005	Extreme caution shall be used for evaluations of containment vessels
+T170	CAUSE_EFFECT_RELATION 1937 2039	Extreme caution shall be used for evaluations of containment vessels if non-ductile materials are used
+T171	ROOT_SENTENCE 1937 2040	Extreme caution shall be used for evaluations of containment vessels if non-ductile materials are used.
+T172	KEY_C 2042 2044	If
+T173	VARIABLE 2045 2056	the failure
+T174	CONDITION 2057 2088	is that of a preloaded fastener
+T175	KEY_C 2090 2094	then
+T176	VARIABLE 2095 2115	the initial velocity
+T177	CONDITION 2116 2191	will be induced by the sudden conversion of stored energy to kinetic energy
+T178	STATEMENT 2095 2191	the initial velocity will be induced by the sudden conversion of stored energy to kinetic energy
+T179	EFFECT 2090 2191	then the initial velocity will be induced by the sudden conversion of stored energy to kinetic energy
+T180	STATEMENT 2045 2088	the failure is that of a preloaded fastener
+T181	CAUSE 2042 2088	If the failure is that of a preloaded fastener
+T182	CAUSE_EFFECT_RELATION 2042 2191	If the failure is that of a preloaded fastener, then the initial velocity will be induced by the sudden conversion of stored energy to kinetic energy
+T183	ROOT_SENTENCE 2042 2192	If the failure is that of a preloaded fastener, then the initial velocity will be induced by the sudden conversion of stored energy to kinetic energy.
+T184	KEY_C 2194 2196	If
+T185	VARIABLE 2197 2200	not
+T186	CAUSE 2194 2200	If not
+T187	VARIABLE 2202 2226	a more detailed analysis
+T188	CONDITION 2227 2271	will be necessary to demonstrate containment
+T189	STATEMENT 2202 2271	a more detailed analysis will be necessary to demonstrate containment
+T190	CAUSE_EFFECT_RELATION 2194 2271	If not, a more detailed analysis will be necessary to demonstrate containment
+T191	ROOT_SENTENCE 2194 2272	If not, a more detailed analysis will be necessary to demonstrate containment.
+T192	KEY_C 2568 2570	If
+T193	VARIABLE 2571 2594	fracture mechanics data
+T194	CONDITION 2603 2612	available
+T195	NEGATION 2595 2612	are not available
+T196	STATEMENT 2571 2612	fracture mechanics data are not available
+T197	VARIABLE 2617 2662	reliable conservative estimates of properties
+T198	CONDITION 2670 2677	be made
+T199	NEGATION 2663 2677	cannot be made
+T200	STATEMENT 2617 2677	reliable conservative estimates of properties cannot be made
+T201	OR 2571 2677	fracture mechanics data are not available, or reliable conservative estimates of properties cannot be made
+T202	CAUSE 2568 2677	If fracture mechanics data are not available, or reliable conservative estimates of properties cannot be made
+T203	VARIABLE 2679 2692	a vessel test
+T204	CONDITION 2693 2736	shall be conducted to verify LBB capability
+T205	STATEMENT 2679 2736	a vessel test shall be conducted to verify LBB capability
+T206	CAUSE_EFFECT_RELATION 2568 2736	If fracture mechanics data are not available, or reliable conservative estimates of properties cannot be made, a vessel test shall be conducted to verify LBB capability
+T207	ROOT_SENTENCE 2568 2737	If fracture mechanics data are not available, or reliable conservative estimates of properties cannot be made, a vessel test shall be conducted to verify LBB capability.
+T208	KEY_C 2739 2741	If
+T209	VARIABLE 2742 2749	desired
+T210	CAUSE 2739 2749	If desired
+T211	VARIABLE 2751 2766	this inspection
+T212	CONDITION 2767 2783	may be performed
+T213	CONDITION 2784 2812	by the fastener manufacturer
+T214	CONDITION 2816 2864	by one of the manufacturer’s approved NDE houses
+T215	OR 2784 2864	by the fastener manufacturer or by one of the manufacturer’s approved NDE houses
+T216	AND 2767 2864	may be performed by the fastener manufacturer or by one of the manufacturer’s approved NDE houses
+T217	STATEMENT 2751 2864	this inspection may be performed by the fastener manufacturer or by one of the manufacturer’s approved NDE houses
+T218	CAUSE_EFFECT_RELATION 2739 2864	If desired, this inspection may be performed by the fastener manufacturer or by one of the manufacturer’s approved NDE houses
+T219	ROOT_SENTENCE 2739 2865	If desired, this inspection may be performed by the fastener manufacturer or by one of the manufacturer’s approved NDE houses.
+T221	KEY_C 3485 3487	If
+T222	VARIABLE 3488 3499	special NDE
+T223	CONDITION 3500 3507	is used
+T224	CONDITION 3581 3623	shall be required in the inspection report
+T225	VARIABLE 3509 3524	additional data
+T226	CONDITION 3525 3548	to ensure acceptability
+T227	CONDITION 3553 3580	traceability of the process
+T228	AND 3525 3580	to ensure acceptability and traceability of the process
+T229	AND 3525 3623	to ensure acceptability and traceability of the process shall be required in the inspection report
+T230	STATEMENT 3509 3623	additional data to ensure acceptability and traceability of the process shall be required in the inspection report
+T231	STATEMENT 3488 3507	special NDE is used
+T232	CAUSE 3485 3507	If special NDE is used
+T233	CAUSE_EFFECT_RELATION 3485 3623	If special NDE is used, additional data to ensure acceptability and traceability of the process shall be required in the inspection report
+T234	ROOT_SENTENCE 3485 3624	If special NDE is used, additional data to ensure acceptability and traceability of the process shall be required in the inspection report.
+T235	KEY_C 3626 3628	If
+T236	VARIABLE 3629 3655	the structure to be tested
+T237	CONDITION 3663 3685	statically determinate
+T238	NEGATION 3656 3685	is not statically determinate
+T239	STATEMENT 3629 3685	the structure to be tested is not statically determinate
+T240	CAUSE 3626 3685	If the structure to be tested is not statically determinate
+T241	VARIABLE 3687 3712	the interfacing structure
+T242	CONDITION 3713 3736	through which the loads
+T243	CONDITION 3741 3762	reactions are applied
+T244	AND 3713 3762	through which the loads and reactions are applied
+T245	CONDITION 3763 3793	shall be simulated in the test
+T246	AND 3713 3793	through which the loads and reactions are applied shall be simulated in the test
+T247	STATEMENT 3687 3793	the interfacing structure through which the loads and reactions are applied shall be simulated in the test
+T248	CAUSE_EFFECT_RELATION 3626 3793	If the structure to be tested is not statically determinate, the interfacing structure through which the loads and reactions are applied shall be simulated in the test
+T249	ROOT_SENTENCE 3626 3794	If the structure to be tested is not statically determinate, the interfacing structure through which the loads and reactions are applied shall be simulated in the test.
+T250	KEY_C 3796 3798	If
+T251	VARIABLE 3799 3843	required under the conditions outlined below
+T252	CAUSE 3796 3843	If required under the conditions outlined below
+T253	VARIABLE 3845 3869	a fitting factor of 1.15
+T254	CONDITION 3870 3892	shall be used on yield
+T255	CONDITION 3897 3950	ultimate loads in the structural analysis of fittings
+T256	AND 3870 3950	shall be used on yield and ultimate loads in the structural analysis of fittings
+T257	STATEMENT 3845 3950	a fitting factor of 1.15 shall be used on yield and ultimate loads in the structural analysis of fittings
+T258	CAUSE_EFFECT_RELATION 3796 3950	If required under the conditions outlined below, a fitting factor of 1.15 shall be used on yield and ultimate loads in the structural analysis of fittings
+T259	ROOT_SENTENCE 3796 3951	If required under the conditions outlined below, a fitting factor of 1.15 shall be used on yield and ultimate loads in the structural analysis of fittings.
+T260	KEY_C 3953 3955	If
+T261	VARIABLE 3956 3968	the hardware
+T262	CONDITION 3976 4007	meet this frequency requirement
+T263	NEGATION 3969 4007	cannot meet this frequency requirement
+T264	STATEMENT 3956 4007	the hardware cannot meet this frequency requirement
+T265	CAUSE 3953 4007	If the hardware cannot meet this frequency requirement
+T266	VARIABLE 4009 4029	generic load factors
+T267	CONDITION 4037 4064	be used for design analysis
+T268	NEGATION 4030 4064	cannot be used for design analysis
+T269	VARIABLE 4070 4093	the SPACEHAB integrator
+T270	CONDITION 4094 4150	must be contacted to obtain the appropriate load factors
+T271	STATEMENT 4070 4150	the SPACEHAB integrator must be contacted to obtain the appropriate load factors
+T272	STATEMENT 4009 4064	generic load factors cannot be used for design analysis
+T273	AND 4009 4150	generic load factors cannot be used for design analysis, and the SPACEHAB integrator must be contacted to obtain the appropriate load factors
+T274	ROOT_SENTENCE 3953 4151	If the hardware cannot meet this frequency requirement, generic load factors cannot be used for design analysis, and the SPACEHAB integrator must be contacted to obtain the appropriate load factors.
+T275	CAUSE_EFFECT_RELATION 3953 4150	If the hardware cannot meet this frequency requirement, generic load factors cannot be used for design analysis, and the SPACEHAB integrator must be contacted to obtain the appropriate load factors
+T276	KEY_C 4153 4155	If
+T277	VARIABLE 4156 4168	the criteria
+T278	CONDITION 4176 4182	be met
+T279	NEGATION 4169 4182	cannot be met
+T280	STATEMENT 4156 4182	the criteria cannot be met
+T281	KEY_C 4184 4188	then
+T282	VARIABLE 4189 4210	appropriate rationale
+T283	CONDITION 4211 4262	must be provided for the acceptability of the model
+T284	STATEMENT 4189 4262	appropriate rationale must be provided for the acceptability of the model
+T285	EFFECT 4184 4262	then appropriate rationale must be provided for the acceptability of the model
+T286	CAUSE 4153 4182	If the criteria cannot be met
+T287	CAUSE_EFFECT_RELATION 4153 4262	If the criteria cannot be met, then appropriate rationale must be provided for the acceptability of the model
+T288	ROOT_SENTENCE 4153 4263	If the criteria cannot be met, then appropriate rationale must be provided for the acceptability of the model.
+T289	KEY_C 4696 4698	If
+T290	VARIABLE 4699 4746	separate subassemblies in the overall structure
+T291	CONDITION 4747 4777	are considered safety critical
+T292	VARIABLE 4779 4818	minimum frequencies of each subassembly
+T293	CONDITION 4819 4839	should be calculated
+T294	STATEMENT 4779 4839	minimum frequencies of each subassembly should be calculated
+T295	STATEMENT 4699 4777	separate subassemblies in the overall structure are considered safety critical
+T296	CAUSE 4696 4777	If separate subassemblies in the overall structure are considered safety critical
+T297	CAUSE_EFFECT_RELATION 4696 4839	If separate subassemblies in the overall structure are considered safety critical, minimum frequencies of each subassembly should be calculated
+T298	ROOT_SENTENCE 4696 4840	If separate subassemblies in the overall structure are considered safety critical, minimum frequencies of each subassembly should be calculated.
+T299	KEY_C 4842 4844	If
+T300	VARIABLE 4845 4860	dynamic testing
+T301	CONDITION 4861 4879	is to be performed
+T302	VARIABLE 4881 4907	a small-size dynamic model
+T303	CONDITION 4908 4967	allows relatively quick solution time for pre-test analysis
+T304	CONDITION 4979 4995	post-test tuning
+T305	AND 4908 4995	allows relatively quick solution time for pre-test analysis as well as post-test tuning
+T306	STATEMENT 4881 4995	a small-size dynamic model allows relatively quick solution time for pre-test analysis as well as post-test tuning
+T307	STATEMENT 4845 4879	dynamic testing is to be performed
+T308	CAUSE 4842 4879	If dynamic testing is to be performed
+T309	CAUSE_EFFECT_RELATION 4842 4995	If dynamic testing is to be performed, a small-size dynamic model allows relatively quick solution time for pre-test analysis as well as post-test tuning
+T310	ROOT_SENTENCE 4842 4996	If dynamic testing is to be performed, a small-size dynamic model allows relatively quick solution time for pre-test analysis as well as post-test tuning.
+T316	VARIABLE 5154 5214	Prior approval of the responsible fracture control authority
+T317	CONDITION 5215 5226	is required
+T318	KEY_C 5227 5229	if
+T319	VARIABLE 5230 5235	flaws
+T320	CONDITION 5236 5271	are to be screened by proof testing
+T321	STATEMENT 5230 5271	flaws are to be screened by proof testing
+T322	CAUSE 5227 5271	if flaws are to be screened by proof testing
+T323	STATEMENT 5154 5226	Prior approval of the responsible fracture control authority is required
+T324	CAUSE_EFFECT_RELATION 5154 5271	Prior approval of the responsible fracture control authority is required if flaws are to be screened by proof testing
+T325	ROOT_SENTENCE 5154 5272	Prior approval of the responsible fracture control authority is required if flaws are to be screened by proof testing.
+T326	KEY_C 5274 5276	If
+T327	VARIABLE 5277 5301	a suspended test fixture
+T328	CONDITION 5302 5309	is used
+T329	STATEMENT 5277 5309	a suspended test fixture is used
+T330	CAUSE 5274 5309	If a suspended test fixture is used
+T331	VARIABLE 5311 5322	the fixture
+T332	CONDITION 5323 5344	must first be modeled
+T333	CONDITION 5349 5365	verified by test
+T334	AND 5323 5365	must first be modeled and verified by test
+T335	STATEMENT 5311 5365	the fixture must first be modeled and verified by test
+T336	CAUSE_EFFECT_RELATION 5274 5365	If a suspended test fixture is used, the fixture must first be modeled and verified by test
+T337	ROOT_SENTENCE 5274 5366	If a suspended test fixture is used, the fixture must first be modeled and verified by test.
+T338	KEY_C 5810 5812	If
+T339	VARIABLE 5813 5818	glass
+T340	CONDITION 5826 5834	kept dry
+T341	NEGATION 5819 5834	is not kept dry
+T342	STATEMENT 5813 5834	glass is not kept dry
+T343	CAUSE 5810 5834	If glass is not kept dry
+T344	VARIABLE 5836 5854	micro crack growth
+T345	CONDITION 5855 5870	will take place
+T346	CONDITION 5875 5894	reduce its strength
+T347	AND 5855 5894	will take place and reduce its strength
+T348	STATEMENT 5836 5894	micro crack growth will take place and reduce its strength
+T349	CAUSE_EFFECT_RELATION 5810 5894	If glass is not kept dry, micro crack growth will take place and reduce its strength
+T350	ROOT_SENTENCE 5810 5895	If glass is not kept dry, micro crack growth will take place and reduce its strength.
+T351	KEY_C 13967 13969	If
+T352	VARIABLE 13970 13993	the actual installation
+T353	CONDITION 13994 14004	is unknown
+T354	VARIABLE 14008 14030	multiple installations
+T355	CONDITION 14031 14043	are expected
+T356	STATEMENT 14008 14043	multiple installations are expected
+T357	STATEMENT 13970 14004	the actual installation is unknown
+T358	OR 13970 14043	the actual installation is unknown or multiple installations are expected
+T359	CAUSE 13967 14043	If the actual installation is unknown or multiple installations are expected
+T360	KEY_C 14045 14049	then
+T361	VARIABLE 14050 14073	a metallic ground plane
+T362	CONDITION 14074 14087	shall be used
+T363	STATEMENT 14050 14087	a metallic ground plane shall be used
+T364	EFFECT 14045 14087	then a metallic ground plane shall be used
+T365	CAUSE_EFFECT_RELATION 13967 14087	If the actual installation is unknown or multiple installations are expected, then a metallic ground plane shall be used
+T366	ROOT_SENTENCE 13967 14088	If the actual installation is unknown or multiple installations are expected, then a metallic ground plane shall be used.
+T367	KEY_C 13888 13890	If
+T368	VARIABLE 13891 13907	other test sites
+T369	CONDITION 13908 13916	are used
+T370	VARIABLE 13918 13951	the ambient requirements of 4.3.4
+T371	CONDITION 13952 13964	shall be met
+T372	STATEMENT 13918 13964	the ambient requirements of 4.3.4 shall be met
+T373	STATEMENT 13891 13916	other test sites are used
+T374	CAUSE 13888 13916	If other test sites are used
+T375	CAUSE_EFFECT_RELATION 13888 13964	If other test sites are used, the ambient requirements of 4.3.4 shall be met
+T376	ROOT_SENTENCE 13888 13965	If other test sites are used, the ambient requirements of 4.3.4 shall be met.
+T377	KEY_C 13708 13710	If
+T378	VARIABLE 13711 13724	such a filter
+T379	CONDITION 13725 13741	must be employed
+T380	VARIABLE 13743 13787	the line-to-ground capacitance for each line
+T381	CONDITION 13788 13853	shall not exceed 0.1 microfarads (μF) for 60 Hertz (Hz) equipment
+T382	CONDITION 13857 13885	0.02 μF for 400 Hz equipment
+T383	OR 13788 13885	shall not exceed 0.1 microfarads (μF) for 60 Hertz (Hz) equipment or 0.02 μF for 400 Hz equipment
+T384	STATEMENT 13743 13885	the line-to-ground capacitance for each line shall not exceed 0.1 microfarads (μF) for 60 Hertz (Hz) equipment or 0.02 μF for 400 Hz equipment
+T385	STATEMENT 13711 13741	such a filter must be employed
+T386	CAUSE 13708 13741	If such a filter must be employed
+T387	CAUSE_EFFECT_RELATION 13708 13885	If such a filter must be employed, the line-to-ground capacitance for each line shall not exceed 0.1 microfarads (μF) for 60 Hertz (Hz) equipment or 0.02 μF for 400 Hz equipment
+T388	ROOT_SENTENCE 13708 13886	If such a filter must be employed, the line-to-ground capacitance for each line shall not exceed 0.1 microfarads (μF) for 60 Hertz (Hz) equipment or 0.02 μF for 400 Hz equipment.
+T395	KEY_C 13280 13282	If
+T396	VARIABLE 13283 13299	the radar system
+T397	CONDITION 13300 13329	operates on more than one ban
+T398	VARIABLE 13331 13340	the tests
+T399	CONDITION 13341 13373	shall be performed for each band
+T400	STATEMENT 13331 13373	the tests shall be performed for each band
+T401	STATEMENT 13283 13329	the radar system operates on more than one ban
+T402	CAUSE 13280 13329	If the radar system operates on more than one ban
+T403	CAUSE_EFFECT_RELATION 13280 13373	If the radar system operates on more than one ban, the tests shall be performed for each band
+T404	ROOT_SENTENCE 13280 13374	If the radar system operates on more than one ban, the tests shall be performed for each band.
+T405	KEY_C 12936 12938	If
+T406	VARIABLE 12939 12944	space
+T407	CONDITION 12954 12960	permit
+T408	NEGATION 12945 12960	does not permit
+T409	STATEMENT 12939 12960	space does not permit
+T410	CAUSE 12936 12960	If space does not permit
+T411	VARIABLE 12962 12964	it
+T412	CONDITION 12965 12993	shall begin on the next page
+T413	STATEMENT 12962 12993	it shall begin on the next page
+T414	CAUSE_EFFECT_RELATION 12936 12993	If space does not permit, it shall begin on the next page
+T415	ROOT_SENTENCE 12936 12994	If space does not permit, it shall begin on the next page.
+T416	KEY_C 12836 12838	If
+T417	VARIABLE 12839 12842	you
+T418	CONDITION 12843 12860	find any mistakes
+T419	KEY_C 12865 12867	if
+T420	VARIABLE 12868 12871	you
+T421	CONDITION 12872 12913	know of a way to improve this publication
+T422	STATEMENT 12868 12913	you know of a way to improve this publication
+T423	CAUSE 12865 12913	if you know of a way to improve this publication
+T424	STATEMENT 12839 12860	you find any mistakes
+T425	CAUSE 12836 12860	If you find any mistakes
+T426	OR 12836 12913	If you find any mistakes, or if you know of a way to improve this publication
+T427	VARIABLE 12915 12933	please let us know
+T428	CAUSE_EFFECT_RELATION 12836 12933	If you find any mistakes, or if you know of a way to improve this publication, please let us know
+T429	ROOT_SENTENCE 12836 12934	If you find any mistakes, or if you know of a way to improve this publication, please let us know.
+T430	KEY_C 12664 12666	If
+T431	VARIABLE 12667 12688	the table of contents
+T432	CONDITION 12689 12715	ends on a left-facing page
+T433	VARIABLE 12717 12746	the reverse right-facing page
+T434	CONDITION 12747 12761	shall be blank
+T435	VARIABLE 12766 12792	the introduction paragraph
+T436	CONDITION 12793 12833	shall begin on the next left-facing page
+T437	STATEMENT 12766 12833	the introduction paragraph shall begin on the next left-facing page
+T438	STATEMENT 12717 12761	the reverse right-facing page shall be blank
+T439	AND 12717 12833	the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page
+T440	STATEMENT 12667 12715	the table of contents ends on a left-facing page
+T441	CAUSE 12664 12715	If the table of contents ends on a left-facing page
+T442	CAUSE_EFFECT_RELATION 12664 12833	If the table of contents ends on a left-facing page, the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page
+T443	ROOT_SENTENCE 12664 12834	If the table of contents ends on a left-facing page, the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page.
+T444	KEY_C 12535 12537	If
+T445	VARIABLE 12538 12586	approvals for deviations from this specification
+T446	CONDITION 12587 12602	have been given
+T447	VARIABLE 12604 12620	the deviation(s)
+T448	CONDITION 12621 12661	shall be indicated on the master drawing
+T449	STATEMENT 12604 12661	the deviation(s) shall be indicated on the master drawing
+T450	STATEMENT 12538 12602	approvals for deviations from this specification have been given
+T451	CAUSE 12535 12602	If approvals for deviations from this specification have been given
+T452	CAUSE_EFFECT_RELATION 12535 12661	If approvals for deviations from this specification have been given, the deviation(s) shall be indicated on the master drawing
+T453	ROOT_SENTENCE 12535 12662	If approvals for deviations from this specification have been given, the deviation(s) shall be indicated on the master drawing.
+T454	KEY_C 12363 12365	If
+T455	VARIABLE 12366 12387	the table of contents
+T456	CONDITION 12388 12414	ends on a left-facing page
+T457	VARIABLE 12416 12445	the reverse right-facing page
+T458	CONDITION 12446 12460	shall be blank
+T459	VARIABLE 12465 12491	the introduction paragraph
+T460	CONDITION 12492 12532	shall begin on the next left-facing page
+T461	STATEMENT 12465 12532	the introduction paragraph shall begin on the next left-facing page
+T462	STATEMENT 12416 12460	the reverse right-facing page shall be blank
+T463	AND 12416 12532	the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page
+T464	STATEMENT 12366 12414	the table of contents ends on a left-facing page
+T465	CAUSE 12363 12414	If the table of contents ends on a left-facing page
+T466	CAUSE_EFFECT_RELATION 12363 12532	If the table of contents ends on a left-facing page, the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page
+T467	ROOT_SENTENCE 12363 12533	If the table of contents ends on a left-facing page, the reverse right-facing page shall be blank and the introduction paragraph shall begin on the next left-facing page.
+T468	KEY_C 12303 12305	If
+T469	VARIABLE 12306 12311	space
+T470	CONDITION 12321 12327	permit
+T471	NEGATION 12312 12327	does not permit
+T472	STATEMENT 12306 12327	space does not permit
+T473	CAUSE 12303 12327	If space does not permit
+T474	VARIABLE 12329 12331	it
+T475	CONDITION 12332 12360	shall begin on the next page
+T476	STATEMENT 12329 12360	it shall begin on the next page
+T477	CAUSE_EFFECT_RELATION 12303 12360	If space does not permit, it shall begin on the next page
+T478	ROOT_SENTENCE 12303 12361	If space does not permit, it shall begin on the next page.
+T479	KEY_C 12199 12201	If
+T480	VARIABLE 12202 12213	implemented
+T481	VARIABLE 12215 12257	the maximum allowable shocks on the memory
+T482	CONDITION 12258 12274	shall be defined
+T483	CONDITION 12279 12300	included in R-SYS-300
+T484	AND 12258 12300	shall be defined and included in R-SYS-300
+T485	STATEMENT 12215 12300	the maximum allowable shocks on the memory shall be defined and included in R-SYS-300
+T486	CAUSE 12199 12213	If implemented
+T487	CAUSE_EFFECT_RELATION 12199 12300	If implemented, the maximum allowable shocks on the memory shall be defined and included in R-SYS-300
+T488	ROOT_SENTENCE 12199 12301	If implemented, the maximum allowable shocks on the memory shall be defined and included in R-SYS-300.
+T491	KEY_C 11939 11941	If
+T492	VARIABLE 11942 11964	the sampling operation
+T493	CONDITION 11973 11983	successful
+T494	NEGATION 11965 11983	was not successful
+T495	STATEMENT 11942 11983	the sampling operation was not successful
+T496	CAUSE 11939 11983	If the sampling operation was not successful
+T497	VARIABLE 11985 11999	the spacecraft
+T498	CONDITION 12000 12051	can undertake 2 more attempts (3 attempts in total)
+T499	STATEMENT 11985 12051	the spacecraft can undertake 2 more attempts (3 attempts in total)
+T500	CAUSE_EFFECT_RELATION 11939 12051	If the sampling operation was not successful, the spacecraft can undertake 2 more attempts (3 attempts in total)
+T501	ROOT_SENTENCE 11939 12052	If the sampling operation was not successful, the spacecraft can undertake 2 more attempts (3 attempts in total).
+T502	KEY_C 11692 11694	If
+T503	VARIABLE 11695 11712	not complied with
+T504	CAUSE 11692 11712	If not complied with
+T505	VARIABLE 11714 11724	the Agency
+T506	CONDITION 11725 11754	shall immediately be notified
+T507	STATEMENT 11714 11754	the Agency shall immediately be notified
+T508	CAUSE_EFFECT_RELATION 11692 11754	If not complied with, the Agency shall immediately be notified
+T509	ROOT_SENTENCE 11692 11755	If not complied with, the Agency shall immediately be notified.
+T510	KEY_C 11575 11577	If
+T511	VARIABLE 11578 11601	the alternate frequency
+T512	CONDITION 11602 11633	deviates by more than 1 percent
+T513	KEY_C 11635 11639	then
+T514	VARIABLE 11640 11677	acceptance by the qualifying activity
+T515	CONDITION 11678 11689	is required
+T516	STATEMENT 11640 11689	acceptance by the qualifying activity is required
+T517	EFFECT 11635 11689	then acceptance by the qualifying activity is required
+T518	STATEMENT 11578 11633	the alternate frequency deviates by more than 1 percent
+T519	CAUSE 11575 11633	If the alternate frequency deviates by more than 1 percent
+T520	CAUSE_EFFECT_RELATION 11575 11689	If the alternate frequency deviates by more than 1 percent, then acceptance by the qualifying activity is required
+T521	ROOT_SENTENCE 11575 11690	If the alternate frequency deviates by more than 1 percent, then acceptance by the qualifying activity is required.

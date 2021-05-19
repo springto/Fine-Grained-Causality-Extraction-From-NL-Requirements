@@ -1,0 +1,696 @@
+T1	KEY_C 9 23	in the case of
+T2	VARIABLE 24 41	remote operations
+T3	VARIABLE 43 75	other users (e.g. support staff)
+T4	CONDITION 76 100	might be on Cerro Tololo
+T5	CONDITION 104 111	in Hilo
+T6	STATEMENT 43 111	other users (e.g. support staff) might be on Cerro Tololo or in Hilo
+T7	OR 76 111	might be on Cerro Tololo or in Hilo
+T8	CAUSE 9 41	in the case of remote operations
+T9	NONE_CAUSAL 0 7	Finally
+T10	CAUSE_EFFECT_RELATION 9 111	in the case of remote operations, other users (e.g. support staff) might be on Cerro Tololo or in Hilo
+T11	ROOT_SENTENCE 0 112	Finally, in the case of remote operations, other users (e.g. support staff) might be on Cerro Tololo or in Hilo.
+T12	KEY_C 123 137	in the case of
+T13	VARIABLE 138 159	an instrument failure
+T14	VARIABLE 161 163	it
+T15	CONDITION 164 237	may be possible to continue operation by rescheduling to use observations
+T16	KEY_C 238 242	that
+T17	CONDITION 243 284	do not require that particular instrument
+T18	CAUSE 238 284	that do not require that particular instrument
+T19	CAUSE 123 159	in the case of an instrument failure
+T20	NONE_CAUSAL 114 121	However
+T21	STATEMENT 161 237	it may be possible to continue operation by rescheduling to use observations
+T22	CAUSE_EFFECT_RELATION 123 284	in the case of an instrument failure, it may be possible to continue operation by rescheduling to use observations that do not require that particular instrument
+T23	ROOT_SENTENCE 114 285	However, in the case of an instrument failure, it may be possible to continue operation by rescheduling to use observations that do not require that particular instrument.
+T24	VARIABLE 292 302	CSS itself
+T25	CONDITION 303 323	encounters a failure
+T26	KEY_C 324 329	while
+T27	VARIABLE 330 350	processing a message
+T28	CAUSE 324 350	while processing a message
+T29	STATEMENT 292 323	CSS itself encounters a failure
+T30	KEY_C 287 291	When
+T31	CAUSE 287 323	When CSS itself encounters a failure
+T32	AND 287 350	When CSS itself encounters a failure while processing a message
+T33	VARIABLE 352 360	a ticket
+T34	CONDITION 361 407	is raised within the Service Management system
+T35	CONDITION 412 472	assigned to the appropriate Operational Support organisation
+T36	STATEMENT 352 472	a ticket is raised within the Service Management system and assigned to the appropriate Operational Support organisation
+T37	AND 361 472	is raised within the Service Management system and assigned to the appropriate Operational Support organisation
+T38	CAUSE_EFFECT_RELATION 287 472	When CSS itself encounters a failure while processing a message, a ticket is raised within the Service Management system and assigned to the appropriate Operational Support organisation
+T39	ROOT_SENTENCE 287 473	When CSS itself encounters a failure while processing a message, a ticket is raised within the Service Management system and assigned to the appropriate Operational Support organisation.
+T40	VARIABLE 6921 6950	The Service Monitor Subsystem
+T41	CONDITION 6951 6970	shall report status
+T42	VARIABLE 6976 6984	hardware
+T43	CONDITION 6985 6997	is available
+T44	KEY_C 6971 6975	when
+T45	STATEMENT 6921 6970	The Service Monitor Subsystem shall report status
+T46	STATEMENT 6976 6997	hardware is available
+T47	CAUSE 6971 6997	when hardware is available
+T48	CAUSE_EFFECT_RELATION 6921 6997	The Service Monitor Subsystem shall report status when hardware is available
+T49	ROOT_SENTENCE 6921 6998	The Service Monitor Subsystem shall report status when hardware is available.
+T50	VARIABLE 683 694	version 2.0
+T51	CONDITION 695 705	is written
+T52	VARIABLE 707 727	the system developer
+T53	VARIABLE 732 737	users
+T54	CONDITION 738 775	will be asked to review this document
+T55	KEY_C 678 682	When
+T56	STATEMENT 683 705	version 2.0 is written
+T57	AND 707 737	the system developer and users
+T58	STATEMENT 707 775	the system developer and users will be asked to review this document
+T59	CAUSE 678 705	When version 2.0 is written
+T60	CAUSE_EFFECT_RELATION 678 775	When version 2.0 is written, the system developer and users will be asked to review this document
+T61	ROOT_SENTENCE 678 776	When version 2.0 is written, the system developer and users will be asked to review this document.
+T62	KEY_C 821 825	when
+T63	VARIABLE 826 850	a low transmission speed
+T64	CONDITION 851 862	is detected
+T65	VARIABLE 868 900	a non-graphical interface option
+T66	CONDITION 901 918	will be available
+T67	STATEMENT 826 862	a low transmission speed is detected
+T68	CAUSE 821 862	when a low transmission speed is detected
+T69	VARIABLE 778 789	This system
+T70	CONDITION 790 820	will include a warning message
+T71	STATEMENT 778 820	This system will include a warning message
+T72	CAUSE_EFFECT_RELATION 778 862	This system will include a warning message when a low transmission speed is detected
+T73	STATEMENT 868 918	a non-graphical interface option will be available
+T74	NONE_CAUSAL 864 918	and a non-graphical interface option will be available
+T75	AND 778 918	This system will include a warning message when a low transmission speed is detected, and a non-graphical interface option will be available
+T76	ROOT_SENTENCE 778 919	This system will include a warning message when a low transmission speed is detected, and a non-graphical interface option will be available.
+T77	VARIABLE 1049 1053	This
+T78	CONDITION 1054 1076	is of greatest concern
+T79	VARIABLE 1082 1086	data
+T80	CONDITION 1087 1104	are being changed
+T81	CONDITION 1108 1115	updated
+T82	OR 1087 1115	are being changed or updated
+T83	STATEMENT 1082 1115	data are being changed or updated
+T84	KEY_C 1077 1081	when
+T85	STATEMENT 1049 1076	This is of greatest concern
+T86	CAUSE 1077 1115	when data are being changed or updated
+T87	CAUSE_EFFECT_RELATION 1049 1115	This is of greatest concern when data are being changed or updated
+T88	ROOT_SENTENCE 1049 1116	This is of greatest concern when data are being changed or updated.
+T89	VARIABLE 1240 1255	these deadlines
+T90	VARIABLE 1231 1239	breached
+T91	KEY_C 1226 1230	When
+T92	CONDITION 1256 1279	will raise an exception
+T93	CAUSE 1226 1239	When breached
+T94	STATEMENT 1240 1279	these deadlines will raise an exception
+T95	CAUSE_EFFECT_RELATION 1226 1279	When breached these deadlines will raise an exception
+T96	ROOT_SENTENCE 1226 1280	When breached these deadlines will raise an exception.
+T97	VARIABLE 1176 1191	the application
+T98	CONDITION 1192 1223	processes the data successfully
+T99	KEY_C 1171 1175	when
+T100	VARIABLE 1118 1150	Completion/Confirmation messages
+T101	CONDITION 1151 1170	should be displayed
+T102	STATEMENT 1176 1223	the application processes the data successfully
+T103	CAUSE 1171 1223	when the application processes the data successfully
+T104	STATEMENT 1118 1170	Completion/Confirmation messages should be displayed
+T105	CAUSE_EFFECT_RELATION 1118 1223	Completion/Confirmation messages should be displayed when the application processes the data successfully
+T106	ROOT_SENTENCE 1118 1224	Completion/Confirmation messages should be displayed when the application processes the data successfully.
+T107	VARIABLE 1470 1484	The DSO system
+T108	CONDITION 1490 1510	triggers the service
+T109	KEY_C 1511 1515	when
+T110	VARIABLE 1516 1527	the loading
+T111	CONDITION 1528 1553	reaches the firm capacity
+T112	STATEMENT 1516 1553	the loading reaches the firm capacity
+T113	CAUSE 1511 1553	when the loading reaches the firm capacity
+T114	EFFECT 1470 1510	The DSO system then triggers the service
+T115	KEY_C 1485 1489	then
+T116	CAUSE_EFFECT_RELATION 1470 1553	The DSO system then triggers the service when the loading reaches the firm capacity
+T117	ROOT_SENTENCE 1470 1554	The DSO system then triggers the service when the loading reaches the firm capacity.
+T118	VARIABLE 1817 1821	DSOs
+T119	CONDITION 1822 1876	will have the ability to audit the settlements process
+T120	VARIABLE 1882 1890	required
+T121	KEY_C 1877 1881	when
+T122	STATEMENT 1817 1876	DSOs will have the ability to audit the settlements process
+T123	CAUSE 1877 1890	when required
+T124	CAUSE_EFFECT_RELATION 1817 1890	DSOs will have the ability to audit the settlements process when required
+T125	ROOT_SENTENCE 1817 1891	DSOs will have the ability to audit the settlements process when required.
+T126	VARIABLE 1556 1567	Utilisation
+T127	CONDITION 1568 1586	is then instructed
+T128	STATEMENT 1556 1586	Utilisation is then instructed
+T129	VARIABLE 1592 1601	the fault
+T130	CONDITION 1602 1623	occurs on the network
+T131	VARIABLE 1637 1644	loading
+T132	CONDITION 1645 1700	is beyond the post-fault rating of the remaining assets
+T133	KEY_C 1625 1636	but only if
+T134	KEY_C 1587 1591	when
+T135	CAUSE 1587 1623	when the fault occurs on the network
+T136	STATEMENT 1592 1623	the fault occurs on the network
+T137	STATEMENT 1637 1700	loading is beyond the post-fault rating of the remaining assets
+T138	CAUSE 1625 1700	but only if loading is beyond the post-fault rating of the remaining assets
+T139	AND 1587 1700	when the fault occurs on the network (but only if loading is beyond the post-fault rating of the remaining assets
+T140	CAUSE_EFFECT_RELATION 1556 1701	Utilisation is then instructed when the fault occurs on the network (but only if loading is beyond the post-fault rating of the remaining assets)
+T141	ROOT_SENTENCE 1556 1702	Utilisation is then instructed when the fault occurs on the network (but only if loading is beyond the post-fault rating of the remaining assets).
+T142	CONDITION 3059 3083	shall be able to perform
+T143	VARIABLE 3044 3058	The basic DMAN
+T144	KEY_C 3084 3088	when
+T145	VARIABLE 3089 3094	TOBTs
+T146	CONDITION 3103 3112	available
+T147	NEGATION 3095 3112	are not available
+T148	STATEMENT 3089 3112	TOBTs are not available
+T149	CAUSE 3084 3112	when TOBTs are not available
+T150	STATEMENT 3044 3083	The basic DMAN shall be able to perform
+T151	CAUSE_EFFECT_RELATION 3044 3112	The basic DMAN shall be able to perform when TOBTs are not available
+T152	ROOT_SENTENCE 3044 3113	The basic DMAN shall be able to perform when TOBTs are not available.
+T153	VARIABLE 3251 3259	Top menu
+T154	VARIABLE 3264 3273	sub menus
+T155	CONDITION 3274 3283	will open
+T156	VARIABLE 3289 3311	touched on the heading
+T157	CAUSE 3284 3311	when touched on the heading
+T158	AND 3251 3273	Top menu and sub menus
+T159	STATEMENT 3251 3283	Top menu and sub menus will open
+T160	CAUSE_EFFECT_RELATION 3251 3311	Top menu and sub menus will open when touched on the heading
+T161	ROOT_SENTENCE 3251 3312	Top menu and sub menus will open when touched on the heading.
+T162	VARIABLE 3319 3337	the expand sitemap
+T163	CONDITION 3338 3353	will be clicked
+T164	VARIABLE 3354 3364	the footer
+T165	CONDITION 3365 3415	will expand upwards to reveal SCAD SP 2013 sitemap
+T166	STATEMENT 3354 3415	the footer will expand upwards to reveal SCAD SP 2013 sitemap
+T167	KEY_C 3314 3318	When
+T168	STATEMENT 3319 3353	the expand sitemap will be clicked
+T169	CAUSE 3314 3353	When the expand sitemap will be clicked
+T170	CAUSE_EFFECT_RELATION 3314 3415	When the expand sitemap will be clicked the footer will expand upwards to reveal SCAD SP 2013 sitemap
+T171	ROOT_SENTENCE 3314 3416	When the expand sitemap will be clicked the footer will expand upwards to reveal SCAD SP 2013 sitemap.
+T172	VARIABLE 3903 3918	The Core System
+T173	CONDITION 3919 3953	shall transition to Training State
+T174	KEY_C 3954 3958	when
+T175	VARIABLE 3959 4001	commanded by an authorized System Operator
+T176	CAUSE 3954 4001	when commanded by an authorized System Operator
+T177	STATEMENT 3903 3953	The Core System shall transition to Training State
+T178	CAUSE_EFFECT_RELATION 3903 4001	The Core System shall transition to Training State when commanded by an authorized System Operator
+T179	ROOT_SENTENCE 3903 4002	The Core System shall transition to Training State when commanded by an authorized System Operator.
+T180	VARIABLE 11357 11371	Secure storage
+T181	CONDITION 11372 11380	persists
+T182	VARIABLE 11386 11395	the power
+T183	CONDITION 11396 11409	is turned off
+T184	KEY_C 11381 11385	when
+T185	STATEMENT 11357 11380	Secure storage persists
+T186	STATEMENT 11386 11409	the power is turned off
+T187	CAUSE 11381 11409	when the power is turned off
+T188	CAUSE_EFFECT_RELATION 11357 11409	Secure storage persists when the power is turned off
+T189	ROOT_SENTENCE 11357 11410	Secure storage persists when the power is turned off.
+T190	VARIABLE 11293 11301	Priority
+T191	CONDITION 11302 11327	is particularly important
+T192	VARIABLE 11333 11342	resources
+T193	CONDITION 11343 11354	are limited
+T194	KEY_C 11328 11332	when
+T195	STATEMENT 11293 11327	Priority is particularly important
+T196	STATEMENT 11333 11354	resources are limited
+T197	CAUSE 11328 11354	when resources are limited
+T198	CAUSE_EFFECT_RELATION 11293 11354	Priority is particularly important when resources are limited
+T199	ROOT_SENTENCE 11293 11355	Priority is particularly important when resources are limited.
+T200	VARIABLE 7639 7668	The Service Monitor Subsystem
+T201	CONDITION 7669 7699	shall reject a software update
+T202	VARIABLE 7705 7717	authenticity
+T203	CONDITION 7718 7741	has failed verification
+T204	KEY_C 7700 7704	when
+T205	STATEMENT 7639 7699	The Service Monitor Subsystem shall reject a software update
+T206	STATEMENT 7705 7741	authenticity has failed verification
+T207	CAUSE 7700 7741	when authenticity has failed verification
+T208	CAUSE_EFFECT_RELATION 7639 7741	The Service Monitor Subsystem shall reject a software update when authenticity has failed verification
+T209	ROOT_SENTENCE 7639 7742	The Service Monitor Subsystem shall reject a software update when authenticity has failed verification.
+T210	VARIABLE 7079 7108	The Service Monitor Subsystem
+T211	CONDITION 7109 7128	shall report status
+T212	VARIABLE 7134 7142	hardware
+T213	CONDITION 7143 7153	has failed
+T214	KEY_C 7129 7133	when
+T215	STATEMENT 7134 7153	hardware has failed
+T216	STATEMENT 7079 7128	The Service Monitor Subsystem shall report status
+T217	CAUSE 7129 7153	when hardware has failed
+T218	CAUSE_EFFECT_RELATION 7079 7153	The Service Monitor Subsystem shall report status when hardware has failed
+T219	ROOT_SENTENCE 7079 7154	The Service Monitor Subsystem shall report status when hardware has failed.
+T220	VARIABLE 7055 7063	hardware
+T221	CONDITION 7064 7076	has degraded
+T222	KEY_C 7050 7054	when
+T223	VARIABLE 7000 7029	The Service Monitor Subsystem
+T224	CONDITION 7030 7049	shall report status
+T225	STATEMENT 7055 7076	hardware has degraded
+T226	CAUSE 7050 7076	when hardware has degraded
+T227	STATEMENT 7000 7049	The Service Monitor Subsystem shall report status
+T228	CAUSE_EFFECT_RELATION 7000 7076	The Service Monitor Subsystem shall report status when hardware has degraded
+T229	ROOT_SENTENCE 7000 7077	The Service Monitor Subsystem shall report status when hardware has degraded.
+T230	VARIABLE 4720 4738	other Core Systems
+T231	CONDITION 4747 4757	compatible
+T232	NEGATION 4739 4757	are not compatible
+T233	KEY_C 4715 4719	when
+T234	CONDITION 4682 4714	shall notify the Service Monitor
+T235	VARIABLE 4658 4681	The Core2Core Subsystem
+T236	STATEMENT 4658 4714	The Core2Core Subsystem shall notify the Service Monitor
+T237	STATEMENT 4720 4757	other Core Systems are not compatible
+T238	CAUSE 4715 4757	when other Core Systems are not compatible
+T239	CAUSE_EFFECT_RELATION 4658 4757	The Core2Core Subsystem shall notify the Service Monitor when other Core Systems are not compatible
+T240	ROOT_SENTENCE 4658 4758	The Core2Core Subsystem shall notify the Service Monitor when other Core Systems are not compatible.
+T241	VARIABLE 4009 4030	a Core System service
+T242	CONDITION 4031 4055	requires geo-referencing
+T243	VARIABLE 4057 4094	the same geo-referencing capabilities
+T244	CONDITION 4095 4133	shall be available to all System Users
+T245	STATEMENT 4057 4133	the same geo-referencing capabilities shall be available to all System Users
+T246	KEY_C 4004 4008	When
+T247	STATEMENT 4009 4055	a Core System service requires geo-referencing
+T248	CAUSE 4004 4055	When a Core System service requires geo-referencing
+T249	CAUSE_EFFECT_RELATION 4004 4133	When a Core System service requires geo-referencing, the same geo-referencing capabilities shall be available to all System Users
+T250	ROOT_SENTENCE 4004 4134	When a Core System service requires geo-referencing, the same geo-referencing capabilities shall be available to all System Users.
+T251	VARIABLE 2904 2912	a flight
+T252	CONDITION 2913 2929	is automatically
+T253	CONDITION 2933 2967	manually removed from the sequence
+T254	OR 2913 2967	is automatically or manually removed from the sequence
+T255	VARIABLE 2969 2977	its TSAT
+T256	VARIABLE 2982 2986	TTOT
+T257	CONDITION 2987 3005	shall be cancelled
+T258	VARIABLE 3007 3017	the flight
+T259	CONDITION 3018 3041	gets a ‘removed’ status
+T260	AND 2969 2986	its TSAT and TTOT
+T261	STATEMENT 2969 3005	its TSAT and TTOT shall be cancelled
+T262	STATEMENT 3007 3041	the flight gets a ‘removed’ status
+T263	AND 2969 3041	its TSAT and TTOT shall be cancelled, the flight gets a ‘removed’ status
+T264	STATEMENT 2904 2967	a flight is automatically or manually removed from the sequence
+T265	CAUSE 2899 2967	When a flight is automatically or manually removed from the sequence
+T266	KEY_C 2899 2903	When
+T267	CAUSE_EFFECT_RELATION 2899 3041	When a flight is automatically or manually removed from the sequence, its TSAT and TTOT shall be cancelled, the flight gets a ‘removed’ status
+T268	ROOT_SENTENCE 2899 3042	When a flight is automatically or manually removed from the sequence, its TSAT and TTOT shall be cancelled, the flight gets a ‘removed’ status.
+T269	VARIABLE 2737 2747	a new TOBT
+T270	CONDITION 2748 2809	is provided for a flight previously removed from the sequence
+T271	CONDITION 2811 2819	manually
+T272	CONDITION 2823 2836	automatically
+T273	OR 2811 2836	manually or automatically
+T274	AND 2748 2837	is provided for a flight previously removed from the sequence (manually or automatically)
+T275	STATEMENT 2737 2837	a new TOBT is provided for a flight previously removed from the sequence (manually or automatically)
+T276	KEY_C 2732 2736	When
+T277	VARIABLE 2838 2852	the Basic DMAN
+T278	CONDITION 2853 2896	shall automatically re-sequence this flight
+T279	CAUSE 2732 2837	When a new TOBT is provided for a flight previously removed from the sequence (manually or automatically)
+T280	STATEMENT 2838 2896	the Basic DMAN shall automatically re-sequence this flight
+T281	CAUSE_EFFECT_RELATION 2732 2896	When a new TOBT is provided for a flight previously removed from the sequence (manually or automatically) the Basic DMAN shall automatically re-sequence this flight
+T282	ROOT_SENTENCE 2732 2897	When a new TOBT is provided for a flight previously removed from the sequence (manually or automatically) the Basic DMAN shall automatically re-sequence this flight.
+T283	VARIABLE 3115 3129	The basic DMAN
+T284	CONDITION 3130 3161	shall perform a controlled stop
+T285	VARIABLE 3167 3179	a stop event
+T286	CONDITION 3180 3191	is received
+T287	VARIABLE 3193 3248	saving in disk the departures/hour ratio of each runway
+T288	KEY_C 3162 3166	when
+T289	CAUSE 3162 3191	when a stop event is received
+T290	STATEMENT 3167 3191	a stop event is received
+T291	STATEMENT 3115 3161	The basic DMAN shall perform a controlled stop
+T292	CAUSE_EFFECT_RELATION 3115 3248	The basic DMAN shall perform a controlled stop when a stop event is received, saving in disk the departures/hour ratio of each runway
+T293	ROOT_SENTENCE 3115 3249	The basic DMAN shall perform a controlled stop when a stop event is received, saving in disk the departures/hour ratio of each runway.
+T294	VARIABLE 6513 6543	The Network Services Subsystem
+T295	CONDITION 6544 6591	shall transition to degraded mode of operations
+T296	VARIABLE 6597 6615	a software failure
+T297	CONDITION 6616 6652	within the Network Service Subsystem
+T298	CONDITION 6653 6664	is detected
+T299	AND 6616 6664	within the Network Service Subsystem is detected
+T300	STATEMENT 6597 6664	a software failure within the Network Service Subsystem is detected
+T301	KEY_C 6592 6596	when
+T302	STATEMENT 6513 6591	The Network Services Subsystem shall transition to degraded mode of operations
+T303	CAUSE 6592 6664	when a software failure within the Network Service Subsystem is detected
+T304	CAUSE_EFFECT_RELATION 6513 6664	The Network Services Subsystem shall transition to degraded mode of operations when a software failure within the Network Service Subsystem is detected
+T305	ROOT_SENTENCE 6513 6665	The Network Services Subsystem shall transition to degraded mode of operations when a software failure within the Network Service Subsystem is detected.
+T306	VARIABLE 6667 6697	The Network Services Subsystem
+T307	CONDITION 6698 6749	shall transition to the requested mode of operation
+T308	KEY_C 6750 6754	when
+T309	VARIABLE 6755 6797	commanded by an authorized System Operator
+T310	CAUSE 6750 6797	when commanded by an authorized System Operator
+T311	STATEMENT 6667 6749	The Network Services Subsystem shall transition to the requested mode of operation
+T312	CAUSE_EFFECT_RELATION 6667 6797	The Network Services Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator
+T313	ROOT_SENTENCE 6667 6798	The Network Services Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+T314	VARIABLE 3592 3601	connected
+T315	KEY_C 3587 3591	When
+T316	VARIABLE 3603 3620	the data provider
+T317	CONDITION 3621 3687	sends the data directly to each consumer bypassing the Core System
+T318	STATEMENT 3603 3687	the data provider sends the data directly to each consumer bypassing the Core System
+T319	CAUSE 3587 3601	When connected
+T320	CAUSE_EFFECT_RELATION 3587 3687	When connected, the data provider sends the data directly to each consumer bypassing the Core System
+T321	ROOT_SENTENCE 3587 3688	When connected, the data provider sends the data directly to each consumer bypassing the Core System.
+T322	VARIABLE 4277 4300	The Core2Core Subsystem
+T323	CONDITION 4301 4348	shall transition to degraded mode of operations
+T324	VARIABLE 4354 4372	a software failure
+T325	CONDITION 4373 4403	within the Core2Core Subsystem
+T326	CONDITION 4404 4415	is detected
+T327	AND 4373 4415	within the Core2Core Subsystem is detected
+T328	STATEMENT 4354 4415	a software failure within the Core2Core Subsystem is detected
+T329	KEY_C 4349 4353	when
+T330	STATEMENT 4277 4348	The Core2Core Subsystem shall transition to degraded mode of operations
+T331	CAUSE 4349 4415	when a software failure within the Core2Core Subsystem is detected
+T332	CAUSE_EFFECT_RELATION 4277 4415	The Core2Core Subsystem shall transition to degraded mode of operations when a software failure within the Core2Core Subsystem is detected
+T333	ROOT_SENTENCE 4277 4416	The Core2Core Subsystem shall transition to degraded mode of operations when a software failure within the Core2Core Subsystem is detected.
+T334	VARIABLE 5592 5628	operating in normal operational mode
+T335	VARIABLE 5630 5661	the Data Distribution Subsystem
+T336	CONDITION 5662 5719	shall accept data distribution requests from System Users
+T337	KEY_C 5587 5591	When
+T338	STATEMENT 5630 5719	the Data Distribution Subsystem shall accept data distribution requests from System Users
+T339	CAUSE 5587 5628	When operating in normal operational mode
+T340	CAUSE_EFFECT_RELATION 5587 5719	When operating in normal operational mode, the Data Distribution Subsystem shall accept data distribution requests from System Users
+T341	ROOT_SENTENCE 5587 5720	When operating in normal operational mode, the Data Distribution Subsystem shall accept data distribution requests from System Users.
+T342	VARIABLE 5993 6027	The Network Services Subsystem GCS
+T343	CONDITION 6028 6075	shall discard the message submitted for geocast
+T344	VARIABLE 6081 6092	the message
+T345	CONDITION 6093 6114	fails integrity check
+T346	CAUSE 6076 6114	when the message fails integrity check
+T347	STATEMENT 6081 6114	the message fails integrity check
+T348	STATEMENT 5993 6075	The Network Services Subsystem GCS shall discard the message submitted for geocast
+T349	CAUSE_EFFECT_RELATION 5993 6114	The Network Services Subsystem GCS shall discard the message submitted for geocast when the message fails integrity check
+T350	ROOT_SENTENCE 5993 6115	The Network Services Subsystem GCS shall discard the message submitted for geocast when the message fails integrity check.
+T351	CONDITION 6339 6356	meant for geocast
+T352	CONDITION 6357 6369	is discarded
+T353	VARIABLE 6329 6338	a message
+T354	KEY_C 6324 6328	when
+T355	VARIABLE 6258 6292	The Network Services Subsystem GCS
+T356	CONDITION 6293 6323	shall record in the system log
+T357	STATEMENT 6258 6323	The Network Services Subsystem GCS shall record in the system log
+T358	AND 6339 6369	meant for geocast is discarded
+T359	STATEMENT 6329 6369	a message meant for geocast is discarded
+T360	CAUSE 6324 6369	when a message meant for geocast is discarded
+T361	CAUSE_EFFECT_RELATION 6258 6369	The Network Services Subsystem GCS shall record in the system log when a message meant for geocast is discarded
+T362	ROOT_SENTENCE 6258 6370	The Network Services Subsystem GCS shall record in the system log when a message meant for geocast is discarded.
+T363	CONDITION 11782 11803	degrade on audit days
+T364	VARIABLE 11762 11772	The system
+T365	NEGATION 11773 11803	must not degrade on audit days
+T366	VARIABLE 11809 11826	multiple meetings
+T367	CONDITION 11827 11832	occur
+T368	KEY_C 11804 11808	when
+T369	CAUSE 11804 11832	when multiple meetings occur
+T370	STATEMENT 11809 11832	multiple meetings occur
+T371	STATEMENT 11762 11803	The system must not degrade on audit days
+T372	CAUSE_EFFECT_RELATION 11762 11832	The system must not degrade on audit days when multiple meetings occur
+T373	ROOT_SENTENCE 11762 11833	The system must not degrade on audit days when multiple meetings occur.
+T374	VARIABLE 4418 4441	The Core2Core Subsystem
+T375	CONDITION 4442 4493	shall transition to the requested mode of operation
+T376	VARIABLE 4499 4541	commanded by an authorized System Operator
+T377	KEY_C 4494 4498	when
+T378	CAUSE 4494 4541	when commanded by an authorized System Operator
+T379	STATEMENT 4418 4493	The Core2Core Subsystem shall transition to the requested mode of operation
+T380	CAUSE_EFFECT_RELATION 4418 4541	The Core2Core Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator
+T381	ROOT_SENTENCE 4418 4542	The Core2Core Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+T382	VARIABLE 4544 4567	The Core2Core Subsystem
+T383	CONDITION 4568 4607	shall transition to the requested state
+T384	VARIABLE 4613 4655	commanded by an authorized System Operator
+T385	KEY_C 4608 4612	when
+T386	STATEMENT 4544 4607	The Core2Core Subsystem shall transition to the requested state
+T387	CAUSE 4608 4655	when commanded by an authorized System Operator
+T388	CAUSE_EFFECT_RELATION 4544 4655	The Core2Core Subsystem shall transition to the requested state when commanded by an authorized System Operator
+T389	ROOT_SENTENCE 4544 4656	The Core2Core Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+T390	VARIABLE 4948 4966	in Restricted Mode
+T391	VARIABLE 4968 4999	the Data Distribution Subsystem
+T392	CONDITION 5000 5055	shall prioritize System User's requests to receive data
+T393	KEY_C 4943 4947	When
+T394	CAUSE 4943 4966	When in Restricted Mode
+T395	STATEMENT 4968 5055	the Data Distribution Subsystem shall prioritize System User's requests to receive data
+T396	CAUSE_EFFECT_RELATION 4943 5055	When in Restricted Mode, the Data Distribution Subsystem shall prioritize System User's requests to receive data
+T397	ROOT_SENTENCE 4943 5056	When in Restricted Mode, the Data Distribution Subsystem shall prioritize System User's requests to receive data.
+T398	VARIABLE 5058 5089	The Data Distribution Subsystem
+T399	CONDITION 5090 5147	shall provide a data publisher's information in a catalog
+T400	VARIABLE 5153 5162	that data
+T401	CONDITION 5163 5208	is distributed as an external source-to-point
+T402	VARIABLE 5219 5242	through the Core System
+T403	NEGATION 5215 5242	not through the Core System
+T404	KEY_C 5210 5214	when
+T405	KEY_C 5148 5152	when
+T406	STATEMENT 5058 5147	The Data Distribution Subsystem shall provide a data publisher's information in a catalog
+T407	STATEMENT 5153 5208	that data is distributed as an external source-to-point
+T408	CAUSE 5148 5208	when that data is distributed as an external source-to-point
+T409	CAUSE 5210 5242	when not through the Core System
+T410	AND 5148 5242	when that data is distributed as an external source-to-point (when not through the Core System
+T411	CAUSE_EFFECT_RELATION 5058 5242	The Data Distribution Subsystem shall provide a data publisher's information in a catalog when that data is distributed as an external source-to-point (when not through the Core System
+T412	ROOT_SENTENCE 5058 5244	The Data Distribution Subsystem shall provide a data publisher's information in a catalog when that data is distributed as an external source-to-point (when not through the Core System).
+T413	VARIABLE 5430 5461	The Data Distribution Subsystem
+T414	CONDITION 5462 5509	shall transition to degraded mode of operations
+T415	VARIABLE 5515 5533	a hardware failure
+T416	CONDITION 5534 5572	within the Data Distribution Subsystem
+T417	CONDITION 5573 5584	is detected
+T418	KEY_C 5510 5514	when
+T419	AND 5534 5584	within the Data Distribution Subsystem is detected
+T420	STATEMENT 5430 5509	The Data Distribution Subsystem shall transition to degraded mode of operations
+T421	STATEMENT 5515 5584	a hardware failure within the Data Distribution Subsystem is detected
+T422	CAUSE 5510 5584	when a hardware failure within the Data Distribution Subsystem is detected
+T423	CAUSE_EFFECT_RELATION 5430 5584	The Data Distribution Subsystem shall transition to degraded mode of operations when a hardware failure within the Data Distribution Subsystem is detected
+T424	ROOT_SENTENCE 5430 5585	The Data Distribution Subsystem shall transition to degraded mode of operations when a hardware failure within the Data Distribution Subsystem is detected.
+T425	VARIABLE 5722 5753	The Data Distribution Subsystem
+T426	CONDITION 5754 5801	shall transition to degraded mode of operations
+T427	KEY_C 5802 5806	when
+T428	VARIABLE 5807 5825	a software failure
+T429	CONDITION 5826 5864	within the Data Distribution Subsystem
+T430	CONDITION 5865 5876	is detected
+T431	AND 5826 5876	within the Data Distribution Subsystem is detected
+T432	STATEMENT 5807 5876	a software failure within the Data Distribution Subsystem is detected
+T433	CAUSE 5802 5876	when a software failure within the Data Distribution Subsystem is detected
+T434	STATEMENT 5722 5801	The Data Distribution Subsystem shall transition to degraded mode of operations
+T435	CAUSE_EFFECT_RELATION 5722 5876	The Data Distribution Subsystem shall transition to degraded mode of operations when a software failure within the Data Distribution Subsystem is detected
+T436	ROOT_SENTENCE 5722 5877	The Data Distribution Subsystem shall transition to degraded mode of operations when a software failure within the Data Distribution Subsystem is detected.
+T437	VARIABLE 6117 6151	The Network Services Subsystem GCS
+T438	CONDITION 6152 6199	shall discard the message submitted for geocast
+T439	KEY_C 6200 6204	when
+T440	KEY_C 6076 6080	when
+T441	VARIABLE 6205 6226	the message frequency
+T442	CONDITION 6227 6255	exceeds the configured limit
+T443	STATEMENT 6205 6255	the message frequency exceeds the configured limit
+T444	CAUSE 6200 6255	when the message frequency exceeds the configured limit
+T445	STATEMENT 6117 6199	The Network Services Subsystem GCS shall discard the message submitted for geocast
+T446	CAUSE_EFFECT_RELATION 6117 6255	The Network Services Subsystem GCS shall discard the message submitted for geocast when the message frequency exceeds the configured limit
+T447	ROOT_SENTENCE 6117 6256	The Network Services Subsystem GCS shall discard the message submitted for geocast when the message frequency exceeds the configured limit.
+T448	VARIABLE 7156 7185	The Service Monitor Subsystem
+T449	CONDITION 7186 7228	shall notify an authorized System Operator
+T450	KEY_C 7229 7233	when
+T451	VARIABLE 7234 7252	malicious software
+T452	CONDITION 7253 7270	has been detected
+T453	CONDITION 7271 7293	within the Core System
+T454	AND 7253 7293	has been detected within the Core System
+T455	CAUSE 7229 7293	when malicious software has been detected within the Core System
+T456	STATEMENT 7234 7293	malicious software has been detected within the Core System
+T457	STATEMENT 7156 7228	The Service Monitor Subsystem shall notify an authorized System Operator
+T458	CAUSE_EFFECT_RELATION 7156 7293	The Service Monitor Subsystem shall notify an authorized System Operator when malicious software has been detected within the Core System
+T459	ROOT_SENTENCE 7156 7294	The Service Monitor Subsystem shall notify an authorized System Operator when malicious software has been detected within the Core System.
+T460	VARIABLE 9607 9637	The User Permissions Subsystem
+T461	CONDITION 9638 9685	shall transition to degraded mode of operations
+T462	KEY_C 9686 9690	when
+T463	VARIABLE 9691 9709	a hardware failure
+T464	CONDITION 9710 9747	within the User Permissions Subsystem
+T465	CONDITION 9748 9759	is detected
+T466	AND 9710 9759	within the User Permissions Subsystem is detected
+T467	STATEMENT 9691 9759	a hardware failure within the User Permissions Subsystem is detected
+T468	CAUSE 9686 9759	when a hardware failure within the User Permissions Subsystem is detected
+T469	STATEMENT 9607 9685	The User Permissions Subsystem shall transition to degraded mode of operations
+T470	CAUSE_EFFECT_RELATION 9607 9759	The User Permissions Subsystem shall transition to degraded mode of operations when a hardware failure within the User Permissions Subsystem is detected
+T471	ROOT_SENTENCE 9607 9760	The User Permissions Subsystem shall transition to degraded mode of operations when a hardware failure within the User Permissions Subsystem is detected.
+T472	VARIABLE 9332 9362	The User Permissions Subsystem
+T473	CONDITION 9363 9375	shall record
+T474	VARIABLE 9381 9394	a System User
+T475	CONDITION 9395 9439	performs an authorized system user operation
+T476	KEY_C 9376 9380	when
+T477	STATEMENT 9381 9439	a System User performs an authorized system user operation
+T478	CAUSE 9376 9439	when a System User performs an authorized system user operation
+T479	STATEMENT 9332 9375	The User Permissions Subsystem shall record
+T480	CAUSE_EFFECT_RELATION 9332 9439	The User Permissions Subsystem shall record when a System User performs an authorized system user operation
+T481	ROOT_SENTENCE 9332 9440	The User Permissions Subsystem shall record when a System User performs an authorized system user operation.
+T482	VARIABLE 9210 9228	The Time Subsystem
+T483	CONDITION 9229 9295	shall provide synchronization time to other Core System subsystems
+T484	VARIABLE 9301 9329	operating in Restricted Mode
+T485	KEY_C 9296 9300	when
+T486	CAUSE 9296 9329	when operating in Restricted Mode
+T487	STATEMENT 9210 9295	The Time Subsystem shall provide synchronization time to other Core System subsystems
+T488	CAUSE_EFFECT_RELATION 9210 9329	The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in Restricted Mode
+T489	ROOT_SENTENCE 9210 9330	The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in Restricted Mode.
+T490	VARIABLE 9080 9098	The Time Subsystem
+T491	CONDITION 9099 9165	shall provide synchronization time to other Core System subsystems
+T492	VARIABLE 9171 9207	operating in normal operational mode
+T493	KEY_C 9166 9170	when
+T494	CAUSE 9166 9207	when operating in normal operational mode
+T495	STATEMENT 9080 9165	The Time Subsystem shall provide synchronization time to other Core System subsystems
+T496	CAUSE_EFFECT_RELATION 9080 9207	The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in normal operational mode
+T497	ROOT_SENTENCE 9080 9208	The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in normal operational mode.
+T498	VARIABLE 8579 8597	The Time Subsystem
+T499	CONDITION 8598 8645	shall transition to degraded mode of operations
+T500	KEY_C 8646 8650	when
+T501	VARIABLE 8651 8669	a software failure
+T502	CONDITION 8670 8695	within the Time Subsystem
+T503	CONDITION 8696 8707	is detected
+T504	AND 8670 8707	within the Time Subsystem is detected
+T505	STATEMENT 8651 8707	a software failure within the Time Subsystem is detected
+T506	CAUSE 8646 8707	when a software failure within the Time Subsystem is detected
+T507	STATEMENT 8579 8645	The Time Subsystem shall transition to degraded mode of operations
+T508	CAUSE_EFFECT_RELATION 8579 8707	The Time Subsystem shall transition to degraded mode of operations when a software failure within the Time Subsystem is detected
+T509	ROOT_SENTENCE 8579 8708	The Time Subsystem shall transition to degraded mode of operations when a software failure within the Time Subsystem is detected.
+T510	KEY_C 12432 12436	When
+T511	VARIABLE 12437 12446	the delay
+T512	CONDITION 12447 12457	is expired
+T513	VARIABLE 12459 12479	the support operator
+T514	CONDITION 12480 12534	is automatically warned that the data flow is too late
+T515	STATEMENT 12459 12534	the support operator is automatically warned that the data flow is too late
+T516	STATEMENT 12437 12457	the delay is expired
+T517	CAUSE 12432 12457	When the delay is expired
+T518	CAUSE_EFFECT_RELATION 12432 12534	When the delay is expired, the support operator is automatically warned that the data flow is too late
+T519	ROOT_SENTENCE 12432 12535	When the delay is expired, the support operator is automatically warned that the data flow is too late.
+T520	KEY_C 12066 12070	When
+T521	VARIABLE 12071 12080	passwords
+T522	CONDITION 12081 12092	are entered
+T523	VARIABLE 12093 12097	they
+T524	CONDITION 12107 12128	display on the screen
+T525	NEGATION 12098 12128	must not display on the screen
+T526	VARIABLE 12133 12137	they
+T527	CONDITION 12138 12163	should be stored securely
+T528	STATEMENT 12133 12163	they should be stored securely
+T529	STATEMENT 12093 12128	they must not display on the screen
+T530	STATEMENT 12071 12092	passwords are entered
+T531	CAUSE 12066 12092	When passwords are entered
+T532	AND 12093 12163	they must not display on the screen and they should be stored securely
+T533	CAUSE_EFFECT_RELATION 12066 12163	When passwords are entered they must not display on the screen and they should be stored securely
+T534	ROOT_SENTENCE 12066 12164	When passwords are entered they must not display on the screen and they should be stored securely.
+T535	VARIABLE 10715 10742	The User Security Subsystem
+T536	CONDITION 10743 10817	shall send misbehavior information to the Misbehavior Management Subsystem
+T537	KEY_C 10818 10822	when
+T538	VARIABLE 10823 10839	a signed message
+T539	CONDITION 10847 10878	be validated from a System User
+T540	NEGATION 10840 10878	cannot be validated from a System User
+T541	STATEMENT 10823 10878	a signed message cannot be validated from a System User
+T542	CAUSE 10818 10878	when a signed message cannot be validated from a System User
+T543	STATEMENT 10715 10817	The User Security Subsystem shall send misbehavior information to the Misbehavior Management Subsystem
+T544	CAUSE_EFFECT_RELATION 10715 10878	The User Security Subsystem shall send misbehavior information to the Misbehavior Management Subsystem when a signed message cannot be validated from a System User
+T545	ROOT_SENTENCE 10715 10879	The User Security Subsystem shall send misbehavior information to the Misbehavior Management Subsystem when a signed message cannot be validated from a System User.
+T546	VARIABLE 10298 10325	The User Security Subsystem
+T547	CONDITION 10326 10361	shall sign messages to System Users
+T548	KEY_C 10362 10366	when
+T549	VARIABLE 10367 10383	a signed message
+T550	CONDITION 10384 10415	originates from the Core System
+T551	STATEMENT 10367 10415	a signed message originates from the Core System
+T552	CAUSE 10362 10415	when a signed message originates from the Core System
+T553	STATEMENT 10298 10361	The User Security Subsystem shall sign messages to System Users
+T554	CAUSE_EFFECT_RELATION 10298 10415	The User Security Subsystem shall sign messages to System Users when a signed message originates from the Core System
+T555	ROOT_SENTENCE 10298 10416	The User Security Subsystem shall sign messages to System Users when a signed message originates from the Core System.
+T556	VARIABLE 10418 10445	The User Security Subsystem
+T557	CONDITION 10446 10522	shall encrypt messages to configured external Certification Authorities (CA)
+T558	KEY_C 10523 10527	when
+T559	VARIABLE 10528 10534	the CA
+T560	CONDITION 10535 10565	is external to the Core System
+T561	STATEMENT 10528 10565	the CA is external to the Core System
+T562	CAUSE 10523 10565	when the CA is external to the Core System
+T563	STATEMENT 10418 10522	The User Security Subsystem shall encrypt messages to configured external Certification Authorities (CA)
+T564	CAUSE_EFFECT_RELATION 10418 10565	The User Security Subsystem shall encrypt messages to configured external Certification Authorities (CA) when the CA is external to the Core System
+T565	ROOT_SENTENCE 10418 10566	The User Security Subsystem shall encrypt messages to configured external Certification Authorities (CA) when the CA is external to the Core System.
+T566	VARIABLE 10568 10595	The User Security Subsystem
+T567	CONDITION 10596 10669	shall sign messages to configured external Certification Authorities (CA)
+T568	KEY_C 10670 10674	when
+T569	VARIABLE 10675 10681	the CA
+T570	CONDITION 10682 10712	is external to the Core System
+T571	STATEMENT 10675 10712	the CA is external to the Core System
+T572	CAUSE 10670 10712	when the CA is external to the Core System
+T573	STATEMENT 10568 10669	The User Security Subsystem shall sign messages to configured external Certification Authorities (CA)
+T574	CAUSE_EFFECT_RELATION 10568 10712	The User Security Subsystem shall sign messages to configured external Certification Authorities (CA) when the CA is external to the Core System
+T575	ROOT_SENTENCE 10568 10713	The User Security Subsystem shall sign messages to configured external Certification Authorities (CA) when the CA is external to the Core System.
+T576	KEY_C 6372 6376	When
+T577	VARIABLE 6377 6413	operating in normal operational mode
+T578	VARIABLE 6415 6445	the Network Services Subsystem
+T579	CONDITION 6446 6510	shall accept registration requests for geocast from System Users
+T580	STATEMENT 6415 6510	the Network Services Subsystem shall accept registration requests for geocast from System Users
+T581	CAUSE 6372 6413	When operating in normal operational mode
+T582	CAUSE_EFFECT_RELATION 6372 6510	When operating in normal operational mode, the Network Services Subsystem shall accept registration requests for geocast from System Users
+T583	ROOT_SENTENCE 6372 6511	When operating in normal operational mode, the Network Services Subsystem shall accept registration requests for geocast from System Users.
+T584	VARIABLE 3418 3449	A SharePoint timer job/workflow
+T585	CONDITION 3450 3492	will be developed to run each day midnight
+T586	CONDITION 3497 3540	automatically set the tenders status closed
+T587	VARIABLE 3546 3572	the close date of a tender
+T588	CONDITION 3573 3584	will arrive
+T589	KEY_C 3541 3545	when
+T590	STATEMENT 3546 3584	the close date of a tender will arrive
+T591	CAUSE 3541 3584	when the close date of a tender will arrive
+T592	CAUSE_EFFECT_RELATION 3497 3584	automatically set the tenders status closed when the close date of a tender will arrive
+T593	NONE_CAUSAL 3418 3492	A SharePoint timer job/workflow will be developed to run each day midnight
+T594	AND 3418 3584	A SharePoint timer job/workflow will be developed to run each day midnight and automatically set the tenders status closed when the close date of a tender will arrive
+T595	ROOT_SENTENCE 3418 3585	A SharePoint timer job/workflow will be developed to run each day midnight and automatically set the tenders status closed when the close date of a tender will arrive.
+T596	VARIABLE 3690 3692	It
+T597	CONDITION 3693 3755	will enable decisions about which communications medium to use
+T598	KEY_C 3756 3760	when
+T599	VARIABLE 3761 3774	more than one
+T600	CONDITION 3775 3787	is available
+T601	STATEMENT 3761 3787	more than one is available
+T602	CAUSE 3756 3787	when more than one is available
+T603	STATEMENT 3690 3755	It will enable decisions about which communications medium to use
+T604	CAUSE_EFFECT_RELATION 3690 3787	It will enable decisions about which communications medium to use when more than one is available
+T605	ROOT_SENTENCE 3690 3788	It will enable decisions about which communications medium to use when more than one is available.
+T606	VARIABLE 3790 3816	The Core System's facility
+T607	CONDITION 3817 3830	shall operate
+T608	KEY_C 3831 3835	when
+T609	VARIABLE 3836 3876	exposed to a relative humidity up to 95%
+T610	VARIABLE 3888 3900	condensation
+T611	AND 3836 3900	exposed to a relative humidity up to 95%, including condensation
+T612	CAUSE 3831 3900	when exposed to a relative humidity up to 95%, including condensation
+T613	STATEMENT 3790 3830	The Core System's facility shall operate
+T614	CAUSE_EFFECT_RELATION 3790 3900	The Core System's facility shall operate when exposed to a relative humidity up to 95%, including condensation
+T615	ROOT_SENTENCE 3790 3901	The Core System's facility shall operate when exposed to a relative humidity up to 95%, including condensation.
+T616	VARIABLE 4136 4159	The Core2Core Subsystem
+T617	CONDITION 4160 4207	shall transition to degraded mode of operations
+T618	KEY_C 4208 4212	when
+T619	VARIABLE 4213 4231	a hardware failure
+T620	CONDITION 4232 4262	within the Core2Core Subsystem
+T621	CONDITION 4263 4274	is detected
+T622	AND 4232 4274	within the Core2Core Subsystem is detected
+T623	STATEMENT 4213 4274	a hardware failure within the Core2Core Subsystem is detected
+T624	CAUSE 4208 4274	when a hardware failure within the Core2Core Subsystem is detected
+T625	STATEMENT 4136 4207	The Core2Core Subsystem shall transition to degraded mode of operations
+T626	CAUSE_EFFECT_RELATION 4136 4274	The Core2Core Subsystem shall transition to degraded mode of operations when a hardware failure within the Core2Core Subsystem is detected
+T627	ROOT_SENTENCE 4136 4275	The Core2Core Subsystem shall transition to degraded mode of operations when a hardware failure within the Core2Core Subsystem is detected.
+T628	VARIABLE 4760 4775	The Core System
+T629	CONDITION 4776 4824	shall accept an error message from a Mobile User
+T630	KEY_C 4825 4829	when
+T631	VARIABLE 4830 4845	the Core System
+T632	CONDITION 4846 4892	falsely advertises that a service as available
+T633	VARIABLE 4898 4940	is actually unavailable to the Mobile User
+T634	STATEMENT 4830 4892	the Core System falsely advertises that a service as available
+T635	AND 4830 4940	the Core System falsely advertises that a service as available, but is actually unavailable to the Mobile User
+T636	CAUSE 4825 4940	when the Core System falsely advertises that a service as available, but is actually unavailable to the Mobile User
+T637	STATEMENT 4760 4824	The Core System shall accept an error message from a Mobile User
+T638	CAUSE_EFFECT_RELATION 4760 4940	The Core System shall accept an error message from a Mobile User when the Core System falsely advertises that a service as available, but is actually unavailable to the Mobile User
+T639	ROOT_SENTENCE 4760 4941	The Core System shall accept an error message from a Mobile User when the Core System falsely advertises that a service as available, but is actually unavailable to the Mobile User.
+T640	KEY_C 11067 11071	When
+T641	VARIABLE 11072 11098	two Core System boundaries
+T642	CONDITION 11099 11107	are near
+T643	CONDITION 11111 11122	overlapping
+T644	OR 11099 11122	are near or overlapping
+T645	STATEMENT 11072 11122	two Core System boundaries are near or overlapping
+T646	CAUSE 11067 11122	When two Core System boundaries are near or overlapping
+T647	VARIABLE 11124 11129	there
+T648	CONDITION 11130 11225	needs to be an agreement between the two Core Systems who should be the one to provide coverage
+T649	STATEMENT 11124 11225	there needs to be an agreement between the two Core Systems who should be the one to provide coverage
+T650	CAUSE_EFFECT_RELATION 11067 11225	When two Core System boundaries are near or overlapping, there needs to be an agreement between the two Core Systems who should be the one to provide coverage
+T651	ROOT_SENTENCE 11067 11226	When two Core System boundaries are near or overlapping, there needs to be an agreement between the two Core Systems who should be the one to provide coverage.
+T652	VARIABLE 11412 11423	These users
+T653	CONDITION 11424 11458	verify the Core System’s operation
+T654	KEY_C 11459 11463	when
+T655	VARIABLE 11464 11475	any changes
+T656	CONDITION 11476 11510	are made to its operating hardware
+T657	CONDITION 11514 11522	software
+T658	OR 11476 11522	are made to its operating hardware or software
+T659	STATEMENT 11464 11522	any changes are made to its operating hardware or software
+T660	CAUSE 11459 11522	when any changes are made to its operating hardware or software
+T661	STATEMENT 11412 11458	These users verify the Core System’s operation
+T662	CAUSE_EFFECT_RELATION 11412 11522	These users verify the Core System’s operation when any changes are made to its operating hardware or software
+T663	ROOT_SENTENCE 11412 11523	These users verify the Core System’s operation when any changes are made to its operating hardware or software.
+T664	KEY_C 11588 11597	only when
+T665	VARIABLE 11602 11632	available from the central MPI
+T666	NEGATION 11598 11632	not available from the central MPI
+T667	VARIABLE 11525 11535	The system
+T668	CONDITION 11536 11587	must also allow for manual entry of patient details
+T669	CAUSE 11588 11632	only when not available from the central MPI
+T670	STATEMENT 11525 11587	The system must also allow for manual entry of patient details
+T671	CAUSE_EFFECT_RELATION 11525 11632	The system must also allow for manual entry of patient details only when not available from the central MPI
+T672	ROOT_SENTENCE 11525 11633	The system must also allow for manual entry of patient details only when not available from the central MPI.
+T673	VARIABLE 11635 11645	The system
+T674	CONDITION 11646 11656	must allow
+T675	KEY_C 11658 11660	if
+T676	VARIABLE 11661 11685	selected by a Consultant
+T677	CONDITION 11687 11715	anonymity of patient details
+T678	KEY_C 11716 11720	when
+T679	VARIABLE 11721 11725	case
+T680	CONDITION 11726 11744	is being discussed
+T681	CONDITION 11745 11759	at M&M meeting
+T682	AND 11726 11759	is being discussed at M&M meeting
+T683	STATEMENT 11721 11759	case is being discussed at M&M meeting
+T684	CAUSE 11716 11759	when case is being discussed at M&M meeting
+T685	CAUSE 11658 11685	if selected by a Consultant
+T686	CAUSE_EFFECT_RELATION 11635 11715	The system must allow (if selected by a Consultant) anonymity of patient details
+T687	CAUSE_EFFECT_RELATION 11635 11759	The system must allow (if selected by a Consultant) anonymity of patient details when case is being discussed at M&M meeting
+T688	ROOT_SENTENCE 11635 11760	The system must allow (if selected by a Consultant) anonymity of patient details when case is being discussed at M&M meeting.
+T689	KEY_C 12537 12541	When
+T690	VARIABLE 12542 12563	writing this document
+T691	VARIABLE 12564 12566	it
+T692	CONDITION 12567 12625	was inherited that all requirements have the same priority
+T693	STATEMENT 12564 12625	it was inherited that all requirements have the same priority
+T694	CAUSE 12537 12563	When writing this document
+T695	CAUSE_EFFECT_RELATION 12537 12625	When writing this document it was inherited that all requirements have the same priority
+T696	ROOT_SENTENCE 12537 12626	When writing this document it was inherited that all requirements have the same priority.

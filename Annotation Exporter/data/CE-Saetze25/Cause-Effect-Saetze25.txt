@@ -1,0 +1,638 @@
+T1	KEY_C 0 2	If
+T2	VARIABLE 6 16	QoS option
+T3	CONDITION 17 41	is placed in the request
+T4	VARIABLE 43 54	Best Effort
+T5	CONDITION 55 71	shall be assumed
+T6	STATEMENT 43 71	Best Effort shall be assumed
+T7	STATEMENT 6 41	QoS option is placed in the request
+T8	NEGATION 3 41	no QoS option is placed in the request
+T9	CAUSE 0 41	If no QoS option is placed in the request
+T10	CAUSE_EFFECT_RELATION 0 71	If no QoS option is placed in the request, Best Effort shall be assumed
+T11	ROOT_SENTENCE 0 72	If no QoS option is placed in the request, Best Effort shall be assumed.
+T12	KEY_C 74 76	If
+T13	VARIABLE 77 95	any QoS guarantees
+T14	CONDITION 96 108	are required
+T15	KEY_C 109 113	then
+T16	VARIABLE 114 141	a QoS configuration request
+T17	CONDITION 142 155	shall be sent
+T18	STATEMENT 77 108	any QoS guarantees are required
+T19	STATEMENT 114 155	a QoS configuration request shall be sent
+T20	EFFECT 109 155	then a QoS configuration request shall be sent
+T21	CAUSE 74 108	If any QoS guarantees are required
+T22	CAUSE_EFFECT_RELATION 74 155	If any QoS guarantees are required then a QoS configuration request shall be sent
+T23	ROOT_SENTENCE 74 156	If any QoS guarantees are required then a QoS configuration request shall be sent.
+T24	KEY_C 352 354	If
+T25	VARIABLE 355 378	a configuration request
+T26	CONDITION 379 434	contains any QoS option parameters set to “do not care”
+T27	KEY_C 436 440	then
+T28	VARIABLE 441 467	the configuration response
+T29	CONDITION 468 514	shall set the same parameters to “do not care”
+T30	STATEMENT 441 514	the configuration response shall set the same parameters to “do not care”
+T31	EFFECT 436 514	then the configuration response shall set the same parameters to “do not care”
+T32	STATEMENT 355 434	a configuration request contains any QoS option parameters set to “do not care”
+T33	CAUSE 352 434	If a configuration request contains any QoS option parameters set to “do not care”
+T34	CAUSE_EFFECT_RELATION 352 514	If a configuration request contains any QoS option parameters set to “do not care”, then the configuration response shall set the same parameters to “do not care”
+T35	ROOT_SENTENCE 352 515	If a configuration request contains any QoS option parameters set to “do not care”, then the configuration response shall set the same parameters to “do not care”.
+T36	KEY_C 517 519	If
+T37	VARIABLE 520 533	‘Best effort’
+T38	CONDITION 534 545	is selected
+T39	VARIABLE 547 571	the remaining parameters
+T40	CONDITION 572 622	should be treated as optional by the remote device
+T41	STATEMENT 547 622	the remaining parameters should be treated as optional by the remote device
+T42	STATEMENT 520 545	‘Best effort’ is selected
+T43	CAUSE 517 545	If ‘Best effort’ is selected
+T44	CAUSE_EFFECT_RELATION 517 622	If ‘Best effort’ is selected, the remaining parameters should be treated as optional by the remote device
+T45	ROOT_SENTENCE 517 623	If ‘Best effort’ is selected, the remaining parameters should be treated as optional by the remote device.
+T46	KEY_C 625 627	If
+T47	VARIABLE 628 640	‘No traffic’
+T48	CONDITION 641 652	is selected
+T49	STATEMENT 628 652	‘No traffic’ is selected
+T50	CAUSE 625 652	If ‘No traffic’ is selected
+T51	VARIABLE 654 681	the remainder of the fields
+T52	CONDITION 682 698	shall be ignored
+T53	KEY_C 699 706	because
+T54	VARIABLE 707 712	there
+T55	CONDITION 719 779	data being sent across the channel in the outgoing direction
+T56	NEGATION 713 779	is no data being sent across the channel in the outgoing direction
+T57	STATEMENT 707 779	there is no data being sent across the channel in the outgoing direction
+T58	VARIABLE 902 935	The bit associated with a channel
+T59	CONDITION 936 953	shall be set to 1
+T60	KEY_C 954 956	if
+T61	VARIABLE 957 973	the L2CAP entity
+T62	CONDITION 974 1008	supports signaling on that channel
+T63	STATEMENT 957 1008	the L2CAP entity supports signaling on that channel
+T64	CAUSE 954 1008	if the L2CAP entity supports signaling on that channel
+T65	STATEMENT 902 953	The bit associated with a channel shall be set to 1
+T66	CAUSE_EFFECT_RELATION 902 1008	The bit associated with a channel shall be set to 1 if the L2CAP entity supports signaling on that channel
+T67	ROOT_SENTENCE 902 1009	The bit associated with a channel shall be set to 1 if the L2CAP entity supports signaling on that channel.
+T68	KEY_C 1011 1013	If
+T69	VARIABLE 1014 1032	the LE master Host
+T70	CONDITION 1033 1052	accepts the request
+T71	VARIABLE 1054 1056	it
+T72	CONDITION 1057 1117	shall send the connection parameter update to its Controller
+T74	STATEMENT 1014 1052	the LE master Host accepts the request
+T75	CAUSE 1011 1052	If the LE master Host accepts the request
+T76	STATEMENT 1054 1117	it shall send the connection parameter update to its Controller
+T77	CAUSE_EFFECT_RELATION 1011 1117	If the LE master Host accepts the request, it shall send the connection parameter update to its Controller
+T78	ROOT_SENTENCE 1011 1118	If the LE master Host accepts the request, it shall send the connection parameter update to its Controller.
+T80	KEY_C 1384 1386	If
+T81	VARIABLE 1387 1404	the monitor timer
+T82	CONDITION 1405 1422	is already active
+T83	KEY_C 1423 1427	when
+T84	KEY_C 1479 1481	If
+T85	VARIABLE 1482 1498	Basic L2CAP mode
+T86	CONDITION 1499 1529	is configured in one direction
+T87	VARIABLE 1534 1553	Retransmission mode
+T88	VARIABLE 1557 1574	Flow control mode
+T89	OR 1534 1574	Retransmission mode or Flow control mode
+T90	CONDITION 1575 1637	is configured in the other direction on the same L2CAP channel
+T91	STATEMENT 1534 1637	Retransmission mode or Flow control mode is configured in the other direction on the same L2CAP channel
+T92	STATEMENT 1482 1529	Basic L2CAP mode is configured in one direction
+T93	AND 1482 1637	Basic L2CAP mode is configured in one direction and Retransmission mode or Flow control mode is configured in the other direction on the same L2CAP channel
+T94	CAUSE 1479 1637	If Basic L2CAP mode is configured in one direction and Retransmission mode or Flow control mode is configured in the other direction on the same L2CAP channel
+T95	KEY_C 1638 1642	then
+T96	VARIABLE 1643 1654	the channel
+T97	CONDITION 1665 1672	be used
+T98	NEGATION 1655 1672	shall not be used
+T99	STATEMENT 1643 1672	the channel shall not be used
+T100	EFFECT 1638 1672	then the channel shall not be used
+T101	ROOT_SENTENCE 1479 1673	If Basic L2CAP mode is configured in one direction and Retransmission mode or Flow control mode is configured in the other direction on the same L2CAP channel then the channel shall not be used.
+T102	CAUSE_EFFECT_RELATION 1479 1672	If Basic L2CAP mode is configured in one direction and Retransmission mode or Flow control mode is configured in the other direction on the same L2CAP channel then the channel shall not be used
+T103	KEY_C 1927 1929	If
+T104	VARIABLE 1930 1946	the local device
+T105	CONDITION 1947 2009	receives a second Configuration Request from the remote device
+T106	KEY_C 2010 2014	that
+T107	VARIABLE 2015 2048	does not contain the desired mode
+T108	CAUSE 2010 2048	that does not contain the desired mode
+T109	STATEMENT 1930 2009	the local device receives a second Configuration Request from the remote device
+T110	CAUSE 1927 2009	If the local device receives a second Configuration Request from the remote device
+T111	AND 1927 2048	If the local device receives a second Configuration Request from the remote device that does not contain the desired mode
+T112	KEY_C 2049 2053	then
+T113	VARIABLE 2054 2070	the local device
+T114	CONDITION 2071 2099	shall disconnect the channel
+T115	STATEMENT 2054 2099	the local device shall disconnect the channel
+T116	EFFECT 2049 2099	then the local device shall disconnect the channel
+T117	CAUSE_EFFECT_RELATION 1927 2099	If the local device receives a second Configuration Request from the remote device that does not contain the desired mode then the local device shall disconnect the channel
+T118	ROOT_SENTENCE 1927 2100	If the local device receives a second Configuration Request from the remote device that does not contain the desired mode then the local device shall disconnect the channel.
+T119	KEY_C 2102 2104	If
+T120	VARIABLE 2105 2121	the local device
+T121	CONDITION 2122 2164	proposes a mode in a Configuration Request
+T122	VARIABLE 2169 2186	the remote device
+T123	CONDITION 2187 2212	proposes a different mode
+T124	CONDITION 2216 2264	rejects the local device's Configuration Request
+T125	OR 2187 2264	proposes a different mode or rejects the local device's Configuration Request
+T126	STATEMENT 2169 2264	the remote device proposes a different mode or rejects the local device's Configuration Request
+T127	STATEMENT 2105 2164	the local device proposes a mode in a Configuration Request
+T128	AND 2105 2264	the local device proposes a mode in a Configuration Request and the remote device proposes a different mode or rejects the local device's Configuration Request
+T129	CAUSE 2102 2264	If the local device proposes a mode in a Configuration Request and the remote device proposes a different mode or rejects the local device's Configuration Request
+T130	KEY_C 2265 2269	then
+T131	VARIABLE 2270 2286	the local device
+T132	CONDITION 2287 2315	shall disconnect the channel
+T133	STATEMENT 2270 2315	the local device shall disconnect the channel
+T134	EFFECT 2265 2315	then the local device shall disconnect the channel
+T135	ROOT_SENTENCE 2102 2316	If the local device proposes a mode in a Configuration Request and the remote device proposes a different mode or rejects the local device's Configuration Request then the local device shall disconnect the channel.
+T136	CAUSE_EFFECT_RELATION 2102 2315	If the local device proposes a mode in a Configuration Request and the remote device proposes a different mode or rejects the local device's Configuration Request then the local device shall disconnect the channel
+T137	VARIABLE 2318 2329	This option
+T138	CONDITION 2330 2348	shall only be sent
+T139	KEY_C 2349 2351	if
+T140	VARIABLE 2352 2373	the peer L2CAP entity
+T141	CONDITION 2374 2481	has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12)
+T142	STATEMENT 2352 2481	the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12)
+T143	CAUSE 2349 2481	if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12)
+T144	STATEMENT 2318 2348	This option shall only be sent
+T145	CAUSE_EFFECT_RELATION 2318 2481	This option shall only be sent if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12)
+T146	ROOT_SENTENCE 2318 2482	This option shall only be sent if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12).
+T147	KEY_C 2484 2486	If
+T148	VARIABLE 2487 2498	the feature
+T149	CONDITION 2499 2506	is used
+T150	VARIABLE 2507 2520	both incoming
+T151	VARIABLE 2525 2544	outgoing parameters
+T152	AND 2507 2544	both incoming and outgoing parameters
+T153	CONDITION 2545 2573	are specified by this option
+T154	STATEMENT 2507 2573	both incoming and outgoing parameters are specified by this option
+T155	STATEMENT 2487 2506	the feature is used
+T156	CAUSE 2484 2506	If the feature is used
+T157	CAUSE_EFFECT_RELATION 2484 2573	If the feature is used both incoming and outgoing parameters are specified by this option
+T158	ROOT_SENTENCE 2484 2574	If the feature is used both incoming and outgoing parameters are specified by this option.
+T159	VARIABLE 2576 2604	Enhanced Retransmission mode
+T160	CONDITION 2605 2622	should be enabled
+T161	KEY_C 2623 2625	if
+T162	VARIABLE 2626 2644	a reliable channel
+T163	CONDITION 2645 2663	has been requested
+T164	STATEMENT 2626 2663	a reliable channel has been requested
+T165	CAUSE 2623 2663	if a reliable channel has been requested
+T166	STATEMENT 2576 2622	Enhanced Retransmission mode should be enabled
+T167	CAUSE_EFFECT_RELATION 2576 2663	Enhanced Retransmission mode should be enabled if a reliable channel has been requested
+T168	ROOT_SENTENCE 2576 2664	Enhanced Retransmission mode should be enabled if a reliable channel has been requested.
+T169	VARIABLE 2666 2680	Streaming mode
+T170	CONDITION 2681 2698	should be enabled
+T171	KEY_C 2699 2701	if
+T172	VARIABLE 2702 2731	a finite L2CAP Flush Time-Out
+T173	CONDITION 2732 2761	is set on an L2CAP connection
+T174	STATEMENT 2702 2761	a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T175	CAUSE 2699 2761	if a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T176	STATEMENT 2666 2698	Streaming mode should be enabled
+T177	CAUSE_EFFECT_RELATION 2666 2761	Streaming mode should be enabled if a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T178	ROOT_SENTENCE 2666 2762	Streaming mode should be enabled if a finite L2CAP Flush Time-Out is set on an L2CAP connection.
+T179	VARIABLE 2764 2775	This option
+T180	CONDITION 2776 2792	shall be ignored
+T181	KEY_C 2793 2795	if
+T182	VARIABLE 2796 2807	the channel
+T183	CONDITION 2808 2863	is configured to use Basic L2CAP Mode (see Section 5.4)
+T184	STATEMENT 2796 2863	the channel is configured to use Basic L2CAP Mode (see Section 5.4)
+T185	CAUSE 2793 2863	if the channel is configured to use Basic L2CAP Mode (see Section 5.4)
+T186	STATEMENT 2764 2792	This option shall be ignored
+T187	CAUSE_EFFECT_RELATION 2764 2863	This option shall be ignored if the channel is configured to use Basic L2CAP Mode (see Section 5.4)
+T188	ROOT_SENTENCE 2764 2864	This option shall be ignored if the channel is configured to use Basic L2CAP Mode (see Section 5.4).
+T189	KEY_C 2866 2868	If
+T190	VARIABLE 2869 2881	both devices
+T191	CONDITION 2882 2983	show support for Extended Flow Specification for BR/EDR in the Extended Feature mask (see Table 4.12)
+T192	KEY_C 2984 2988	then
+T193	VARIABLE 2989 3033	all channels created between the two devices
+T194	CONDITION 3034 3074	shall use an Extended Flow Specification
+T195	STATEMENT 2989 3074	all channels created between the two devices shall use an Extended Flow Specification
+T196	EFFECT 2984 3074	then all channels created between the two devices shall use an Extended Flow Specification
+T197	STATEMENT 2869 2983	both devices show support for Extended Flow Specification for BR/EDR in the Extended Feature mask (see Table 4.12)
+T198	CAUSE 2866 2983	If both devices show support for Extended Flow Specification for BR/EDR in the Extended Feature mask (see Table 4.12)
+T199	CAUSE_EFFECT_RELATION 2866 3074	If both devices show support for Extended Flow Specification for BR/EDR in the Extended Feature mask (see Table 4.12) then all channels created between the two devices shall use an Extended Flow Specification
+T200	ROOT_SENTENCE 2866 3075	If both devices show support for Extended Flow Specification for BR/EDR in the Extended Feature mask (see Table 4.12) then all channels created between the two devices shall use an Extended Flow Specification.
+T201	KEY_C 3077 3079	If
+T202	VARIABLE 3080 3093	'Best effort'
+T203	CONDITION 3094 3105	is selected
+T204	KEY_C 3107 3111	then
+T205	VARIABLE 3112 3126	Access Latency
+T206	VARIABLE 3131 3144	Flush Timeout
+T207	AND 3112 3144	Access Latency and Flush Timeout
+T208	CONDITION 3145 3176	shall both be set to 0xFFFFFFFF
+T209	STATEMENT 3112 3176	Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T210	EFFECT 3107 3176	then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T211	STATEMENT 3080 3105	'Best effort' is selected
+T212	CAUSE 3077 3105	If 'Best effort' is selected
+T213	CAUSE_EFFECT_RELATION 3077 3176	If 'Best effort' is selected, then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T214	ROOT_SENTENCE 3077 3177	If 'Best effort' is selected, then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF.
+T215	KEY_C 3179 3181	If
+T216	VARIABLE 3182 3191	a channel
+T217	CONDITION 3192 3217	is configured in this way
+T218	VARIABLE 3219 3221	it
+T219	CONDITION 3222 3243	shall be disconnected
+T220	STATEMENT 3219 3243	it shall be disconnected
+T221	STATEMENT 3182 3217	a channel is configured in this way
+T222	CAUSE 3179 3217	If a channel is configured in this way
+T223	CAUSE_EFFECT_RELATION 3179 3243	If a channel is configured in this way, it shall be disconnected
+T224	ROOT_SENTENCE 3179 3244	If a channel is configured in this way, it shall be disconnected.
+T225	NONE_CAUSAL 3246 3257	For example
+T226	KEY_C 3258 3260	if
+T227	VARIABLE 3261 3276	the application
+T228	CONDITION 3277 3311	requires an Access Latency of 20ms
+T229	VARIABLE 3316 3333	the HCI transport
+T230	CONDITION 3334 3355	has a latency of 5 ms
+T231	KEY_C 3356 3360	then
+T232	VARIABLE 3361 3389	the value for Access Latency
+T233	CONDITION 3390 3404	should be 15ms
+T234	STATEMENT 3361 3404	the value for Access Latency should be 15ms
+T235	EFFECT 3356 3404	then the value for Access Latency should be 15ms
+T236	STATEMENT 3316 3355	the HCI transport has a latency of 5 ms
+T237	STATEMENT 3261 3311	the application requires an Access Latency of 20ms
+T238	AND 3261 3355	the application requires an Access Latency of 20ms and the HCI transport has a latency of 5 ms
+T239	CAUSE 3258 3355	if the application requires an Access Latency of 20ms and the HCI transport has a latency of 5 ms
+T240	CAUSE_EFFECT_RELATION 3258 3404	if the application requires an Access Latency of 20ms and the HCI transport has a latency of 5 ms then the value for Access Latency should be 15ms
+T241	ROOT_SENTENCE 3246 3405	For example if the application requires an Access Latency of 20ms and the HCI transport has a latency of 5 ms then the value for Access Latency should be 15ms.
+T242	VARIABLE 3407 3457	The side receiving the L2CAP Configuration Request
+T243	CONDITION 3458 3551	may then set the Flush Timeout parameter in the L2CAP Configuration Response to a lower value
+T244	KEY_C 3552 3554	if
+T245	VARIABLE 3555 3578	the receive side buffer
+T246	CONDITION 3579 3619	is smaller than the transmit side buffer
+T247	STATEMENT 3555 3619	the receive side buffer is smaller than the transmit side buffer
+T248	CAUSE 3552 3619	if the receive side buffer is smaller than the transmit side buffer
+T249	STATEMENT 3407 3551	The side receiving the L2CAP Configuration Request may then set the Flush Timeout parameter in the L2CAP Configuration Response to a lower value
+T250	CAUSE_EFFECT_RELATION 3407 3619	The side receiving the L2CAP Configuration Request may then set the Flush Timeout parameter in the L2CAP Configuration Response to a lower value if the receive side buffer is smaller than the transmit side buffer
+T251	ROOT_SENTENCE 3407 3620	The side receiving the L2CAP Configuration Request may then set the Flush Timeout parameter in the L2CAP Configuration Response to a lower value if the receive side buffer is smaller than the transmit side buffer.
+T255	KEY_C 14253 14255	If
+T256	VARIABLE 14256 14259	not
+T257	KEY_C 14261 14265	then
+T258	VARIABLE 14266 14272	verify
+T259	KEY_C 14273 14277	that
+T260	VARIABLE 14278 14287	connector
+T261	CONDITION 14288 14340	is properly mated (de-mate, then re-mate components)
+T262	STATEMENT 14278 14340	connector is properly mated (de-mate, then re-mate components)
+T263	EFFECT 14273 14340	that connector is properly mated (de-mate, then re-mate components)
+T264	STATEMENT 14261 14272	then verify
+T265	CAUSE 14253 14259	If not
+T266	CAUSE_EFFECT_RELATION 14253 14340	If not, then verify that connector is properly mated (de-mate, then re-mate components)
+T267	ROOT_SENTENCE 14253 14341	If not, then verify that connector is properly mated (de-mate, then re-mate components).
+T268	KEY_C 14181 14183	If
+T269	VARIABLE 14184 14187	not
+T270	KEY_C 14189 14193	then
+T271	VARIABLE 14194 14200	verify
+T272	AND 14261 14340	then verify that connector is properly mated (de-mate, then re-mate components)
+T273	KEY_C 14201 14205	that
+T274	VARIABLE 14206 14219	contact point
+T275	CONDITION 14227 14250	on an area of corrosion
+T276	NEGATION 14220 14250	is not on an area of corrosion
+T277	STATEMENT 14206 14250	contact point is not on an area of corrosion
+T278	EFFECT 14201 14250	that contact point is not on an area of corrosion
+T279	STATEMENT 14189 14200	then verify
+T280	AND 14189 14250	then verify that contact point is not on an area of corrosion
+T281	CAUSE 14181 14187	If not
+T282	CAUSE_EFFECT_RELATION 14181 14250	If not, then verify that contact point is not on an area of corrosion
+T283	ROOT_SENTENCE 14181 14251	If not, then verify that contact point is not on an area of corrosion.
+T284	KEY_C 14066 14068	If
+T285	VARIABLE 14069 14081	a multimeter
+T286	CONDITION 14082 14089	is used
+T287	VARIABLE 14091 14097	verify
+T288	KEY_C 14098 14102	that
+T289	VARIABLE 14103 14113	test leads
+T290	CONDITION 14114 14178	are connected to the correct ports for voltage on the multimeter
+T291	STATEMENT 14103 14178	test leads are connected to the correct ports for voltage on the multimeter
+T292	EFFECT 14098 14178	that test leads are connected to the correct ports for voltage on the multimeter
+T293	AND 14091 14178	verify that test leads are connected to the correct ports for voltage on the multimeter
+T294	STATEMENT 14069 14089	a multimeter is used
+T295	CAUSE 14066 14089	If a multimeter is used
+T296	CAUSE_EFFECT_RELATION 14066 14178	If a multimeter is used, verify that test leads are connected to the correct ports for voltage on the multimeter
+T297	ROOT_SENTENCE 14066 14179	If a multimeter is used, verify that test leads are connected to the correct ports for voltage on the multimeter.
+T298	KEY_C 13994 13996	If
+T299	VARIABLE 13997 14007	the latter
+T300	CAUSE 13994 14007	If the latter
+T301	KEY_C 14009 14013	then
+T302	VARIABLE 14014 14034	the procedure listed
+T303	CONDITION 14035 14063	must be tailored accordingly
+T304	STATEMENT 14014 14063	the procedure listed must be tailored accordingly
+T305	EFFECT 14009 14063	then the procedure listed must be tailored accordingly
+T306	CAUSE_EFFECT_RELATION 13994 14063	If the latter, then the procedure listed must be tailored accordingly
+T307	ROOT_SENTENCE 13994 14064	If the latter, then the procedure listed must be tailored accordingly.
+T308	KEY_C 13871 13873	If
+T309	VARIABLE 13874 13900	a polymeric connector part
+T310	CONDITION 13901 13929	is expanded on the connector
+T311	KEY_C 13931 13935	then
+T312	VARIABLE 13936 13944	the part
+T313	CONDITION 13945 13991	is to be tested at the same level of expansion
+T314	STATEMENT 13936 13991	the part is to be tested at the same level of expansion
+T315	EFFECT 13931 13991	then the part is to be tested at the same level of expansion
+T316	STATEMENT 13874 13929	a polymeric connector part is expanded on the connector
+T317	CAUSE 13871 13929	If a polymeric connector part is expanded on the connector
+T318	CAUSE_EFFECT_RELATION 13871 13991	If a polymeric connector part is expanded on the connector, then the part is to be tested at the same level of expansion
+T319	ROOT_SENTENCE 13871 13992	If a polymeric connector part is expanded on the connector, then the part is to be tested at the same level of expansion.
+T320	NONE_CAUSAL 13756 13763	Usually
+T321	KEY_C 13765 13767	if
+T322	VARIABLE 13768 13783	the test sample
+T323	CONDITION 13784 13816	does well in an accelerated test
+T324	VARIABLE 13818 13820	it
+T325	CONDITION 13821 13868	will perform well in a similar type environment
+T326	STATEMENT 13818 13868	it will perform well in a similar type environment
+T327	STATEMENT 13768 13816	the test sample does well in an accelerated test
+T328	CAUSE 13765 13816	if the test sample does well in an accelerated test
+T329	CAUSE_EFFECT_RELATION 13765 13868	if the test sample does well in an accelerated test, it will perform well in a similar type environment
+T330	ROOT_SENTENCE 13756 13869	Usually, if the test sample does well in an accelerated test, it will perform well in a similar type environment.
+T331	KEY_C 13667 13669	If
+T332	VARIABLE 13670 13682	the surfaces
+T333	CONDITION 13683 13698	are non-wetting
+T334	KEY_C 13700 13704	then
+T335	VARIABLE 13705 13753	spray surfaces until drops begin to form on them
+T336	EFFECT 13700 13753	then spray surfaces until drops begin to form on them
+T337	STATEMENT 13670 13698	the surfaces are non-wetting
+T338	CAUSE 13667 13698	If the surfaces are non-wetting
+T339	CAUSE_EFFECT_RELATION 13667 13753	If the surfaces are non-wetting, then spray surfaces until drops begin to form on them
+T340	ROOT_SENTENCE 13667 13754	If the surfaces are non-wetting, then spray surfaces until drops begin to form on them.
+T341	KEY_C 13524 13526	If
+T342	VARIABLE 13527 13542	this test setup
+T343	CONDITION 13543 13550	is used
+T344	VARIABLE 13552 13562	the vendor
+T345	CONDITION 13563 13664	assumes the risk that other stray electromagnetic interference may be measured resulting in a failure
+T346	STATEMENT 13552 13664	the vendor assumes the risk that other stray electromagnetic interference may be measured resulting in a failure
+T347	STATEMENT 13527 13550	this test setup is used
+T348	CAUSE 13524 13550	If this test setup is used
+T349	CAUSE_EFFECT_RELATION 13524 13664	If this test setup is used, the vendor assumes the risk that other stray electromagnetic interference may be measured resulting in a failure
+T350	ROOT_SENTENCE 13524 13665	If this test setup is used, the vendor assumes the risk that other stray electromagnetic interference may be measured resulting in a failure.
+T351	KEY_C 13420 13422	If
+T352	VARIABLE 13423 13436	this blockage
+T353	CONDITION 13437 13448	is the case
+T354	VARIABLE 13450 13476	a request for an allowance
+T355	CONDITION 13477 13521	must be submitted to the qualifying activity
+T356	STATEMENT 13450 13521	a request for an allowance must be submitted to the qualifying activity
+T357	STATEMENT 13423 13448	this blockage is the case
+T358	CAUSE 13420 13448	If this blockage is the case
+T359	CAUSE_EFFECT_RELATION 13420 13521	If this blockage is the case, a request for an allowance must be submitted to the qualifying activity
+T360	ROOT_SENTENCE 13420 13522	If this blockage is the case, a request for an allowance must be submitted to the qualifying activity.
+T361	VARIABLE 13363 13372	Mount DUT
+T362	CONDITION 13373 13401	assemblies in a test fixture
+T363	STATEMENT 13363 13401	Mount DUT assemblies in a test fixture
+T364	KEY_C 13403 13405	if
+T365	VARIABLE 13406 13409	one
+T366	CONDITION 13410 13417	is used
+T367	STATEMENT 13406 13417	one is used
+T368	CAUSE 13403 13417	if one is used
+T369	CAUSE_EFFECT_RELATION 13363 13417	Mount DUT assemblies in a test fixture, if one is used
+T370	ROOT_SENTENCE 13363 13418	Mount DUT assemblies in a test fixture, if one is used.
+T373	KEY_C 13173 13175	If
+T374	VARIABLE 13176 13198	the duration of a ramp
+T375	CONDITION 13206 13215	specified
+T376	NEGATION 13199 13215	is not specified
+T377	STATEMENT 13176 13215	the duration of a ramp is not specified
+T378	CAUSE 13173 13215	If the duration of a ramp is not specified
+T379	KEY_C 13217 13221	then
+T380	VARIABLE 13222 13238	refer to 5.1.4.2
+T381	STATEMENT 13217 13238	then refer to 5.1.4.2
+T382	CAUSE_EFFECT_RELATION 13173 13238	If the duration of a ramp is not specified, then refer to 5.1.4.2
+T383	ROOT_SENTENCE 13173 13239	If the duration of a ramp is not specified, then refer to 5.1.4.2.
+T384	VARIABLE 13043 13072	A plot of the resulting force
+T385	CONDITION 13073 13093	on the optical fiber
+T386	CONDITION 13097 13114	fiber optic cable
+T387	CONDITION 13115 13127	is requested
+T388	OR 13073 13114	on the optical fiber or fiber optic cable
+T389	AND 13073 13127	on the optical fiber or fiber optic cable is requested
+T390	STATEMENT 13043 13127	A plot of the resulting force on the optical fiber or fiber optic cable is requested
+T391	KEY_C 13128 13130	if
+T392	VARIABLE 13131 13139	the plot
+T393	CONDITION 13140 13170	can be generated automatically
+T394	STATEMENT 13131 13170	the plot can be generated automatically
+T395	CAUSE 13128 13170	if the plot can be generated automatically
+T396	CAUSE_EFFECT_RELATION 13043 13170	A plot of the resulting force on the optical fiber or fiber optic cable is requested if the plot can be generated automatically
+T397	ROOT_SENTENCE 13043 13171	A plot of the resulting force on the optical fiber or fiber optic cable is requested if the plot can be generated automatically.
+T398	KEY_C 12876 12878	If
+T399	VARIABLE 12882 12887	value
+T400	CONDITION 12888 12895	appears
+T401	NEGATION 12879 12895	no value appears
+T402	STATEMENT 12882 12895	value appears
+T403	CAUSE 12876 12895	If no value appears
+T404	VARIABLE 12897 12903	ensure
+T405	CONDITION 12904 12934	cables are connected correctly
+T406	CONDITION 12936 12947	power is on
+T407	KEY_C 12953 12957	then
+T408	VARIABLE 12958 12971	slowly adjust
+T409	CONDITION 12972 12985	sensing level
+T410	CONDITION 12990 13040	gating delays until a value appears on the counter
+T411	AND 12972 13040	sensing level and gating delays until a value appears on the counter
+T412	STATEMENT 12958 13040	slowly adjust sensing level and gating delays until a value appears on the counter
+T413	EFFECT 12953 13040	then slowly adjust sensing level and gating delays until a value appears on the counter
+T414	AND 12904 12947	cables are connected correctly, power is on
+T415	STATEMENT 12897 12947	ensure cables are connected correctly, power is on
+T416	AND 12897 13040	ensure cables are connected correctly, power is on, and then slowly adjust sensing level and gating delays until a value appears on the counter
+T417	CAUSE_EFFECT_RELATION 12876 13040	If no value appears, ensure cables are connected correctly, power is on, and then slowly adjust sensing level and gating delays until a value appears on the counter
+T418	ROOT_SENTENCE 12876 13041	If no value appears, ensure cables are connected correctly, power is on, and then slowly adjust sensing level and gating delays until a value appears on the counter.
+T419	KEY_C 12785 12787	If
+T420	VARIABLE 12788 12805	network equipment
+T421	CONDITION 12806 12826	is mounted in a rack
+T422	KEY_C 12828 12832	then
+T423	VARIABLE 12833 12860	the same type rail mounting
+T424	CONDITION 12861 12873	must be used
+T425	STATEMENT 12833 12873	the same type rail mounting must be used
+T426	EFFECT 12828 12873	then the same type rail mounting must be used
+T427	STATEMENT 12788 12826	network equipment is mounted in a rack
+T428	CAUSE 12785 12826	If network equipment is mounted in a rack
+T429	CAUSE_EFFECT_RELATION 12785 12873	If network equipment is mounted in a rack, then the same type rail mounting must be used
+T430	ROOT_SENTENCE 12785 12874	If network equipment is mounted in a rack, then the same type rail mounting must be used.
+T431	KEY_C 12696 12698	If
+T432	VARIABLE 12699 12702	one
+T433	VARIABLE 12706 12723	more severe cases
+T434	OR 12699 12723	one or more severe cases
+T435	CONDITION 12724 12741	can be identified
+T436	KEY_C 12743 12747	then
+T437	VARIABLE 12748 12764	only these cases
+T438	CONDITION 12765 12782	need to be tested
+T439	STATEMENT 12748 12782	only these cases need to be tested
+T440	EFFECT 12743 12782	then only these cases need to be tested
+T441	STATEMENT 12699 12741	one or more severe cases can be identified
+T442	CAUSE 12696 12741	If one or more severe cases can be identified
+T443	CAUSE_EFFECT_RELATION 12696 12782	If one or more severe cases can be identified, then only these cases need to be tested
+T444	ROOT_SENTENCE 12696 12783	If one or more severe cases can be identified, then only these cases need to be tested.
+T447	KEY_C 12474 12476	If
+T448	VARIABLE 12477 12484	the BER
+T449	CONDITION 12485 12505	is still of interest
+T450	KEY_C 12507 12511	then
+T451	VARIABLE 12512 12572	the alternatives to a direct measurement of BER listed below
+T452	CONDITION 12573 12592	may be investigated
+T453	STATEMENT 12512 12592	the alternatives to a direct measurement of BER listed below may be investigated
+T454	EFFECT 12507 12592	then the alternatives to a direct measurement of BER listed below may be investigated
+T455	STATEMENT 12477 12505	the BER is still of interest
+T456	CAUSE 12474 12505	If the BER is still of interest
+T457	CAUSE_EFFECT_RELATION 12474 12592	If the BER is still of interest, then the alternatives to a direct measurement of BER listed below may be investigated
+T458	ROOT_SENTENCE 12474 12593	If the BER is still of interest, then the alternatives to a direct measurement of BER listed below may be investigated.
+T459	VARIABLE 12354 12390	A different instrumentation approach
+T460	CONDITION 12391 12406	may be required
+T461	KEY_C 12407 12409	if
+T462	VARIABLE 12410 12423	the objective
+T463	CONDITION 12424 12471	is to measure the test sample response directly
+T464	STATEMENT 12410 12471	the objective is to measure the test sample response directly
+T465	CAUSE 12407 12471	if the objective is to measure the test sample response directly
+T466	STATEMENT 12354 12406	A different instrumentation approach may be required
+T467	CAUSE_EFFECT_RELATION 12354 12471	A different instrumentation approach may be required if the objective is to measure the test sample response directly
+T468	ROOT_SENTENCE 12354 12472	A different instrumentation approach may be required if the objective is to measure the test sample response directly.
+T470	KEY_C 11829 11831	If
+T471	VARIABLE 11832 11845	a discrepancy
+T472	CONDITION 11846 11857	is observed
+T473	VARIABLE 11859 11882	the top spring assembly
+T474	CONDITION 11883 11905	should be disassembled
+T475	CONDITION 11910 11919	inspected
+T476	AND 11883 11919	should be disassembled and inspected
+T477	STATEMENT 11859 11919	the top spring assembly should be disassembled and inspected
+T478	STATEMENT 11832 11857	a discrepancy is observed
+T479	CAUSE 11829 11857	If a discrepancy is observed
+T480	CAUSE_EFFECT_RELATION 11829 11919	If a discrepancy is observed, the top spring assembly should be disassembled and inspected
+T481	ROOT_SENTENCE 11829 11920	If a discrepancy is observed, the top spring assembly should be disassembled and inspected.
+T482	KEY_C 11690 11692	If
+T483	VARIABLE 11693 11713	an external actuator
+T484	CONDITION 11714 11721	is used
+T485	VARIABLE 11723 11729	ensure
+T486	KEY_C 11569 11571	If
+T487	VARIABLE 11572 11590	additional testing
+T488	CONDITION 11591 11602	is required
+T489	VARIABLE 11604 11623	separate item (DUT)
+T490	CONDITION 11624 11687	sets may be substituted for each additional set of nine impacts
+T491	STATEMENT 11604 11687	separate item (DUT) sets may be substituted for each additional set of nine impacts
+T492	STATEMENT 11572 11602	additional testing is required
+T493	CAUSE 11569 11602	If additional testing is required
+T494	CAUSE_EFFECT_RELATION 11569 11687	If additional testing is required, separate item (DUT) sets may be substituted for each additional set of nine impacts
+T495	ROOT_SENTENCE 11569 11688	If additional testing is required, separate item (DUT) sets may be substituted for each additional set of nine impacts.
+T496	KEY_C 11460 11462	If
+T497	VARIABLE 11463 11473	the latter
+T498	CONDITION 11474 11481	is used
+T499	VARIABLE 11483 11489	verify
+T500	VARIABLE 11495 11555	facility personnel recognize purpose of the dedicated signal
+T501	CONDITION 11556 11566	being used
+T502	STATEMENT 11495 11566	facility personnel recognize purpose of the dedicated signal being used
+T503	EFFECT 11490 11566	that facility personnel recognize purpose of the dedicated signal being used
+T504	KEY_C 11490 11494	that
+T505	AND 11483 11566	verify that facility personnel recognize purpose of the dedicated signal being used
+T506	STATEMENT 11463 11481	the latter is used
+T507	CAUSE 11460 11481	If the latter is used
+T508	CAUSE_EFFECT_RELATION 11460 11566	If the latter is used, verify that facility personnel recognize purpose of the dedicated signal being used
+T509	ROOT_SENTENCE 11460 11567	If the latter is used, verify that facility personnel recognize purpose of the dedicated signal being used.
+T510	KEY_C 11730 11734	that
+T511	VARIABLE 11735 11748	the mechanism
+T512	CONDITION 11758 11826	cause electromagnetic interference in the optical measurement system
+T513	NEGATION 11749 11826	does not cause electromagnetic interference in the optical measurement system
+T514	STATEMENT 11735 11826	the mechanism does not cause electromagnetic interference in the optical measurement system
+T515	EFFECT 11730 11826	that the mechanism does not cause electromagnetic interference in the optical measurement system
+T516	AND 11723 11826	ensure that the mechanism does not cause electromagnetic interference in the optical measurement system
+T517	STATEMENT 11693 11721	an external actuator is used
+T518	CAUSE 11690 11721	If an external actuator is used
+T519	CAUSE_EFFECT_RELATION 11690 11826	If an external actuator is used, ensure that the mechanism does not cause electromagnetic interference in the optical measurement system
+T520	ROOT_SENTENCE 11690 11827	If an external actuator is used, ensure that the mechanism does not cause electromagnetic interference in the optical measurement system.
+T521	KEY_C 11188 11190	If
+T522	VARIABLE 11191 11203	measurements
+T523	CONDITION 11204 11249	indicate the length of the bolt has increased
+T524	VARIABLE 11251 11263	retightening
+T525	CONDITION 11271 11280	permitted
+T526	NEGATION 11264 11280	is not permitted
+T527	STATEMENT 11251 11280	retightening is not permitted
+T528	STATEMENT 11191 11249	measurements indicate the length of the bolt has increased
+T529	CAUSE 11188 11249	If measurements indicate the length of the bolt has increased
+T530	CAUSE_EFFECT_RELATION 11188 11280	If measurements indicate the length of the bolt has increased, retightening is not permitted
+T531	ROOT_SENTENCE 11188 11281	If measurements indicate the length of the bolt has increased, retightening is not permitted.
+T532	KEY_C 11060 11062	If
+T533	VARIABLE 11063 11071	required
+T534	CONDITION 11072 11093	for vibration testing
+T535	STATEMENT 11063 11093	required for vibration testing
+T536	CAUSE 11060 11093	If required for vibration testing
+T537	VARIABLE 11095 11110	a backing plate
+T538	CONDITION 11111 11185	may be used as an adapter to affix the square stock to the vibration table
+T539	STATEMENT 11095 11185	a backing plate may be used as an adapter to affix the square stock to the vibration table
+T540	CAUSE_EFFECT_RELATION 11060 11185	If required for vibration testing, a backing plate may be used as an adapter to affix the square stock to the vibration table
+T541	ROOT_SENTENCE 11060 11186	If required for vibration testing, a backing plate may be used as an adapter to affix the square stock to the vibration table.
+T542	KEY_C 10918 10920	If
+T543	VARIABLE 10921 10936	alternate means
+T544	CONDITION 10937 10966	to secure the cables are used
+T545	VARIABLE 10968 11039	this same restricted movement with minimal to no pressure on the cables
+T546	CONDITION 11040 11057	is to be observed
+T547	STATEMENT 10968 11057	this same restricted movement with minimal to no pressure on the cables is to be observed
+T548	STATEMENT 10921 10966	alternate means to secure the cables are used
+T549	CAUSE 10918 10966	If alternate means to secure the cables are used
+T550	CAUSE_EFFECT_RELATION 10918 11057	If alternate means to secure the cables are used, this same restricted movement with minimal to no pressure on the cables is to be observed
+T551	ROOT_SENTENCE 10918 11058	If alternate means to secure the cables are used, this same restricted movement with minimal to no pressure on the cables is to be observed.
+T552	KEY_C 10810 10812	If
+T553	VARIABLE 10813 10822	a failure
+T554	CONDITION 10823 10834	is recorded
+T555	VARIABLE 10836 10843	provide
+T556	CONDITION 10844 10915	details on the extent of the failure observed (on bottom on data sheet)
+T557	STATEMENT 10836 10915	provide details on the extent of the failure observed (on bottom on data sheet)
+T558	STATEMENT 10813 10834	a failure is recorded
+T559	CAUSE 10810 10834	If a failure is recorded
+T560	CAUSE_EFFECT_RELATION 10810 10915	If a failure is recorded, provide details on the extent of the failure observed (on bottom on data sheet)
+T561	ROOT_SENTENCE 10810 10916	If a failure is recorded, provide details on the extent of the failure observed (on bottom on data sheet).
+T562	KEY_C 10697 10699	If
+T563	VARIABLE 10700 10732	subsequent measurements obtained
+T564	CONDITION 10733 10779	remain outside of the performance requirements
+T565	VARIABLE 10781 10783	it
+T566	CONDITION 10784 10807	is designated a failure
+T567	STATEMENT 10781 10807	it is designated a failure
+T568	STATEMENT 10700 10779	subsequent measurements obtained remain outside of the performance requirements
+T569	CAUSE 10697 10779	If subsequent measurements obtained remain outside of the performance requirements
+T570	CAUSE_EFFECT_RELATION 10697 10807	If subsequent measurements obtained remain outside of the performance requirements, it is designated a failure
+T571	ROOT_SENTENCE 10697 10808	If subsequent measurements obtained remain outside of the performance requirements, it is designated a failure.
+T572	KEY_C 10556 10558	If
+T573	VARIABLE 10559 10590	collecting data during the test
+T574	VARIABLE 10592 10616	start re-collecting data
+T575	CONDITION 10617 10648	after repeating the last action
+T576	CONDITION 10652 10694	repeating the last 12 hours, as applicable
+T577	OR 10617 10694	after repeating the last action or repeating the last 12 hours, as applicable
+T578	STATEMENT 10592 10694	start re-collecting data after repeating the last action or repeating the last 12 hours, as applicable
+T579	CAUSE 10556 10590	If collecting data during the test
+T580	CAUSE_EFFECT_RELATION 10556 10694	If collecting data during the test, start re-collecting data after repeating the last action or repeating the last 12 hours, as applicable
+T581	ROOT_SENTENCE 10556 10695	If collecting data during the test, start re-collecting data after repeating the last action or repeating the last 12 hours, as applicable.
+T582	KEY_C 10469 10471	If
+T583	VARIABLE 10472 10477	glass
+T584	CONDITION 10485 10493	kept dry
+T585	NEGATION 10478 10493	is not kept dry
+T586	STATEMENT 10472 10493	glass is not kept dry
+T587	CAUSE 10469 10493	If glass is not kept dry
+T588	VARIABLE 10495 10513	micro crack growth
+T589	CONDITION 10514 10529	will take place
+T590	CONDITION 10534 10553	reduce its strength
+T591	AND 10514 10553	will take place and reduce its strength
+T592	STATEMENT 10495 10553	micro crack growth will take place and reduce its strength
+T593	CAUSE_EFFECT_RELATION 10469 10553	If glass is not kept dry, micro crack growth will take place and reduce its strength
+T594	ROOT_SENTENCE 10469 10554	If glass is not kept dry, micro crack growth will take place and reduce its strength.
+T595	KEY_C 10218 10220	If
+T596	VARIABLE 10221 10244	the beryllium component
+T597	VARIABLE 10249 10275	all of its supported parts
+T598	CONDITION 10276 10304	can be shown to be contained
+T599	VARIABLE 10309 10325	the failed parts
+T600	CONDITION 10333 10368	pose a safety threat to the Orbiter
+T601	CONDITION 10372 10386	other payloads
+T602	VARIABLE 10388 10426	the special beryllium testing criteria
+T603	CONDITION 10427 10439	in options 1
+T604	CONDITION 10444 10445	2
+T605	CONDITION 10455 10466	be required
+T606	NEGATION 10446 10466	will not be required
+T607	AND 10427 10445	in options 1 and 2
+T608	AND 10427 10466	in options 1 and 2 will not be required
+T609	STATEMENT 10388 10466	the special beryllium testing criteria in options 1 and 2 will not be required
+T610	OR 10333 10386	pose a safety threat to the Orbiter or other payloads
+T611	NEGATION 10326 10386	do not pose a safety threat to the Orbiter or other payloads
+T612	STATEMENT 10309 10386	the failed parts do not pose a safety threat to the Orbiter or other payloads
+T614	AND 10221 10275	the beryllium component and all of its supported parts
+T613	STATEMENT 10221 10304	the beryllium component and all of its supported parts can be shown to be contained
+T615	AND 10221 10386	the beryllium component and all of its supported parts can be shown to be contained and the failed parts do not pose a safety threat to the Orbiter or other payloads
+T616	CAUSE 10218 10386	If the beryllium component and all of its supported parts can be shown to be contained and the failed parts do not pose a safety threat to the Orbiter or other payloads
+T618	ROOT_SENTENCE 10218 10467	If the beryllium component and all of its supported parts can be shown to be contained and the failed parts do not pose a safety threat to the Orbiter or other payloads, the special beryllium testing criteria in options 1 and 2 will not be required.
+T619	CAUSE_EFFECT_RELATION 10218 10466	If the beryllium component and all of its supported parts can be shown to be contained and the failed parts do not pose a safety threat to the Orbiter or other payloads, the special beryllium testing criteria in options 1 and 2 will not be required
+T620	KEY_C 9933 9935	If
+T621	VARIABLE 9936 9960	a suspended test fixture
+T622	CONDITION 9961 9968	is used
+T623	VARIABLE 9970 9981	the fixture
+T624	CONDITION 9982 10003	must first be modeled
+T625	CONDITION 10008 10024	verified by test
+T626	AND 9982 10024	must first be modeled and verified by test
+T627	STATEMENT 9970 10024	the fixture must first be modeled and verified by test
+T628	STATEMENT 9936 9968	a suspended test fixture is used
+T629	CAUSE 9933 9968	If a suspended test fixture is used
+T630	CAUSE_EFFECT_RELATION 9933 10024	If a suspended test fixture is used, the fixture must first be modeled and verified by test
+T631	ROOT_SENTENCE 9933 10025	If a suspended test fixture is used, the fixture must first be modeled and verified by test.
+T634	CAUSE 699 779	because there is no data being sent across the channel in the outgoing direction
+T635	STATEMENT 654 698	the remainder of the fields shall be ignored
+T636	CAUSE_EFFECT_RELATION 654 779	the remainder of the fields shall be ignored because there is no data being sent across the channel in the outgoing direction
+T637	CAUSE_EFFECT_RELATION 625 779	If ‘No traffic’ is selected, the remainder of the fields shall be ignored because there is no data being sent across the channel in the outgoing direction
+T638	ROOT_SENTENCE 625 780	If ‘No traffic’ is selected, the remainder of the fields shall be ignored because there is no data being sent across the channel in the outgoing direction.
+T73	VARIABLE 1428 1438	an S-frame
+T79	CONDITION 1439 1446	is sent
+T632	VARIABLE 1448 1457	the timer
+T633	CONDITION 1458 1476	shall be restarted
+T639	STATEMENT 1448 1476	the timer shall be restarted
+T640	STATEMENT 1428 1446	an S-frame is sent
+T641	CAUSE 1423 1446	when an S-frame is sent
+T642	STATEMENT 1387 1422	the monitor timer is already active
+T643	CAUSE 1384 1422	If the monitor timer is already active
+T644	AND 1384 1446	If the monitor timer is already active when an S-frame is sent
+T645	CAUSE_EFFECT_RELATION 1384 1476	If the monitor timer is already active when an S-frame is sent, the timer shall be restarted
+T646	ROOT_SENTENCE 1384 1477	If the monitor timer is already active when an S-frame is sent, the timer shall be restarted.
+T252	ROOT_SENTENCE 10218 10467	If the beryllium component and all of its supported parts can be shown to be contained and the failed parts do not pose a safety threat to the Orbiter or other payloads, the special beryllium testing criteria in options 1 and 2 will not be required.

@@ -1,0 +1,1009 @@
+T1	VARIABLE 0 4	This
+T2	CONDITION 5 92	can be performed by sensitive measurement of current through a sample of the dielectric
+T3	KEY_C 94 98	when
+T4	VARIABLE 99 116	a fixed potential
+T5	CONDITION 117 130	of up to 500V
+T6	CONDITION 131 141	is applied
+T7	STATEMENT 99 130	a fixed potential of up to 500V
+T8	AND 99 141	a fixed potential of up to 500V is applied
+T9	CAUSE 94 141	when a fixed potential of up to 500V is applied
+T10	STATEMENT 0 92	This can be performed by sensitive measurement of current through a sample of the dielectric
+T11	CAUSE_EFFECT_RELATION 0 141	This can be performed by sensitive measurement of current through a sample of the dielectric, when a fixed potential of up to 500V is applied
+T12	ROOT_SENTENCE 0 142	This can be performed by sensitive measurement of current through a sample of the dielectric, when a fixed potential of up to 500V is applied.
+T35	KEY_C 1604 1608	When
+T36	VARIABLE 1609 1617	software
+T37	CONDITION 1618 1630	secures data
+T38	VARIABLE 1632 1634	it
+T39	CONDITION 1635 1687	takes steps to ensure the data is correct in storage
+T40	STATEMENT 1632 1687	it takes steps to ensure the data is correct in storage
+T41	STATEMENT 1609 1630	software secures data
+T42	CAUSE 1604 1630	When software secures data
+T43	CAUSE_EFFECT_RELATION 1604 1687	When software secures data, it takes steps to ensure the data is correct in storage
+T44	ROOT_SENTENCE 1604 1688	When software secures data, it takes steps to ensure the data is correct in storage.
+T50	VARIABLE 1962 1973	The Gateway
+T51	CONDITION 1974 2021	shall provide a minimum of 32kW for Gateway use
+T52	KEY_C 2022 2026	when
+T53	VARIABLE 2027 2030	SEP
+T54	CONDITION 2031 2042	is inactive
+T55	STATEMENT 2027 2042	SEP is inactive
+T56	CAUSE 2022 2042	when SEP is inactive
+T57	STATEMENT 1962 2021	The Gateway shall provide a minimum of 32kW for Gateway use
+T58	CAUSE_EFFECT_RELATION 1962 2042	The Gateway shall provide a minimum of 32kW for Gateway use when SEP is inactive
+T59	ROOT_SENTENCE 1962 2043	The Gateway shall provide a minimum of 32kW for Gateway use when SEP is inactive.
+T60	KEY_C 2045 2049	When
+T61	VARIABLE 2050 2057	the SEP
+T62	CONDITION 2058 2069	is inactive
+T63	KEY_C 2070 2075	there
+T64	VARIABLE 2076 2123	will be a minimum of 32kW available to transfer
+T65	EFFECT 2070 2123	there will be a minimum of 32kW available to transfer
+T66	STATEMENT 2050 2069	the SEP is inactive
+T67	CAUSE 2045 2069	When the SEP is inactive
+T68	CAUSE_EFFECT_RELATION 2045 2123	When the SEP is inactive there will be a minimum of 32kW available to transfer
+T69	ROOT_SENTENCE 2045 2124	When the SEP is inactive there will be a minimum of 32kW available to transfer.
+T70	VARIABLE 2126 2137	The Gateway
+T71	CONDITION 2138 2184	shall provide a minimum of 24kW for system use
+T72	KEY_C 2185 2189	when
+T73	VARIABLE 2190 2193	SEP
+T74	CONDITION 2194 2203	is active
+T75	STATEMENT 2190 2203	SEP is active
+T76	CAUSE 2185 2203	when SEP is active
+T77	STATEMENT 2126 2184	The Gateway shall provide a minimum of 24kW for system use
+T78	CAUSE_EFFECT_RELATION 2126 2203	The Gateway shall provide a minimum of 24kW for system use when SEP is active
+T79	ROOT_SENTENCE 2126 2204	The Gateway shall provide a minimum of 24kW for system use when SEP is active.
+T80	VARIABLE 2206 2217	The Gateway
+T81	CONDITION 2218 2246	shall provide fire detection
+T82	CONDITION 2248 2259	suppression
+T83	CONDITION 2261 2270	isolation
+T84	CONDITION 2276 2313	recovery for any internal fire events
+T85	AND 2261 2313	isolation, and recovery for any internal fire events
+T86	AND 2248 2313	suppression, isolation, and recovery for any internal fire events
+T87	AND 2218 2313	shall provide fire detection, suppression, isolation, and recovery for any internal fire events
+T88	STATEMENT 2206 2313	The Gateway shall provide fire detection, suppression, isolation, and recovery for any internal fire events
+T89	KEY_C 2314 2318	when
+T90	VARIABLE 2319 2328	there are
+T91	CONDITION 2329 2358	potential flammable materials
+T92	CONDITION 2362 2386	ignition sources present
+T93	CONDITION 2391 2417	credible oxygen enrichment
+T94	OR 2329 2386	potential flammable materials or ignition sources present
+T95	OR 2329 2417	potential flammable materials or ignition sources present, or credible oxygen enrichment
+T96	STATEMENT 2319 2417	there are potential flammable materials or ignition sources present, or credible oxygen enrichment
+T97	CAUSE 2314 2417	when there are potential flammable materials or ignition sources present, or credible oxygen enrichment
+T98	CAUSE_EFFECT_RELATION 2206 2417	The Gateway shall provide fire detection, suppression, isolation, and recovery for any internal fire events when there are potential flammable materials or ignition sources present, or credible oxygen enrichment
+T99	ROOT_SENTENCE 2206 2418	The Gateway shall provide fire detection, suppression, isolation, and recovery for any internal fire events when there are potential flammable materials or ignition sources present, or credible oxygen enrichment.
+T100	NONE_CAUSAL 2420 2429	Rationale
+T101	KEY_C 2431 2435	When
+T102	VARIABLE 2436 2442	crewed
+T103	VARIABLE 2444 2455	the Gateway
+T104	CONDITION 2456 2540	will be nominally maintained at pressures near to Earth sea level 101 kPa (14.7 psi)
+T105	STATEMENT 2444 2540	the Gateway will be nominally maintained at pressures near to Earth sea level 101 kPa (14.7 psi)
+T106	CAUSE 2431 2442	When crewed
+T107	CAUSE_EFFECT_RELATION 2431 2540	When crewed, the Gateway will be nominally maintained at pressures near to Earth sea level 101 kPa (14.7 psi)
+T108	ROOT_SENTENCE 2420 2541	Rationale: When crewed, the Gateway will be nominally maintained at pressures near to Earth sea level 101 kPa (14.7 psi).
+T109	KEY_C 2750 2754	when
+T110	VARIABLE 2755 2775	the robotic hardware
+T111	CONDITION 2776 2804	was within 2 ft of structure
+T112	STATEMENT 2755 2804	the robotic hardware was within 2 ft of structure
+T113	CAUSE 2750 2804	when the robotic hardware was within 2 ft of structure
+T114	VARIABLE 2543 2549	On ISS
+T115	CONDITION 2550 2612	this involved selection of a Torque Equilibrium Attitude (TEA)
+T116	CONDITION 2613 2645	to maximize CMG control capacity
+T117	CONDITION 2647 2667	controlling exercise
+T118	CONDITION 2673 2692	performing dockings
+T119	CONDITION 2696 2715	orbital maintenance
+T120	OR 2673 2715	performing dockings or orbital maintenance
+T121	CONDITION 2721 2749	inhibiting CMG desaturations
+T122	NEGATION 2669 2715	not performing dockings or orbital maintenance
+T123	AND 2669 2749	not performing dockings or orbital maintenance, and inhibiting CMG desaturations
+T124	AND 2647 2749	controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations
+T125	AND 2613 2749	to maximize CMG control capacity, controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations
+T126	AND 2550 2749	this involved selection of a Torque Equilibrium Attitude (TEA) to maximize CMG control capacity, controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations
+T127	STATEMENT 2543 2749	On ISS this involved selection of a Torque Equilibrium Attitude (TEA) to maximize CMG control capacity, controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations
+T128	CAUSE_EFFECT_RELATION 2543 2804	On ISS this involved selection of a Torque Equilibrium Attitude (TEA) to maximize CMG control capacity, controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations when the robotic hardware was within 2 ft of structure
+T129	ROOT_SENTENCE 2543 2805	On ISS this involved selection of a Torque Equilibrium Attitude (TEA) to maximize CMG control capacity, controlling exercise, not performing dockings or orbital maintenance, and inhibiting CMG desaturations when the robotic hardware was within 2 ft of structure.
+T130	KEY_C 2993 2997	When
+T131	VARIABLE 2998 3045	the normative references cited within documents
+T132	CONDITION 3053 3090	have an applicable revision specified
+T133	NEGATION 3046 3090	do not have an applicable revision specified
+T134	STATEMENT 2998 3090	the normative references cited within documents do not have an applicable revision specified
+T135	CAUSE 2993 3090	When the normative references cited within documents do not have an applicable revision specified
+T136	VARIABLE 3092 3115	the applicable revision
+T137	CONDITION 3116 3189	shall also be the current revision in effect on the date of the agreement
+T138	CONDITION 3193 3201	contract
+T139	OR 3116 3201	shall also be the current revision in effect on the date of the agreement or contract
+T140	STATEMENT 3092 3201	the applicable revision shall also be the current revision in effect on the date of the agreement or contract
+T141	CAUSE_EFFECT_RELATION 2993 3201	When the normative references cited within documents do not have an applicable revision specified, the applicable revision shall also be the current revision in effect on the date of the agreement or contract
+T142	ROOT_SENTENCE 2993 3202	When the normative references cited within documents do not have an applicable revision specified, the applicable revision shall also be the current revision in effect on the date of the agreement or contract.
+T143	KEY_C 3204 3208	When
+T144	VARIABLE 3209 3256	analysis of segment-level qualification results
+T145	CONDITION 3264 3320	adequate to prove compliance with the stated requirement
+T146	NEGATION 3257 3320	is not adequate to prove compliance with the stated requirement
+T147	STATEMENT 3209 3320	analysis of segment-level qualification results is not adequate to prove compliance with the stated requirement
+T148	CAUSE 3204 3320	When analysis of segment-level qualification results is not adequate to prove compliance with the stated requirement
+T149	VARIABLE 3322 3359	system level qualification activities
+T150	CONDITION 3360 3406	will be conducted as identified in section 4.2
+T151	STATEMENT 3322 3406	system level qualification activities will be conducted as identified in section 4.2
+T152	CAUSE_EFFECT_RELATION 3204 3406	When analysis of segment-level qualification results is not adequate to prove compliance with the stated requirement, system level qualification activities will be conducted as identified in section 4.2
+T153	ROOT_SENTENCE 3204 3407	When analysis of segment-level qualification results is not adequate to prove compliance with the stated requirement, system level qualification activities will be conducted as identified in section 4.2.
+T154	VARIABLE 3409 3417	Analysis
+T155	CONDITION 3418 3432	should be used
+T156	KEY_C 3433 3442	only when
+T157	CONDITION 3443 3480	all of the following conditions apply
+T158	CONDITION 3482 3528	(1) rigorous and accurate analysis is possible
+T159	CONDITION 3530 3588	(2) verification by test is not feasible or cost effective
+T160	CONDITION 3598 3640	verification by inspection is not adequate
+T161	AND 3530 3640	(2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate
+T162	AND 3482 3640	(1) rigorous and accurate analysis is possible, (2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate
+T163	AND 3443 3640	all of the following conditions apply: (1) rigorous and accurate analysis is possible, (2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate
+T164	CAUSE 3433 3640	only when all of the following conditions apply: (1) rigorous and accurate analysis is possible, (2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate
+T165	STATEMENT 3409 3432	Analysis should be used
+T166	CAUSE_EFFECT_RELATION 3409 3640	Analysis should be used only when all of the following conditions apply: (1) rigorous and accurate analysis is possible, (2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate
+T167	ROOT_SENTENCE 3409 3641	Analysis should be used only when all of the following conditions apply: (1) rigorous and accurate analysis is possible, (2) verification by test is not feasible or cost effective, and (3) verification by inspection is not adequate.
+T168	KEY_C 3643 3647	When
+T169	VARIABLE 3648 3683	conducting Verification by Analysis
+T170	VARIABLE 3685 3695	the models
+T171	VARIABLE 3697 3708	simulations
+T172	VARIABLE 3714 3728	analysis tools
+T173	AND 3697 3728	simulations, and analysis tools
+T174	AND 3685 3728	the models, simulations, and analysis tools
+T175	CONDITION 3729 3762	must be accredited by the Program
+T176	CONDITION 3767 3814	Element/Modules to certify appropriate fidelity
+T177	CONDITION 3819 3847	software development quality
+T178	AND 3767 3847	Element/Modules to certify appropriate fidelity and software development quality
+T179	AND 3729 3847	must be accredited by the Program and Element/Modules to certify appropriate fidelity and software development quality
+T180	STATEMENT 3685 3847	the models, simulations, and analysis tools must be accredited by the Program and Element/Modules to certify appropriate fidelity and software development quality
+T181	CAUSE 3643 3683	When conducting Verification by Analysis
+T182	CAUSE_EFFECT_RELATION 3643 3847	When conducting Verification by Analysis, the models, simulations, and analysis tools must be accredited by the Program and Element/Modules to certify appropriate fidelity and software development quality
+T183	ROOT_SENTENCE 3643 3848	When conducting Verification by Analysis, the models, simulations, and analysis tools must be accredited by the Program and Element/Modules to certify appropriate fidelity and software development quality.
+T184	VARIABLE 3850 3869	Spacecraft charging
+T185	CONDITION 3870 3922	is defined as voltage building‐up of a space vehicle
+T186	CONDITION 3926 3942	spacecraft units
+T187	OR 3870 3942	is defined as voltage building‐up of a space vehicle or spacecraft units
+T188	STATEMENT 3850 3942	Spacecraft charging is defined as voltage building‐up of a space vehicle or spacecraft units
+T189	KEY_C 3943 3947	when
+T190	VARIABLE 3948 3966	immerged in plasma
+T191	CAUSE 3943 3966	when immerged in plasma
+T192	CAUSE_EFFECT_RELATION 3850 3966	Spacecraft charging is defined as voltage building‐up of a space vehicle or spacecraft units when immerged in plasma
+T193	ROOT_SENTENCE 3850 3967	Spacecraft charging is defined as voltage building‐up of a space vehicle or spacecraft units when immerged in plasma.
+T194	KEY_C 3969 3973	When
+T195	VARIABLE 3974 3979	power
+T196	VARIABLE 3984 3990	signal
+T197	AND 3974 3990	power and signal
+T198	CONDITION 3991 4029	share common paths (wire or structure)
+T199	STATEMENT 3974 4029	power and signal share common paths (wire or structure)
+T200	CAUSE 3969 4029	When power and signal share common paths (wire or structure)
+T201	VARIABLE 4031 4064	the magnitude of ground impedance
+T202	CONDITION 4065 4115	shall be limited over the affected signal spectrum
+T203	STATEMENT 4031 4115	the magnitude of ground impedance shall be limited over the affected signal spectrum
+T204	CAUSE_EFFECT_RELATION 3969 4115	When power and signal share common paths (wire or structure), the magnitude of ground impedance shall be limited over the affected signal spectrum
+T205	ROOT_SENTENCE 3969 4116	When power and signal share common paths (wire or structure), the magnitude of ground impedance shall be limited over the affected signal spectrum.
+T206	KEY_C 4118 4122	When
+T207	VARIABLE 4123 4132	shielding
+T208	CONDITION 4133 4176	is used to control EMC with the environment
+T209	VARIABLE 4178 4180	it
+T210	CONDITION 4181 4262	can be provided by the basic space vehicle structure designed as a “Faraday cage”
+T212	CONDITION 4303 4333	by cable or bundle overshields
+T213	CONDITION 4264 4298	by enclosures of electronics boxes
+T211	OR 4264 4333	by enclosures of electronics boxes, or by cable or bundle overshields
+T214	AND 4181 4333	can be provided by the basic space vehicle structure designed as a “Faraday cage”, by enclosures of electronics boxes, or by cable or bundle overshields
+T215	STATEMENT 4178 4333	it can be provided by the basic space vehicle structure designed as a “Faraday cage”, by enclosures of electronics boxes, or by cable or bundle overshields
+T216	STATEMENT 4123 4176	shielding is used to control EMC with the environment
+T217	CAUSE 4118 4176	When shielding is used to control EMC with the environment
+T218	CAUSE_EFFECT_RELATION 4118 4333	When shielding is used to control EMC with the environment, it can be provided by the basic space vehicle structure designed as a “Faraday cage”, by enclosures of electronics boxes, or by cable or bundle overshields
+T219	ROOT_SENTENCE 4118 4334	When shielding is used to control EMC with the environment, it can be provided by the basic space vehicle structure designed as a “Faraday cage”, by enclosures of electronics boxes, or by cable or bundle overshields.
+T220	VARIABLE 4336 4367	Bundles of different categories
+T221	CONDITION 4368 4386	shall be separated
+T222	CONDITION 4387 4455	either by a separation distance of 5 cm from the outer circumference
+T223	CONDITION 4459 4479	by a metallic screen
+T224	OR 4387 4479	either by a separation distance of 5 cm from the outer circumference or by a metallic screen
+T225	AND 4368 4479	shall be separated either by a separation distance of 5 cm from the outer circumference or by a metallic screen
+T226	STATEMENT 4336 4479	Bundles of different categories shall be separated either by a separation distance of 5 cm from the outer circumference or by a metallic screen
+T227	KEY_C 4480 4484	when
+T228	VARIABLE 4485 4489	they
+T229	CONDITION 4490 4518	are routed on parallel paths
+T230	STATEMENT 4485 4518	they are routed on parallel paths
+T231	CAUSE 4480 4518	when they are routed on parallel paths
+T232	CAUSE_EFFECT_RELATION 4336 4518	Bundles of different categories shall be separated either by a separation distance of 5 cm from the outer circumference or by a metallic screen when they are routed on parallel paths
+T233	ROOT_SENTENCE 4336 4519	Bundles of different categories shall be separated either by a separation distance of 5 cm from the outer circumference or by a metallic screen when they are routed on parallel paths.
+T234	KEY_C 4594 4598	when
+T235	VARIABLE 4599 4626	the electromagnetic ambient
+T236	CONDITION 4627 4649	is at its lowest level
+T237	STATEMENT 4599 4649	the electromagnetic ambient is at its lowest level
+T238	CAUSE 4594 4649	when the electromagnetic ambient is at its lowest level
+T239	VARIABLE 4542 4551	the tests
+T240	CONDITION 4552 4578	are performed during times
+T241	CONDITION 4583 4593	conditions
+T242	AND 4552 4593	are performed during times and conditions
+T243	STATEMENT 4542 4593	the tests are performed during times and conditions
+T244	STATEMENT 4524 4540	unshielded sites
+T245	CAUSE 4521 4540	In unshielded sites
+T246	CAUSE_EFFECT_RELATION 4542 4649	the tests are performed during times and conditions when the electromagnetic ambient is at its lowest level
+T247	ROOT_SENTENCE 4521 4650	In unshielded sites, the tests are performed during times and conditions when the electromagnetic ambient is at its lowest level.
+T248	VARIABLE 4652 4672	RF absorber material
+T249	CONDITION 4673 4686	shall be used
+T250	STATEMENT 4652 4686	RF absorber material shall be used
+T251	KEY_C 4687 4691	when
+T252	VARIABLE 4692 4702	performing
+T253	CONDITION 4703 4736	electric field radiated emissions
+T254	CONDITION 4740 4771	radiated susceptibility testing
+T255	OR 4703 4771	electric field radiated emissions or radiated susceptibility testing
+T256	CONDITION 4772 4819	to reduce reflections of electromagnetic energy
+T257	CONDITION 4824 4843	to improve accuracy
+T258	CONDITION 4848 4861	repeatability
+T259	AND 4824 4861	to improve accuracy and repeatability
+T260	AND 4772 4861	to reduce reflections of electromagnetic energy and to improve accuracy and repeatability
+T261	AND 4703 4861	electric field radiated emissions or radiated susceptibility testing to reduce reflections of electromagnetic energy and to improve accuracy and repeatability
+T262	STATEMENT 4692 4861	performing electric field radiated emissions or radiated susceptibility testing to reduce reflections of electromagnetic energy and to improve accuracy and repeatability
+T263	CAUSE 4687 4861	when performing electric field radiated emissions or radiated susceptibility testing to reduce reflections of electromagnetic energy and to improve accuracy and repeatability
+T264	CAUSE_EFFECT_RELATION 4652 4861	RF absorber material shall be used when performing electric field radiated emissions or radiated susceptibility testing to reduce reflections of electromagnetic energy and to improve accuracy and repeatability
+T265	ROOT_SENTENCE 4652 4862	RF absorber material shall be used when performing electric field radiated emissions or radiated susceptibility testing to reduce reflections of electromagnetic energy and to improve accuracy and repeatability.
+T266	KEY_C 4864 4868	When
+T267	VARIABLE 4869 4887	external terminals
+T268	VARIABLE 4889 4903	connector pins
+T269	VARIABLE 4908 4938	equipment grounding conductors
+T270	OR 4889 4938	connector pins, or equipment grounding conductors
+T271	OR 4869 4938	external terminals, connector pins, or equipment grounding conductors
+T272	CONDITION 4939 4982	are available for safety ground connections
+T273	CONDITION 4987 5022	are used in the actual installation
+T274	AND 4939 5022	are available for safety ground connections and are used in the actual installation
+T275	STATEMENT 4869 5022	external terminals, connector pins, or equipment grounding conductors are available for safety ground connections and are used in the actual installation
+T276	CAUSE 4864 5022	When external terminals, connector pins, or equipment grounding conductors are available for safety ground connections and are used in the actual installation
+T277	VARIABLE 5024 5028	they
+T278	CONDITION 5029 5067	shall be connected to the ground plane
+T279	STATEMENT 5024 5067	they shall be connected to the ground plane
+T280	CAUSE_EFFECT_RELATION 4864 5067	When external terminals, connector pins, or equipment grounding conductors are available for safety ground connections and are used in the actual installation, they shall be connected to the ground plane
+T281	ROOT_SENTENCE 4864 5068	When external terminals, connector pins, or equipment grounding conductors are available for safety ground connections and are used in the actual installation, they shall be connected to the ground plane.
+T282	KEY_C 5070 5074	When
+T283	VARIABLE 5075 5094	variable electrical
+T284	VARIABLE 5098 5116	mechanical loading
+T285	OR 5075 5116	variable electrical or mechanical loading
+T286	CONDITION 5117 5154	is present in the actual installation
+T287	VARIABLE 5156 5163	testing
+T288	CONDITION 5164 5219	shall be performed under expected worst‐case conditions
+T289	STATEMENT 5156 5219	testing shall be performed under expected worst‐case conditions
+T290	STATEMENT 5075 5154	variable electrical or mechanical loading is present in the actual installation
+T291	CAUSE 5070 5154	When variable electrical or mechanical loading is present in the actual installation
+T292	CAUSE_EFFECT_RELATION 5070 5219	When variable electrical or mechanical loading is present in the actual installation, testing shall be performed under expected worst‐case conditions
+T293	ROOT_SENTENCE 5070 5220	When variable electrical or mechanical loading is present in the actual installation, testing shall be performed under expected worst‐case conditions.
+T294	KEY_C 5222 5226	When
+T295	VARIABLE 5227 5252	active electrical loading
+T296	CONDITION 5253 5260	is used
+T297	STATEMENT 5227 5260	active electrical loading is used
+T298	CAUSE 5222 5260	When active electrical loading is used
+T299	VARIABLE 5262 5264	it
+T300	CONDITION 5265 5342	shall be ensured that the active load meets the ambient requirements of 5.2.2
+T302	KEY_C 5442 5446	When
+T303	VARIABLE 5447 5454	the EUT
+T304	CONDITION 5455 5532	has several available modes (including software controlled operational modes)
+T305	VARIABLE 5534 5553	the number of modes
+T306	CONDITION 5554 5579	to be tested for emission
+T307	CONDITION 5584 5598	susceptibility
+T308	AND 5554 5598	to be tested for emission and susceptibility
+T309	CONDITION 5599 5644	shall be such that all circuitry is evaluated
+T310	AND 5554 5644	to be tested for emission and susceptibility shall be such that all circuitry is evaluated
+T311	STATEMENT 5534 5644	the number of modes to be tested for emission and susceptibility shall be such that all circuitry is evaluated
+T312	STATEMENT 5447 5532	the EUT has several available modes (including software controlled operational modes)
+T313	CAUSE 5442 5532	When the EUT has several available modes (including software controlled operational modes)
+T314	CAUSE_EFFECT_RELATION 5442 5644	When the EUT has several available modes (including software controlled operational modes), the number of modes to be tested for emission and susceptibility shall be such that all circuitry is evaluated
+T315	ROOT_SENTENCE 5442 5645	When the EUT has several available modes (including software controlled operational modes), the number of modes to be tested for emission and susceptibility shall be such that all circuitry is evaluated.
+T316	KEY_C 5647 5651	When
+T317	VARIABLE 5652 5671	measurement devices
+T318	CONDITION 5672 5696	other than peak detector
+T319	CONDITION 5697 5732	are used for susceptibility testing
+T320	AND 5672 5732	other than peak detector are used for susceptibility testing
+T321	STATEMENT 5652 5732	measurement devices other than peak detector are used for susceptibility testing
+T322	CAUSE 5647 5732	When measurement devices other than peak detector are used for susceptibility testing
+T323	VARIABLE 5734 5752	correction factors
+T324	CONDITION 5753 5772	shall be determined
+T325	CONDITION 5777 5843	applied for test signals to adjust the reading to equivalent r.m.s
+T326	AND 5753 5843	shall be determined and applied for test signals to adjust the reading to equivalent r.m.s
+T327	STATEMENT 5734 5843	correction factors shall be determined and applied for test signals to adjust the reading to equivalent r.m.s
+T328	CAUSE_EFFECT_RELATION 5647 5843	When measurement devices other than peak detector are used for susceptibility testing, correction factors shall be determined and applied for test signals to adjust the reading to equivalent r.m.s
+T329	ROOT_SENTENCE 5647 5844	When measurement devices other than peak detector are used for susceptibility testing, correction factors shall be determined and applied for test signals to adjust the reading to equivalent r.m.s.
+T330	KEY_C 5846 5850	When
+T331	VARIABLE 5851 5871	current measurements
+T332	CONDITION 5872 5936	are performed on the central line of a coaxial transmission line
+T333	CONDITION 5937 5991	a transmission line with 50  characteristic impedance
+T334	AND 5872 5991	are performed on the central line of a coaxial transmission line a transmission line with 50  characteristic impedance
+T335	STATEMENT 5851 5991	current measurements are performed on the central line of a coaxial transmission line a transmission line with 50  characteristic impedance
+T336	CAUSE 5846 5991	When current measurements are performed on the central line of a coaxial transmission line a transmission line with 50  characteristic impedance
+T337	VARIABLE 5993 6025	coaxial connections on both ends
+T338	VARIABLE 6031 6087	space for an injection probe around the centre conductor
+T339	AND 5993 6087	coaxial connections on both ends, and space for an injection probe around the centre conductor
+T340	CONDITION 6088 6117	shall be used for calibration
+T341	STATEMENT 5993 6117	coaxial connections on both ends, and space for an injection probe around the centre conductor shall be used for calibration
+T342	CAUSE_EFFECT_RELATION 5846 6117	When current measurements are performed on the central line of a coaxial transmission line a transmission line with 50  characteristic impedance, coaxial connections on both ends, and space for an injection probe around the centre conductor shall be used for calibration
+T343	ROOT_SENTENCE 5846 6118	When current measurements are performed on the central line of a coaxial transmission line a transmission line with 50  characteristic impedance, coaxial connections on both ends, and space for an injection probe around the centre conductor shall be used for calibration.
+T344	VARIABLE 6120 6138	The magnetic field
+T345	CONDITION 6139 6156	shall be positive
+T346	STATEMENT 6120 6156	The magnetic field shall be positive
+T347	KEY_C 6157 6161	when
+T348	VARIABLE 6162 6224	orientated from the centre of the EUT towards the magnetometer
+T349	CAUSE 6157 6224	when orientated from the centre of the EUT towards the magnetometer
+T350	CAUSE_EFFECT_RELATION 6120 6224	The magnetic field shall be positive when orientated from the centre of the EUT towards the magnetometer
+T351	ROOT_SENTENCE 6120 6225	The magnetic field shall be positive when orientated from the centre of the EUT towards the magnetometer.
+T352	KEY_C 6227 6231	When
+T353	VARIABLE 6232 6254	using an ESD generator
+T354	CONDITION 6255 6321	as a high‐voltage power supply as shown Figure 5‐30 or Figure 5‐31
+T355	STATEMENT 6232 6321	using an ESD generator as a high‐voltage power supply as shown Figure 5‐30 or Figure 5‐31
+T356	CAUSE 6227 6321	When using an ESD generator as a high‐voltage power supply as shown Figure 5‐30 or Figure 5‐31
+T357	VARIABLE 6323 6325	it
+T358	CONDITION 6326 6362	is set in the contact discharge mode
+T359	STATEMENT 6323 6362	it is set in the contact discharge mode
+T360	CAUSE_EFFECT_RELATION 6227 6362	When using an ESD generator as a high‐voltage power supply as shown Figure 5‐30 or Figure 5‐31, it is set in the contact discharge mode
+T361	ROOT_SENTENCE 6227 6363	When using an ESD generator as a high‐voltage power supply as shown Figure 5‐30 or Figure 5‐31, it is set in the contact discharge mode.
+T362	KEY_C 6365 6369	When
+T363	VARIABLE 6370 6386	a negative spike
+T364	CONDITION 6387 6397	is applied
+T365	VARIABLE 6399 6443	the absolute instantaneous transient voltage
+T366	CONDITION 6444 6458	goes down to 0
+T367	CONDITION 6460 6474	never negative
+T368	AND 6444 6474	goes down to 0, never negative
+T369	STATEMENT 6399 6474	the absolute instantaneous transient voltage goes down to 0, never negative
+T370	STATEMENT 6370 6397	a negative spike is applied
+T371	CAUSE 6365 6397	When a negative spike is applied
+T372	ROOT_SENTENCE 6365 6475	When a negative spike is applied, the absolute instantaneous transient voltage goes down to 0, never negative.
+T373	CAUSE_EFFECT_RELATION 6365 6474	When a negative spike is applied, the absolute instantaneous transient voltage goes down to 0, never negative
+T374	VARIABLE 6477 6499	Steady‐state condition
+T375	CONDITION 6500 6517	shall be declared
+T376	KEY_C 6518 6522	when
+T377	VARIABLE 6523 6579	for stable dissipation modes temperature sensor readings
+T378	CONDITION 6580 6630	meet a temperature variation over a period of time
+T379	CONDITION 6631 6664	defined in the TBT test procedure
+T380	CONDITION 6669 6699	agreed by the system authority
+T381	AND 6631 6699	defined in the TBT test procedure and agreed by the system authority
+T382	AND 6580 6699	meet a temperature variation over a period of time defined in the TBT test procedure and agreed by the system authority
+T383	STATEMENT 6523 6699	for stable dissipation modes temperature sensor readings meet a temperature variation over a period of time defined in the TBT test procedure and agreed by the system authority
+T384	CAUSE 6518 6699	when for stable dissipation modes temperature sensor readings meet a temperature variation over a period of time defined in the TBT test procedure and agreed by the system authority
+T385	STATEMENT 6477 6517	Steady‐state condition shall be declared
+T386	CAUSE_EFFECT_RELATION 6477 6699	Steady‐state condition shall be declared when for stable dissipation modes temperature sensor readings meet a temperature variation over a period of time defined in the TBT test procedure and agreed by the system authority
+T387	ROOT_SENTENCE 6477 6700	Steady‐state condition shall be declared when for stable dissipation modes temperature sensor readings meet a temperature variation over a period of time defined in the TBT test procedure and agreed by the system authority.
+T388	KEY_C 6702 6706	When
+T389	VARIABLE 6707 6757	establishing the maximum heat transport capability
+T390	VARIABLE 6759 6793	the vapour operational temperature
+T391	CONDITION 6794 6859	range such that a performance over temperature curve is generated
+T392	STATEMENT 6759 6859	the vapour operational temperature range such that a performance over temperature curve is generated
+T393	CAUSE 6702 6757	When establishing the maximum heat transport capability
+T394	CAUSE_EFFECT_RELATION 6702 6859	When establishing the maximum heat transport capability, the vapour operational temperature range such that a performance over temperature curve is generated
+T395	ROOT_SENTENCE 6702 6860	When establishing the maximum heat transport capability, the vapour operational temperature range such that a performance over temperature curve is generated.
+T396	VARIABLE 6862 6881	Maximum performance
+T397	CONDITION 6882 6899	shall be declared
+T398	STATEMENT 6862 6899	Maximum performance shall be declared
+T399	KEY_C 6901 6905	when
+T400	VARIABLE 6906 6946	temperature excursions in the evaporator
+T401	CONDITION 6947 7008	indicate the beginning of a non-nominal operational condition
+T402	STATEMENT 6906 7008	temperature excursions in the evaporator indicate the beginning of a non-nominal operational condition
+T403	CAUSE 6901 7008	when temperature excursions in the evaporator indicate the beginning of a non-nominal operational condition
+T404	CAUSE_EFFECT_RELATION 6862 7008	Maximum performance shall be declared, when temperature excursions in the evaporator indicate the beginning of a non-nominal operational condition
+T405	ROOT_SENTENCE 6862 7009	Maximum performance shall be declared, when temperature excursions in the evaporator indicate the beginning of a non-nominal operational condition.
+T406	KEY_C 7011 7015	When
+T407	VARIABLE 7016 7029	the procedure
+T408	CONDITION 7030 7042	is automated
+T409	STATEMENT 7016 7042	the procedure is automated
+T410	CAUSE 7011 7042	When the procedure is automated
+T411	VARIABLE 7044 7082	the listing of the automated procedure
+T412	CONDITION 7083 7154	shall be documented to a level allowing consistency check with the TPRO
+T413	CONDITION 7159 7167	the TPSE
+T414	AND 7083 7167	shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T415	STATEMENT 7044 7167	the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T416	CAUSE_EFFECT_RELATION 7011 7167	When the procedure is automated, the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T417	ROOT_SENTENCE 7011 7168	When the procedure is automated, the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE.
+T418	VARIABLE 7170 7193	The Verification Report
+T419	CONDITION 7194 7205	is prepared
+T420	KEY_C 7206 7210	when
+T421	VARIABLE 7211 7274	more than one of the defined verification methods (see 5.5.3.1)
+T422	CONDITION 7275 7310	is utilized to verify a requirement
+T423	CONDITION 7314 7344	a specific set of requirements
+T424	OR 7275 7344	is utilized to verify a requirement or a specific set of requirements
+T425	STATEMENT 7211 7344	more than one of the defined verification methods (see 5.5.3.1) is utilized to verify a requirement or a specific set of requirements
+T426	CAUSE 7206 7344	when more than one of the defined verification methods (see 5.5.3.1) is utilized to verify a requirement or a specific set of requirements
+T427	STATEMENT 7170 7205	The Verification Report is prepared
+T428	CAUSE_EFFECT_RELATION 7170 7344	The Verification Report is prepared when more than one of the defined verification methods (see 5.5.3.1) is utilized to verify a requirement or a specific set of requirements
+T429	ROOT_SENTENCE 7170 7345	The Verification Report is prepared when more than one of the defined verification methods (see 5.5.3.1) is utilized to verify a requirement or a specific set of requirements.
+T430	KEY_C 7347 7351	When
+T431	VARIABLE 7352 7397	exchanging structural mathematical model data
+T432	VARIABLE 7453 7473	translation problems
+T433	VARIABLE 7478 7527	differences in capabilities of different software
+T434	CONDITION 7528 7547	shall be considered
+T435	AND 7453 7527	translation problems and differences in capabilities of different software
+T436	STATEMENT 7453 7547	translation problems and differences in capabilities of different software shall be considered
+T437	CONDITION 7399 7451	for physical models transfer between different codes
+T438	STATEMENT 7352 7451	exchanging structural mathematical model data, for physical models transfer between different codes
+T439	CAUSE 7347 7451	When exchanging structural mathematical model data, for physical models transfer between different codes
+T440	CAUSE_EFFECT_RELATION 7347 7547	When exchanging structural mathematical model data, for physical models transfer between different codes, translation problems and differences in capabilities of different software shall be considered
+T441	ROOT_SENTENCE 7347 7548	When exchanging structural mathematical model data, for physical models transfer between different codes, translation problems and differences in capabilities of different software shall be considered.
+T442	KEY_C 7550 7554	When
+T443	VARIABLE 7555 7600	exchanging structural mathematical model data
+T444	CONDITION 7602 7621	for physical models
+T445	STATEMENT 7555 7621	exchanging structural mathematical model data, for physical models
+T446	CAUSE 7550 7621	When exchanging structural mathematical model data, for physical models
+T447	VARIABLE 7623 7645	accompanying documents
+T448	CONDITION 7646 7670	shall describe the model
+T449	CONDITION 7672 7684	the software
+T450	CONDITION 7686 7697	the version
+T451	CONDITION 7701 7708	release
+T452	CONDITION 7710 7735	any parameters being used
+T453	CONDITION 7740 7781	the results of the performed model checks
+T454	AND 7710 7781	any parameters being used and the results of the performed model checks
+T455	OR 7686 7708	the version or release
+T456	AND 7686 7781	the version or release, any parameters being used and the results of the performed model checks
+T457	AND 7672 7781	the software, the version or release, any parameters being used and the results of the performed model checks
+T458	AND 7646 7781	shall describe the model, the software, the version or release, any parameters being used and the results of the performed model checks
+T459	STATEMENT 7623 7781	accompanying documents shall describe the model, the software, the version or release, any parameters being used and the results of the performed model checks
+T460	CAUSE_EFFECT_RELATION 7550 7781	When exchanging structural mathematical model data, for physical models, accompanying documents shall describe the model, the software, the version or release, any parameters being used and the results of the performed model checks
+T461	ROOT_SENTENCE 7550 7782	When exchanging structural mathematical model data, for physical models, accompanying documents shall describe the model, the software, the version or release, any parameters being used and the results of the performed model checks.
+T462	KEY_C 7784 7788	When
+T463	VARIABLE 7789 7834	exchanging structural mathematical model data
+T464	CONDITION 7836 7844	for mass
+T465	CONDITION 7849 7867	stiffness matrices
+T466	AND 7836 7867	for mass and stiffness matrices
+T467	STATEMENT 7789 7867	exchanging structural mathematical model data, for mass and stiffness matrices
+T468	CAUSE 7784 7867	When exchanging structural mathematical model data, for mass and stiffness matrices
+T469	VARIABLE 7869 7878	the model
+T470	CONDITION 7879 7903	shall be reduced in size
+T471	CONDITION 7908 7942	restitution matrices shall be used
+T472	AND 7879 7942	shall be reduced in size and restitution matrices shall be used
+T473	STATEMENT 7869 7942	the model shall be reduced in size and restitution matrices shall be used
+T474	CAUSE_EFFECT_RELATION 7784 7942	When exchanging structural mathematical model data, for mass and stiffness matrices, the model shall be reduced in size and restitution matrices shall be used
+T475	ROOT_SENTENCE 7784 7943	When exchanging structural mathematical model data, for mass and stiffness matrices, the model shall be reduced in size and restitution matrices shall be used.
+T476	KEY_C 7945 7949	When
+T477	VARIABLE 7950 7995	exchanging structural mathematical model data
+T478	CONDITION 7997 8016	for mode components
+T479	VARIABLE 8018 8032	the definition
+T480	CONDITION 8033 8087	may depend upon the method used (e.g. clamped or free)
+T481	STATEMENT 8018 8087	the definition may depend upon the method used (e.g. clamped or free)
+T482	STATEMENT 7950 8016	exchanging structural mathematical model data, for mode components
+T483	CAUSE 7945 8016	When exchanging structural mathematical model data, for mode components
+T484	CAUSE_EFFECT_RELATION 7945 8087	When exchanging structural mathematical model data, for mode components, the definition may depend upon the method used (e.g. clamped or free)
+T485	ROOT_SENTENCE 7945 8088	When exchanging structural mathematical model data, for mode components, the definition may depend upon the method used (e.g. clamped or free).
+T486	KEY_C 8090 8094	When
+T487	VARIABLE 8095 8107	design parts
+T488	CONDITION 8108 8145	are represented by an idealized model
+T489	CONDITION 8150 8196	their mass represented with the physical value
+T490	AND 8108 8196	are represented by an idealized model and their mass represented with the physical value
+T491	STATEMENT 8095 8196	design parts are represented by an idealized model and their mass represented with the physical value
+T492	CAUSE 8090 8196	When design parts are represented by an idealized model and their mass represented with the physical value
+T493	VARIABLE 8198 8217	the assumed density
+T494	CONDITION 8218 8249	shall be reported in the CADMDD
+T495	STATEMENT 8198 8249	the assumed density shall be reported in the CADMDD
+T496	CAUSE_EFFECT_RELATION 8090 8249	When design parts are represented by an idealized model and their mass represented with the physical value, the assumed density shall be reported in the CADMDD
+T497	ROOT_SENTENCE 8090 8250	When design parts are represented by an idealized model and their mass represented with the physical value, the assumed density shall be reported in the CADMDD.
+T498	KEY_C 8252 8256	When
+T499	VARIABLE 8257 8276	the vibration loads
+T500	CONDITION 8277 8323	are enveloped by the other qualification tests
+T501	VARIABLE 8325 8344	the vibration tests
+T502	CONDITION 8345 8404	specified in 4.3.2.2c may be deleted with customer approval
+T503	STATEMENT 8325 8404	the vibration tests specified in 4.3.2.2c may be deleted with customer approval
+T504	STATEMENT 8257 8323	the vibration loads are enveloped by the other qualification tests
+T505	CAUSE 8252 8323	When the vibration loads are enveloped by the other qualification tests
+T506	CAUSE_EFFECT_RELATION 8252 8404	When the vibration loads are enveloped by the other qualification tests, the vibration tests specified in 4.3.2.2c may be deleted with customer approval
+T507	ROOT_SENTENCE 8252 8405	When the vibration loads are enveloped by the other qualification tests, the vibration tests specified in 4.3.2.2c may be deleted with customer approval.
+T508	KEY_C 8407 8411	When
+T509	VARIABLE 8412 8446	the non‐metallic liner of the COPV
+T510	CONDITION 8447 8479	remains in compression up to MDP
+T511	NEGATION 8484 8526	flaws do not propagate during the LBB test
+T512	AND 8447 8526	remains in compression up to MDP and flaws do not propagate during the LBB test
+T513	STATEMENT 8412 8526	the non‐metallic liner of the COPV remains in compression up to MDP and flaws do not propagate during the LBB test
+T514	CAUSE 8407 8526	When the non‐metallic liner of the COPV remains in compression up to MDP and flaws do not propagate during the LBB test
+T515	VARIABLE 8528 8537	the flaws
+T516	CONDITION 8538 8595	prefabricated in the liner of the LBB full‐scale specimen
+T517	CONDITION 8596 8617	may be through cracks
+T518	AND 8538 8617	prefabricated in the liner of the LBB full‐scale specimen may be through cracks
+T519	STATEMENT 8528 8617	the flaws prefabricated in the liner of the LBB full‐scale specimen may be through cracks
+T520	CAUSE_EFFECT_RELATION 8407 8617	When the non‐metallic liner of the COPV remains in compression up to MDP and flaws do not propagate during the LBB test, the flaws prefabricated in the liner of the LBB full‐scale specimen may be through cracks
+T521	ROOT_SENTENCE 8407 8618	When the non‐metallic liner of the COPV remains in compression up to MDP and flaws do not propagate during the LBB test, the flaws prefabricated in the liner of the LBB full‐scale specimen may be through cracks.
+T522	KEY_C 8620 8624	When
+T523	VARIABLE 8625 8637	the hardware
+T524	CONDITION 8638 8660	mounting induces axial
+T525	CONDITION 8664 8732	radial restrictions on the pressure driven expansion of the hardware
+T526	VARIABLE 8734 8756	the burst test fixture
+T527	CONDITION 8757 8795	shall simulate the structural response
+T528	CONDITION 8799 8836	reaction loads of the flight mounting
+T529	OR 8757 8836	shall simulate the structural response or reaction loads of the flight mounting
+T530	STATEMENT 8734 8836	the burst test fixture shall simulate the structural response or reaction loads of the flight mounting
+T531	OR 8638 8732	mounting induces axial or radial restrictions on the pressure driven expansion of the hardware
+T532	STATEMENT 8625 8732	the hardware mounting induces axial or radial restrictions on the pressure driven expansion of the hardware
+T533	CAUSE 8620 8732	When the hardware mounting induces axial or radial restrictions on the pressure driven expansion of the hardware
+T534	CAUSE_EFFECT_RELATION 8620 8836	When the hardware mounting induces axial or radial restrictions on the pressure driven expansion of the hardware, the burst test fixture shall simulate the structural response or reaction loads of the flight mounting
+T535	ROOT_SENTENCE 8620 8837	When the hardware mounting induces axial or radial restrictions on the pressure driven expansion of the hardware, the burst test fixture shall simulate the structural response or reaction loads of the flight mounting.
+T536	KEY_C 8839 8843	When
+T537	VARIABLE 8844 8847	NDI
+T538	CONDITION 8848 8887	is performed in the qualification tests
+T539	VARIABLE 8889 8891	it
+T540	CONDITION 8892 8913	shall meet clause 5.7
+T541	STATEMENT 8889 8913	it shall meet clause 5.7
+T542	STATEMENT 8844 8887	NDI is performed in the qualification tests
+T543	CAUSE 8839 8887	When NDI is performed in the qualification tests
+T544	CAUSE_EFFECT_RELATION 8839 8913	When NDI is performed in the qualification tests, it shall meet clause 5.7
+T545	ROOT_SENTENCE 8839 8914	When NDI is performed in the qualification tests, it shall meet clause 5.7.
+T546	KEY_C 8916 8920	When
+T547	VARIABLE 8921 8967	the composite wall of the pressurized hardware
+T548	CONDITION 8968 8984	serves partially
+T549	CONDITION 8988 9041	totally as a permeation barrier (e.g. for CPV or CPS)
+T550	OR 8968 9041	serves partially or totally as a permeation barrier (e.g. for CPV or CPS)
+T551	STATEMENT 8921 9041	the composite wall of the pressurized hardware serves partially or totally as a permeation barrier (e.g. for CPV or CPS)
+T552	CAUSE 8916 9041	When the composite wall of the pressurized hardware serves partially or totally as a permeation barrier (e.g. for CPV or CPS)
+T553	VARIABLE 9043 9070	any degradation of the wall
+T554	KEY_C 9071 9077	due to
+T555	VARIABLE 9078 9089	the contact
+T556	CONDITION 9090 9111	with the stored fluid
+T557	STATEMENT 9078 9111	the contact with the stored fluid
+T558	CAUSE 9071 9111	due to the contact with the stored fluid
+T559	CAUSE_EFFECT_RELATION 9043 9111	any degradation of the wall due to the contact with the stored fluid
+T560	CONDITION 9112 9179	shall be accounted for in the design allowable of material strength
+T561	STATEMENT 9043 9179	any degradation of the wall due to the contact with the stored fluid shall be accounted for in the design allowable of material strength
+T562	CAUSE_EFFECT_RELATION 8916 9179	When the composite wall of the pressurized hardware serves partially or totally as a permeation barrier (e.g. for CPV or CPS), any degradation of the wall due to the contact with the stored fluid shall be accounted for in the design allowable of material strength
+T563	ROOT_SENTENCE 8916 9180	When the composite wall of the pressurized hardware serves partially or totally as a permeation barrier (e.g. for CPV or CPS), any degradation of the wall due to the contact with the stored fluid shall be accounted for in the design allowable of material strength.
+T564	VARIABLE 9182 9201	Anti‐creep barriers
+T565	CONDITION 9202 9215	shall be used
+T566	KEY_C 9216 9220	when
+T567	VARIABLE 9221 9251	migration of fluids lubricants
+T568	CONDITION 9252 9291	causes a change of the lubricant amount
+T569	CONDITION 9292 9368	on the parts to be lubricated resulting in mechanism performance degradation
+T570	CONDITION 9369 9406	below the limits specified in the SMS
+T571	AND 9292 9406	on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS
+T572	AND 9252 9406	causes a change of the lubricant amount on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS
+T573	STATEMENT 9221 9406	migration of fluids lubricants causes a change of the lubricant amount on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS
+T574	CAUSE 9216 9406	when migration of fluids lubricants causes a change of the lubricant amount on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS
+T575	STATEMENT 9182 9215	Anti‐creep barriers shall be used
+T576	CAUSE_EFFECT_RELATION 9182 9406	Anti‐creep barriers shall be used when migration of fluids lubricants causes a change of the lubricant amount on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS
+T577	ROOT_SENTENCE 9182 9407	Anti‐creep barriers shall be used when migration of fluids lubricants causes a change of the lubricant amount on the parts to be lubricated resulting in mechanism performance degradation below the limits specified in the SMS.
+T578	VARIABLE 9409 9411	TL
+T579	CONDITION 9412 9444	is the deliverable output torque
+T580	KEY_C 9446 9450	when
+T581	VARIABLE 9451 9476	specified by the customer
+T582	CAUSE 9446 9476	when specified by the customer
+T583	STATEMENT 9409 9444	TL is the deliverable output torque
+T584	CAUSE_EFFECT_RELATION 9409 9476	TL is the deliverable output torque, when specified by the customer
+T585	ROOT_SENTENCE 9409 9477	TL is the deliverable output torque, when specified by the customer.
+T586	KEY_C 9479 9483	When
+T587	VARIABLE 9484 9504	the actuation torque
+T588	VARIABLE 9509 9514	force
+T589	OR 9484 9515	the actuation torque (or force)
+T590	CONDITION 9516 9562	is supplied by an electronic controlled device
+T591	STATEMENT 9484 9562	the actuation torque (or force) is supplied by an electronic controlled device
+T592	CAUSE 9479 9562	When the actuation torque (or force) is supplied by an electronic controlled device
+T593	VARIABLE 9564 9584	the actuation torque
+T594	VARIABLE 9589 9594	force
+T595	OR 9564 9595	the actuation torque (or force)
+T596	CONDITION 9596 9619	supplied by this device
+T597	CONDITION 9620 9670	shall be derived considering worst‐case conditions
+T598	AND 9596 9670	supplied by this device shall be derived considering worst‐case conditions
+T599	STATEMENT 9564 9670	the actuation torque (or force) supplied by this device shall be derived considering worst‐case conditions
+T600	CAUSE_EFFECT_RELATION 9479 9670	When the actuation torque (or force) is supplied by an electronic controlled device, the actuation torque (or force) supplied by this device shall be derived considering worst‐case conditions
+T601	ROOT_SENTENCE 9479 9671	When the actuation torque (or force) is supplied by an electronic controlled device, the actuation torque (or force) supplied by this device shall be derived considering worst‐case conditions.
+T602	KEY_C 9673 9677	When
+T603	VARIABLE 9678 9698	the actuation torque
+T604	VARIABLE 9703 9708	force
+T605	OR 9678 9709	the actuation torque (or force)
+T606	CONDITION 9710 9742	is supplied by a spring actuator
+T607	STATEMENT 9678 9742	the actuation torque (or force) is supplied by a spring actuator
+T608	CAUSE 9673 9742	When the actuation torque (or force) is supplied by a spring actuator
+T609	VARIABLE 9744 9764	the actuation torque
+T610	VARIABLE 9769 9774	force
+T611	OR 9744 9775	the actuation torque (or force)
+T612	CONDITION 9776 9798	supplied by the spring
+T613	CONDITION 9800 9850	shall be derived considering worst‐case conditions
+T614	CONDITION 9856 9910	be multiplied by the maximum uncertainty factor of 0,8
+T615	AND 9800 9910	shall be derived considering worst‐case conditions, and be multiplied by the maximum uncertainty factor of 0,8
+T616	AND 9776 9910	supplied by the spring, shall be derived considering worst‐case conditions, and be multiplied by the maximum uncertainty factor of 0,8
+T617	STATEMENT 9744 9910	the actuation torque (or force) supplied by the spring, shall be derived considering worst‐case conditions, and be multiplied by the maximum uncertainty factor of 0,8
+T618	CAUSE_EFFECT_RELATION 9673 9910	When the actuation torque (or force) is supplied by a spring actuator, the actuation torque (or force) supplied by the spring, shall be derived considering worst‐case conditions, and be multiplied by the maximum uncertainty factor of 0,8
+T619	ROOT_SENTENCE 9673 9911	When the actuation torque (or force) is supplied by a spring actuator, the actuation torque (or force) supplied by the spring, shall be derived considering worst‐case conditions, and be multiplied by the maximum uncertainty factor of 0,8.
+T620	KEY_C 9913 9917	When
+T621	VARIABLE 9918 9937	other forms of life
+T622	CONDITION 9938 9963	are accommodated on board
+T623	STATEMENT 9918 9963	other forms of life are accommodated on board
+T624	CAUSE 9913 9963	When other forms of life are accommodated on board
+T625	VARIABLE 9965 9974	the ECLSS
+T626	CONDITION 9975 10055	also ensures the appropriate environmental conditions for those living organisms
+T627	STATEMENT 9965 10055	the ECLSS also ensures the appropriate environmental conditions for those living organisms
+T628	CAUSE_EFFECT_RELATION 9913 10055	When other forms of life are accommodated on board, the ECLSS also ensures the appropriate environmental conditions for those living organisms
+T629	ROOT_SENTENCE 9913 10056	When other forms of life are accommodated on board, the ECLSS also ensures the appropriate environmental conditions for those living organisms.
+T630	VARIABLE 10058 10094	An uncontrolled pressurization event
+T631	CONDITION 10095 10112	shall be detected
+T632	STATEMENT 10058 10112	An uncontrolled pressurization event shall be detected
+T633	KEY_C 10113 10117	when
+T634	VARIABLE 10118 10144	the rate of pressurization
+T635	CONDITION 10145 10177	is higher than a specified value
+T636	STATEMENT 10118 10177	the rate of pressurization is higher than a specified value
+T637	CAUSE 10113 10177	when the rate of pressurization is higher than a specified value
+T638	CAUSE_EFFECT_RELATION 10058 10177	An uncontrolled pressurization event shall be detected when the rate of pressurization is higher than a specified value
+T639	ROOT_SENTENCE 10058 10178	An uncontrolled pressurization event shall be detected when the rate of pressurization is higher than a specified value.
+T640	KEY_C 10180 10184	When
+T641	VARIABLE 10185 10193	recovery
+T642	CONDITION 10201 10213	be performed
+T643	NEGATION 10194 10213	cannot be performed
+T644	STATEMENT 10185 10213	recovery cannot be performed
+T645	CAUSE 10180 10213	When recovery cannot be performed
+T646	VARIABLE 10215 10222	storage
+T647	VARIABLE 10227 10250	stabilization of wastes
+T648	AND 10215 10250	storage and stabilization of wastes
+T649	CONDITION 10251 10279	shall specify means for safe
+T650	CONDITION 10284 10306	effective disinfection
+T651	CONDITION 10308 10320	sanitization
+T652	CONDITION 10325 10336	containment
+T653	AND 10308 10336	sanitization and containment
+T654	AND 10284 10336	effective disinfection, sanitization and containment
+T655	AND 10251 10336	shall specify means for safe and effective disinfection, sanitization and containment
+T656	STATEMENT 10215 10336	storage and stabilization of wastes shall specify means for safe and effective disinfection, sanitization and containment
+T657	CAUSE_EFFECT_RELATION 10180 10336	When recovery cannot be performed, storage and stabilization of wastes shall specify means for safe and effective disinfection, sanitization and containment
+T658	ROOT_SENTENCE 10180 10337	When recovery cannot be performed, storage and stabilization of wastes shall specify means for safe and effective disinfection, sanitization and containment.
+T659	KEY_C 10339 10343	When
+T660	VARIABLE 10344 10372	verification at system level
+T661	CONDITION 10373 10393	is performed by test
+T662	VARIABLE 10395 10429	a representative propulsion system
+T663	VARIABLE 10431 10458	including electrical system
+T664	AND 10395 10458	a representative propulsion system, including electrical system
+T665	CONDITION 10460 10496	shall be tested in flight conditions
+T666	CONDITION 10500 10532	flight representative conditions
+T667	OR 10460 10532	shall be tested in flight conditions or flight representative conditions
+T668	STATEMENT 10395 10532	a representative propulsion system, including electrical system, shall be tested in flight conditions or flight representative conditions
+T669	STATEMENT 10344 10393	verification at system level is performed by test
+T670	CAUSE 10339 10393	When verification at system level is performed by test
+T671	CAUSE_EFFECT_RELATION 10339 10532	When verification at system level is performed by test, a representative propulsion system, including electrical system, shall be tested in flight conditions or flight representative conditions
+T672	ROOT_SENTENCE 10339 10533	When verification at system level is performed by test, a representative propulsion system, including electrical system, shall be tested in flight conditions or flight representative conditions.
+T673	VARIABLE 10535 10555	Cross check analysis
+T674	CONDITION 10556 10574	shall be performed
+T675	KEY_C 10575 10579	when
+T676	VARIABLE 10580 10597	flight conditions
+T677	CONDITION 10605 10636	be reproduced by ground testing
+T678	NEGATION 10598 10636	cannot be reproduced by ground testing
+T679	STATEMENT 10580 10636	flight conditions cannot be reproduced by ground testing
+T680	CAUSE 10575 10636	when flight conditions cannot be reproduced by ground testing
+T681	STATEMENT 10535 10574	Cross check analysis shall be performed
+T682	VARIABLE 10639 10645	The UM
+T683	CONDITION 10646 10703	shall include the verification activities to be performed
+T684	KEY_C 10705 10709	when
+T685	VARIABLE 10710 10739	these verification activities
+T686	CONDITION 10740 10752	are required
+T687	CONDITION 10757 10787	the conditions to perform them
+T688	AND 10740 10787	are required and the conditions to perform them
+T689	STATEMENT 10710 10787	these verification activities are required and the conditions to perform them
+T690	CAUSE 10705 10787	when these verification activities are required and the conditions to perform them
+T691	STATEMENT 10639 10703	The UM shall include the verification activities to be performed
+T692	CAUSE_EFFECT_RELATION 10639 10787	The UM shall include the verification activities to be performed, when these verification activities are required and the conditions to perform them
+T693	ROOT_SENTENCE 10639 10788	The UM shall include the verification activities to be performed, when these verification activities are required and the conditions to perform them.
+T694	VARIABLE 10790 10810	The stability margin
+T695	CONDITION 10811 10837	shall be a design criteria
+T696	KEY_C 10838 10842	when
+T697	VARIABLE 10843 10852	designing
+T698	CONDITION 10853 10869	a thrust chamber
+T699	STATEMENT 10843 10869	designing a thrust chamber
+T700	CAUSE 10838 10869	when designing a thrust chamber
+T701	STATEMENT 10790 10837	The stability margin shall be a design criteria
+T702	CAUSE_EFFECT_RELATION 10790 10869	The stability margin shall be a design criteria when designing a thrust chamber
+T703	ROOT_SENTENCE 10790 10870	The stability margin shall be a design criteria when designing a thrust chamber.
+T704	KEY_C 10872 10876	When
+T705	VARIABLE 10877 10887	boost pump
+T706	CONDITION 10888 10896	are used
+T707	VARIABLE 10898 10928	the justification of their use
+T708	CONDITION 10929 10985	shall be expressed at the liquid propulsion system level
+T709	CONDITION 10986 11007	including performance
+T710	CONDITION 11009 11020	reliability
+T711	CONDITION 11025 11029	cost
+T712	AND 11009 11029	reliability and cost
+T713	AND 10986 11029	including performance, reliability and cost
+T714	AND 10929 11029	shall be expressed at the liquid propulsion system level including performance, reliability and cost
+T715	STATEMENT 10898 11029	the justification of their use shall be expressed at the liquid propulsion system level including performance, reliability and cost
+T716	STATEMENT 10877 10896	boost pump are used
+T717	CAUSE 10872 10896	When boost pump are used
+T718	CAUSE_EFFECT_RELATION 10872 11029	When boost pump are used, the justification of their use shall be expressed at the liquid propulsion system level including performance, reliability and cost
+T719	ROOT_SENTENCE 10872 11030	When boost pump are used, the justification of their use shall be expressed at the liquid propulsion system level including performance, reliability and cost.
+T720	VARIABLE 11032 11045	Both internal
+T721	VARIABLE 11050 11069	external load cases
+T722	AND 11032 11069	Both internal and external load cases
+T723	CONDITION 11070 11083	shall be used
+T724	KEY_C 11084 11088	when
+T725	VARIABLE 11089 11101	establishing
+T726	CONDITION 11102 11125	dimensioning load cases
+T727	STATEMENT 11089 11125	establishing dimensioning load cases
+T728	CAUSE 11084 11125	when establishing dimensioning load cases
+T729	STATEMENT 11032 11083	Both internal and external load cases shall be used
+T730	CAUSE_EFFECT_RELATION 11032 11125	Both internal and external load cases shall be used when establishing dimensioning load cases
+T731	ROOT_SENTENCE 11032 11126	Both internal and external load cases shall be used when establishing dimensioning load cases.
+T732	VARIABLE 11128 11140	Risk of wear
+T733	VARIABLE 11145 11164	tribological damage
+T734	AND 11128 11164	Risk of wear and tribological damage
+T735	CONDITION 11165 11184	shall be considered
+T736	KEY_C 11185 11189	when
+T737	VARIABLE 11190 11199	selecting
+T738	CONDITION 11200 11208	material
+T739	STATEMENT 11190 11208	selecting material
+T740	CAUSE 11185 11208	when selecting material
+T741	STATEMENT 11128 11184	Risk of wear and tribological damage shall be considered
+T742	CAUSE_EFFECT_RELATION 11128 11208	Risk of wear and tribological damage shall be considered when selecting material
+T743	ROOT_SENTENCE 11128 11209	Risk of wear and tribological damage shall be considered when selecting material.
+T744	VARIABLE 11211 11217	Valves
+T745	VARIABLE 11222 11232	regulators
+T746	AND 11211 11232	Valves and regulators
+T747	CONDITION 11243 11265	generate contamination
+T748	NEGATION 11233 11265	shall not generate contamination
+T749	CONDITION 11267 11296	exceeding the specified level
+T750	AND 11233 11296	shall not generate contamination, exceeding the specified level
+T751	STATEMENT 11211 11296	Valves and regulators shall not generate contamination, exceeding the specified level
+T752	KEY_C 11298 11302	when
+T753	VARIABLE 11303 11310	exposed
+T754	CONDITION 11311 11341	to the specified environmental
+T755	CONDITION 11346 11362	functional tests
+T756	AND 11311 11362	to the specified environmental and functional tests
+T757	STATEMENT 11303 11362	exposed to the specified environmental and functional tests
+T758	CAUSE 11298 11362	when exposed to the specified environmental and functional tests
+T759	CAUSE_EFFECT_RELATION 11211 11362	Valves and regulators shall not generate contamination, exceeding the specified level, when exposed to the specified environmental and functional tests
+T760	ROOT_SENTENCE 11211 11363	Valves and regulators shall not generate contamination, exceeding the specified level, when exposed to the specified environmental and functional tests.
+T761	VARIABLE 11365 11399	Compatibility of dissimilar metals
+T762	CONDITION 11400 11419	shall be considered
+T763	STATEMENT 11365 11419	Compatibility of dissimilar metals shall be considered
+T764	KEY_C 11420 11424	when
+T765	VARIABLE 11425 11434	selecting
+T766	CONDITION 11435 11463	a mechanical cleaning method
+T767	STATEMENT 11425 11463	selecting a mechanical cleaning method
+T768	CAUSE 11420 11463	when selecting a mechanical cleaning method
+T769	CAUSE_EFFECT_RELATION 11365 11463	Compatibility of dissimilar metals shall be considered when selecting a mechanical cleaning method
+T770	ROOT_SENTENCE 11365 11464	Compatibility of dissimilar metals shall be considered when selecting a mechanical cleaning method.
+T771	VARIABLE 11466 11474	Sampling
+T772	CONDITION 11475 11507	shall be in conformance with 7.2
+T773	NONE_CAUSAL 11466 11507	Sampling shall be in conformance with 7.2
+T774	KEY_C 11509 11520	except that
+T775	VARIABLE 11521 11568	additional sample material from the offered lot
+T776	CONDITION 11569 11576	is used
+T777	STATEMENT 11521 11576	additional sample material from the offered lot is used
+T778	EFFECT 11509 11576	except that additional sample material from the offered lot is used
+T779	KEY_C 11577 11581	when
+T780	VARIABLE 11582 11606	necessary to make 0,1 m2
+T781	CAUSE 11577 11606	when necessary to make 0,1 m2
+T782	CAUSE_EFFECT_RELATION 11509 11606	except that additional sample material from the offered lot is used when necessary to make 0,1 m2
+T783	ROOT_SENTENCE 11466 11607	Sampling shall be in conformance with 7.2, except that additional sample material from the offered lot is used when necessary to make 0,1 m2.
+T787	KEY_C 11772 11776	When
+T788	VARIABLE 11777 11791	an N‐bit field
+T789	CONDITION 11792 11845	is used to express a binary value (such as a counter)
+T790	VARIABLE 11847 11871	the most significant bit
+T791	CONDITION 11872 11930	is the first bit of the field, i.e. bit 0 (see Figure 3‐1)
+T792	STATEMENT 11847 11930	the most significant bit is the first bit of the field, i.e. bit 0 (see Figure 3‐1)
+T793	STATEMENT 11777 11845	an N‐bit field is used to express a binary value (such as a counter)
+T794	CAUSE 11772 11845	When an N‐bit field is used to express a binary value (such as a counter)
+T795	CAUSE_EFFECT_RELATION 11772 11930	When an N‐bit field is used to express a binary value (such as a counter), the most significant bit is the first bit of the field, i.e. bit 0 (see Figure 3‐1)
+T796	ROOT_SENTENCE 11772 11931	When an N‐bit field is used to express a binary value (such as a counter), the most significant bit is the first bit of the field, i.e. bit 0 (see Figure 3‐1).
+T797	VARIABLE 11933 11949	The code symbols
+T798	CONDITION 11950 11976	are called channel symbols
+T799	KEY_C 11977 11981	when
+T800	VARIABLE 11982 11986	they
+T801	CONDITION 11987 12013	are the output of the last
+T802	CONDITION 12017 12062	only code applied during the encoding process
+T803	OR 11987 12062	are the output of the last or only code applied during the encoding process
+T804	STATEMENT 11982 12062	they are the output of the last or only code applied during the encoding process
+T805	CAUSE 11977 12062	when they are the output of the last or only code applied during the encoding process
+T806	STATEMENT 11933 11976	The code symbols are called channel symbols
+T807	CAUSE_EFFECT_RELATION 11933 12062	The code symbols are called channel symbols when they are the output of the last or only code applied during the encoding process
+T808	ROOT_SENTENCE 11933 12063	The code symbols are called channel symbols when they are the output of the last or only code applied during the encoding process.
+T809	VARIABLE 12065 12087	The convolutional code
+T810	CONDITION 12089 12098	by itself
+T811	CONDITION 12107 12146	guarantee sufficient symbol transitions
+T812	NEGATION 12100 12146	cannot guarantee sufficient symbol transitions
+T813	AND 12089 12146	by itself, cannot guarantee sufficient symbol transitions
+T814	STATEMENT 12065 12146	The convolutional code, by itself, cannot guarantee sufficient symbol transitions
+T815	KEY_C 12147 12151	when
+T816	VARIABLE 12152 12181	non‐binary modulation schemes
+T817	CONDITION 12182 12203	such as QPSK are used
+T818	STATEMENT 12152 12203	non‐binary modulation schemes such as QPSK are used
+T819	CAUSE 12147 12203	when non‐binary modulation schemes such as QPSK are used
+T820	CAUSE_EFFECT_RELATION 12065 12203	The convolutional code, by itself, cannot guarantee sufficient symbol transitions when non‐binary modulation schemes such as QPSK are used
+T821	NONE_CAUSAL 12412 12425	In particular
+T822	VARIABLE 12427 12431	this
+T823	CONDITION 12432 12442	can happen
+T824	KEY_C 12443 12447	when
+T825	VARIABLE 12448 12487	the Reed‐ Solomon interleaving depth, I
+T826	CONDITION 12489 12493	is 5
+T827	STATEMENT 12448 12493	the Reed‐ Solomon interleaving depth, I, is 5
+T828	CAUSE 12443 12493	when the Reed‐ Solomon interleaving depth, I, is 5
+T829	STATEMENT 12427 12442	this can happen
+T830	CAUSE_EFFECT_RELATION 12427 12493	this can happen when the Reed‐ Solomon interleaving depth, I, is 5
+T831	ROOT_SENTENCE 12412 12494	In particular, this can happen when the Reed‐ Solomon interleaving depth, I, is 5.
+T832	KEY_C 12496 12500	When
+T833	VARIABLE 12501 12505	used
+T834	CONDITION 12506 12521	with R‐S coding
+T835	STATEMENT 12501 12521	used with R‐S coding
+T836	CAUSE 12496 12521	When used with R‐S coding
+T837	VARIABLE 12523 12545	only specified lengths
+T838	CONDITION 12546 12596	can be contained within the codeblock’s data space
+T839	STATEMENT 12523 12596	only specified lengths can be contained within the codeblock’s data space
+T840	CAUSE_EFFECT_RELATION 12496 12596	When used with R‐S coding, only specified lengths can be contained within the codeblock’s data space
+T841	ROOT_SENTENCE 12496 12597	When used with R‐S coding, only specified lengths can be contained within the codeblock’s data space.
+T842	NONE_CAUSAL 12599 12610	For example
+T843	KEY_C 12612 12616	when
+T844	VARIABLE 12617 12621	E=16
+T845	VARIABLE 12626 12629	I=5
+T846	AND 12617 12629	E=16 and I=5
+T847	CAUSE 12612 12629	when E=16 and I=5
+T848	KEY_C 12631 12635	then
+T849	VARIABLE 12636 12676	the length occupied by the check symbols
+T850	CONDITION 12677 12696	is always 1280 bits
+T851	STATEMENT 12636 12696	the length occupied by the check symbols is always 1280 bits
+T852	EFFECT 12631 12696	then the length occupied by the check symbols is always 1280 bits
+T853	CAUSE_EFFECT_RELATION 12612 12696	when E=16 and I=5, then the length occupied by the check symbols is always 1280 bits
+T854	ROOT_SENTENCE 12599 12697	For example, when E=16 and I=5, then the length occupied by the check symbols is always 1280 bits.
+T855	NONE_CAUSAL 12699 12710	For example
+T856	KEY_C 12712 12716	when
+T857	VARIABLE 12717 12721	E=16
+T858	VARIABLE 12723 12728	k=223
+T859	VARIABLE 12733 12736	I=5
+T860	AND 12723 12736	k=223 and I=5
+T861	AND 12717 12736	E=16, k=223 and I=5
+T862	CAUSE 12712 12736	when E=16, k=223 and I=5
+T863	VARIABLE 12738 12777	the length of the transmitted codeblock
+T864	CONDITION 12778 12792	is 10 200 bits
+T865	NONE_CAUSAL 12824 12835	For example
+T866	KEY_C 12837 12841	when
+T867	VARIABLE 12842 12846	E=16
+T868	VARIABLE 12848 12853	k=223
+T869	VARIABLE 12858 12861	I=5
+T870	AND 12848 12861	k=223 and I=5
+T871	AND 12842 12861	E=16, k=223 and I=5
+T872	CAUSE 12837 12861	when E=16, k=223 and I=5
+T873	VARIABLE 12863 12884	the logical codeblock
+T874	CONDITION 12885 12935	always appears to be exactly 10 200 bits in length
+T875	STATEMENT 12863 12935	the logical codeblock always appears to be exactly 10 200 bits in length
+T876	CAUSE_EFFECT_RELATION 12837 12935	when E=16, k=223 and I=5, the logical codeblock always appears to be exactly 10 200 bits in length
+T877	ROOT_SENTENCE 12824 12936	For example, when E=16, k=223 and I=5, the logical codeblock always appears to be exactly 10 200 bits in length.
+T878	KEY_C 12938 12942	When
+T879	VARIABLE 12943 12997	an encoder (initially cleared at the start of a block)
+T880	KEY_C 13228 13232	When
+T881	VARIABLE 13233 13245	Reed‐Solomon
+T882	CONDITION 13246 13262	with E=8 is used
+T883	KEY_C 13264 13268	then
+T884	VARIABLE 13269 13301	the requirements in clause 6.4.2
+T885	CONDITION 13302 13307	apply
+T886	STATEMENT 13269 13307	the requirements in clause 6.4.2 apply
+T887	EFFECT 13264 13307	then the requirements in clause 6.4.2 apply
+T888	STATEMENT 13233 13262	Reed‐Solomon with E=8 is used
+T889	CAUSE 13228 13262	When Reed‐Solomon with E=8 is used
+T890	CAUSE_EFFECT_RELATION 13228 13307	When Reed‐Solomon with E=8 is used, then the requirements in clause 6.4.2 apply
+T891	ROOT_SENTENCE 13228 13308	When Reed‐Solomon with E=8 is used, then the requirements in clause 6.4.2 apply.
+T892	KEY_C 13310 13314	When
+T893	VARIABLE 13315 13320	using
+T894	CONDITION 13321 13347	a conventional R‐S encoder
+T895	VARIABLE 13349 13355	a pre-
+T896	VARIABLE 13360 13379	post‐transformation
+T897	AND 13349 13379	a pre‐ and post‐transformation
+T898	CONDITION 13380 13390	is applied
+T899	STATEMENT 13349 13390	a pre‐ and post‐transformation is applied
+T900	STATEMENT 13315 13347	using a conventional R‐S encoder
+T901	CAUSE 13310 13347	When using a conventional R‐S encoder
+T902	CAUSE_EFFECT_RELATION 13310 13390	When using a conventional R‐S encoder, a pre‐ and post‐transformation is applied
+T903	ROOT_SENTENCE 13310 13391	When using a conventional R‐S encoder, a pre‐ and post‐transformation is applied.
+T904	KEY_C 13513 13517	When
+T905	VARIABLE 13518 13531	a transponder
+T906	CONDITION 13532 13563	is used exclusively for ranging
+T907	VARIABLE 14196 14209	NRZ waveforms
+T908	CONDITION 14210 14228	shall only be used
+T909	KEY_C 14229 14233	when
+T910	VARIABLE 14234 14243	modulated
+T911	CONDITION 14244 14261	onto a subcarrier
+T912	STATEMENT 14234 14261	modulated onto a subcarrier
+T913	CAUSE 14229 14261	when modulated onto a subcarrier
+T914	STATEMENT 14196 14228	NRZ waveforms shall only be used
+T915	CAUSE_EFFECT_RELATION 14196 14261	NRZ waveforms shall only be used when modulated onto a subcarrier
+T916	ROOT_SENTENCE 14196 14262	NRZ waveforms shall only be used when modulated onto a subcarrier.
+T917	KEY_C 14370 14374	When
+T918	VARIABLE 14375 14403	the specifications in 6.1.5a
+T919	VARIABLE 14408 14414	6.1.5b
+T920	AND 14375 14414	the specifications in 6.1.5a and 6.1.5b
+T921	CONDITION 14423 14463	ensured for the channel by other methods
+T922	NEGATION 14415 14463	are not ensured for the channel by other methods
+T923	STATEMENT 14375 14463	the specifications in 6.1.5a and 6.1.5b are not ensured for the channel by other methods
+T924	CAUSE 14370 14463	When the specifications in 6.1.5a and 6.1.5b are not ensured for the channel by other methods
+T925	VARIABLE 14465 14529	a pseudo‐randomizer in conformance with ECSS‐E‐ST‐50‐01 clause 9
+T926	CONDITION 14530 14543	shall be used
+T927	STATEMENT 14465 14543	a pseudo‐randomizer in conformance with ECSS‐E‐ST‐50‐01 clause 9 shall be used
+T928	CAUSE_EFFECT_RELATION 14370 14543	When the specifications in 6.1.5a and 6.1.5b are not ensured for the channel by other methods, a pseudo‐randomizer in conformance with ECSS‐E‐ST‐50‐01 clause 9 shall be used
+T929	ROOT_SENTENCE 14370 14544	When the specifications in 6.1.5a and 6.1.5b are not ensured for the channel by other methods, a pseudo‐randomizer in conformance with ECSS‐E‐ST‐50‐01 clause 9 shall be used.
+T930	KEY_C 14546 14550	When
+T931	VARIABLE 14551 14554	two
+T932	VARIABLE 14558 14571	more channels
+T933	OR 14551 14571	two or more channels
+T934	CONDITION 14572 14627	are transmitted simultaneously on the Earth‐ space link
+T935	VARIABLE 14629 14663	the combined peak modulation index
+T936	VARIABLE 14665 14674	resulting
+T937	CONDITION 14675 14714	from the linear sum of the peak indexes
+T938	NONE_CAUSAL 14665 14714	resulting from the linear sum of the peak indexes
+T939	CONDITION 14727 14742	exceed 1,75 rad
+T940	NEGATION 14716 14742	should not exceed 1,75 rad
+T941	STATEMENT 14629 14742	the combined peak modulation index (resulting from the linear sum of the peak indexes) should not exceed 1,75 rad
+T942	STATEMENT 14551 14627	two or more channels are transmitted simultaneously on the Earth‐ space link
+T943	CAUSE 14546 14627	When two or more channels are transmitted simultaneously on the Earth‐ space link
+T944	CAUSE_EFFECT_RELATION 14546 14742	When two or more channels are transmitted simultaneously on the Earth‐ space link, the combined peak modulation index (resulting from the linear sum of the peak indexes) should not exceed 1,75 rad
+T945	ROOT_SENTENCE 14546 14743	When two or more channels are transmitted simultaneously on the Earth‐ space link, the combined peak modulation index (resulting from the linear sum of the peak indexes) should not exceed 1,75 rad.
+T45	KEY_C 5343 5347	when
+T46	VARIABLE 5348 5370	connected to the setup
+T47	CAUSE 5343 5370	when connected to the setup
+T48	STATEMENT 5262 5342	it shall be ensured that the active load meets the ambient requirements of 5.2.2
+T49	CAUSE_EFFECT_RELATION 5262 5370	it shall be ensured that the active load meets the ambient requirements of 5.2.2 when connected to the setup
+T301	CONDITION 5376 5439	that the active load does not respond to susceptibility signals
+T948	AND 5262 5439	it shall be ensured that the active load meets the ambient requirements of 5.2.2 when connected to the setup, and that the active load does not respond to susceptibility signals
+T949	CAUSE_EFFECT_RELATION 5222 5439	When active electrical loading is used, it shall be ensured that the active load meets the ambient requirements of 5.2.2 when connected to the setup, and that the active load does not respond to susceptibility signals
+T950	ROOT_SENTENCE 5222 5440	When active electrical loading is used, it shall be ensured that the active load meets the ambient requirements of 5.2.2 when connected to the setup, and that the active load does not respond to susceptibility signals.
+T951	CONDITION 12998 13043	receives kIQ symbols representing information
+T952	VARIABLE 13051 13052	Q
+T953	CONDITION 13054 13071	representing fill
+T954	CONDITION 13073 13091	is a multiple of I
+T955	CONDITION 13097 13112	is less than kI
+T956	AND 13073 13112	is a multiple of I, and is less than kI
+T957	AND 13054 13112	representing fill, is a multiple of I, and is less than kI
+T958	STATEMENT 13051 13112	Q, representing fill, is a multiple of I, and is less than kI
+T959	KEY_C 13045 13050	where
+T960	CAUSE 13044 13113	(where Q, representing fill, is a multiple of I, and is less than kI)
+T961	STATEMENT 12943 13043	an encoder (initially cleared at the start of a block) receives kIQ symbols representing information
+T962	CAUSE 12938 13043	When an encoder (initially cleared at the start of a block) receives kIQ symbols representing information
+T963	VARIABLE 13115 13132	2EI check symbols
+T964	CONDITION 13133 13161	are computed over kI symbols
+T965	STATEMENT 13115 13161	2EI check symbols are computed over kI symbols
+T966	AND 12938 13113	When an encoder (initially cleared at the start of a block) receives kIQ symbols representing information (where Q, representing fill, is a multiple of I, and is less than kI)
+T967	VARIABLE 13172 13193	the leading Q symbols
+T968	CONDITION 13194 13225	are treated as all‐zero symbols
+T969	KEY_C 13163 13171	of which
+T970	STATEMENT 13172 13225	the leading Q symbols are treated as all‐zero symbols
+T971	EFFECT 13163 13225	of which the leading Q symbols are treated as all‐zero symbols
+T972	AND 13115 13225	2EI check symbols are computed over kI symbols, of which the leading Q symbols are treated as all‐zero symbols
+T973	CAUSE_EFFECT_RELATION 12938 13225	When an encoder (initially cleared at the start of a block) receives kIQ symbols representing information (where Q, representing fill, is a multiple of I, and is less than kI), 2EI check symbols are computed over kI symbols, of which the leading Q symbols are treated as all‐zero symbols
+T974	ROOT_SENTENCE 12938 13226	When an encoder (initially cleared at the start of a block) receives kIQ symbols representing information (where Q, representing fill, is a multiple of I, and is less than kI), 2EI check symbols are computed over kI symbols, of which the leading Q symbols are treated as all‐zero symbols.
+T975	VARIABLE 14044 14054	Spacecraft
+T976	CONDITION 14055 14097	shall limit their transmission of RF power
+T977	CONDITION 14098 14115	towards the Earth
+T978	KEY_C 14116 14135	to the periods when
+T979	VARIABLE 14136 14154	telecommunications
+T980	VARIABLE 14158 14177	tracking operations
+T981	CONDITION 14178 14193	are carried out
+T982	OR 14136 14177	telecommunications or tracking operations
+T983	STATEMENT 14136 14193	telecommunications or tracking operations are carried out
+T984	CAUSE 14116 14193	to the periods when telecommunications or tracking operations are carried out
+T985	AND 14055 14115	shall limit their transmission of RF power towards the Earth
+T986	STATEMENT 14044 14115	Spacecraft shall limit their transmission of RF power towards the Earth
+T987	CAUSE_EFFECT_RELATION 14044 14193	Spacecraft shall limit their transmission of RF power towards the Earth to the periods when telecommunications or tracking operations are carried out
+T988	ROOT_SENTENCE 14044 14194	Spacecraft shall limit their transmission of RF power towards the Earth to the periods when telecommunications or tracking operations are carried out.
+T989	KEY_C 14902 14906	When
+T990	VARIABLE 14907 14936	the status of the transponder
+T991	CONDITION 14937 14961	changes between coherent
+T992	CONDITION 14966 14979	non‐ coherent
+T993	VARIABLE 14985 15013	the resulting frequency step
+T994	CONDITION 15014 15037	in the space‐Earth link
+T995	CONDITION 15038 15064	causes a loss of telemetry
+T996	VARIABLE 15066 15083	a new acquisition
+T997	CONDITION 15084 15107	of the space‐Earth link
+T998	CONDITION 15108 15126	shall be performed
+T999	AND 15084 15126	of the space‐Earth link shall be performed
+T1000	STATEMENT 15066 15126	a new acquisition of the space‐Earth link shall be performed
+T1001	AND 15014 15064	in the space‐Earth link causes a loss of telemetry
+T1002	STATEMENT 14985 15064	the resulting frequency step in the space‐Earth link causes a loss of telemetry
+T1003	AND 14937 14979	changes between coherent and non‐ coherent
+T1004	STATEMENT 14907 14979	the status of the transponder changes between coherent and non‐ coherent
+T1005	AND 14907 15064	the status of the transponder changes between coherent and non‐ coherent, and the resulting frequency step in the space‐Earth link causes a loss of telemetry
+T1006	CAUSE 14902 15064	When the status of the transponder changes between coherent and non‐ coherent, and the resulting frequency step in the space‐Earth link causes a loss of telemetry
+T1007	CAUSE_EFFECT_RELATION 14902 15126	When the status of the transponder changes between coherent and non‐ coherent, and the resulting frequency step in the space‐Earth link causes a loss of telemetry, a new acquisition of the space‐Earth link shall be performed
+T1008	ROOT_SENTENCE 14902 15127	When the status of the transponder changes between coherent and non‐ coherent, and the resulting frequency step in the space‐Earth link causes a loss of telemetry, a new acquisition of the space‐Earth link shall be performed.
+T32	VARIABLE 13565 13581	the requirements
+T33	CONDITION 13582 13598	in this standard
+T34	CONDITION 13599 13634	concerning sharing with telecommand
+T946	CONDITION 13639 13648	telemetry
+T1009	NEGATION 13649 13666	have no relevance
+T1014	KEY_C 4521 4523	In
+T1015	CONDITION 4524 4534	unshielded
+T1016	VARIABLE 4535 4540	sites
+T1017	CAUSE_EFFECT_RELATION 4521 4649	In unshielded sites, the tests are performed during times and conditions when the electromagnetic ambient is at its lowest level
+T1018	CAUSE_EFFECT_RELATION 10535 10636	Cross check analysis shall be performed when flight conditions cannot be reproduced by ground testing
+T1019	ROOT_SENTENCE 10535 10637	Cross check analysis shall be performed when flight conditions cannot be reproduced by ground testing.
+T784	VARIABLE 12801 12813	virtual fill
+T785	CONDITION 12814 12821	is used
+T786	STATEMENT 12801 12821	virtual fill is used
+T1020	NEGATION 12794 12821	unless virtual fill is used
+T1021	CAUSE_EFFECT_RELATION 12738 12821	the length of the transmitted codeblock is 10 200 bits, unless virtual fill is used
+T1022	STATEMENT 12738 12792	the length of the transmitted codeblock is 10 200 bits
+T1023	CAUSE_EFFECT_RELATION 12712 12821	when E=16, k=223 and I=5, the length of the transmitted codeblock is 10 200 bits, unless virtual fill is used
+T1024	ROOT_SENTENCE 12699 12822	For example, when E=16, k=223 and I=5, the length of the transmitted codeblock is 10 200 bits, unless virtual fill is used.
+T1025	STATEMENT 13518 13563	a transponder is used exclusively for ranging
+T1026	CAUSE 13513 13563	When a transponder is used exclusively for ranging
+T1027	AND 13599 13648	concerning sharing with telecommand and telemetry
+T1028	AND 13582 13648	in this standard concerning sharing with telecommand and telemetry
+T1029	STATEMENT 13565 13648	the requirements in this standard concerning sharing with telecommand and telemetry
+T1030	AND 13513 13648	When a transponder is used exclusively for ranging, the requirements in this standard concerning sharing with telecommand and telemetry
+T1031	CAUSE_EFFECT_RELATION 13513 13666	When a transponder is used exclusively for ranging, the requirements in this standard concerning sharing with telecommand and telemetry have no relevance
+T1032	ROOT_SENTENCE 13513 13667	When a transponder is used exclusively for ranging, the requirements in this standard concerning sharing with telecommand and telemetry have no relevance.
+T13	ROOT_SENTENCE 12065 12204	The convolutional code, by itself, cannot guarantee sufficient symbol transitions when non‐binary modulation schemes such as QPSK are used.

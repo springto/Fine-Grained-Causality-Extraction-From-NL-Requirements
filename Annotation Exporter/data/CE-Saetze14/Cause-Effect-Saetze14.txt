@@ -1,0 +1,830 @@
+T1	VARIABLE 7 82	the wide range of sources for the requirements elicitation for this project
+T2	VARIABLE 84 89	there
+T3	NEGATION 90 158	is no way to directly link each requirement to its particular source
+T4	STATEMENT 84 158	there is no way to directly link each requirement to its particular source
+T5	KEY_C 0 6	Due to
+T6	CAUSE 0 82	Due to the wide range of sources for the requirements elicitation for this project
+T7	CAUSE_EFFECT_RELATION 0 158	Due to the wide range of sources for the requirements elicitation for this project, there is no way to directly link each requirement to its particular source
+T8	ROOT_SENTENCE 0 159	Due to the wide range of sources for the requirements elicitation for this project, there is no way to directly link each requirement to its particular source.
+T9	CONDITION 4275 4282	is down
+T10	VARIABLE 4272 4274	it
+T11	VARIABLE 4221 4231	The system
+T12	CONDITION 4232 4268	shall be recovered within 10 minutes
+T13	STATEMENT 4272 4282	it is down
+T14	STATEMENT 4221 4268	The system shall be recovered within 10 minutes
+T15	KEY_C 4269 4271	if
+T16	CAUSE 4269 4282	if it is down
+T17	CAUSE_EFFECT_RELATION 4221 4282	The system shall be recovered within 10 minutes if it is down
+T18	ROOT_SENTENCE 4221 4283	The system shall be recovered within 10 minutes if it is down.
+T19	VARIABLE 13488 13498	valid data
+T20	CONDITION 13499 13511	is available
+T21	VARIABLE 13513 13543	the data from the previous run
+T22	CONDITION 13544 13557	is to be used
+T23	STATEMENT 13513 13557	the data from the previous run is to be used
+T24	STATEMENT 13485 13511	no valid data is available
+T25	KEY_C 13482 13484	If
+T26	CAUSE 13482 13511	If no valid data is available
+T27	CAUSE_EFFECT_RELATION 13482 13557	If no valid data is available, the data from the previous run is to be used
+T28	ROOT_SENTENCE 13482 13558	If no valid data is available, the data from the previous run is to be used.
+T29	VARIABLE 13374 13379	there
+T30	CONDITION 13380 13414	are several items in a requirement
+T31	VARIABLE 13416 13432	Service Provider
+T32	CONDITION 13433 13479	shall give compliance to each of the sub-items
+T33	STATEMENT 13374 13414	there are several items in a requirement
+T34	STATEMENT 13416 13479	Service Provider shall give compliance to each of the sub-items
+T35	KEY_C 13371 13373	If
+T36	CAUSE 13371 13414	If there are several items in a requirement
+T37	CAUSE_EFFECT_RELATION 13371 13479	If there are several items in a requirement, Service Provider shall give compliance to each of the sub-items
+T38	ROOT_SENTENCE 13371 13480	If there are several items in a requirement, Service Provider shall give compliance to each of the sub-items.
+T39	VARIABLE 13310 13325	substitute data
+T40	CONDITION 13326 13333	is used
+T41	VARIABLE 13335 13352	a warning message
+T42	CONDITION 13353 13368	shall be issued
+T43	STATEMENT 13335 13368	a warning message shall be issued
+T44	STATEMENT 13310 13333	substitute data is used
+T45	KEY_C 13307 13309	If
+T46	CAUSE 13307 13333	If substitute data is used
+T47	CAUSE_EFFECT_RELATION 13307 13368	If substitute data is used, a warning message shall be issued
+T48	ROOT_SENTENCE 13307 13369	If substitute data is used, a warning message shall be issued.
+T49	VARIABLE 13235 13245	valid data
+T50	NEGATION 13232 13245	no valid data
+T51	CONDITION 13246 13258	is available
+T52	VARIABLE 13260 13290	the data from the previous run
+T53	CONDITION 13291 13304	is to be used
+T54	STATEMENT 13260 13304	the data from the previous run is to be used
+T55	STATEMENT 13232 13258	no valid data is available
+T56	KEY_C 13229 13231	If
+T57	CAUSE 13229 13258	If no valid data is available
+T58	CAUSE_EFFECT_RELATION 13229 13304	If no valid data is available, the data from the previous run is to be used
+T59	ROOT_SENTENCE 13229 13305	If no valid data is available, the data from the previous run is to be used.
+T60	VARIABLE 13142 13168	any of the required fields
+T61	CONDITION 13177 13183	filled
+T62	NEGATION 13169 13183	are not filled
+T63	STATEMENT 13142 13183	any of the required fields are not filled
+T64	KEY_C 13139 13141	If
+T65	CAUSE 13139 13183	If any of the required fields are not filled
+T66	VARIABLE 13185 13195	the system
+T67	CONDITION 13196 13226	shall display an error message
+T68	STATEMENT 13185 13226	the system shall display an error message
+T69	CAUSE_EFFECT_RELATION 13139 13226	If any of the required fields are not filled, the system shall display an error message
+T70	ROOT_SENTENCE 13139 13227	If any of the required fields are not filled, the system shall display an error message.
+T71	VARIABLE 12816 12845	the water amount in this cell
+T72	CONDITION 12846 12865	is greater than 0.2
+T73	VARIABLE 12866 12883	the animal thirst
+T74	CONDITION 12884 12901	is decreased to 0
+T75	VARIABLE 12906 12916	the health
+T76	CONDITION 12917 12951	is increased in the drunken amount
+T77	STATEMENT 12906 12951	the health is increased in the drunken amount
+T78	STATEMENT 12866 12901	the animal thirst is decreased to 0
+T79	STATEMENT 12816 12865	the water amount in this cell is greater than 0.2
+T80	AND 12866 12951	the animal thirst is decreased to 0 and the health is increased in the drunken amount
+T81	KEY_C 12813 12815	If
+T82	CAUSE 12813 12865	If the water amount in this cell is greater than 0.2
+T83	CAUSE_EFFECT_RELATION 12813 12951	If the water amount in this cell is greater than 0.2 the animal thirst is decreased to 0 and the health is increased in the drunken amount
+T84	ROOT_SENTENCE 12813 12952	If the water amount in this cell is greater than 0.2 the animal thirst is decreased to 0 and the health is increased in the drunken amount.
+T85	VARIABLE 12504 12514	the target
+T86	CONDITION 12515 12528	is dead fauna
+T87	CONDITION 12533 12553	a nutritional source
+T88	AND 12515 12553	is dead fauna and a nutritional source
+T90	VARIABLE 12555 12577	that target size value
+T91	CONDITION 12578 12636	is decreased in the eating speed of the feeding individual
+T92	STATEMENT 12555 12636	that target size value is decreased in the eating speed of the feeding individual
+T93	KEY_C 12501 12503	If
+T94	CAUSE 12501 12553	If the target is dead fauna and a nutritional source
+T95	CAUSE_EFFECT_RELATION 12501 12636	If the target is dead fauna and a nutritional source, that target size value is decreased in the eating speed of the feeding individual
+T96	ROOT_SENTENCE 12501 12637	If the target is dead fauna and a nutritional source, that target size value is decreased in the eating speed of the feeding individual.
+T97	VARIABLE 12445 12449	this
+T98	CONDITION 12450 12457	is done
+T99	VARIABLE 12458 12467	this code
+T100	CONDITION 12468 12498	has to be isolated in a module
+T101	STATEMENT 12458 12498	this code has to be isolated in a module
+T102	STATEMENT 12445 12457	this is done
+T103	KEY_C 12442 12444	If
+T104	CAUSE 12442 12457	If this is done
+T105	CAUSE_EFFECT_RELATION 12442 12498	If this is done this code has to be isolated in a module
+T106	ROOT_SENTENCE 12442 12499	If this is done this code has to be isolated in a module.
+T107	VARIABLE 12421 12429	the test
+T108	CONDITION 12430 12439	is passed
+T109	STATEMENT 12421 12439	the test is passed
+T111	VARIABLE 12280 12297	the neighbourhood
+T112	VARIABLE 12299 12320	health cost of moving
+T113	VARIABLE 12326 12343	movement distance
+T114	CONDITION 12344 12368	are provided by a module
+T110	VARIABLE 12374 12385	that module
+T115	CONDITION 12393 12419	used for any other purpose
+T116	NEGATION 12386 12419	is not used for any other purpose
+T117	STATEMENT 12374 12419	that module is not used for any other purpose
+T118	KEY_C 12277 12279	If
+T119	VARIABLE 11999 12007	an error
+T120	CONDITION 12008 12030	makes the system crash
+T121	VARIABLE 11975 11983	the test
+T122	CONDITION 11984 11993	is passed
+T123	STATEMENT 11975 11993	the test is passed
+T124	VARIABLE 11651 11659	The test
+T125	CONDITION 11660 11674	will be passed
+T126	KEY_C 11675 11677	if
+T127	VARIABLE 11678 11688	the system
+T128	CONDITION 11696 11706	crash down
+T129	NEGATION 11689 11706	do not crash down
+T130	STATEMENT 11678 11706	the system do not crash down
+T131	CAUSE 11675 11706	if the system do not crash down
+T132	CAUSE_EFFECT_RELATION 11651 11706	The test will be passed if the system do not crash down
+T133	ROOT_SENTENCE 11651 11707	The test will be passed if the system do not crash down.
+T134	VARIABLE 11586 11594	The test
+T135	CONDITION 11595 11609	will be passed
+T136	VARIABLE 11613 11635	the average of crashes
+T137	CONDITION 11636 11640	is 1
+T138	CONDITION 11644 11648	less
+T141	KEY_C 11610 11612	if
+T142	CAUSE 11610 11648	if the average of crashes is 1 or less
+T143	STATEMENT 11586 11609	The test will be passed
+T144	STATEMENT 11651 11674	The test will be passed
+T145	CAUSE_EFFECT_RELATION 11586 11648	The test will be passed if the average of crashes is 1 or less
+T146	ROOT_SENTENCE 11586 11649	The test will be passed if the average of crashes is 1 or less.
+T147	VARIABLE 11536 11544	the user
+T148	CONDITION 11545 11568	chooses another species
+T149	STATEMENT 11536 11568	the user chooses another species
+T150	CONDITION 11569 11583	jump to step 3
+T151	CAUSE 11533 11568	If the user chooses another species
+T152	KEY_C 11533 11535	If
+T153	CAUSE_EFFECT_RELATION 11533 11583	If the user chooses another species jump to step 3
+T154	ROOT_SENTENCE 11533 11584	If the user chooses another species jump to step 3.
+T158	VARIABLE 11265 11289	the graphic acceleration
+T159	CONDITION 11290 11306	wants to be used
+T160	VARIABLE 11308 11354	the following nvidea drivers of a graphic card
+T161	CONDITION 11355 11372	must be installed
+T162	STATEMENT 11308 11372	the following nvidea drivers of a graphic card must be installed
+T163	STATEMENT 11265 11306	the graphic acceleration wants to be used
+T164	KEY_C 11262 11264	If
+T165	CAUSE 11262 11306	If the graphic acceleration wants to be used
+T166	CAUSE_EFFECT_RELATION 11262 11372	If the graphic acceleration wants to be used, the following nvidea drivers of a graphic card must be installed
+T167	ROOT_SENTENCE 11262 11373	If the graphic acceleration wants to be used, the following nvidea drivers of a graphic card must be installed.
+T169	VARIABLE 9746 9782	a running signal processing pipeline
+T170	CONDITION 9783 9817	fails to process data in real-time
+T171	STATEMENT 9746 9817	a running signal processing pipeline fails to process data in real-time
+T172	KEY_C 9743 9745	If
+T173	CAUSE 9743 9817	If a running signal processing pipeline fails to process data in real-time
+T174	VARIABLE 9819 9821	it
+T175	CONDITION 9822 9857	must report the problem to the user
+T176	STATEMENT 9819 9857	it must report the problem to the user
+T177	CAUSE_EFFECT_RELATION 9743 9857	If a running signal processing pipeline fails to process data in real-time, it must report the problem to the user
+T178	ROOT_SENTENCE 9743 9858	If a running signal processing pipeline fails to process data in real-time, it must report the problem to the user.
+T179	VARIABLE 9633 9669	a running signal processing pipeline
+T180	CONDITION 9670 9686	detects an error
+T181	VARIABLE 9688 9690	it
+T182	CONDITION 9691 9700	must stop
+T183	CONDITION 9705 9740	communicate the reason for doing so
+T186	STATEMENT 9633 9686	a running signal processing pipeline detects an error
+T187	KEY_C 9630 9632	If
+T188	CAUSE 9630 9686	If a running signal processing pipeline detects an error
+T189	CAUSE_EFFECT_RELATION 9630 9740	If a running signal processing pipeline detects an error, it must stop and communicate the reason for doing so
+T190	ROOT_SENTENCE 9630 9741	If a running signal processing pipeline detects an error, it must stop and communicate the reason for doing so.
+T191	VARIABLE 9516 9541	a component of the system
+T192	CONDITION 9542 9558	detects an error
+T193	VARIABLE 9560 9582	the cause of the error
+T194	CONDITION 9583 9627	must be communicated to the caller component
+T195	STATEMENT 9560 9627	the cause of the error must be communicated to the caller component
+T196	STATEMENT 9516 9558	a component of the system detects an error
+T197	KEY_C 9513 9515	If
+T198	CAUSE 9513 9558	If a component of the system detects an error
+T199	CAUSE_EFFECT_RELATION 9513 9627	If a component of the system detects an error, the cause of the error must be communicated to the caller component
+T200	ROOT_SENTENCE 9513 9628	If a component of the system detects an error, the cause of the error must be communicated to the caller component.
+T201	VARIABLE 9454 9458	they
+T202	CONDITION 9459 9489	are done on a signal with high
+T203	CONDITION 9493 9510	low sampling rate
+T206	VARIABLE 9416 9426	Some tasks
+T207	CONDITION 9427 9450	are very time consuming
+T208	KEY_C 9451 9453	if
+T209	STATEMENT 9416 9450	Some tasks are very time consuming
+T210	CAUSE 9451 9510	if they are done on a signal with high or low sampling rate
+T211	CAUSE_EFFECT_RELATION 9416 9510	Some tasks are very time consuming if they are done on a signal with high or low sampling rate
+T212	ROOT_SENTENCE 9416 9511	Some tasks are very time consuming if they are done on a signal with high or low sampling rate.
+T213	VARIABLE 9331 9341	the system
+T214	CONDITION 9342 9373	is connected to several devices
+T215	VARIABLE 9380 9392	their clocks
+T216	CONDITION 9393 9413	must be synchronized
+T217	STATEMENT 9380 9413	their clocks must be synchronized
+T218	STATEMENT 9331 9373	the system is connected to several devices
+T219	KEY_C 9328 9330	If
+T220	CAUSE 9328 9373	If the system is connected to several devices
+T221	CAUSE_EFFECT_RELATION 9328 9413	If the system is connected to several devices, then their clocks must be synchronized
+T222	VARIABLE 9245 9255	the filter
+T223	CONDITION 9256 9271	is configurable
+T224	VARIABLE 9278 9280	it
+T225	CONDITION 9281 9325	must be possible to update its configuration
+T226	STATEMENT 9245 9271	the filter is configurable
+T227	STATEMENT 9278 9325	it must be possible to update its configuration
+T228	KEY_C 9242 9244	If
+T229	CAUSE 9242 9271	If the filter is configurable
+T230	CAUSE_EFFECT_RELATION 9242 9325	If the filter is configurable, then it must be possible to update its configuration
+T231	VARIABLE 8671 8682	any actions
+T232	CONDITION 8683 8700	target the widget
+T233	VARIABLE 8644 8652	A widget
+T234	CONDITION 8660 8667	deleted
+T235	NEGATION 8653 8667	is not deleted
+T236	STATEMENT 8644 8667	A widget is not deleted
+T237	STATEMENT 8671 8700	any actions target the widget
+T238	KEY_C 8668 8670	if
+T239	CAUSE 8668 8700	if any actions target the widget
+T240	CAUSE_EFFECT_RELATION 8644 8700	A widget is not deleted if any actions target the widget
+T241	ROOT_SENTENCE 8644 8701	A widget is not deleted if any actions target the widget.
+T242	VARIABLE 8627 8629	it
+T243	CONDITION 8630 8641	is selected
+T244	VARIABLE 8599 8607	A widget
+T245	CONDITION 8608 8618	is deleted
+T246	KEY_C 8619 8626	only if
+T247	STATEMENT 8627 8641	it is selected
+T248	STATEMENT 8599 8618	A widget is deleted
+T249	CAUSE 8619 8641	only if it is selected
+T250	CAUSE_EFFECT_RELATION 8599 8641	A widget is deleted only if it is selected
+T252	NONE_CAUSAL 8418 8430	Additionally
+T253	VARIABLE 8342 8358	A bound data set
+T254	ROOT_SENTENCE 8599 8642	A widget is deleted only if it is selected.
+T255	CONDITION 8359 8383	is removed from a widget
+T256	VARIABLE 8387 8389	it
+T257	CONDITION 8397 8415	used by the widget
+T258	NEGATION 8390 8415	is not used by the widget
+T259	STATEMENT 8387 8415	it is not used by the widget
+T260	STATEMENT 8342 8383	A bound data set is removed from a widget
+T261	KEY_C 8384 8386	if
+T262	CAUSE 8384 8415	if it is not used by the widget
+T263	CAUSE_EFFECT_RELATION 8342 8415	A bound data set is removed from a widget if it is not used by the widget
+T264	ROOT_SENTENCE 8342 8416	A bound data set is removed from a widget if it is not used by the widget.
+T265	KEY_C 9375 9379	then
+T266	EFFECT 9375 9413	then their clocks must be synchronized
+T267	KEY_C 9273 9277	then
+T268	EFFECT 9273 9325	then it must be possible to update its configuration
+T269	ROOT_SENTENCE 9328 9414	If the system is connected to several devices, then their clocks must be synchronized.
+T270	ROOT_SENTENCE 9242 9326	If the filter is configurable, then it must be possible to update its configuration.
+T205	STATEMENT 12504 12553	the target is dead fauna and a nutritional source
+T140	NEGATION 13485 13498	no valid data
+T272	AND 12299 12343	health cost of moving, and movement distance
+T273	AND 12280 12343	the neighbourhood, health cost of moving, and movement distance
+T274	STATEMENT 12280 12368	the neighbourhood, health cost of moving, and movement distance are provided by a module
+T275	AND 12280 12419	the neighbourhood, health cost of moving, and movement distance are provided by a module, and that module is not used for any other purpose
+T276	CAUSE 12277 12419	If the neighbourhood, health cost of moving, and movement distance are provided by a module, and that module is not used for any other purpose
+T277	CAUSE_EFFECT_RELATION 12277 12439	If the neighbourhood, health cost of moving, and movement distance are provided by a module, and that module is not used for any other purpose, the test is passed
+T278	ROOT_SENTENCE 12277 12440	If the neighbourhood, health cost of moving, and movement distance are provided by a module, and that module is not used for any other purpose, the test is passed.
+T279	VARIABLE 12242 12244	it
+T280	CONDITION 12245 12256	is launched
+T281	VARIABLE 12160 12170	The system
+T282	CONDITION 12171 12207	must be able to serialize its status
+T283	VARIABLE 12957 12962	there
+T284	CONDITION 12963 13013	is a necessity for inter-calibration of SAR images
+T285	STATEMENT 12957 13013	there is a necessity for inter-calibration of SAR images
+T286	VARIABLE 13014 13019	input
+T287	CONDITION 13020 13080	is required from another partner with the relevant knowledge
+T288	STATEMENT 13014 13080	input is required from another partner with the relevant knowledge
+T289	KEY_C 12954 12956	If
+T290	CAUSE 12954 13013	If there is a necessity for inter-calibration of SAR images
+T291	CAUSE_EFFECT_RELATION 12954 13080	If there is a necessity for inter-calibration of SAR images input is required from another partner with the relevant knowledge
+T292	ROOT_SENTENCE 12954 13081	If there is a necessity for inter-calibration of SAR images input is required from another partner with the relevant knowledge.
+T293	CONDITION 12212 12222	recover it
+T294	KEY_C 12223 12241	the next time that
+T295	KEY_C 12257 12259	if
+T296	VARIABLE 12260 12274	asked to do so
+T297	CAUSE 12257 12274	if asked to do so
+T298	STATEMENT 12242 12256	it is launched
+T299	CAUSE 12223 12256	the next time that it is launched
+T300	AND 12171 12222	must be able to serialize its status and recover it
+T301	STATEMENT 12160 12222	The system must be able to serialize its status and recover it
+T302	CAUSE_EFFECT_RELATION 12160 12274	The system must be able to serialize its status and recover it the next time that it is launched if asked to do so
+T303	ROOT_SENTENCE 12160 12275	The system must be able to serialize its status and recover it the next time that it is launched if asked to do so.
+T304	VARIABLE 12056 12058	it
+T305	CONDITION 12059 12100	has to be able to recover from that error
+T306	CONDITION 12106 12157	keep on simulating from an hour selected by the map
+T307	AND 12059 12157	has to be able to recover from that error, and keep on simulating from an hour selected by the map
+T308	STATEMENT 12056 12157	it has to be able to recover from that error, and keep on simulating from an hour selected by the map
+T309	VARIABLE 12046 12048	it
+T310	CONDITION 12049 12055	is run
+T311	STATEMENT 11999 12030	an error makes the system crash
+T312	KEY_C 11996 11998	If
+T313	CAUSE 11996 12030	If an error makes the system crash
+T314	STATEMENT 12046 12055	it is run
+T315	VARIABLE 11916 11926	the system
+T316	CONDITION 11927 11942	recovers before
+T317	CONDITION 11946 11974	at the beginning of the week
+T318	OR 11927 11974	recovers before or at the beginning of the week
+T319	STATEMENT 11916 11974	the system recovers before or at the beginning of the week
+T320	KEY_C 11896 11898	If
+T321	VARIABLE 11712 11720	an error
+T322	CONDITION 11721 11743	makes the system crash
+T323	VARIABLE 11759 11761	it
+T324	CONDITION 11762 11768	is run
+T325	VARIABLE 11769 11771	it
+T326	CONDITION 11772 11813	has to be able to recover from that error
+T327	CONDITION 11819 11893	keep on simulating from the beginning of the week that was being simulated
+T328	AND 11772 11893	has to be able to recover from that error, and keep on simulating from the beginning of the week that was being simulated
+T329	KEY_C 11709 11711	If
+T330	STATEMENT 11712 11743	an error makes the system crash
+T331	STATEMENT 11759 11768	it is run
+T332	STATEMENT 11769 11893	it has to be able to recover from that error, and keep on simulating from the beginning of the week that was being simulated
+T333	CAUSE 11709 11743	If an error makes the system crash
+T334	OR 11636 11648	is 1 or less
+T335	STATEMENT 11613 11648	the average of crashes is 1 or less
+T351	VARIABLE 9863 9882	the processing load
+T352	CONDITION 9883 9888	rises
+T353	VARIABLE 9890 9902	the software
+T354	CONDITION 9912 9916	lose
+T355	CONDITION 9920 9973	corrupt data chunk in the limits of physical hardware
+T356	OR 9912 9973	lose or corrupt data chunk in the limits of physical hardware
+T357	NEGATION 9903 9973	must not lose or corrupt data chunk in the limits of physical hardware
+T358	STATEMENT 9890 9973	the software must not lose or corrupt data chunk in the limits of physical hardware
+T359	STATEMENT 9863 9888	the processing load rises
+T360	KEY_C 9860 9862	If
+T361	CAUSE 9860 9888	If the processing load rises
+T362	CAUSE_EFFECT_RELATION 9860 9973	If the processing load rises, the software must not lose or corrupt data chunk in the limits of physical hardware
+T363	ROOT_SENTENCE 9860 9974	If the processing load rises, the software must not lose or corrupt data chunk in the limits of physical hardware.
+T184	AND 9691 9740	must stop and communicate the reason for doing so
+T185	STATEMENT 9688 9740	it must stop and communicate the reason for doing so
+T204	OR 9459 9510	are done on a signal with high or low sampling rate
+T271	STATEMENT 9454 9510	they are done on a signal with high or low sampling rate
+T364	VARIABLE 9204 9208	they
+T365	CONDITION 9209 9239	have been indexed as facetable
+T366	CAUSE 9116 9146	In views of the digital object
+T367	VARIABLE 9147 9157	the system
+T368	CONDITION 9158 9200	must display metadata fields as hyperlinks
+T369	VARIABLE 9083 9085	he
+T370	VARIABLE 9089 9092	she
+T371	CONDITION 9100 9113	authenticated
+T372	NEGATION 9093 9113	is not authenticated
+T373	OR 9083 9092	he or she
+T374	STATEMENT 9083 9113	he or she is not authenticated
+T375	VARIABLE 9027 9033	A user
+T376	CONDITION 9041 9079	access the contents of the application
+T377	NEGATION 9034 9079	cannot access the contents of the application
+T378	STATEMENT 9027 9079	A user cannot access the contents of the application
+T379	KEY_C 9080 9082	if
+T380	CAUSE 9080 9113	if he or she is not authenticated
+T381	CAUSE_EFFECT_RELATION 9027 9113	A user cannot access the contents of the application if he or she is not authenticated
+T382	ROOT_SENTENCE 9027 9114	A user cannot access the contents of the application if he or she is not authenticated.
+T383	STATEMENT 9147 9200	the system must display metadata fields as hyperlinks
+T384	KEY_C 9201 9203	if
+T385	STATEMENT 9204 9239	they have been indexed as facetable
+T386	CAUSE 9201 9239	if they have been indexed as facetable
+T387	CAUSE_EFFECT_RELATION 9116 9239	In views of the digital object the system must display metadata fields as hyperlinks if they have been indexed as facetable
+T388	ROOT_SENTENCE 9116 9240	In views of the digital object the system must display metadata fields as hyperlinks if they have been indexed as facetable.
+T389	CAUSE_EFFECT_RELATION 9147 9239	the system must display metadata fields as hyperlinks if they have been indexed as facetable
+T390	KEY_C 9116 9127	In views of
+T393	VARIABLE 9128 9146	the digital object
+T399	VARIABLE 8791 8799	the user
+T400	CONDITION 8800 8849	is prompted to either discard the unsaved changes
+T401	CONDITION 8853 8870	cancel the action
+T403	STATEMENT 8791 8870	the user is prompted to either discard the unsaved changes or cancel the action
+T404	VARIABLE 8706 8711	there
+T405	CONDITION 8712 8750	are any unsaved changes in the project
+T406	VARIABLE 8756 8778	the New Project button
+T407	CONDITION 8779 8789	is clicked
+T408	STATEMENT 8756 8789	the New Project button is clicked
+T409	STATEMENT 8706 8750	there are any unsaved changes in the project
+T410	KEY_C 8703 8705	If
+T411	KEY_C 8751 8755	when
+T412	CAUSE 8751 8789	when the New Project button is clicked
+T413	CAUSE 8703 8750	If there are any unsaved changes in the project
+T414	CAUSE_EFFECT_RELATION 8751 8870	when the New Project button is clicked, the user is prompted to either discard the unsaved changes or cancel the action
+T415	CAUSE_EFFECT_RELATION 8703 8870	If there are any unsaved changes in the project when the New Project button is clicked, the user is prompted to either discard the unsaved changes or cancel the action
+T416	ROOT_SENTENCE 8703 8871	If there are any unsaved changes in the project when the New Project button is clicked, the user is prompted to either discard the unsaved changes or cancel the action.
+T417	VARIABLE 8519 8539	the Properties Panel
+T418	CONDITION 8540 8596	is populated with the properties for the selected widget
+T419	KEY_C 8432 8434	if
+T420	VARIABLE 8435 8443	the user
+T421	CONDITION 8444 8470	opens the Properties Panel
+T422	VARIABLE 8477 8517	selecting a widget from the project tree
+T423	KEY_C 8471 8476	after
+T424	STATEMENT 8435 8470	the user opens the Properties Panel
+T425	STATEMENT 8519 8596	the Properties Panel is populated with the properties for the selected widget
+T426	CAUSE 8471 8517	after selecting a widget from the project tree
+T427	CAUSE 8432 8470	if the user opens the Properties Panel
+T428	CAUSE_EFFECT_RELATION 8471 8596	after selecting a widget from the project tree, the Properties Panel is populated with the properties for the selected widget
+T429	CAUSE_EFFECT_RELATION 8432 8596	if the user opens the Properties Panel after selecting a widget from the project tree, the Properties Panel is populated with the properties for the selected widget
+T430	ROOT_SENTENCE 8418 8597	Additionally, if the user opens the Properties Panel after selecting a widget from the project tree, the Properties Panel is populated with the properties for the selected widget.
+T434	VARIABLE 8139 8150	set to true
+T435	VARIABLE 8152 8168	Google Analytics
+T436	CONDITION 8169 8193	are logged for the glyph
+T437	STATEMENT 8152 8193	Google Analytics are logged for the glyph
+T438	KEY_C 8136 8138	If
+T439	CAUSE 8136 8150	If set to true
+T440	CAUSE_EFFECT_RELATION 8136 8193	If set to true, Google Analytics are logged for the glyph
+T442	VARIABLE 8112 8122	the widget
+T443	CONDITION 8123 8133	is visible
+T444	VARIABLE 8099 8110	set to true
+T445	STATEMENT 8112 8133	the widget is visible
+T446	KEY_C 8096 8098	If
+T447	CAUSE 8096 8110	If set to true
+T448	CAUSE_EFFECT_RELATION 8096 8133	If set to true, the widget is visible
+T449	ROOT_SENTENCE 8096 8134	If set to true, the widget is visible.
+T450	VARIABLE 7942 7950	the user
+T451	CONDITION 7951 7983	attempts to delete a data source
+T452	VARIABLE 7988 8000	data subsets
+T453	CONDITION 8001 8035	created from the data source exist
+T454	STATEMENT 7988 8035	data subsets created from the data source exist
+T455	STATEMENT 7942 7983	the user attempts to delete a data source
+T456	AND 7942 8035	the user attempts to delete a data source and data subsets created from the data source exist
+T457	KEY_C 7939 7941	If
+T458	CAUSE 7939 8035	If the user attempts to delete a data source and data subsets created from the data source exist
+T459	VARIABLE 8037 8045	the user
+T461	CONDITION 8046 8093	is asked to confirm deletion of the data source
+T462	STATEMENT 8037 8093	the user is asked to confirm deletion of the data source
+T463	CAUSE_EFFECT_RELATION 7939 8093	If the user attempts to delete a data source and data subsets created from the data source exist, the user is asked to confirm deletion of the data source
+T464	ROOT_SENTENCE 7939 8094	If the user attempts to delete a data source and data subsets created from the data source exist, the user is asked to confirm deletion of the data source.
+T465	VARIABLE 7803 7811	the user
+T466	CONDITION 7812 7847	selects to load an existing project
+T467	VARIABLE 7849 7851	he
+T468	VARIABLE 7855 7858	she
+T469	CONDITION 7859 7936	is presented with a list of previously saved project names from which to pick
+T470	OR 7849 7858	he or she
+T471	STATEMENT 7849 7936	he or she is presented with a list of previously saved project names from which to pick
+T472	STATEMENT 7803 7847	the user selects to load an existing project
+T473	KEY_C 7800 7802	If
+T474	CAUSE 7800 7847	If the user selects to load an existing project
+T475	CAUSE_EFFECT_RELATION 7800 7936	If the user selects to load an existing project, he or she is presented with a list of previously saved project names from which to pick
+T476	ROOT_SENTENCE 7800 7937	If the user selects to load an existing project, he or she is presented with a list of previously saved project names from which to pick.
+T477	VARIABLE 7656 7664	the user
+T478	CONDITION 7665 7696	selects to create a new project
+T479	VARIABLE 7698 7702	they
+T480	CONDITION 7703 7747	are prompted to enter a name for the project
+T481	CONDITION 7752 7786	are presented with a blank project
+T482	NONE_CAUSAL 7787 7797	(Figure 3)
+T483	AND 7703 7786	are prompted to enter a name for the project and are presented with a blank project
+T484	STATEMENT 7698 7786	they are prompted to enter a name for the project and are presented with a blank project
+T485	STATEMENT 7656 7696	the user selects to create a new project
+T486	KEY_C 7653 7655	If
+T487	CAUSE 7653 7696	If the user selects to create a new project
+T488	CAUSE_EFFECT_RELATION 7653 7786	If the user selects to create a new project, they are prompted to enter a name for the project and are presented with a blank project
+T489	ROOT_SENTENCE 7653 7798	If the user selects to create a new project, they are prompted to enter a name for the project and are presented with a blank project (Figure 3).
+T490	VARIABLE 7586 7596	an anomaly
+T491	CONDITION 7597 7603	occurs
+T492	VARIABLE 7605 7616	the DQ team
+T493	CONDITION 7617 7650	notifies owners of the properties
+T494	STATEMENT 7605 7650	the DQ team notifies owners of the properties
+T495	STATEMENT 7586 7603	an anomaly occurs
+T496	KEY_C 7583 7585	If
+T497	CAUSE 7583 7603	If an anomaly occurs
+T498	CAUSE_EFFECT_RELATION 7583 7650	If an anomaly occurs, the DQ team notifies owners of the properties
+T499	ROOT_SENTENCE 7583 7651	If an anomaly occurs, the DQ team notifies owners of the properties.
+T505	VARIABLE 7419 7435	the requirements
+T506	CONDITION 7436 7467	can be assigned to this chapter
+T507	VARIABLE 7294 7321	the given content structure
+T508	CONDITION 7331 7417	suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T509	NEGATION 7322 7417	does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T510	STATEMENT 7294 7417	the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T511	KEY_C 7291 7293	If
+T512	CAUSE 7291 7417	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T513	STATEMENT 7419 7467	the requirements can be assigned to this chapter
+T514	CAUSE_EFFECT_RELATION 7291 7467	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter
+T515	ROOT_SENTENCE 7291 7468	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter.
+T516	VARIABLE 7240 7256	the requirements
+T517	CONDITION 7257 7288	can be assigned to this chapter
+T518	VARIABLE 7156 7183	the given content structure
+T519	CONDITION 7193 7238	suffice to assign all requirements on level 1
+T520	NEGATION 7184 7238	does not suffice to assign all requirements on level 1
+T521	STATEMENT 7156 7238	the given content structure does not suffice to assign all requirements on level 1
+T522	STATEMENT 7240 7288	the requirements can be assigned to this chapter
+T523	KEY_C 7153 7155	If
+T524	CAUSE 7153 7238	If the given content structure does not suffice to assign all requirements on level 1
+T525	CAUSE_EFFECT_RELATION 7153 7288	If the given content structure does not suffice to assign all requirements on level 1, the requirements can be assigned to this chapter
+T526	ROOT_SENTENCE 7153 7289	If the given content structure does not suffice to assign all requirements on level 1, the requirements can be assigned to this chapter.
+T527	VARIABLE 6709 6736	the given content structure
+T528	CONDITION 6746 6832	suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T529	NEGATION 6737 6832	does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T530	STATEMENT 6709 6832	the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T531	KEY_C 6706 6708	If
+T532	VARIABLE 6834 6850	the requirements
+T533	CAUSE 6706 6832	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T534	CONDITION 6851 6882	can be assigned to this chapter
+T535	STATEMENT 6834 6882	the requirements can be assigned to this chapter
+T536	CAUSE_EFFECT_RELATION 6706 6882	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter
+T537	ROOT_SENTENCE 6706 6883	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter.
+T538	VARIABLE 6595 6602	country
+T539	VARIABLE 6606 6647	engine-specific variants of the component
+T540	CONDITION 6648 6659	are planned
+T541	VARIABLE 6661 6666	these
+T542	CONDITION 6667 6703	should be differentiated accordingly
+T543	OR 6595 6647	country or engine-specific variants of the component
+T544	KEY_C 6592 6594	If
+T545	STATEMENT 6595 6659	country or engine-specific variants of the component are planned
+T546	CAUSE 6592 6659	If country or engine-specific variants of the component are planned
+T547	STATEMENT 6661 6703	these should be differentiated accordingly
+T548	CAUSE_EFFECT_RELATION 6592 6703	If country or engine-specific variants of the component are planned, these should be differentiated accordingly
+T549	ROOT_SENTENCE 6592 6704	If country or engine-specific variants of the component are planned, these should be differentiated accordingly.
+T550	VARIABLE 6508 6521	the component
+T551	CONDITION 6522 6571	has to fulfil in terms of certain characteristics
+T552	KEY_C 6503 6507	that
+T553	VARIABLE 6432 6440	possible
+T554	VARIABLE 6444 6453	available
+T555	OR 6432 6453	possible or available
+T556	KEY_C 6429 6431	If
+T557	CAUSE 6429 6453	If possible or available
+T558	VARIABLE 6455 6502	the specific stipulations of protection classes
+T559	CONDITION 6572 6589	are to take place
+T560	STATEMENT 6508 6571	the component has to fulfil in terms of certain characteristics
+T561	CAUSE 6503 6571	that the component has to fulfil in terms of certain characteristics
+T562	VARIABLE 6244 6276	additional environmental strains
+T563	CONDITION 6277 6320	occur at the intended installation location
+T564	NONE_CAUSAL 6322 6391	for example through strong heat sources, vibration sources or similar
+T565	VARIABLE 6393 6406	these strains
+T566	CONDITION 6407 6426	are to be described
+T567	STATEMENT 6244 6320	additional environmental strains occur at the intended installation location
+T568	STATEMENT 6393 6426	these strains are to be described
+T569	KEY_C 6241 6243	If
+T570	CAUSE 6241 6320	If additional environmental strains occur at the intended installation location
+T571	CAUSE_EFFECT_RELATION 6241 6426	If additional environmental strains occur at the intended installation location, for example through strong heat sources, vibration sources or similar, these strains are to be described
+T572	ROOT_SENTENCE 6241 6427	If additional environmental strains occur at the intended installation location, for example through strong heat sources, vibration sources or similar, these strains are to be described.
+T573	VARIABLE 6169 6182	the component
+T574	CONDITION 6183 6212	is exposed to direct sunlight
+T575	VARIABLE 6214 6218	this
+T576	CONDITION 6219 6238	should be indicated
+T577	STATEMENT 6214 6238	this should be indicated
+T578	STATEMENT 6169 6212	the component is exposed to direct sunlight
+T579	KEY_C 6166 6168	If
+T580	CAUSE 6166 6212	If the component is exposed to direct sunlight
+T581	CAUSE_EFFECT_RELATION 6166 6238	If the component is exposed to direct sunlight, this should be indicated
+T582	ROOT_SENTENCE 6166 6239	If the component is exposed to direct sunlight, this should be indicated.
+T583	VARIABLE 6074 6101	many installation locations
+T584	CONDITION 6102 6115	are scheduled
+T585	VARIABLE 6117 6143	all installation locations
+T586	CONDITION 6144 6163	are to be described
+T587	KEY_C 6071 6073	If
+T588	STATEMENT 6074 6115	many installation locations are scheduled
+T589	STATEMENT 6117 6163	all installation locations are to be described
+T590	CAUSE 6071 6115	If many installation locations are scheduled
+T591	CAUSE_EFFECT_RELATION 6071 6163	If many installation locations are scheduled, all installation locations are to be described
+T592	ROOT_SENTENCE 6071 6164	If many installation locations are scheduled, all installation locations are to be described.
+T593	VARIABLE 5967 5992	the installation location
+T594	CONDITION 5993 6068	is to be described more precisely (possibly with an illustration or sketch)
+T595	VARIABLE 5956 5965	necessary
+T596	KEY_C 5953 5955	If
+T597	CAUSE 5953 5965	If necessary
+T598	STATEMENT 5967 6068	the installation location is to be described more precisely (possibly with an illustration or sketch)
+T599	CAUSE_EFFECT_RELATION 5953 6068	If necessary, the installation location is to be described more precisely (possibly with an illustration or sketch)
+T600	ROOT_SENTENCE 5953 6069	If necessary, the installation location is to be described more precisely (possibly with an illustration or sketch).
+T601	VARIABLE 5776 5781	there
+T602	CONDITION 5782 5841	are customer-specified increased requirements on components
+T603	VARIABLE 5848 5862	power supplies
+T604	CONDITION 5863 5891	are connected to the battery
+T605	VARIABLE 5902 5909	the car
+T606	CONDITION 5910 5919	is parked
+T607	VARIABLE 5921 5925	they
+T608	CONDITION 5926 5950	should be specified here
+T609	KEY_C 5892 5901	even when
+T610	KEY_C 5842 5847	whose
+T611	KEY_C 5773 5775	If
+T612	STATEMENT 5776 5841	there are customer-specified increased requirements on components
+T613	STATEMENT 5848 5891	power supplies are connected to the battery
+T614	STATEMENT 5902 5919	the car is parked
+T615	STATEMENT 5921 5950	they should be specified here
+T616	VARIABLE 5648 5662	this component
+T617	CONDITION 5663 5729	is to be programmed in series production compliant to the customer
+T618	VARIABLE 5731 5747	this requirement
+T619	CONDITION 5748 5770	is to be recorded here
+T620	STATEMENT 5731 5770	this requirement is to be recorded here
+T621	STATEMENT 5648 5729	this component is to be programmed in series production compliant to the customer
+T622	KEY_C 5645 5647	If
+T623	CAUSE 5645 5729	If this component is to be programmed in series production compliant to the customer
+T624	CAUSE_EFFECT_RELATION 5645 5770	If this component is to be programmed in series production compliant to the customer, this requirement is to be recorded here
+T625	ROOT_SENTENCE 5645 5771	If this component is to be programmed in series production compliant to the customer, this requirement is to be recorded here.
+T626	VARIABLE 5485 5524	a diagnostic interface in the component
+T627	CONDITION 5525 5536	is intended
+T628	VARIABLE 5538 5563	the requirements for this
+T629	CONDITION 5564 5642	are to be taken from the diagnostics specifications implementation regulations
+T630	STATEMENT 5538 5642	the requirements for this are to be taken from the diagnostics specifications implementation regulations
+T631	STATEMENT 5485 5536	a diagnostic interface in the component is intended
+T632	KEY_C 5482 5484	If
+T633	CAUSE 5482 5536	If a diagnostic interface in the component is intended
+T634	CAUSE_EFFECT_RELATION 5482 5642	If a diagnostic interface in the component is intended, the requirements for this are to be taken from the diagnostics specifications implementation regulations
+T635	ROOT_SENTENCE 5482 5643	If a diagnostic interface in the component is intended, the requirements for this are to be taken from the diagnostics specifications implementation regulations.
+T636	VARIABLE 5431 5443	this chapter
+T637	CONDITION 5451 5457	needed
+T638	NEGATION 5444 5457	is not needed
+T639	VARIABLE 5459 5462	you
+T640	CONDITION 5463 5479	should delete it
+T641	STATEMENT 5459 5479	you should delete it
+T642	STATEMENT 5431 5457	this chapter is not needed
+T643	KEY_C 5428 5430	If
+T644	CAUSE 5428 5457	If this chapter is not needed
+T645	CAUSE_EFFECT_RELATION 5428 5479	If this chapter is not needed, you should delete it
+T646	ROOT_SENTENCE 5428 5480	If this chapter is not needed, you should delete it!
+T647	VARIABLE 5252 5279	the given content structure
+T648	CONDITION 5289 5375	suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T649	NEGATION 5280 5375	does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T650	VARIABLE 5377 5393	the requirements
+T651	CONDITION 5394 5425	can be assigned to this chapter
+T652	STATEMENT 5377 5425	the requirements can be assigned to this chapter
+T653	STATEMENT 5252 5375	the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T654	KEY_C 5249 5251	If
+T655	CAUSE 5249 5375	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1
+T656	CAUSE_EFFECT_RELATION 5249 5425	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter
+T658	VARIABLE 5211 5215	they
+T659	CONDITION 5216 5246	are relevant to the contractor
+T660	VARIABLE 5143 5174	The generally valid definitions
+T661	CONDITION 5175 5207	should be listed in CRS Module I
+T662	STATEMENT 5143 5207	The generally valid definitions should be listed in CRS Module I
+T663	STATEMENT 5211 5246	they are relevant to the contractor
+T664	KEY_C 5208 5210	if
+T665	CAUSE 5208 5246	if they are relevant to the contractor
+T666	CAUSE_EFFECT_RELATION 5143 5246	The generally valid definitions should be listed in CRS Module I if they are relevant to the contractor
+T667	ROOT_SENTENCE 5143 5247	The generally valid definitions should be listed in CRS Module I if they are relevant to the contractor.
+T668	NONE_CAUSAL 4894 4905	Furthermore
+T669	VARIABLE 4907 4949	a reference to the performance requirement
+T670	CONDITION 4950 4970	is to be stated here
+T671	VARIABLE 4975 4979	this
+T672	CONDITION 4980 4992	is necessary
+T673	STATEMENT 4907 4970	a reference to the performance requirement is to be stated here
+T674	STATEMENT 4975 4992	this is necessary
+T675	KEY_C 4972 4974	if
+T676	CAUSE 4972 4992	if this is necessary
+T677	CAUSE_EFFECT_RELATION 4907 4992	a reference to the performance requirement is to be stated here, if this is necessary
+T678	ROOT_SENTENCE 4894 4993	Furthermore, a reference to the performance requirement is to be stated here, if this is necessary.
+T679	NONE_CAUSAL 4720 4732	Additionally
+T680	VARIABLE 4734 4775	further requirements on the data security
+T681	CONDITION 4776 4801	are to be formulated here
+T682	KEY_C 4802 4804	if
+T683	VARIABLE 4805 4809	they
+T684	CONDITION 4819 4891	already been defined in the chapter “Product Data Management” (Module I)
+T685	NEGATION 4810 4891	have not already been defined in the chapter “Product Data Management” (Module I)
+T686	STATEMENT 4805 4891	they have not already been defined in the chapter “Product Data Management” (Module I)
+T687	CAUSE 4802 4891	if they have not already been defined in the chapter “Product Data Management” (Module I)
+T688	STATEMENT 4734 4801	further requirements on the data security are to be formulated here
+T689	CAUSE_EFFECT_RELATION 4734 4891	further requirements on the data security are to be formulated here if they have not already been defined in the chapter “Product Data Management” (Module I)
+T690	ROOT_SENTENCE 4720 4892	Additionally, further requirements on the data security are to be formulated here if they have not already been defined in the chapter “Product Data Management” (Module I).
+T691	NONE_CAUSAL 4588 4599	In addition
+T692	VARIABLE 4601 4618	specific features
+T693	VARIABLE 4623 4685	regulations (internal and external) for various target markets
+T694	AND 4601 4685	specific features and regulations (internal and external) for various target markets
+T695	CONDITION 4686 4705	should be addressed
+T696	KEY_C 4706 4708	if
+T697	VARIABLE 4709 4717	possible
+T698	CAUSE 4706 4717	if possible
+T699	STATEMENT 4601 4705	specific features and regulations (internal and external) for various target markets should be addressed
+T700	CAUSE_EFFECT_RELATION 4601 4717	specific features and regulations (internal and external) for various target markets should be addressed if possible
+T701	ROOT_SENTENCE 4588 4718	In addition, specific features and regulations (internal and external) for various target markets should be addressed if possible.
+T702	VARIABLE 4518 4539	chapters from level 3
+T703	CONDITION 4548 4552	used
+T704	NEGATION 4540 4552	are not used
+T705	STATEMENT 4518 4552	chapters from level 3 are not used
+T706	VARIABLE 4554 4559	these
+T707	CONDITION 4560 4574	may be deleted
+T708	CONDITION 4578 4585	renamed
+T709	OR 4560 4585	may be deleted or renamed
+T710	STATEMENT 4554 4585	these may be deleted or renamed
+T711	KEY_C 4515 4517	If
+T712	CAUSE 4515 4552	If chapters from level 3 are not used
+T713	CAUSE_EFFECT_RELATION 4515 4585	If chapters from level 3 are not used, these may be deleted or renamed
+T714	ROOT_SENTENCE 4515 4586	If chapters from level 3 are not used, these may be deleted or renamed.
+T715	NONE_CAUSAL 4462 4512	(see Module I, chapter 12 and Module II chapter 7)
+T716	VARIABLE 4288 4299	supplements
+T717	CONDITION 4300 4367	are necessary in the implementation of the VDA structure on level 1
+T718	CONDITION 4388 4448	are to be added to the last chapter with content of Module I
+T719	CONDITION 4452 4461	Module II
+T720	OR 4388 4461	are to be added to the last chapter with content of Module I or Module II
+T721	VARIABLE 4382 4387	these
+T722	STATEMENT 4288 4367	supplements are necessary in the implementation of the VDA structure on level 1
+T723	KEY_C 4285 4287	If
+T724	CAUSE 4285 4367	If supplements are necessary in the implementation of the VDA structure on level 1
+T725	STATEMENT 4382 4461	these are to be added to the last chapter with content of Module I or Module II
+T726	CAUSE_EFFECT_RELATION 4285 4461	If supplements are necessary in the implementation of the VDA structure on level 1, in each case these are to be added to the last chapter with content of Module I or Module II
+T727	VARIABLE 168 208	most development activities within BEAMS
+T728	CONDITION 209 244	are related to software development
+T729	STATEMENT 168 244	most development activities within BEAMS are related to software development
+T730	VARIABLE 246 263	the specification
+T731	VARIABLE 268 307	documentation of any software component
+T732	CONDITION 308 365	should be done following well known standards such as UML
+T733	AND 246 307	the specification and documentation of any software component
+T734	STATEMENT 246 365	the specification and documentation of any software component should be done following well known standards such as UML
+T735	KEY_C 161 167	Due to
+T736	CAUSE 161 244	Due to most development activities within BEAMS are related to software development
+T737	CAUSE_EFFECT_RELATION 161 365	Due to most development activities within BEAMS are related to software development, the specification and documentation of any software component should be done following well known standards such as UML
+T738	ROOT_SENTENCE 161 366	Due to most development activities within BEAMS are related to software development, the specification and documentation of any software component should be done following well known standards such as UML.
+T739	VARIABLE 375 400	their small optical depth
+T740	VARIABLE 402 415	cirrus clouds
+T741	CONDITION 416 459	are difficult to be quantitatively observed
+T742	STATEMENT 402 459	cirrus clouds are difficult to be quantitatively observed
+T743	KEY_C 368 374	Due to
+T744	CAUSE 368 400	Due to their small optical depth
+T745	CAUSE_EFFECT_RELATION 368 459	Due to their small optical depth, cirrus clouds are difficult to be quantitatively observed
+T746	ROOT_SENTENCE 368 460	Due to their small optical depth, cirrus clouds are difficult to be quantitatively observed.
+T748	VARIABLE 965 1001	the uncertain future of the Internet
+T749	VARIABLE 1003 1027	only non-essential tasks
+T750	CONDITION 1028 1041	may employ it
+T751	STATEMENT 1003 1041	only non-essential tasks may employ it
+T752	KEY_C 958 964	Due to
+T753	CAUSE 958 1001	Due to the uncertain future of the Internet
+T754	CAUSE_EFFECT_RELATION 958 1041	Due to the uncertain future of the Internet, only non-essential tasks may employ it
+T755	ROOT_SENTENCE 958 1042	Due to the uncertain future of the Internet, only non-essential tasks may employ it.
+T756	VARIABLE 1189 1202	power sharing
+T757	VARIABLE 1207 1223	spectral overlap
+T758	AND 1189 1223	power sharing and spectral overlap
+T759	KEY_C 1180 1188	owing to
+T760	CAUSE 1180 1223	owing to power sharing and spectral overlap
+T761	VARIABLE 1044 1066	The telecommand signal
+T762	CONDITION 1067 1115	can appear in the modulated Space‐to‐ Earth link
+T763	CONDITION 1120 1178	can create undesirable effects on the transmitted spectrum
+T764	AND 1067 1178	can appear in the modulated Space‐to‐ Earth link and can create undesirable effects on the transmitted spectrum
+T765	STATEMENT 1044 1178	The telecommand signal can appear in the modulated Space‐to‐ Earth link and can create undesirable effects on the transmitted spectrum
+T766	CAUSE_EFFECT_RELATION 1044 1223	The telecommand signal can appear in the modulated Space‐to‐ Earth link and can create undesirable effects on the transmitted spectrum, owing to power sharing and spectral overlap
+T767	ROOT_SENTENCE 1044 1224	The telecommand signal can appear in the modulated Space‐to‐ Earth link and can create undesirable effects on the transmitted spectrum, owing to power sharing and spectral overlap.
+T768	VARIABLE 1312 1339	different transmitted codes
+T769	KEY_C 1303 1311	owing to
+T770	VARIABLE 1226 1253	The ranging signal spectrum
+T771	CONDITION 1254 1301	changes during the ambiguity resolution process
+T772	STATEMENT 1226 1301	The ranging signal spectrum changes during the ambiguity resolution process
+T773	CAUSE 1303 1339	owing to different transmitted codes
+T774	CAUSE_EFFECT_RELATION 1226 1339	The ranging signal spectrum changes during the ambiguity resolution process, owing to different transmitted codes
+T775	ROOT_SENTENCE 1226 1340	The ranging signal spectrum changes during the ambiguity resolution process, owing to different transmitted codes.
+T776	VARIABLE 1548 1584	the controlled dimensions of the jet
+T777	VARIABLE 1586 1589	one
+T778	CONDITION 1590 1667	can unsolder connecting wires individually without affecting the other joints
+T779	STATEMENT 1586 1667	one can unsolder connecting wires individually without affecting the other joints
+T780	KEY_C 1539 1547	Owing to
+T781	CAUSE 1539 1584	Owing to the controlled dimensions of the jet
+T782	CAUSE_EFFECT_RELATION 1539 1667	Owing to the controlled dimensions of the jet, one can unsolder connecting wires individually without affecting the other joints
+T783	ROOT_SENTENCE 1539 1668	Owing to the controlled dimensions of the jet, one can unsolder connecting wires individually without affecting the other joints.
+T784	VARIABLE 1760 1775	annealed copper
+T785	CONDITION 1786 1838	be continually operated for long periods above 90 !C
+T786	NEGATION 1776 1838	shall not be continually operated for long periods above 90 !C
+T787	VARIABLE 1849 1901	the likelihood that excessive wire stress relaxation
+T788	CONDITION 1902 1948	affects the reliability of the wrap connection
+T789	STATEMENT 1849 1948	the likelihood that excessive wire stress relaxation affects the reliability of the wrap connection
+T790	KEY_C 1840 1848	owing to
+T791	CAUSE 1840 1948	owing to the likelihood that excessive wire stress relaxation affects the reliability of the wrap connection
+T792	NONE_CAUSAL 1670 1754	These materials are suitable for use within the temperature range --55 !C to +100 !C
+T793	STATEMENT 1760 1838	annealed copper shall not be continually operated for long periods above 90 !C
+T794	CAUSE_EFFECT_RELATION 1760 1948	annealed copper shall not be continually operated for long periods above 90 !C, owing to the likelihood that excessive wire stress relaxation affects the reliability of the wrap connection
+T795	ROOT_SENTENCE 1670 1949	These materials are suitable for use within the temperature range --55 !C to +100 !C, but annealed copper shall not be continually operated for long periods above 90 !C, owing to the likelihood that excessive wire stress relaxation affects the reliability of the wrap connection.
+T796	KEY_C 1951 1959	Owing to
+T797	VARIABLE 1960 2001	the present demand for “clean” satellites
+T798	VARIABLE 2003 2027	the first screen applied
+T799	CONDITION 2028 2042	is a mass-loss
+T800	CONDITION 2047 2065	contamination test
+T801	AND 2028 2065	is a mass-loss and contamination test
+T802	STATEMENT 2003 2065	the first screen applied is a mass-loss and contamination test
+T803	NONE_CAUSAL 2067 2109	such as the “Micro VCM”, (ECSS--Q--70--02)
+T804	CAUSE 1951 2001	Owing to the present demand for “clean” satellites
+T805	CAUSE_EFFECT_RELATION 1951 2065	Owing to the present demand for “clean” satellites, the first screen applied is a mass-loss and contamination test
+T806	ROOT_SENTENCE 1951 2110	Owing to the present demand for “clean” satellites, the first screen applied is a mass-loss and contamination test, such as the “Micro VCM”, (ECSS--Q--70--02).
+T807	VARIABLE 2795 2817	their extreme hardness
+T808	VARIABLE 2822 2833	brittleness
+T809	AND 2795 2833	their extreme hardness and brittleness
+T810	KEY_C 2786 2794	Owing to
+T811	CAUSE 2786 2833	Owing to their extreme hardness and brittleness
+T812	VARIABLE 2835 2867	most shaped engineering products
+T813	CONDITION 2868 2899	are produced to the final shape
+T814	STATEMENT 2835 2899	most shaped engineering products are produced to the final shape
+T815	CAUSE_EFFECT_RELATION 2786 2899	Owing to their extreme hardness and brittleness, most shaped engineering products are produced to the final shape
+T816	ROOT_SENTENCE 2786 2900	Owing to their extreme hardness and brittleness, most shaped engineering products are produced to the final shape.
+T817	VARIABLE 3143 3204	the weaker polarization signal compared to photospheric lines
+T818	VARIABLE 3066 3103	The magnetic ﬁeld in the chromosphere
+T819	CONDITION 3104 3133	is much less well constrained
+T820	KEY_C 3134 3142	owing to
+T821	CAUSE 3134 3204	owing to the weaker polarization signal compared to photospheric lines
+T822	STATEMENT 3066 3133	The magnetic ﬁeld in the chromosphere is much less well constrained
+T823	CAUSE_EFFECT_RELATION 3066 3204	The magnetic ﬁeld in the chromosphere is much less well constrained owing to the weaker polarization signal compared to photospheric lines
+T824	ROOT_SENTENCE 3066 3205	The magnetic ﬁeld in the chromosphere is much less well constrained owing to the weaker polarization signal compared to photospheric lines.
+T843	VARIABLE 3989 4018	the variable size of I-frames
+T844	VARIABLE 4020 4040	updates of BufferSeq
+T845	CONDITION 4041 4090	may be based on changes in available buffer space
+T847	KEY_C 3980 3988	Owing to
+T848	CAUSE 3980 4018	Owing to the variable size of I-frames
+T850	KEY_C 12032 12045	the next time
+T851	CAUSE 12032 12055	the next time it is run
+T852	CAUSE_EFFECT_RELATION 12032 12157	the next time it is run it has to be able to recover from that error, and keep on simulating from an hour selected by the map
+T853	CAUSE_EFFECT_RELATION 11996 12157	If an error makes the system crash, the next time it is run it has to be able to recover from that error, and keep on simulating from an hour selected by the map
+T854	ROOT_SENTENCE 11996 12158	If an error makes the system crash, the next time it is run it has to be able to recover from that error, and keep on simulating from an hour selected by the map.
+T855	VARIABLE 11908 11915	9 times
+T856	KEY_C 11899 11907	at least
+T857	CAUSE 11899 11915	at least 9 times
+T858	AND 11899 11974	at least 9 times the system recovers before or at the beginning of the week
+T859	CAUSE 11896 11974	If at least 9 times the system recovers before or at the beginning of the week
+T860	CAUSE_EFFECT_RELATION 11896 11993	If at least 9 times the system recovers before or at the beginning of the week the test is passed
+T861	ROOT_SENTENCE 11896 11994	If at least 9 times the system recovers before or at the beginning of the week the test is passed.
+T747	VARIABLE 1670 1685	These materials
+T862	CONDITION 1686 1754	are suitable for use within the temperature range --55 !C to +100 !C
+T863	AND 1670 1948	These materials are suitable for use within the temperature range --55 !C to +100 !C, but annealed copper shall not be continually operated for long periods above 90 !C, owing to the likelihood that excessive wire stress relaxation affects the reliability of the wrap connection
+T837	CONDITION 4102 4130	delivery of I-frame contents
+T838	NEGATION 4091 4130	instead of delivery of I-frame contents
+T839	AND 4041 4130	may be based on changes in available buffer space instead of delivery of I-frame contents
+T840	STATEMENT 4020 4130	updates of BufferSeq may be based on changes in available buffer space instead of delivery of I-frame contents
+T841	CAUSE_EFFECT_RELATION 3980 4130	Owing to the variable size of I-frames, updates of BufferSeq may be based on changes in available buffer space instead of delivery of I-frame contents
+T842	ROOT_SENTENCE 3980 4131	Owing to the variable size of I-frames, updates of BufferSeq may be based on changes in available buffer space instead of delivery of I-frame contents.
+T846	KEY_C 4369 4381	in each case
+T864	EFFECT 4369 4461	in each case these are to be added to the last chapter with content of Module I or Module II
+T865	AND 4285 4512	If supplements are necessary in the implementation of the VDA structure on level 1, in each case these are to be added to the last chapter with content of Module I or Module II (see Module I, chapter 12 and Module II chapter 7)
+T866	ROOT_SENTENCE 4285 4513	If supplements are necessary in the implementation of the VDA structure on level 1, in each case these are to be added to the last chapter with content of Module I or Module II (see Module I, chapter 12 and Module II chapter 7).
+T867	ROOT_SENTENCE 5249 5426	If the given content structure does not suffice to assign all requirements on level 2 to the superordinated subject on level 1, the requirements can be assigned to this chapter.
+T868	CAUSE 5842 5891	whose power supplies are connected to the battery
+T869	CAUSE 5773 5841	If there are customer-specified increased requirements on components
+T870	NONE_CAUSAL 5892 5919	even when the car is parked
+T871	AND 5773 5891	If there are customer-specified increased requirements on components whose power supplies are connected to the battery
+T872	AND 5773 5919	If there are customer-specified increased requirements on components whose power supplies are connected to the battery even when the car is parked
+T873	CAUSE_EFFECT_RELATION 5773 5950	If there are customer-specified increased requirements on components whose power supplies are connected to the battery even when the car is parked, they should be specified here
+T874	ROOT_SENTENCE 5773 5951	If there are customer-specified increased requirements on components whose power supplies are connected to the battery even when the car is parked, they should be specified here.
+T875	CAUSE_EFFECT_RELATION 6455 6589	the specific stipulations of protection classes that the component has to fulfil in terms of certain characteristics are to take place
+T876	CAUSE_EFFECT_RELATION 6429 6589	If possible or available, the specific stipulations of protection classes that the component has to fulfil in terms of certain characteristics are to take place
+T877	ROOT_SENTENCE 6429 6590	If possible or available, the specific stipulations of protection classes that the component has to fulfil in terms of certain characteristics are to take place.
+T878	ROOT_SENTENCE 8136 8194	If set to true, Google Analytics are logged for the glyph.
+T89	KEY_C 11745 11758	the next time
+T139	CAUSE 11745 11768	the next time it is run
+T155	CAUSE_EFFECT_RELATION 11745 11893	the next time it is run it has to be able to recover from that error, and keep on simulating from the beginning of the week that was being simulated
+T156	CAUSE_EFFECT_RELATION 11709 11893	If an error makes the system crash, the next time it is run it has to be able to recover from that error, and keep on simulating from the beginning of the week that was being simulated
+T157	ROOT_SENTENCE 11709 11894	If an error makes the system crash, the next time it is run it has to be able to recover from that error, and keep on simulating from the beginning of the week that was being simulated.
+T168	OR 8800 8870	is prompted to either discard the unsaved changes or cancel the action

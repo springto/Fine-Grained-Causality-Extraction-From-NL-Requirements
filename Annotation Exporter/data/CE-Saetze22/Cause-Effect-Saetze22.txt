@@ -1,0 +1,650 @@
+T1	KEY_C 0 2	If
+T2	VARIABLE 3 40	the route discovery table entry value
+T3	CONDITION 41 75	is less than the route reply value
+T4	VARIABLE 77 106	the route reply command frame
+T5	CONDITION 107 125	shall be discarded
+T6	STATEMENT 77 125	the route reply command frame shall be discarded
+T7	STATEMENT 3 75	the route discovery table entry value is less than the route reply value
+T8	CAUSE 0 75	If the route discovery table entry value is less than the route reply value
+T9	CAUSE_EFFECT_RELATION 0 125	If the route discovery table entry value is less than the route reply value, the route reply command frame shall be discarded
+T10	ROOT_SENTENCE 0 126	If the route discovery table entry value is less than the route reply value, the route reply command frame shall be discarded.
+T11	KEY_C 128 130	If
+T12	VARIABLE 131 162	the route record required field
+T13	CONDITION 163 187	also has a value of TRUE
+T14	VARIABLE 189 196	the NWK
+T15	CONDITION 197 252	shall unicast a route record command to the destination
+T16	CONDITION 253 287	before transmitting the data frame
+T17	AND 197 287	shall unicast a route record command to the destination before transmitting the data frame
+T18	STATEMENT 189 287	the NWK shall unicast a route record command to the destination before transmitting the data frame
+T19	STATEMENT 131 187	the route record required field also has a value of TRUE
+T20	CAUSE 128 187	If the route record required field also has a value of TRUE
+T21	CAUSE_EFFECT_RELATION 128 287	If the route record required field also has a value of TRUE, the NWK shall unicast a route record command to the destination before transmitting the data frame
+T22	ROOT_SENTENCE 128 288	If the route record required field also has a value of TRUE, the NWK shall unicast a route record command to the destination before transmitting the data frame.
+T23	KEY_C 290 292	If
+T24	VARIABLE 293 310	the outgoing link
+T25	CONDITION 311 341	is classified as a failed link
+T26	KEY_C 343 347	then
+T27	VARIABLE 348 358	the device
+T28	CONDITION 359 413	shall respond as described in the following paragraphs
+T29	STATEMENT 293 341	the outgoing link is classified as a failed link
+T30	CAUSE 290 341	If the outgoing link is classified as a failed link
+T31	STATEMENT 348 413	the device shall respond as described in the following paragraphs
+T32	EFFECT 343 413	then the device shall respond as described in the following paragraphs
+T33	CAUSE_EFFECT_RELATION 290 413	If the outgoing link is classified as a failed link, then the device shall respond as described in the following paragraphs
+T34	ROOT_SENTENCE 290 414	If the outgoing link is classified as a failed link, then the device shall respond as described in the following paragraphs.
+T35	KEY_C 416 418	If
+T36	VARIABLE 419 427	there is
+T37	CONDITION 431 486	available non-overlapping time slot in the neighborhood
+T38	NEGATION 428 486	no available non-overlapping time slot in the neighborhood
+T39	STATEMENT 419 486	there is no available non-overlapping time slot in the neighborhood
+T40	CAUSE 416 486	If there is no available non-overlapping time slot in the neighborhood
+T41	VARIABLE 488 498	the device
+T42	CONDITION 509 525	transmit beacons
+T43	NEGATION 499 525	shall not transmit beacons
+T44	CONDITION 530 575	shall operate on the network as an end device
+T45	AND 499 575	shall not transmit beacons and shall operate on the network as an end device
+T46	STATEMENT 488 575	the device shall not transmit beacons and shall operate on the network as an end device
+T47	CAUSE_EFFECT_RELATION 416 575	If there is no available non-overlapping time slot in the neighborhood, the device shall not transmit beacons and shall operate on the network as an end device
+T48	ROOT_SENTENCE 416 576	If there is no available non-overlapping time slot in the neighborhood, the device shall not transmit beacons and shall operate on the network as an end device.
+T49	KEY_C 578 580	If
+T50	VARIABLE 581 604	the destination address
+T51	CONDITION 614 659	correspond to the device type of the receiver
+T52	CONDITION 660 685	as outlined in Table 3.59
+T53	AND 614 685	correspond to the device type of the receiver as outlined in Table 3.59
+T54	NEGATION 605 685	does not correspond to the device type of the receiver as outlined in Table 3.59
+T55	STATEMENT 581 685	the destination address does not correspond to the device type of the receiver as outlined in Table 3.59
+T56	CAUSE 578 685	If the destination address does not correspond to the device type of the receiver as outlined in Table 3.59
+T57	VARIABLE 687 696	the frame
+T58	CONDITION 697 715	shall be discarded
+T59	STATEMENT 687 715	the frame shall be discarded
+T60	CAUSE_EFFECT_RELATION 578 715	If the destination address does not correspond to the device type of the receiver as outlined in Table 3.59, the frame shall be discarded
+T61	ROOT_SENTENCE 578 716	If the destination address does not correspond to the device type of the receiver as outlined in Table 3.59, the frame shall be discarded.
+T62	KEY_C 718 720	If
+T63	VARIABLE 721 731	the device
+T64	CONDITION 741 772	support passive acknowledgement
+T65	NEGATION 732 772	does not support passive acknowledgement
+T66	STATEMENT 721 772	the device does not support passive acknowledgement
+T67	CAUSE 718 772	If the device does not support passive acknowledgement
+T68	KEY_C 774 778	then
+T69	VARIABLE 779 781	it
+T70	CONDITION 782 845	shall retransmit the frame exactly nwkMaxBroadcastRetries times
+T71	STATEMENT 779 845	it shall retransmit the frame exactly nwkMaxBroadcastRetries times
+T72	EFFECT 774 845	then it shall retransmit the frame exactly nwkMaxBroadcastRetries times
+T73	CAUSE_EFFECT_RELATION 718 845	If the device does not support passive acknowledgement, then it shall retransmit the frame exactly nwkMaxBroadcastRetries times
+T74	ROOT_SENTENCE 718 846	If the device does not support passive acknowledgement, then it shall retransmit the frame exactly nwkMaxBroadcastRetries times.
+T75	VARIABLE 848 864	The entry status
+T76	CONDITION 865 889	should change to expired
+T77	KEY_C 894 898	thus
+T78	VARIABLE 899 908	the entry
+T79	CONDITION 909 927	can be overwritten
+T80	STATEMENT 899 927	the entry can be overwritten
+T81	EFFECT 894 927	thus the entry can be overwritten
+T82	KEY_C 928 930	if
+T83	VARIABLE 931 939	required
+T84	KEY_C 940 944	when
+T85	VARIABLE 945 960	a new broadcast
+T86	CONDITION 961 972	is received
+T87	STATEMENT 945 972	a new broadcast is received
+T88	CAUSE 940 972	when a new broadcast is received
+T89	CAUSE 928 939	if required
+T90	AND 928 972	if required when a new broadcast is received
+T91	CAUSE_EFFECT_RELATION 894 972	thus the entry can be overwritten if required when a new broadcast is received
+T92	NONE_CAUSAL 848 889	The entry status should change to expired
+T93	CAUSE_EFFECT_RELATION 848 972	The entry status should change to expired and thus the entry can be overwritten if required when a new broadcast is received
+T94	ROOT_SENTENCE 848 973	The entry status should change to expired and thus the entry can be overwritten if required when a new broadcast is received.
+T95	KEY_C 975 977	If
+T96	VARIABLE 978 998	the original message
+T97	CONDITION 999 1035	was created by a member of the group
+T98	VARIABLE 1037 1039	it
+T99	CONDITION 1040 1076	is considered to be in ‘Member Mode’
+T100	CONDITION 1081 1114	is relayed by means of broadcasts
+T101	AND 1040 1114	is considered to be in ‘Member Mode’ and is relayed by means of broadcasts
+T102	STATEMENT 1037 1114	it is considered to be in ‘Member Mode’ and is relayed by means of broadcasts
+T103	STATEMENT 978 1035	the original message was created by a member of the group
+T104	CAUSE 975 1035	If the original message was created by a member of the group
+T105	CAUSE_EFFECT_RELATION 975 1114	If the original message was created by a member of the group, it is considered to be in ‘Member Mode’ and is relayed by means of broadcasts
+T106	ROOT_SENTENCE 975 1115	If the original message was created by a member of the group, it is considered to be in ‘Member Mode’ and is relayed by means of broadcasts.
+T107	KEY_C 1117 1119	If
+T108	VARIABLE 1120 1136	a matching entry
+T109	CONDITION 1144 1149	found
+T110	NEGATION 1137 1149	is not found
+T111	STATEMENT 1120 1149	a matching entry is not found
+T112	CAUSE 1117 1149	If a matching entry is not found
+T113	VARIABLE 1151 1164	the NWK layer
+T114	CONDITION 1165 1222	shall examine the frame's multicast NonmemberRadius field
+T115	STATEMENT 1151 1222	the NWK layer shall examine the frame's multicast NonmemberRadius field
+T116	CAUSE_EFFECT_RELATION 1117 1222	If a matching entry is not found, the NWK layer shall examine the frame's multicast NonmemberRadius field
+T117	ROOT_SENTENCE 1117 1223	If a matching entry is not found, the NWK layer shall examine the frame's multicast NonmemberRadius field.
+T118	VARIABLE 1387 1395	there is
+T119	CONDITION 1404 1423	routing table entry
+T120	NEGATION 1396 1423	no such routing table entry
+T121	KEY_C 1384 1386	If
+T122	STATEMENT 1387 1423	there is no such routing table entry
+T123	CAUSE 1384 1423	If there is no such routing table entry
+T124	VARIABLE 1425 1436	the message
+T125	CONDITION 1437 1455	shall be discarded
+T126	STATEMENT 1425 1455	the message shall be discarded
+T127	CAUSE_EFFECT_RELATION 1384 1455	If there is no such routing table entry, the message shall be discarded
+T128	ROOT_SENTENCE 1384 1456	If there is no such routing table entry, the message shall be discarded.
+T129	KEY_C 1458 1460	If
+T130	VARIABLE 1461 1469	there is
+T131	CONDITION 1470 1483	such an entry
+T132	STATEMENT 1461 1483	there is such an entry
+T133	CAUSE 1458 1483	If there is such an entry
+T134	VARIABLE 1485 1498	the NWK layer
+T135	CONDITION 1499 1537	shall examine the entry's status field
+T136	STATEMENT 1485 1537	the NWK layer shall examine the entry's status field
+T137	CAUSE_EFFECT_RELATION 1458 1537	If there is such an entry, the NWK layer shall examine the entry's status field
+T138	ROOT_SENTENCE 1458 1538	If there is such an entry, the NWK layer shall examine the entry's status field.
+T139	KEY_C 1540 1542	If
+T140	VARIABLE 1543 1553	the status
+T141	CONDITION 1554 1563	is ACTIVE
+T142	STATEMENT 1543 1563	the status is ACTIVE
+T143	CAUSE 1540 1563	If the status is ACTIVE
+T144	VARIABLE 1565 1575	the device
+T145	CONDITION 1576 1604	shall (re)transmit the frame
+T146	STATEMENT 1565 1604	the device shall (re)transmit the frame
+T147	CAUSE_EFFECT_RELATION 1540 1604	If the status is ACTIVE, the device shall (re)transmit the frame
+T148	ROOT_SENTENCE 1540 1605	If the status is ACTIVE, the device shall (re)transmit the frame.
+T149	KEY_C 1607 1609	If
+T150	VARIABLE 1610 1620	the status
+T151	CONDITION 1621 1643	is VALIDATION_UNDERWAY
+T152	VARIABLE 1645 1655	the status
+T153	CONDITION 1656 1682	shall be changed to ACTIVE
+T154	VARIABLE 1687 1697	the device
+T155	CONDITION 1698 1726	shall (re)transmit the frame
+T156	STATEMENT 1687 1726	the device shall (re)transmit the frame
+T157	STATEMENT 1645 1682	the status shall be changed to ACTIVE
+T158	AND 1645 1726	the status shall be changed to ACTIVE and the device shall (re)transmit the frame
+T159	STATEMENT 1610 1643	the status is VALIDATION_UNDERWAY
+T160	CAUSE 1607 1643	If the status is VALIDATION_UNDERWAY
+T161	CAUSE_EFFECT_RELATION 1607 1726	If the status is VALIDATION_UNDERWAY, the status shall be changed to ACTIVE and the device shall (re)transmit the frame
+T162	ROOT_SENTENCE 1607 1727	If the status is VALIDATION_UNDERWAY, the status shall be changed to ACTIVE and the device shall (re)transmit the frame.
+T163	KEY_C 1729 1731	If
+T164	VARIABLE 1732 1744	nwkAddrAlloc
+T165	CONDITION 1745 1764	has a value of 0x00
+T166	VARIABLE 1766 1802	neighbor table entries for relatives
+T167	CONDITION 1814 1833	be considered stale
+T168	CONDITION 1838 1844	reused
+T169	AND 1814 1844	be considered stale and reused
+T170	NEGATION 1803 1844	should not be considered stale and reused
+T171	STATEMENT 1766 1844	neighbor table entries for relatives should not be considered stale and reused
+T172	STATEMENT 1732 1764	nwkAddrAlloc has a value of 0x00
+T173	CAUSE 1729 1764	If nwkAddrAlloc has a value of 0x00
+T174	CAUSE_EFFECT_RELATION 1729 1844	If nwkAddrAlloc has a value of 0x00, neighbor table entries for relatives should not be considered stale and reused
+T175	ROOT_SENTENCE 1729 1845	If nwkAddrAlloc has a value of 0x00, neighbor table entries for relatives should not be considered stale and reused.
+T176	VARIABLE 1847 1858	End Devices
+T177	CONDITION 1859 1916	may receive no End Device Timeout Response command at all
+T178	KEY_C 1917 1919	if
+T179	VARIABLE 1920 1924	they
+T180	CONDITION 1925 1963	are communicating with a legacy device
+T181	CONDITION 1978 2007	have support for this command
+T182	NEGATION 1969 2007	does not have support for this command
+T184	STATEMENT 1920 1963	they are communicating with a legacy device
+T185	AND 1917 2007	if they are communicating with a legacy device that does not have support for this command
+T186	STATEMENT 1847 1916	End Devices may receive no End Device Timeout Response command at all
+T187	CAUSE_EFFECT_RELATION 1847 2007	End Devices may receive no End Device Timeout Response command at all if they are communicating with a legacy device that does not have support for this command
+T188	ROOT_SENTENCE 1847 2008	End Devices may receive no End Device Timeout Response command at all if they are communicating with a legacy device that does not have support for this command.
+T189	KEY_C 2010 2012	If
+T190	VARIABLE 2013 2032	the Timeout Counter
+T191	CONDITION 2033 2053	reaches a value of 0
+T192	STATEMENT 2013 2053	the Timeout Counter reaches a value of 0
+T193	CAUSE 2010 2053	If the Timeout Counter reaches a value of 0
+T194	VARIABLE 2055 2057	it
+T195	CONDITION 2058 2070	shall assume
+T196	CONDITION 2071 2111	that its parent has timed out the device
+T197	AND 2058 2111	shall assume that its parent has timed out the device
+T198	STATEMENT 2055 2111	it shall assume that its parent has timed out the device
+T199	CAUSE_EFFECT_RELATION 2010 2111	If the Timeout Counter reaches a value of 0, it shall assume that its parent has timed out the device
+T200	ROOT_SENTENCE 2010 2112	If the Timeout Counter reaches a value of 0, it shall assume that its parent has timed out the device.
+T201	KEY_C 2114 2116	If
+T202	VARIABLE 2117 2131	an application
+T203	CONDITION 2132 2210	needs more security for its payload than is provided by network level security
+T204	STATEMENT 2117 2210	an application needs more security for its payload than is provided by network level security
+T205	CAUSE 2114 2210	If an application needs more security for its payload than is provided by network level security
+T206	VARIABLE 2212 2214	it
+T207	CONDITION 2215 2275	can establish application level security with another device
+T208	STATEMENT 2212 2275	it can establish application level security with another device
+T209	CAUSE_EFFECT_RELATION 2114 2275	If an application needs more security for its payload than is provided by network level security, it can establish application level security with another device
+T210	ROOT_SENTENCE 2114 2276	If an application needs more security for its payload than is provided by network level security, it can establish application level security with another device.
+T211	KEY_C 2278 2280	If
+T212	VARIABLE 2281 2293	the CCM mode
+T213	CONDITION 2294 2329	invoked in step 3 outputs ‘invalid’
+T214	VARIABLE 2331 2350	security processing
+T215	CONDITION 2351 2361	shall fail
+T216	NEGATION 2366 2424	no further security processing shall be done on this frame
+T217	CONDITION 2369 2424	further security processing shall be done on this frame
+T218	AND 2351 2424	shall fail and no further security processing shall be done on this frame
+T219	STATEMENT 2331 2424	security processing shall fail and no further security processing shall be done on this frame
+T220	STATEMENT 2281 2329	the CCM mode invoked in step 3 outputs ‘invalid’
+T221	CAUSE 2278 2329	If the CCM mode invoked in step 3 outputs ‘invalid’
+T222	CAUSE_EFFECT_RELATION 2278 2424	If the CCM mode invoked in step 3 outputs ‘invalid’, security processing shall fail and no further security processing shall be done on this frame
+T223	ROOT_SENTENCE 2278 2425	If the CCM mode invoked in step 3 outputs ‘invalid’, security processing shall fail and no further security processing shall be done on this frame.
+T224	KEY_C 2427 2429	If
+T225	VARIABLE 2430 2451	the security material
+T226	CONDITION 2459 2470	be obtained
+T227	NEGATION 2452 2470	cannot be obtained
+T228	STATEMENT 2430 2470	the security material cannot be obtained
+T229	CAUSE 2427 2470	If the security material cannot be obtained
+T230	VARIABLE 2472 2491	security processing
+T231	CONDITION 2492 2581	shall indicate a failure to the next higher layer with a status of 'frame security failed
+T232	CONDITION 2590 2645	further security processing shall be done on this frame
+T233	NEGATION 2587 2645	no further security processing shall be done on this frame
+T234	AND 2492 2645	shall indicate a failure to the next higher layer with a status of 'frame security failed' and no further security processing shall be done on this frame
+T235	STATEMENT 2472 2645	security processing shall indicate a failure to the next higher layer with a status of 'frame security failed' and no further security processing shall be done on this frame
+T236	ROOT_SENTENCE 2427 2646	If the security material cannot be obtained, security processing shall indicate a failure to the next higher layer with a status of 'frame security failed' and no further security processing shall be done on this frame.
+T237	CAUSE_EFFECT_RELATION 2427 2645	If the security material cannot be obtained, security processing shall indicate a failure to the next higher layer with a status of 'frame security failed' and no further security processing shall be done on this frame
+T238	KEY_C 2648 2650	If
+T239	VARIABLE 2651 2679	the extended nonce sub-field
+T240	CONDITION 2680 2691	is set to 1
+T241	KEY_C 2693 2697	then
+T242	VARIABLE 2698 2777	set the source address field to the 64-bit extended address of the local device
+T243	EFFECT 2693 2777	then set the source address field to the 64-bit extended address of the local device
+T244	STATEMENT 2651 2691	the extended nonce sub-field is set to 1
+T245	CAUSE 2648 2691	If the extended nonce sub-field is set to 1
+T246	CAUSE_EFFECT_RELATION 2648 2777	If the extended nonce sub-field is set to 1, then set the source address field to the 64-bit extended address of the local device
+T247	ROOT_SENTENCE 2648 2778	If the extended nonce sub-field is set to 1, then set the source address field to the 64-bit extended address of the local device.
+T248	KEY_C 2780 2782	If
+T249	VARIABLE 2783 2797	APS encryption
+T250	CONDITION 2798 2820	is required to be used
+T251	KEY_C 2822 2826	then
+T252	VARIABLE 2827 2837	the device
+T253	CONDITION 2838 2896	shall APS encrypt the command prior to sending the message
+T254	STATEMENT 2827 2896	the device shall APS encrypt the command prior to sending the message
+T255	EFFECT 2822 2896	then the device shall APS encrypt the command prior to sending the message
+T256	STATEMENT 2783 2820	APS encryption is required to be used
+T257	CAUSE 2780 2820	If APS encryption is required to be used
+T258	CAUSE_EFFECT_RELATION 2780 2896	If APS encryption is required to be used, then the device shall APS encrypt the command prior to sending the message
+T259	ROOT_SENTENCE 2780 2897	If APS encryption is required to be used, then the device shall APS encrypt the command prior to sending the message.
+T260	KEY_C 2899 2901	If
+T261	VARIABLE 2902 2910	a device
+T262	CONDITION 2911 2953	has requirements on encryption of APS data
+T263	STATEMENT 2902 2953	a device has requirements on encryption of APS data
+T264	CAUSE 2899 2953	If a device has requirements on encryption of APS data
+T265	VARIABLE 2955 2957	it
+T266	CONDITION 2958 3015	must establish application link keys with partner devices
+T267	STATEMENT 2955 3015	it must establish application link keys with partner devices
+T268	CAUSE_EFFECT_RELATION 2899 3015	If a device has requirements on encryption of APS data, it must establish application link keys with partner devices
+T269	ROOT_SENTENCE 2899 3016	If a device has requirements on encryption of APS data, it must establish application link keys with partner devices.
+T270	VARIABLE 3018 3041	The Initiator parameter
+T271	CONDITION 3042 3062	shall be set to TRUE
+T272	KEY_C 3064 3066	if
+T273	VARIABLE 3067 3086	the initiator field
+T274	CONDITION 3087 3091	is 1
+T275	STATEMENT 3067 3091	the initiator field is 1
+T276	CAUSE 3064 3091	if the initiator field is 1
+T277	STATEMENT 3018 3062	The Initiator parameter shall be set to TRUE
+T278	CAUSE_EFFECT_RELATION 3018 3091	The Initiator parameter shall be set to TRUE, if the initiator field is 1
+T279	ROOT_SENTENCE 3018 3092	The Initiator parameter shall be set to TRUE, if the initiator field is 1.
+T280	KEY_C 3094 3096	If
+T281	VARIABLE 3097 3121	the device being removed
+T282	CONDITION 3122 3133	is a router
+T283	KEY_C 3134 3138	then
+T284	VARIABLE 3139 3162	the ParentAddress field
+T285	CONDITION 3163 3203	shall be set to the EUI64 of that router
+T286	VARIABLE 3208 3225	the TargetAddress
+T287	CONDITION 3226 3256	shall be set to the same value
+T288	STATEMENT 3139 3203	the ParentAddress field shall be set to the EUI64 of that router
+T289	STATEMENT 3208 3256	the TargetAddress shall be set to the same value
+T290	AND 3139 3256	the ParentAddress field shall be set to the EUI64 of that router and the TargetAddress shall be set to the same value
+T291	EFFECT 3134 3256	then the ParentAddress field shall be set to the EUI64 of that router and the TargetAddress shall be set to the same value
+T292	STATEMENT 3097 3133	the device being removed is a router
+T293	CAUSE 3094 3133	If the device being removed is a router
+T294	CAUSE_EFFECT_RELATION 3094 3256	If the device being removed is a router then the ParentAddress field shall be set to the EUI64 of that router and the TargetAddress shall be set to the same value
+T295	ROOT_SENTENCE 3094 3257	If the device being removed is a router then the ParentAddress field shall be set to the EUI64 of that router and the TargetAddress shall be set to the same value.
+T296	KEY_C 3259 3261	If
+T297	VARIABLE 3262 3272	the device
+T298	CONDITION 3280 3296	the Trust Center
+T299	NEGATION 3273 3296	is not the Trust Center
+T300	STATEMENT 3262 3296	the device is not the Trust Center
+T301	CAUSE 3259 3296	If the device is not the Trust Center
+T302	VARIABLE 3298 3309	the request
+T303	CONDITION 3310 3335	shall be silently dropped
+T304	CONDITION 3343 3378	further processing shall take place
+T305	NEGATION 3340 3378	no further processing shall take place
+T306	AND 3310 3378	shall be silently dropped and no further processing shall take place
+T307	STATEMENT 3298 3378	the request shall be silently dropped and no further processing shall take place
+T308	CAUSE_EFFECT_RELATION 3259 3378	If the device is not the Trust Center, the request shall be silently dropped and no further processing shall take place
+T309	ROOT_SENTENCE 3259 3379	If the device is not the Trust Center, the request shall be silently dropped and no further processing shall take place.
+T310	KEY_C 3381 3383	If
+T311	VARIABLE 3384 3395	the message
+T312	CONDITION 3396 3414	is a NWK broadcast
+T313	STATEMENT 3384 3414	the message is a NWK broadcast
+T314	CAUSE 3381 3414	If the message is a NWK broadcast
+T315	VARIABLE 3416 3427	the request
+T316	CONDITION 3428 3444	shall be dropped
+T317	CONDITION 3452 3484	further processing shall be done
+T318	NEGATION 3449 3484	no further processing shall be done
+T319	AND 3428 3484	shall be dropped and no further processing shall be done
+T320	STATEMENT 3416 3484	the request shall be dropped and no further processing shall be done
+T321	CAUSE_EFFECT_RELATION 3381 3484	If the message is a NWK broadcast, the request shall be dropped and no further processing shall be done
+T322	ROOT_SENTENCE 3381 3485	If the message is a NWK broadcast, the request shall be dropped and no further processing shall be done.
+T323	KEY_C 3487 3489	If
+T324	VARIABLE 3490 3500	the joiner
+T325	CONDITION 3508 3516	a router
+T326	NEGATION 3501 3516	is not a router
+T327	STATEMENT 3490 3516	the joiner is not a router
+T328	CAUSE 3487 3516	If the joiner is not a router
+T329	VARIABLE 3518 3520	it
+T330	CONDITION 3521 3556	is declared “joined and authorized”
+T331	CONDITION 3557 3633	immediately following the successful completion of the authorization routine
+T332	AND 3521 3633	is declared “joined and authorized” immediately following the successful completion of the authorization routine
+T333	STATEMENT 3518 3633	it is declared “joined and authorized” immediately following the successful completion of the authorization routine
+T334	CAUSE_EFFECT_RELATION 3487 3633	If the joiner is not a router, it is declared “joined and authorized” immediately following the successful completion of the authorization routine
+T335	ROOT_SENTENCE 3487 3634	If the joiner is not a router, it is declared “joined and authorized” immediately following the successful completion of the authorization routine.
+T336	KEY_C 3636 3638	If
+T337	VARIABLE 3639 3647	accepted
+T338	CAUSE 3636 3647	If accepted
+T339	VARIABLE 3649 3656	the key
+T342	CONDITION 3726 3765	shall replace the alternate network key
+T341	VARIABLE 3661 3725	sequence number data contained in the TransportKeyData parameter
+T340	AND 3649 3725	the key and sequence number data contained in the TransportKeyData parameter
+T343	STATEMENT 3649 3765	the key and sequence number data contained in the TransportKeyData parameter shall replace the alternate network key
+T344	CAUSE_EFFECT_RELATION 3636 3765	If accepted, the key and sequence number data contained in the TransportKeyData parameter shall replace the alternate network key
+T345	ROOT_SENTENCE 3636 3766	If accepted, the key and sequence number data contained in the TransportKeyData parameter shall replace the alternate network key.
+T346	KEY_C 3768 3770	If
+T347	VARIABLE 3771 3781	successful
+T348	CAUSE 3768 3781	If successful
+T349	VARIABLE 3783 3796	the initiator
+T350	VARIABLE 3801 3810	responder
+T351	CONDITION 3811 3836	will now share a link key
+T352	CONDITION 3841 3879	secure communications will be possible
+T353	AND 3811 3879	will now share a link key and secure communications will be possible
+T354	AND 3783 3810	the initiator and responder
+T355	STATEMENT 3783 3879	the initiator and responder will now share a link key and secure communications will be possible
+T356	CAUSE_EFFECT_RELATION 3768 3879	If successful, the initiator and responder will now share a link key and secure communications will be possible
+T357	ROOT_SENTENCE 3768 3880	If successful, the initiator and responder will now share a link key and secure communications will be possible.
+T358	KEY_C 3882 3884	If
+T359	VARIABLE 3885 3892	a match
+T360	CONDITION 3893 3901	is found
+T361	VARIABLE 3903 3905	it
+T362	CONDITION 3906 3938	will use the associated link key
+T363	CONDITION 3939 3953	to APS encrypt
+T364	CONDITION 3957 3976	decrypt the message
+T365	OR 3939 3976	to APS encrypt or decrypt the message
+T366	AND 3906 3976	will use the associated link key to APS encrypt or decrypt the message
+T367	STATEMENT 3903 3976	it will use the associated link key to APS encrypt or decrypt the message
+T368	STATEMENT 3885 3901	a match is found
+T369	CAUSE 3882 3901	If a match is found
+T370	CAUSE_EFFECT_RELATION 3882 3976	If a match is found, it will use the associated link key to APS encrypt or decrypt the message
+T371	ROOT_SENTENCE 3882 3977	If a match is found, it will use the associated link key to APS encrypt or decrypt the message.
+T373	VARIABLE 4364 4379	The application
+T374	CONDITION 4380 4421	may utilize a key establishment algorithm
+T375	KEY_C 4422 4424	if
+T376	VARIABLE 4425 4428	one
+T377	CONDITION 4429 4441	is available
+T378	STATEMENT 4425 4441	one is available
+T379	CAUSE 4422 4441	if one is available
+T380	STATEMENT 4364 4421	The application may utilize a key establishment algorithm
+T381	CAUSE_EFFECT_RELATION 4364 4441	The application may utilize a key establishment algorithm if one is available
+T382	ROOT_SENTENCE 4364 4442	The application may utilize a key establishment algorithm if one is available.
+T383	KEY_C 4444 4446	If
+T384	VARIABLE 4447 4464	such an algorithm
+T385	CONDITION 4472 4481	available
+T386	NEGATION 4465 4481	is not available
+T387	STATEMENT 4447 4481	such an algorithm is not available
+T388	VARIABLE 4483 4520	the Request Key services of the APSME
+T389	CONDITION 4521 4533	must be used
+T390	STATEMENT 4483 4533	the Request Key services of the APSME must be used
+T391	CAUSE 4444 4481	If such an algorithm is not available
+T392	CAUSE_EFFECT_RELATION 4444 4533	If such an algorithm is not available, the Request Key services of the APSME must be used
+T393	ROOT_SENTENCE 4444 4534	If such an algorithm is not available, the Request Key services of the APSME must be used.
+T394	KEY_C 4536 4538	If
+T395	VARIABLE 4539 4553	this operation
+T396	CONDITION 4554 4559	fails
+T397	STATEMENT 4539 4559	this operation fails
+T398	VARIABLE 4561 4577	output ‘invalid’
+T399	VARIABLE 4582 4586	stop
+T400	AND 4561 4586	output ‘invalid’ and stop
+T401	CAUSE 4536 4559	If this operation fails
+T402	CAUSE_EFFECT_RELATION 4536 4586	If this operation fails, output ‘invalid’ and stop
+T403	ROOT_SENTENCE 4536 4587	If this operation fails, output ‘invalid’ and stop.
+T404	KEY_C 4589 4591	If
+T405	VARIABLE 4592 4614	the above verification
+T406	CONDITION 4615 4620	fails
+T407	KEY_C 4622 4626	then
+T408	VARIABLE 4627 4643	output ‘invalid’
+T409	VARIABLE 4648 4668	reject the challenge
+T410	AND 4627 4668	output ‘invalid’ and reject the challenge
+T411	EFFECT 4622 4668	then output ‘invalid’ and reject the challenge
+T412	STATEMENT 4592 4620	the above verification fails
+T413	CAUSE 4589 4620	If the above verification fails
+T414	CAUSE_EFFECT_RELATION 4589 4668	If the above verification fails, then output ‘invalid’ and reject the challenge
+T415	ROOT_SENTENCE 4589 4669	If the above verification fails, then output ‘invalid’ and reject the challenge.
+T416	VARIABLE 4671 4672	U
+T417	CONDITION 4673 4723	uses the transformation specified in section B.7.1
+T418	CONDITION 4724 4754	to agree on keying data with V
+T419	AND 4673 4754	uses the transformation specified in section B.7.1 to agree on keying data with V
+T420	STATEMENT 4671 4754	U uses the transformation specified in section B.7.1 to agree on keying data with V
+T421	KEY_C 4755 4757	if
+T422	VARIABLE 4758 4759	U
+T423	CONDITION 4760 4787	is the protocol’s initiator
+T424	STATEMENT 4758 4787	U is the protocol’s initiator
+T425	CAUSE 4755 4787	if U is the protocol’s initiator
+T426	VARIABLE 4793 4794	V
+T427	CONDITION 4795 4845	uses the transformation specified in section B.7.2
+T428	CONDITION 4846 4876	to agree on keying data with U
+T429	AND 4795 4876	uses the transformation specified in section B.7.2 to agree on keying data with U
+T430	STATEMENT 4793 4876	V uses the transformation specified in section B.7.2 to agree on keying data with U
+T431	KEY_C 4877 4879	if
+T432	VARIABLE 4880 4881	V
+T433	CONDITION 4882 4909	is the protocol’s responder
+T434	STATEMENT 4880 4909	V is the protocol’s responder
+T435	CAUSE 4877 4909	if V is the protocol’s responder
+T436	CAUSE_EFFECT_RELATION 4671 4787	U uses the transformation specified in section B.7.1 to agree on keying data with V if U is the protocol’s initiator
+T437	CAUSE_EFFECT_RELATION 4793 4909	V uses the transformation specified in section B.7.2 to agree on keying data with U if V is the protocol’s responder
+T438	ROOT_SENTENCE 4671 4910	U uses the transformation specified in section B.7.1 to agree on keying data with V if U is the protocol’s initiator, and V uses the transformation specified in section B.7.2 to agree on keying data with U if V is the protocol’s responder.
+T439	AND 4671 4909	U uses the transformation specified in section B.7.1 to agree on keying data with V if U is the protocol’s initiator, and V uses the transformation specified in section B.7.2 to agree on keying data with U if V is the protocol’s responder
+T440	KEY_C 7125 7127	If
+T441	VARIABLE 7128 7144	these conditions
+T442	CONDITION 7153 7156	met
+T443	NEGATION 7145 7156	are not met
+T444	VARIABLE 7158 7174	ARC transmission
+T445	CONDITION 7185 7192	be used
+T446	NEGATION 7175 7192	shall not be used
+T447	STATEMENT 7158 7192	ARC transmission shall not be used
+T448	STATEMENT 7128 7156	these conditions are not met
+T449	CAUSE 7125 7156	If these conditions are not met
+T450	CAUSE_EFFECT_RELATION 7125 7192	If these conditions are not met, ARC transmission shall not be used
+T451	ROOT_SENTENCE 7125 7193	If these conditions are not met, ARC transmission shall not be used.
+T452	KEY_C 6987 6989	If
+T453	VARIABLE 6990 6998	a device
+T454	CONDITION 6999 7060	loses its Physical Address at any time (e.g. it is unplugged)
+T455	KEY_C 7061 7065	then
+T456	VARIABLE 7066 7085	its Logical Address
+T457	CONDITION 7086 7122	should be set to ‘Unregistered’ (15)
+T458	STATEMENT 7066 7122	its Logical Address should be set to ‘Unregistered’ (15)
+T459	EFFECT 7061 7122	then its Logical Address should be set to ‘Unregistered’ (15)
+T460	STATEMENT 6990 7060	a device loses its Physical Address at any time (e.g. it is unplugged)
+T461	CAUSE 6987 7060	If a device loses its Physical Address at any time (e.g. it is unplugged)
+T462	CAUSE_EFFECT_RELATION 6987 7122	If a device loses its Physical Address at any time (e.g. it is unplugged) then its Logical Address should be set to ‘Unregistered’ (15)
+T463	ROOT_SENTENCE 6987 7123	If a device loses its Physical Address at any time (e.g. it is unplugged) then its Logical Address should be set to ‘Unregistered’ (15).
+T464	NONE_CAUSAL 6912 6917	Again
+T465	KEY_C 6919 6921	if
+T466	VARIABLE 6922 6933	the message
+T467	CONDITION 6941 6953	acknowledged
+T468	NEGATION 6934 6953	is not acknowledged
+T469	STATEMENT 6922 6953	the message is not acknowledged
+T470	CAUSE 6919 6953	if the message is not acknowledged
+T471	VARIABLE 6955 6965	the device
+T472	CONDITION 6966 6984	keeps that address
+T473	STATEMENT 6955 6984	the device keeps that address
+T474	CAUSE_EFFECT_RELATION 6919 6984	if the message is not acknowledged, the device keeps that address
+T475	ROOT_SENTENCE 6912 6985	Again, if the message is not acknowledged, the device keeps that address.
+T476	KEY_C 6754 6756	If
+T477	VARIABLE 6757 6774	a physical device
+T478	CONDITION 6775 6836	contains the mandatory functions of more than one device type
+T479	KEY_C 6837 6841	then
+T480	VARIABLE 6842 6844	it
+T481	CONDITION 6845 6909	should take the Logical Addresses for each of those device types
+T482	STATEMENT 6842 6909	it should take the Logical Addresses for each of those device types
+T483	EFFECT 6837 6909	then it should take the Logical Addresses for each of those device types
+T484	STATEMENT 6757 6836	a physical device contains the mandatory functions of more than one device type
+T485	CAUSE 6754 6836	If a physical device contains the mandatory functions of more than one device type
+T486	CAUSE_EFFECT_RELATION 6754 6909	If a physical device contains the mandatory functions of more than one device type then it should take the Logical Addresses for each of those device types
+T487	ROOT_SENTENCE 6754 6910	If a physical device contains the mandatory functions of more than one device type then it should take the Logical Addresses for each of those device types.
+T488	VARIABLE 6641 6651	A Follower
+T489	CONDITION 6652 6672	shall ignore a frame
+T490	KEY_C 6673 6675	if
+T491	VARIABLE 6676 6701	the number of Data Blocks
+T492	CONDITION 6702 6751	is less than the number specified for that opcode
+T493	STATEMENT 6676 6751	the number of Data Blocks is less than the number specified for that opcode
+T494	CAUSE 6673 6751	if the number of Data Blocks is less than the number specified for that opcode
+T495	STATEMENT 6641 6672	A Follower shall ignore a frame
+T496	CAUSE_EFFECT_RELATION 6641 6751	A Follower shall ignore a frame if the number of Data Blocks is less than the number specified for that opcode
+T497	ROOT_SENTENCE 6641 6752	A Follower shall ignore a frame if the number of Data Blocks is less than the number specified for that opcode.
+T498	VARIABLE 6530 6531	U
+T499	CONDITION 6532 6598	shall execute the following transformation to agree on keying data
+T500	CONDITION 6599 6605	with V
+T501	KEY_C 6606 6608	if
+T502	VARIABLE 6609 6610	U
+T503	CONDITION 6611 6638	is the protocol’s initiator
+T504	STATEMENT 6609 6638	U is the protocol’s initiator
+T505	CAUSE 6606 6638	if U is the protocol’s initiator
+T506	AND 6532 6605	shall execute the following transformation to agree on keying data with V
+T507	STATEMENT 6530 6605	U shall execute the following transformation to agree on keying data with V
+T508	CAUSE_EFFECT_RELATION 6530 6638	U shall execute the following transformation to agree on keying data with V if U is the protocol’s initiator
+T509	ROOT_SENTENCE 6530 6639	U shall execute the following transformation to agree on keying data with V if U is the protocol’s initiator.
+T510	KEY_C 6416 6418	If
+T511	VARIABLE 6419 6427	this bit
+T512	CONDITION 6428 6436	is clear
+T513	KEY_C 6438 6442	then
+T514	VARIABLE 6443 6451	the Sink
+T515	CONDITION 6461 6493	be able to receive audio content
+T516	CONDITION 6494 6508	from DVD-Audio
+T517	CONDITION 6513 6527	Super Audio CD
+T518	AND 6494 6527	from DVD-Audio and Super Audio CD
+T519	AND 6461 6527	be able to receive audio content from DVD-Audio and Super Audio CD
+T520	NEGATION 6452 6527	will not be able to receive audio content from DVD-Audio and Super Audio CD
+T521	STATEMENT 6443 6527	the Sink will not be able to receive audio content from DVD-Audio and Super Audio CD
+T522	EFFECT 6438 6527	then the Sink will not be able to receive audio content from DVD-Audio and Super Audio CD
+T523	STATEMENT 6419 6436	this bit is clear
+T524	CAUSE 6416 6436	If this bit is clear
+T525	CAUSE_EFFECT_RELATION 6416 6527	If this bit is clear, then the Sink will not be able to receive audio content from DVD-Audio and Super Audio CD
+T526	ROOT_SENTENCE 6416 6528	If this bit is clear, then the Sink will not be able to receive audio content from DVD-Audio and Super Audio CD.
+T527	VARIABLE 6344 6365	The corresponding bit
+T528	CONDITION 6366 6372	is set
+T529	KEY_C 6373 6375	if
+T530	VARIABLE 6376 6390	that Subpacket
+T531	CONDITION 6391 6413	contains audio samples
+T532	STATEMENT 6376 6413	that Subpacket contains audio samples
+T533	CAUSE 6373 6413	if that Subpacket contains audio samples
+T534	STATEMENT 6344 6372	The corresponding bit is set
+T535	CAUSE_EFFECT_RELATION 6344 6413	The corresponding bit is set if that Subpacket contains audio samples
+T536	ROOT_SENTENCE 6344 6414	The corresponding bit is set if that Subpacket contains audio samples.
+T537	NONE_CAUSAL 6177 6188	In addition
+T538	VARIABLE 6190 6199	there are
+T539	CONDITION 6200 6225	four sample_flat.spX bits
+T540	CONDITION 6226 6239	which are set
+T541	AND 6200 6239	four sample_flat.spX bits which are set
+T542	STATEMENT 6190 6239	there are four sample_flat.spX bits which are set
+T543	KEY_C 6240 6242	if
+T544	VARIABLE 6246 6263	useful audio data
+T545	CONDITION 6264 6291	was available at the Source
+T546	CONDITION 6292 6341	during the time period represented by that sample
+T547	AND 6264 6341	was available at the Source during the time period represented by that sample
+T548	STATEMENT 6246 6341	useful audio data was available at the Source during the time period represented by that sample
+T549	NEGATION 6243 6341	no useful audio data was available at the Source during the time period represented by that sample
+T550	CAUSE 6240 6341	if no useful audio data was available at the Source during the time period represented by that sample
+T551	CAUSE_EFFECT_RELATION 6190 6341	there are four sample_flat.spX bits which are set if no useful audio data was available at the Source during the time period represented by that sample
+T553	ROOT_SENTENCE 6177 6342	In addition, there are four sample_flat.spX bits which are set if no useful audio data was available at the Source during the time period represented by that sample.
+T552	KEY_C 6025 6027	If
+T554	VARIABLE 6028 6036	the Sink
+T555	CONDITION 6046 6076	receive a GCP with non-zero CD
+T556	CONDITION 6077 6117	for more than 4 consecutive video fields
+T557	AND 6046 6117	receive a GCP with non-zero CD for more than 4 consecutive video fields
+T558	NEGATION 6037 6117	does not receive a GCP with non-zero CD for more than 4 consecutive video fields
+T559	STATEMENT 6028 6117	the Sink does not receive a GCP with non-zero CD for more than 4 consecutive video fields
+T560	VARIABLE 6119 6121	it
+T561	CONDITION 6122 6174	should exit deep color mode (revert to 24-bit color)
+T562	STATEMENT 6119 6174	it should exit deep color mode (revert to 24-bit color)
+T563	CAUSE 6025 6117	If the Sink does not receive a GCP with non-zero CD for more than 4 consecutive video fields
+T564	CAUSE_EFFECT_RELATION 6025 6174	If the Sink does not receive a GCP with non-zero CD for more than 4 consecutive video fields, it should exit deep color mode (revert to 24-bit color)
+T565	ROOT_SENTENCE 6025 6175	If the Sink does not receive a GCP with non-zero CD for more than 4 consecutive video fields, it should exit deep color mode (revert to 24-bit color).
+T566	KEY_C 5894 5896	If
+T567	VARIABLE 5897 5915	fewer than 12 bits
+T568	CONDITION 5916 5924	are used
+T569	STATEMENT 5897 5924	fewer than 12 bits are used
+T570	CAUSE 5894 5924	If fewer than 12 bits are used
+T571	VARIABLE 5926 5940	the valid bits
+T572	CONDITION 5941 5979	shall be left-justified (i.e. MSb=MSb)
+T573	CONDITION 5980 6022	with zeroes padding the bits below the LSb
+T574	AND 5941 6022	shall be left-justified (i.e. MSb=MSb) with zeroes padding the bits below the LSb
+T575	STATEMENT 5926 6022	the valid bits shall be left-justified (i.e. MSb=MSb) with zeroes padding the bits below the LSb
+T576	CAUSE_EFFECT_RELATION 5894 6022	If fewer than 12 bits are used, the valid bits shall be left-justified (i.e. MSb=MSb) with zeroes padding the bits below the LSb
+T577	ROOT_SENTENCE 5894 6023	If fewer than 12 bits are used, the valid bits shall be left-justified (i.e. MSb=MSb) with zeroes padding the bits below the LSb.
+T578	VARIABLE 5766 5786	All Deep Color modes
+T581	VARIABLE 5810 5824	an HDMI Source
+T582	VARIABLE 5828 5832	Sink
+T583	OR 5810 5832	an HDMI Source or Sink
+T584	CONDITION 5833 5861	supports any Deep Color mode
+T585	VARIABLE 5863 5865	it
+T586	CONDITION 5866 5891	shall support 36-bit mode
+T587	STATEMENT 5863 5891	it shall support 36-bit mode
+T579	CONDITION 5787 5799	are optional
+T588	KEY_C 5800 5809	though if
+T580	NONE_CAUSAL 5766 5799	All Deep Color modes are optional
+T589	CAUSE 5800 5861	though if an HDMI Source or Sink supports any Deep Color mode
+T590	STATEMENT 5810 5861	an HDMI Source or Sink supports any Deep Color mode
+T591	CAUSE_EFFECT_RELATION 5800 5891	though if an HDMI Source or Sink supports any Deep Color mode, it shall support 36-bit mode
+T592	ROOT_SENTENCE 5766 5892	All Deep Color modes are optional though if an HDMI Source or Sink supports any Deep Color mode, it shall support 36-bit mode.
+T599	KEY_C 5214 5216	If
+T600	VARIABLE 5217 5227	the Status
+T601	CONDITION 5228 5241	is DROP_FRAME
+T602	VARIABLE 5243 5245	it
+T603	CONDITION 5246 5270	silently drops the frame
+T604	STATEMENT 5243 5270	it silently drops the frame
+T605	STATEMENT 5217 5241	the Status is DROP_FRAME
+T606	CAUSE 5214 5241	If the Status is DROP_FRAME
+T607	CAUSE_EFFECT_RELATION 5214 5270	If the Status is DROP_FRAME, it silently drops the frame
+T608	ROOT_SENTENCE 5214 5271	If the Status is DROP_FRAME, it silently drops the frame.
+T609	KEY_C 5273 5275	If
+T610	VARIABLE 5276 5292	two HDMI Sources
+T611	CONDITION 5293 5335	are connected together with a single cable
+T612	VARIABLE 5340 5346	damage
+T613	CONDITION 5347 5381	can occur to either of the Sources
+T614	STATEMENT 5340 5381	damage can occur to either of the Sources
+T615	NEGATION 5337 5381	no damage can occur to either of the Sources
+T616	STATEMENT 5276 5335	two HDMI Sources are connected together with a single cable
+T617	CAUSE 5273 5335	If two HDMI Sources are connected together with a single cable
+T618	CAUSE_EFFECT_RELATION 5273 5381	If two HDMI Sources are connected together with a single cable, no damage can occur to either of the Sources
+T619	ROOT_SENTENCE 5273 5382	If two HDMI Sources are connected together with a single cable, no damage can occur to either of the Sources.
+T620	KEY_C 5384 5386	If
+T621	VARIABLE 5387 5395	a packet
+T622	CONDITION 5396 5449	contains metadata for the currently transmitted video
+T623	VARIABLE 5451 5473	Affected_Gamut_Seq_Num
+T624	CONDITION 5474 5512	will be equal to Current_Gamut_Seq_Num
+T625	STATEMENT 5451 5512	Affected_Gamut_Seq_Num will be equal to Current_Gamut_Seq_Num
+T626	STATEMENT 5387 5449	a packet contains metadata for the currently transmitted video
+T627	CAUSE 5384 5449	If a packet contains metadata for the currently transmitted video
+T628	CAUSE_EFFECT_RELATION 5384 5512	If a packet contains metadata for the currently transmitted video, Affected_Gamut_Seq_Num will be equal to Current_Gamut_Seq_Num
+T629	ROOT_SENTENCE 5384 5513	If a packet contains metadata for the currently transmitted video, Affected_Gamut_Seq_Num will be equal to Current_Gamut_Seq_Num.
+T630	KEY_C 5515 5517	If
+T631	VARIABLE 5518 5525	the GBD
+T632	CONDITION 5526 5554	ends midway through a packet
+T633	VARIABLE 5556 5576	the rest of the body
+T634	CONDITION 5577 5618	shall be filled with zeroes by the Source
+T635	CONDITION 5623 5651	shall be ignored by the Sink
+T636	AND 5577 5651	shall be filled with zeroes by the Source and shall be ignored by the Sink
+T637	STATEMENT 5556 5651	the rest of the body shall be filled with zeroes by the Source and shall be ignored by the Sink
+T638	STATEMENT 5518 5554	the GBD ends midway through a packet
+T639	CAUSE 5515 5554	If the GBD ends midway through a packet
+T640	CAUSE_EFFECT_RELATION 5515 5651	If the GBD ends midway through a packet, the rest of the body shall be filled with zeroes by the Source and shall be ignored by the Sink
+T641	ROOT_SENTENCE 5515 5652	If the GBD ends midway through a packet, the rest of the body shall be filled with zeroes by the Source and shall be ignored by the Sink.
+T642	KEY_C 5654 5656	If
+T643	VARIABLE 5657 5670	too many ones
+T644	CONDITION 5671 5692	have been transmitted
+T645	VARIABLE 5697 5706	the input
+T646	CONDITION 5707 5736	contains more ones than zeros
+T647	STATEMENT 5697 5736	the input contains more ones than zeros
+T648	STATEMENT 5657 5692	too many ones have been transmitted
+T649	AND 5657 5736	too many ones have been transmitted and the input contains more ones than zeros
+T650	VARIABLE 5738 5751	the code word
+T651	CONDITION 5752 5763	is inverted
+T652	STATEMENT 5738 5763	the code word is inverted
+T653	CAUSE 5654 5736	If too many ones have been transmitted and the input contains more ones than zeros
+T654	CAUSE_EFFECT_RELATION 5654 5763	If too many ones have been transmitted and the input contains more ones than zeros, the code word is inverted
+T655	ROOT_SENTENCE 5654 5764	If too many ones have been transmitted and the input contains more ones than zeros, the code word is inverted.
+T656	KEY_C 1964 1968	that
+T657	CAUSE 1964 2007	that does not have support for this command
+T183	CAUSE 1917 1963	if they are communicating with a legacy device

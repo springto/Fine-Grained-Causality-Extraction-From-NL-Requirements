@@ -1,0 +1,276 @@
+T1	VARIABLE 5 16	this option
+T2	CONDITION 17 29	is turned on
+T3	STATEMENT 5 29	this option is turned on
+T4	KEY_C 0 4	When
+T5	CAUSE 0 29	When this option is turned on
+T6	VARIABLE 31 51	secure edit controls
+T7	CONDITION 52 85	stronger than the ones of Windows
+T8	CONDITION 86 110	are protecting your data
+T10	STATEMENT 31 110	secure edit controls stronger than the ones of Windows are protecting your data
+T11	AND 52 110	stronger than the ones of Windows are protecting your data
+T12	VARIABLE 118 121	one
+T9	CONDITION 122 137	can access them
+T13	STATEMENT 118 161	one can access them, see them or steal them
+T14	CONDITION 139 147	see them
+T15	CONDITION 151 161	steal them
+T16	OR 139 161	see them or steal them
+T17	OR 122 161	can access them, see them or steal them
+T18	NEGATION 115 161	no one can access them, see them or steal them
+T19	AND 31 161	secure edit controls stronger than the ones of Windows are protecting your data and no one can access them, see them or steal them
+T20	CAUSE_EFFECT_RELATION 0 161	When this option is turned on, secure edit controls stronger than the ones of Windows are protecting your data and no one can access them, see them or steal them
+T21	ROOT_SENTENCE 0 162	When this option is turned on, secure edit controls stronger than the ones of Windows are protecting your data and no one can access them, see them or steal them.
+T22	VARIABLE 170 182	placeholders
+T23	CONDITION 183 194	can be used
+T24	CONDITION 200 230	will be automatically replaced
+T25	KEY_C 195 199	that
+T26	EFFECT 195 230	that will be automatically replaced
+T27	KEY_C 231 235	when
+T28	VARIABLE 236 243	the URL
+T29	CONDITION 244 255	is executed
+T30	STATEMENT 236 255	the URL is executed
+T31	CAUSE 231 255	when the URL is executed
+T32	CAUSE_EFFECT_RELATION 195 255	that will be automatically replaced when the URL is executed
+T33	STATEMENT 170 194	placeholders can be used
+T34	NONE_CAUSAL 164 194	Also, placeholders can be used
+T35	ROOT_SENTENCE 164 256	Also, placeholders can be used that will be automatically replaced when the URL is executed.
+T36	KEY_C 14534 14538	When
+T37	VARIABLE 14539 14549	ventilator
+T38	CONDITION 14550 14576	is provided above the door
+T39	VARIABLE 14578 14589	full length
+T40	CONDITION 14591 14629	of the vertical post shall be provided
+T41	STATEMENT 14578 14629	full length, of the vertical post shall be provided
+T42	STATEMENT 14539 14576	ventilator is provided above the door
+T43	CAUSE 14534 14576	When ventilator is provided above the door
+T44	CAUSE_EFFECT_RELATION 14534 14629	When ventilator is provided above the door, full length, of the vertical post shall be provided
+T45	ROOT_SENTENCE 14534 14630	When ventilator is provided above the door, full length, of the vertical post shall be provided.
+T46	VARIABLE 14441 14454	The aggregate
+T47	CONDITION 14455 14485	shall comply with IS 383/3.2 s
+T48	KEY_C 14486 14490	when
+T49	VARIABLE 14491 14497	tested
+T50	CONDITION 14498 14531	in accordance with IS 2386 Part 7
+T51	STATEMENT 14491 14531	tested in accordance with IS 2386 Part 7
+T52	CAUSE 14486 14531	when tested in accordance with IS 2386 Part 7
+T53	STATEMENT 14441 14485	The aggregate shall comply with IS 383/3.2 s
+T54	CAUSE_EFFECT_RELATION 14441 14531	The aggregate shall comply with IS 383/3.2 s when tested in accordance with IS 2386 Part 7
+T55	ROOT_SENTENCE 14441 14532	The aggregate shall comply with IS 383/3.2 s when tested in accordance with IS 2386 Part 7.
+T56	VARIABLE 14281 14294	The aggregate
+T57	KEY_C 14393 14397	when
+T58	VARIABLE 14398 14404	tested
+T59	CONDITION 14405 14438	in accordance with IS 2386 Part 4
+T60	STATEMENT 14398 14438	tested in accordance with IS 2386 Part 4
+T61	CAUSE 14393 14438	when tested in accordance with IS 2386 Part 4
+T63	NEGATION 14355 14392	not more than 45% for other structure
+T64	AND 14295 14392	shall have ACV not more than 30% for pavement structure and not more than 45% for other structure
+T65	STATEMENT 14281 14392	The aggregate shall have ACV not more than 30% for pavement structure and not more than 45% for other structure
+T66	CONDITION 14359 14392	more than 45% for other structure
+T67	CONDITION 14314 14350	more than 30% for pavement structure
+T68	NEGATION 14310 14350	not more than 30% for pavement structure
+T62	AND 14310 14392	not more than 30% for pavement structure and not more than 45% for other structure
+T69	CONDITION 14295 14309	shall have ACV
+T70	CAUSE_EFFECT_RELATION 14281 14438	The aggregate shall have ACV not more than 30% for pavement structure and not more than 45% for other structure when tested in accordance with IS 2386 Part 4
+T71	ROOT_SENTENCE 14281 14439	The aggregate shall have ACV not more than 30% for pavement structure and not more than 45% for other structure when tested in accordance with IS 2386 Part 4.
+T72	VARIABLE 14114 14127	The aggregate
+T73	CONDITION 14128 14142	shall have LAA
+T74	CONDITION 14147 14182	more than 45% for ordinary concrete
+T75	CONDITION 14192 14231	more than 35% for high quality concrete
+T76	NEGATION 14188 14231	not more than 35% for high quality concrete
+T77	NEGATION 14143 14182	not more than 45% for ordinary concrete
+T78	AND 14143 14231	not more than 45% for ordinary concrete, and not more than 35% for high quality concrete
+T79	AND 14128 14231	shall have LAA not more than 45% for ordinary concrete, and not more than 35% for high quality concrete
+T80	STATEMENT 14114 14231	The aggregate shall have LAA not more than 45% for ordinary concrete, and not more than 35% for high quality concrete
+T81	KEY_C 14233 14237	when
+T82	VARIABLE 14238 14244	tested
+T83	CONDITION 14245 14278	in accordance with IS 2386 Part 4
+T84	STATEMENT 14238 14278	tested in accordance with IS 2386 Part 4
+T85	CAUSE 14233 14278	when tested in accordance with IS 2386 Part 4
+T86	CAUSE_EFFECT_RELATION 14114 14278	The aggregate shall have LAA not more than 45% for ordinary concrete, and not more than 35% for high quality concrete, when tested in accordance with IS 2386 Part 4
+T87	ROOT_SENTENCE 14114 14279	The aggregate shall have LAA not more than 45% for ordinary concrete, and not more than 35% for high quality concrete, when tested in accordance with IS 2386 Part 4.
+T88	KEY_C 14071 14075	when
+T89	VARIABLE 14076 14082	tested
+T90	CONDITION 14083 14111	as set out in IS 2386 Part 3
+T91	STATEMENT 14076 14111	tested as set out in IS 2386 Part 3
+T92	CAUSE 14071 14111	when tested as set out in IS 2386 Part 3
+T93	VARIABLE 14001 14014	The aggregate
+T94	CONDITION 14025 14070	have water absorption of more than 2 per cent
+T95	NEGATION 14015 14070	shall not have water absorption of more than 2 per cent
+T96	STATEMENT 14001 14070	The aggregate shall not have water absorption of more than 2 per cent
+T97	CAUSE_EFFECT_RELATION 14001 14111	The aggregate shall not have water absorption of more than 2 per cent when tested as set out in IS 2386 Part 3
+T98	ROOT_SENTENCE 14001 14112	The aggregate shall not have water absorption of more than 2 per cent when tested as set out in IS 2386 Part 3.
+T99	VARIABLE 7077 7090	This use case
+T100	CONDITION 7091 7103	will be used
+T101	VARIABLE 7109 7117	an actor
+T102	CONDITION 7118 7178	needs to manage the quick links located on the WUT Home Page
+T103	KEY_C 7104 7108	when
+T104	STATEMENT 7109 7178	an actor needs to manage the quick links located on the WUT Home Page
+T105	STATEMENT 7077 7103	This use case will be used
+T106	CAUSE 7104 7178	when an actor needs to manage the quick links located on the WUT Home Page
+T107	CAUSE_EFFECT_RELATION 7077 7178	This use case will be used when an actor needs to manage the quick links located on the WUT Home Page
+T108	ROOT_SENTENCE 7077 7179	This use case will be used when an actor needs to manage the quick links located on the WUT Home Page.
+T109	VARIABLE 7213 7221	an actor
+T110	CONDITION 7222 7289	needs to maintain water use estimation values for water use permits
+T111	VARIABLE 7181 7194	This use case
+T112	CONDITION 7195 7207	will be used
+T113	KEY_C 7208 7212	when
+T114	STATEMENT 7213 7289	an actor needs to maintain water use estimation values for water use permits
+T115	STATEMENT 7181 7207	This use case will be used
+T116	CAUSE 7208 7289	when an actor needs to maintain water use estimation values for water use permits
+T117	CAUSE_EFFECT_RELATION 7181 7289	This use case will be used when an actor needs to maintain water use estimation values for water use permits
+T118	ROOT_SENTENCE 7181 7290	This use case will be used when an actor needs to maintain water use estimation values for water use permits.
+T119	VARIABLE 312 321	minimized
+T120	VARIABLE 258 270	This feature
+T121	CONDITION 271 283	is turned on
+T122	CONDITION 288 306	locks the database
+T123	KEY_C 307 311	when
+T124	CONDITION 271 306	is turned on and locks the database
+T125	STATEMENT 258 306	This feature is turned on and locks the database
+T126	CAUSE 307 321	when minimized
+T127	CAUSE_EFFECT_RELATION 258 321	This feature is turned on and locks the database when minimized
+T128	ROOT_SENTENCE 258 322	This feature is turned on and locks the database when minimized.
+T129	VARIABLE 897 901	this
+T130	CONDITION 902 909	happens
+T131	VARIABLE 911 931	a list of data types
+T132	CONDITION 932 961	that can be printed are shown
+T133	VARIABLE 966 974	the user
+T134	CONDITION 975 1008	can select the data to be printed
+T135	STATEMENT 966 1008	the user can select the data to be printed
+T136	STATEMENT 911 961	a list of data types that can be printed are shown
+T137	AND 911 1008	a list of data types that can be printed are shown and the user can select the data to be printed
+T138	KEY_C 892 896	When
+T139	STATEMENT 897 909	this happens
+T140	CAUSE 892 909	When this happens
+T141	CAUSE_EFFECT_RELATION 892 1008	When this happens, a list of data types that can be printed are shown and the user can select the data to be printed
+T142	ROOT_SENTENCE 892 1009	When this happens, a list of data types that can be printed are shown and the user can select the data to be printed.
+T143	VARIABLE 2986 3002	using parameters
+T144	KEY_C 2981 2985	when
+T145	VARIABLE 2939 2944	There
+T146	CONDITION 2945 2980	is always the possibility of errors
+T147	CAUSE 2981 3002	when using parameters
+T148	STATEMENT 2939 2980	There is always the possibility of errors
+T149	CAUSE_EFFECT_RELATION 2939 3002	There is always the possibility of errors when using parameters
+T150	ROOT_SENTENCE 2939 3003	There is always the possibility of errors when using parameters.
+T151	VARIABLE 3253 3273	evaluating overrides
+T152	VARIABLE 3210 3227	The default value
+T153	CONDITION 3228 3247	has lowest priority
+T154	KEY_C 3248 3252	when
+T155	CAUSE 3248 3273	when evaluating overrides
+T156	STATEMENT 3210 3247	The default value has lowest priority
+T157	CAUSE_EFFECT_RELATION 3210 3273	The default value has lowest priority when evaluating overrides
+T158	ROOT_SENTENCE 3210 3274	The default value has lowest priority when evaluating overrides.
+T159	VARIABLE 2196 2198	it
+T160	CONDITION 2199 2236	remains on memory for only 10 seconds
+T161	VARIABLE 2174 2184	a password
+T162	CONDITION 2185 2194	is copied
+T163	KEY_C 2169 2173	When
+T164	STATEMENT 2174 2194	a password is copied
+T165	STATEMENT 2196 2236	it remains on memory for only 10 seconds
+T166	CAUSE 2169 2194	When a password is copied
+T167	CAUSE_EFFECT_RELATION 2169 2236	When a password is copied, it remains on memory for only 10 seconds
+T168	ROOT_SENTENCE 2169 2237	When a password is copied, it remains on memory for only 10 seconds.
+T169	VARIABLE 2099 2104	a TAN
+T170	NONE_CAUSAL 2086 2093	REQ-33:
+T171	KEY_C 2094 2098	When
+T172	CONDITION 2105 2112	is used
+T173	VARIABLE 2114 2116	it
+T174	CONDITION 2117 2138	expires automatically
+T175	CONDITION 2153 2166	be used again
+T176	NEGATION 2143 2166	can never be used again
+T177	AND 2117 2166	expires automatically and can never be used again
+T178	STATEMENT 2114 2166	it expires automatically and can never be used again
+T179	CAUSE 2094 2112	When a TAN is used
+T180	STATEMENT 2099 2112	a TAN is used
+T181	CAUSE_EFFECT_RELATION 2094 2166	When a TAN is used, it expires automatically and can never be used again
+T182	ROOT_SENTENCE 2086 2167	REQ-33: When a TAN is used, it expires automatically and can never be used again.
+T183	VARIABLE 4925 4948	The ACCESSIBLE platform
+T184	CONDITION 4949 4965	should work fine
+T185	KEY_C 4966 4975	also when
+T186	VARIABLE 4976 4985	the users
+T187	CONDITION 4986 5028	are connected with a low bandwidth network
+T188	STATEMENT 4976 5028	the users are connected with a low bandwidth network
+T189	CAUSE 4966 5028	also when the users are connected with a low bandwidth network
+T190	STATEMENT 4925 4965	The ACCESSIBLE platform should work fine
+T191	CAUSE_EFFECT_RELATION 4925 5028	The ACCESSIBLE platform should work fine also when the users are connected with a low bandwidth network
+T192	ROOT_SENTENCE 4925 5029	The ACCESSIBLE platform should work fine also when the users are connected with a low bandwidth network.
+T193	VARIABLE 5644 5660	a timed response
+T194	CONDITION 5661 5672	is required
+T195	KEY_C 5639 5643	When
+T196	NONE_CAUSAL 5627 5638	O-REQ4.2-1:
+T197	VARIABLE 5674 5682	the user
+T198	CONDITION 5683 5699	shall be alerted
+T199	KEY_C 5774 5778	When
+T200	CONDITION 5704 5759	given sufficient time to indicate more time is required
+T201	AND 5683 5759	shall be alerted and given sufficient time to indicate more time is required
+T202	STATEMENT 5674 5759	the user shall be alerted and given sufficient time to indicate more time is required
+T203	CAUSE 5639 5672	When a timed response is required
+T204	STATEMENT 5644 5672	a timed response is required
+T205	CAUSE_EFFECT_RELATION 5639 5759	When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required
+T207	ROOT_SENTENCE 5627 5760	O-REQ4.2-1: When a timed response is required, the user shall be alerted and given sufficient time to indicate more time is required.
+T206	VARIABLE 5779 5805	a time consuming operation
+T208	CONDITION 5806 5820	is carried out
+T209	VARIABLE 5821 5834	the interface
+T210	CONDITION 5835 5861	should still remain active
+T211	NONE_CAUSAL 5762 5773	R-REQ4.2-3:
+T212	CAUSE 5774 5820	When a time consuming operation is carried out
+T213	STATEMENT 5779 5820	a time consuming operation is carried out
+T214	STATEMENT 5821 5861	the interface should still remain active
+T215	CAUSE_EFFECT_RELATION 5774 5861	When a time consuming operation is carried out the interface should still remain active
+T216	ROOT_SENTENCE 5762 5862	R-REQ4.2-3: When a time consuming operation is carried out the interface should still remain active.
+T217	VARIABLE 11031 11045	This operation
+T218	CONDITION 11046 11061	shall be evoked
+T219	KEY_C 11062 11066	when
+T220	VARIABLE 11067 11079	the Operator
+T221	CONDITION 11080 11119	changes the Fan Switch position in UI01
+T222	STATEMENT 11067 11119	the Operator changes the Fan Switch position in UI01
+T223	CAUSE 11062 11119	when the Operator changes the Fan Switch position in UI01
+T224	STATEMENT 11031 11061	This operation shall be evoked
+T225	CAUSE_EFFECT_RELATION 11031 11119	This operation shall be evoked when the Operator changes the Fan Switch position in UI01
+T226	ROOT_SENTENCE 11031 11120	This operation shall be evoked when the Operator changes the Fan Switch position in UI01.
+T227	VARIABLE 11122 11136	This operation
+T228	CONDITION 11137 11152	shall be evoked
+T229	VARIABLE 11158 11170	the operator
+T230	CONDITION 11171 11208	presses Temperature Up button in UI01
+T231	KEY_C 11153 11157	when
+T232	STATEMENT 11158 11208	the operator presses Temperature Up button in UI01
+T233	STATEMENT 11122 11152	This operation shall be evoked
+T234	CAUSE 11153 11208	when the operator presses Temperature Up button in UI01
+T235	CAUSE_EFFECT_RELATION 11122 11208	This operation shall be evoked when the operator presses Temperature Up button in UI01
+T236	ROOT_SENTENCE 11122 11209	This operation shall be evoked when the operator presses Temperature Up button in UI01.
+T237	KEY_C 13103 13107	When
+T238	VARIABLE 13108 13132	preparing gravel samples
+T239	VARIABLE 13134 13163	the aggregations of particles
+T240	CONDITION 13164 13193	shall be broken with a wooden
+T241	CONDITION 13197 13210	rubber hammer
+T242	CONDITION 13214 13220	pestle
+T243	OR 13197 13220	rubber hammer or pestle
+T244	OR 13164 13220	shall be broken with a wooden or rubber hammer or pestle
+T245	STATEMENT 13134 13220	the aggregations of particles shall be broken with a wooden or rubber hammer or pestle
+T246	CAUSE 13103 13132	When preparing gravel samples
+T247	CAUSE_EFFECT_RELATION 13103 13220	When preparing gravel samples, the aggregations of particles shall be broken with a wooden or rubber hammer or pestle
+T248	ROOT_SENTENCE 13103 13221	When preparing gravel samples, the aggregations of particles shall be broken with a wooden or rubber hammer or pestle.
+T249	VARIABLE 10502 10509	the fan
+T250	CONDITION 10510 10533	is in the s_FanOn state
+T251	VARIABLE 10535 10542	the fan
+T252	CONDITION 10543 10560	runs continuously
+T253	STATEMENT 10535 10560	the fan runs continuously
+T254	KEY_C 10497 10501	When
+T255	STATEMENT 10502 10533	the fan is in the s_FanOn state
+T256	CAUSE 10497 10533	When the fan is in the s_FanOn state
+T257	CAUSE_EFFECT_RELATION 10497 10560	When the fan is in the s_FanOn state, the fan runs continuously
+T258	ROOT_SENTENCE 10497 10561	When the fan is in the s_FanOn state, the fan runs continuously.
+T259	KEY_C 10563 10567	When
+T260	VARIABLE 10568 10575	the fan
+T261	CONDITION 10576 10601	is in the s_FanAuto state
+T262	VARIABLE 10603 10605	it
+T263	CONDITION 10606 10610	runs
+T264	KEY_C 10611 10620	only when
+T265	VARIABLE 10621 10632	the furnace
+T266	VARIABLE 10636 10655	the air conditioner
+T267	CONDITION 10656 10669	are operating
+T268	OR 10621 10655	the furnace or the air conditioner
+T269	STATEMENT 10621 10669	the furnace or the air conditioner are operating
+T270	CAUSE 10611 10669	only when the furnace or the air conditioner are operating
+T271	STATEMENT 10603 10610	it runs
+T272	CAUSE_EFFECT_RELATION 10603 10669	it runs only when the furnace or the air conditioner are operating
+T273	STATEMENT 10568 10601	the fan is in the s_FanAuto state
+T274	CAUSE 10563 10601	When the fan is in the s_FanAuto state
+T275	CAUSE_EFFECT_RELATION 10563 10669	When the fan is in the s_FanAuto state, it runs only when the furnace or the air conditioner are operating
+T276	ROOT_SENTENCE 10563 10670	When the fan is in the s_FanAuto state, it runs only when the furnace or the air conditioner are operating.

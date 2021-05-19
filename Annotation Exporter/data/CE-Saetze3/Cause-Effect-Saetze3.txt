@@ -1,0 +1,696 @@
+T1	VARIABLE 22 38	structure return
+T2	VARIABLE 61 64	hot
+T3	CONDITION 82 103	are tested separately
+T4	KEY_C 7 21	in the case of
+T5	CAUSE 7 38	in the case of structure return
+T6	NEGATION 0 38	Except in the case of structure return
+T7	STATEMENT 61 103	hot and return wires are tested separately
+T8	NONE_CAUSAL 40 59	for each power line
+T9	CAUSE_EFFECT_RELATION 0 103	Except in the case of structure return, for each power line, hot and return wires are tested separately
+T10	ROOT_SENTENCE 0 104	Except in the case of structure return, for each power line, hot and return wires are tested separately.
+T11	VARIABLE 125 144	specified in 4.6.4d
+T12	KEY_C 113 124	in the case
+T13	CAUSE 113 144	in the case specified in 4.6.4d
+T14	NEGATION 106 144	Except in the case specified in 4.6.4d
+T15	VARIABLE 146 182	composite structure acceptance tests
+T16	CONDITION 183 220	shall be performed at component level
+T17	CONDITION 224 252	on fully assembled structure
+T18	STATEMENT 146 252	composite structure acceptance tests shall be performed at component level or on fully assembled structure
+T19	OR 183 252	shall be performed at component level or on fully assembled structure
+T20	CAUSE_EFFECT_RELATION 106 252	Except in the case specified in 4.6.4d, composite structure acceptance tests shall be performed at component level or on fully assembled structure
+T21	ROOT_SENTENCE 106 253	Except in the case specified in 4.6.4d, composite structure acceptance tests shall be performed at component level or on fully assembled structure.
+T22	KEY_C 262 273	in the case
+T23	VARIABLE 274 295	specified in 4.3.2.1d
+T24	CAUSE 262 295	in the case specified in 4.3.2.1d
+T25	NEGATION 255 295	Except in the case specified in 4.3.2.1d
+T26	VARIABLE 297 327	‘safe life item’ demonstration
+T27	CONDITION 328 358	shall be performed by analysis
+T28	CONDITION 362 402	test in conformance with ECSS‐E‐ST‐32‐01
+T29	OR 328 402	shall be performed by analysis or test in conformance with ECSS‐E‐ST‐32‐01
+T30	STATEMENT 297 402	‘safe life item’ demonstration shall be performed by analysis or test in conformance with ECSS‐E‐ST‐32‐01
+T31	CAUSE_EFFECT_RELATION 255 402	Except in the case specified in 4.3.2.1d, ‘safe life item’ demonstration shall be performed by analysis or test in conformance with ECSS‐E‐ST‐32‐01
+T32	ROOT_SENTENCE 255 403	Except in the case specified in 4.3.2.1d, ‘safe life item’ demonstration shall be performed by analysis or test in conformance with ECSS‐E‐ST‐32‐01.
+T33	VARIABLE 440 475	requirements for ‘fatigue analysis’
+T34	CONDITION 476 525	shall be applied in conformance with ECSS‐E‐ST‐32
+T35	KEY_C 405 416	In the case
+T36	VARIABLE 417 438	specified in 4.3.2.1d
+T37	CAUSE 405 438	In the case specified in 4.3.2.1d
+T38	STATEMENT 440 525	requirements for ‘fatigue analysis’ shall be applied in conformance with ECSS‐E‐ST‐32
+T39	CAUSE_EFFECT_RELATION 405 525	In the case specified in 4.3.2.1d, requirements for ‘fatigue analysis’ shall be applied in conformance with ECSS‐E‐ST‐32
+T40	ROOT_SENTENCE 405 526	In the case specified in 4.3.2.1d, requirements for ‘fatigue analysis’ shall be applied in conformance with ECSS‐E‐ST‐32.
+T41	KEY_C 1126 1142	In the case that
+T42	VARIABLE 1143 1151	4.6.3.2c
+T43	NEGATION 1152 1170	cannot be achieved
+T44	STATEMENT 1143 1170	4.6.3.2c cannot be achieved
+T45	CAUSE 1126 1170	In the case that 4.6.3.2c cannot be achieved
+T46	VARIABLE 1172 1191	station calibration
+T47	CONDITION 1263 1282	should be performed
+T48	CONDITION 1195 1262	different frequencies over the mission specific frequency variation
+T49	KEY_C 1192 1194	at
+T50	EFFECT 1192 1262	at different frequencies over the mission specific frequency variation
+T51	AND 1172 1282	station calibration at different frequencies over the mission specific frequency variation should be performed
+T52	CAUSE_EFFECT_RELATION 1126 1282	In the case that 4.6.3.2c cannot be achieved, station calibration at different frequencies over the mission specific frequency variation should be performed
+T53	ROOT_SENTENCE 1126 1283	In the case that 4.6.3.2c cannot be achieved, station calibration at different frequencies over the mission specific frequency variation should be performed.
+T54	KEY_C 1580 1594	In the case of
+T55	VARIABLE 1595 1617	digital implementation
+T56	VARIABLE 1619 1650	the FIR filter impulse response
+T57	CONDITION 1651 1681	shall be at least 16 bits long
+T58	STATEMENT 1619 1681	the FIR filter impulse response shall be at least 16 bits long
+T59	CAUSE 1580 1617	In the case of digital implementation
+T60	CAUSE_EFFECT_RELATION 1580 1681	In the case of digital implementation, the FIR filter impulse response shall be at least 16 bits long
+T61	ROOT_SENTENCE 1580 1682	In the case of digital implementation, the FIR filter impulse response shall be at least 16 bits long.
+T62	KEY_C 4765 4779	In the case of
+T63	VARIABLE 4780 4797	inorganic glasses
+T64	VARIABLE 4798 4809	pure silica
+T65	CONDITION 4810 4824	should be used
+T66	STATEMENT 4798 4824	pure silica should be used
+T67	CAUSE 4765 4797	In the case of inorganic glasses
+T68	CAUSE_EFFECT_RELATION 4765 4824	In the case of inorganic glasses pure silica should be used
+T69	ROOT_SENTENCE 4765 4825	In the case of inorganic glasses pure silica should be used.
+T70	VARIABLE 1297 1320	specified in 6.1.4.1.2a
+T71	KEY_C 1285 1296	In the case
+T72	KEY_C 1321 1325	when
+T73	VARIABLE 1326 1348	the 4 ksps symbol rate
+T74	CONDITION 1349 1356	is used
+T75	VARIABLE 1358 1372	the subcarrier
+T76	CONDITION 1373 1388	shall be 16 kHz
+T77	STATEMENT 1358 1388	the subcarrier shall be 16 kHz
+T78	STATEMENT 1326 1356	the 4 ksps symbol rate is used
+T79	CAUSE 1321 1356	when the 4 ksps symbol rate is used
+T80	CAUSE 1285 1320	In the case specified in 6.1.4.1.2a
+T81	AND 1285 1356	In the case specified in 6.1.4.1.2a when the 4 ksps symbol rate is used
+T82	CAUSE_EFFECT_RELATION 1285 1388	In the case specified in 6.1.4.1.2a when the 4 ksps symbol rate is used, the subcarrier shall be 16 kHz
+T83	ROOT_SENTENCE 1285 1389	In the case specified in 6.1.4.1.2a when the 4 ksps symbol rate is used, the subcarrier shall be 16 kHz.
+T84	KEY_C 1869 1883	in the case of
+T85	VARIABLE 1884 1919	support by an external space agency
+T86	VARIABLE 1921 1931	provisions
+T87	CONDITION 1932 1967	are given in Annex E, requirement d
+T88	NONE_CAUSAL 1860 1867	However
+T89	CAUSE 1869 1919	in the case of support by an external space agency
+T90	STATEMENT 1921 1967	provisions are given in Annex E, requirement d
+T91	CAUSE_EFFECT_RELATION 1869 1967	in the case of support by an external space agency, provisions are given in Annex E, requirement d
+T92	ROOT_SENTENCE 1860 1968	However, in the case of support by an external space agency, provisions are given in Annex E, requirement d.
+T93	KEY_C 3588 3605	In the case where
+T94	VARIABLE 3606 3619	opposed wires
+T95	CONDITION 3620 3630	are tested
+T96	VARIABLE 3631 3667	a specifically designed test fixture
+T97	CONDITION 3668 3681	shall be used
+T98	STATEMENT 3631 3681	a specifically designed test fixture shall be used
+T99	STATEMENT 3606 3630	opposed wires are tested
+T100	CAUSE 3588 3630	In the case where opposed wires are tested
+T101	CAUSE_EFFECT_RELATION 3588 3681	In the case where opposed wires are tested a specifically designed test fixture shall be used
+T102	ROOT_SENTENCE 3588 3682	In the case where opposed wires are tested a specifically designed test fixture shall be used.
+T103	VARIABLE 3767 3797	the volt- age-drop measurement
+T104	CONDITION 3798 3829	shall be performed on each wire
+T105	STATEMENT 3767 3829	the volt- age-drop measurement shall be performed on each wire
+T106	KEY_C 3684 3698	In the case of
+T107	VARIABLE 3699 3702	two
+T108	VARIABLE 3706 3716	more wires
+T109	OR 3699 3716	two or more wires
+T110	CONDITION 3717 3750	being crimped in the same contact
+T111	CONDITION 3752 3755	lug
+T112	CONDITION 3759 3765	splice
+T113	OR 3752 3765	lug or splice
+T114	OR 3717 3765	being crimped in the same contact, lug or splice
+T115	STATEMENT 3699 3765	two or more wires being crimped in the same contact, lug or splice
+T116	CAUSE 3684 3765	In the case of two or more wires being crimped in the same contact, lug or splice
+T117	CAUSE_EFFECT_RELATION 3684 3829	In the case of two or more wires being crimped in the same contact, lug or splice, the volt- age-drop measurement shall be performed on each wire
+T118	ROOT_SENTENCE 3684 3830	In the case of two or more wires being crimped in the same contact, lug or splice, the volt- age-drop measurement shall be performed on each wire.
+T119	VARIABLE 4360 4363	NDI
+T120	CONDITION 4364 4438	is requested in the customer specification document for threaded fasteners
+T121	VARIABLE 4440 4452	the supplier
+T122	CONDITION 4453 4497	shall include in the RMC the date of the NDI
+T123	CONDITION 4499 4516	name of inspector
+T124	CONDITION 4518 4569	NDI results with description of any non-conformance
+T125	AND 4499 4569	name of inspector, NDI results with description of any non-conformance
+T126	AND 4453 4569	shall include in the RMC the date of the NDI, name of inspector, NDI results with description of any non-conformance
+T127	STATEMENT 4440 4569	the supplier shall include in the RMC the date of the NDI, name of inspector, NDI results with description of any non-conformance
+T128	STATEMENT 4360 4438	NDI is requested in the customer specification document for threaded fasteners
+T129	KEY_C 4342 4359	In the case where
+T130	CAUSE 4342 4438	In the case where NDI is requested in the customer specification document for threaded fasteners
+T131	CAUSE_EFFECT_RELATION 4342 4569	In the case where NDI is requested in the customer specification document for threaded fasteners, the supplier shall include in the RMC the date of the NDI, name of inspector, NDI results with description of any non-conformance
+T132	ROOT_SENTENCE 4342 4570	In the case where NDI is requested in the customer specification document for threaded fasteners, the supplier shall include in the RMC the date of the NDI, name of inspector, NDI results with description of any non-conformance.
+T133	VARIABLE 4590 4624	the number of non-conforming units
+T134	CONDITION 4625 4733	is greater than the acceptance level specified in the customer specification document for threaded fasteners
+T135	VARIABLE 4735 4744	the batch
+T136	CONDITION 4745 4762	shall be rejected
+T137	KEY_C 4572 4589	In the case where
+T138	STATEMENT 4590 4733	the number of non-conforming units is greater than the acceptance level specified in the customer specification document for threaded fasteners
+T139	CAUSE 4572 4733	In the case where the number of non-conforming units is greater than the acceptance level specified in the customer specification document for threaded fasteners
+T140	STATEMENT 4735 4762	the batch shall be rejected
+T141	CAUSE_EFFECT_RELATION 4572 4762	In the case where the number of non-conforming units is greater than the acceptance level specified in the customer specification document for threaded fasteners, the batch shall be rejected
+T142	ROOT_SENTENCE 4572 4763	In the case where the number of non-conforming units is greater than the acceptance level specified in the customer specification document for threaded fasteners, the batch shall be rejected.
+T143	VARIABLE 4842 4848	metals
+T144	VARIABLE 4850 4858	chemical
+T145	VARIABLE 4863 4886	electrochemical plating
+T146	CONDITION 4887 4898	can be used
+T147	VARIABLE 4911 4928	vacuum deposition
+T148	AND 4850 4886	chemical and electrochemical plating
+T149	STATEMENT 4850 4898	chemical and electrochemical plating can be used
+T150	AND 4850 4928	chemical and electrochemical plating can be used, as well as vacuum deposition
+T151	KEY_C 4827 4841	In the case of
+T152	CAUSE 4827 4848	In the case of metals
+T153	CAUSE_EFFECT_RELATION 4827 4928	In the case of metals, chemical and electrochemical plating can be used, as well as vacuum deposition
+T154	ROOT_SENTENCE 4827 4929	In the case of metals, chemical and electrochemical plating can be used, as well as vacuum deposition.
+T155	VARIABLE 4967 4975	the user
+T156	CONDITION 4983 5015	concerned with rubber processing
+T157	NEGATION 4976 5015	is not concerned with rubber processing
+T158	KEY_C 4938 4949	in the case
+T159	VARIABLE 4950 4965	mentioned above
+T160	CAUSE 4938 4965	in the case mentioned above
+T161	STATEMENT 4967 5015	the user is not concerned with rubber processing
+T162	NEGATION 4931 4965	Except in the case mentioned above
+T163	CAUSE_EFFECT_RELATION 4931 5015	Except in the case mentioned above, the user is not concerned with rubber processing
+T164	ROOT_SENTENCE 4931 5016	Except in the case mentioned above, the user is not concerned with rubber processing.
+T165	VARIABLE 6194 6198	SEEs
+T166	CONDITION 6199 6218	are non-destructive
+T167	VARIABLE 6238 6241	SEU
+T168	VARIABLE 6243 6246	SET
+T169	VARIABLE 6248 6251	MCU
+T170	VARIABLE 6257 6261	SEFI
+T171	KEY_C 6220 6237	as in the case of
+T172	NONE_CAUSAL 6189 6193	Some
+T173	STATEMENT 6194 6218	SEEs are non-destructive
+T174	AND 6248 6261	MCU, and SEFI
+T175	AND 6243 6261	SET, MCU, and SEFI
+T176	AND 6238 6261	SEU, SET, MCU, and SEFI
+T177	CAUSE 6220 6261	as in the case of SEU, SET, MCU, and SEFI
+T178	CAUSE_EFFECT_RELATION 6194 6261	SEEs are non-destructive, as in the case of SEU, SET, MCU, and SEFI
+T179	ROOT_SENTENCE 6189 6262	Some SEEs are non-destructive, as in the case of SEU, SET, MCU, and SEFI.
+T180	VARIABLE 6264 6284	Single event effects
+T181	CONDITION 6285 6308	can also be destructive
+T182	KEY_C 6309 6326	as in the case of
+T183	VARIABLE 6327 6343	single event SEL
+T184	VARIABLE 6345 6349	SEGR
+T185	VARIABLE 6355 6358	SEB
+T186	AND 6345 6358	SEGR, and SEB
+T187	AND 6327 6358	single event SEL, SEGR, and SEB
+T188	CAUSE 6309 6358	as in the case of single event SEL, SEGR, and SEB
+T189	STATEMENT 6264 6308	Single event effects can also be destructive
+T190	CAUSE_EFFECT_RELATION 6264 6358	Single event effects can also be destructive as in the case of single event SEL, SEGR, and SEB
+T191	ROOT_SENTENCE 6264 6359	Single event effects can also be destructive as in the case of single event SEL, SEGR, and SEB.
+T192	VARIABLE 6366 6383	the co‐passengers
+T193	CONDITION 6384 6418	can be the source of contamination
+T194	KEY_C 6419 6433	in the case of
+T195	VARIABLE 6434 6451	multiple launches
+T196	NONE_CAUSAL 6361 6365	Also
+T197	STATEMENT 6366 6418	the co‐passengers can be the source of contamination
+T198	CAUSE 6419 6451	in the case of multiple launches
+T199	CAUSE_EFFECT_RELATION 6366 6451	the co‐passengers can be the source of contamination in the case of multiple launches
+T200	ROOT_SENTENCE 6361 6452	Also the co‐passengers can be the source of contamination in the case of multiple launches.
+T201	VARIABLE 6469 6473	MIMI
+T202	VARIABLE 6475 6508	the operational temperature range
+T203	CONDITION 6509 6524	is -35 to +45°C
+T204	VARIABLE 6526 6547	the power consumption
+T205	VARIABLE 6552 6572	mass of the platform
+T206	CONDITION 6573 6582	are 2.5 W
+T207	CONDITION 6587 6593	3.5 kg
+T208	AND 6573 6593	are 2.5 W and 3.5 kg
+T209	NONE_CAUSAL 6595 6607	respectively
+T210	KEY_C 6454 6468	In the case of
+T211	CAUSE 6454 6473	In the case of MIMI
+T212	STATEMENT 6475 6524	the operational temperature range is -35 to +45°C
+T213	AND 6526 6572	the power consumption and mass of the platform
+T214	STATEMENT 6526 6593	the power consumption and mass of the platform are 2.5 W and 3.5 kg
+T215	AND 6475 6593	the operational temperature range is -35 to +45°C, the power consumption and mass of the platform are 2.5 W and 3.5 kg
+T216	CAUSE_EFFECT_RELATION 6454 6593	In the case of MIMI, the operational temperature range is -35 to +45°C, the power consumption and mass of the platform are 2.5 W and 3.5 kg
+T217	ROOT_SENTENCE 6454 6608	In the case of MIMI, the operational temperature range is -35 to +45°C, the power consumption and mass of the platform are 2.5 W and 3.5 kg, respectively.
+T218	VARIABLE 6625 6661	complex (i.e., multi-byte) languages
+T219	VARIABLE 6663 6674	expressions
+T220	CONDITION 6675 6720	can be written in a mixture of character sets
+T221	KEY_C 6610 6624	In the case of
+T222	CAUSE 6610 6661	In the case of complex (i.e., multi-byte) languages
+T223	STATEMENT 6663 6720	expressions can be written in a mixture of character sets
+T224	CAUSE_EFFECT_RELATION 6610 6720	In the case of complex (i.e., multi-byte) languages, expressions can be written in a mixture of character sets
+T225	ROOT_SENTENCE 6610 6721	In the case of complex (i.e., multi-byte) languages, expressions can be written in a mixture of character sets.
+T226	VARIABLE 6912 6927	a spiral effort
+T227	KEY_C 6897 6911	In the case of
+T228	CONDITION 6964 6995	may be known for future spirals
+T229	CONDITION 6934 6950	the most general
+T230	KEY_C 6929 6933	only
+T231	VARIABLE 6951 6963	requirements
+T232	CAUSE 6897 6927	In the case of a spiral effort
+T233	CAUSE 6929 6950	only the most general
+T234	STATEMENT 6951 6995	requirements may be known for future spirals
+T235	AND 6897 6950	In the case of a spiral effort, only the most general
+T236	CAUSE_EFFECT_RELATION 6897 6995	In the case of a spiral effort, only the most general requirements may be known for future spirals
+T237	ROOT_SENTENCE 6897 6996	In the case of a spiral effort, only the most general requirements may be known for future spirals.
+T238	VARIABLE 1420 1438	modulations 1 to 4
+T239	CONDITION 1439 1526	shall only be used for symbol rates of less than 2 Msps (for the bands below 8 500 MHz)
+T240	CONDITION 1530 1577	20 Msps (only for the 31,8 GHz ‐ 32,3 GHz band)
+T241	VARIABLE 1406 1418	new projects
+T242	KEY_C 1391 1405	In the case of
+T243	OR 1439 1577	shall only be used for symbol rates of less than 2 Msps (for the bands below 8 500 MHz) or 20 Msps (only for the 31,8 GHz ‐ 32,3 GHz band)
+T244	STATEMENT 1420 1577	modulations 1 to 4 shall only be used for symbol rates of less than 2 Msps (for the bands below 8 500 MHz) or 20 Msps (only for the 31,8 GHz ‐ 32,3 GHz band)
+T245	CAUSE 1391 1418	In the case of new projects
+T246	ROOT_SENTENCE 1391 1578	In the case of new projects, modulations 1 to 4 shall only be used for symbol rates of less than 2 Msps (for the bands below 8 500 MHz) or 20 Msps (only for the 31,8 GHz ‐ 32,3 GHz band).
+T247	CAUSE_EFFECT_RELATION 1391 1577	In the case of new projects, modulations 1 to 4 shall only be used for symbol rates of less than 2 Msps (for the bands below 8 500 MHz) or 20 Msps (only for the 31,8 GHz ‐ 32,3 GHz band)
+T248	VARIABLE 2319 2331	other metals
+T249	VARIABLE 2335 2341	alloys
+T250	KEY_C 2315 2318	For
+T251	OR 2319 2341	other metals or alloys
+T252	VARIABLE 2343 2363	the main constituent
+T253	CONDITION 2364 2380	is entered first
+T254	CAUSE 2315 2341	For other metals or alloys
+T255	STATEMENT 2343 2380	the main constituent is entered first
+T256	KEY_C 2388 2402	in the case of
+T257	VARIABLE 2403 2444	a traditional name (e.g. brass or bronze)
+T258	CAUSE 2388 2444	in the case of a traditional name (e.g. brass or bronze)
+T259	NEGATION 2381 2444	except in the case of a traditional name (e.g. brass or bronze)
+T260	CAUSE_EFFECT_RELATION 2343 2444	the main constituent is entered first except in the case of a traditional name (e.g. brass or bronze)
+T261	CAUSE_EFFECT_RELATION 2315 2444	For other metals or alloys, the main constituent is entered first except in the case of a traditional name (e.g. brass or bronze)
+T262	ROOT_SENTENCE 2315 2445	For other metals or alloys, the main constituent is entered first except in the case of a traditional name (e.g. brass or bronze).
+T263	VARIABLE 3217 3235	Longitudinal force
+T264	CONDITION 3236 3255	may only be applied
+T265	KEY_C 3256 3273	in the case where
+T266	VARIABLE 3274 3288	the connectors
+T267	CONDITION 3289 3310	mating with the cable
+T268	CONDITION 3311 3332	are facing each other
+T269	AND 3289 3332	mating with the cable are facing each other
+T270	STATEMENT 3274 3332	the connectors mating with the cable are facing each other
+T271	CAUSE 3256 3332	in the case where the connectors mating with the cable are facing each other
+T272	STATEMENT 3217 3255	Longitudinal force may only be applied
+T273	CAUSE_EFFECT_RELATION 3217 3332	Longitudinal force may only be applied in the case where the connectors mating with the cable are facing each other
+T274	ROOT_SENTENCE 3217 3333	Longitudinal force may only be applied in the case where the connectors mating with the cable are facing each other.
+T275	VARIABLE 7176 7204	standard normal distribution
+T276	VARIABLE 7206 7210	this
+T277	CONDITION 7211 7240	is represented by Equation 1a
+T278	KEY_C 7161 7175	In the case of
+T279	STATEMENT 7206 7240	this is represented by Equation 1a
+T280	CAUSE 7161 7204	In the case of standard normal distribution
+T281	CAUSE_EFFECT_RELATION 7161 7240	In the case of standard normal distribution, this is represented by Equation 1a
+T282	ROOT_SENTENCE 7161 7241	In the case of standard normal distribution, this is represented by Equation 1a.
+T283	VARIABLE 7258 7270	the TSRV FCS
+T284	VARIABLE 7272 7300	the systems analysis process
+T285	CONDITION 7301 7354	started from a specification of the system “as built”
+T286	KEY_C 7243 7257	In the case of
+T287	STATEMENT 7272 7354	the systems analysis process started from a specification of the system “as built”
+T288	CAUSE 7243 7270	In the case of the TSRV FCS
+T289	ROOT_SENTENCE 7243 7355	In the case of the TSRV FCS, the systems analysis process started from a specification of the system “as built”.
+T290	CAUSE_EFFECT_RELATION 7243 7354	In the case of the TSRV FCS, the systems analysis process started from a specification of the system “as built”
+T291	VARIABLE 9495 9538	setup the horns for horizontal polarization
+T292	VARIABLE 9473 9478	horns
+T293	NEGATION 9479 9493	with no ridges
+T294	KEY_C 9458 9472	In the case of
+T295	CONDITION 9487 9493	ridges
+T296	CAUSE 9458 9493	In the case of horns with no ridges
+T297	STATEMENT 9473 9493	horns with no ridges
+T298	CAUSE_EFFECT_RELATION 9458 9538	In the case of horns with no ridges, setup the horns for horizontal polarization
+T299	ROOT_SENTENCE 9458 9539	In the case of horns with no ridges, setup the horns for horizontal polarization.
+T300	KEY_C 9876 9890	In the case of
+T301	VARIABLE 9891 9908	a short traversal
+T302	CONDITION 9909 9931	(less than 10 minutes)
+T303	STATEMENT 9891 9931	a short traversal (less than 10 minutes)
+T304	VARIABLE 9932 9973	the handling of ACT for re-entrant flight
+T305	CONDITION 9974 10004	needs to be bilaterally agreed
+T306	CAUSE 9876 9931	In the case of a short traversal (less than 10 minutes)
+T307	STATEMENT 9932 10004	the handling of ACT for re-entrant flight needs to be bilaterally agreed
+T308	CAUSE_EFFECT_RELATION 9876 10004	In the case of a short traversal (less than 10 minutes) the handling of ACT for re-entrant flight needs to be bilaterally agreed
+T309	ROOT_SENTENCE 9876 10005	In the case of a short traversal (less than 10 minutes) the handling of ACT for re-entrant flight needs to be bilaterally agreed.
+T310	KEY_C 5622 5624	If
+T311	VARIABLE 5625 5646	a hybrid microcircuit
+T312	CONDITION 5647 5682	contains Beryllium oxide substrates
+T313	CONDITION 5686 5694	carriers
+T314	OR 5647 5694	contains Beryllium oxide substrates or carriers
+T315	VARIABLE 5696 5698	it
+T316	CONDITION 5699 5748	shall be marked with the notation: "Contains BeO"
+T317	KEY_C 5753 5767	in the case of
+T318	VARIABLE 5781 5801	space on the package
+T319	VARIABLE 5803 5822	indicate only "BeO"
+T320	CAUSE 5753 5801	in the case of insufficient space on the package
+T321	CAUSE_EFFECT_RELATION 5753 5822	in the case of insufficient space on the package, indicate only "BeO"
+T322	STATEMENT 5625 5694	a hybrid microcircuit contains Beryllium oxide substrates or carriers
+T323	CAUSE 5622 5694	If a hybrid microcircuit contains Beryllium oxide substrates or carriers
+T324	STATEMENT 5696 5748	it shall be marked with the notation: "Contains BeO"
+T325	OR 5696 5822	it shall be marked with the notation: "Contains BeO", or in the case of insufficient space on the package, indicate only "BeO"
+T326	CAUSE_EFFECT_RELATION 5622 5822	If a hybrid microcircuit contains Beryllium oxide substrates or carriers, it shall be marked with the notation: "Contains BeO", or in the case of insufficient space on the package, indicate only "BeO"
+T327	ROOT_SENTENCE 5622 5823	If a hybrid microcircuit contains Beryllium oxide substrates or carriers, it shall be marked with the notation: "Contains BeO", or in the case of insufficient space on the package, indicate only "BeO".
+T328	VARIABLE 5825 5834	This test
+T329	CONDITION 5835 5875	may be waived by the approving authority
+T330	KEY_C 5876 5890	in the case of
+T331	VARIABLE 5909 5916	hybrids
+T332	CONDITION 5891 5908	internally coated
+T333	STATEMENT 5891 5916	internally coated hybrids
+T334	CAUSE 5876 5916	in the case of internally coated hybrids
+T335	STATEMENT 5825 5875	This test may be waived by the approving authority
+T336	CAUSE_EFFECT_RELATION 5825 5916	This test may be waived by the approving authority in the case of internally coated hybrids
+T337	ROOT_SENTENCE 5825 5917	This test may be waived by the approving authority in the case of internally coated hybrids.
+T338	VARIABLE 5919 5928	This test
+T339	CONDITION 5929 5943	may be omitted
+T340	KEY_C 5944 5963	only in the case of
+T341	VARIABLE 5964 5979	aluminium wires
+T342	VARIABLE 5984 6006	epoxy bonding of chips
+T343	AND 5964 6006	aluminium wires and epoxy bonding of chips
+T344	CAUSE 5944 6006	only in the case of aluminium wires and epoxy bonding of chips
+T345	STATEMENT 5919 5943	This test may be omitted
+T346	CAUSE_EFFECT_RELATION 5919 6006	This test may be omitted only in the case of aluminium wires and epoxy bonding of chips
+T347	ROOT_SENTENCE 5919 6007	This test may be omitted only in the case of aluminium wires and epoxy bonding of chips.
+T348	VARIABLE 6803 6834	an individual materiel solution
+T349	CONDITION 6843 6894	fully satisfy a necessary capability gap on its own
+T350	NEGATION 6835 6894	may not fully satisfy a necessary capability gap on its own
+T351	KEY_C 6723 6737	In the case of
+T352	VARIABLE 6738 6755	family of systems
+T353	VARIABLE 6759 6801	system of systems (FoS and SoS) approaches
+T354	OR 6738 6801	family of systems or system of systems (FoS and SoS) approaches
+T355	CAUSE 6723 6801	In the case of family of systems or system of systems (FoS and SoS) approaches
+T356	STATEMENT 6803 6894	an individual materiel solution may not fully satisfy a necessary capability gap on its own
+T357	CAUSE_EFFECT_RELATION 6723 6894	In the case of family of systems or system of systems (FoS and SoS) approaches, an individual materiel solution may not fully satisfy a necessary capability gap on its own
+T358	ROOT_SENTENCE 6723 6895	In the case of family of systems or system of systems (FoS and SoS) approaches, an individual materiel solution may not fully satisfy a necessary capability gap on its own.
+T359	VARIABLE 6998 7056	Automated Computer Program Identification Numbers (ACPINs)
+T360	CONDITION 7057 7072	may be required
+T361	KEY_C 7073 7087	in the case of
+T362	VARIABLE 7088 7096	software
+T363	CONDITION 7097 7130	expecting depot level maintenance
+T364	CONDITION 7131 7158	at the Warner Robbins depot
+T365	AND 7097 7158	expecting depot level maintenance at the Warner Robbins depot
+T366	STATEMENT 7088 7158	software expecting depot level maintenance at the Warner Robbins depot
+T367	CAUSE 7073 7158	in the case of software expecting depot level maintenance at the Warner Robbins depot
+T368	STATEMENT 6998 7072	Automated Computer Program Identification Numbers (ACPINs) may be required
+T369	CAUSE_EFFECT_RELATION 6998 7158	Automated Computer Program Identification Numbers (ACPINs) may be required in the case of software expecting depot level maintenance at the Warner Robbins depot
+T370	ROOT_SENTENCE 6998 7159	Automated Computer Program Identification Numbers (ACPINs) may be required in the case of software expecting depot level maintenance at the Warner Robbins depot.
+T371	KEY_C 7897 7911	In the case of
+T372	VARIABLE 7921 7928	designs
+T373	CONDITION 7912 7920	modified
+T374	STATEMENT 7912 7928	modified designs
+T375	VARIABLE 7930 7933	one
+T376	CONDITION 7934 7958	must consider the degree
+T377	CONDITION 7963 7990	effect of the modifications
+T378	AND 7934 7990	must consider the degree and effect of the modifications
+T379	STATEMENT 7930 7990	one must consider the degree and effect of the modifications
+T380	CAUSE 7897 7928	In the case of modified designs
+T381	CAUSE_EFFECT_RELATION 7897 7990	In the case of modified designs, one must consider the degree and effect of the modifications
+T382	ROOT_SENTENCE 7897 7991	In the case of modified designs, one must consider the degree and effect of the modifications.
+T383	KEY_C 4179 4196	In the case where
+T384	VARIABLE 4197 4213	the manufacturer
+T385	CONDITION 4227 4287	carry out the blank fabrication as requested by the customer
+T386	NEGATION 4214 4287	is unable to carry out the blank fabrication as requested by the customer
+T387	VARIABLE 4289 4299	the blanks
+T388	CONDITION 4300 4339	may be produced by a different supplier
+T389	STATEMENT 4289 4339	the blanks may be produced by a different supplier
+T390	STATEMENT 4197 4287	the manufacturer is unable to carry out the blank fabrication as requested by the customer
+T391	CAUSE 4179 4287	In the case where the manufacturer is unable to carry out the blank fabrication as requested by the customer
+T392	CAUSE_EFFECT_RELATION 4179 4339	In the case where the manufacturer is unable to carry out the blank fabrication as requested by the customer, the blanks may be produced by a different supplier
+T393	ROOT_SENTENCE 4179 4340	In the case where the manufacturer is unable to carry out the blank fabrication as requested by the customer, the blanks may be produced by a different supplier.
+T394	KEY_C 5419 5433	In the case of
+T395	VARIABLE 5447 5458	information
+T396	CONDITION 5434 5446	confidential
+T397	STATEMENT 5434 5458	confidential information
+T398	VARIABLE 5460 5476	these activities
+T399	CONDITION 5477 5537	may be conducted with the support of the approving authority
+T400	STATEMENT 5460 5537	these activities may be conducted with the support of the approving authority
+T401	CAUSE 5419 5458	In the case of confidential information
+T402	CAUSE_EFFECT_RELATION 5419 5537	In the case of confidential information, these activities may be conducted with the support of the approving authority
+T403	ROOT_SENTENCE 5419 5538	In the case of confidential information, these activities may be conducted with the support of the approving authority.
+T404	KEY_C 6009 6020	In the case
+T405	VARIABLE 6021 6038	specified in 6.2c
+T406	VARIABLE 6040 6048	the test
+T407	CONDITION 6049 6100	shall be performed on a 100% basis on the whole lot
+T408	VARIABLE 6105 6137	the causes of the nonconformance
+T409	CONDITION 6138 6150	investigated
+T410	CONDITION 6155 6186	recorded in the relifing report
+T411	AND 6138 6186	investigated and recorded in the relifing report
+T412	STATEMENT 6105 6186	the causes of the nonconformance investigated and recorded in the relifing report
+T413	STATEMENT 6040 6100	the test shall be performed on a 100% basis on the whole lot
+T414	AND 6040 6186	the test shall be performed on a 100% basis on the whole lot and the causes of the nonconformance investigated and recorded in the relifing report
+T415	CAUSE 6009 6038	In the case specified in 6.2c
+T416	CAUSE_EFFECT_RELATION 6009 6186	In the case specified in 6.2c, the test shall be performed on a 100% basis on the whole lot and the causes of the nonconformance investigated and recorded in the relifing report
+T417	ROOT_SENTENCE 6009 6187	In the case specified in 6.2c, the test shall be performed on a 100% basis on the whole lot and the causes of the nonconformance investigated and recorded in the relifing report.
+T418	KEY_C 7758 7772	In the case of
+T419	VARIABLE 7773 7803	the waterfall life cycle model
+T420	VARIABLE 7805 7812	the SAR
+T421	CONDITION 7813 7894	is positioned at the completion of the software architectural (high-level) design
+T422	STATEMENT 7805 7894	the SAR is positioned at the completion of the software architectural (high-level) design
+T423	CAUSE 7758 7803	In the case of the waterfall life cycle model
+T424	CAUSE_EFFECT_RELATION 7758 7894	In the case of the waterfall life cycle model, the SAR is positioned at the completion of the software architectural (high-level) design
+T425	ROOT_SENTENCE 7758 7895	In the case of the waterfall life cycle model, the SAR is positioned at the completion of the software architectural (high-level) design.
+T426	KEY_C 8600 8616	In the case of a
+T427	VARIABLE 8617 8630	spiral effort
+T428	VARIABLE 8632 8666	only the most general requirements
+T429	CONDITION 8667 8698	may be known for future spirals
+T430	CAUSE 8600 8630	In the case of a spiral effort
+T431	STATEMENT 8632 8698	only the most general requirements may be known for future spirals
+T432	KEY_C 2809 2826	In the case where
+T433	VARIABLE 2827 2837	separation
+T434	CONDITION 2838 2875	has occurred cleanly between the tape
+T435	CONDITION 2880 2898	the sample surface
+T436	AND 2838 2898	has occurred cleanly between the tape and the sample surface
+T437	VARIABLE 2900 2916	the tape fixture
+T438	CONDITION 2917 2950	shall be removed from the machine
+T439	VARIABLE 2955 2968	the used tape
+T440	CONDITION 2969 3032	replaced by a new length of tape having a greater peel strength
+T441	STATEMENT 2955 3032	the used tape replaced by a new length of tape having a greater peel strength
+T442	STATEMENT 2900 2950	the tape fixture shall be removed from the machine
+T443	AND 2900 3032	the tape fixture shall be removed from the machine and the used tape replaced by a new length of tape having a greater peel strength
+T444	STATEMENT 2827 2898	separation has occurred cleanly between the tape and the sample surface
+T445	CAUSE 2809 2898	In the case where separation has occurred cleanly between the tape and the sample surface
+T446	CAUSE_EFFECT_RELATION 2809 3032	In the case where separation has occurred cleanly between the tape and the sample surface, the tape fixture shall be removed from the machine and the used tape replaced by a new length of tape having a greater peel strength
+T447	ROOT_SENTENCE 2809 3033	In the case where separation has occurred cleanly between the tape and the sample surface, the tape fixture shall be removed from the machine and the used tape replaced by a new length of tape having a greater peel strength.
+T448	VARIABLE 5540 5589	Implementation of the thermal management criteria
+T449	KEY_C 5590 5604	in the case of
+T450	VARIABLE 5605 5619	power circuits
+T451	CAUSE 5590 5619	in the case of power circuits
+T452	CAUSE_EFFECT_RELATION 5540 5619	Implementation of the thermal management criteria in the case of power circuits
+T453	ROOT_SENTENCE 5540 5620	Implementation of the thermal management criteria in the case of power circuits.
+T454	KEY_C 7993 8007	In the case of
+T455	VARIABLE 8008 8061	the ESA standard (A)ATSR Level-2 LST (ESA_V3) product
+T456	VARIABLE 8062 8067	there
+T457	CONDITION 8068 8093	are 13 land biome classes
+T458	CONDITION 8098 8144	one lake class at a spatial resolution of 0.5°
+T459	AND 8068 8144	are 13 land biome classes and one lake class at a spatial resolution of 0.5°
+T460	STATEMENT 8062 8144	there are 13 land biome classes and one lake class at a spatial resolution of 0.5°
+T461	CAUSE 7993 8061	In the case of the ESA standard (A)ATSR Level-2 LST (ESA_V3) product
+T462	CAUSE_EFFECT_RELATION 7993 8144	In the case of the ESA standard (A)ATSR Level-2 LST (ESA_V3) product there are 13 land biome classes and one lake class at a spatial resolution of 0.5°
+T463	ROOT_SENTENCE 7993 8145	In the case of the ESA standard (A)ATSR Level-2 LST (ESA_V3) product there are 13 land biome classes and one lake class at a spatial resolution of 0.5°.
+T464	KEY_C 8437 8451	In the case of
+T465	VARIABLE 8452 8458	Family
+T466	VARIABLE 8462 8504	System of Systems (FoS and SoS) approaches
+T467	VARIABLE 8506 8537	an individual materiel solution
+T468	CONDITION 8546 8597	fully satisfy a necessary capability gap on its own
+T469	NEGATION 8538 8597	may not fully satisfy a necessary capability gap on its own
+T470	STATEMENT 8506 8597	an individual materiel solution may not fully satisfy a necessary capability gap on its own
+T471	OR 8452 8504	Family or System of Systems (FoS and SoS) approaches
+T472	CAUSE 8437 8504	In the case of Family or System of Systems (FoS and SoS) approaches
+T473	CAUSE_EFFECT_RELATION 8437 8597	In the case of Family or System of Systems (FoS and SoS) approaches, an individual materiel solution may not fully satisfy a necessary capability gap on its own
+T474	ROOT_SENTENCE 8437 8598	In the case of Family or System of Systems (FoS and SoS) approaches, an individual materiel solution may not fully satisfy a necessary capability gap on its own.
+T475	CAUSE_EFFECT_RELATION 8600 8698	In the case of a spiral effort, only the most general requirements may be known for future spirals
+T476	ROOT_SENTENCE 8600 8699	In the case of a spiral effort, only the most general requirements may be known for future spirals.
+T487	KEY_C 9047 9064	In the case where
+T488	VARIABLE 9065 9081	an EIRENE mobile
+T489	CONDITION 9082 9145	attempts to make a Railway emergency call over a public network
+T490	VARIABLE 9147 9229	the ability to pre-empt lower priority calls (particularly public emergency calls)
+T491	CONDITION 9230 9246	may be inhibited
+T492	VARIABLE 9255 9274	a special agreement
+T493	CONDITION 9275 9286	is in place
+T495	NEGATION 9248 9286	unless a special agreement is in place
+T496	STATEMENT 9147 9246	the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited
+T497	STATEMENT 9065 9145	an EIRENE mobile attempts to make a Railway emergency call over a public network
+T498	CAUSE 9047 9145	In the case where an EIRENE mobile attempts to make a Railway emergency call over a public network
+T499	CAUSE_EFFECT_RELATION 9047 9286	In the case where an EIRENE mobile attempts to make a Railway emergency call over a public network, the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited, unless a special agreement is in place
+T500	CAUSE_EFFECT_RELATION 9147 9286	the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited, unless a special agreement is in place
+T501	ROOT_SENTENCE 9047 9287	In the case where an EIRENE mobile attempts to make a Railway emergency call over a public network, the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited, unless a special agreement is in place.
+T502	KEY_C 9670 9693	However, in the case of
+T503	VARIABLE 9694 9708	an AMA message
+T504	KEY_C 9709 9713	that
+T505	CONDITION 9714 9737	contains assigned speed
+T506	CONDITION 9742 9802	the application point from which the speed reduction applies
+T507	AND 9714 9802	contains assigned speed and the application point from which the speed reduction applies
+T508	CAUSE 9709 9802	that contains assigned speed and the application point from which the speed reduction applies
+T509	VARIABLE 9804 9843	a complete absence of operational reply
+T510	CONDITION 9844 9873	might be deemed inappropriate
+T511	STATEMENT 9804 9873	a complete absence of operational reply might be deemed inappropriate
+T512	CAUSE 9670 9708	However, in the case of an AMA message
+T513	AND 9670 9802	However, in the case of an AMA message that contains assigned speed and the application point from which the speed reduction applies
+T514	CAUSE_EFFECT_RELATION 9670 9873	However, in the case of an AMA message that contains assigned speed and the application point from which the speed reduction applies, a complete absence of operational reply might be deemed inappropriate
+T515	ROOT_SENTENCE 9670 9874	However, in the case of an AMA message that contains assigned speed and the application point from which the speed reduction applies, a complete absence of operational reply might be deemed inappropriate.
+T516	KEY_C 10007 10023	In the case when
+T517	VARIABLE 10024 10035	an ATS Unit
+T518	CONDITION 10043 10092	able to meet the requests of an adjacent ATS unit
+T519	NEGATION 10036 10092	is not able to meet the requests of an adjacent ATS unit
+T520	VARIABLE 10093 10097	they
+T521	CONDITION 10098 10148	will need to propose an alternate course of action
+T522	CONDITION 10153 10175	justify their proposal
+T523	AND 10098 10175	will need to propose an alternate course of action and justify their proposal
+T524	STATEMENT 10093 10175	they will need to propose an alternate course of action and justify their proposal
+T525	STATEMENT 10024 10092	an ATS Unit is not able to meet the requests of an adjacent ATS unit
+T526	CAUSE 10007 10092	In the case when an ATS Unit is not able to meet the requests of an adjacent ATS unit
+T527	CAUSE_EFFECT_RELATION 10007 10175	In the case when an ATS Unit is not able to meet the requests of an adjacent ATS unit they will need to propose an alternate course of action and justify their proposal
+T528	ROOT_SENTENCE 10007 10176	In the case when an ATS Unit is not able to meet the requests of an adjacent ATS unit they will need to propose an alternate course of action and justify their proposal.
+T529	KEY_C 10178 10192	In the case of
+T530	VARIABLE 10202 10214	runway usage
+T531	CONDITION 10193 10201	multiple
+T532	VARIABLE 10216 10226	departures
+T533	CONDITION 10227 10275	will use the set of SIDs assigned to each runway
+T534	STATEMENT 10216 10275	departures will use the set of SIDs assigned to each runway
+T535	STATEMENT 10193 10214	multiple runway usage
+T536	CAUSE 10178 10214	In the case of multiple runway usage
+T537	CAUSE_EFFECT_RELATION 10178 10275	In the case of multiple runway usage, departures will use the set of SIDs assigned to each runway
+T538	ROOT_SENTENCE 10178 10276	In the case of multiple runway usage, departures will use the set of SIDs assigned to each runway.
+T539	KEY_C 10278 10294	In the case that
+T540	VARIABLE 10295 10300	there
+T541	CONDITION 10307 10340	extended science operations phase
+T542	NEGATION 10301 10340	is no extended science operations phase
+T543	VARIABLE 10342 10367	the post operations phase
+T544	CONDITION 10368 10431	shall start at the end of the nominal science operations phases
+T545	STATEMENT 10342 10431	the post operations phase shall start at the end of the nominal science operations phases
+T546	STATEMENT 10295 10340	there is no extended science operations phase
+T547	CAUSE 10278 10340	In the case that there is no extended science operations phase
+T548	CAUSE_EFFECT_RELATION 10278 10431	In the case that there is no extended science operations phase, the post operations phase shall start at the end of the nominal science operations phases
+T549	ROOT_SENTENCE 10278 10432	In the case that there is no extended science operations phase, the post operations phase shall start at the end of the nominal science operations phases.
+T550	KEY_C 10690 10704	In the case of
+T551	VARIABLE 10705 10719	large airports
+T552	CONDITION 10720 10753	with three to four active runways
+T553	VARIABLE 10755 10809	the effect of increased throughput on TMA traffic load
+T554	CONDITION 10810 10830	needs to be examined
+T555	STATEMENT 10755 10830	the effect of increased throughput on TMA traffic load needs to be examined
+T556	STATEMENT 10705 10753	large airports with three to four active runways
+T557	CAUSE 10690 10753	In the case of large airports with three to four active runways
+T558	CAUSE_EFFECT_RELATION 10690 10830	In the case of large airports with three to four active runways, the effect of increased throughput on TMA traffic load needs to be examined
+T559	ROOT_SENTENCE 10690 10831	In the case of large airports with three to four active runways, the effect of increased throughput on TMA traffic load needs to be examined.
+T560	KEY_C 10901 10915	In the case of
+T561	VARIABLE 10916 10925	a tracker
+T562	VARIABLE 10927 10935	this age
+T563	CONDITION 10936 10976	shall be derived from the time of output
+T564	CONDITION 10981 11021	from information provided by the tracker
+T565	AND 10936 11021	shall be derived from the time of output and from information provided by the tracker
+T566	STATEMENT 10927 11021	this age shall be derived from the time of output and from information provided by the tracker
+T567	CAUSE 10901 10925	In the case of a tracker
+T568	CAUSE_EFFECT_RELATION 10901 11021	In the case of a tracker, this age shall be derived from the time of output and from information provided by the tracker
+T569	ROOT_SENTENCE 10901 11022	In the case of a tracker, this age shall be derived from the time of output and from information provided by the tracker.
+T570	VARIABLE 11138 11158	Different parameters
+T571	CONDITION 11159 11173	may be applied
+T572	KEY_C 11174 11188	in the case of
+T573	VARIABLE 11189 11207	system degradation
+T574	CAUSE 11174 11207	in the case of system degradation
+T575	STATEMENT 11138 11173	Different parameters may be applied
+T576	CAUSE_EFFECT_RELATION 11138 11207	Different parameters may be applied in the case of system degradation
+T577	ROOT_SENTENCE 11138 11208	Different parameters may be applied in the case of system degradation.
+T578	KEY_C 11210 11224	In the case of
+T579	VARIABLE 11225 11268	Maastricht Upper Area Control Centre (MUAC)
+T580	VARIABLE 11270 11278	revenues
+T581	CONDITION 11279 11300	received from Belgium
+T582	CONDITION 11302 11317	the Netherlands
+T583	CONDITION 11319 11329	Luxembourg
+T584	CONDITION 11334 11341	Germany
+T585	CONDITION 11342 11373	should be disclosed in this row
+T586	AND 11319 11341	Luxembourg and Germany
+T587	AND 11302 11341	the Netherlands, Luxembourg and Germany
+T589	CAUSE 11210 11268	In the case of Maastricht Upper Area Control Centre (MUAC)
+T590	CAUSE 11279 11341	received from Belgium, the Netherlands, Luxembourg and Germany
+T592	CAUSE_EFFECT_RELATION 11210 11373	In the case of Maastricht Upper Area Control Centre (MUAC), revenues received from Belgium, the Netherlands, Luxembourg and Germany should be disclosed in this row
+T591	CAUSE_EFFECT_RELATION 11270 11373	revenues received from Belgium, the Netherlands, Luxembourg and Germany should be disclosed in this row
+T593	ROOT_SENTENCE 11210 11374	In the case of Maastricht Upper Area Control Centre (MUAC), revenues received from Belgium, the Netherlands, Luxembourg and Germany should be disclosed in this row.
+T594	VARIABLE 12294 12305	A wireframe
+T595	CONDITION 12306 12325	immediately appears
+T596	KEY_C 12326 12343	as in the case of
+T597	VARIABLE 12344 12357	repositioning
+T598	CAUSE 12326 12357	as in the case of repositioning
+T599	STATEMENT 12294 12325	A wireframe immediately appears
+T600	CAUSE_EFFECT_RELATION 12294 12357	A wireframe immediately appears as in the case of repositioning
+T601	ROOT_SENTENCE 12294 12358	A wireframe immediately appears as in the case of repositioning.
+T602	VARIABLE 12180 12186	The P5
+T603	CONDITION 12187 12230	shall be transmitted on the control channel
+T604	KEY_C 12232 12246	in the case of
+T605	VARIABLE 12247 12263	Mode S All- Call
+T606	STATEMENT 12267 12291	selective interrogations
+T607	CONDITION 12267 12276	selective
+T608	VARIABLE 12277 12291	interrogations
+T609	OR 12247 12291	Mode S All- Call or selective interrogations
+T610	CAUSE 12232 12291	in the case of Mode S All- Call or selective interrogations
+T611	STATEMENT 12180 12230	The P5 shall be transmitted on the control channel
+T612	CAUSE_EFFECT_RELATION 12180 12291	The P5 shall be transmitted on the control channel, in the case of Mode S All- Call or selective interrogations
+T613	ROOT_SENTENCE 12180 12292	The P5 shall be transmitted on the control channel, in the case of Mode S All- Call or selective interrogations.
+T626	KEY_C 12474 12488	In the case of
+T627	VARIABLE 12489 12496	the HAW
+T628	VARIABLE 12501 12504	VAW
+T629	AND 12489 12504	the HAW and VAW
+T630	VARIABLE 12506 12533	depressing the icon buttons
+T631	KEY_C 12534 12541	ENABLES
+T632	VARIABLE 12542 12555	these windows
+T633	CAUSE 12506 12541	depressing the icon buttons ENABLES
+T634	CAUSE_EFFECT_RELATION 12506 12555	depressing the icon buttons ENABLES these windows
+T635	CAUSE 12474 12504	In the case of the HAW and VAW
+T636	CAUSE_EFFECT_RELATION 12474 12555	In the case of the HAW and VAW, depressing the icon buttons ENABLES these windows
+T637	ROOT_SENTENCE 12474 12556	In the case of the HAW and VAW, depressing the icon buttons ENABLES these windows.
+T638	KEY_C 12558 12572	In the case of
+T639	CONDITION 12573 12581	multiple
+T640	VARIABLE 12582 12596	screen systems
+T641	VARIABLE 12597 12607	the button
+T642	CONDITION 12608 12640	will be shown in the normal mode
+T643	CONDITION 12641 12665	on other display screens
+T644	AND 12608 12665	will be shown in the normal mode on other display screens
+T645	STATEMENT 12597 12665	the button will be shown in the normal mode on other display screens
+T646	STATEMENT 12573 12596	multiple screen systems
+T647	CAUSE 12558 12596	In the case of multiple screen systems
+T648	CAUSE_EFFECT_RELATION 12558 12665	In the case of multiple screen systems the button will be shown in the normal mode on other display screens
+T649	ROOT_SENTENCE 12558 12666	In the case of multiple screen systems the button will be shown in the normal mode on other display screens.
+T650	KEY_C 13583 13600	In the case where
+T651	VARIABLE 13601 13608	the PSE
+T652	CONDITION 13609 13634	detects a fault condition
+T653	VARIABLE 13636 13643	the PSE
+T654	CONDITION 13654 13683	inject full power on the line
+T655	NEGATION 13644 13683	shall not inject full power on the line
+T656	STATEMENT 13636 13683	the PSE shall not inject full power on the line
+T657	STATEMENT 13601 13634	the PSE detects a fault condition
+T658	CAUSE 13583 13634	In the case where the PSE detects a fault condition
+T659	CAUSE_EFFECT_RELATION 13583 13683	In the case where the PSE detects a fault condition, the PSE shall not inject full power on the line
+T660	ROOT_SENTENCE 13583 13684	In the case where the PSE detects a fault condition, the PSE shall not inject full power on the line.
+T661	KEY_C 13686 13703	In the case where
+T662	VARIABLE 13704 13711	the PSE
+T663	CONDITION 13712 13742	has an internal power splitter
+T664	VARIABLE 13747 13756	the U-R2P
+T665	CONDITION 13757 13781	is an internal interface
+T666	VARIABLE 13783 13824	the electrical specifications of Table 38
+T667	CONDITION 13825 13862	apply to the U-R interface of the PSE
+T668	STATEMENT 13783 13862	the electrical specifications of Table 38 apply to the U-R interface of the PSE
+T669	STATEMENT 13747 13781	the U-R2P is an internal interface
+T670	STATEMENT 13704 13742	the PSE has an internal power splitter
+T671	AND 13704 13781	the PSE has an internal power splitter and the U-R2P is an internal interface
+T672	CAUSE 13686 13781	In the case where the PSE has an internal power splitter and the U-R2P is an internal interface
+T673	CAUSE_EFFECT_RELATION 13686 13862	In the case where the PSE has an internal power splitter and the U-R2P is an internal interface, the electrical specifications of Table 38 apply to the U-R interface of the PSE
+T674	ROOT_SENTENCE 13686 13863	In the case where the PSE has an internal power splitter and the U-R2P is an internal interface, the electrical specifications of Table 38 apply to the U-R interface of the PSE.
+T675	KEY_C 13994 14008	In the case of
+T676	VARIABLE 14009 14023	a POTS service
+T677	CONDITION 14024 14041	from the exchange
+T678	VARIABLE 14043 14051	the same
+T679	CONDITION 14052 14103	is required to support the POTS Adapter bypass mode
+T680	KEY_C 14104 14108	when
+T681	VARIABLE 14109 14127	reverse power feed
+T682	CONDITION 14128 14141	is turned off
+T683	STATEMENT 14109 14141	reverse power feed is turned off
+T684	CAUSE 14104 14141	when reverse power feed is turned off
+T685	STATEMENT 14043 14103	the same is required to support the POTS Adapter bypass mode
+T686	CAUSE_EFFECT_RELATION 14043 14141	the same is required to support the POTS Adapter bypass mode when reverse power feed is turned off
+T687	STATEMENT 14009 14041	a POTS service from the exchange
+T688	CAUSE 13994 14041	In the case of a POTS service from the exchange
+T689	CAUSE_EFFECT_RELATION 13994 14141	In the case of a POTS service from the exchange, the same is required to support the POTS Adapter bypass mode when reverse power feed is turned off
+T690	ROOT_SENTENCE 13994 14142	In the case of a POTS service from the exchange, the same is required to support the POTS Adapter bypass mode when reverse power feed is turned off.
+T691	KEY_C 12787 12798	In the case
+T692	VARIABLE 12799 12815	said regulations
+T693	CONDITION 12824 12833	available
+T694	CONDITION 12837 12847	applicable
+T695	OR 12824 12847	available or applicable
+T696	NEGATION 12816 12847	are not available or applicable
+T697	STATEMENT 12799 12847	said regulations are not available or applicable
+T698	VARIABLE 12849 12861	implementers
+T699	CONDITION 12862 12895	can rely on NIST SP 800-57 Part 1
+T700	STATEMENT 12849 12895	implementers can rely on NIST SP 800-57 Part 1
+T701	CAUSE 12787 12847	In the case said regulations are not available or applicable
+T702	CAUSE_EFFECT_RELATION 12787 12895	In the case said regulations are not available or applicable; implementers can rely on NIST SP 800-57 Part 1
+T703	ROOT_SENTENCE 12787 12896	In the case said regulations are not available or applicable; implementers can rely on NIST SP 800-57 Part 1.
+T704	KEY_C 13050 13061	In the case
+T705	VARIABLE 13062 13090	the problematic interrogator
+T706	CONDITION 13091 13149	is located in a country which is not subject to the SPI IR
+T707	VARIABLE 13151 13165	the resolution
+T708	CONDITION 13166 13211	will follow the same steps as described above
+T709	STATEMENT 13062 13149	the problematic interrogator is located in a country which is not subject to the SPI IR
+T710	STATEMENT 13151 13211	the resolution will follow the same steps as described above
+T711	CAUSE 13050 13149	In the case the problematic interrogator is located in a country which is not subject to the SPI IR
+T712	CAUSE_EFFECT_RELATION 13050 13211	In the case the problematic interrogator is located in a country which is not subject to the SPI IR, the resolution will follow the same steps as described above
+T713	ROOT_SENTENCE 13050 13212	In the case the problematic interrogator is located in a country which is not subject to the SPI IR, the resolution will follow the same steps as described above.
+T714	CONDITION 1159 1170	be achieved
+T715	VARIABLE 69 81	return wires
+T716	AND 61 81	hot and return wires
+T717	CONDITION 5768 5780	insufficient
+T718	STATEMENT 5768 5801	insufficient space on the package
+T477	KEY_C 9248 9254	unless
+T478	STATEMENT 9255 9286	a special agreement is in place

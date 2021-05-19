@@ -1,0 +1,763 @@
+T6	VARIABLE 364 378	Terminal posts
+T7	CONDITION 379 396	shall be replaced
+T8	KEY_C 397 401	when
+T9	VARIABLE 402 406	they
+T10	CONDITION 407 426	have become damaged
+T11	STATEMENT 402 426	they have become damaged
+T12	CAUSE 397 426	when they have become damaged
+T13	STATEMENT 364 396	Terminal posts shall be replaced
+T14	CAUSE_EFFECT_RELATION 364 426	Terminal posts shall be replaced when they have become damaged
+T15	ROOT_SENTENCE 364 427	Terminal posts shall be replaced when they have become damaged.
+T16	KEY_C 15267 15270	Due
+T17	VARIABLE 15271 15295	to explosive environment
+T18	CAUSE 15267 15295	Due to explosive environment
+T19	VARIABLE 15297 15307	groundings
+T20	CONDITION 15308 15324	shall be ensured
+T21	STATEMENT 15297 15324	groundings shall be ensured
+T22	CAUSE_EFFECT_RELATION 15267 15324	Due to explosive environment, groundings shall be ensured
+T23	ROOT_SENTENCE 15267 15325	Due to explosive environment, groundings shall be ensured.
+T24	KEY_C 15399 15402	Due
+T25	VARIABLE 15403 15422	to the action of S1
+T26	CAUSE 15399 15422	Due to the action of S1
+T27	VARIABLE 15424 15436	each encoder
+T28	CONDITION 15437 15463	accepts k of these symbols
+T29	CONDITION 15465 15524	each symbol spaced I symbols apart (in the original stream)
+T30	AND 15437 15524	accepts k of these symbols, each symbol spaced I symbols apart (in the original stream)
+T31	STATEMENT 15424 15524	each encoder accepts k of these symbols, each symbol spaced I symbols apart (in the original stream)
+T32	CAUSE_EFFECT_RELATION 15399 15524	Due to the action of S1, each encoder accepts k of these symbols, each symbol spaced I symbols apart (in the original stream)
+T33	ROOT_SENTENCE 15399 15525	Due to the action of S1, each encoder accepts k of these symbols, each symbol spaced I symbols apart (in the original stream).
+T34	KEY_C 15527 15530	Due
+T35	VARIABLE 15531 15560	to the nature of their design
+T36	VARIABLE 15562 15569	springs
+T37	CONDITION 15577 15648	meet the factors of safety specified for other engineering applications
+T38	CONDITION 15653 15760	should be designed in accordance with the Handbook of Spring Design from the Spring Manufacturers Institute
+T41	NEGATION 15570 15648	do not meet the factors of safety specified for other engineering applications
+T42	AND 15570 15760	do not meet the factors of safety specified for other engineering applications and should be designed in accordance with the Handbook of Spring Design from the Spring Manufacturers Institute
+T43	STATEMENT 15562 15760	springs do not meet the factors of safety specified for other engineering applications and should be designed in accordance with the Handbook of Spring Design from the Spring Manufacturers Institute
+T44	CAUSE 15527 15560	Due to the nature of their design
+T45	CAUSE_EFFECT_RELATION 15527 15760	Due to the nature of their design, springs do not meet the factors of safety specified for other engineering applications and should be designed in accordance with the Handbook of Spring Design from the Spring Manufacturers Institute
+T46	ROOT_SENTENCE 15527 15761	Due to the nature of their design, springs do not meet the factors of safety specified for other engineering applications and should be designed in accordance with the Handbook of Spring Design from the Spring Manufacturers Institute.
+T47	KEY_C 15163 15169	due to
+T48	VARIABLE 15170 15194	abnormal applied voltage
+T49	VARIABLE 15198 15264	internal conditions in conformance with ECSS‐E‐ST‐20, clause 5.8.1
+T50	OR 15170 15264	abnormal applied voltage or internal conditions in conformance with ECSS‐E‐ST‐20, clause 5.8.1
+T51	CAUSE 15163 15264	due to abnormal applied voltage or internal conditions in conformance with ECSS‐E‐ST‐20, clause 5.8.1
+T52	VARIABLE 15071 15109	Mechanisms containing electrical parts
+T53	VARIABLE 15114 15123	circuitry
+T54	AND 15071 15123	Mechanisms containing electrical parts and circuitry
+T55	CONDITION 15124 15162	shall be protected against overcurrent
+T56	STATEMENT 15071 15162	Mechanisms containing electrical parts and circuitry shall be protected against overcurrent
+T57	CAUSE_EFFECT_RELATION 15071 15264	Mechanisms containing electrical parts and circuitry shall be protected against overcurrent due to abnormal applied voltage or internal conditions in conformance with ECSS‐E‐ST‐20, clause 5.8.1
+T58	ROOT_SENTENCE 15071 15265	Mechanisms containing electrical parts and circuitry shall be protected against overcurrent due to abnormal applied voltage or internal conditions in conformance with ECSS‐E‐ST‐20, clause 5.8.1.
+T59	KEY_C 15045 15051	due to
+T60	VARIABLE 15052 15068	acoustic sources
+T61	CAUSE 15045 15068	due to acoustic sources
+T62	VARIABLE 14958 14975	Acoustic analysis
+T63	CONDITION 14976 15044	shall be used to calculate the characteristics of the pressure field
+T64	STATEMENT 14958 15044	Acoustic analysis shall be used to calculate the characteristics of the pressure field
+T65	CAUSE_EFFECT_RELATION 14958 15068	Acoustic analysis shall be used to calculate the characteristics of the pressure field due to acoustic sources
+T66	ROOT_SENTENCE 14958 15069	Acoustic analysis shall be used to calculate the characteristics of the pressure field due to acoustic sources.
+T71	VARIABLE 14465 14475	Provisions
+T72	CONDITION 14476 14533	shall be made to include the effects of residual stresses
+T73	KEY_C 14534 14540	due to
+T74	VARIABLE 14541 14581	the manufacturing process (e.g. welding)
+T75	CAUSE 14534 14581	due to the manufacturing process (e.g. welding)
+T76	STATEMENT 14465 14533	Provisions shall be made to include the effects of residual stresses
+T77	CAUSE_EFFECT_RELATION 14465 14581	Provisions shall be made to include the effects of residual stresses due to the manufacturing process (e.g. welding)
+T78	ROOT_SENTENCE 14465 14582	Provisions shall be made to include the effects of residual stresses due to the manufacturing process (e.g. welding).
+T79	VARIABLE 14386 14404	Impact of material
+T80	CONDITION 14405 14412	changes
+T81	KEY_C 14413 14419	due to
+T82	VARIABLE 14420 14428	ablation
+T83	STATEMENT 14386 14412	Impact of material changes
+T84	CAUSE 14413 14428	due to ablation
+T85	VARIABLE 14433 14442	pyrolysis
+T86	CONDITION 14443 14462	shall be identified
+T87	STATEMENT 14433 14462	pyrolysis shall be identified
+T88	CAUSE_EFFECT_RELATION 14386 14428	Impact of material changes due to ablation
+T89	CAUSE_EFFECT_RELATION 14386 14462	Impact of material changes due to ablation and pyrolysis shall be identified
+T90	ROOT_SENTENCE 14386 14463	Impact of material changes due to ablation and pyrolysis shall be identified.
+T91	VARIABLE 14217 14238	Structural assemblies
+T92	VARIABLE 14243 14253	components
+T93	CONDITION 14254 14298	shall be designed to withstand applied loads
+T94	AND 14217 14253	Structural assemblies and components
+T95	STATEMENT 14217 14298	Structural assemblies and components shall be designed to withstand applied loads
+T96	KEY_C 14299 14305	due to
+T97	VARIABLE 14306 14333	the mechanical environments
+T98	CONDITION 14334 14383	to which they are exposed during the service‐life
+T99	STATEMENT 14306 14383	the mechanical environments to which they are exposed during the service‐life
+T100	CAUSE 14299 14383	due to the mechanical environments to which they are exposed during the service‐life
+T101	CAUSE_EFFECT_RELATION 14217 14383	Structural assemblies and components shall be designed to withstand applied loads due to the mechanical environments to which they are exposed during the service‐life
+T102	ROOT_SENTENCE 14217 14384	Structural assemblies and components shall be designed to withstand applied loads due to the mechanical environments to which they are exposed during the service‐life.
+T103	VARIABLE 14152 14185	Reduction of transport capability
+T104	KEY_C 14186 14192	due to
+T105	VARIABLE 14193 14214	tilt (see Figure 3-1)
+T106	CAUSE 14186 14214	due to tilt (see Figure 3-1)
+T107	CAUSE_EFFECT_RELATION 14152 14214	Reduction of transport capability due to tilt (see Figure 3-1)
+T108	ROOT_SENTENCE 14152 14215	Reduction of transport capability due to tilt (see Figure 3-1).
+T109	VARIABLE 14059 14092	Reduction of transport capability
+T110	KEY_C 14093 14099	due to
+T111	VARIABLE 14100 14117	heat pipe bending
+T112	CONDITION 14118 14149	at the minimum specified radius
+T113	STATEMENT 14100 14149	heat pipe bending at the minimum specified radius
+T114	CAUSE 14093 14149	due to heat pipe bending at the minimum specified radius
+T115	CAUSE_EFFECT_RELATION 14059 14149	Reduction of transport capability due to heat pipe bending at the minimum specified radius
+T116	ROOT_SENTENCE 14059 14150	Reduction of transport capability due to heat pipe bending at the minimum specified radius.
+T117	VARIABLE 13942 13956	The TCS design
+T118	CONDITION 13957 14006	shall fulfil requirements considering heat fluxes
+T119	KEY_C 14007 14013	due to
+T120	VARIABLE 14014 14024	components
+T121	CONDITION 14025 14056	during operation of a thrusters
+T122	STATEMENT 14014 14056	components during operation of a thrusters
+T123	CAUSE 14007 14056	due to components during operation of a thrusters
+T124	STATEMENT 13942 14006	The TCS design shall fulfil requirements considering heat fluxes
+T125	CAUSE_EFFECT_RELATION 13942 14056	The TCS design shall fulfil requirements considering heat fluxes due to components during operation of a thrusters
+T126	ROOT_SENTENCE 13942 14057	The TCS design shall fulfil requirements considering heat fluxes due to components during operation of a thrusters.
+T127	VARIABLE 13789 13814	Low susceptible equipment
+T128	CONDITION 13815 13885	is for telecommunication spacecraft flying in a severe EMI environment
+T129	KEY_C 13886 13892	due to
+T130	VARIABLE 13893 13913	on board large power
+T131	VARIABLE 13918 13939	possible residual ESD
+T132	AND 13893 13939	on board large power and possible residual ESD
+T133	CAUSE 13886 13939	due to on board large power and possible residual ESD
+T134	STATEMENT 13789 13885	Low susceptible equipment is for telecommunication spacecraft flying in a severe EMI environment
+T135	CAUSE_EFFECT_RELATION 13789 13939	Low susceptible equipment is for telecommunication spacecraft flying in a severe EMI environment due to on board large power and possible residual ESD
+T136	ROOT_SENTENCE 13789 13940	Low susceptible equipment is for telecommunication spacecraft flying in a severe EMI environment due to on board large power and possible residual ESD.
+T137	KEY_C 1262 1266	When
+T138	VARIABLE 1267 1275	capacity
+T139	CONDITION 1276 1283	is high
+T140	VARIABLE 1288 1292	need
+T141	CONDITION 1293 1299	is low
+T142	STATEMENT 1288 1299	need is low
+T143	STATEMENT 1267 1283	capacity is high
+T144	AND 1267 1299	capacity is high and need is low
+T145	CAUSE 1262 1299	When capacity is high and need is low
+T146	VARIABLE 1301 1322	the price for sharing
+T147	CONDITION 1323 1338	is normally low
+T148	STATEMENT 1301 1338	the price for sharing is normally low
+T149	CAUSE_EFFECT_RELATION 1262 1338	When capacity is high and need is low, the price for sharing is normally low
+T150	ROOT_SENTENCE 1262 1339	When capacity is high and need is low, the price for sharing is normally low.
+T151	KEY_C 1341 1345	When
+T152	VARIABLE 1346 1354	capacity
+T153	CONDITION 1355 1361	is low
+T154	VARIABLE 1366 1370	need
+T155	CONDITION 1371 1378	is high
+T156	AND 1346 1378	capacity is low and need is high
+T157	STATEMENT 1346 1361	capacity is low
+T158	STATEMENT 1366 1378	need is high
+T159	CAUSE 1341 1378	When capacity is low and need is high
+T160	VARIABLE 1380 1402	the prices for sharing
+T161	CONDITION 1403 1415	will be high
+T162	STATEMENT 1380 1415	the prices for sharing will be high
+T163	CAUSE_EFFECT_RELATION 1341 1415	When capacity is low and need is high, the prices for sharing will be high
+T164	ROOT_SENTENCE 1341 1416	When capacity is low and need is high, the prices for sharing will be high.
+T165	KEY_C 2488 2493	since
+T166	VARIABLE 2494 2529	the spectral signature at the coast
+T167	CONDITION 2537 2546	invariant
+T168	NEGATION 2530 2546	is not invariant
+T169	STATEMENT 2494 2546	the spectral signature at the coast is not invariant
+T170	CAUSE 2488 2546	since the spectral signature at the coast is not invariant
+T171	VARIABLE 2445 2449	This
+T172	CONDITION 2450 2487	may result in significant uncertainty
+T173	STATEMENT 2445 2487	This may result in significant uncertainty
+T174	CAUSE_EFFECT_RELATION 2445 2546	This may result in significant uncertainty since the spectral signature at the coast is not invariant
+T175	ROOT_SENTENCE 2445 2547	This may result in significant uncertainty since the spectral signature at the coast is not invariant.
+T176	KEY_C 2549 2554	Since
+T177	VARIABLE 2555 2575	global/static object
+T178	CONDITION 2576 2626	are instantiated before the main event loop enters
+T179	VARIABLE 2628 2649	the Logging framework
+T180	CONDITION 2650 2707	must support calls to all its interfaces without crashing
+T181	STATEMENT 2628 2707	the Logging framework must support calls to all its interfaces without crashing
+T182	STATEMENT 2555 2626	global/static object are instantiated before the main event loop enters
+T183	CAUSE 2549 2626	Since global/static object are instantiated before the main event loop enters
+T184	CAUSE_EFFECT_RELATION 2549 2707	Since global/static object are instantiated before the main event loop enters, the Logging framework must support calls to all its interfaces without crashing
+T185	ROOT_SENTENCE 2549 2708	Since global/static object are instantiated before the main event loop enters, the Logging framework must support calls to all its interfaces without crashing.
+T186	KEY_C 2710 2715	Since
+T187	VARIABLE 2716 2723	logging
+T188	VARIABLE 2728 2735	tracing
+T189	AND 2716 2735	logging and tracing
+T190	CONDITION 2736 2777	is an important mechanism for testability
+T191	CONDITION 2782 2806	proofing product quality
+T192	AND 2736 2806	is an important mechanism for testability and proofing product quality
+T193	STATEMENT 2716 2806	logging and tracing is an important mechanism for testability and proofing product quality
+T194	CAUSE 2710 2806	Since logging and tracing is an important mechanism for testability and proofing product quality
+T195	VARIABLE 2808 2810	it
+T196	CONDITION 2811 2854	is necessary to standardize the transmitted
+T197	CONDITION 2859 2877	stored data format
+T198	AND 2811 2877	is necessary to standardize the transmitted and stored data format
+T199	STATEMENT 2808 2877	it is necessary to standardize the transmitted and stored data format
+T200	CAUSE_EFFECT_RELATION 2710 2877	Since logging and tracing is an important mechanism for testability and proofing product quality, it is necessary to standardize the transmitted and stored data format
+T201	ROOT_SENTENCE 2710 2878	Since logging and tracing is an important mechanism for testability and proofing product quality, it is necessary to standardize the transmitted and stored data format.
+T206	KEY_C 3057 3062	Since
+T207	VARIABLE 3063 3088	the procurement structure
+T208	CONDITION 3100 3105	known
+T209	NEGATION 3089 3105	is not yet known
+T210	STATEMENT 3063 3105	the procurement structure is not yet known
+T211	CAUSE 3057 3105	Since the procurement structure is not yet known
+T212	VARIABLE 3107 3121	the components
+T213	CONDITION 3122 3178	have been expressed in this document in functional terms
+T214	CONDITION 3180 3207	according to the above list
+T215	AND 3122 3207	have been expressed in this document in functional terms, according to the above list
+T216	STATEMENT 3107 3207	the components have been expressed in this document in functional terms, according to the above list
+T217	CAUSE_EFFECT_RELATION 3057 3207	Since the procurement structure is not yet known, the components have been expressed in this document in functional terms, according to the above list
+T218	ROOT_SENTENCE 3057 3208	Since the procurement structure is not yet known, the components have been expressed in this document in functional terms, according to the above list.
+T219	KEY_C 3210 3215	Since
+T221	CONDITION 3272 3277	known
+T222	VARIABLE 3216 3260	the organisational structure of this service
+T220	NEGATION 3261 3277	is not yet known
+T223	STATEMENT 3216 3277	the organisational structure of this service is not yet known
+T224	CAUSE 3210 3277	Since the organisational structure of this service is not yet known
+T225	VARIABLE 3279 3309	the term “CSS operations user”
+T226	CONDITION 3310 3350	has been adopted for these service users
+T227	CONDITION 3352 3396	in the same way as in the preceding sections
+T228	AND 3310 3396	has been adopted for these service users, in the same way as in the preceding sections
+T229	STATEMENT 3279 3396	the term “CSS operations user” has been adopted for these service users, in the same way as in the preceding sections
+T230	CAUSE_EFFECT_RELATION 3210 3396	Since the organisational structure of this service is not yet known, the term “CSS operations user” has been adopted for these service users, in the same way as in the preceding sections
+T231	ROOT_SENTENCE 3210 3397	Since the organisational structure of this service is not yet known, the term “CSS operations user” has been adopted for these service users, in the same way as in the preceding sections.
+T232	KEY_C 3399 3404	Since
+T233	VARIABLE 3405 3407	it
+T234	CONDITION 3415 3440	a resource hungry program
+T235	NEGATION 3408 3440	is not a resource hungry program
+T236	STATEMENT 3405 3440	it is not a resource hungry program
+T237	CAUSE 3399 3440	Since it is not a resource hungry program
+T238	VARIABLE 3442 3444	it
+T239	CONDITION 3445 3487	will run on most systems without a problem
+T240	STATEMENT 3442 3487	it will run on most systems without a problem
+T241	CAUSE_EFFECT_RELATION 3399 3487	Since it is not a resource hungry program, it will run on most systems without a problem
+T242	ROOT_SENTENCE 3399 3488	Since it is not a resource hungry program, it will run on most systems without a problem.
+T243	KEY_C 3490 3496	Indeed
+T244	VARIABLE 3497 3526	all user types in the diagram
+T245	CONDITION 3527 3542	are SLCCI Users
+T246	KEY_C 3543 3548	since
+T247	VARIABLE 3549 3568	the SLCCI User type
+T248	CONDITION 3569 3612	is the ultimate base type of all user types
+T249	STATEMENT 3549 3612	the SLCCI User type is the ultimate base type of all user types
+T250	CAUSE 3543 3612	since the SLCCI User type is the ultimate base type of all user types
+T251	STATEMENT 3497 3542	all user types in the diagram are SLCCI Users
+T252	EFFECT 3490 3542	Indeed all user types in the diagram are SLCCI Users
+T253	CAUSE_EFFECT_RELATION 3490 3612	Indeed all user types in the diagram are SLCCI Users since the SLCCI User type is the ultimate base type of all user types
+T254	ROOT_SENTENCE 3490 3613	Indeed all user types in the diagram are SLCCI Users since the SLCCI User type is the ultimate base type of all user types.
+T255	VARIABLE 3615 3627	The incident
+T256	CONDITION 3628 3676	has to be reported to the Top Level Service Desk
+T257	CONDITION 3677 3708	through the SL TAC Service Desk
+T258	AND 3628 3708	has to be reported to the Top Level Service Desk through the SL TAC Service Desk
+T259	STATEMENT 3615 3708	The incident has to be reported to the Top Level Service Desk through the SL TAC Service Desk
+T260	KEY_C 3709 3714	since
+T261	VARIABLE 3715 3717	it
+T262	CONDITION 3718 3762	impacts the products available for the users
+T263	STATEMENT 3715 3762	it impacts the products available for the users
+T264	CAUSE 3709 3762	since it impacts the products available for the users
+T265	CAUSE_EFFECT_RELATION 3615 3762	The incident has to be reported to the Top Level Service Desk through the SL TAC Service Desk since it impacts the products available for the users
+T266	ROOT_SENTENCE 3615 3763	The incident has to be reported to the Top Level Service Desk through the SL TAC Service Desk since it impacts the products available for the users.
+T270	VARIABLE 3927 3952	Functional coverage tools
+T271	CONDITION 3953 3978	need a means of accessing
+T272	CONDITION 3983 4016	tracking the values of parameters
+T273	AND 3953 4016	need a means of accessing and tracking the values of parameters
+T274	STATEMENT 3927 4016	Functional coverage tools need a means of accessing and tracking the values of parameters
+T275	KEY_C 4018 4023	since
+T276	VARIABLE 4024 4034	parameters
+T277	CONDITION 4035 4061	obviously affect the setup
+T278	CONDITION 4066 4086	behavior of a system
+T279	AND 4035 4086	obviously affect the setup and behavior of a system
+T280	STATEMENT 4024 4086	parameters obviously affect the setup and behavior of a system
+T281	CAUSE 4018 4086	since parameters obviously affect the setup and behavior of a system
+T282	CAUSE_EFFECT_RELATION 3927 4086	Functional coverage tools need a means of accessing and tracking the values of parameters, since parameters obviously affect the setup and behavior of a system
+T283	ROOT_SENTENCE 3927 4087	Functional coverage tools need a means of accessing and tracking the values of parameters, since parameters obviously affect the setup and behavior of a system.
+T289	KEY_C 4218 4223	Since
+T290	VARIABLE 4224 4234	NVP values
+T291	CONDITION 4235 4276	are interpreted in a type-specific manner
+T292	CONDITION 4277 4294	by individual POs
+T293	AND 4235 4294	are interpreted in a type-specific manner by individual POs
+T294	STATEMENT 4224 4294	NVP values are interpreted in a type-specific manner by individual POs
+T295	CAUSE 4218 4294	Since NVP values are interpreted in a type-specific manner by individual POs
+T296	VARIABLE 4296 4298	it
+T297	CONDITION 4299 4361	is possible to map POs of different data types to the same NVP
+T298	STATEMENT 4296 4361	it is possible to map POs of different data types to the same NVP
+T299	CAUSE_EFFECT_RELATION 4218 4361	Since NVP values are interpreted in a type-specific manner by individual POs, it is possible to map POs of different data types to the same NVP
+T300	ROOT_SENTENCE 4218 4362	Since NVP values are interpreted in a type-specific manner by individual POs, it is possible to map POs of different data types to the same NVP.
+T301	VARIABLE 4364 4375	Their needs
+T302	CONDITION 4376 4437	should be identified for each one of these target user groups
+T303	KEY_C 4439 4444	since
+T304	VARIABLE 4445 4449	they
+T305	CONDITION 4450 4470	have different needs
+T306	STATEMENT 4445 4470	they have different needs
+T307	CAUSE 4439 4470	since they have different needs
+T308	STATEMENT 4364 4437	Their needs should be identified for each one of these target user groups
+T309	CAUSE_EFFECT_RELATION 4364 4470	Their needs should be identified for each one of these target user groups, since they have different needs
+T310	ROOT_SENTENCE 4364 4471	Their needs should be identified for each one of these target user groups, since they have different needs.
+T311	VARIABLE 4704 4708	They
+T312	CONDITION 4709 4778	have a rather high awareness level of various accessibility standards
+T313	CONDITION 4783 4793	guidelines
+T315	CONDITION 4795 4814	especially WCAG 1.0
+T316	KEY_C 4815 4820	since
+T317	VARIABLE 4821 4825	they
+T318	CONDITION 4826 4877	often use a subset of it in the national guidelines
+T319	STATEMENT 4821 4877	they often use a subset of it in the national guidelines
+T320	CAUSE 4815 4877	since they often use a subset of it in the national guidelines
+T314	AND 4783 4814	guidelines, especially WCAG 1.0
+T321	AND 4709 4814	have a rather high awareness level of various accessibility standards and guidelines, especially WCAG 1.0
+T322	STATEMENT 4704 4814	They have a rather high awareness level of various accessibility standards and guidelines, especially WCAG 1.0
+T323	CAUSE_EFFECT_RELATION 4704 4877	They have a rather high awareness level of various accessibility standards and guidelines, especially WCAG 1.0 since they often use a subset of it in the national guidelines
+T324	ROOT_SENTENCE 4704 4878	They have a rather high awareness level of various accessibility standards and guidelines, especially WCAG 1.0 since they often use a subset of it in the national guidelines.
+T325	VARIABLE 4880 4907	The requirements definition
+T326	CONDITION 4908 4947	means an important stage of the project
+T327	KEY_C 4948 4953	since
+T328	VARIABLE 4954 4956	it
+T329	CONDITION 4957 4973	sets the grounds
+T330	CONDITION 4978 5015	is useful for the architecture design
+T331	CONDITION 5020 5053	the components development stages
+T332	AND 4978 5053	is useful for the architecture design and the components development stages
+T333	AND 4957 5053	sets the grounds and is useful for the architecture design and the components development stages
+T334	STATEMENT 4954 5053	it sets the grounds and is useful for the architecture design and the components development stages
+T335	CAUSE 4948 5053	since it sets the grounds and is useful for the architecture design and the components development stages
+T336	STATEMENT 4880 4947	The requirements definition means an important stage of the project
+T337	CAUSE_EFFECT_RELATION 4880 5053	The requirements definition means an important stage of the project since it sets the grounds and is useful for the architecture design and the components development stages
+T338	ROOT_SENTENCE 4880 5054	The requirements definition means an important stage of the project since it sets the grounds and is useful for the architecture design and the components development stages.
+T339	KEY_C 5406 5411	Since
+T340	VARIABLE 5412 5440	a majority of the WUT System
+T341	CONDITION 5441 5463	is reporting in nature
+T342	STATEMENT 5412 5463	a majority of the WUT System is reporting in nature
+T343	CAUSE 5406 5463	Since a majority of the WUT System is reporting in nature
+T344	VARIABLE 5465 5479	all the actors
+T345	CONDITION 5480 5516	will have the ability to run reports
+T346	CONDITION 5518 5527	view maps
+T347	CONDITION 5533 5581	query water use permits (i.e., General WUT User)
+T348	AND 5518 5581	view maps, and query water use permits (i.e., General WUT User)
+T349	AND 5480 5581	will have the ability to run reports, view maps, and query water use permits (i.e., General WUT User)
+T350	STATEMENT 5465 5581	all the actors will have the ability to run reports, view maps, and query water use permits (i.e., General WUT User)
+T351	CAUSE_EFFECT_RELATION 5406 5581	Since a majority of the WUT System is reporting in nature, all the actors will have the ability to run reports, view maps, and query water use permits (i.e., General WUT User)
+T352	ROOT_SENTENCE 5406 5582	Since a majority of the WUT System is reporting in nature, all the actors will have the ability to run reports, view maps, and query water use permits (i.e., General WUT User).
+T353	VARIABLE 5584 5611	Each coat of bitumen mastic
+T354	CONDITION 5612 5628	shall succeeding
+T355	KEY_C 5630 5635	since
+T356	VARIABLE 5636 5679	exposure to contamination (by dust or dirt)
+T357	CONDITION 5680 5701	might impair adhesion
+T358	CONDITION 5706 5722	cause blistering
+T359	AND 5680 5722	might impair adhesion and cause blistering
+T360	STATEMENT 5636 5722	exposure to contamination (by dust or dirt) might impair adhesion and cause blistering
+T361	CAUSE 5630 5722	since exposure to contamination (by dust or dirt) might impair adhesion and cause blistering
+T362	STATEMENT 5584 5628	Each coat of bitumen mastic shall succeeding
+T363	CAUSE_EFFECT_RELATION 5584 5722	Each coat of bitumen mastic shall succeeding, since exposure to contamination (by dust or dirt) might impair adhesion and cause blistering
+T364	ROOT_SENTENCE 5584 5723	Each coat of bitumen mastic shall succeeding, since exposure to contamination (by dust or dirt) might impair adhesion and cause blistering.
+T365	KEY_C 5725 5730	Since
+T366	VARIABLE 5731 5752	major test activities
+T367	CONDITION 5753 5789	often cover multiple activity sheets
+T368	VARIABLE 5791 5816	the structure of the TSPE
+T369	CONDITION 5817 5839	is adapted accordingly
+T370	STATEMENT 5791 5839	the structure of the TSPE is adapted accordingly
+T371	STATEMENT 5731 5789	major test activities often cover multiple activity sheets
+T372	CAUSE 5725 5789	Since major test activities often cover multiple activity sheets
+T373	CAUSE_EFFECT_RELATION 5725 5839	Since major test activities often cover multiple activity sheets, the structure of the TSPE is adapted accordingly
+T374	ROOT_SENTENCE 5725 5840	Since major test activities often cover multiple activity sheets, the structure of the TSPE is adapted accordingly.
+T375	KEY_C 5842 5847	Since
+T376	VARIABLE 5848 5865	operational costs
+T377	CONDITION 5866 5906	are often greater than acquisition costs
+T378	VARIABLE 5908 5923	lifecycle costs
+T379	CONDITION 5924 5962	shall be assessed early in the program
+T380	STATEMENT 5908 5962	lifecycle costs shall be assessed early in the program
+T381	STATEMENT 5848 5906	operational costs are often greater than acquisition costs
+T382	CAUSE 5842 5906	Since operational costs are often greater than acquisition costs
+T383	CAUSE_EFFECT_RELATION 5842 5962	Since operational costs are often greater than acquisition costs, lifecycle costs shall be assessed early in the program
+T384	ROOT_SENTENCE 5842 5963	Since operational costs are often greater than acquisition costs, lifecycle costs shall be assessed early in the program.
+T385	KEY_C 5965 5970	Since
+T386	VARIABLE 5971 5982	ESD testing
+T387	CONDITION 5983 6033	can cause catastrophic failure of the test article
+T388	CONDITION 6034 6078	(and even more insidiously, latent failures)
+T389	AND 5983 6078	can cause catastrophic failure of the test article (and even more insidiously, latent failures)
+T390	STATEMENT 5971 6078	ESD testing can cause catastrophic failure of the test article (and even more insidiously, latent failures)
+T391	CAUSE 5965 6078	Since ESD testing can cause catastrophic failure of the test article (and even more insidiously, latent failures)
+T392	VARIABLE 6079 6091	verification
+T393	CONDITION 6092 6123	is only possible on engineering
+T394	CONDITION 6127 6143	prototype models
+T395	OR 6092 6143	is only possible on engineering or prototype models
+T396	CONDITION 6149 6170	on the flight article
+T397	NEGATION 6145 6170	not on the flight article
+T398	AND 6092 6170	is only possible on engineering or prototype models, not on the flight article
+T399	STATEMENT 6079 6170	verification is only possible on engineering or prototype models, not on the flight article
+T400	CAUSE_EFFECT_RELATION 5965 6170	Since ESD testing can cause catastrophic failure of the test article (and even more insidiously, latent failures) verification is only possible on engineering or prototype models, not on the flight article
+T401	ROOT_SENTENCE 5965 6171	Since ESD testing can cause catastrophic failure of the test article (and even more insidiously, latent failures) verification is only possible on engineering or prototype models, not on the flight article.
+T402	KEY_C 6173 6178	Since
+T403	VARIABLE 6179 6223	the operation of all ground segment entities
+T404	CONDITION 6224 6274	is driven by the top-level mission operations plan
+T405	VARIABLE 6276 6284	the GOPs
+T406	CONDITION 6285 6337	are sub-servient to the flight operations plan (FOP)
+T407	KEY_NC 6339 6344	which
+T408	VARIABLE 6345 6360	is the document
+T409	CONDITION 6361 6409	that defines the overall mission operations plan
+T410	CONDITION 6414 6502	invokes, either directly or indirectly, support from the various ground segment entities
+T411	AND 6361 6502	that defines the overall mission operations plan and invokes, either directly or indirectly, support from the various ground segment entities
+T412	STATEMENT 6345 6502	is the document that defines the overall mission operations plan and invokes, either directly or indirectly, support from the various ground segment entities
+T413	NONE_CAUSAL 6339 6502	which is the document that defines the overall mission operations plan and invokes, either directly or indirectly, support from the various ground segment entities
+T414	STATEMENT 6276 6337	the GOPs are sub-servient to the flight operations plan (FOP)
+T415	STATEMENT 6179 6274	the operation of all ground segment entities is driven by the top-level mission operations plan
+T416	CAUSE 6173 6274	Since the operation of all ground segment entities is driven by the top-level mission operations plan
+T417	CAUSE_EFFECT_RELATION 6173 6337	Since the operation of all ground segment entities is driven by the top-level mission operations plan, the GOPs are sub-servient to the flight operations plan (FOP)
+T418	ROOT_SENTENCE 6173 6503	Since the operation of all ground segment entities is driven by the top-level mission operations plan, the GOPs are sub-servient to the flight operations plan (FOP), which is the document that defines the overall mission operations plan and invokes, either directly or indirectly, support from the various ground segment entities.
+T419	KEY_C 6505 6510	Since
+T420	VARIABLE 6511 6536	quantitative requirements
+T421	CONDITION 6537 6563	are often mission specific
+T422	VARIABLE 6565 6595	the requirements in clause 6.7
+T423	CONDITION 6604 6629	intended to be exhaustive
+T424	NEGATION 6596 6629	are not intended to be exhaustive
+T425	CONDITION 6635 6718	to cover the common aspects that can be expected in most of the scientific missions
+T426	AND 6596 6718	are not intended to be exhaustive, but to cover the common aspects that can be expected in most of the scientific missions
+T427	STATEMENT 6565 6718	the requirements in clause 6.7 are not intended to be exhaustive, but to cover the common aspects that can be expected in most of the scientific missions
+T428	STATEMENT 6511 6563	quantitative requirements are often mission specific
+T429	CAUSE 6505 6563	Since quantitative requirements are often mission specific
+T430	CAUSE_EFFECT_RELATION 6505 6718	Since quantitative requirements are often mission specific, the requirements in clause 6.7 are not intended to be exhaustive, but to cover the common aspects that can be expected in most of the scientific missions
+T431	ROOT_SENTENCE 6505 6719	Since quantitative requirements are often mission specific, the requirements in clause 6.7 are not intended to be exhaustive, but to cover the common aspects that can be expected in most of the scientific missions.
+T432	VARIABLE 6721 6725	This
+T433	CONDITION 6726 6745	is only tested once
+T435	KEY_C 6746 6752	due to
+T434	VARIABLE 6753 6771	the amount of time
+T436	CONDITION 6772 6788	required to test
+T437	STATEMENT 6753 6788	the amount of time required to test
+T438	CAUSE 6746 6788	due to the amount of time required to test
+T439	STATEMENT 6721 6745	This is only tested once
+T440	CAUSE_EFFECT_RELATION 6721 6788	This is only tested once due to the amount of time required to test
+T441	ROOT_SENTENCE 6721 6789	This is only tested once due to the amount of time required to test.
+T442	KEY_C 6791 6797	Due to
+T443	VARIABLE 6798 6812	the complexity
+T444	VARIABLE 6817 6841	size of the process maps
+T445	AND 6798 6841	the complexity and size of the process maps
+T446	VARIABLE 6842 6844	it
+T447	CONDITION 6845 6918	is recommended to view this section of the document in 250% magnification
+T448	STATEMENT 6842 6918	it is recommended to view this section of the document in 250% magnification
+T449	CAUSE 6791 6841	Due to the complexity and size of the process maps
+T450	CAUSE_EFFECT_RELATION 6791 6918	Due to the complexity and size of the process maps it is recommended to view this section of the document in 250% magnification
+T451	ROOT_SENTENCE 6791 6919	Due to the complexity and size of the process maps it is recommended to view this section of the document in 250% magnification.
+T452	VARIABLE 13595 13603	Robotics
+T453	CONDITION 13604 13652	is the preferred means of performing maintenance
+T454	KEY_C 13653 13659	due to
+T455	VARIABLE 13660 13696	the limited availability of the crew
+T456	CAUSE 13653 13696	due to the limited availability of the crew
+T457	STATEMENT 13595 13652	Robotics is the preferred means of performing maintenance
+T458	CAUSE_EFFECT_RELATION 13595 13696	Robotics is the preferred means of performing maintenance due to the limited availability of the crew
+T459	KEY_NC 13698 13705	however
+T460	VARIABLE 13707 13739	early phases of Gateway assembly
+T461	CONDITION 13740 13786	will be solely reliant on crew for maintenance
+T462	STATEMENT 13707 13786	early phases of Gateway assembly will be solely reliant on crew for maintenance
+T463	NONE_CAUSAL 13698 13786	however, early phases of Gateway assembly will be solely reliant on crew for maintenance
+T464	ROOT_SENTENCE 13595 13787	Robotics is the preferred means of performing maintenance due to the limited availability of the crew; however, early phases of Gateway assembly will be solely reliant on crew for maintenance.
+T465	VARIABLE 12993 12995	It
+T466	CONDITION 12996 13065	is important to take the right value of the Cell junction capacitance
+T467	KEY_C 13066 13072	due to
+T468	VARIABLE 13073 13076	its
+T469	CONDITION 13077 13180	non‐linearity (estimation of the capacitance for voltage values between 0 and Vnominal, see Figure E‐6)
+T470	STATEMENT 13073 13180	its non‐linearity (estimation of the capacitance for voltage values between 0 and Vnominal, see Figure E‐6)
+T471	CAUSE 13066 13180	due to its non‐linearity (estimation of the capacitance for voltage values between 0 and Vnominal, see Figure E‐6)
+T472	STATEMENT 12993 13065	It is important to take the right value of the Cell junction capacitance
+T473	CAUSE_EFFECT_RELATION 12993 13180	It is important to take the right value of the Cell junction capacitance due to its non‐linearity (estimation of the capacitance for voltage values between 0 and Vnominal, see Figure E‐6)
+T474	ROOT_SENTENCE 12993 13181	It is important to take the right value of the Cell junction capacitance due to its non‐linearity (estimation of the capacitance for voltage values between 0 and Vnominal, see Figure E‐6).
+T475	VARIABLE 9111 9123	Flash crowds
+T476	CONDITION 9124 9132	occurred
+T477	KEY_C 9133 9139	due to
+T478	VARIABLE 9140 9165	a sudden burst in traffic
+T479	CAUSE 9133 9165	due to a sudden burst in traffic
+T480	STATEMENT 9111 9132	Flash crowds occurred
+T481	CAUSE_EFFECT_RELATION 9111 9165	Flash crowds occurred due to a sudden burst in traffic
+T482	ROOT_SENTENCE 9111 9166	Flash crowds occurred due to a sudden burst in traffic.
+T483	KEY_C 8868 8874	Due to
+T484	VARIABLE 8875 8897	the proprietary nature
+T485	CONDITION 8898 8914	of existing CDNs
+T486	VARIABLE 8916 8955	limited information about response time
+T487	VARIABLE 8959 8971	service cost
+T488	OR 8916 8971	limited information about response time or service cost
+T489	CONDITION 8972 9015	is typically available from individual CDNs
+T490	VARIABLE 9021 9043	load balancing control
+T491	CONDITION 9044 9081	is retained by an individual provider
+T492	CONDITION 9082 9108	within its own Web servers
+T493	AND 9044 9108	is retained by an individual provider within its own Web servers
+T494	STATEMENT 9021 9108	load balancing control is retained by an individual provider within its own Web servers
+T495	STATEMENT 8916 9015	limited information about response time or service cost is typically available from individual CDNs
+T496	AND 8916 9108	limited information about response time or service cost is typically available from individual CDNs, and load balancing control is retained by an individual provider within its own Web servers
+T497	STATEMENT 8875 8914	the proprietary nature of existing CDNs
+T498	CAUSE 8868 8914	Due to the proprietary nature of existing CDNs
+T499	CAUSE_EFFECT_RELATION 8868 9108	Due to the proprietary nature of existing CDNs, limited information about response time or service cost is typically available from individual CDNs, and load balancing control is retained by an individual provider within its own Web servers
+T500	ROOT_SENTENCE 8868 9109	Due to the proprietary nature of existing CDNs, limited information about response time or service cost is typically available from individual CDNs, and load balancing control is retained by an individual provider within its own Web servers.
+T501	VARIABLE 11898 11916	the beam potential
+T502	CONDITION 11917 11952	follows also a similar distribution
+T503	STATEMENT 11898 11952	the beam potential follows also a similar distribution
+T504	KEY_C 11847 11853	Due to
+T505	VARIABLE 11854 11896	the Gaussian primary ion beam distribution
+T506	CAUSE 11847 11896	Due to the Gaussian primary ion beam distribution
+T507	CAUSE_EFFECT_RELATION 11847 11952	Due to the Gaussian primary ion beam distribution, the beam potential follows also a similar distribution
+T508	ROOT_SENTENCE 11847 11953	Due to the Gaussian primary ion beam distribution, the beam potential follows also a similar distribution.
+T509	VARIABLE 11686 11696	Ionization
+T510	CONDITION 11697 11699	is
+T511	KEY_C 11700 11706	due to
+T512	VARIABLE 11707 11761	the higher energy part of the space radiation spectrum
+T513	VARIABLE 11763 11765	UV
+T514	VARIABLE 11767 11777	soft X‐ray
+T515	VARIABLE 11782 11799	charged particles
+T516	CONDITION 11800 11843	with energy of the order of 100 eV or above
+T517	AND 11767 11799	soft X‐ray and charged particles
+T518	AND 11763 11799	UV, soft X‐ray and charged particles
+T519	NONE_CAUSAL 11763 11843	UV, soft X‐ray and charged particles with energy of the order of 100 eV or above
+T520	CAUSE 11700 11761	due to the higher energy part of the space radiation spectrum
+T521	STATEMENT 11686 11699	Ionization is
+T522	CAUSE_EFFECT_RELATION 11686 11761	Ionization is due to the higher energy part of the space radiation spectrum
+T523	ROOT_SENTENCE 11686 11845	Ionization is due to the higher energy part of the space radiation spectrum (UV, soft X‐ray and charged particles with energy of the order of 100 eV or above).
+T532	VARIABLE 11291 11313	The number of ADC bits
+T533	CONDITION 11314 11363	shall therefore be sufficient to prevent clipping
+T534	KEY_C 11364 11370	due to
+T535	VARIABLE 11371 11397	strong interfering signals
+T536	CONDITION 11398 11418	such as airplane DME
+T537	CONDITION 11423 11440	satellite signals
+T538	AND 11398 11440	such as airplane DME and satellite signals
+T539	STATEMENT 11371 11440	strong interfering signals such as airplane DME and satellite signals
+T540	CAUSE 11364 11440	due to strong interfering signals such as airplane DME and satellite signals
+T541	STATEMENT 11291 11363	The number of ADC bits shall therefore be sufficient to prevent clipping
+T542	CAUSE_EFFECT_RELATION 11291 11440	The number of ADC bits shall therefore be sufficient to prevent clipping due to strong interfering signals such as airplane DME and satellite signals
+T543	ROOT_SENTENCE 11291 11441	The number of ADC bits shall therefore be sufficient to prevent clipping due to strong interfering signals such as airplane DME and satellite signals.
+T544	VARIABLE 11152 11184	Changing the beam former weights
+T545	CONDITION 11185 11239	shall be possible within 60 seconds in case of changes
+T546	KEY_C 11240 11246	due to
+T547	VARIABLE 11247 11265	manual interaction
+T548	VARIABLE 11269 11288	changes in schedule
+T549	OR 11247 11288	manual interaction or changes in schedule
+T550	CAUSE 11240 11288	due to manual interaction or changes in schedule
+T551	STATEMENT 11152 11239	Changing the beam former weights shall be possible within 60 seconds in case of changes
+T552	CAUSE_EFFECT_RELATION 11152 11288	Changing the beam former weights shall be possible within 60 seconds in case of changes due to manual interaction or changes in schedule
+T553	ROOT_SENTENCE 11152 11289	Changing the beam former weights shall be possible within 60 seconds in case of changes due to manual interaction or changes in schedule.
+T554	KEY_C 11012 11018	Due to
+T555	VARIABLE 11019 11051	the random distribution of flaws
+T556	VARIABLE 11052 11092	the failure of a complex structural part
+T557	CONDITION 11093 11149	can be initiated not only at the point of highest stress
+T558	STATEMENT 11052 11149	the failure of a complex structural part can be initiated not only at the point of highest stress
+T559	CAUSE 11012 11051	Due to the random distribution of flaws
+T560	CAUSE_EFFECT_RELATION 11012 11149	Due to the random distribution of flaws the failure of a complex structural part can be initiated not only at the point of highest stress
+T561	ROOT_SENTENCE 11012 11150	Due to the random distribution of flaws the failure of a complex structural part can be initiated not only at the point of highest stress.
+T562	KEY_C 10674 10680	due to
+T563	VARIABLE 10681 10690	personnel
+T564	CONDITION 10691 10734	being unaware of handling fiber optic cable
+T565	STATEMENT 10681 10734	personnel being unaware of handling fiber optic cable
+T566	CAUSE 10674 10734	due to personnel being unaware of handling fiber optic cable
+T567	VARIABLE 10625 10647	Use of common labeling
+T568	CONDITION 10648 10673	minimizes breaks in fiber
+T569	STATEMENT 10625 10673	Use of common labeling minimizes breaks in fiber
+T570	CAUSE_EFFECT_RELATION 10625 10734	Use of common labeling minimizes breaks in fiber due to personnel being unaware of handling fiber optic cable
+T571	ROOT_SENTENCE 10625 10735	Use of common labeling minimizes breaks in fiber due to personnel being unaware of handling fiber optic cable.
+T573	VARIABLE 10230 10240	Horizontal
+T574	VARIABLE 10244 10261	inclined formwork
+T575	OR 10230 10261	Horizontal or inclined formwork
+T576	CONDITION 10262 10294	to the upper surface of concrete
+T577	CONDITION 10295 10337	shall be adequately secured against uplift
+T578	AND 10262 10337	to the upper surface of concrete shall be adequately secured against uplift
+T579	STATEMENT 10230 10337	Horizontal or inclined formwork to the upper surface of concrete shall be adequately secured against uplift
+T580	KEY_C 10338 10344	due to
+T581	VARIABLE 10345 10375	the pressure of fresh concrete
+T582	CAUSE 10338 10375	due to the pressure of fresh concrete
+T583	CAUSE_EFFECT_RELATION 10230 10375	Horizontal or inclined formwork to the upper surface of concrete shall be adequately secured against uplift due to the pressure of fresh concrete
+T584	ROOT_SENTENCE 10230 10376	Horizontal or inclined formwork to the upper surface of concrete shall be adequately secured against uplift due to the pressure of fresh concrete.
+T585	VARIABLE 10150 10178	Plastering on the outer wall
+T586	CONDITION 10187 10194	require
+T587	NEGATION 10179 10194	may not require
+T588	STATEMENT 10150 10194	Plastering on the outer wall may not require
+T589	KEY_C 10195 10201	due to
+T590	VARIABLE 10202 10227	the attractive appearance
+T591	CAUSE 10195 10227	due to the attractive appearance
+T592	CAUSE_EFFECT_RELATION 10150 10227	Plastering on the outer wall may not require due to the attractive appearance
+T593	ROOT_SENTENCE 10150 10228	Plastering on the outer wall may not require due to the attractive appearance.
+T594	VARIABLE 10081 10089	The bond
+T595	CONDITION 10090 10122	acts as a good thermal insulator
+T596	KEY_C 10123 10129	due to
+T597	VARIABLE 10130 10136	cavity
+T598	CONDITION 10137 10147	in between
+T599	STATEMENT 10130 10147	cavity in between
+T600	CAUSE 10123 10147	due to cavity in between
+T601	STATEMENT 10081 10122	The bond acts as a good thermal insulator
+T602	CAUSE_EFFECT_RELATION 10081 10147	The bond acts as a good thermal insulator due to cavity in between
+T603	ROOT_SENTENCE 10081 10148	The bond acts as a good thermal insulator due to cavity in between.
+T604	KEY_C 9942 9948	Due to
+T605	VARIABLE 9949 9963	this reduction
+T606	CONDITION 9964 9983	in number of bricks
+T607	STATEMENT 9949 9983	this reduction in number of bricks
+T608	CAUSE 9942 9983	Due to this reduction in number of bricks
+T609	VARIABLE 9985 10005	the consumption sand
+T610	CONDITION 10006 10077	is saved as compared to normal English Bond and Flemish Bond brick wall
+T611	STATEMENT 9985 10077	the consumption sand is saved as compared to normal English Bond and Flemish Bond brick wall
+T612	CAUSE_EFFECT_RELATION 9942 10077	Due to this reduction in number of bricks, the consumption sand is saved as compared to normal English Bond and Flemish Bond brick wall
+T613	ROOT_SENTENCE 9942 10079	Due to this reduction in number of bricks, the consumption sand is saved as compared to normal English Bond and Flemish Bond brick wall).
+T615	VARIABLE 1137 1151	This procedure
+T616	CONDITION 1152 1163	can be used
+T617	KEY_C 1164 1168	when
+T618	VARIABLE 1169 1171	it
+T619	CONDITION 1172 1259	is necessary to interrupt an internal connection of a multi-layer printed circuit board
+T620	STATEMENT 1169 1259	it is necessary to interrupt an internal connection of a multi-layer printed circuit board
+T621	CAUSE 1164 1259	when it is necessary to interrupt an internal connection of a multi-layer printed circuit board
+T622	STATEMENT 1137 1163	This procedure can be used
+T623	CAUSE_EFFECT_RELATION 1137 1259	This procedure can be used when it is necessary to interrupt an internal connection of a multi-layer printed circuit board
+T624	ROOT_SENTENCE 1137 1260	This procedure can be used when it is necessary to interrupt an internal connection of a multi-layer printed circuit board.
+T625	VARIABLE 429 454	Terminal post replacement
+T626	CONDITION 455 468	is applicable
+T627	KEY_C 469 473	when
+T628	VARIABLE 474 476	it
+T629	CONDITION 477 528	is considered that the operation can be carried out
+T630	CONDITION 537 571	damage to adjacent conductor track
+T631	CONDITION 575 588	base laminate
+T632	CONDITION 592 602	components
+T633	OR 575 602	base laminate or components
+T634	OR 537 602	damage to adjacent conductor track or base laminate or components
+T635	NEGATION 529 602	without damage to adjacent conductor track or base laminate or components
+T636	AND 477 602	is considered that the operation can be carried out without damage to adjacent conductor track or base laminate or components
+T637	STATEMENT 474 602	it is considered that the operation can be carried out without damage to adjacent conductor track or base laminate or components
+T638	CAUSE 469 602	when it is considered that the operation can be carried out without damage to adjacent conductor track or base laminate or components
+T639	STATEMENT 429 468	Terminal post replacement is applicable
+T640	CAUSE_EFFECT_RELATION 429 602	Terminal post replacement is applicable when it is considered that the operation can be carried out without damage to adjacent conductor track or base laminate or components
+T641	ROOT_SENTENCE 429 603	Terminal post replacement is applicable when it is considered that the operation can be carried out without damage to adjacent conductor track or base laminate or components.
+T642	NONE_CAUSAL 232 261	For plated through holes only
+T643	KEY_C 263 267	When
+T644	VARIABLE 268 278	the repair
+T645	CONDITION 279 291	is completed
+T646	VARIABLE 293 316	a clinched lead-through
+T647	CONDITION 317 361	is to be inserted in the plated through hole
+T648	STATEMENT 293 361	a clinched lead-through is to be inserted in the plated through hole
+T649	STATEMENT 268 291	the repair is completed
+T650	CAUSE 263 291	When the repair is completed
+T651	CAUSE_EFFECT_RELATION 263 361	When the repair is completed, a clinched lead-through is to be inserted in the plated through hole
+T652	ROOT_SENTENCE 232 362	For plated through holes only: When the repair is completed, a clinched lead-through is to be inserted in the plated through hole.
+T653	VARIABLE 605 620	Extreme caution
+T654	CONDITION 621 639	shall be exercised
+T655	KEY_C 640 644	when
+T656	VARIABLE 645 652	dealing
+T657	CONDITION 653 742	with circuit boards having plated-through holes as the connecting surfaces rupture easily
+T658	STATEMENT 645 742	dealing with circuit boards having plated-through holes as the connecting surfaces rupture easily
+T659	CAUSE 640 742	when dealing with circuit boards having plated-through holes as the connecting surfaces rupture easily
+T660	STATEMENT 605 639	Extreme caution shall be exercised
+T661	CAUSE_EFFECT_RELATION 605 742	Extreme caution shall be exercised when dealing with circuit boards having plated-through holes as the connecting surfaces rupture easily
+T662	ROOT_SENTENCE 605 743	Extreme caution shall be exercised when dealing with circuit boards having plated-through holes as the connecting surfaces rupture easily.
+T663	VARIABLE 745 756	This method
+T664	CONDITION 757 770	shall be used
+T665	CONDITION 771 806	to enable a component to be mounted
+T666	AND 757 806	shall be used to enable a component to be mounted
+T667	STATEMENT 745 806	This method shall be used to enable a component to be mounted
+T668	KEY_C 807 811	when
+T669	VARIABLE 812 821	the leads
+T670	CONDITION 822 918	are of a larger diameter than that of existing plated through holes in the printed circuit board
+T671	STATEMENT 812 918	the leads are of a larger diameter than that of existing plated through holes in the printed circuit board
+T672	CAUSE 807 918	when the leads are of a larger diameter than that of existing plated through holes in the printed circuit board
+T673	CAUSE_EFFECT_RELATION 745 918	This method shall be used to enable a component to be mounted when the leads are of a larger diameter than that of existing plated through holes in the printed circuit board
+T674	ROOT_SENTENCE 745 919	This method shall be used to enable a component to be mounted when the leads are of a larger diameter than that of existing plated through holes in the printed circuit board.
+T691	VARIABLE 1418 1426	Problems
+T692	KEY_C 1427 1436	caused by
+T693	VARIABLE 1437 1464	inadequate early definition
+T694	CAUSE 1427 1464	caused by inadequate early definition
+T695	CONDITION 1466 1531	often pass unnoticed during the exchange of technical information
+T696	CAUSE_EFFECT_RELATION 1418 1531	Problems caused by inadequate early definition, often pass unnoticed during the exchange of technical information
+T697	ROOT_SENTENCE 1418 1532	Problems caused by inadequate early definition, often pass unnoticed during the exchange of technical information.
+T698	VARIABLE 1534 1539	Users
+T699	CONDITION 1540 1597	should be able to search for pages of the academic portal
+T700	KEY_C 1599 1604	since
+T701	VARIABLE 1605 1618	most students
+T702	CONDITION 1619 1666	will be searching for material given in courses
+T703	STATEMENT 1605 1666	most students will be searching for material given in courses
+T704	CAUSE 1599 1666	since most students will be searching for material given in courses
+T705	STATEMENT 1534 1597	Users should be able to search for pages of the academic portal
+T706	CAUSE_EFFECT_RELATION 1534 1666	Users should be able to search for pages of the academic portal, since most students will be searching for material given in courses
+T707	ROOT_SENTENCE 1534 1667	Users should be able to search for pages of the academic portal, since most students will be searching for material given in courses.
+T708	VARIABLE 1669 1671	It
+T709	CONDITION 1672 1684	is important
+T710	CONDITION 1685 1765	that a substantial number of users be able to access the system at the same time
+T711	KEY_C 1767 1772	since
+T712	VARIABLE 1773 1791	an academic portal
+T713	CONDITION 1792 1834	is important to the courses that employ it
+T714	STATEMENT 1773 1834	an academic portal is important to the courses that employ it
+T715	CAUSE 1767 1834	since an academic portal is important to the courses that employ it
+T716	AND 1672 1765	is important that a substantial number of users be able to access the system at the same time
+T717	STATEMENT 1669 1765	It is important that a substantial number of users be able to access the system at the same time
+T718	CAUSE_EFFECT_RELATION 1669 1834	It is important that a substantial number of users be able to access the system at the same time, since an academic portal is important to the courses that employ it
+T719	ROOT_SENTENCE 1669 1835	It is important that a substantial number of users be able to access the system at the same time, since an academic portal is important to the courses that employ it.
+T720	KEY_C 1837 1842	Since
+T721	VARIABLE 1843 1861	the streams inputs
+T722	CONDITION 1870 1892	necessarily continuous
+T723	NEGATION 1862 1892	are not necessarily continuous
+T724	VARIABLE 1894 1896	it
+T725	CONDITION 1897 1989	is important to be able to set the time after which the signal stream is considered finished
+T726	STATEMENT 1894 1989	it is important to be able to set the time after which the signal stream is considered finished
+T727	STATEMENT 1843 1892	the streams inputs are not necessarily continuous
+T728	CAUSE 1837 1892	Since the streams inputs are not necessarily continuous
+T729	CAUSE_EFFECT_RELATION 1837 1989	Since the streams inputs are not necessarily continuous, it is important to be able to set the time after which the signal stream is considered finished
+T730	ROOT_SENTENCE 1837 1990	Since the streams inputs are not necessarily continuous, it is important to be able to set the time after which the signal stream is considered finished.
+T731	KEY_C 1992 1997	Since
+T732	VARIABLE 1998 2028	graphical rendering activities
+T733	CONDITION 2029 2067	are traditionally highly CPU-intensive
+T734	CONDITION 2074 2123	should be independent of the more generalised GPU
+T735	CONDITION 2131 2157	cluster compute facilities
+T736	CONDITION 2158 2176	aimed at modelling
+T737	CONDITION 2181 2191	simulation
+T738	CONDITION 2192 2246	in order to maximise the efficiency of both activities
+T739	AND 2158 2191	aimed at modelling and simulation
+T740	AND 2158 2246	aimed at modelling and simulation in order to maximise the efficiency of both activities
+T741	OR 2074 2157	should be independent of the more generalised GPU and/or cluster compute facilities
+T742	AND 2074 2246	should be independent of the more generalised GPU and/or cluster compute facilities aimed at modelling and simulation in order to maximise the efficiency of both activities
+T743	VARIABLE 2069 2073	this
+T744	STATEMENT 2069 2246	this should be independent of the more generalised GPU and/or cluster compute facilities aimed at modelling and simulation in order to maximise the efficiency of both activities
+T745	CAUSE_EFFECT_RELATION 1992 2246	Since graphical rendering activities are traditionally highly CPU-intensive, this should be independent of the more generalised GPU and/or cluster compute facilities aimed at modelling and simulation in order to maximise the efficiency of both activities
+T746	ROOT_SENTENCE 1992 2247	Since graphical rendering activities are traditionally highly CPU-intensive, this should be independent of the more generalised GPU and/or cluster compute facilities aimed at modelling and simulation in order to maximise the efficiency of both activities.
+T747	KEY_C 12466 12472	due to
+T748	VARIABLE 12473 12508	deposition of penetrating particles
+T749	CAUSE 12466 12508	due to deposition of penetrating particles
+T750	VARIABLE 12429 12464	Any electrical charging of the mass
+T751	CONDITION 12509 12551	produces an additional electrostatic force
+T752	CONDITION 12552 12614	that is indistinguishable from the acceleration being measured
+T753	AND 12509 12614	produces an additional electrostatic force that is indistinguishable from the acceleration being measured
+T754	CAUSE_EFFECT_RELATION 12429 12614	Any electrical charging of the mass, due to deposition of penetrating particles produces an additional electrostatic force that is indistinguishable from the acceleration being measured
+T755	ROOT_SENTENCE 12429 12615	Any electrical charging of the mass, due to deposition of penetrating particles produces an additional electrostatic force that is indistinguishable from the acceleration being measured.
+T756	NONE_CAUSAL 13268 13275	As such
+T757	VARIABLE 13277 13296	securing state data
+T759	CONDITION 13334 13355	insufficient recovery
+T760	AND 13297 13355	reduces the risk of an incomplete or insufficient recovery
+T761	STATEMENT 13277 13355	securing state data reduces the risk of an incomplete or insufficient recovery
+T762	KEY_C 13356 13362	due to
+T763	VARIABLE 13363 13384	data integrity issues
+T764	CAUSE 13356 13384	due to data integrity issues
+T765	CAUSE_EFFECT_RELATION 13277 13384	securing state data reduces the risk of an incomplete or insufficient recovery due to data integrity issues
+T766	ROOT_SENTENCE 13268 13385	As such, securing state data reduces the risk of an incomplete or insufficient recovery due to data integrity issues.
+T758	CONDITION 13297 13313	reduces the risk
+T767	CONDITION 13314 13330	of an incomplete
+T768	OR 13314 13355	of an incomplete or insufficient recovery
+T769	VARIABLE 8458 8491	The surveyed group of individuals
+T770	CONDITION 8492 8512	was very heterogenic
+T771	KEY_C 8513 8519	due to
+T772	VARIABLE 8520 8555	the various (combined) disabilities
+T773	CONDITION 8556 8567	represented
+T774	STATEMENT 8520 8567	the various (combined) disabilities represented
+T775	CAUSE 8513 8567	due to the various (combined) disabilities represented
+T776	STATEMENT 8458 8512	The surveyed group of individuals was very heterogenic
+T777	CAUSE_EFFECT_RELATION 8458 8567	The surveyed group of individuals was very heterogenic due to the various (combined) disabilities represented
+T778	ROOT_SENTENCE 8458 8568	The surveyed group of individuals was very heterogenic due to the various (combined) disabilities represented.
+T790	VARIABLE 8364 8368	This
+T791	CONDITION 8369 8378	is mostly
+T792	STATEMENT 8364 8378	This is mostly
+T793	KEY_C 8379 8385	due to
+T794	VARIABLE 8386 8409	the national guidelines
+T795	CONDITION 8410 8455	that mostly are based on a subset of WCAG 1.0
+T796	STATEMENT 8386 8455	the national guidelines that mostly are based on a subset of WCAG 1.0
+T797	CAUSE 8379 8455	due to the national guidelines that mostly are based on a subset of WCAG 1.0
+T798	CAUSE_EFFECT_RELATION 8364 8455	This is mostly due to the national guidelines that mostly are based on a subset of WCAG 1.0
+T799	ROOT_SENTENCE 8364 8456	This is mostly due to the national guidelines that mostly are based on a subset of WCAG 1.0.
+T1	CONDITION 1083 1134	straight pin terminals(cid:148) of ECSS--Q--70--08A
+T2	CONDITION 990 1078	to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret
+T3	CONDITION 968 989	formed insulated wire
+T4	CONDITION 953 963	pre-tinned
+T5	CONDITION 943 951	stripped
+T39	VARIABLE 936 942	attach
+T40	VARIABLE 926 934	required
+T67	KEY_C 921 925	When
+T68	CAUSE 921 934	When required
+T69	AND 990 1134	to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T70	AND 968 1134	formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T202	AND 953 1134	pre-tinned and formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T203	AND 943 1134	stripped, pre-tinned and formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T204	STATEMENT 936 1134	attach stripped, pre-tinned and formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T205	CAUSE_EFFECT_RELATION 921 1134	When required, attach stripped, pre-tinned and formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A
+T267	ROOT_SENTENCE 921 1135	When required, attach stripped, pre-tinned and formed insulated wire to the isolated lead using a wrap-around connection as per subclause 9.3 (cid:147)Turret and straight pin terminals(cid:148) of ECSS--Q--70--08A.
+T268	CONDITION 11516 11593	exceed the electromagnetic interference safety margins defined in ECSS--E--20
+T269	NEGATION 11506 11593	shall not exceed the electromagnetic interference safety margins defined in ECSS--E--20
+T284	KEY_C 11472 11478	due to
+T285	VARIABLE 11479 11504	exposure to the subsystem
+T286	CAUSE 11472 11504	due to exposure to the subsystem
+T287	VARIABLE 11443 11470	The magnetic field strength
+T288	CAUSE_EFFECT_RELATION 11443 11593	The magnetic field strength, due to exposure to the subsystem, shall not exceed the electromagnetic interference safety margins defined in ECSS--E--20
+T524	ROOT_SENTENCE 11443 11594	The magnetic field strength, due to exposure to the subsystem, shall not exceed the electromagnetic interference safety margins defined in ECSS--E--20.

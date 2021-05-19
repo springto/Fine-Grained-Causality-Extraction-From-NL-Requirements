@@ -1,0 +1,262 @@
+T1	VARIABLE 42 54	this process
+T2	VARIABLE 15 40	conditions in desiccators
+T3	CONDITION 7 14	varying
+T4	STATEMENT 7 40	varying conditions in desiccators
+T5	CAUSE 0 40	Due to varying conditions in desiccators
+T6	KEY_C 0 6	Due to
+T7	CONDITION 55 84	may take as long as two weeks
+T8	STATEMENT 42 93	this process may take as long as two weeks, or more
+T9	VARIABLE 644 661	risk of corrosion
+T10	CONDITION 631 643	considerable
+T11	KEY_C 624 630	Due to
+T12	STATEMENT 631 661	considerable risk of corrosion
+T13	CAUSE 624 661	Due to considerable risk of corrosion
+T14	VARIABLE 663 681	metallic fasteners
+T15	NEGATION 682 743	shall not be in contact with carbon fibre composite materials
+T16	CONDITION 692 743	be in contact with carbon fibre composite materials
+T17	CONDITION 89 93	more
+T18	OR 55 93	may take as long as two weeks, or more
+T19	STATEMENT 663 743	metallic fasteners shall not be in contact with carbon fibre composite materials
+T20	CAUSE_EFFECT_RELATION 624 743	Due to considerable risk of corrosion, metallic fasteners shall not be in contact with carbon fibre composite materials
+T21	CAUSE_EFFECT_RELATION 0 93	Due to varying conditions in desiccators, this process may take as long as two weeks, or more
+T22	ROOT_SENTENCE 0 94	Due to varying conditions in desiccators, this process may take as long as two weeks, or more.
+T23	ROOT_SENTENCE 624 744	Due to considerable risk of corrosion, metallic fasteners shall not be in contact with carbon fibre composite materials.
+T24	VARIABLE 103 154	changes in the proposed European partners’ schedule
+T25	CONDITION 242 263	included in this task
+T26	NEGATION 233 263	were not included in this task
+T27	KEY_C 96 102	Due to
+T28	CAUSE 96 154	Due to changes in the proposed European partners’ schedule
+T29	VARIABLE 156 178	some of the activities
+T31	STATEMENT 156 263	some of the activities planned to be completed and detailed in this document were not included in this task
+T32	CAUSE_EFFECT_RELATION 96 263	Due to changes in the proposed European partners’ schedule, some of the activities planned to be completed and detailed in this document were not included in this task
+T33	ROOT_SENTENCE 96 264	Due to changes in the proposed European partners’ schedule, some of the activities planned to be completed and detailed in this document were not included in this task.
+T30	CONDITION 207 232	detailed in this document
+T34	VARIABLE 476 523	the lack of stress relief on area array devices
+T35	KEY_C 469 475	Due to
+T36	CAUSE 469 523	Due to the lack of stress relief on area array devices
+T37	VARIABLE 525 551	thermo-mechanical stresses
+T38	CONDITION 552 600	are more effectively transferred into the device
+T39	CONDITION 605 621	the PCB laminate
+T40	STATEMENT 525 621	thermo-mechanical stresses are more effectively transferred into the device and the PCB laminate
+T41	AND 552 621	are more effectively transferred into the device and the PCB laminate
+T42	CAUSE_EFFECT_RELATION 469 621	Due to the lack of stress relief on area array devices, thermo-mechanical stresses are more effectively transferred into the device and the PCB laminate
+T43	ROOT_SENTENCE 469 622	Due to the lack of stress relief on area array devices, thermo-mechanical stresses are more effectively transferred into the device and the PCB laminate.
+T44	VARIABLE 753 774	the orbital mechanics
+T45	VARIABLE 775 796	the relative rotation
+T46	CONDITION 797 858	is dependent upon the distance of the spacecraft from the Sun
+T47	CONDITION 863 886	the perihelion distance
+T48	AND 797 886	is dependent upon the distance of the spacecraft from the Sun and the perihelion distance
+T49	KEY_C 746 752	Due to
+T50	CAUSE 746 774	Due to the orbital mechanics
+T51	STATEMENT 775 886	the relative rotation is dependent upon the distance of the spacecraft from the Sun and the perihelion distance
+T52	CAUSE_EFFECT_RELATION 746 886	Due to the orbital mechanics the relative rotation is dependent upon the distance of the spacecraft from the Sun and the perihelion distance
+T53	ROOT_SENTENCE 746 887	Due to the orbital mechanics the relative rotation is dependent upon the distance of the spacecraft from the Sun and the perihelion distance.
+T60	VARIABLE 1031 1062	the extreme thermal environment
+T61	VARIABLE 1064 1069	there
+T62	CONDITION 1070 1148	may be a problem with currents induced in the (conducting) spacecraft surfaces
+T63	CONDITION 1153 1162	structure
+T64	AND 1070 1162	may be a problem with currents induced in the (conducting) spacecraft surfaces and structure
+T65	STATEMENT 1064 1162	there may be a problem with currents induced in the (conducting) spacecraft surfaces and structure
+T66	VARIABLE 1170 1197	large temperature gradients
+T67	KEY_C 1163 1169	due to
+T68	KEY_C 1024 1030	Due to
+T69	CAUSE 1024 1062	Due to the extreme thermal environment
+T70	CAUSE 1163 1197	due to large temperature gradients
+T71	CAUSE_EFFECT_RELATION 1064 1197	there may be a problem with currents induced in the (conducting) spacecraft surfaces and structure due to large temperature gradients
+T72	CAUSE_EFFECT_RELATION 1024 1197	Due to the extreme thermal environment, there may be a problem with currents induced in the (conducting) spacecraft surfaces and structure due to large temperature gradients
+T73	ROOT_SENTENCE 1024 1198	Due to the extreme thermal environment, there may be a problem with currents induced in the (conducting) spacecraft surfaces and structure due to large temperature gradients.
+T74	VARIABLE 1207 1244	the thermal flux from the heat shield
+T75	VARIABLE 1246 1266	the colder radiators
+T76	CONDITION 1267 1298	must be located on the –X panel
+T77	STATEMENT 1246 1298	the colder radiators must be located on the –X panel
+T78	KEY_C 1200 1206	Due to
+T79	CAUSE 1200 1244	Due to the thermal flux from the heat shield
+T80	CAUSE_EFFECT_RELATION 1200 1298	Due to the thermal flux from the heat shield, the colder radiators must be located on the –X panel
+T81	ROOT_SENTENCE 1200 1299	Due to the thermal flux from the heat shield, the colder radiators must be located on the –X panel.
+T82	VARIABLE 1308 1323	dynamic linking
+T83	VARIABLE 1325 1337	hot swapping
+T84	VARIABLE 1342 1353	confinement
+T85	AND 1325 1353	hot swapping and confinement
+T86	AND 1308 1353	dynamic linking, hot swapping and confinement
+T87	KEY_C 1301 1307	Due to
+T88	VARIABLE 1355 1357	it
+T89	CONDITION 1358 1414	is acceptable not to retest the payload software in full
+T90	VARIABLE 1423 1447	a very late modification
+T91	CONDITION 1448 1453	occur
+T92	STATEMENT 1423 1453	a very late modification occur
+T93	KEY_C 1416 1422	should
+T94	CAUSE 1416 1453	should a very late modification occur
+T95	STATEMENT 1355 1414	it is acceptable not to retest the payload software in full
+T96	CAUSE 1301 1353	Due to dynamic linking, hot swapping and confinement
+T97	CAUSE_EFFECT_RELATION 1355 1453	it is acceptable not to retest the payload software in full, should a very late modification occur
+T98	CAUSE_EFFECT_RELATION 1301 1453	Due to dynamic linking, hot swapping and confinement, it is acceptable not to retest the payload software in full, should a very late modification occur
+T99	ROOT_SENTENCE 1301 1454	Due to dynamic linking, hot swapping and confinement, it is acceptable not to retest the payload software in full, should a very late modification occur.
+T100	VARIABLE 1500 1546	the contamination environment of Solar Orbiter
+T101	CONDITION 1547 1586	can be expected to be particular severe
+T102	VARIABLE 1463 1498	the specific aspects of the mission
+T103	KEY_C 1456 1462	Due to
+T104	CAUSE 1456 1498	Due to the specific aspects of the mission
+T105	STATEMENT 1500 1586	the contamination environment of Solar Orbiter can be expected to be particular severe
+T106	CAUSE_EFFECT_RELATION 1456 1586	Due to the specific aspects of the mission, the contamination environment of Solar Orbiter can be expected to be particular severe
+T107	ROOT_SENTENCE 1456 1587	Due to the specific aspects of the mission, the contamination environment of Solar Orbiter can be expected to be particular severe.
+T108	VARIABLE 1596 1658	the strict straylight requirements of a coronagraph instrument
+T109	VARIABLE 1660 1695	the vanes for straylight protection
+T110	CONDITION 1696 1728	will also be instrument provided
+T111	STATEMENT 1660 1728	the vanes for straylight protection will also be instrument provided
+T112	KEY_C 1589 1595	Due to
+T113	CAUSE 1589 1658	Due to the strict straylight requirements of a coronagraph instrument
+T114	CAUSE_EFFECT_RELATION 1589 1728	Due to the strict straylight requirements of a coronagraph instrument, the vanes for straylight protection will also be instrument provided
+T115	ROOT_SENTENCE 1589 1729	Due to the strict straylight requirements of a coronagraph instrument, the vanes for straylight protection will also be instrument provided.
+T116	VARIABLE 1738 1808	the sensitivity of these topics from a system vulnerability standpoint
+T117	VARIABLE 1810 1837	these survivability reviews
+T118	CONDITION 1838 1902	will necessarily be conducted at the appropriate security levels
+T119	STATEMENT 1810 1902	these survivability reviews will necessarily be conducted at the appropriate security levels
+T120	KEY_C 1731 1737	Due to
+T121	CAUSE 1731 1808	Due to the sensitivity of these topics from a system vulnerability standpoint
+T122	CAUSE_EFFECT_RELATION 1731 1902	Due to the sensitivity of these topics from a system vulnerability standpoint, these survivability reviews will necessarily be conducted at the appropriate security levels
+T123	ROOT_SENTENCE 1731 1903	Due to the sensitivity of these topics from a system vulnerability standpoint, these survivability reviews will necessarily be conducted at the appropriate security levels.
+T124	VARIABLE 1912 1969	the uncertainty in the attitude of an inactive spacecraft
+T125	VARIABLE 1971 1973	it
+T126	CONDITION 1974 2042	is difficult to estimate accurately the effective area-to-mass ratio
+T127	STATEMENT 1971 2042	it is difficult to estimate accurately the effective area-to-mass ratio
+T128	KEY_C 1905 1911	Due to
+T129	CAUSE 1905 1969	Due to the uncertainty in the attitude of an inactive spacecraft
+T130	CAUSE_EFFECT_RELATION 1905 2042	Due to the uncertainty in the attitude of an inactive spacecraft, it is difficult to estimate accurately the effective area-to-mass ratio
+T131	ROOT_SENTENCE 1905 2043	Due to the uncertainty in the attitude of an inactive spacecraft, it is difficult to estimate accurately the effective area-to-mass ratio.
+T138	KEY_C 14433 14439	Due to
+T139	VARIABLE 14440 14463	the difference in rates
+T140	VARIABLE 14465 14486	one data notification
+T141	CONDITION 14487 14515	can include multiple samples
+T142	STATEMENT 14465 14515	one data notification can include multiple samples
+T143	CAUSE 14433 14463	Due to the difference in rates
+T144	CAUSE_EFFECT_RELATION 14433 14515	Due to the difference in rates, one data notification can include multiple samples
+T145	ROOT_SENTENCE 14433 14516	Due to the difference in rates, one data notification can include multiple samples.
+T146	VARIABLE 12776 12782	slaves
+T147	CONDITION 12783 12819	can only communicate with the master
+T148	CONDITION 12828 12840	other slaves
+T149	NEGATION 12824 12840	not other slaves
+T150	AND 12783 12840	can only communicate with the master and not other slaves
+T151	VARIABLE 12760 12774	the TDD scheme
+T152	KEY_C 12753 12759	Due to
+T153	STATEMENT 12776 12840	slaves can only communicate with the master and not other slaves
+T154	CAUSE 12753 12774	Due to the TDD scheme
+T155	CAUSE_EFFECT_RELATION 12753 12840	Due to the TDD scheme, slaves can only communicate with the master and not other slaves
+T156	ROOT_SENTENCE 12753 12841	Due to the TDD scheme, slaves can only communicate with the master and not other slaves.
+T157	VARIABLE 9107 9131	training courses at IANS
+T158	CONDITION 9132 9175	need to be provided to two persons per year
+T159	VARIABLE 9084 9105	the turnover of staff
+T160	KEY_C 9077 9083	Due to
+T161	STATEMENT 9107 9175	training courses at IANS need to be provided to two persons per year
+T162	CAUSE 9077 9105	Due to the turnover of staff
+T163	CAUSE_EFFECT_RELATION 9077 9175	Due to the turnover of staff, training courses at IANS need to be provided to two persons per year
+T164	ROOT_SENTENCE 9077 9176	Due to the turnover of staff, training courses at IANS need to be provided to two persons per year.
+T165	VARIABLE 10765 10792	definite detection of ELC 1
+T166	VARIABLE 10796 10801	ELC 3
+T167	CONDITION 10802 10818	may be ambiguous
+T168	VARIABLE 10735 10763	the definition of parameters
+T169	KEY_C 10728 10734	Due to
+T170	OR 10765 10801	definite detection of ELC 1 or ELC 3
+T171	STATEMENT 10765 10818	definite detection of ELC 1 or ELC 3 may be ambiguous
+T172	CAUSE 10728 10763	Due to the definition of parameters
+T173	CAUSE_EFFECT_RELATION 10728 10818	Due to the definition of parameters, definite detection of ELC 1 or ELC 3 may be ambiguous
+T174	ROOT_SENTENCE 10728 10819	Due to the definition of parameters, definite detection of ELC 1 or ELC 3 may be ambiguous.
+T175	VARIABLE 15029 15074	a large variety of specialized device designs
+T176	CONDITION 15075 15087	is envisaged
+T177	VARIABLE 15000 15028	the variety of IoT use cases
+T178	KEY_C 14993 14999	Due to
+T179	STATEMENT 15029 15087	a large variety of specialized device designs is envisaged
+T180	CAUSE 14993 15028	Due to the variety of IoT use cases
+T181	CAUSE_EFFECT_RELATION 14993 15087	Due to the variety of IoT use cases a large variety of specialized device designs is envisaged
+T182	ROOT_SENTENCE 14993 15088	Due to the variety of IoT use cases a large variety of specialized device designs is envisaged.
+T183	KEY_C 13226 13232	Due to
+T184	CONDITION 13233 13245	the extended
+T185	CONDITION 13250 13267	complex nature of
+T186	VARIABLE 13268 13295	the data in this descriptor
+T187	VARIABLE 13297 13299	it
+T188	CONDITION 13300 13350	is presented in XML form using compressed XML tags
+T189	STATEMENT 13297 13350	it is presented in XML form using compressed XML tags
+T190	AND 13233 13267	the extended and complex nature of
+T191	STATEMENT 13233 13295	the extended and complex nature of the data in this descriptor
+T192	CAUSE 13226 13295	Due to the extended and complex nature of the data in this descriptor
+T193	CAUSE_EFFECT_RELATION 13226 13350	Due to the extended and complex nature of the data in this descriptor, it is presented in XML form using compressed XML tags
+T194	ROOT_SENTENCE 13226 13351	Due to the extended and complex nature of the data in this descriptor, it is presented in XML form using compressed XML tags.
+T195	KEY_C 13134 13140	Due to
+T196	VARIABLE 13141 13179	time limitations at compliance testing
+T197	VARIABLE 13181 13209	only a subset of frequencies
+T198	CONDITION 13210 13223	can be tested
+T199	STATEMENT 13181 13223	only a subset of frequencies can be tested
+T200	CAUSE 13134 13179	Due to time limitations at compliance testing
+T201	CAUSE_EFFECT_RELATION 13134 13223	Due to time limitations at compliance testing, only a subset of frequencies can be tested
+T202	ROOT_SENTENCE 13134 13224	Due to time limitations at compliance testing, only a subset of frequencies can be tested.
+T203	KEY_C 9931 9937	Due to
+T204	VARIABLE 9950 9956	events
+T205	VARIABLE 9960 9967	changes
+T206	CONDITION 9938 9949	operational
+T207	OR 9950 9967	events or changes
+T208	VARIABLE 9969 9981	a Controller
+T209	CONDITION 9982 10029	must be able to either modify an existing route
+T210	CONDITION 10033 10051	create a new route
+T211	OR 9982 10051	must be able to either modify an existing route or create a new route
+T212	STATEMENT 9969 10051	a Controller must be able to either modify an existing route or create a new route
+T213	STATEMENT 9938 9967	operational events or changes
+T214	CAUSE 9931 9967	Due to operational events or changes
+T215	CAUSE_EFFECT_RELATION 9931 10051	Due to operational events or changes, a Controller must be able to either modify an existing route or create a new route
+T216	ROOT_SENTENCE 9931 10052	Due to operational events or changes, a Controller must be able to either modify an existing route or create a new route.
+T217	KEY_C 11435 11441	Due to
+T218	CONDITION 11442 11453	an increase
+T219	VARIABLE 11454 11473	in greenhouse gases
+T220	VARIABLE 11474 11509	the area of land that is cultivable
+T221	CONDITION 11510 11524	might increase
+T222	VARIABLE 11530 11536	yields
+T223	CONDITION 11537 11551	might decrease
+T224	STATEMENT 11530 11551	yields might decrease
+T225	STATEMENT 11474 11524	the area of land that is cultivable might increase
+T226	STATEMENT 11442 11473	an increase in greenhouse gases
+T227	CAUSE 11435 11473	Due to an increase in greenhouse gases
+T228	AND 11474 11551	the area of land that is cultivable might increase, but yields might decrease
+T229	CAUSE_EFFECT_RELATION 11435 11551	Due to an increase in greenhouse gases the area of land that is cultivable might increase, but yields might decrease
+T230	ROOT_SENTENCE 11435 11552	Due to an increase in greenhouse gases the area of land that is cultivable might increase, but yields might decrease.
+T231	KEY_C 12272 12278	Due to
+T232	VARIABLE 12279 12305	the error detection system
+T233	CONDITION 12306 12310	used
+T234	VARIABLE 12311 12344	some residual (undetected) errors
+T235	CONDITION 12345 12382	may still remain in the received data
+T236	STATEMENT 12311 12382	some residual (undetected) errors may still remain in the received data
+T237	STATEMENT 12279 12310	the error detection system used
+T238	CAUSE 12272 12310	Due to the error detection system used
+T239	CAUSE_EFFECT_RELATION 12272 12382	Due to the error detection system used some residual (undetected) errors may still remain in the received data
+T240	ROOT_SENTENCE 12272 12383	Due to the error detection system used some residual (undetected) errors may still remain in the received data.
+T241	KEY_C 12843 12849	Due to
+T242	VARIABLE 12850 12874	802.11 AMP transmissions
+T243	VARIABLE 12876 12894	the collocated LBR
+T244	CONDITION 12909 12951	to receive transmissions from its peer LBR
+T245	NEGATION 12895 12951	may be unable to receive transmissions from its peer LBR
+T246	STATEMENT 12876 12951	the collocated LBR may be unable to receive transmissions from its peer LBR
+T247	CAUSE 12843 12874	Due to 802.11 AMP transmissions
+T248	CAUSE_EFFECT_RELATION 12843 12951	Due to 802.11 AMP transmissions, the collocated LBR may be unable to receive transmissions from its peer LBR
+T249	ROOT_SENTENCE 12843 12952	Due to 802.11 AMP transmissions, the collocated LBR may be unable to receive transmissions from its peer LBR.
+T250	KEY_C 16349 16355	Due to
+T251	VARIABLE 16356 16371	new assessments
+T252	VARIABLE 16376 16396	designation criteria
+T253	CONDITION 16397 16407	under ESSA
+T254	VARIABLE 16409 16425	Targeted schools
+T255	NEGATION 16426 16461	will not be identified until SY2020
+T256	CONDITION 16438 16461	identified until SY2020
+T257	STATEMENT 16409 16461	Targeted schools will not be identified until SY2020
+T258	AND 16356 16396	new assessments and designation criteria
+T259	STATEMENT 16356 16407	new assessments and designation criteria under ESSA
+T260	CAUSE 16349 16407	Due to new assessments and designation criteria under ESSA
+T261	CAUSE_EFFECT_RELATION 16349 16461	Due to new assessments and designation criteria under ESSA, Targeted schools will not be identified until SY2020
+T262	ROOT_SENTENCE 16349 16462	Due to new assessments and designation criteria under ESSA, Targeted schools will not be identified until SY2020.
+T263	KEY_C 16823 16829	Due to
+T264	VARIABLE 16848 16867	the SNR versus mass
+T265	CONDITION 16830 16847	the complexity of
+T266	VARIABLE 16872 16896	redshift parameter space
+T267	VARIABLE 16898 16900	we
+T268	CONDITION 16901 16963	need to place a constraint using a system at the high mass end
+T269	STATEMENT 16898 16963	we need to place a constraint using a system at the high mass end
+T270	AND 16848 16896	the SNR versus mass and redshift parameter space
+T271	STATEMENT 16830 16896	the complexity of the SNR versus mass and redshift parameter space
+T272	CAUSE 16823 16896	Due to the complexity of the SNR versus mass and redshift parameter space
+T273	CAUSE_EFFECT_RELATION 16823 16963	Due to the complexity of the SNR versus mass and redshift parameter space, we need to place a constraint using a system at the high mass end
+T274	ROOT_SENTENCE 16823 16964	Due to the complexity of the SNR versus mass and redshift parameter space, we need to place a constraint using a system at the high mass end.

@@ -1,0 +1,944 @@
+T1	VARIABLE 35 47	extra audits
+T2	CONDITION 48 66	shall be performed
+T3	KEY_C 67 71	when
+T4	VARIABLE 72 101	necessary to overcome failure
+T5	VARIABLE 103 126	consistent poor quality
+T6	VARIABLE 131 145	other problems
+T7	OR 72 126	necessary to overcome failure, consistent poor quality
+T8	OR 72 145	necessary to overcome failure, consistent poor quality, or other problems
+T9	CAUSE 67 145	when necessary to overcome failure, consistent poor quality, or other problems
+T10	STATEMENT 35 66	extra audits shall be performed
+T11	VARIABLE 15 33	the planned audits
+T12	NONE_CAUSAL 0 33	In addition to the planned audits
+T13	KEY_NC 0 14	In addition to
+T14	CAUSE_EFFECT_RELATION 35 145	extra audits shall be performed when necessary to overcome failure, consistent poor quality, or other problems
+T15	ROOT_SENTENCE 0 146	In addition to the planned audits, extra audits shall be performed when necessary to overcome failure, consistent poor quality, or other problems.
+T16	VARIABLE 148 154	Stamps
+T17	CONDITION 155 192	shall be applied directly to articles
+T18	CONDITION 197 206	materials
+T19	AND 155 206	shall be applied directly to articles and materials
+T20	STATEMENT 148 206	Stamps shall be applied directly to articles and materials
+T21	KEY_C 208 212	when
+T22	VARIABLE 213 222	requested
+T23	CONDITION 223 246	by engineering drawings
+T24	CONDITION 251 265	specifications
+T25	CONDITION 271 291	associated documents
+T26	CONDITION 293 300	records
+T27	CONDITION 302 308	labels
+T28	AND 293 308	records, labels
+T29	AND 271 308	associated documents, records, labels
+T30	AND 251 308	specifications, and associated documents, records, labels
+T31	AND 223 308	by engineering drawings and specifications, and associated documents, records, labels
+T32	STATEMENT 213 308	requested by engineering drawings and specifications, and associated documents, records, labels
+T33	CAUSE 208 308	when requested by engineering drawings and specifications, and associated documents, records, labels
+T34	CAUSE_EFFECT_RELATION 148 308	Stamps shall be applied directly to articles and materials, when requested by engineering drawings and specifications, and associated documents, records, labels
+T35	ROOT_SENTENCE 148 309	Stamps shall be applied directly to articles and materials, when requested by engineering drawings and specifications, and associated documents, records, labels.
+T36	VARIABLE 311 330	This identification
+T37	CONDITION 331 338	applies
+T38	KEY_C 339 343	when
+T39	VARIABLE 344 353	the items
+T40	CONDITION 362 405	required to be individually distinguishable
+T41	NEGATION 354 405	are not required to be individually distinguishable
+T42	STATEMENT 344 405	the items are not required to be individually distinguishable
+T43	CAUSE 339 405	when the items are not required to be individually distinguishable
+T44	STATEMENT 311 338	This identification applies
+T45	CAUSE_EFFECT_RELATION 311 405	This identification applies when the items are not required to be individually distinguishable
+T46	ROOT_SENTENCE 311 406	This identification applies when the items are not required to be individually distinguishable.
+T47	VARIABLE 408 425	Corrective action
+T48	CONDITION 426 440	shall be taken
+T49	STATEMENT 408 440	Corrective action shall be taken
+T50	KEY_C 441 445	when
+T51	VARIABLE 446 461	the total error
+T52	CONDITION 462 533	is such as to compromise significantly the ability to make measurements
+T53	CONDITION 534 562	within the required accuracy
+T54	CONDITION 567 576	precision
+T55	AND 534 576	within the required accuracy and precision
+T56	AND 462 576	is such as to compromise significantly the ability to make measurements within the required accuracy and precision
+T57	STATEMENT 446 576	the total error is such as to compromise significantly the ability to make measurements within the required accuracy and precision
+T58	CAUSE 441 576	when the total error is such as to compromise significantly the ability to make measurements within the required accuracy and precision
+T59	CAUSE_EFFECT_RELATION 408 576	Corrective action shall be taken when the total error is such as to compromise significantly the ability to make measurements within the required accuracy and precision
+T60	ROOT_SENTENCE 408 577	Corrective action shall be taken when the total error is such as to compromise significantly the ability to make measurements within the required accuracy and precision.
+T61	VARIABLE 579 602	Measurement design data
+T62	CONDITION 603 626	shall be made available
+T63	KEY_C 628 632	when
+T64	VARIABLE 633 641	required
+T65	CONDITION 642 657	by the Customer
+T66	CONDITION 661 679	his representative
+T67	CONDITION 681 730	for verification that it is functionally adequate
+T68	OR 642 679	by the Customer or his representative
+T69	AND 642 730	by the Customer or his representative, for verification that it is functionally adequate
+T70	STATEMENT 633 730	required by the Customer or his representative, for verification that it is functionally adequate
+T71	CAUSE 628 730	when required by the Customer or his representative, for verification that it is functionally adequate
+T72	STATEMENT 579 626	Measurement design data shall be made available
+T73	CAUSE_EFFECT_RELATION 579 730	Measurement design data shall be made available, when required by the Customer or his representative, for verification that it is functionally adequate
+T74	ROOT_SENTENCE 579 731	Measurement design data shall be made available, when required by the Customer or his representative, for verification that it is functionally adequate.
+T75	KEY_C 733 737	When
+T76	VARIABLE 738 747	employing
+T77	CONDITION 748 775	statistical quality control
+T78	CONDITION 780 796	analysis methods
+T79	AND 748 796	statistical quality control and analysis methods
+T80	STATEMENT 738 796	employing statistical quality control and analysis methods
+T81	CAUSE 733 796	When employing statistical quality control and analysis methods
+T82	VARIABLE 798 810	the Supplier
+T83	CONDITION 811 875	shall ensure that all the conditions for proper use are enforced
+T84	STATEMENT 798 875	the Supplier shall ensure that all the conditions for proper use are enforced
+T86	VARIABLE 882 901	sample significance
+T87	VARIABLE 903 912	recording
+T88	VARIABLE 917 936	elaboration of data
+T89	VARIABLE 939 974	formulation of clear decision rules
+T90	AND 903 936	recording and elaboration of data
+T91	AND 903 974	recording and elaboration of data , formulation of clear decision rules
+T92	AND 882 974	sample significance, recording and elaboration of data , formulation of clear decision rules
+T93	NONE_CAUSAL 876 975	(e.g. sample significance, recording and elaboration of data , formulation of clear decision rules)
+T94	CAUSE_EFFECT_RELATION 733 875	When employing statistical quality control and analysis methods, the Supplier shall ensure that all the conditions for proper use are enforced
+T95	ROOT_SENTENCE 733 976	When employing statistical quality control and analysis methods, the Supplier shall ensure that all the conditions for proper use are enforced (e.g. sample significance, recording and elaboration of data , formulation of clear decision rules).
+T96	VARIABLE 978 1018	Statistical quality control applications
+T97	KEY_C 1020 1024	when
+T98	VARIABLE 1025 1029	used
+T99	CONDITION 1030 1073	by the Supplier for acceptance of materials
+T100	CONDITION 1075 1080	parts
+T101	CONDITION 1082 1091	processes
+T102	CONDITION 1096 1104	products
+T103	AND 1082 1104	processes and products
+T104	AND 1075 1104	parts, processes and products
+T105	AND 1030 1104	by the Supplier for acceptance of materials, parts, processes and products
+T106	STATEMENT 1025 1104	used by the Supplier for acceptance of materials, parts, processes and products
+T107	CAUSE 1020 1104	when used by the Supplier for acceptance of materials, parts, processes and products
+T108	CONDITION 1106 1139	shall be approved by the Customer
+T109	CAUSE_EFFECT_RELATION 978 1139	Statistical quality control applications, when used by the Supplier for acceptance of materials, parts, processes and products, shall be approved by the Customer
+T110	ROOT_SENTENCE 978 1140	Statistical quality control applications, when used by the Supplier for acceptance of materials, parts, processes and products, shall be approved by the Customer.
+T111	VARIABLE 1142 1156	Sampling plans
+T112	CONDITION 1167 1174	be used
+T113	NEGATION 1157 1174	shall not be used
+T114	STATEMENT 1142 1174	Sampling plans shall not be used
+T115	KEY_C 1175 1179	when
+T116	VARIABLE 1180 1185	tests
+T117	CONDITION 1186 1204	are nondestructive
+T118	VARIABLE 1209 1236	the reduction in inspection
+T119	VARIABLE 1240 1247	testing
+T120	OR 1209 1247	the reduction in inspection or testing
+T121	CONDITION 1248 1316	may jeopardise the fulfilment of the business agreement requirements
+T122	STATEMENT 1209 1316	the reduction in inspection or testing may jeopardise the fulfilment of the business agreement requirements
+T123	STATEMENT 1180 1204	tests are nondestructive
+T124	AND 1180 1316	tests are nondestructive and the reduction in inspection or testing may jeopardise the fulfilment of the business agreement requirements
+T125	CAUSE 1175 1316	when tests are nondestructive and the reduction in inspection or testing may jeopardise the fulfilment of the business agreement requirements
+T126	CAUSE_EFFECT_RELATION 1142 1316	Sampling plans shall not be used when tests are nondestructive and the reduction in inspection or testing may jeopardise the fulfilment of the business agreement requirements
+T127	ROOT_SENTENCE 1142 1317	Sampling plans shall not be used when tests are nondestructive and the reduction in inspection or testing may jeopardise the fulfilment of the business agreement requirements.
+T128	VARIABLE 15209 15225	The best results
+T129	CONDITION 15226 15238	are obtained
+T130	KEY_C 15239 15243	when
+T131	VARIABLE 15244 15257	a vacuum pump
+T132	CONDITION 15258 15265	is used
+T133	STATEMENT 15244 15265	a vacuum pump is used
+T134	CAUSE 15239 15265	when a vacuum pump is used
+T135	STATEMENT 15209 15238	The best results are obtained
+T136	CAUSE_EFFECT_RELATION 15209 15265	The best results are obtained when a vacuum pump is used
+T137	ROOT_SENTENCE 15209 15266	The best results are obtained when a vacuum pump is used.
+T138	KEY_C 15038 15042	When
+T139	VARIABLE 15043 15075	a printed circuit board assembly
+T140	CONDITION 15076 15122	supports more than 120 passive chip components
+T141	VARIABLE 15124 15151	the total number of repairs
+T142	CONDITION 15152 15206	shall be limited to 5 % of the passive chip components
+T143	STATEMENT 15124 15206	the total number of repairs shall be limited to 5 % of the passive chip components
+T144	STATEMENT 15043 15122	a printed circuit board assembly supports more than 120 passive chip components
+T145	CAUSE 15038 15122	When a printed circuit board assembly supports more than 120 passive chip components
+T146	CAUSE_EFFECT_RELATION 15038 15206	When a printed circuit board assembly supports more than 120 passive chip components, the total number of repairs shall be limited to 5 % of the passive chip components
+T147	ROOT_SENTENCE 15038 15207	When a printed circuit board assembly supports more than 120 passive chip components, the total number of repairs shall be limited to 5 % of the passive chip components.
+T148	VARIABLE 14865 14872	Repairs
+T149	CONDITION 14873 14891	shall be permitted
+T150	KEY_C 14892 14896	when
+T151	VARIABLE 14897 14899	it
+T152	CONDITION 14900 14979	is necessary to restore the functional capability of a printed circuit assembly
+T153	CONDITION 14980 15017	that has been damaged during assembly
+T154	CONDITION 15021 15035	during testing
+T155	OR 14980 15035	that has been damaged during assembly or during testing
+T156	AND 14900 15035	is necessary to restore the functional capability of a printed circuit assembly that has been damaged during assembly or during testing
+T157	STATEMENT 14897 15035	it is necessary to restore the functional capability of a printed circuit assembly that has been damaged during assembly or during testing
+T158	CAUSE 14892 15035	when it is necessary to restore the functional capability of a printed circuit assembly that has been damaged during assembly or during testing
+T159	STATEMENT 14865 14891	Repairs shall be permitted
+T160	CAUSE_EFFECT_RELATION 14865 15035	Repairs shall be permitted when it is necessary to restore the functional capability of a printed circuit assembly that has been damaged during assembly or during testing
+T161	ROOT_SENTENCE 14865 15036	Repairs shall be permitted when it is necessary to restore the functional capability of a printed circuit assembly that has been damaged during assembly or during testing.
+T162	KEY_C 14676 14680	When
+T163	VARIABLE 14681 14714	a previously undocumented contact
+T164	VARIABLE 14719 14735	wire combination
+T165	AND 14681 14735	a previously undocumented contact and wire combination
+T166	CONDITION 14736 14755	is proposed for use
+T167	VARIABLE 14757 14783	a plot as delineated above
+T168	CONDITION 14784 14797	shall be made
+T169	CONDITION 14799 14862	increments being close enough together to obtain a smooth curve
+T170	AND 14784 14862	shall be made, increments being close enough together to obtain a smooth curve
+T171	STATEMENT 14757 14862	a plot as delineated above shall be made, increments being close enough together to obtain a smooth curve
+T172	STATEMENT 14681 14755	a previously undocumented contact and wire combination is proposed for use
+T173	CAUSE 14676 14755	When a previously undocumented contact and wire combination is proposed for use
+T174	CAUSE_EFFECT_RELATION 14676 14862	When a previously undocumented contact and wire combination is proposed for use, a plot as delineated above shall be made, increments being close enough together to obtain a smooth curve
+T175	ROOT_SENTENCE 14676 14863	When a previously undocumented contact and wire combination is proposed for use, a plot as delineated above shall be made, increments being close enough together to obtain a smooth curve.
+T187	KEY_C 13911 13915	When
+T188	VARIABLE 13916 13933	organic materials
+T189	CONDITION 13941 13952	be detached
+T190	NEGATION 13934 13952	cannot be detached
+T191	STATEMENT 13916 13952	organic materials cannot be detached
+T192	CAUSE 13911 13952	When organic materials cannot be detached
+T193	VARIABLE 13954 13963	the areas
+T194	CONDITION 13964 13998	can be moistened with the stripper
+T195	CONDITION 14003 14020	the paint removed
+T196	AND 13964 14020	can be moistened with the stripper and the paint removed
+T197	STATEMENT 13954 14020	the areas can be moistened with the stripper and the paint removed
+T198	CAUSE_EFFECT_RELATION 13911 14020	When organic materials cannot be detached, the areas can be moistened with the stripper and the paint removed
+T199	ROOT_SENTENCE 13911 14021	When organic materials cannot be detached, the areas can be moistened with the stripper and the paint removed.
+T205	KEY_C 13687 13691	When
+T206	VARIABLE 13692 13702	the layers
+T207	CONDITION 13703 13758	are sprayed until the surface just has a wet appearance
+T208	VARIABLE 13760 13773	the thickness
+T209	CONDITION 13774 13797	is about 10 µm to 15 µm
+T210	STATEMENT 13760 13797	the thickness is about 10 µm to 15 µm
+T211	STATEMENT 13692 13758	the layers are sprayed until the surface just has a wet appearance
+T212	CAUSE 13687 13758	When the layers are sprayed until the surface just has a wet appearance
+T213	CAUSE_EFFECT_RELATION 13687 13797	When the layers are sprayed until the surface just has a wet appearance, the thickness is about 10 µm to 15 µm
+T214	ROOT_SENTENCE 13687 13798	When the layers are sprayed until the surface just has a wet appearance, the thickness is about 10 µm to 15 µm.
+T215	VARIABLE 13622 13633	The surface
+T216	CONDITION 13634 13650	shall remain wet
+T217	KEY_C 13651 13655	when
+T218	VARIABLE 13656 13663	sprayed
+T219	CONDITION 13664 13684	with distilled water
+T220	STATEMENT 13656 13684	sprayed with distilled water
+T221	CAUSE 13651 13684	when sprayed with distilled water
+T222	STATEMENT 13622 13650	The surface shall remain wet
+T223	CAUSE_EFFECT_RELATION 13622 13684	The surface shall remain wet when sprayed with distilled water
+T224	ROOT_SENTENCE 13622 13685	The surface shall remain wet when sprayed with distilled water.
+T226	KEY_C 13260 13264	When
+T227	VARIABLE 13265 13289	further re-certification
+T228	CONDITION 13290 13306	is not permitted
+T229	VARIABLE 13308 13320	the material
+T230	CONDITION 13321 13341	shall be disposed of
+T231	CONDITION 13342 13414	in accordance with the product assurance rules applicable to the project
+T232	AND 13321 13414	shall be disposed of in accordance with the product assurance rules applicable to the project
+T233	STATEMENT 13308 13414	the material shall be disposed of in accordance with the product assurance rules applicable to the project
+T234	STATEMENT 13265 13306	further re-certification is not permitted
+T235	CAUSE 13260 13306	When further re-certification is not permitted
+T236	CAUSE_EFFECT_RELATION 13260 13414	When further re-certification is not permitted, the material shall be disposed of in accordance with the product assurance rules applicable to the project
+T237	ROOT_SENTENCE 13260 13415	When further re-certification is not permitted, the material shall be disposed of in accordance with the product assurance rules applicable to the project.
+T249	KEY_C 12972 12976	When
+T250	VARIABLE 12977 12986	extrusion
+T251	CONDITION 12987 12993	starts
+T252	STATEMENT 12977 12993	extrusion starts
+T253	CAUSE 12972 12993	When extrusion starts
+T254	VARIABLE 12995 13020	turn the conveyor belt on
+T255	VARIABLE 13025 13121	be ready to place the plastic trays on the conveyor belt as the igniter dough exits the extruder
+T256	AND 12995 13121	turn the conveyor belt on and be ready to place the plastic trays on the conveyor belt as the igniter dough exits the extruder
+T257	CAUSE_EFFECT_RELATION 12972 13121	When extrusion starts, turn the conveyor belt on and be ready to place the plastic trays on the conveyor belt as the igniter dough exits the extruder
+T258	ROOT_SENTENCE 12972 13122	When extrusion starts, turn the conveyor belt on and be ready to place the plastic trays on the conveyor belt as the igniter dough exits the extruder.
+T259	VARIABLE 12846 12852	Timing
+T260	CONDITION 12853 12914	shall be started at the first visual indication of combustion
+T261	CONDITION 12919 12926	stopped
+T262	AND 12853 12926	shall be started at the first visual indication of combustion and stopped
+T263	STATEMENT 12846 12926	Timing shall be started at the first visual indication of combustion and stopped
+T264	KEY_C 12927 12931	when
+T265	VARIABLE 12932 12941	the flame
+T266	CONDITION 12942 12969	ceases to propagate upwards
+T267	STATEMENT 12932 12969	the flame ceases to propagate upwards
+T268	CAUSE 12927 12969	when the flame ceases to propagate upwards
+T269	CAUSE_EFFECT_RELATION 12846 12969	Timing shall be started at the first visual indication of combustion and stopped when the flame ceases to propagate upwards
+T270	ROOT_SENTENCE 12846 12970	Timing shall be started at the first visual indication of combustion and stopped when the flame ceases to propagate upwards.
+T271	KEY_C 12607 12611	When
+T272	VARIABLE 12612 12637	the assembly of the cable
+T273	VARIABLE 12642 12652	connectors
+T274	AND 12612 12652	the assembly of the cable and connectors
+T275	CONDITION 12653 12664	is complete
+T276	STATEMENT 12612 12664	the assembly of the cable and connectors is complete
+T277	CAUSE 12607 12664	When the assembly of the cable and connectors is complete
+T278	VARIABLE 12666 12668	it
+T279	CONDITION 12669 12697	shall be inspected to ensure
+T280	CONDITION 12698 12782	that it is dimensionally correct (i.e. in accordance with the layout drawing or jig)
+T281	CONDITION 12787 12843	clean (e.g. free from contaminants, particles and burrs)
+T282	AND 12698 12843	that it is dimensionally correct (i.e. in accordance with the layout drawing or jig) and clean (e.g. free from contaminants, particles and burrs)
+T283	AND 12669 12843	shall be inspected to ensure that it is dimensionally correct (i.e. in accordance with the layout drawing or jig) and clean (e.g. free from contaminants, particles and burrs)
+T284	STATEMENT 12666 12843	it shall be inspected to ensure that it is dimensionally correct (i.e. in accordance with the layout drawing or jig) and clean (e.g. free from contaminants, particles and burrs)
+T285	CAUSE_EFFECT_RELATION 12607 12843	When the assembly of the cable and connectors is complete, it shall be inspected to ensure that it is dimensionally correct (i.e. in accordance with the layout drawing or jig) and clean (e.g. free from contaminants, particles and burrs)
+T286	ROOT_SENTENCE 12607 12844	When the assembly of the cable and connectors is complete, it shall be inspected to ensure that it is dimensionally correct (i.e. in accordance with the layout drawing or jig) and clean (e.g. free from contaminants, particles and burrs).
+T287	VARIABLE 12227 12246	Special precautions
+T288	CONDITION 12247 12261	shall be taken
+T289	KEY_C 12262 12266	when
+T292	VARIABLE 12267 12305	using portable reflectometer equipment
+T293	CAUSE 12262 12305	when using portable reflectometer equipment
+T294	STATEMENT 12227 12261	Special precautions shall be taken
+T295	CAUSE_EFFECT_RELATION 12227 12305	Special precautions shall be taken when using portable reflectometer equipment
+T296	ROOT_SENTENCE 12227 12306	Special precautions shall be taken when using portable reflectometer equipment.
+T297	VARIABLE 12144 12156	The baseline
+T298	CONDITION 12157 12194	shall be measured at least once a day
+T299	KEY_C 12195 12199	when
+T300	VARIABLE 12200 12209	equipment
+T301	CONDITION 12210 12224	is switched on
+T302	STATEMENT 12200 12224	equipment is switched on
+T303	CAUSE 12195 12224	when equipment is switched on
+T304	STATEMENT 12144 12194	The baseline shall be measured at least once a day
+T305	CAUSE_EFFECT_RELATION 12144 12224	The baseline shall be measured at least once a day when equipment is switched on
+T306	ROOT_SENTENCE 12144 12225	The baseline shall be measured at least once a day when equipment is switched on.
+T307	VARIABLE 12047 12051	This
+T308	CONDITION 12052 12107	can require slight preforming of the pre-tinned lengths
+T309	KEY_C 12108 12112	when
+T310	VARIABLE 12113 12129	thick insulation
+T311	CONDITION 12130 12141	is employed
+T312	STATEMENT 12113 12141	thick insulation is employed
+T313	CAUSE 12108 12141	when thick insulation is employed
+T314	STATEMENT 12047 12107	This can require slight preforming of the pre-tinned lengths
+T315	CAUSE_EFFECT_RELATION 12047 12141	This can require slight preforming of the pre-tinned lengths when thick insulation is employed
+T316	ROOT_SENTENCE 12047 12142	This can require slight preforming of the pre-tinned lengths when thick insulation is employed.
+T317	KEY_C 11898 11902	When
+T318	VARIABLE 11903 11926	more than one conductor
+T319	CONDITION 11927 11953	is connected to a terminal
+T320	VARIABLE 11955 12005	the direction of bend of each additional conductor
+T321	CONDITION 12006 12044	shall alternate (Figure 16(b) and (d))
+T322	STATEMENT 11955 12044	the direction of bend of each additional conductor shall alternate (Figure 16(b) and (d))
+T323	STATEMENT 11903 11953	more than one conductor is connected to a terminal
+T324	CAUSE 11898 11953	When more than one conductor is connected to a terminal
+T325	CAUSE_EFFECT_RELATION 11898 12044	When more than one conductor is connected to a terminal, the direction of bend of each additional conductor shall alternate (Figure 16(b) and (d))
+T326	ROOT_SENTENCE 11898 12045	When more than one conductor is connected to a terminal, the direction of bend of each additional conductor shall alternate (Figure 16(b) and (d)).
+T327	KEY_C 11715 11719	When
+T328	VARIABLE 11720 11744	characteristic impedance
+T329	VARIABLE 11748 11766	circuit parameters
+T330	CONDITION 11767 11779	are affected
+T331	OR 11720 11766	characteristic impedance or circuit parameters
+T332	STATEMENT 11720 11779	characteristic impedance or circuit parameters are affected
+T333	KEY_NC 11781 11786	as in
+T334	VARIABLE 11787 11808	high-voltage circuits
+T335	VARIABLE 11812 11840	RF coaxial line terminations
+T336	OR 11787 11840	high-voltage circuits or RF coaxial line terminations
+T337	NONE_CAUSAL 11781 11840	as in high-voltage circuits or RF coaxial line terminations
+T338	VARIABLE 11842 11879	the insulation clearance requirements
+T339	CONDITION 11880 11895	may be modified
+T340	STATEMENT 11842 11895	the insulation clearance requirements may be modified
+T341	CAUSE 11715 11779	When characteristic impedance or circuit parameters are affected
+T342	CAUSE_EFFECT_RELATION 11715 11895	When characteristic impedance or circuit parameters are affected, as in high-voltage circuits or RF coaxial line terminations, the insulation clearance requirements may be modified
+T343	ROOT_SENTENCE 11715 11896	When characteristic impedance or circuit parameters are affected, as in high-voltage circuits or RF coaxial line terminations, the insulation clearance requirements may be modified.
+T344	KEY_C 11624 11628	When
+T345	VARIABLE 11629 11637	the heel
+T346	CONDITION 11638 11649	is soldered
+T347	VARIABLE 11651 11658	fillets
+T348	CONDITION 11659 11712	shall conform to the applicable workmanship standards
+T349	STATEMENT 11651 11712	fillets shall conform to the applicable workmanship standards
+T350	STATEMENT 11629 11649	the heel is soldered
+T351	CAUSE 11624 11649	When the heel is soldered
+T352	CAUSE_EFFECT_RELATION 11624 11712	When the heel is soldered, fillets shall conform to the applicable workmanship standards
+T353	ROOT_SENTENCE 11624 11713	When the heel is soldered, fillets shall conform to the applicable workmanship standards.
+T354	KEY_C 11451 11455	When
+T355	VARIABLE 11456 11476	a solid hook-up wire
+T356	CONDITION 11477 11547	is used to interconnect solder terminations on opposite sides of a PCB
+T357	VARIABLE 11549 11562	stress relief
+T358	CONDITION 11563 11621	shall be provided in the wire between the two terminations
+T359	STATEMENT 11549 11621	stress relief shall be provided in the wire between the two terminations
+T360	STATEMENT 11456 11547	a solid hook-up wire is used to interconnect solder terminations on opposite sides of a PCB
+T361	CAUSE 11451 11547	When a solid hook-up wire is used to interconnect solder terminations on opposite sides of a PCB
+T362	CAUSE_EFFECT_RELATION 11451 11621	When a solid hook-up wire is used to interconnect solder terminations on opposite sides of a PCB, stress relief shall be provided in the wire between the two terminations
+T363	ROOT_SENTENCE 11451 11622	When a solid hook-up wire is used to interconnect solder terminations on opposite sides of a PCB, stress relief shall be provided in the wire between the two terminations.
+T364	KEY_C 11106 11110	When
+T365	VARIABLE 11111 11133	heat-shrinkable tubing
+T366	CONDITION 11134 11141	is used
+T367	STATEMENT 11111 11141	heat-shrinkable tubing is used
+T368	CAUSE 11106 11141	When heat-shrinkable tubing is used
+T369	VARIABLE 11143 11155	extreme care
+T370	CONDITION 11156 11188	shall be taken to prevent damage
+T371	STATEMENT 11143 11188	extreme care shall be taken to prevent damage
+T372	KEY_C 11189 11195	due to
+T373	VARIABLE 11196 11210	excessive heat
+T374	VARIABLE 11214 11233	shrinkage of tubing
+T375	OR 11196 11233	excessive heat or shrinkage of tubing
+T376	CAUSE 11189 11233	due to excessive heat or shrinkage of tubing
+T377	CAUSE_EFFECT_RELATION 11143 11233	extreme care shall be taken to prevent damage due to excessive heat or shrinkage of tubing
+T378	CAUSE_EFFECT_RELATION 11106 11233	When heat-shrinkable tubing is used, extreme care shall be taken to prevent damage due to excessive heat or shrinkage of tubing
+T379	ROOT_SENTENCE 11106 11234	When heat-shrinkable tubing is used, extreme care shall be taken to prevent damage due to excessive heat or shrinkage of tubing.
+T380	KEY_C 10993 10997	When
+T381	VARIABLE 10998 11008	the solder
+T382	CONDITION 11009 11024	produces a dull
+T383	CONDITION 11026 11032	frosty
+T384	CONDITION 11036 11067	granular appearance on the work
+T385	OR 11026 11067	frosty or granular appearance on the work
+T386	OR 11009 11067	produces a dull, frosty or granular appearance on the work
+T387	STATEMENT 10998 11067	the solder produces a dull, frosty or granular appearance on the work
+T388	CAUSE 10993 11067	When the solder produces a dull, frosty or granular appearance on the work
+T389	VARIABLE 11069 11077	the bath
+T390	CONDITION 11078 11103	shall be removed from use
+T391	STATEMENT 11069 11103	the bath shall be removed from use
+T392	CAUSE_EFFECT_RELATION 10993 11103	When the solder produces a dull, frosty or granular appearance on the work, the bath shall be removed from use
+T393	ROOT_SENTENCE 10993 11104	When the solder produces a dull, frosty or granular appearance on the work, the bath shall be removed from use.
+T394	KEY_C 10916 10920	When
+T395	VARIABLE 10921 10929	possible
+T396	CAUSE 10916 10929	When possible
+T397	VARIABLE 10931 10949	anti-wicking tools
+T398	CONDITION 10950 10990	shall be employed (see sub-clause 5.5.9)
+T399	STATEMENT 10931 10990	anti-wicking tools shall be employed (see sub-clause 5.5.9)
+T400	CAUSE_EFFECT_RELATION 10916 10990	When possible, anti-wicking tools shall be employed (see sub-clause 5.5.9)
+T401	ROOT_SENTENCE 10916 10991	When possible, anti-wicking tools shall be employed (see sub-clause 5.5.9).
+T402	VARIABLE 10795 10836	All materials contained in this subclause
+T403	CONDITION 10837 10867	shall be individually assessed
+T404	KEY_C 10868 10872	when
+T405	VARIABLE 10873 10898	flammability requirements
+T406	CONDITION 10899 10913	are applicable
+T407	STATEMENT 10873 10913	flammability requirements are applicable
+T408	CAUSE 10868 10913	when flammability requirements are applicable
+T409	STATEMENT 10795 10867	All materials contained in this subclause shall be individually assessed
+T410	CAUSE_EFFECT_RELATION 10795 10913	All materials contained in this subclause shall be individually assessed when flammability requirements are applicable
+T411	ROOT_SENTENCE 10795 10914	All materials contained in this subclause shall be individually assessed when flammability requirements are applicable.
+T412	VARIABLE 10645 10667	These activated fluxes
+T413	CONDITION 10678 10685	be used
+T414	NEGATION 10668 10685	shall not be used
+T415	STATEMENT 10645 10685	These activated fluxes shall not be used
+T416	KEY_C 10686 10690	when
+T417	VARIABLE 10691 10704	their vapours
+T418	VARIABLE 10708 10734	residues of spattered flux
+T419	OR 10691 10734	their vapours or residues of spattered flux
+T420	CONDITION 10735 10792	can come into contact with electrical insulation material
+T421	STATEMENT 10691 10792	their vapours or residues of spattered flux can come into contact with electrical insulation material
+T422	CAUSE 10686 10792	when their vapours or residues of spattered flux can come into contact with electrical insulation material
+T423	CAUSE_EFFECT_RELATION 10645 10792	These activated fluxes shall not be used when their vapours or residues of spattered flux can come into contact with electrical insulation material
+T424	ROOT_SENTENCE 10645 10793	These activated fluxes shall not be used when their vapours or residues of spattered flux can come into contact with electrical insulation material.
+T425	KEY_C 10493 10497	When
+T426	VARIABLE 10498 10516	rosin-based fluxes
+T427	CONDITION 10517 10570	are inadequate for the pre-tinning of component leads
+T428	CONDITION 10574 10588	terminal posts
+T429	OR 10517 10588	are inadequate for the pre-tinning of component leads or terminal posts
+T430	STATEMENT 10498 10588	rosin-based fluxes are inadequate for the pre-tinning of component leads or terminal posts
+T431	CAUSE 10493 10588	When rosin-based fluxes are inadequate for the pre-tinning of component leads or terminal posts
+T432	KEY_C 10590 10594	then
+T433	VARIABLE 10595 10630	corrosive water-soluble acid fluxes
+T434	CONDITION 10631 10642	may be used
+T435	STATEMENT 10595 10642	corrosive water-soluble acid fluxes may be used
+T436	EFFECT 10590 10642	then corrosive water-soluble acid fluxes may be used
+T437	CAUSE_EFFECT_RELATION 10493 10642	When rosin-based fluxes are inadequate for the pre-tinning of component leads or terminal posts, then corrosive water-soluble acid fluxes may be used
+T438	ROOT_SENTENCE 10493 10643	When rosin-based fluxes are inadequate for the pre-tinning of component leads or terminal posts, then corrosive water-soluble acid fluxes may be used.
+T439	KEY_C 10348 10352	When
+T440	VARIABLE 10353 10365	cored solder
+T441	CONDITION 10366 10373	is used
+T442	VARIABLE 10375 10377	it
+T443	CONDITION 10378 10407	shall be placed in a position
+T444	CONDITION 10408 10436	that allows the flux to flow
+T445	CONDITION 10441 10490	cover the connection elements as the solder melts
+T446	AND 10408 10490	that allows the flux to flow and cover the connection elements as the solder melts
+T447	AND 10378 10490	shall be placed in a position that allows the flux to flow and cover the connection elements as the solder melts
+T448	STATEMENT 10375 10490	it shall be placed in a position that allows the flux to flow and cover the connection elements as the solder melts
+T449	STATEMENT 10353 10373	cored solder is used
+T450	CAUSE 10348 10373	When cored solder is used
+T451	CAUSE_EFFECT_RELATION 10348 10490	When cored solder is used, it shall be placed in a position that allows the flux to flow and cover the connection elements as the solder melts
+T452	ROOT_SENTENCE 10348 10491	When cored solder is used, it shall be placed in a position that allows the flux to flow and cover the connection elements as the solder melts.
+T453	KEY_C 10238 10242	When
+T454	VARIABLE 10243 10266	an external liquid flux
+T455	CONDITION 10267 10313	is used in conjunction with flux cored solders
+T456	STATEMENT 10243 10313	an external liquid flux is used in conjunction with flux cored solders
+T457	CAUSE 10238 10313	When an external liquid flux is used in conjunction with flux cored solders
+T458	VARIABLE 10315 10325	the fluxes
+T459	CONDITION 10326 10345	shall be compatible
+T460	STATEMENT 10315 10345	the fluxes shall be compatible
+T461	CAUSE_EFFECT_RELATION 10238 10345	When an external liquid flux is used in conjunction with flux cored solders, the fluxes shall be compatible
+T462	ROOT_SENTENCE 10238 10346	When an external liquid flux is used in conjunction with flux cored solders, the fluxes shall be compatible.
+T463	KEY_C 10064 10068	When
+T464	VARIABLE 10069 10073	heat
+T465	CONDITION 10074 10109	is applied by a jet of heated gases
+T466	CONDITION 10114 10137	by radiant-energy beams
+T467	OR 10074 10137	is applied by a jet of heated gases, or by radiant-energy beams
+T468	STATEMENT 10069 10137	heat is applied by a jet of heated gases, or by radiant-energy beams
+T469	CAUSE 10064 10137	When heat is applied by a jet of heated gases, or by radiant-energy beams
+T470	VARIABLE 10139 10147	the user
+T471	CONDITION 10148 10235	shall demonstrate the production of joints to the workmanship standard of this standard
+T472	STATEMENT 10139 10235	the user shall demonstrate the production of joints to the workmanship standard of this standard
+T473	CAUSE_EFFECT_RELATION 10064 10235	When heat is applied by a jet of heated gases, or by radiant-energy beams, the user shall demonstrate the production of joints to the workmanship standard of this standard
+T474	ROOT_SENTENCE 10064 10236	When heat is applied by a jet of heated gases, or by radiant-energy beams, the user shall demonstrate the production of joints to the workmanship standard of this standard.
+T475	VARIABLE 9905 9923	A cage-type holder
+T476	CONDITION 9924 9971	that leaves the soldering- iron tip unsupported
+T477	CONDITION 9972 9984	is preferred
+T478	AND 9924 9984	that leaves the soldering- iron tip unsupported is preferred
+T479	STATEMENT 9905 9984	A cage-type holder that leaves the soldering- iron tip unsupported is preferred
+T480	KEY_C 9985 9989	when
+T481	VARIABLE 9990 10009	temperature control
+T482	CONDITION 10010 10061	is used (variable power control, properly adjusted)
+T483	STATEMENT 9990 10061	temperature control is used (variable power control, properly adjusted)
+T484	CAUSE 9985 10061	when temperature control is used (variable power control, properly adjusted)
+T485	CAUSE_EFFECT_RELATION 9905 10061	A cage-type holder that leaves the soldering- iron tip unsupported is preferred when temperature control is used (variable power control, properly adjusted)
+T486	ROOT_SENTENCE 9905 10062	A cage-type holder that leaves the soldering- iron tip unsupported is preferred when temperature control is used (variable power control, properly adjusted).
+T487	VARIABLE 9836 9858	A grounded wrist strap
+T488	CONDITION 9859 9872	shall be worn
+T489	KEY_C 9873 9877	when
+T492	VARIABLE 9878 9902	handling sensitive items
+T493	CAUSE 9873 9902	when handling sensitive items
+T494	STATEMENT 9836 9872	A grounded wrist strap shall be worn
+T495	CAUSE_EFFECT_RELATION 9836 9902	A grounded wrist strap shall be worn when handling sensitive items
+T496	ROOT_SENTENCE 9836 9903	A grounded wrist strap shall be worn when handling sensitive items.
+T497	VARIABLE 9800 9806	Occurs
+T498	KEY_C 9807 9811	when
+T501	VARIABLE 9812 9833	joining stranded wire
+T502	CAUSE 9807 9833	when joining stranded wire
+T503	CAUSE_EFFECT_RELATION 9800 9833	Occurs when joining stranded wire
+T504	ROOT_SENTENCE 9800 9834	Occurs when joining stranded wire.
+T505	KEY_C 9659 9663	When
+T506	VARIABLE 9664 9674	COTS items
+T507	CONDITION 9675 9687	are selected
+T508	STATEMENT 9664 9687	COTS items are selected
+T509	CAUSE 9659 9687	When COTS items are selected
+T510	VARIABLE 9689 9701	the designer
+T511	CONDITION 9702 9747	should attempt to identify the materials used
+T512	CONDITION 9752 9797	determine if an SCC failure would be critical
+T513	AND 9702 9797	should attempt to identify the materials used and determine if an SCC failure would be critical
+T514	STATEMENT 9689 9797	the designer should attempt to identify the materials used and determine if an SCC failure would be critical
+T515	CAUSE_EFFECT_RELATION 9659 9797	When COTS items are selected, the designer should attempt to identify the materials used and determine if an SCC failure would be critical
+T516	ROOT_SENTENCE 9659 9798	When COTS items are selected, the designer should attempt to identify the materials used and determine if an SCC failure would be critical.
+T517	VARIABLE 9588 9609	Long-life performance
+T518	CONDITION 9610 9630	should be considered
+T519	KEY_C 9631 9635	when
+T520	VARIABLE 9636 9645	selecting
+T521	CONDITION 9646 9656	lubricants
+T522	STATEMENT 9636 9656	selecting lubricants
+T523	CAUSE 9631 9656	when selecting lubricants
+T524	STATEMENT 9588 9630	Long-life performance should be considered
+T525	CAUSE_EFFECT_RELATION 9588 9656	Long-life performance should be considered when selecting lubricants
+T526	ROOT_SENTENCE 9588 9657	Long-life performance should be considered when selecting lubricants.
+T527	VARIABLE 9463 9473	Elastomers
+T528	CONDITION 9484 9526	have a corrosive effect on other materials
+T529	NEGATION 9474 9526	shall not have a corrosive effect on other materials
+T530	STATEMENT 9463 9526	Elastomers shall not have a corrosive effect on other materials
+T531	KEY_C 9527 9531	when
+T532	VARIABLE 9532 9539	exposed
+T533	CONDITION 9540 9585	to conditions normally encountered in service
+T534	STATEMENT 9532 9585	exposed to conditions normally encountered in service
+T535	CAUSE 9527 9585	when exposed to conditions normally encountered in service
+T536	CAUSE_EFFECT_RELATION 9463 9585	Elastomers shall not have a corrosive effect on other materials when exposed to conditions normally encountered in service
+T537	ROOT_SENTENCE 9463 9586	Elastomers shall not have a corrosive effect on other materials when exposed to conditions normally encountered in service.
+T538	VARIABLE 9357 9363	Copper
+T539	CONDITION 9364 9389	has the potential for SCC
+T540	KEY_C 9390 9394	when
+T541	VARIABLE 9395 9402	exposed
+T542	CONDITION 9403 9413	to ammonia
+T543	KEY_NC 9415 9420	which
+T544	VARIABLE 9421 9460	is a product of hydrazine decomposition
+T545	NONE_CAUSAL 9415 9460	which is a product of hydrazine decomposition
+T546	STATEMENT 9395 9413	exposed to ammonia
+T547	CAUSE 9390 9413	when exposed to ammonia
+T548	STATEMENT 9357 9389	Copper has the potential for SCC
+T549	CAUSE_EFFECT_RELATION 9357 9413	Copper has the potential for SCC when exposed to ammonia
+T550	ROOT_SENTENCE 9357 9461	Copper has the potential for SCC when exposed to ammonia, which is a product of hydrazine decomposition.
+T553	VARIABLE 8983 9048	The ductile-to-brittle transition temperature exhibited in steels
+T554	CONDITION 9049 9069	should be considered
+T555	STATEMENT 8983 9069	The ductile-to-brittle transition temperature exhibited in steels should be considered
+T556	KEY_C 9070 9074	when
+T557	VARIABLE 9075 9080	using
+T558	CONDITION 9081 9087	carbon
+T559	CONDITION 9092 9108	low-alloy steels
+T560	CONDITION 9109 9133	in hardware operating in
+T561	CONDITION 9137 9181	exposed to low temperatures while in service
+T562	OR 9109 9181	in hardware operating in or exposed to low temperatures while in service
+T563	AND 9081 9108	carbon and low-alloy steels
+T564	AND 9081 9181	carbon and low-alloy steels in hardware operating in or exposed to low temperatures while in service
+T565	STATEMENT 9075 9181	using carbon and low-alloy steels in hardware operating in or exposed to low temperatures while in service
+T566	CAUSE 9070 9181	when using carbon and low-alloy steels in hardware operating in or exposed to low temperatures while in service
+T567	CAUSE_EFFECT_RELATION 8983 9181	The ductile-to-brittle transition temperature exhibited in steels should be considered when using carbon and low-alloy steels in hardware operating in or exposed to low temperatures while in service
+T568	ROOT_SENTENCE 8983 9182	The ductile-to-brittle transition temperature exhibited in steels should be considered when using carbon and low-alloy steels in hardware operating in or exposed to low temperatures while in service.
+T569	KEY_C 8592 8596	When
+T570	VARIABLE 8597 8621	liquid-locking compounds
+T571	CONDITION 8622 8656	are used for fastener installation
+T572	VARIABLE 8658 8678	engineering drawings
+T573	CONDITION 8679 8728	shall specify a validated process for application
+T574	STATEMENT 8658 8728	engineering drawings shall specify a validated process for application
+T575	STATEMENT 8597 8656	liquid-locking compounds are used for fastener installation
+T576	CAUSE_EFFECT_RELATION 8592 8728	When liquid-locking compounds are used for fastener installation, engineering drawings shall specify a validated process for application
+T577	CAUSE 8592 8656	When liquid-locking compounds are used for fastener installation
+T578	ROOT_SENTENCE 8592 8729	When liquid-locking compounds are used for fastener installation, engineering drawings shall specify a validated process for application.
+T579	VARIABLE 8431 8448	Protective covers
+T580	VARIABLE 8452 8456	caps
+T581	OR 8431 8456	Protective covers or caps
+T582	CONDITION 8457 8483	shall be specified for use
+T583	CONDITION 8484 8515	with electrical-connector plugs
+T584	CONDITION 8520 8561	receptacles in accordance with KSC-GP-864
+T585	AND 8484 8561	with electrical-connector plugs and receptacles in accordance with KSC-GP-864
+T586	AND 8457 8561	shall be specified for use with electrical-connector plugs and receptacles in accordance with KSC-GP-864
+T587	STATEMENT 8431 8561	Protective covers or caps shall be specified for use with electrical-connector plugs and receptacles in accordance with KSC-GP-864
+T588	KEY_C 8562 8566	when
+T589	VARIABLE 8567 8571	they
+T590	CONDITION 8580 8589	connected
+T591	NEGATION 8572 8589	are not connected
+T592	STATEMENT 8567 8589	they are not connected
+T593	CAUSE 8562 8589	when they are not connected
+T594	CAUSE_EFFECT_RELATION 8431 8589	Protective covers or caps shall be specified for use with electrical-connector plugs and receptacles in accordance with KSC-GP-864 when they are not connected
+T595	ROOT_SENTENCE 8431 8590	Protective covers or caps shall be specified for use with electrical-connector plugs and receptacles in accordance with KSC-GP-864 when they are not connected.
+T596	KEY_C 8136 8140	When
+T597	VARIABLE 8141 8149	possible
+T598	CAUSE 8136 8149	When possible
+T599	VARIABLE 8151 8160	ASTM A325
+T600	VARIABLE 8164 8185	SAE Grade 5 fasteners
+T601	OR 8151 8185	ASTM A325 or SAE Grade 5 fasteners
+T602	CONDITION 8186 8208	should be used instead
+T603	STATEMENT 8151 8208	ASTM A325 or SAE Grade 5 fasteners should be used instead
+T604	CAUSE_EFFECT_RELATION 8136 8208	When possible, ASTM A325 or SAE Grade 5 fasteners should be used instead
+T605	ROOT_SENTENCE 8136 8209	When possible, ASTM A325 or SAE Grade 5 fasteners should be used instead.
+T606	VARIABLE 1550 1578	Specific protection measures
+T607	CONDITION 1580 1610	such as protective dust covers
+T608	CONDITION 1612 1673	shall be implemented to protect contamination–sensitive items
+T609	AND 1580 1673	such as protective dust covers, shall be implemented to protect contamination–sensitive items
+T610	STATEMENT 1550 1673	Specific protection measures, such as protective dust covers, shall be implemented to protect contamination–sensitive items
+T611	KEY_C 1674 1678	when
+T612	VARIABLE 1679 1683	they
+T613	CONDITION 1684 1728	are integrated in a higher level of assembly
+T614	STATEMENT 1679 1728	they are integrated in a higher level of assembly
+T615	CAUSE 1674 1728	when they are integrated in a higher level of assembly
+T616	CAUSE_EFFECT_RELATION 1550 1728	Specific protection measures, such as protective dust covers, shall be implemented to protect contamination–sensitive items when they are integrated in a higher level of assembly
+T617	ROOT_SENTENCE 1550 1729	Specific protection measures, such as protective dust covers, shall be implemented to protect contamination–sensitive items when they are integrated in a higher level of assembly.
+T618	VARIABLE 2319 2337	These requirements
+T619	CONDITION 2338 2351	are mandatory
+T620	KEY_C 2352 2356	when
+T621	VARIABLE 2357 2374	specified as such
+T622	CONDITION 2375 2399	by program documentation
+T623	CONDITION 2403 2412	contracts
+T624	OR 2375 2412	by program documentation or contracts
+T625	STATEMENT 2357 2412	specified as such by program documentation or contracts
+T626	CAUSE 2352 2412	when specified as such by program documentation or contracts
+T627	STATEMENT 2319 2351	These requirements are mandatory
+T628	CAUSE_EFFECT_RELATION 2319 2412	These requirements are mandatory when specified as such by program documentation or contracts
+T629	ROOT_SENTENCE 2319 2413	These requirements are mandatory when specified as such by program documentation or contracts.
+T630	VARIABLE 2415 2446	The parent metal shear sections
+T631	VARIABLE 2451 2466	interface tubes
+T632	CONDITION 2467 2505	are defined by the term “parent metal”
+T633	AND 2415 2466	The parent metal shear sections and interface tubes
+T634	STATEMENT 2415 2505	The parent metal shear sections and interface tubes are defined by the term “parent metal”
+T635	KEY_C 2506 2510	when
+T636	VARIABLE 2511 2515	they
+T637	CONDITION 2516 2584	are machined from a single, certified bar of high-purity metal alloy
+T638	CONDITION 2593 2598	welds
+T639	NEGATION 2590 2598	no welds
+T640	AND 2516 2598	are machined from a single, certified bar of high-purity metal alloy with no welds
+T641	STATEMENT 2511 2598	they are machined from a single, certified bar of high-purity metal alloy with no welds
+T642	CAUSE 2506 2598	when they are machined from a single, certified bar of high-purity metal alloy with no welds
+T643	CAUSE_EFFECT_RELATION 2415 2598	The parent metal shear sections and interface tubes are defined by the term “parent metal” when they are machined from a single, certified bar of high-purity metal alloy with no welds
+T644	ROOT_SENTENCE 2415 2599	The parent metal shear sections and interface tubes are defined by the term “parent metal” when they are machined from a single, certified bar of high-purity metal alloy with no welds.
+T645	VARIABLE 2601 2619	This Specification
+T646	CONDITION 2620 2645	is intended to be applied
+T647	KEY_C 2646 2650	when
+T648	VARIABLE 2651 2693	these NC parent metal shear-section valves
+T649	CONDITION 2694 2773	are used to prevent failure-induced release of hazardous fluids (liquid or gas)
+T650	CONDITION 2774 2789	from spacecraft
+T651	AND 2694 2789	are used to prevent failure-induced release of hazardous fluids (liquid or gas) from spacecraft
+T652	STATEMENT 2651 2789	these NC parent metal shear-section valves are used to prevent failure-induced release of hazardous fluids (liquid or gas) from spacecraft
+T653	CAUSE 2646 2789	when these NC parent metal shear-section valves are used to prevent failure-induced release of hazardous fluids (liquid or gas) from spacecraft
+T654	STATEMENT 2601 2645	This Specification is intended to be applied
+T655	CAUSE_EFFECT_RELATION 2601 2789	This Specification is intended to be applied when these NC parent metal shear-section valves are used to prevent failure-induced release of hazardous fluids (liquid or gas) from spacecraft
+T656	ROOT_SENTENCE 2601 2790	This Specification is intended to be applied when these NC parent metal shear-section valves are used to prevent failure-induced release of hazardous fluids (liquid or gas) from spacecraft.
+T657	KEY_C 2792 2796	When
+T658	VARIABLE 2797 2806	installed
+T659	CONDITION 2807 2820	in the system
+T660	VARIABLE 2822 2847	the parent metal sections
+T661	CONDITION 2848 2908	are directly welded to the system tubing (checklist item 9A)
+T662	STATEMENT 2822 2908	the parent metal sections are directly welded to the system tubing (checklist item 9A)
+T663	STATEMENT 2797 2820	installed in the system
+T664	CAUSE 2792 2820	When installed in the system
+T665	CAUSE_EFFECT_RELATION 2792 2908	When installed in the system, the parent metal sections are directly welded to the system tubing (checklist item 9A)
+T666	ROOT_SENTENCE 2792 2909	When installed in the system, the parent metal sections are directly welded to the system tubing (checklist item 9A).
+T667	VARIABLE 2911 2924	This standard
+T668	CONDITION 2925 2938	is applicable
+T669	KEY_C 2939 2943	when
+T670	VARIABLE 2944 2977	the performance of sneak analysis
+T671	CONDITION 2978 3004	is required by ECSS--Q--40
+T672	CONDITION 3008 3061	by the contract between the customer and the supplier
+T673	OR 2978 3061	is required by ECSS--Q--40 or by the contract between the customer and the supplier
+T674	STATEMENT 2944 3061	the performance of sneak analysis is required by ECSS--Q--40 or by the contract between the customer and the supplier
+T675	CAUSE 2939 3061	when the performance of sneak analysis is required by ECSS--Q--40 or by the contract between the customer and the supplier
+T676	STATEMENT 2911 2938	This standard is applicable
+T677	CAUSE_EFFECT_RELATION 2911 3061	This standard is applicable when the performance of sneak analysis is required by ECSS--Q--40 or by the contract between the customer and the supplier
+T678	ROOT_SENTENCE 2911 3062	This standard is applicable when the performance of sneak analysis is required by ECSS--Q--40 or by the contract between the customer and the supplier.
+T685	KEY_C 3552 3556	When
+T686	VARIABLE 3557 3566	available
+T687	CAUSE 3552 3566	When available
+T688	VARIABLE 3568 3579	load ratios
+T689	VARIABLE 3583 3589	limits
+T690	CONDITION 3590 3631	are given for different mission durations
+T691	CONDITION 3635 3657	different temperatures
+T692	OR 3590 3657	are given for different mission durations or different temperatures
+T693	OR 3568 3589	load ratios or limits
+T694	STATEMENT 3568 3657	load ratios or limits are given for different mission durations or different temperatures
+T695	CAUSE_EFFECT_RELATION 3552 3657	When available, load ratios or limits are given for different mission durations or different temperatures
+T696	ROOT_SENTENCE 3552 3658	When available, load ratios or limits are given for different mission durations or different temperatures.
+T697	KEY_C 3660 3664	When
+T698	VARIABLE 3665 3694	the procurement specification
+T699	CONDITION 3695 3735	includes parameter values for transients
+T700	CONDITION 3739 3755	surge conditions
+T701	OR 3695 3755	includes parameter values for transients or surge conditions
+T702	VARIABLE 3757 3777	the same load ratios
+T703	VARIABLE 3781 3787	limits
+T704	CONDITION 3788 3832	as for steady-state parameters shall be used
+T705	OR 3757 3787	the same load ratios or limits
+T706	STATEMENT 3757 3832	the same load ratios or limits as for steady-state parameters shall be used
+T707	STATEMENT 3665 3755	the procurement specification includes parameter values for transients or surge conditions
+T708	CAUSE 3660 3755	When the procurement specification includes parameter values for transients or surge conditions
+T709	CAUSE_EFFECT_RELATION 3660 3832	When the procurement specification includes parameter values for transients or surge conditions, the same load ratios or limits as for steady-state parameters shall be used
+T710	ROOT_SENTENCE 3660 3833	When the procurement specification includes parameter values for transients or surge conditions, the same load ratios or limits as for steady-state parameters shall be used.
+T711	KEY_C 3835 3839	When
+T712	VARIABLE 3840 3849	transient
+T713	VARIABLE 3853 3869	surge conditions
+T714	OR 3840 3869	transient or surge conditions
+T715	CONDITION 3870 3900	are present in the application
+T716	VARIABLE 3909 3918	transient
+T717	VARIABLE 3922 3934	surge rating
+T718	OR 3909 3934	transient or surge rating
+T719	CONDITION 3935 3988	values are specified in the procurement specification
+T720	NEGATION 3902 3988	but no transient or surge rating values are specified in the procurement specification
+T721	STATEMENT 3840 3900	transient or surge conditions are present in the application
+T722	AND 3840 3988	transient or surge conditions are present in the application, but no transient or surge rating values are specified in the procurement specification
+T723	CAUSE 3835 3988	When transient or surge conditions are present in the application, but no transient or surge rating values are specified in the procurement specification
+T724	VARIABLE 3990 4011	the design transients
+T725	VARIABLE 4015 4021	surges
+T726	CONDITION 4032 4106	exceed the maximum steady state rating given in procurement specifications
+T727	NEGATION 4022 4106	shall not exceed the maximum steady state rating given in procurement specifications
+T728	OR 3990 4021	the design transients or surges
+T729	STATEMENT 3990 4106	the design transients or surges shall not exceed the maximum steady state rating given in procurement specifications
+T730	CAUSE_EFFECT_RELATION 3835 4106	When transient or surge conditions are present in the application, but no transient or surge rating values are specified in the procurement specification, the design transients or surges shall not exceed the maximum steady state rating given in procurement specifications
+T731	ROOT_SENTENCE 3835 4107	When transient or surge conditions are present in the application, but no transient or surge rating values are specified in the procurement specification, the design transients or surges shall not exceed the maximum steady state rating given in procurement specifications.
+T732	VARIABLE 4117 4130	surge current
+T733	CONDITION 4131 4143	is specified
+T734	STATEMENT 4117 4143	surge current is specified
+T735	NEGATION 4114 4143	no surge current is specified
+T736	KEY_C 4109 4113	When
+T737	CAUSE 4109 4143	When no surge current is specified
+T738	VARIABLE 4145 4154	the issue
+T739	CONDITION 4155 4191	shall be recorded in the design file
+T740	VARIABLE 4196 4220	the components selection
+T741	CONDITION 4221 4238	shall be reviewed
+T742	CONDITION 4243 4279	approved as described in ECSS--Q--60
+T743	AND 4221 4279	shall be reviewed and approved as described in ECSS--Q--60
+T744	STATEMENT 4196 4279	the components selection shall be reviewed and approved as described in ECSS--Q--60
+T745	STATEMENT 4145 4191	the issue shall be recorded in the design file
+T746	AND 4145 4279	the issue shall be recorded in the design file and the components selection shall be reviewed and approved as described in ECSS--Q--60
+T747	CAUSE_EFFECT_RELATION 4109 4279	When no surge current is specified, the issue shall be recorded in the design file and the components selection shall be reviewed and approved as described in ECSS--Q--60
+T748	ROOT_SENTENCE 4109 4281	When no surge current is specified, the issue shall be recorded in the design file and the components selection shall be reviewed and approved as described in ECSS--Q--60 .
+T757	KEY_C 4581 4585	When
+T758	VARIABLE 4586 4614	operational reliability data
+T759	CONDITION 4615 4627	is available
+T760	STATEMENT 4586 4627	operational reliability data is available
+T761	CAUSE 4581 4627	When operational reliability data is available
+T762	VARIABLE 4629 4650	the compression level
+T763	CONDITION 4651 4728	shall be derated to 4 dB under the highest compression level showing no drift
+T764	STATEMENT 4629 4728	the compression level shall be derated to 4 dB under the highest compression level showing no drift
+T765	CAUSE_EFFECT_RELATION 4581 4728	When operational reliability data is available, the compression level shall be derated to 4 dB under the highest compression level showing no drift
+T766	ROOT_SENTENCE 4581 4729	When operational reliability data is available, the compression level shall be derated to 4 dB under the highest compression level showing no drift.
+T767	KEY_C 4904 4908	When
+T768	VARIABLE 4909 4927	the surge duration
+T769	CONDITION 4928 4935	≤ 10 µs
+T770	STATEMENT 4909 4935	the surge duration ≤ 10 µs
+T771	CAUSE 4904 4935	When the surge duration ≤ 10 µs
+T772	VARIABLE 4937 4962	the surge contact current
+T773	CONDITION 4973 5013	exceed 4 times the rated contact current
+T774	NEGATION 4963 5013	shall not exceed 4 times the rated contact current
+T775	STATEMENT 4937 5013	the surge contact current shall not exceed 4 times the rated contact current
+T776	CAUSE_EFFECT_RELATION 4904 5013	When the surge duration ≤ 10 µs, the surge contact current shall not exceed 4 times the rated contact current
+T777	ROOT_SENTENCE 4904 5014	When the surge duration ≤ 10 µs, the surge contact current shall not exceed 4 times the rated contact current.
+T778	KEY_C 5267 5271	When
+T779	VARIABLE 5272 5291	bimetallic contacts
+T780	CONDITION 5292 5300	are used
+T781	VARIABLE 5302 5351	the choice of the pair of metallic materials used
+T782	CONDITION 5352 5379	shall be taken into account
+T783	STATEMENT 5302 5379	the choice of the pair of metallic materials used shall be taken into account
+T784	STATEMENT 5272 5300	bimetallic contacts are used
+T785	CAUSE 5267 5300	When bimetallic contacts are used
+T786	CAUSE_EFFECT_RELATION 5267 5379	When bimetallic contacts are used, the choice of the pair of metallic materials used shall be taken into account
+T787	ROOT_SENTENCE 5267 5380	When bimetallic contacts are used, the choice of the pair of metallic materials used shall be taken into account.
+T788	KEY_C 5382 5386	When
+T789	VARIABLE 5387 5400	an evaluation
+T790	CONDITION 5401 5413	is performed
+T791	VARIABLE 5415 5457	an evaluation programme (available at PDR)
+T792	CONDITION 5458 5475	shall be drawn up
+T793	CONDITION 5477 5488	implemented
+T794	VARIABLE 5494 5537	an evaluation report (available before CDR)
+T795	CONDITION 5538 5555	shall be drawn up
+T796	STATEMENT 5494 5555	an evaluation report (available before CDR) shall be drawn up
+T797	AND 5458 5488	shall be drawn up, implemented
+T798	STATEMENT 5415 5488	an evaluation programme (available at PDR) shall be drawn up, implemented
+T799	AND 5415 5555	an evaluation programme (available at PDR) shall be drawn up, implemented, and an evaluation report (available before CDR) shall be drawn up
+T800	STATEMENT 5387 5413	an evaluation is performed
+T801	CAUSE 5382 5413	When an evaluation is performed
+T802	CAUSE_EFFECT_RELATION 5382 5555	When an evaluation is performed, an evaluation programme (available at PDR) shall be drawn up, implemented, and an evaluation report (available before CDR) shall be drawn up
+T803	ROOT_SENTENCE 5382 5556	When an evaluation is performed, an evaluation programme (available at PDR) shall be drawn up, implemented, and an evaluation report (available before CDR) shall be drawn up.
+T804	KEY_C 5558 5562	When
+T805	VARIABLE 5563 5572	a process
+T806	CONDITION 5573 5596	needs to be re-verified
+T807	VARIABLE 5598 5620	a request for approval
+T808	CONDITION 5621 5641	shall be established
+T809	VARIABLE 5646 5673	a re-verification programme
+T810	CONDITION 5674 5694	shall be implemented
+T811	STATEMENT 5646 5694	a re-verification programme shall be implemented
+T812	STATEMENT 5598 5641	a request for approval shall be established
+T813	AND 5598 5694	a request for approval shall be established and a re-verification programme shall be implemented
+T814	STATEMENT 5563 5596	a process needs to be re-verified
+T815	CAUSE 5558 5596	When a process needs to be re-verified
+T816	CAUSE_EFFECT_RELATION 5558 5694	When a process needs to be re-verified, a request for approval shall be established and a re-verification programme shall be implemented
+T817	ROOT_SENTENCE 5558 5695	When a process needs to be re-verified, a request for approval shall be established and a re-verification programme shall be implemented.
+T818	VARIABLE 5697 5716	Indication of issue
+T819	VARIABLE 5720 5724	date
+T820	NEGATION 5725 5742	is not applicable
+T821	CONDITION 5732 5742	applicable
+T822	OR 5697 5724	Indication of issue or date
+T823	STATEMENT 5697 5742	Indication of issue or date is not applicable
+T824	KEY_C 5743 5747	when
+T825	VARIABLE 5748 5758	datasheets
+T826	CONDITION 5759 5788	are used according to 6.6.1.b
+T827	STATEMENT 5748 5788	datasheets are used according to 6.6.1.b
+T828	CAUSE 5743 5788	when datasheets are used according to 6.6.1.b
+T829	CAUSE_EFFECT_RELATION 5697 5788	Indication of issue or date is not applicable when datasheets are used according to 6.6.1.b
+T830	ROOT_SENTENCE 5697 5789	Indication of issue or date is not applicable when datasheets are used according to 6.6.1.b.
+T831	KEY_C 5791 5795	When
+T832	VARIABLE 5796 5803	primers
+T833	CONDITION 5804 5815	are applied
+T834	VARIABLE 5817 5836	the complete system
+T835	CONDITION 5837 5853	should be tested
+T836	STATEMENT 5817 5853	the complete system should be tested
+T837	STATEMENT 5796 5815	primers are applied
+T838	CAUSE 5791 5815	When primers are applied
+T839	CAUSE_EFFECT_RELATION 5791 5853	When primers are applied, the complete system should be tested
+T840	ROOT_SENTENCE 5791 5854	When primers are applied, the complete system should be tested.
+T841	KEY_C 5856 5860	When
+T842	VARIABLE 5861 5887	the surface to be analysed
+T843	CONDITION 5895 5904	be washed
+T844	NEGATION 5888 5904	cannot be washed
+T845	STATEMENT 5861 5904	the surface to be analysed cannot be washed
+T846	CAUSE 5856 5904	When the surface to be analysed cannot be washed
+T847	VARIABLE 5906 5908	it
+T848	CONDITION 5909 5958	shall be wiped in accordance with subclause 5.3.3
+T849	STATEMENT 5906 5958	it shall be wiped in accordance with subclause 5.3.3
+T850	CAUSE_EFFECT_RELATION 5856 5958	When the surface to be analysed cannot be washed, it shall be wiped in accordance with subclause 5.3.3
+T851	ROOT_SENTENCE 5856 5959	When the surface to be analysed cannot be washed, it shall be wiped in accordance with subclause 5.3.3.
+T852	KEY_C 5961 5965	When
+T853	VARIABLE 5966 5996	an infrared-transparent window
+T854	CONDITION 5997 6023	is used as a witness plate
+T855	VARIABLE 6025 6040	the measurement
+T856	CONDITION 6041 6071	is done directly on the window
+T857	STATEMENT 6025 6071	the measurement is done directly on the window
+T858	STATEMENT 5966 6023	an infrared-transparent window is used as a witness plate
+T859	CAUSE 5961 6023	When an infrared-transparent window is used as a witness plate
+T860	CAUSE_EFFECT_RELATION 5961 6071	When an infrared-transparent window is used as a witness plate, the measurement is done directly on the window
+T861	ROOT_SENTENCE 5961 6072	When an infrared-transparent window is used as a witness plate, the measurement is done directly on the window.
+T862	VARIABLE 6074 6091	The witness plate
+T863	CONDITION 6102 6109	be used
+T864	NEGATION 6092 6109	shall not be used
+T865	STATEMENT 6074 6109	The witness plate shall not be used
+T866	KEY_C 6110 6114	when
+T867	VARIABLE 6115 6117	it
+T868	CONDITION 6118 6127	is stored
+T869	CONDITION 6129 6135	unused
+T870	CONDITION 6137 6161	for more than two months
+T871	AND 6129 6161	unused, for more than two months
+T872	AND 6118 6161	is stored, unused, for more than two months
+T873	STATEMENT 6115 6161	it is stored, unused, for more than two months
+T874	CAUSE 6110 6161	when it is stored, unused, for more than two months
+T875	CAUSE_EFFECT_RELATION 6074 6161	The witness plate shall not be used when it is stored, unused, for more than two months
+T876	ROOT_SENTENCE 6074 6162	The witness plate shall not be used when it is stored, unused, for more than two months.
+T877	VARIABLE 8030 8073	The criticality categories shown in Table 1
+T878	CONDITION 8074 8087	shall be used
+T879	KEY_C 8088 8092	when
+T880	VARIABLE 8093 8104	the program
+T881	CONDITION 8114 8133	identify categories
+T882	NEGATION 8105 8133	does not identify categories
+T883	STATEMENT 8093 8133	the program does not identify categories
+T884	CAUSE 8088 8133	when the program does not identify categories
+T885	STATEMENT 8030 8087	The criticality categories shown in Table 1 shall be used
+T886	CAUSE_EFFECT_RELATION 8030 8133	The criticality categories shown in Table 1 shall be used when the program does not identify categories
+T887	ROOT_SENTENCE 8030 8134	The criticality categories shown in Table 1 shall be used when the program does not identify categories.
+T888	KEY_C 7718 7722	When
+T889	VARIABLE 7723 7746	mildly activated fluxes
+T890	CONDITION 7747 7755	are used
+T891	VARIABLE 7757 7761	they
+T892	CONDITION 7762 7811	should be changed frequently to ensure a constant
+T893	CONDITION 7816 7844	adequate level of activation
+T894	AND 7762 7844	should be changed frequently to ensure a constant and adequate level of activation
+T895	STATEMENT 7757 7844	they should be changed frequently to ensure a constant and adequate level of activation
+T896	STATEMENT 7723 7755	mildly activated fluxes are used
+T897	CAUSE 7718 7755	When mildly activated fluxes are used
+T898	CAUSE_EFFECT_RELATION 7718 7844	When mildly activated fluxes are used, they should be changed frequently to ensure a constant and adequate level of activation
+T899	ROOT_SENTENCE 7718 7845	When mildly activated fluxes are used, they should be changed frequently to ensure a constant and adequate level of activation.
+T900	KEY_C 7522 7526	When
+T901	VARIABLE 7527 7532	there
+T902	CONDITION 7540 7592	changes to the Process Identification Document (PID)
+T903	NEGATION 7533 7592	are no changes to the Process Identification Document (PID)
+T904	STATEMENT 7527 7592	there are no changes to the Process Identification Document (PID)
+T905	CAUSE 7522 7592	When there are no changes to the Process Identification Document (PID)
+T906	VARIABLE 7593 7615	the period of validity
+T907	CONDITION 7616 7629	is indefinite
+T908	CONDITION 7634 7715	takes effect from the date on which the success- ful verification programme ended
+T909	AND 7616 7715	is indefinite and takes effect from the date on which the success- ful verification programme ended
+T910	STATEMENT 7593 7715	the period of validity is indefinite and takes effect from the date on which the success- ful verification programme ended
+T911	CAUSE_EFFECT_RELATION 7522 7715	When there are no changes to the Process Identification Document (PID) the period of validity is indefinite and takes effect from the date on which the success- ful verification programme ended
+T912	ROOT_SENTENCE 7522 7716	When there are no changes to the Process Identification Document (PID) the period of validity is indefinite and takes effect from the date on which the success- ful verification programme ended.
+T914	VARIABLE 7166 7207	The DTGS (deuterated triglycine sulphate)
+T915	CONDITION 7208 7236	is a pyroelectrical detector
+T916	CONDITION 7237 7285	that generates an electric charge on its surface
+T917	KEY_C 7286 7290	when
+T918	VARIABLE 7291 7306	the temperature
+T919	CONDITION 7307 7317	is changed
+T920	STATEMENT 7291 7317	the temperature is changed
+T921	CAUSE 7286 7317	when the temperature is changed
+T922	AND 7208 7285	is a pyroelectrical detector that generates an electric charge on its surface
+T923	STATEMENT 7166 7285	The DTGS (deuterated triglycine sulphate) is a pyroelectrical detector that generates an electric charge on its surface
+T924	CAUSE_EFFECT_RELATION 7166 7317	The DTGS (deuterated triglycine sulphate) is a pyroelectrical detector that generates an electric charge on its surface when the temperature is changed
+T925	ROOT_SENTENCE 7166 7318	The DTGS (deuterated triglycine sulphate) is a pyroelectrical detector that generates an electric charge on its surface when the temperature is changed.
+T926	VARIABLE 7017 7021	This
+T927	CONDITION 7022 7049	results in an interferogram
+T928	CONDITION 7050 7097	with the highest signal intensity in the centre
+T929	AND 7022 7097	results in an interferogram with the highest signal intensity in the centre
+T930	STATEMENT 7017 7097	This results in an interferogram with the highest signal intensity in the centre
+T931	KEY_C 7098 7102	when
+T932	VARIABLE 7103 7115	both mirrors
+T933	CONDITION 7116 7163	are at an equal distance from the beam splitter
+T934	STATEMENT 7103 7163	both mirrors are at an equal distance from the beam splitter
+T935	CAUSE 7098 7163	when both mirrors are at an equal distance from the beam splitter
+T936	CAUSE_EFFECT_RELATION 7017 7163	This results in an interferogram with the highest signal intensity in the centre when both mirrors are at an equal distance from the beam splitter
+T937	ROOT_SENTENCE 7017 7164	This results in an interferogram with the highest signal intensity in the centre when both mirrors are at an equal distance from the beam splitter.
+T938	KEY_C 6858 6862	When
+T939	VARIABLE 6863 6873	the wiping
+T940	VARIABLE 6878 6896	rinsing procedures
+T941	CONDITION 6897 6910	are performed
+T942	VARIABLE 6912 6920	a record
+T943	CONDITION 6921 6964	should be kept of the sample identification
+T944	CONDITION 6969 7014	all the information relevant for the analysis
+T945	AND 6921 7014	should be kept of the sample identification and all the information relevant for the analysis
+T946	STATEMENT 6912 7014	a record should be kept of the sample identification and all the information relevant for the analysis
+T947	AND 6863 6896	the wiping and rinsing procedures
+T948	STATEMENT 6863 6910	the wiping and rinsing procedures are performed
+T949	CAUSE 6858 6910	When the wiping and rinsing procedures are performed
+T950	CAUSE_EFFECT_RELATION 6858 7014	When the wiping and rinsing procedures are performed, a record should be kept of the sample identification and all the information relevant for the analysis
+T951	ROOT_SENTENCE 6858 7015	When the wiping and rinsing procedures are performed, a record should be kept of the sample identification and all the information relevant for the analysis.
+T952	KEY_C 6771 6775	When
+T953	VARIABLE 6776 6786	performing
+T954	CONDITION 6787 6797	a wet wipe
+T955	VARIABLE 6799 6809	the tissue
+T956	CONDITION 6810 6855	is moistened with the solvent prior to wiping
+T957	STATEMENT 6799 6855	the tissue is moistened with the solvent prior to wiping
+T958	STATEMENT 6776 6797	performing a wet wipe
+T959	CAUSE 6771 6797	When performing a wet wipe
+T960	CAUSE_EFFECT_RELATION 6771 6855	When performing a wet wipe, the tissue is moistened with the solvent prior to wiping
+T962	VARIABLE 6586 6604	The rinsing method
+T963	CONDITION 6605 6621	can only be used
+T964	KEY_C 6622 6626	when
+T965	VARIABLE 6627 6646	the rinsing solvent
+T966	CONDITION 6647 6663	can be collected
+T967	CONDITION 6665 6673	directly
+T968	CONDITION 6677 6712	by being absorbed in a clean tissue
+T969	KEY_C 6164 6168	When
+T970	VARIABLE 6169 6178	molecules
+T971	CONDITION 6179 6206	are adsorbed onto a surface
+T972	VARIABLE 6208 6231	the surface temperature
+T973	VARIABLE 6233 6259	the environmental pressure
+T974	VARIABLE 6272 6310	the vapour pressure of the contaminant
+T975	CONDITION 6312 6375	influence the time that the molecule is resident on the surface
+T976	AND 6233 6310	the environmental pressure, as well as the vapour pressure of the contaminant
+T977	AND 6208 6310	the surface temperature, the environmental pressure, as well as the vapour pressure of the contaminant
+T978	STATEMENT 6208 6375	the surface temperature, the environmental pressure, as well as the vapour pressure of the contaminant, influence the time that the molecule is resident on the surface
+T979	STATEMENT 6169 6206	molecules are adsorbed onto a surface
+T980	CAUSE 6164 6206	When molecules are adsorbed onto a surface
+T981	CAUSE_EFFECT_RELATION 6164 6375	When molecules are adsorbed onto a surface, the surface temperature, the environmental pressure, as well as the vapour pressure of the contaminant, influence the time that the molecule is resident on the surface
+T982	ROOT_SENTENCE 6164 6376	When molecules are adsorbed onto a surface, the surface temperature, the environmental pressure, as well as the vapour pressure of the contaminant, influence the time that the molecule is resident on the surface.
+T679	STATEMENT 3909 3988	transient or surge rating values are specified in the procurement specification
+T680	KEY_C 6718 6722	when
+T681	VARIABLE 6723 6734	the surface
+T682	CONDITION 6735 6768	is compatible to the solvent used
+T683	STATEMENT 6723 6768	the surface is compatible to the solvent used
+T684	CAUSE 6718 6768	when the surface is compatible to the solvent used
+T749	OR 6665 6712	directly or by being absorbed in a clean tissue
+T750	AND 6647 6712	can be collected, directly or by being absorbed in a clean tissue
+T751	STATEMENT 6627 6712	the rinsing solvent can be collected, directly or by being absorbed in a clean tissue
+T752	CAUSE 6622 6712	when the rinsing solvent can be collected, directly or by being absorbed in a clean tissue
+T753	AND 6622 6768	when the rinsing solvent can be collected, directly or by being absorbed in a clean tissue, and when the surface is compatible to the solvent used
+T754	STATEMENT 6586 6621	The rinsing method can only be used
+T755	CAUSE_EFFECT_RELATION 6586 6768	The rinsing method can only be used when the rinsing solvent can be collected, directly or by being absorbed in a clean tissue, and when the surface is compatible to the solvent used
+T756	ROOT_SENTENCE 6586 6769	The rinsing method can only be used when the rinsing solvent can be collected, directly or by being absorbed in a clean tissue, and when the surface is compatible to the solvent used.
+T225	ROOT_SENTENCE 6771 6856	When performing a wet wipe, the tissue is moistened with the solvent prior to wiping.

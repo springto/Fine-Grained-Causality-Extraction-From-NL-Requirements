@@ -1,0 +1,931 @@
+T1	VARIABLE 0 8	The user
+T2	CONDITION 9 61	is expected to check that these 6-digit values match
+T3	CONDITION 66 76	to confirm
+T4	AND 9 76	is expected to check that these 6-digit values match and to confirm
+T5	VARIABLE 80 85	there
+T6	CONDITION 86 96	is a match
+T7	KEY_C 77 79	if
+T8	CAUSE 77 96	if there is a match
+T9	STATEMENT 80 96	there is a match
+T10	STATEMENT 0 76	The user is expected to check that these 6-digit values match and to confirm
+T11	CAUSE_EFFECT_RELATION 0 96	The user is expected to check that these 6-digit values match and to confirm if there is a match
+T12	ROOT_SENTENCE 0 97	The user is expected to check that these 6-digit values match and to confirm if there is a match.
+T13	KEY_C 99 101	If
+T14	VARIABLE 102 107	there
+T15	NEGATION 108 119	is no match
+T16	STATEMENT 102 119	there is no match
+T17	CAUSE 99 119	If there is no match
+T18	VARIABLE 121 133	the protocol
+T19	CONDITION 134 140	aborts
+T20	VARIABLE 157 167	new nonces
+T21	CONDITION 168 185	must be generated
+T22	VARIABLE 189 201	the protocol
+T23	CONDITION 202 219	is to be repeated
+T24	KEY_C 186 188	if
+T25	STATEMENT 189 219	the protocol is to be repeated
+T26	CAUSE 186 219	if the protocol is to be repeated
+T27	STATEMENT 157 185	new nonces must be generated
+T28	CAUSE_EFFECT_RELATION 157 219	new nonces must be generated if the protocol is to be repeated
+T29	STATEMENT 121 140	the protocol aborts
+T30	AND 99 219	If there is no match, the protocol aborts and, as before, new nonces must be generated if the protocol is to be repeated
+T31	CAUSE_EFFECT_RELATION 99 140	If there is no match, the protocol aborts
+T32	NONE_CAUSAL 146 155	as before
+T33	ROOT_SENTENCE 99 220	If there is no match, the protocol aborts and, as before, new nonces must be generated if the protocol is to be repeated.
+T34	VARIABLE 533 541	a device
+T35	CONDITION 542 558	has received OOB
+T36	VARIABLE 560 562	it
+T37	CONDITION 563 615	sets the peer's r value to what was sent by the peer
+T38	NONE_CAUSAL 616 624	(Step 5)
+T39	KEY_C 530 532	If
+T40	STATEMENT 533 558	a device has received OOB
+T41	CAUSE 530 558	If a device has received OOB
+T42	STATEMENT 560 615	it sets the peer's r value to what was sent by the peer
+T43	CAUSE_EFFECT_RELATION 530 615	If a device has received OOB, it sets the peer's r value to what was sent by the peer
+T44	ROOT_SENTENCE 530 625	If a device has received OOB, it sets the peer's r value to what was sent by the peer (Step 5).
+T45	VARIABLE 630 640	this check
+T46	CONDITION 641 646	fails
+T47	KEY_C 627 629	If
+T48	VARIABLE 723 735	the protocol
+T49	CONDITION 736 751	must be aborted
+T50	STATEMENT 723 751	the protocol must be aborted
+T51	VARIABLE 666 687	the initiating device
+T52	CONDITION 688 717	has not confirmed the pairing
+T53	KEY_C 648 665	it indicates that
+T54	AND 666 751	the initiating device has not confirmed the pairing, and the protocol must be aborted
+T55	STATEMENT 666 717	the initiating device has not confirmed the pairing
+T56	EFFECT 648 751	it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted
+T57	STATEMENT 630 646	this check fails
+T58	CAUSE 627 646	If this check fails
+T59	CAUSE_EFFECT_RELATION 627 751	If this check fails, it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted
+T60	ROOT_SENTENCE 627 752	If this check fails, it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted.
+T61	VARIABLE 956 974	this specification
+T62	CONDITION 975 1045	is not the final version adopted by Bluetooth SIG’s Board of Directors
+T63	VARIABLE 1047 1049	it
+T64	CONDITION 1058 1068	be adopted
+T65	NEGATION 1050 1068	may not be adopted
+T66	STATEMENT 1047 1068	it may not be adopted
+T67	STATEMENT 956 1045	this specification is not the final version adopted by Bluetooth SIG’s Board of Directors
+T68	KEY_C 953 955	If
+T69	CAUSE 953 1045	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors
+T70	CAUSE_EFFECT_RELATION 953 1068	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors, it may not be adopted
+T71	ROOT_SENTENCE 953 1069	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors, it may not be adopted.
+T72	VARIABLE 1071 1100	Many multiplexed applications
+T73	CONDITION 1101 1118	are better served
+T74	KEY_C 1119 1121	if
+T75	VARIABLE 1122 1127	L2CAP
+T76	CONDITION 1128 1159	has control over the PDU length
+T77	CAUSE 1119 1159	if L2CAP has control over the PDU length
+T78	STATEMENT 1122 1159	L2CAP has control over the PDU length
+T79	STATEMENT 1071 1118	Many multiplexed applications are better served
+T80	CAUSE_EFFECT_RELATION 1071 1159	Many multiplexed applications are better served if L2CAP has control over the PDU length
+T81	ROOT_SENTENCE 1071 1160	Many multiplexed applications are better served if L2CAP has control over the PDU length.
+T82	VARIABLE 1165 1172	the PDU
+T83	CONDITION 1173 1196	contains an unknown CID
+T84	VARIABLE 1203 1205	it
+T85	CONDITION 1206 1222	shall be ignored
+T86	KEY_C 1198 1202	then
+T87	KEY_C 1162 1164	If
+T88	STATEMENT 1165 1196	the PDU contains an unknown CID
+T89	CAUSE 1162 1196	If the PDU contains an unknown CID
+T90	STATEMENT 1203 1222	it shall be ignored
+T91	EFFECT 1198 1222	then it shall be ignored
+T92	CAUSE_EFFECT_RELATION 1162 1222	If the PDU contains an unknown CID, then it shall be ignored
+T93	ROOT_SENTENCE 1162 1223	If the PDU contains an unknown CID, then it shall be ignored.
+T94	VARIABLE 1228 1235	the PDU
+T95	CONDITION 1236 1257	contains an FCS error
+T96	KEY_C 1259 1263	then
+T97	KEY_C 1225 1227	If
+T98	VARIABLE 1264 1266	it
+T99	CONDITION 1267 1283	shall be ignored
+T100	STATEMENT 1264 1283	it shall be ignored
+T101	EFFECT 1259 1283	then it shall be ignored
+T102	STATEMENT 1228 1257	the PDU contains an FCS error
+T103	CAUSE 1225 1257	If the PDU contains an FCS error
+T104	CAUSE_EFFECT_RELATION 1225 1283	If the PDU contains an FCS error, then it shall be ignored
+T105	ROOT_SENTENCE 1225 1284	If the PDU contains an FCS error, then it shall be ignored.
+T106	VARIABLE 1289 1300	the channel
+T107	CONDITION 1301 1330	is configured to use "No FCS"
+T108	VARIABLE 1337 1344	the PDU
+T109	CONDITION 1345 1392	is considered to have a good FCS (no FCS error)
+T110	KEY_C 1332 1336	then
+T111	KEY_C 1286 1288	If
+T112	STATEMENT 1289 1330	the channel is configured to use "No FCS"
+T113	CAUSE 1286 1330	If the channel is configured to use "No FCS"
+T114	STATEMENT 1337 1392	the PDU is considered to have a good FCS (no FCS error)
+T115	EFFECT 1332 1392	then the PDU is considered to have a good FCS (no FCS error)
+T116	ROOT_SENTENCE 1286 1393	If the channel is configured to use "No FCS", then the PDU is considered to have a good FCS (no FCS error).
+T117	CAUSE_EFFECT_RELATION 1286 1392	If the channel is configured to use "No FCS", then the PDU is considered to have a good FCS (no FCS error)
+T118	VARIABLE 1398 1419	one of the conditions
+T119	CONDITION 1420 1426	occurs
+T120	KEY_C 1395 1397	If
+T121	VARIABLE 1428 1439	the channel
+T122	CONDITION 1440 1455	shall be closed
+T123	KEY_C 1459 1473	in the case of
+T124	CONDITION 1474 1479	fixed
+T125	VARIABLE 1480 1488	channels
+T126	VARIABLE 1489 1496	the ACL
+T127	CONDITION 1497 1518	shall be disconnected
+T128	STATEMENT 1489 1518	the ACL shall be disconnected
+T129	STATEMENT 1474 1488	fixed channels
+T130	CAUSE 1459 1488	in the case of fixed channels
+T131	CAUSE_EFFECT_RELATION 1459 1518	in the case of fixed channels the ACL shall be disconnected
+T132	STATEMENT 1428 1455	the channel shall be closed
+T133	STATEMENT 1398 1426	one of the conditions occurs
+T134	CAUSE 1395 1426	If one of the conditions occurs
+T135	CAUSE_EFFECT_RELATION 1395 1455	If one of the conditions occurs, the channel shall be closed
+T136	OR 1395 1518	If one of the conditions occurs, the channel shall be closed or in the case of fixed channels the ACL shall be disconnected
+T137	ROOT_SENTENCE 1395 1519	If one of the conditions occurs, the channel shall be closed or in the case of fixed channels the ACL shall be disconnected.
+T138	VARIABLE 1524 1535	the channel
+T139	CONDITION 1536 1583	is configured to use the Extended Control Field
+T140	KEY_C 1521 1523	If
+T141	STATEMENT 1524 1583	the channel is configured to use the Extended Control Field
+T142	CAUSE 1521 1583	If the channel is configured to use the Extended Control Field
+T143	VARIABLE 1590 1619	the required number of octets
+T144	CONDITION 1620 1624	is 8
+T145	VARIABLE 1628 1636	"No FCS"
+T146	CONDITION 1637 1650	is configured
+T147	STATEMENT 1628 1650	"No FCS" is configured
+T148	CAUSE 1625 1650	if "No FCS" is configured
+T149	KEY_C 1585 1589	then
+T150	EFFECT 1585 1624	then the required number of octets is 8
+T151	STATEMENT 1590 1624	the required number of octets is 8
+T152	CAUSE_EFFECT_RELATION 1585 1650	then the required number of octets is 8 if "No FCS" is configured
+T153	VARIABLE 1663 1665	it
+T154	CONDITION 1666 1671	is 10
+T155	CAUSE 1652 1661	otherwise
+T156	STATEMENT 1663 1671	it is 10
+T157	CAUSE_EFFECT_RELATION 1652 1671	otherwise, it is 10
+T158	CAUSE_EFFECT_RELATION 1521 1671	If the channel is configured to use the Extended Control Field, then the required number of octets is 8 if "No FCS" is configured; otherwise, it is 10
+T159	OR 1585 1671	then the required number of octets is 8 if "No FCS" is configured; otherwise, it is 10
+T160	ROOT_SENTENCE 1521 1672	If the channel is configured to use the Extended Control Field, then the required number of octets is 8 if "No FCS" is configured; otherwise, it is 10.
+T161	VARIABLE 1677 1688	all options
+T162	CONDITION 1689 1719	fit into the receiver's MTUsig
+T163	VARIABLE 1726 1730	they
+T164	CONDITION 1731 1817	shall be sent in a single configuration request with the continuation flag set to zero
+T165	KEY_C 1721 1725	then
+T166	STATEMENT 1726 1817	they shall be sent in a single configuration request with the continuation flag set to zero
+T167	EFFECT 1721 1817	then they shall be sent in a single configuration request with the continuation flag set to zero
+T168	STATEMENT 1677 1719	all options fit into the receiver's MTUsig
+T169	KEY_C 1674 1676	If
+T170	CAUSE 1674 1719	If all options fit into the receiver's MTUsig
+T171	CAUSE_EFFECT_RELATION 1674 1817	If all options fit into the receiver's MTUsig, then they shall be sent in a single configuration request with the continuation flag set to zero
+T172	ROOT_SENTENCE 1674 1818	If all options fit into the receiver's MTUsig, then they shall be sent in a single configuration request with the continuation flag set to zero.
+T173	VARIABLE 2449 2463	L2CAP entities
+T174	CONDITION 2464 2504	should ignore the contents of this field
+T175	KEY_C 2505 2507	if
+T176	VARIABLE 2508 2515	present
+T177	CAUSE 2505 2515	if present
+T178	STATEMENT 2449 2504	L2CAP entities should ignore the contents of this field
+T179	CAUSE_EFFECT_RELATION 2449 2515	L2CAP entities should ignore the contents of this field if present
+T180	ROOT_SENTENCE 2449 2516	L2CAP entities should ignore the contents of this field if present.
+T181	VARIABLE 2366 2374	the CIDs
+T182	CONDITION 2382 2387	match
+T183	NEGATION 2375 2387	do not match
+T184	KEY_C 2363 2365	If
+T185	STATEMENT 2366 2387	the CIDs do not match
+T186	CAUSE 2363 2387	If the CIDs do not match
+T187	VARIABLE 2389 2401	the response
+T188	CONDITION 2402 2446	should be silently discarded at the receiver
+T189	STATEMENT 2389 2446	the response should be silently discarded at the receiver
+T190	CAUSE_EFFECT_RELATION 2363 2446	If the CIDs do not match, the response should be silently discarded at the receiver
+T191	ROOT_SENTENCE 2363 2447	If the CIDs do not match, the response should be silently discarded at the receiver.
+T192	VARIABLE 2245 2257	the receiver
+T193	CONDITION 2258 2276	finds a DCID match
+T194	VARIABLE 2281 2289	the SCID
+T195	CONDITION 2290 2318	fails to find the same match
+T196	VARIABLE 2320 2331	the request
+T197	CONDITION 2332 2360	should be silently discarded
+T198	STATEMENT 2320 2360	the request should be silently discarded
+T199	KEY_C 2242 2244	If
+T200	STATEMENT 2245 2276	the receiver finds a DCID match
+T201	STATEMENT 2281 2318	the SCID fails to find the same match
+T202	AND 2245 2318	the receiver finds a DCID match but the SCID fails to find the same match
+T203	CAUSE 2242 2318	If the receiver finds a DCID match but the SCID fails to find the same match
+T204	CAUSE_EFFECT_RELATION 2242 2360	If the receiver finds a DCID match but the SCID fails to find the same match, the request should be silently discarded
+T205	ROOT_SENTENCE 2242 2361	If the receiver finds a DCID match but the SCID fails to find the same match, the request should be silently discarded.
+T206	VARIABLE 2099 2107	the DCID
+T207	CONDITION 2115 2157	recognized by the receiver of this message
+T208	NEGATION 2108 2157	is not recognized by the receiver of this message
+T209	VARIABLE 2159 2182	a CommandReject message
+T210	CONDITION 2183 2239	with ’invalid CID’ result code shall be sent in response
+T211	STATEMENT 2159 2239	a CommandReject message with ’invalid CID’ result code shall be sent in response
+T212	KEY_C 2096 2098	If
+T213	CAUSE 2096 2157	If the DCID is not recognized by the receiver of this message
+T214	STATEMENT 2099 2157	the DCID is not recognized by the receiver of this message
+T215	CAUSE_EFFECT_RELATION 2096 2239	If the DCID is not recognized by the receiver of this message, a CommandReject message with ’invalid CID’ result code shall be sent in response
+T216	ROOT_SENTENCE 2096 2240	If the DCID is not recognized by the receiver of this message, a CommandReject message with ’invalid CID’ result code shall be sent in response.
+T217	CONDITION 2010 2042	are those options in the Request
+T218	VARIABLE 2004 2009	Hints
+T219	KEY_C 2043 2047	that
+T220	CONDITION 2048 2059	are skipped
+T221	KEY_C 2060 2062	if
+T222	CONDITION 2063 2077	not understood
+T223	EFFECT 2043 2059	that are skipped
+T224	CAUSE 2060 2077	if not understood
+T225	CAUSE_EFFECT_RELATION 2043 2077	that are skipped if not understood
+T226	NONE_CAUSAL 2078 2093	(see Section 5)
+T227	NONE_CAUSAL 2004 2042	Hints are those options in the Request
+T228	ROOT_SENTENCE 2004 2094	Hints are those options in the Request that are skipped if not understood (see Section 5).
+T229	VARIABLE 1823 1844	the continuation flag
+T230	CONDITION 1845 1874	is set to one in the Response
+T231	KEY_C 1875 1879	when
+T232	KEY_C 1820 1822	If
+T233	VARIABLE 1880 1900	the matching Request
+T234	CONDITION 1901 1925	has the flag set to zero
+T235	STATEMENT 1823 1874	the continuation flag is set to one in the Response
+T236	STATEMENT 1880 1925	the matching Request has the flag set to zero
+T237	CAUSE 1875 1925	when the matching Request has the flag set to zero
+T238	CAUSE 1820 1874	If the continuation flag is set to one in the Response
+T239	AND 1820 1925	If the continuation flag is set to one in the Response when the matching Request has the flag set to zero
+T240	KEY_C 1927 1939	it indicates
+T241	VARIABLE 1940 1953	the responder
+T242	CONDITION 1954 2001	has additional options to send to the requestor
+T243	STATEMENT 1940 2001	the responder has additional options to send to the requestor
+T244	EFFECT 1927 2001	it indicates the responder has additional options to send to the requestor
+T245	CAUSE_EFFECT_RELATION 1820 2001	If the continuation flag is set to one in the Response when the matching Request has the flag set to zero, it indicates the responder has additional options to send to the requestor
+T246	ROOT_SENTENCE 1820 2002	If the continuation flag is set to one in the Response when the matching Request has the flag set to zero, it indicates the responder has additional options to send to the requestor.
+T247	VARIABLE 2518 2532	The data field
+T248	CONDITION 2533 2611	shall contain the value associated with the InfoType field sent in the Request
+T249	CONDITION 2616 2630	shall be empty
+T250	KEY_C 2631 2633	if
+T251	VARIABLE 2634 2646	the InfoType
+T252	CONDITION 2654 2663	supported
+T253	STATEMENT 2634 2663	the InfoType is not supported
+T254	CAUSE 2631 2663	if the InfoType is not supported
+T255	CAUSE_EFFECT_RELATION 2616 2663	shall be empty if the InfoType is not supported
+T256	VARIABLE 2669 2675	result
+T257	CONDITION 2676 2689	is "Success,"
+T258	VARIABLE 2690 2704	the data field
+T259	CONDITION 2705 2756	contains the information as specified in Table 4.11
+T260	STATEMENT 2690 2756	the data field contains the information as specified in Table 4.11
+T261	KEY_C 2666 2668	If
+T262	STATEMENT 2669 2689	result is "Success,"
+T263	CAUSE 2666 2689	If result is "Success,"
+T264	CAUSE_EFFECT_RELATION 2666 2756	If result is "Success," the data field contains the information as specified in Table 4.11
+T265	ROOT_SENTENCE 2666 2757	If result is "Success," the data field contains the information as specified in Table 4.11.
+T266	VARIABLE 2762 2768	result
+T267	CONDITION 2769 2788	is "Not supported,"
+T268	VARIABLE 2792 2796	data
+T269	CONDITION 2797 2814	shall be returned
+T270	STATEMENT 2792 2814	data shall be returned
+T271	NEGATION 2789 2814	no data shall be returned
+T272	STATEMENT 2762 2788	result is "Not supported,"
+T273	KEY_C 2759 2761	If
+T274	CAUSE 2759 2788	If result is "Not supported,"
+T275	CAUSE_EFFECT_RELATION 2759 2814	If result is "Not supported," no data shall be returned
+T276	ROOT_SENTENCE 2759 2815	If result is "Not supported," no data shall be returned.
+T281	VARIABLE 3170 3189	the configured mode
+T282	CONDITION 3190 3221	is Enhanced Retransmission mode
+T283	CONDITION 3225 3239	Streaming mode
+T284	VARIABLE 3246 3249	MTU
+T285	CONDITION 3260 3293	be reconfigured to a smaller size
+T286	NEGATION 3250 3293	shall not be reconfigured to a smaller size
+T287	KEY_C 3241 3245	then
+T288	STATEMENT 3246 3293	MTU shall not be reconfigured to a smaller size
+T289	EFFECT 3241 3293	then MTU shall not be reconfigured to a smaller size
+T290	KEY_C 3167 3169	If
+T291	OR 3190 3239	is Enhanced Retransmission mode or Streaming mode
+T292	STATEMENT 3170 3239	the configured mode is Enhanced Retransmission mode or Streaming mode
+T293	CAUSE 3167 3239	If the configured mode is Enhanced Retransmission mode or Streaming mode
+T294	CAUSE_EFFECT_RELATION 3167 3293	If the configured mode is Enhanced Retransmission mode or Streaming mode, then MTU shall not be reconfigured to a smaller size
+T295	ROOT_SENTENCE 3167 3294	If the configured mode is Enhanced Retransmission mode or Streaming mode, then MTU shall not be reconfigured to a smaller size.
+T296	VARIABLE 3296 3307	This option
+T297	CONDITION 3318 3325	be used
+T298	NEGATION 3308 3325	shall not be used
+T299	VARIABLE 3329 3360	the Extended Flow Specification
+T300	CONDITION 3361 3368	is used
+T301	STATEMENT 3329 3368	the Extended Flow Specification is used
+T302	KEY_C 3326 3328	if
+T303	STATEMENT 3296 3325	This option shall not be used
+T304	CAUSE 3326 3368	if the Extended Flow Specification is used
+T305	ROOT_SENTENCE 3296 3369	This option shall not be used if the Extended Flow Specification is used.
+T306	CAUSE_EFFECT_RELATION 3296 3368	This option shall not be used if the Extended Flow Specification is used
+T307	VARIABLE 3811 3822	Best Effort
+T308	CONDITION 3823 3839	shall be assumed
+T309	VARIABLE 3774 3784	QoS option
+T310	CONDITION 3785 3809	is placed in the request
+T311	STATEMENT 3774 3809	QoS option is placed in the request
+T312	NEGATION 3771 3809	no QoS option is placed in the request
+T313	KEY_C 3768 3770	If
+T314	CAUSE 3768 3809	If no QoS option is placed in the request
+T315	STATEMENT 3811 3839	Best Effort shall be assumed
+T316	CAUSE_EFFECT_RELATION 3768 3839	If no QoS option is placed in the request, Best Effort shall be assumed
+T317	ROOT_SENTENCE 3768 3840	If no QoS option is placed in the request, Best Effort shall be assumed.
+T318	VARIABLE 3845 3863	any QoS guarantees
+T319	CONDITION 3864 3876	are required
+T320	VARIABLE 3882 3909	a QoS configuration request
+T321	CONDITION 3910 3923	shall be sent
+T322	KEY_C 3877 3881	then
+T323	KEY_C 3842 3844	If
+T324	STATEMENT 3845 3876	any QoS guarantees are required
+T325	CAUSE 3842 3876	If any QoS guarantees are required
+T326	STATEMENT 3882 3923	a QoS configuration request shall be sent
+T327	EFFECT 3877 3923	then a QoS configuration request shall be sent
+T328	CAUSE_EFFECT_RELATION 3842 3923	If any QoS guarantees are required then a QoS configuration request shall be sent
+T329	ROOT_SENTENCE 3842 3924	If any QoS guarantees are required then a QoS configuration request shall be sent.
+T330	VARIABLE 3929 3940	the request
+T331	CONDITION 3941 3967	was for Guaranteed Service
+T332	VARIABLE 3969 3981	the response
+T333	CONDITION 3982 4117	shall include specific values for any wild card parameters (see Token Rate and Token Bucket Size descriptions) contained in the request
+T334	STATEMENT 3969 4117	the response shall include specific values for any wild card parameters (see Token Rate and Token Bucket Size descriptions) contained in the request
+T335	KEY_C 3926 3928	If
+T336	CAUSE 3926 3967	If the request was for Guaranteed Service
+T337	STATEMENT 3929 3967	the request was for Guaranteed Service
+T338	CAUSE_EFFECT_RELATION 3926 4117	If the request was for Guaranteed Service, the response shall include specific values for any wild card parameters (see Token Rate and Token Bucket Size descriptions) contained in the request
+T339	ROOT_SENTENCE 3926 4118	If the request was for Guaranteed Service, the response shall include specific values for any wild card parameters (see Token Rate and Token Bucket Size descriptions) contained in the request.
+T340	VARIABLE 4123 4146	a configuration request
+T341	CONDITION 4147 4202	contains any QoS option parameters set to “do not care”
+T342	KEY_C 4204 4208	then
+T343	VARIABLE 4209 4235	the configuration response
+T344	CONDITION 4236 4282	shall set the same parameters to “do not care”
+T345	STATEMENT 4209 4282	the configuration response shall set the same parameters to “do not care”
+T346	EFFECT 4204 4282	then the configuration response shall set the same parameters to “do not care”
+T347	KEY_C 4120 4122	If
+T348	STATEMENT 4123 4202	a configuration request contains any QoS option parameters set to “do not care”
+T349	CAUSE 4120 4202	If a configuration request contains any QoS option parameters set to “do not care”
+T350	CAUSE_EFFECT_RELATION 4120 4282	If a configuration request contains any QoS option parameters set to “do not care”, then the configuration response shall set the same parameters to “do not care”
+T351	ROOT_SENTENCE 4120 4283	If a configuration request contains any QoS option parameters set to “do not care”, then the configuration response shall set the same parameters to “do not care”.
+T352	VARIABLE 4288 4301	‘Best effort’
+T353	CONDITION 4302 4313	is selected
+T354	VARIABLE 4315 4339	the remaining parameters
+T355	CONDITION 4340 4390	should be treated as optional by the remote device
+T356	KEY_C 4285 4287	If
+T357	STATEMENT 4288 4313	‘Best effort’ is selected
+T358	CAUSE 4285 4313	If ‘Best effort’ is selected
+T359	STATEMENT 4315 4390	the remaining parameters should be treated as optional by the remote device
+T360	CAUSE_EFFECT_RELATION 4285 4390	If ‘Best effort’ is selected, the remaining parameters should be treated as optional by the remote device
+T361	ROOT_SENTENCE 4285 4391	If ‘Best effort’ is selected, the remaining parameters should be treated as optional by the remote device.
+T362	CONDITION 4599 4616	shall be set to 1
+T363	KEY_C 4593 4598	which
+T364	KEY_C 4617 4619	if
+T365	VARIABLE 4620 4631	the feature
+T366	CONDITION 4632 4644	is supported
+T367	CONDITION 4649 4657	set to 0
+T368	CAUSE 4658 4667	otherwise
+T369	CAUSE 4617 4644	if the feature is supported
+T370	STATEMENT 4620 4644	the feature is supported
+T371	EFFECT 4593 4616	which shall be set to 1
+T372	CAUSE_EFFECT_RELATION 4593 4644	which shall be set to 1 if the feature is supported
+T373	CAUSE_EFFECT_RELATION 4649 4667	set to 0 otherwise
+T374	OR 4593 4667	which shall be set to 1 if the feature is supported and set to 0 otherwise
+T375	NONE_CAUSAL 4550 4592	For each feature a single bit is specified
+T376	VARIABLE 4567 4579	a single bit
+T377	CONDITION 4580 4592	is specified
+T378	ROOT_SENTENCE 4550 4668	For each feature a single bit is specified which shall be set to 1 if the feature is supported and set to 0 otherwise.
+T379	VARIABLE 4670 4703	The bit associated with a channel
+T380	CONDITION 4704 4721	shall be set to 1
+T381	KEY_C 4722 4724	if
+T382	VARIABLE 4725 4741	the L2CAP entity
+T383	CONDITION 4742 4776	supports signaling on that channel
+T384	STATEMENT 4725 4776	the L2CAP entity supports signaling on that channel
+T385	CAUSE 4722 4776	if the L2CAP entity supports signaling on that channel
+T386	STATEMENT 4670 4721	The bit associated with a channel shall be set to 1
+T387	CAUSE_EFFECT_RELATION 4670 4776	The bit associated with a channel shall be set to 1 if the L2CAP entity supports signaling on that channel
+T388	ROOT_SENTENCE 4670 4777	The bit associated with a channel shall be set to 1 if the L2CAP entity supports signaling on that channel.
+T389	VARIABLE 6255 6266	the feature
+T390	CONDITION 6267 6274	is used
+T391	VARIABLE 6280 6288	incoming
+T392	VARIABLE 6293 6312	outgoing parameters
+T393	CONDITION 6313 6341	are specified by this option
+T394	AND 6275 6312	both incoming and outgoing parameters
+T395	STATEMENT 6275 6341	both incoming and outgoing parameters are specified by this option
+T396	KEY_C 6252 6254	If
+T397	CAUSE 6252 6274	If the feature is used
+T398	STATEMENT 6255 6274	the feature is used
+T399	CAUSE_EFFECT_RELATION 6252 6341	If the feature is used both incoming and outgoing parameters are specified by this option
+T400	ROOT_SENTENCE 6252 6342	If the feature is used both incoming and outgoing parameters are specified by this option.
+T401	VARIABLE 6344 6372	Enhanced Retransmission mode
+T402	CONDITION 6373 6390	should be enabled
+T403	VARIABLE 6394 6412	a reliable channel
+T404	CONDITION 6413 6431	has been requested
+T405	KEY_C 6391 6393	if
+T406	STATEMENT 6394 6431	a reliable channel has been requested
+T407	STATEMENT 6344 6390	Enhanced Retransmission mode should be enabled
+T408	CAUSE 6391 6431	if a reliable channel has been requested
+T409	CAUSE_EFFECT_RELATION 6344 6431	Enhanced Retransmission mode should be enabled if a reliable channel has been requested
+T410	ROOT_SENTENCE 6344 6432	Enhanced Retransmission mode should be enabled if a reliable channel has been requested.
+T411	VARIABLE 6434 6448	Streaming mode
+T412	CONDITION 6449 6466	should be enabled
+T413	VARIABLE 6470 6499	a finite L2CAP Flush Time-Out
+T414	CONDITION 6500 6529	is set on an L2CAP connection
+T415	KEY_C 6467 6469	if
+T416	CAUSE 6467 6529	if a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T417	STATEMENT 6470 6529	a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T418	STATEMENT 6434 6466	Streaming mode should be enabled
+T419	CAUSE_EFFECT_RELATION 6434 6529	Streaming mode should be enabled if a finite L2CAP Flush Time-Out is set on an L2CAP connection
+T420	ROOT_SENTENCE 6434 6530	Streaming mode should be enabled if a finite L2CAP Flush Time-Out is set on an L2CAP connection.
+T421	VARIABLE 6532 6543	This option
+T422	CONDITION 6544 6560	shall be ignored
+T423	VARIABLE 6564 6575	the channel
+T424	CONDITION 6576 6613	is configured to use Basic L2CAP Mode
+T425	NONE_CAUSAL 6614 6631	(see Section 5.4)
+T426	KEY_C 6561 6563	if
+T427	STATEMENT 6532 6560	This option shall be ignored
+T428	STATEMENT 6564 6613	the channel is configured to use Basic L2CAP Mode
+T429	CAUSE 6561 6613	if the channel is configured to use Basic L2CAP Mode
+T430	CAUSE_EFFECT_RELATION 6532 6613	This option shall be ignored if the channel is configured to use Basic L2CAP Mode
+T431	ROOT_SENTENCE 6532 6632	This option shall be ignored if the channel is configured to use Basic L2CAP Mode (see Section 5.4).
+T432	VARIABLE 6987 6989	it
+T433	CONDITION 6990 7011	shall be disconnected
+T434	VARIABLE 6950 6959	a channel
+T435	CONDITION 6960 6985	is configured in this way
+T436	KEY_C 6947 6949	If
+T437	STATEMENT 6950 6985	a channel is configured in this way
+T438	STATEMENT 6987 7011	it shall be disconnected
+T439	CAUSE 6947 6985	If a channel is configured in this way
+T440	CAUSE_EFFECT_RELATION 6947 7011	If a channel is configured in this way, it shall be disconnected
+T441	ROOT_SENTENCE 6947 7012	If a channel is configured in this way, it shall be disconnected.
+T442	VARIABLE 6880 6894	Access Latency
+T443	VARIABLE 6899 6912	Flush Timeout
+T444	CONDITION 6913 6944	shall both be set to 0xFFFFFFFF
+T445	AND 6880 6912	Access Latency and Flush Timeout
+T446	STATEMENT 6880 6944	Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T447	KEY_C 6875 6879	then
+T448	KEY_C 6845 6847	If
+T449	VARIABLE 6848 6861	'Best effort'
+T450	CONDITION 6862 6873	is selected
+T451	CAUSE 6845 6873	If 'Best effort' is selected
+T452	EFFECT 6875 6944	then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T453	STATEMENT 6848 6873	'Best effort' is selected
+T454	CAUSE_EFFECT_RELATION 6845 6944	If 'Best effort' is selected, then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF
+T455	ROOT_SENTENCE 6845 6945	If 'Best effort' is selected, then Access Latency and Flush Timeout shall both be set to 0xFFFFFFFF.
+T456	VARIABLE 7809 7826	the initial timer
+T457	CONDITION 7827 7834	expires
+T458	VARIABLE 7836 7855	a duplicate Request
+T459	CONDITION 7856 7867	may be sent
+T460	VARIABLE 7871 7882	the channel
+T461	CONDITION 7883 7902	may be disconnected
+T462	STATEMENT 7871 7902	the channel may be disconnected
+T463	STATEMENT 7836 7867	a duplicate Request may be sent
+T464	KEY_C 7806 7808	If
+T465	STATEMENT 7809 7834	the initial timer expires
+T466	OR 7836 7902	a duplicate Request may be sent or the channel may be disconnected
+T467	CAUSE 7806 7834	If the initial timer expires
+T468	CAUSE_EFFECT_RELATION 7806 7902	If the initial timer expires, a duplicate Request may be sent or the channel may be disconnected
+T469	ROOT_SENTENCE 7806 7903	If the initial timer expires, a duplicate Request may be sent or the channel may be disconnected.
+T470	VARIABLE 6086 6097	This option
+T471	CONDITION 6098 6116	shall only be sent
+T472	KEY_C 6117 6119	if
+T473	VARIABLE 6120 6141	the peer L2CAP entity
+T474	CONDITION 6142 6230	has indicated support for the Extended Window size feature in the Extended Features Mask
+T475	NONE_CAUSAL 6231 6249	(see Section 4.12)
+T476	STATEMENT 6086 6116	This option shall only be sent
+T477	STATEMENT 6120 6230	the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask
+T478	CAUSE 6117 6230	if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask
+T479	CAUSE_EFFECT_RELATION 6086 6230	This option shall only be sent if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask
+T480	ROOT_SENTENCE 6086 6250	This option shall only be sent if the peer L2CAP entity has indicated support for the Extended Window size feature in the Extended Features Mask (see Section 4.12).
+T481	VARIABLE 5155 5172	the monitor timer
+T482	CONDITION 5173 5190	is already active
+T483	VARIABLE 5196 5206	an S-frame
+T484	CONDITION 5207 5214	is sent
+T485	KEY_C 5191 5195	when
+T486	KEY_C 5152 5154	If
+T487	CAUSE 5191 5214	when an S-frame is sent
+T488	CAUSE 5152 5190	If the monitor timer is already active
+T489	STATEMENT 5155 5190	the monitor timer is already active
+T490	STATEMENT 5196 5214	an S-frame is sent
+T491	VARIABLE 5216 5225	the timer
+T492	CONDITION 5226 5244	shall be restarted
+T493	STATEMENT 5216 5244	the timer shall be restarted
+T494	AND 5152 5214	If the monitor timer is already active when an S-frame is sent
+T495	CAUSE_EFFECT_RELATION 5152 5244	If the monitor timer is already active when an S-frame is sent, the timer shall be restarted
+T496	ROOT_SENTENCE 5152 5245	If the monitor timer is already active when an S-frame is sent, the timer shall be restarted.
+T497	VARIABLE 4822 4824	it
+T498	CONDITION 4825 4885	shall send the connection parameter update to its Controller
+T499	KEY_C 4779 4781	If
+T500	VARIABLE 4782 4800	the LE master Host
+T501	CONDITION 4801 4820	accepts the request
+T502	STATEMENT 4782 4820	the LE master Host accepts the request
+T503	CAUSE 4779 4820	If the LE master Host accepts the request
+T504	STATEMENT 4822 4885	it shall send the connection parameter update to its Controller
+T505	CAUSE_EFFECT_RELATION 4779 4885	If the LE master Host accepts the request, it shall send the connection parameter update to its Controller
+T506	ROOT_SENTENCE 4779 4886	If the LE master Host accepts the request, it shall send the connection parameter update to its Controller.
+T507	NONE_CAUSAL 2518 2611	The data field shall contain the value associated with the InfoType field sent in the Request
+T508	OR 2518 2663	The data field shall contain the value associated with the InfoType field sent in the Request, or shall be empty if the InfoType is not supported
+T509	ROOT_SENTENCE 2518 2664	The data field shall contain the value associated with the InfoType field sent in the Request, or shall be empty if the InfoType is not supported.
+T510	VARIABLE 3374 3391	the remote device
+T511	CONDITION 3392 3434	returns a negative response to this option
+T512	VARIABLE 3439 3455	the local device
+T513	CONDITION 3463 3487	honor the proposed value
+T514	NEGATION 3456 3487	cannot honor the proposed value
+T515	KEY_C 3371 3373	If
+T516	KEY_C 3489 3493	then
+T517	VARIABLE 3494 3496	it
+T518	CONDITION 3497 3593	shall either continue the configuration process by sending a new request with the original value
+T519	CONDITION 3598 3620	disconnect the channel
+T520	OR 3497 3620	shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T521	STATEMENT 3494 3620	it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T522	EFFECT 3489 3620	then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T523	STATEMENT 3439 3487	the local device cannot honor the proposed value
+T524	STATEMENT 3374 3434	the remote device returns a negative response to this option
+T525	AND 3374 3487	the remote device returns a negative response to this option and the local device cannot honor the proposed value
+T526	CAUSE 3371 3487	If the remote device returns a negative response to this option and the local device cannot honor the proposed value
+T527	CAUSE_EFFECT_RELATION 3371 3620	If the remote device returns a negative response to this option and the local device cannot honor the proposed value, then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T528	ROOT_SENTENCE 3371 3621	If the remote device returns a negative response to this option and the local device cannot honor the proposed value, then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel.
+T529	NONE_CAUSAL 3623 3650	This is an asymmetric value
+T530	VARIABLE 3623 3627	This
+T531	CONDITION 3628 3650	is an asymmetric value
+T532	VARIABLE 3655 3680	the sender of the Request
+T533	CONDITION 3681 3718	shall specify its flush timeout value
+T534	KEY_C 3719 3721	if
+T535	VARIABLE 3722 3724	it
+T536	CONDITION 3725 3765	differs from the default value of 0xFFFF
+T537	STATEMENT 3655 3718	the sender of the Request shall specify its flush timeout value
+T538	STATEMENT 3722 3765	it differs from the default value of 0xFFFF
+T539	CAUSE 3719 3765	if it differs from the default value of 0xFFFF
+T540	CAUSE_EFFECT_RELATION 3655 3765	the sender of the Request shall specify its flush timeout value if it differs from the default value of 0xFFFF
+T541	AND 3623 3765	This is an asymmetric value and the sender of the Request shall specify its flush timeout value if it differs from the default value of 0xFFFF
+T542	ROOT_SENTENCE 3623 3766	This is an asymmetric value and the sender of the Request shall specify its flush timeout value if it differs from the default value of 0xFFFF.
+T543	KEY_C 13495 13497	If
+T544	VARIABLE 13498 13540	the ability to not detect missing I-frames
+T545	CONDITION 13541 13579	will cause problems for an application
+T546	VARIABLE 13581 13583	it
+T547	CONDITION 13584 13598	is recommended
+T548	VARIABLE 13604 13635	the Extended Window Size option
+T549	CONDITION 13636 13643	be used
+T550	STATEMENT 13604 13643	the Extended Window Size option be used
+T551	KEY_C 13599 13603	that
+T552	EFFECT 13599 13643	that the Extended Window Size option be used
+T553	STATEMENT 13581 13598	it is recommended
+T554	AND 13581 13643	it is recommended that the Extended Window Size option be used
+T555	STATEMENT 13498 13579	the ability to not detect missing I-frames will cause problems for an application
+T556	CAUSE 13495 13579	If the ability to not detect missing I-frames will cause problems for an application
+T557	CAUSE_EFFECT_RELATION 13495 13643	If the ability to not detect missing I-frames will cause problems for an application, it is recommended that the Extended Window Size option be used
+T558	ROOT_SENTENCE 13495 13644	If the ability to not detect missing I-frames will cause problems for an application, it is recommended that the Extended Window Size option be used.
+T559	KEY_C 13143 13145	If
+T560	VARIABLE 13146 13165	more than one frame
+T561	CONDITION 13166 13195	is sent in the acknowledgment
+T562	VARIABLE 13196 13216	only the first frame
+T563	CONDITION 13217 13245	shall have an F-bit set to 1
+T564	STATEMENT 13196 13245	only the first frame shall have an F-bit set to 1
+T565	STATEMENT 13146 13195	more than one frame is sent in the acknowledgment
+T566	CAUSE 13143 13195	If more than one frame is sent in the acknowledgment
+T567	CAUSE_EFFECT_RELATION 13143 13245	If more than one frame is sent in the acknowledgment only the first frame shall have an F-bit set to 1
+T568	ROOT_SENTENCE 13143 13246	If more than one frame is sent in the acknowledgment only the first frame shall have an F-bit set to 1.
+T569	KEY_C 13012 13014	If
+T570	VARIABLE 13015 13034	the value specified
+T571	CONDITION 13035 13039	is P
+T572	KEY_C 13040 13044	then
+T573	VARIABLE 13045 13054	the F-bit
+T574	CONDITION 13055 13140	shall be set equal to the value of the P-bit of the received frame being acknowledged
+T575	STATEMENT 13045 13140	the F-bit shall be set equal to the value of the P-bit of the received frame being acknowledged
+T576	EFFECT 13040 13140	then the F-bit shall be set equal to the value of the P-bit of the received frame being acknowledged
+T577	STATEMENT 13015 13039	the value specified is P
+T578	CAUSE 13012 13039	If the value specified is P
+T579	CAUSE_EFFECT_RELATION 13012 13140	If the value specified is P then the F-bit shall be set equal to the value of the P-bit of the received frame being acknowledged
+T580	ROOT_SENTENCE 13012 13141	If the value specified is P then the F-bit shall be set equal to the value of the P-bit of the received frame being acknowledged.
+T581	KEY_C 12945 12947	If
+T582	VARIABLE 12948 12971	the value for the F-bit
+T583	CONDITION 12979 12988	specified
+T584	NEGATION 12972 12988	is not specified
+T585	STATEMENT 12948 12988	the value for the F-bit is not specified
+T586	CAUSE 12945 12988	If the value for the F-bit is not specified
+T587	VARIABLE 12989 12991	it
+T588	CONDITION 12992 13009	shall be set to 0
+T589	STATEMENT 12989 13009	it shall be set to 0
+T590	CAUSE_EFFECT_RELATION 12945 13009	If the value for the F-bit is not specified it shall be set to 0
+T591	ROOT_SENTENCE 12945 13010	If the value for the F-bit is not specified it shall be set to 0.
+T592	KEY_C 12859 12861	If
+T593	VARIABLE 12862 12869	a frame
+T594	CONDITION 12870 12891	has already been sent
+T595	KEY_C 12892 12896	then
+T596	VARIABLE 12897 12899	it
+T597	CONDITION 12907 12942	necessary to send additional frames
+T598	NEGATION 12900 12942	is not necessary to send additional frames
+T599	STATEMENT 12897 12942	it is not necessary to send additional frames
+T600	EFFECT 12892 12942	then it is not necessary to send additional frames
+T601	STATEMENT 12862 12891	a frame has already been sent
+T602	CAUSE 12859 12891	If a frame has already been sent
+T603	CAUSE_EFFECT_RELATION 12859 12942	If a frame has already been sent then it is not necessary to send additional frames
+T604	ROOT_SENTENCE 12859 12943	If a frame has already been sent then it is not necessary to send additional frames.
+T605	VARIABLE 12779 12781	It
+T606	CONDITION 12782 12794	returns TRUE
+T607	KEY_C 12795 12797	if
+T608	VARIABLE 12798 12820	either of its operands
+T609	CONDITION 12821 12829	are TRUE
+T610	KEY_C 12680 12682	If
+T611	VARIABLE 12683 12716	the P-bit of the received S-frame
+T612	CONDITION 12717 12721	is 1
+T613	KEY_C 12722 12726	then
+T614	VARIABLE 12727 12765	the F-bit of the retransmitted I-frame
+T615	CONDITION 12766 12776	shall be 1
+T616	STATEMENT 12727 12776	the F-bit of the retransmitted I-frame shall be 1
+T617	EFFECT 12722 12776	then the F-bit of the retransmitted I-frame shall be 1
+T618	STATEMENT 12683 12721	the P-bit of the received S-frame is 1
+T619	CAUSE 12680 12721	If the P-bit of the received S-frame is 1
+T620	CAUSE_EFFECT_RELATION 12680 12776	If the P-bit of the received S-frame is 1 then the F-bit of the retransmitted I-frame shall be 1
+T621	ROOT_SENTENCE 12680 12777	If the P-bit of the received S-frame is 1 then the F-bit of the retransmitted I-frame shall be 1.
+T622	KEY_C 12606 12608	If
+T623	VARIABLE 12609 12630	a value for the P-bit
+T624	VARIABLE 12634 12639	F-bit
+T625	OR 12609 12639	a value for the P-bit or F-bit
+T626	NEGATION 12640 12656	is not specified
+T627	CONDITION 12647 12656	specified
+T628	VARIABLE 12657 12666	the value
+T629	CONDITION 12667 12677	shall be 0
+T630	STATEMENT 12657 12677	the value shall be 0
+T631	CAUSE 12606 12656	If a value for the P-bit or F-bit is not specified
+T632	CAUSE_EFFECT_RELATION 12606 12677	If a value for the P-bit or F-bit is not specified the value shall be 0
+T633	ROOT_SENTENCE 12606 12678	If a value for the P-bit or F-bit is not specified the value shall be 0.
+T634	KEY_C 12521 12523	If
+T635	VARIABLE 12524 12542	the busy condition
+T636	CONDITION 12543 12549	clears
+T637	KEY_C 12550 12554	then
+T638	VARIABLE 12555 12561	frames
+T639	CONDITION 12562 12592	can be acknowledged with an RR
+T640	CONDITION 12596 12603	I-frame
+T641	OR 12562 12603	can be acknowledged with an RR or I-frame
+T642	STATEMENT 12555 12603	frames can be acknowledged with an RR or I-frame
+T643	EFFECT 12550 12603	then frames can be acknowledged with an RR or I-frame
+T644	STATEMENT 12524 12549	the busy condition clears
+T645	CAUSE 12521 12549	If the busy condition clears
+T646	CAUSE_EFFECT_RELATION 12521 12603	If the busy condition clears then frames can be acknowledged with an RR or I-frame
+T647	ROOT_SENTENCE 12521 12604	If the busy condition clears then frames can be acknowledged with an RR or I-frame.
+T648	VARIABLE 12401 12411	This value
+T649	CONDITION 12412 12442	shall be set to 16384 (0x4000)
+T650	KEY_C 12290 12292	If
+T651	VARIABLE 12293 12298	L2CAP
+T652	CONDITION 12299 12317	runs above the HCI
+T653	CAUSE 12830 12839	otherwise
+T654	VARIABLE 12840 12842	it
+T655	CONDITION 12843 12856	returns FALSE
+T656	STATEMENT 12840 12856	it returns FALSE
+T657	CAUSE_EFFECT_RELATION 12830 12856	otherwise it returns FALSE
+T658	CAUSE 12795 12829	if either of its operands are TRUE
+T659	STATEMENT 12798 12829	either of its operands are TRUE
+T660	STATEMENT 12779 12794	It returns TRUE
+T662	CAUSE_EFFECT_RELATION 12779 12856	It returns TRUE if either of its operands are TRUE otherwise it returns FALSE
+T663	ROOT_SENTENCE 12779 12857	It returns TRUE if either of its operands are TRUE otherwise it returns FALSE.
+T664	OR 12795 12856	if either of its operands are TRUE otherwise it returns FALSE
+T661	CAUSE 12487 12496	otherwise
+T665	VARIABLE 12497 12499	it
+T666	CONDITION 12500 12518	shall be set to 64
+T667	STATEMENT 12497 12518	it shall be set to 64
+T668	CAUSE_EFFECT_RELATION 12487 12518	otherwise it shall be set to 64
+T669	KEY_C 12443 12445	if
+T670	VARIABLE 12446 12477	the Extended Window Size option
+T671	CONDITION 12478 12485	is used
+T672	STATEMENT 12446 12485	the Extended Window Size option is used
+T673	CAUSE 12443 12485	if the Extended Window Size option is used
+T674	OR 12443 12518	if the Extended Window Size option is used; otherwise it shall be set to 64
+T675	STATEMENT 12401 12442	This value shall be set to 16384 (0x4000)
+T676	CAUSE_EFFECT_RELATION 12401 12518	This value shall be set to 16384 (0x4000) if the Extended Window Size option is used; otherwise it shall be set to 64
+T677	ROOT_SENTENCE 12401 12519	This value shall be set to 16384 (0x4000) if the Extended Window Size option is used; otherwise it shall be set to 64.
+T678	KEY_C 12319 12323	then
+T679	VARIABLE 12324 12341	an implementation
+T680	CONDITION 12342 12398	may send HCI transport sized fragments to the Controller
+T681	STATEMENT 12324 12398	an implementation may send HCI transport sized fragments to the Controller
+T682	EFFECT 12319 12398	then an implementation may send HCI transport sized fragments to the Controller
+T683	STATEMENT 12293 12317	L2CAP runs above the HCI
+T684	CAUSE 12290 12317	If L2CAP runs above the HCI
+T685	CAUSE_EFFECT_RELATION 12290 12398	If L2CAP runs above the HCI, then an implementation may send HCI transport sized fragments to the Controller
+T686	ROOT_SENTENCE 12290 12399	If L2CAP runs above the HCI, then an implementation may send HCI transport sized fragments to the Controller.
+T687	KEY_C 12109 12111	If
+T688	VARIABLE 12112 12152	the Result of the Configuration Response
+T689	CONDITION 12153 12202	is Failure (0x0005) for service type “Guaranteed”
+T690	KEY_C 12203 12207	then
+T691	VARIABLE 12208 12245	an Extended Flow Specification option
+T692	CONDITION 12246 12287	may be sent in the Configuration Response
+T693	STATEMENT 12208 12287	an Extended Flow Specification option may be sent in the Configuration Response
+T694	EFFECT 12203 12287	then an Extended Flow Specification option may be sent in the Configuration Response
+T695	STATEMENT 12112 12202	the Result of the Configuration Response is Failure (0x0005) for service type “Guaranteed”
+T696	CAUSE 12109 12202	If the Result of the Configuration Response is Failure (0x0005) for service type “Guaranteed”
+T697	CAUSE_EFFECT_RELATION 12109 12287	If the Result of the Configuration Response is Failure (0x0005) for service type “Guaranteed” then an Extended Flow Specification option may be sent in the Configuration Response
+T698	ROOT_SENTENCE 12109 12288	If the Result of the Configuration Response is Failure (0x0005) for service type “Guaranteed” then an Extended Flow Specification option may be sent in the Configuration Response.
+T699	KEY_C 11994 11996	If
+T700	VARIABLE 11997 12000	HCI
+T701	CONDITION 12001 12008	is used
+T702	KEY_C 12010 12014	then
+T703	VARIABLE 12015 12031	the L2CAP entity
+T704	CONDITION 12032 12106	should check that the requested QoS can be achieved over the HCI transport
+T705	STATEMENT 12015 12106	the L2CAP entity should check that the requested QoS can be achieved over the HCI transport
+T706	EFFECT 12010 12106	then the L2CAP entity should check that the requested QoS can be achieved over the HCI transport
+T707	STATEMENT 11997 12008	HCI is used
+T708	CAUSE 11994 12008	If HCI is used
+T709	CAUSE_EFFECT_RELATION 11994 12106	If HCI is used, then the L2CAP entity should check that the requested QoS can be achieved over the HCI transport
+T710	ROOT_SENTENCE 11994 12107	If HCI is used, then the L2CAP entity should check that the requested QoS can be achieved over the HCI transport.
+T711	KEY_C 11825 11827	If
+T712	VARIABLE 11828 11851	a Configuration Request
+T713	CONDITION 11852 11909	is sent containing the Extended Flow Specification option
+T714	KEY_C 11910 11914	then
+T715	VARIABLE 11915 11944	the Quality of Service option
+T716	VARIABLE 11949 11969	Flush Timeout option
+T717	CONDITION 11980 11991	be included
+T718	NEGATION 11970 11991	shall not be included
+T719	AND 11915 11969	the Quality of Service option and Flush Timeout option
+T720	STATEMENT 11915 11991	the Quality of Service option and Flush Timeout option shall not be included
+T721	EFFECT 11910 11991	then the Quality of Service option and Flush Timeout option shall not be included
+T722	STATEMENT 11828 11909	a Configuration Request is sent containing the Extended Flow Specification option
+T723	CAUSE 11825 11909	If a Configuration Request is sent containing the Extended Flow Specification option
+T724	CAUSE_EFFECT_RELATION 11825 11991	If a Configuration Request is sent containing the Extended Flow Specification option then the Quality of Service option and Flush Timeout option shall not be included
+T725	ROOT_SENTENCE 11825 11992	If a Configuration Request is sent containing the Extended Flow Specification option then the Quality of Service option and Flush Timeout option shall not be included.
+T726	KEY_C 11725 11727	If
+T727	VARIABLE 11728 11757	the Transmitter state machine
+T728	CONDITION 11758 11780	is in the WAIT_F state
+T729	KEY_C 11782 11786	then
+T730	VARIABLE 11787 11808	a frame sent with P=1
+T731	CONDITION 11809 11822	is unanswered
+T732	STATEMENT 11787 11822	a frame sent with P=1 is unanswered
+T733	EFFECT 11782 11822	then a frame sent with P=1 is unanswered
+T734	STATEMENT 11728 11780	the Transmitter state machine is in the WAIT_F state
+T735	CAUSE 11725 11780	If the Transmitter state machine is in the WAIT_F state
+T736	CAUSE_EFFECT_RELATION 11725 11822	If the Transmitter state machine is in the WAIT_F state, then a frame sent with P=1 is unanswered
+T737	ROOT_SENTENCE 11725 11823	If the Transmitter state machine is in the WAIT_F state, then a frame sent with P=1 is unanswered.
+T738	KEY_C 11630 11632	If
+T739	VARIABLE 11633 11643	expression
+T740	CONDITION 11644 11651	is TRUE
+T741	KEY_C 11652 11656	then
+T742	VARIABLE 11657 11670	the statement
+T743	CONDITION 11671 11682	is executed
+T744	CAUSE 11683 11692	otherwise
+T745	VARIABLE 11693 11706	the statement
+T746	CONDITION 11714 11722	executed
+T747	NEGATION 11707 11722	is not executed
+T748	STATEMENT 11693 11722	the statement is not executed
+T749	CAUSE_EFFECT_RELATION 11683 11722	otherwise the statement is not executed
+T750	STATEMENT 11657 11682	the statement is executed
+T751	EFFECT 11652 11682	then the statement is executed
+T752	STATEMENT 11633 11651	expression is TRUE
+T753	CAUSE 11630 11651	If expression is TRUE
+T754	OR 11652 11722	then the statement is executed otherwise the statement is not executed
+T755	CAUSE_EFFECT_RELATION 11630 11722	If expression is TRUE then the statement is executed otherwise the statement is not executed
+T756	ROOT_SENTENCE 11630 11723	If expression is TRUE then the statement is executed otherwise the statement is not executed.
+T757	KEY_C 7905 7907	If
+T758	VARIABLE 7908 7927	a duplicate Request
+T759	CONDITION 7928 7935	is sent
+T760	VARIABLE 7937 7962	the particular ERTX timer
+T761	CONDITION 7963 7973	disappears
+T762	CONDITION 7975 8002	replaced by a new RTX timer
+T763	VARIABLE 8007 8033	the whole timing procedure
+T764	CONDITION 8034 8084	restarts as described previously for the RTX timer
+T765	STATEMENT 8007 8084	the whole timing procedure restarts as described previously for the RTX timer
+T766	AND 7963 8002	disappears, replaced by a new RTX timer
+T767	STATEMENT 7937 8002	the particular ERTX timer disappears, replaced by a new RTX timer
+T768	AND 7937 8084	the particular ERTX timer disappears, replaced by a new RTX timer and the whole timing procedure restarts as described previously for the RTX timer
+T769	STATEMENT 7908 7935	a duplicate Request is sent
+T770	CAUSE 7905 7935	If a duplicate Request is sent
+T771	CAUSE_EFFECT_RELATION 7905 8084	If a duplicate Request is sent, the particular ERTX timer disappears, replaced by a new RTX timer and the whole timing procedure restarts as described previously for the RTX timer
+T772	ROOT_SENTENCE 7905 8085	If a duplicate Request is sent, the particular ERTX timer disappears, replaced by a new RTX timer and the whole timing procedure restarts as described previously for the RTX timer.
+T773	KEY_C 8087 8089	If
+T774	VARIABLE 8090 8093	one
+T775	VARIABLE 8097 8116	both L2CAP entities
+T776	CONDITION 8124 8170	send the FCS option in a configuration request
+T777	KEY_C 8171 8175	then
+T778	VARIABLE 8176 8187	the default
+T779	CONDITION 8188 8201	shall be used
+T780	STATEMENT 8176 8201	the default shall be used
+T781	EFFECT 8171 8201	then the default shall be used
+T782	OR 8090 8116	one or both L2CAP entities
+T783	NEGATION 8117 8170	do not send the FCS option in a configuration request
+T784	STATEMENT 8090 8170	one or both L2CAP entities do not send the FCS option in a configuration request
+T785	CAUSE 8087 8170	If one or both L2CAP entities do not send the FCS option in a configuration request
+T786	CAUSE_EFFECT_RELATION 8087 8201	If one or both L2CAP entities do not send the FCS option in a configuration request then the default shall be used
+T787	ROOT_SENTENCE 8087 8202	If one or both L2CAP entities do not send the FCS option in a configuration request then the default shall be used.
+T788	KEY_C 8427 8429	If
+T789	VARIABLE 8430 8449	channel reliability
+T790	CONDITION 8457 8463	needed
+T791	NEGATION 8450 8463	is not needed
+T792	STATEMENT 8430 8463	channel reliability is not needed
+T793	CAUSE 8427 8463	If channel reliability is not needed
+T794	VARIABLE 8465 8493	packets with invalid lengths
+T795	CONDITION 8494 8519	may be silently discarded
+T796	STATEMENT 8465 8519	packets with invalid lengths may be silently discarded
+T797	CAUSE_EFFECT_RELATION 8427 8519	If channel reliability is not needed, packets with invalid lengths may be silently discarded
+T798	ROOT_SENTENCE 8427 8520	If channel reliability is not needed, packets with invalid lengths may be silently discarded.
+T799	KEY_C 8522 8524	If
+T800	VARIABLE 8525 8557	delivery of erroneous L2CAP SDUs
+T801	CONDITION 8558 8568	is enabled
+T802	STATEMENT 8525 8568	delivery of erroneous L2CAP SDUs is enabled
+T803	CAUSE 8522 8568	If delivery of erroneous L2CAP SDUs is enabled
+T804	VARIABLE 8570 8588	the receiving side
+T805	KEY_C 9023 9025	If
+T806	VARIABLE 9026 9050	Automatic Flush Time-out
+T807	CONDITION 9051 9058	is used
+T808	KEY_C 9060 9064	then
+T809	VARIABLE 9065 9067	it
+T810	CONDITION 9068 9096	should be taken into account
+T811	VARIABLE 9102 9104	it
+T812	CONDITION 9105 9131	only flushes one L2CAP PDU
+T813	STATEMENT 9102 9131	it only flushes one L2CAP PDU
+T814	STATEMENT 9065 9096	it should be taken into account
+T815	KEY_C 9097 9101	that
+T816	EFFECT 9097 9131	that it only flushes one L2CAP PDU
+T817	EFFECT 9060 9096	then it should be taken into account
+T818	AND 9060 9131	then it should be taken into account that it only flushes one L2CAP PDU
+T819	STATEMENT 9026 9058	Automatic Flush Time-out is used
+T820	CAUSE 9023 9058	If Automatic Flush Time-out is used
+T821	CAUSE_EFFECT_RELATION 9023 9131	If Automatic Flush Time-out is used, then it should be taken into account that it only flushes one L2CAP PDU
+T822	ROOT_SENTENCE 9023 9132	If Automatic Flush Time-out is used, then it should be taken into account that it only flushes one L2CAP PDU.
+T823	VARIABLE 9134 9148	An application
+T824	CONDITION 9149 9166	shall be notified
+T825	KEY_C 9167 9169	if
+T826	VARIABLE 9170 9172	it
+T827	CONDITION 9173 9189	is de-registered
+T828	STATEMENT 9170 9189	it is de-registered
+T829	CAUSE 9167 9189	if it is de-registered
+T830	STATEMENT 9134 9166	An application shall be notified
+T831	CAUSE_EFFECT_RELATION 9134 9189	An application shall be notified if it is de-registered
+T832	ROOT_SENTENCE 9134 9190	An application shall be notified if it is de-registered.
+T834	KEY_C 9494 9496	If
+T835	VARIABLE 9497 9499	it
+T836	CONDITION 9500 9608	is desirable to restrict the reception of the transmitted data to only a subset of the slaves in the piconet
+T837	KEY_C 9610 9614	then
+T838	VARIABLE 9615 9638	higher level encryption
+T839	CONDITION 9639 9683	may be used to support private communication
+T840	STATEMENT 9615 9683	higher level encryption may be used to support private communication
+T841	EFFECT 9610 9683	then higher level encryption may be used to support private communication
+T842	STATEMENT 9497 9608	it is desirable to restrict the reception of the transmitted data to only a subset of the slaves in the piconet
+T843	CAUSE 9494 9608	If it is desirable to restrict the reception of the transmitted data to only a subset of the slaves in the piconet
+T844	CAUSE_EFFECT_RELATION 9494 9683	If it is desirable to restrict the reception of the transmitted data to only a subset of the slaves in the piconet, then higher level encryption may be used to support private communication
+T845	ROOT_SENTENCE 9494 9684	If it is desirable to restrict the reception of the transmitted data to only a subset of the slaves in the piconet, then higher level encryption may be used to support private communication.
+T846	KEY_C 9686 9688	If
+T847	VARIABLE 9689 9702	the data rate
+T848	CONDITION 9710 9755	be achieved by using the “preferred” PDU size
+T849	KEY_C 9756 9760	then
+T850	VARIABLE 9761 9806	an integer multiple of the preferred PDU size
+T851	CONDITION 9807 9821	should be used
+T852	STATEMENT 9761 9821	an integer multiple of the preferred PDU size should be used
+T853	EFFECT 9756 9821	then an integer multiple of the preferred PDU size should be used
+T854	NEGATION 9703 9755	cannot be achieved by using the “preferred” PDU size
+T855	STATEMENT 9689 9755	the data rate cannot be achieved by using the “preferred” PDU size
+T856	CAUSE 9686 9755	If the data rate cannot be achieved by using the “preferred” PDU size
+T857	CAUSE_EFFECT_RELATION 9686 9821	If the data rate cannot be achieved by using the “preferred” PDU size then an integer multiple of the preferred PDU size should be used
+T858	ROOT_SENTENCE 9686 9822	If the data rate cannot be achieved by using the “preferred” PDU size then an integer multiple of the preferred PDU size should be used.
+T871	VARIABLE 9933 9945	A SREJ frame
+T872	CONDITION 9956 9970	be transmitted
+T873	NEGATION 9946 9970	shall not be transmitted
+T874	STATEMENT 9933 9970	A SREJ frame shall not be transmitted
+T875	KEY_C 9971 9973	if
+T876	VARIABLE 9974 10008	an earlier REJ exception condition
+T877	CONDITION 10017 10029	been cleared
+T878	NEGATION 10009 10029	has not been cleared
+T879	STATEMENT 9974 10029	an earlier REJ exception condition has not been cleared
+T880	CAUSE 9971 10029	if an earlier REJ exception condition has not been cleared
+T881	CAUSE_EFFECT_RELATION 9933 10029	A SREJ frame shall not be transmitted if an earlier REJ exception condition has not been cleared
+T882	ROOT_SENTENCE 9933 10030	A SREJ frame shall not be transmitted if an earlier REJ exception condition has not been cleared.
+T883	NONE_CAUSAL 10032 10040	Likewise
+T884	VARIABLE 10041 10052	a REJ frame
+T885	CONDITION 10063 10077	be transmitted
+T886	NEGATION 10053 10077	shall not be transmitted
+T887	STATEMENT 10041 10077	a REJ frame shall not be transmitted
+T888	KEY_C 10078 10080	if
+T889	VARIABLE 10081 10084	one
+T890	VARIABLE 10088 10118	more SREJ exception conditions
+T891	CONDITION 10128 10140	been cleared
+T892	NEGATION 10119 10140	have not been cleared
+T893	OR 10081 10118	one or more SREJ exception conditions
+T894	STATEMENT 10081 10140	one or more SREJ exception conditions have not been cleared
+T895	CAUSE 10078 10140	if one or more SREJ exception conditions have not been cleared
+T896	CAUSE_EFFECT_RELATION 10041 10140	a REJ frame shall not be transmitted if one or more SREJ exception conditions have not been cleared
+T897	ROOT_SENTENCE 10032 10141	Likewise a REJ frame shall not be transmitted if one or more SREJ exception conditions have not been cleared.
+T898	VARIABLE 10406 10427	The Stop Timer action
+T899	CONDITION 10428 10441	stops a timer
+T900	KEY_C 10442 10444	if
+T901	VARIABLE 10445 10447	it
+T902	CONDITION 10448 10458	is running
+T903	STATEMENT 10445 10458	it is running
+T904	CAUSE 10442 10458	if it is running
+T905	STATEMENT 10406 10441	The Stop Timer action stops a timer
+T906	CAUSE_EFFECT_RELATION 10406 10458	The Stop Timer action stops a timer if it is running
+T907	ROOT_SENTENCE 10406 10459	The Stop Timer action stops a timer if it is running.
+T908	KEY_C 10461 10463	If
+T909	VARIABLE 10464 10492	additional missing I- frames
+T910	CONDITION 10493 10505	are detected
+T911	CONDITION 10506 10524	while in SREJ_SENT
+T912	AND 10493 10524	are detected while in SREJ_SENT
+T913	STATEMENT 10464 10524	additional missing I- frames are detected while in SREJ_SENT
+T914	CAUSE 10461 10524	If additional missing I- frames are detected while in SREJ_SENT
+T915	KEY_C 10525 10529	then
+T916	VARIABLE 10530 10552	additional SREJ frames
+T917	VARIABLE 10558 10567	REJ frame
+T918	CONDITION 10568 10605	can be sent to request those I-frames
+T919	OR 10530 10567	additional SREJ frames or a REJ frame
+T920	STATEMENT 10530 10605	additional SREJ frames or a REJ frame can be sent to request those I-frames
+T921	EFFECT 10525 10605	then additional SREJ frames or a REJ frame can be sent to request those I-frames
+T922	CAUSE_EFFECT_RELATION 10461 10605	If additional missing I- frames are detected while in SREJ_SENT then additional SREJ frames or a REJ frame can be sent to request those I-frames
+T923	ROOT_SENTENCE 10461 10606	If additional missing I- frames are detected while in SREJ_SENT then additional SREJ frames or a REJ frame can be sent to request those I-frames.
+T924	VARIABLE 10608 10610	It
+T925	CONDITION 10611 10623	returns TRUE
+T926	KEY_C 10624 10626	if
+T927	VARIABLE 10627 10640	both operands
+T928	CONDITION 10641 10649	are TRUE
+T929	CAUSE 10650 10659	otherwise
+T930	VARIABLE 10660 10662	it
+T931	CONDITION 10663 10676	returns FALSE
+T932	STATEMENT 10660 10676	it returns FALSE
+T933	CAUSE_EFFECT_RELATION 10650 10676	otherwise it returns FALSE
+T934	STATEMENT 10627 10649	both operands are TRUE
+T935	CAUSE 10624 10649	if both operands are TRUE
+T936	STATEMENT 10608 10623	It returns TRUE
+T937	AND 10624 10676	if both operands are TRUE otherwise it returns FALSE
+T938	CAUSE_EFFECT_RELATION 10608 10676	It returns TRUE if both operands are TRUE otherwise it returns FALSE
+T939	ROOT_SENTENCE 10608 10677	It returns TRUE if both operands are TRUE otherwise it returns FALSE.
+T940	NEGATION 2647 2663	is not supported
+T277	CONDITION 8589 8703	will pass information to the upper layer on which parts of the L2CAP SDU (i.e., which L2CAP frames) have been lost
+T278	CONDITION 8705 8727	failed the error check
+T279	CONDITION 8732 8754	passed the error check
+T280	OR 8705 8754	failed the error check, or passed the error check
+T941	OR 8589 8754	will pass information to the upper layer on which parts of the L2CAP SDU (i.e., which L2CAP frames) have been lost, failed the error check, or passed the error check
+T942	STATEMENT 8570 8754	the receiving side will pass information to the upper layer on which parts of the L2CAP SDU (i.e., which L2CAP frames) have been lost, failed the error check, or passed the error check
+T943	CAUSE_EFFECT_RELATION 8522 8754	If delivery of erroneous L2CAP SDUs is enabled, the receiving side will pass information to the upper layer on which parts of the L2CAP SDU (i.e., which L2CAP frames) have been lost, failed the error check, or passed the error check
+T944	ROOT_SENTENCE 8522 8755	If delivery of erroneous L2CAP SDUs is enabled, the receiving side will pass information to the upper layer on which parts of the L2CAP SDU (i.e., which L2CAP frames) have been lost, failed the error check, or passed the error check.

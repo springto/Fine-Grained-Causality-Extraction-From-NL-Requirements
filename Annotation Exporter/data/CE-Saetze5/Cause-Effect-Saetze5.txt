@@ -1,0 +1,569 @@
+T1	CONDITION 117 165	joining a network using the rejoin command frame
+T2	VARIABLE 13 20	devices
+T3	CONDITION 21 81	may self-assign random addresses under stochastic addressing
+T4	CONDITION 86 97	retain them
+T5	NONE_CAUSAL 0 11	Furthermore
+T6	KEY_C 99 116	as in the case of
+T7	CAUSE 99 165	as in the case of joining a network using the rejoin command frame
+T8	STATEMENT 13 81	devices may self-assign random addresses under stochastic addressing
+T9	AND 13 97	devices may self-assign random addresses under stochastic addressing and retain them
+T10	CAUSE_EFFECT_RELATION 13 165	devices may self-assign random addresses under stochastic addressing and retain them, as in the case of joining a network using the rejoin command frame
+T11	ROOT_SENTENCE 0 166	Furthermore, devices may self-assign random addresses under stochastic addressing and retain them, as in the case of joining a network using the rejoin command frame.
+T12	VARIABLE 168 224	The Status parameter of the NLME-LEAVE.confirm primitive
+T13	CONDITION 225 254	shall have a value of SUCCESS
+T14	KEY_C 255 257	if
+T15	VARIABLE 258 281	the leave command frame
+T16	CONDITION 282 347	was not transmitted, i.e. in the case of an unauthenticated child
+T17	STATEMENT 258 347	the leave command frame was not transmitted, i.e. in the case of an unauthenticated child
+T18	CAUSE 255 347	if the leave command frame was not transmitted, i.e. in the case of an unauthenticated child
+T19	STATEMENT 168 254	The Status parameter of the NLME-LEAVE.confirm primitive shall have a value of SUCCESS
+T20	CAUSE_EFFECT_RELATION 168 347	The Status parameter of the NLME-LEAVE.confirm primitive shall have a value of SUCCESS if the leave command frame was not transmitted, i.e. in the case of an unauthenticated child
+T21	ROOT_SENTENCE 168 348	The Status parameter of the NLME-LEAVE.confirm primitive shall have a value of SUCCESS if the leave command frame was not transmitted, i.e. in the case of an unauthenticated child.
+T22	KEY_C 350 366	In the case that
+T23	VARIABLE 367 377	the device
+T24	CONDITION 378 442	already has a route discovery table entry for the source address
+T25	CONDITION 447 476	route request identifier pair
+T26	STATEMENT 367 442	the device already has a route discovery table entry for the source address
+T27	AND 367 476	the device already has a route discovery table entry for the source address and route request identifier pair
+T28	CAUSE 350 476	In the case that the device already has a route discovery table entry for the source address and route request identifier pair
+T29	VARIABLE 478 488	the device
+T30	CONDITION 489 628	shall determine if the path cost in the route request command frame is less than the forward cost stored in the route discovery table entry
+T31	STATEMENT 478 628	the device shall determine if the path cost in the route request command frame is less than the forward cost stored in the route discovery table entry
+T32	CAUSE_EFFECT_RELATION 350 628	In the case that the device already has a route discovery table entry for the source address and route request identifier pair, the device shall determine if the path cost in the route request command frame is less than the forward cost stored in the route discovery table entry
+T33	ROOT_SENTENCE 350 629	In the case that the device already has a route discovery table entry for the source address and route request identifier pair, the device shall determine if the path cost in the route request command frame is less than the forward cost stored in the route discovery table entry.
+T34	KEY_C 5827 5844	In the case where
+T35	VARIABLE 5845 5852	the IUT
+T36	CONDITION 5860 5886	install the CERT_TEST_ROOT
+T37	NEGATION 5853 5886	cannot install the CERT_TEST_ROOT
+T38	VARIABLE 5891 5896	tests
+T39	CONDITION 5897 5912	can be executed
+T40	NEGATION 5888 5912	no tests can be executed
+T41	STATEMENT 5891 5912	tests can be executed
+T42	STATEMENT 5845 5886	the IUT cannot install the CERT_TEST_ROOT
+T43	CAUSE 5827 5886	In the case where the IUT cannot install the CERT_TEST_ROOT
+T44	CAUSE_EFFECT_RELATION 5827 5912	In the case where the IUT cannot install the CERT_TEST_ROOT, no tests can be executed
+T45	ROOT_SENTENCE 5827 5913	In the case where the IUT cannot install the CERT_TEST_ROOT, no tests can be executed.
+T46	CONDITION 9276 9311	be accessible to the general public
+T47	CONDITION 9316 9331	operated safely
+T48	NEGATION 9265 9311	should not be accessible to the general public
+T49	AND 9265 9331	should not be accessible to the general public and operated safely
+T50	VARIABLE 9256 9264	the VMES
+T51	KEY_C 9219 9233	In the case of
+T52	VARIABLE 9234 9254	stationary operation
+T53	STATEMENT 9256 9331	the VMES should not be accessible to the general public and operated safely
+T54	CAUSE 9219 9254	In the case of stationary operation
+T55	CAUSE_EFFECT_RELATION 9219 9331	In the case of stationary operation, the VMES should not be accessible to the general public and operated safely
+T56	ROOT_SENTENCE 9219 9332	In the case of stationary operation, the VMES should not be accessible to the general public and operated safely.
+T57	VARIABLE 18025 18038	a VoIP caller
+T58	VARIABLE 18040 18047	the URI
+T59	CONDITION 18056 18079	have a telephone number
+T60	NEGATION 18048 18079	may not have a telephone number
+T61	KEY_C 18010 18024	In the case of
+T62	STATEMENT 18040 18079	the URI may not have a telephone number
+T63	CAUSE 18010 18038	In the case of a VoIP caller
+T64	CAUSE_EFFECT_RELATION 18010 18079	In the case of a VoIP caller, the URI may not have a telephone number
+T65	ROOT_SENTENCE 18010 18080	In the case of a VoIP caller, the URI may not have a telephone number.
+T66	VARIABLE 18248 18282	transfer of control to another IOC
+T67	CONDITION 18283 18299	will be possible
+T68	STATEMENT 18248 18299	transfer of control to another IOC will be possible
+T69	NEGATION 18245 18299	no transfer of control to another IOC will be possible
+T70	KEY_C 18301 18307	due to
+T71	VARIABLE 18308 18329	the local connections
+T72	VARIABLE 18334 18371	interfaces to the control electronics
+T73	AND 18308 18371	the local connections and interfaces to the control electronics
+T74	CAUSE 18301 18371	due to the local connections and interfaces to the control electronics
+T75	KEY_C 18217 18231	In the case of
+T76	VARIABLE 18232 18243	IOC failure
+T77	CAUSE_EFFECT_RELATION 18245 18371	no transfer of control to another IOC will be possible, due to the local connections and interfaces to the control electronics
+T78	CAUSE 18217 18243	In the case of IOC failure
+T79	CAUSE_EFFECT_RELATION 18217 18371	In the case of IOC failure, no transfer of control to another IOC will be possible, due to the local connections and interfaces to the control electronics
+T80	ROOT_SENTENCE 18217 18372	In the case of IOC failure, no transfer of control to another IOC will be possible, due to the local connections and interfaces to the control electronics.
+T81	VARIABLE 18099 18113	the legal unit
+T82	CONDITION 18114 18169	is known to be a part of an already existing enterprise
+T83	VARIABLE 18171 18179	the link
+T84	CONDITION 18180 18214	has to be specified at import time
+T85	KEY_C 18082 18098	In the case that
+T86	STATEMENT 18099 18169	the legal unit is known to be a part of an already existing enterprise
+T87	STATEMENT 18171 18214	the link has to be specified at import time
+T88	CAUSE 18082 18169	In the case that the legal unit is known to be a part of an already existing enterprise
+T89	CAUSE_EFFECT_RELATION 18082 18214	In the case that the legal unit is known to be a part of an already existing enterprise, the link has to be specified at import time
+T90	ROOT_SENTENCE 18082 18215	In the case that the legal unit is known to be a part of an already existing enterprise, the link has to be specified at import time.
+T101	KEY_C 15984 15998	In the case of
+T102	VARIABLE 16012 16025	clock auction
+T103	VARIABLE 16027 16043	the Network user
+T104	CONDITION 16044 16091	may submit only one valid bid per bidding round
+T105	STATEMENT 16027 16091	the Network user may submit only one valid bid per bidding round
+T106	CAUSE 15984 16025	In the case of an ascending clock auction
+T107	CAUSE_EFFECT_RELATION 15984 16091	In the case of an ascending clock auction, the Network user may submit only one valid bid per bidding round
+T108	ROOT_SENTENCE 15984 16092	In the case of an ascending clock auction, the Network user may submit only one valid bid per bidding round.
+T109	VARIABLE 15827 15844	The Network Users
+T110	CONDITION 15845 15902	are also informed in the publication of any reserve price
+T111	CONDITION 15949 15981	the price for the bidding rounds
+T112	VARIABLE 15923 15947	ascending clock auctions
+T113	KEY_C 15908 15922	in the case of
+T114	CAUSE 15908 15947	in the case of ascending clock auctions
+T115	NONE_CAUSAL 15827 15902	The Network Users are also informed in the publication of any reserve price
+T116	KEY_C 11904 11918	In the case of
+T117	VARIABLE 11919 11944	specialist subcontractors
+T118	CONDITION 11955 11998	necessary to issue them with NERS passports
+T119	NEGATION 11948 11998	is not necessary to issue them with NERS passports
+T120	VARIABLE 11945 11947	it
+T121	STATEMENT 11945 11998	it is not necessary to issue them with NERS passports
+T122	CAUSE 11904 11944	In the case of specialist subcontractors
+T123	CAUSE_EFFECT_RELATION 11904 11998	In the case of specialist subcontractors it is not necessary to issue them with NERS passports
+T124	ROOT_SENTENCE 11904 11999	In the case of specialist subcontractors it is not necessary to issue them with NERS passports.
+T125	KEY_C 10851 10865	In the case of
+T126	CONDITION 10866 10885	hermetically sealed
+T127	VARIABLE 10886 10895	equipment
+T128	VARIABLE 10896 10901	there
+T129	NEGATION 10902 10946	shall be no evidence of moisture penetration
+T130	STATEMENT 10896 10946	there shall be no evidence of moisture penetration
+T131	STATEMENT 10866 10895	hermetically sealed equipment
+T132	CAUSE 10851 10895	In the case of hermetically sealed equipment
+T133	CAUSE_EFFECT_RELATION 10851 10946	In the case of hermetically sealed equipment there shall be no evidence of moisture penetration
+T134	ROOT_SENTENCE 10851 10947	In the case of hermetically sealed equipment there shall be no evidence of moisture penetration.
+T135	KEY_C 16461 16478	In the case where
+T136	VARIABLE 16479 16495	bundled capacity
+T137	CONDITION 16496 16547	has been sold back the adjacent Transmission System
+T138	VARIABLE 16548 16556	Operator
+T139	CONDITION 16557 16580	is informed of the sale
+T140	STATEMENT 16548 16580	Operator is informed of the sale
+T141	STATEMENT 16479 16547	bundled capacity has been sold back the adjacent Transmission System
+T142	CAUSE 16461 16547	In the case where bundled capacity has been sold back the adjacent Transmission System
+T143	CAUSE_EFFECT_RELATION 16461 16580	In the case where bundled capacity has been sold back the adjacent Transmission System Operator is informed of the sale
+T144	ROOT_SENTENCE 16461 16581	In the case where bundled capacity has been sold back the adjacent Transmission System Operator is informed of the sale.
+T145	KEY_C 16583 16597	In the case of
+T146	VARIABLE 16598 16603	error
+T147	VARIABLE 16604 16631	the Registered Network User
+T148	CONDITION 16632 16643	is informed
+T149	CONDITION 16648 16685	takes the necessary corrective action
+T150	AND 16632 16685	is informed and takes the necessary corrective action
+T151	STATEMENT 16604 16685	the Registered Network User is informed and takes the necessary corrective action
+T152	CAUSE 16583 16603	In the case of error
+T153	CAUSE_EFFECT_RELATION 16583 16685	In the case of error the Registered Network User is informed and takes the necessary corrective action
+T154	ROOT_SENTENCE 16583 16686	In the case of error the Registered Network User is informed and takes the necessary corrective action.
+T155	KEY_C 17008 17022	In the case of
+T156	VARIABLE 17023 17030	the bid
+T157	CONDITION 17031 17059	being successfully validated
+T158	VARIABLE 17060 17076	the Network User
+T159	CONDITION 17077 17110	awaits the outcome of the auction
+T160	STATEMENT 17060 17110	the Network User awaits the outcome of the auction
+T161	STATEMENT 17023 17059	the bid being successfully validated
+T162	CAUSE 17008 17059	In the case of the bid being successfully validated
+T163	CAUSE_EFFECT_RELATION 17008 17110	In the case of the bid being successfully validated the Network User awaits the outcome of the auction
+T164	ROOT_SENTENCE 17008 17111	In the case of the bid being successfully validated the Network User awaits the outcome of the auction.
+T165	KEY_C 14592 14606	In the case of
+T166	VARIABLE 14607 14610	EMP
+T167	VARIABLE 14612 14616	TASC
+T168	VARIABLE 14622 14636	QSP agreements
+T169	AND 14612 14636	TASC, and QSP agreements
+T170	AND 14607 14636	EMP, TASC, and QSP agreements
+T171	VARIABLE 14638 14661	details of each project
+T172	CONDITION 14662 14680	as approved by FAS
+T173	CONDITION 14681 14702	will also be included
+T174	CAUSE 14592 14636	In the case of EMP, TASC, and QSP agreements
+T175	AND 14662 14702	as approved by FAS will also be included
+T176	STATEMENT 14638 14702	details of each project as approved by FAS will also be included
+T177	CAUSE_EFFECT_RELATION 14592 14702	In the case of EMP, TASC, and QSP agreements, details of each project as approved by FAS will also be included
+T178	ROOT_SENTENCE 14592 14703	In the case of EMP, TASC, and QSP agreements, details of each project as approved by FAS will also be included.
+T179	KEY_C 16858 16872	In the case of
+T180	VARIABLE 16873 16884	a rejection
+T181	VARIABLE 16886 16902	the Network User
+T182	CONDITION 16903 16934	may correct the bid information
+T183	CONDITION 16939 16972	resubmit it to the Auction Office
+T184	CONDITION 16973 17005	before the bidding round closure
+T185	AND 16939 17005	resubmit it to the Auction Office before the bidding round closure
+T186	AND 16903 17005	may correct the bid information and resubmit it to the Auction Office before the bidding round closure
+T187	STATEMENT 16886 17005	the Network User may correct the bid information and resubmit it to the Auction Office before the bidding round closure
+T188	CAUSE 16858 16884	In the case of a rejection
+T189	CAUSE_EFFECT_RELATION 16858 17005	In the case of a rejection, the Network User may correct the bid information and resubmit it to the Auction Office before the bidding round closure
+T190	ROOT_SENTENCE 16858 17006	In the case of a rejection, the Network User may correct the bid information and resubmit it to the Auction Office before the bidding round closure.
+T191	KEY_C 16094 16108	In the case of
+T192	VARIABLE 16119 16132	price auction
+T193	CONDITION 16109 16118	a uniform
+T194	VARIABLE 16134 16154	a maximum of 10 bids
+T195	CONDITION 16155 16169	may be entered
+T196	CONDITION 16170 16186	per Network User
+T197	CONDITION 16187 16198	per auction
+T198	AND 16170 16198	per Network User per auction
+T199	AND 16155 16198	may be entered per Network User per auction
+T200	STATEMENT 16134 16198	a maximum of 10 bids may be entered per Network User per auction
+T201	STATEMENT 16109 16132	a uniform price auction
+T202	CONDITION 15999 16011	an ascending
+T203	CAUSE 16094 16132	In the case of a uniform price auction
+T204	CAUSE_EFFECT_RELATION 16094 16198	In the case of a uniform price auction, a maximum of 10 bids may be entered per Network User per auction
+T205	ROOT_SENTENCE 16094 16199	In the case of a uniform price auction, a maximum of 10 bids may be entered per Network User per auction.
+T206	CAUSE_EFFECT_RELATION 15908 15981	in the case of ascending clock auctions, the price for the bidding rounds
+T207	AND 15827 15981	The Network Users are also informed in the publication of any reserve price and, in the case of ascending clock auctions, the price for the bidding rounds
+T208	ROOT_SENTENCE 15827 15982	The Network Users are also informed in the publication of any reserve price and, in the case of ascending clock auctions, the price for the bidding rounds.
+T209	STATEMENT 15999 16025	an ascending clock auction
+T210	KEY_C 2266 2290	Note that in the case of
+T211	VARIABLE 2291 2298	Chinese
+T212	VARIABLE 2305 2331	the Terminology code "zho"
+T213	VARIABLE 2336 2364	the Bibliographic code "chi"
+T214	CONDITION 2365 2373	are used
+T215	AND 2300 2364	both the Terminology code "zho" and the Bibliographic code "chi"
+T216	STATEMENT 2300 2373	both the Terminology code "zho" and the Bibliographic code "chi" are used
+T217	CAUSE 2266 2298	Note that in the case of Chinese
+T218	CAUSE_EFFECT_RELATION 2266 2373	Note that in the case of Chinese, both the Terminology code "zho" and the Bibliographic code "chi" are used
+T219	ROOT_SENTENCE 2266 2374	Note that in the case of Chinese, both the Terminology code "zho" and the Bibliographic code "chi" are used.
+T220	KEY_C 2147 2161	In the case of
+T221	CONDITION 2162 2175	an interlaced
+T222	VARIABLE 2176 2188	video signal
+T223	VARIABLE 2190 2211	the sampling position
+T224	CONDITION 2212 2263	is defined by the first video line of the odd field
+T225	STATEMENT 2190 2263	the sampling position is defined by the first video line of the odd field
+T226	STATEMENT 2162 2188	an interlaced video signal
+T227	CAUSE 2147 2188	In the case of an interlaced video signal
+T228	CAUSE_EFFECT_RELATION 2147 2263	In the case of an interlaced video signal, the sampling position is defined by the first video line of the odd field
+T229	ROOT_SENTENCE 2147 2264	In the case of an interlaced video signal, the sampling position is defined by the first video line of the odd field.
+T230	KEY_C 2976 2990	In the case of
+T231	VARIABLE 2991 3002	termination
+T232	VARIABLE 3004 3021	the ARC Rx device
+T233	CONDITION 3022 3107	shall send a directly addressed <Terminate ARC> message to the adjacent ARC Tx device
+T234	STATEMENT 3004 3107	the ARC Rx device shall send a directly addressed <Terminate ARC> message to the adjacent ARC Tx device
+T235	CAUSE 2976 3002	In the case of termination
+T236	CAUSE_EFFECT_RELATION 2976 3107	In the case of termination, the ARC Rx device shall send a directly addressed <Terminate ARC> message to the adjacent ARC Tx device
+T237	ROOT_SENTENCE 2976 3108	In the case of termination, the ARC Rx device shall send a directly addressed <Terminate ARC> message to the adjacent ARC Tx device.
+T238	KEY_C 6560 6577	In the case where
+T239	VARIABLE 6578 6594	the radio device
+T240	CONDITION 6595 6608	is integrated
+T241	CONDITION 6620 6641	operate independently
+T242	NEGATION 6613 6641	cannot operate independently
+T243	VARIABLE 6643 6676	emissions from the non-radio part
+T244	CONDITION 6677 6692	shall be tested
+T245	VARIABLE 6698 6712	the radio part
+T246	CONDITION 6713 6721	disabled
+T247	STATEMENT 6698 6721	the radio part disabled
+T248	STATEMENT 6643 6692	emissions from the non-radio part shall be tested
+T249	AND 6643 6721	emissions from the non-radio part shall be tested with the radio part disabled
+T250	AND 6595 6641	is integrated and cannot operate independently
+T251	STATEMENT 6578 6641	the radio device is integrated and cannot operate independently
+T252	CAUSE 6560 6641	In the case where the radio device is integrated and cannot operate independently
+T253	CAUSE_EFFECT_RELATION 6560 6721	In the case where the radio device is integrated and cannot operate independently, emissions from the non-radio part shall be tested with the radio part disabled
+T254	ROOT_SENTENCE 6560 6722	In the case where the radio device is integrated and cannot operate independently, emissions from the non-radio part shall be tested with the radio part disabled.
+T255	KEY_C 7008 7025	In the case where
+T256	VARIABLE 7026 7044	an external system
+T257	CONDITION 7045 7056	is required
+T258	VARIABLE 7058 7071	the applicant
+T259	CONDITION 7072 7153	shall declare which additional means are necessary for identification of the NEST
+T260	STATEMENT 7058 7153	the applicant shall declare which additional means are necessary for identification of the NEST
+T261	STATEMENT 7026 7056	an external system is required
+T262	CAUSE 7008 7056	In the case where an external system is required
+T263	CAUSE_EFFECT_RELATION 7008 7153	In the case where an external system is required, the applicant shall declare which additional means are necessary for identification of the NEST
+T264	ROOT_SENTENCE 7008 7154	In the case where an external system is required, the applicant shall declare which additional means are necessary for identification of the NEST.
+T265	KEY_C 3544 3561	In the case where
+T266	VARIABLE 3562 3578	an ARC Tx device
+T267	CONDITION 3579 3621	wants to terminate an Audio Return Channel
+T268	KEY_C 3623 3627	then
+T269	VARIABLE 3628 3645	the ARC Tx device
+T270	CONDITION 3656 3686	send a <Terminate ARC> message
+T271	NEGATION 3646 3686	shall not send a <Terminate ARC> message
+T272	STATEMENT 3628 3686	the ARC Tx device shall not send a <Terminate ARC> message
+T273	EFFECT 3623 3686	then the ARC Tx device shall not send a <Terminate ARC> message
+T274	STATEMENT 3562 3621	an ARC Tx device wants to terminate an Audio Return Channel
+T275	CAUSE 3544 3621	In the case where an ARC Tx device wants to terminate an Audio Return Channel
+T276	CAUSE_EFFECT_RELATION 3544 3686	In the case where an ARC Tx device wants to terminate an Audio Return Channel, then the ARC Tx device shall not send a <Terminate ARC> message
+T277	ROOT_SENTENCE 3544 3687	In the case where an ARC Tx device wants to terminate an Audio Return Channel, then the ARC Tx device shall not send a <Terminate ARC> message.
+T278	VARIABLE 12081 12102	The Assessing Officer
+T279	CONDITION 12103 12130	shall keep records of tests
+T280	KEY_C 12142 12156	in the case of
+T281	VARIABLE 12157 12167	oral tests
+T282	CAUSE 12142 12167	in the case of oral tests
+T283	CONDITION 12169 12189	oral responses given
+T284	CAUSE_EFFECT_RELATION 12142 12189	in the case of oral tests, oral responses given
+T285	AND 12103 12189	shall keep records of tests including, in the case of oral tests, oral responses given
+T286	STATEMENT 12081 12189	The Assessing Officer shall keep records of tests including, in the case of oral tests, oral responses given
+T287	ROOT_SENTENCE 12081 12190	The Assessing Officer shall keep records of tests including, in the case of oral tests, oral responses given.
+T288	KEY_C 13199 13213	In the case of
+T289	VARIABLE 13214 13233	cross-border orders
+T290	VARIABLE 13234 13246	each product
+T291	CONDITION 13247 13295	will also have an associated Customs tariff code
+T292	STATEMENT 13234 13295	each product will also have an associated Customs tariff code
+T293	CAUSE 13199 13233	In the case of cross-border orders
+T294	CAUSE_EFFECT_RELATION 13199 13295	In the case of cross-border orders each product will also have an associated Customs tariff code
+T295	ROOT_SENTENCE 13199 13296	In the case of cross-border orders each product will also have an associated Customs tariff code.
+T296	KEY_C 17322 17336	in the case of
+T297	CONDITION 17337 17349	an ascending
+T298	VARIABLE 17350 17363	clock auction
+T299	VARIABLE 17365 17370	there
+T300	CONDITION 17371 17402	is a situation of excess demand
+T301	KEY_C 17318 17320	If
+T302	STATEMENT 17365 17402	there is a situation of excess demand
+T303	CAUSE 17322 17363	in the case of an ascending clock auction
+T304	STATEMENT 17337 17363	an ascending clock auction
+T305	VARIABLE 17403 17421	the Auction Office
+T306	CONDITION 17422 17475	initiates another bidding round with a new price step
+T307	STATEMENT 17403 17475	the Auction Office initiates another bidding round with a new price step
+T308	AND 17322 17402	in the case of an ascending clock auction, there is a situation of excess demand
+T309	CAUSE 17318 17402	If, in the case of an ascending clock auction, there is a situation of excess demand
+T310	CAUSE_EFFECT_RELATION 17318 17475	If, in the case of an ascending clock auction, there is a situation of excess demand the Auction Office initiates another bidding round with a new price step
+T311	ROOT_SENTENCE 17318 17476	If, in the case of an ascending clock auction, there is a situation of excess demand the Auction Office initiates another bidding round with a new price step.
+T312	KEY_C 10518 10532	In the case of
+T313	VARIABLE 10533 10566	EIRP spectral density measurement
+T314	CONDITION 10567 10597	within the nominated bandwidth
+T315	VARIABLE 10599 10627	the peak power density value
+T316	CONDITION 10661 10678	shall be recorded
+T317	CONDITION 10628 10660	within the measurement bandwidth
+T318	AND 10628 10678	within the measurement bandwidth shall be recorded
+T319	STATEMENT 10599 10678	the peak power density value within the measurement bandwidth shall be recorded
+T320	STATEMENT 10533 10597	EIRP spectral density measurement within the nominated bandwidth
+T321	CAUSE 10518 10597	In the case of EIRP spectral density measurement within the nominated bandwidth
+T322	CAUSE_EFFECT_RELATION 10518 10678	In the case of EIRP spectral density measurement within the nominated bandwidth, the peak power density value within the measurement bandwidth shall be recorded
+T323	ROOT_SENTENCE 10518 10679	In the case of EIRP spectral density measurement within the nominated bandwidth, the peak power density value within the measurement bandwidth shall be recorded.
+T324	KEY_C 5056 5070	In the case of
+T325	VARIABLE 5085 5115	termination of the DAP session
+T326	CONDITION 5071 5084	unintentional
+T327	VARIABLE 5117 5142	the respective DAP server
+T328	VARIABLE 5146 5152	client
+T329	CONDITION 5153 5188	shall disconnect the TCP connection
+T330	OR 5117 5152	the respective DAP server or client
+T331	STATEMENT 5117 5188	the respective DAP server or client shall disconnect the TCP connection
+T332	STATEMENT 5071 5115	unintentional termination of the DAP session
+T333	CAUSE 5056 5115	In the case of unintentional termination of the DAP session
+T334	CAUSE_EFFECT_RELATION 5056 5188	In the case of unintentional termination of the DAP session, the respective DAP server or client shall disconnect the TCP connection
+T335	ROOT_SENTENCE 5056 5189	In the case of unintentional termination of the DAP session, the respective DAP server or client shall disconnect the TCP connection.
+T336	KEY_C 13676 13690	In the case of
+T337	CONDITION 13693 13699	slight
+T338	VARIABLE 13700 13712	modification
+T339	STATEMENT 13691 13712	a slight modification
+T340	VARIABLE 13714 13727	the traveller
+T341	CONDITION 13728 13758	is given the choice of waiting
+T342	CONDITION 13767 13798	changing his/her original route
+T343	NEGATION 13763 13798	not changing his/her original route
+T344	AND 13728 13798	is given the choice of waiting and not changing his/her original route
+T345	STATEMENT 13714 13798	the traveller is given the choice of waiting and not changing his/her original route
+T346	CAUSE 13676 13712	In the case of a slight modification
+T347	CAUSE_EFFECT_RELATION 13676 13798	In the case of a slight modification, the traveller is given the choice of waiting and not changing his/her original route
+T348	ROOT_SENTENCE 13676 13799	In the case of a slight modification, the traveller is given the choice of waiting and not changing his/her original route.
+T349	KEY_C 15659 15676	In the case where
+T350	VARIABLE 15677 15685	capacity
+T351	CONDITION 15686 15721	is surrendered to an Auction Office
+T352	VARIABLE 15723 15741	the Auction Office
+T353	CONDITION 15742 15824	transmits the surrendered capacity received to the Transmission System Operator(s)
+T354	STATEMENT 15723 15824	the Auction Office transmits the surrendered capacity received to the Transmission System Operator(s)
+T355	STATEMENT 15677 15721	capacity is surrendered to an Auction Office
+T356	CAUSE 15659 15721	In the case where capacity is surrendered to an Auction Office
+T357	CAUSE_EFFECT_RELATION 15659 15824	In the case where capacity is surrendered to an Auction Office, the Auction Office transmits the surrendered capacity received to the Transmission System Operator(s)
+T358	ROOT_SENTENCE 15659 15825	In the case where capacity is surrendered to an Auction Office, the Auction Office transmits the surrendered capacity received to the Transmission System Operator(s).
+T359	VARIABLE 6363 6383	The corner reflector
+T360	CONDITION 6384 6407	around the test antenna
+T361	CONDITION 6408 6474	is used to reduce the effect of reflections from the opposite wall
+T362	CONDITION 6479 6493	from the floor
+T363	CONDITION 6498 6505	ceiling
+T364	KEY_C 6507 6521	in the case of
+T365	CONDITION 6522 6544	horizontally polarized
+T366	VARIABLE 6545 6557	measurements
+T367	STATEMENT 6522 6557	horizontally polarized measurements
+T368	CAUSE 6507 6557	in the case of horizontally polarized measurements
+T369	AND 6479 6505	from the floor and ceiling
+T370	AND 6408 6505	is used to reduce the effect of reflections from the opposite wall and from the floor and ceiling
+T371	AND 6384 6505	around the test antenna is used to reduce the effect of reflections from the opposite wall and from the floor and ceiling
+T372	STATEMENT 6363 6505	The corner reflector around the test antenna is used to reduce the effect of reflections from the opposite wall and from the floor and ceiling
+T373	CAUSE_EFFECT_RELATION 6363 6557	The corner reflector around the test antenna is used to reduce the effect of reflections from the opposite wall and from the floor and ceiling, in the case of horizontally polarized measurements
+T374	ROOT_SENTENCE 6363 6558	The corner reflector around the test antenna is used to reduce the effect of reflections from the opposite wall and from the floor and ceiling, in the case of horizontally polarized measurements.
+T375	KEY_C 7461 7478	In the case where
+T376	VARIABLE 7479 7495	the NEST antenna
+T377	CONDITION 7496 7547	is remotely mounted from the associated electronics
+T378	VARIABLE 7549 7569	the connecting cable
+T379	CONDITION 7570 7595	shall be of the same type
+T380	CONDITION 7600 7663	length as specified by the applicant in the installation manual
+T381	AND 7570 7663	shall be of the same type and length as specified by the applicant in the installation manual
+T382	STATEMENT 7549 7663	the connecting cable shall be of the same type and length as specified by the applicant in the installation manual
+T383	STATEMENT 7479 7547	the NEST antenna is remotely mounted from the associated electronics
+T384	CAUSE 7461 7547	In the case where the NEST antenna is remotely mounted from the associated electronics
+T385	CAUSE_EFFECT_RELATION 7461 7663	In the case where the NEST antenna is remotely mounted from the associated electronics, the connecting cable shall be of the same type and length as specified by the applicant in the installation manual
+T386	ROOT_SENTENCE 7461 7664	In the case where the NEST antenna is remotely mounted from the associated electronics, the connecting cable shall be of the same type and length as specified by the applicant in the installation manual.
+T387	KEY_C 7666 7680	In the case of
+T388	VARIABLE 7681 7705	combinations of carriers
+T389	CONDITION 7706 7736	with identical characteristics
+T390	KEY_C 7741 7745	when
+T391	VARIABLE 7746 7779	the power at the input of the HPA
+T392	CONDITION 7789 7837	exceed the maximum input power with two carriers
+T393	NEGATION 7780 7837	does not exceed the maximum input power with two carriers
+T394	VARIABLE 7839 7855	the verification
+T395	CONDITION 7856 7900	may be limited to the case with two carriers
+T396	CONDITION 7905 7955	with the maximum frequency separation between them
+T397	AND 7856 7955	may be limited to the case with two carriers and with the maximum frequency separation between them
+T398	STATEMENT 7839 7955	the verification may be limited to the case with two carriers and with the maximum frequency separation between them
+T399	STATEMENT 7746 7837	the power at the input of the HPA does not exceed the maximum input power with two carriers
+T400	CAUSE 7741 7837	when the power at the input of the HPA does not exceed the maximum input power with two carriers
+T401	STATEMENT 7681 7736	combinations of carriers with identical characteristics
+T402	CAUSE 7666 7736	In the case of combinations of carriers with identical characteristics
+T403	AND 7666 7837	In the case of combinations of carriers with identical characteristics and when the power at the input of the HPA does not exceed the maximum input power with two carriers
+T404	CAUSE_EFFECT_RELATION 7666 7955	In the case of combinations of carriers with identical characteristics and when the power at the input of the HPA does not exceed the maximum input power with two carriers, the verification may be limited to the case with two carriers and with the maximum frequency separation between them
+T405	ROOT_SENTENCE 7666 7956	In the case of combinations of carriers with identical characteristics and when the power at the input of the HPA does not exceed the maximum input power with two carriers, the verification may be limited to the case with two carriers and with the maximum frequency separation between them.
+T406	KEY_C 2603 2617	In the case of
+T407	VARIABLE 2618 2622	a TV
+T408	CONDITION 2645 2655	of 0.0.0.0
+T409	CONDITION 2656 2781	will need to be mapped to the relevant alternative connector on the Amplifier (e.g. analogue, Audio Return Channel or S/PDIF)
+T410	VARIABLE 2624 2644	the Physical Address
+T411	AND 2645 2781	of 0.0.0.0 will need to be mapped to the relevant alternative connector on the Amplifier (e.g. analogue, Audio Return Channel or S/PDIF)
+T412	STATEMENT 2624 2781	the Physical Address of 0.0.0.0 will need to be mapped to the relevant alternative connector on the Amplifier (e.g. analogue, Audio Return Channel or S/PDIF)
+T413	CAUSE 2603 2622	In the case of a TV
+T414	CAUSE_EFFECT_RELATION 2603 2781	In the case of a TV, the Physical Address of 0.0.0.0 will need to be mapped to the relevant alternative connector on the Amplifier (e.g. analogue, Audio Return Channel or S/PDIF)
+T415	ROOT_SENTENCE 2603 2782	In the case of a TV, the Physical Address of 0.0.0.0 will need to be mapped to the relevant alternative connector on the Amplifier (e.g. analogue, Audio Return Channel or S/PDIF).
+T416	VARIABLE 1156 1177	the Key sub-parameter
+T417	CONDITION 1178 1207	shall be set to the key field
+T418	KEY_C 1213 1227	in the case of
+T419	VARIABLE 1228 1286	a network key (that is, the key type field is set to 0x01)
+T420	VARIABLE 1288 1318	the KeySeqNumber sub-parameter
+T421	CONDITION 1319 1360	shall be set to the sequence number field
+T422	STATEMENT 1288 1360	the KeySeqNumber sub-parameter shall be set to the sequence number field
+T423	CAUSE 1213 1286	in the case of a network key (that is, the key type field is set to 0x01)
+T425	CAUSE_EFFECT_RELATION 1213 1360	in the case of a network key (that is, the key type field is set to 0x01), the KeySeqNumber sub-parameter shall be set to the sequence number field
+T426	VARIABLE 1100 1130	The TransportKeyData parameter
+T427	CONDITION 1131 1154	shall be set as follows
+T429	AND 1156 1360	the Key sub-parameter shall be set to the key field and, in the case of a network key (that is, the key type field is set to 0x01), the KeySeqNumber sub-parameter shall be set to the sequence number field
+T430	ROOT_SENTENCE 1100 1361	The TransportKeyData parameter shall be set as follows: the Key sub-parameter shall be set to the key field and, in the case of a network key (that is, the key type field is set to 0x01), the KeySeqNumber sub-parameter shall be set to the sequence number field.
+T431	NONE_CAUSAL 1156 1207	the Key sub-parameter shall be set to the key field
+T432	NONE_CAUSAL 1100 1154	The TransportKeyData parameter shall be set as follows
+T433	KEY_C 3400 3417	In the case where
+T434	VARIABLE 3418 3434	an ARC Tx device
+T435	CONDITION 3435 3476	wants to initiate an Audio Return Channel
+T436	KEY_C 3478 3482	then
+T437	VARIABLE 3483 3500	the ARC Tx device
+T438	CONDITION 3511 3541	send an <Initiate ARC> message
+T439	NEGATION 3501 3541	shall not send an <Initiate ARC> message
+T440	STATEMENT 3483 3541	the ARC Tx device shall not send an <Initiate ARC> message
+T441	EFFECT 3478 3541	then the ARC Tx device shall not send an <Initiate ARC> message
+T442	STATEMENT 3418 3476	an ARC Tx device wants to initiate an Audio Return Channel
+T443	CAUSE 3400 3476	In the case where an ARC Tx device wants to initiate an Audio Return Channel
+T444	CAUSE_EFFECT_RELATION 3400 3541	In the case where an ARC Tx device wants to initiate an Audio Return Channel, then the ARC Tx device shall not send an <Initiate ARC> message
+T445	ROOT_SENTENCE 3400 3542	In the case where an ARC Tx device wants to initiate an Audio Return Channel, then the ARC Tx device shall not send an <Initiate ARC> message.
+T446	KEY_C 3689 3712	Also, in the case where
+T447	VARIABLE 3713 3730	the ARC Rx device
+T448	CONDITION 3731 3757	has initiated this feature
+T449	VARIABLE 3759 3785	the adjacent ARC Tx device
+T450	CONDITION 3786 3845	may request termination of the feature to the ARC Rx device
+T451	STATEMENT 3759 3845	the adjacent ARC Tx device may request termination of the feature to the ARC Rx device
+T452	STATEMENT 3713 3757	the ARC Rx device has initiated this feature
+T453	CAUSE 3689 3757	Also, in the case where the ARC Rx device has initiated this feature
+T454	CAUSE_EFFECT_RELATION 3689 3845	Also, in the case where the ARC Rx device has initiated this feature, the adjacent ARC Tx device may request termination of the feature to the ARC Rx device
+T455	ROOT_SENTENCE 3689 3846	Also, in the case where the ARC Rx device has initiated this feature, the adjacent ARC Tx device may request termination of the feature to the ARC Rx device.
+T456	VARIABLE 3848 3874	This Maximum Response Time
+T457	CONDITION 3875 3905	has a desired maximum of 200ms
+T458	CONDITION 3910 3940	a required maximum of 1 second
+T459	KEY_C 3960 3977	in the case where
+T460	VARIABLE 3978 3986	a device
+T461	CONDITION 3987 4039	responds by sending a <CDC_HEC_Report_State> message
+T462	VARIABLE 4044 4056	the CEC line
+T463	CONDITION 4057 4082	is saturated by other CEC
+T464	CONDITION 4086 4098	CDC messages
+T465	OR 4057 4098	is saturated by other CEC or CDC messages
+T466	STATEMENT 4044 4098	the CEC line is saturated by other CEC or CDC messages
+T467	STATEMENT 3978 4039	a device responds by sending a <CDC_HEC_Report_State> message
+T468	AND 3978 4098	a device responds by sending a <CDC_HEC_Report_State> message and the CEC line is saturated by other CEC or CDC messages
+T469	CAUSE 3960 4098	in the case where a device responds by sending a <CDC_HEC_Report_State> message and the CEC line is saturated by other CEC or CDC messages
+T470	NEGATION 3941 4098	with one exception in the case where a device responds by sending a <CDC_HEC_Report_State> message and the CEC line is saturated by other CEC or CDC messages
+T471	STATEMENT 3848 3940	This Maximum Response Time has a desired maximum of 200ms and a required maximum of 1 second
+T472	OR 3875 3940	has a desired maximum of 200ms and a required maximum of 1 second
+T473	CAUSE_EFFECT_RELATION 3848 4098	This Maximum Response Time has a desired maximum of 200ms and a required maximum of 1 second with one exception in the case where a device responds by sending a <CDC_HEC_Report_State> message and the CEC line is saturated by other CEC or CDC messages
+T474	ROOT_SENTENCE 3848 4099	This Maximum Response Time has a desired maximum of 200ms and a required maximum of 1 second with one exception in the case where a device responds by sending a <CDC_HEC_Report_State> message and the CEC line is saturated by other CEC or CDC messages.
+T475	KEY_C 4312 4329	In the case where
+T476	VARIABLE 4330 4347	the ARC Tx device
+T477	CONDITION 4348 4420	detects that the ARC Rx device has been unplugged from the ARC Tx device
+T478	VARIABLE 4422 4439	the ARC Tx device
+T479	CONDITION 4440 4504	shall stop audio data transmissions via the Audio Return Channel
+T480	CONDITION 4509 4598	deactivate its ARC Tx functionality on the port to which that ARC Rx device was connected
+T481	STATEMENT 4422 4598	the ARC Tx device shall stop audio data transmissions via the Audio Return Channel and deactivate its ARC Tx functionality on the port to which that ARC Rx device was connected
+T482	AND 4440 4598	shall stop audio data transmissions via the Audio Return Channel and deactivate its ARC Tx functionality on the port to which that ARC Rx device was connected
+T483	STATEMENT 4330 4420	the ARC Tx device detects that the ARC Rx device has been unplugged from the ARC Tx device
+T484	CAUSE 4312 4420	In the case where the ARC Tx device detects that the ARC Rx device has been unplugged from the ARC Tx device
+T485	CAUSE_EFFECT_RELATION 4312 4598	In the case where the ARC Tx device detects that the ARC Rx device has been unplugged from the ARC Tx device, the ARC Tx device shall stop audio data transmissions via the Audio Return Channel and deactivate its ARC Tx functionality on the port to which that ARC Rx device was connected
+T486	ROOT_SENTENCE 4312 4599	In the case where the ARC Tx device detects that the ARC Rx device has been unplugged from the ARC Tx device, the ARC Tx device shall stop audio data transmissions via the Audio Return Channel and deactivate its ARC Tx functionality on the port to which that ARC Rx device was connected.
+T487	KEY_C 4601 4618	In the case where
+T488	VARIABLE 4624 4645	the MirrorLink Server
+T489	VARIABLE 4650 4660	the Client
+T490	CONDITION 4661 4687	want to become Group Owner
+T491	VARIABLE 4692 4704	both of them
+T492	CONDITION 4705 4734	set their Intent Values to 15
+T493	VARIABLE 4736 4754	the P2P connection
+T494	CONDITION 4755 4760	fails
+T495	STATEMENT 4736 4760	the P2P connection fails
+T496	STATEMENT 4692 4734	both of them set their Intent Values to 15
+T497	AND 4619 4660	both the MirrorLink Server and the Client
+T498	STATEMENT 4619 4687	both the MirrorLink Server and the Client want to become Group Owner
+T499	AND 4619 4734	both the MirrorLink Server and the Client want to become Group Owner and both of them set their Intent Values to 15
+T500	CAUSE 4601 4734	In the case where both the MirrorLink Server and the Client want to become Group Owner and both of them set their Intent Values to 15
+T501	CAUSE_EFFECT_RELATION 4601 4760	In the case where both the MirrorLink Server and the Client want to become Group Owner and both of them set their Intent Values to 15, the P2P connection fails
+T502	ROOT_SENTENCE 4601 4761	In the case where both the MirrorLink Server and the Client want to become Group Owner and both of them set their Intent Values to 15, the P2P connection fails.
+T503	VARIABLE 4763 4793	The TMT Observatory subsystems
+T504	CONDITION 4794 4829	shall implement private data caches
+T505	KEY_C 4830 4841	in the case
+T506	VARIABLE 4842 4846	they
+T507	CONDITION 4847 4867	require large volume
+T508	CONDITION 4868 4909	outside the data management system budget
+T509	AND 4847 4909	require large volume outside the data management system budget
+T510	STATEMENT 4842 4909	they require large volume outside the data management system budget
+T511	CAUSE 4830 4909	in the case they require large volume outside the data management system budget
+T512	STATEMENT 4763 4829	The TMT Observatory subsystems shall implement private data caches
+T513	CAUSE_EFFECT_RELATION 4763 4909	The TMT Observatory subsystems shall implement private data caches in the case they require large volume outside the data management system budget
+T514	ROOT_SENTENCE 4763 4910	The TMT Observatory subsystems shall implement private data caches in the case they require large volume outside the data management system budget.
+T515	KEY_C 5191 5205	In the case of
+T516	VARIABLE 5206 5227	EUMETCast terrestrial
+T517	VARIABLE 5229 5240	the network
+T518	CONDITION 5241 5245	used
+T519	CONDITION 5246 5289	has no formal Service Level Agreement (SLA)
+T520	NONE_CAUSAL 5291 5321	offering a best effort service
+T521	AND 5241 5289	used has no formal Service Level Agreement (SLA)
+T522	STATEMENT 5229 5289	the network used has no formal Service Level Agreement (SLA)
+T523	CAUSE 5191 5227	In the case of EUMETCast terrestrial
+T524	CAUSE_EFFECT_RELATION 5191 5289	In the case of EUMETCast terrestrial, the network used has no formal Service Level Agreement (SLA)
+T525	ROOT_SENTENCE 5191 5322	In the case of EUMETCast terrestrial, the network used has no formal Service Level Agreement (SLA), offering a best effort service.
+T526	KEY_C 8721 8738	In the case where
+T527	VARIABLE 8739 8756	the ESOMP antenna
+T528	CONDITION 8757 8808	is remotely mounted from the associated electronics
+T529	VARIABLE 8810 8830	the connecting cable
+T530	CONDITION 8831 8856	shall be of the same type
+T531	CONDITION 8861 8924	length as specified by the applicant in the installation manual
+T532	AND 8831 8924	shall be of the same type and length as specified by the applicant in the installation manual
+T533	STATEMENT 8810 8924	the connecting cable shall be of the same type and length as specified by the applicant in the installation manual
+T534	STATEMENT 8739 8808	the ESOMP antenna is remotely mounted from the associated electronics
+T535	CAUSE 8721 8808	In the case where the ESOMP antenna is remotely mounted from the associated electronics
+T536	CAUSE_EFFECT_RELATION 8721 8924	In the case where the ESOMP antenna is remotely mounted from the associated electronics, the connecting cable shall be of the same type and length as specified by the applicant in the installation manual
+T537	ROOT_SENTENCE 8721 8925	In the case where the ESOMP antenna is remotely mounted from the associated electronics, the connecting cable shall be of the same type and length as specified by the applicant in the installation manual.
+T538	KEY_C 9927 9941	In the case of
+T539	VARIABLE 9942 9950	antennas
+T540	VARIABLE 9957 9970	the sidelobes
+T541	KEY_C 9951 9956	where
+T542	CONDITION 9971 10012	vary as a function of the elevation angle
+T543	VARIABLE 10014 10067	the elevation transmit radiation pattern measurements
+T544	CONDITION 10068 10166	shall be made with the antenna set to the elevation angle that produces the maximum sidelobe level
+T545	STATEMENT 10014 10166	the elevation transmit radiation pattern measurements shall be made with the antenna set to the elevation angle that produces the maximum sidelobe level
+T546	STATEMENT 9957 10012	the sidelobes vary as a function of the elevation angle
+T547	CAUSE 9951 10012	where the sidelobes vary as a function of the elevation angle
+T548	CAUSE 9927 9950	In the case of antennas
+T549	AND 9927 10012	In the case of antennas where the sidelobes vary as a function of the elevation angle
+T550	CAUSE_EFFECT_RELATION 9927 10166	In the case of antennas where the sidelobes vary as a function of the elevation angle, the elevation transmit radiation pattern measurements shall be made with the antenna set to the elevation angle that produces the maximum sidelobe level
+T551	ROOT_SENTENCE 9927 10167	In the case of antennas where the sidelobes vary as a function of the elevation angle, the elevation transmit radiation pattern measurements shall be made with the antenna set to the elevation angle that produces the maximum sidelobe level.
+T552	KEY_C 1878 1894	In the case that
+T553	VARIABLE 1895 1905	the source
+T554	CONDITION 1913 1986	send the video in pass-through mode (format not supported by the display)
+T555	VARIABLE 1992 1994	it
+T556	CONDITION 2008 2045	convert to the preferred video format
+T557	NEGATION 1995 2045	can also not convert to the preferred video format
+T558	STATEMENT 1992 2045	it can also not convert to the preferred video format
+T559	NEGATION 1906 1986	cannot send the video in pass-through mode (format not supported by the display)
+T560	STATEMENT 1895 1986	the source cannot send the video in pass-through mode (format not supported by the display)
+T561	VARIABLE 2047 2057	the source
+T562	CONDITION 2058 2144	should select the highest resolution progressive video format supported by the display
+T563	AND 1895 2045	the source cannot send the video in pass-through mode (format not supported by the display), and it can also not convert to the preferred video format
+T564	STATEMENT 2047 2144	the source should select the highest resolution progressive video format supported by the display
+T565	CAUSE 1878 2045	In the case that the source cannot send the video in pass-through mode (format not supported by the display), and it can also not convert to the preferred video format
+T566	CAUSE_EFFECT_RELATION 1878 2144	In the case that the source cannot send the video in pass-through mode (format not supported by the display), and it can also not convert to the preferred video format, the source should select the highest resolution progressive video format supported by the display
+T567	ROOT_SENTENCE 1878 2145	In the case that the source cannot send the video in pass-through mode (format not supported by the display), and it can also not convert to the preferred video format, the source should select the highest resolution progressive video format supported by the display.
+T568	KEY_C 2784 2798	In the case of
+T569	VARIABLE 2799 2809	initiation
+T570	VARIABLE 2811 2827	an ARC Rx device
+T571	CONDITION 2828 2904	shall send a directly addressed <Initiate ARC> message to an adjacent device
+T572	KEY_C 2905 2910	after
+T573	VARIABLE 2911 2954	the ARC Rx functionality (see Supplement 2)
+T574	CONDITION 2955 2973	has been activated
+T575	STATEMENT 2911 2973	the ARC Rx functionality (see Supplement 2) has been activated
+T576	CAUSE 2905 2973	after the ARC Rx functionality (see Supplement 2) has been activated
+T577	STATEMENT 2811 2904	an ARC Rx device shall send a directly addressed <Initiate ARC> message to an adjacent device
+T578	CAUSE 2784 2809	In the case of initiation
+T579	CAUSE_EFFECT_RELATION 2811 2973	an ARC Rx device shall send a directly addressed <Initiate ARC> message to an adjacent device after the ARC Rx functionality (see Supplement 2) has been activated
+T580	CAUSE_EFFECT_RELATION 2784 2973	In the case of initiation, an ARC Rx device shall send a directly addressed <Initiate ARC> message to an adjacent device after the ARC Rx functionality (see Supplement 2) has been activated
+T581	ROOT_SENTENCE 2784 2974	In the case of initiation, an ARC Rx device shall send a directly addressed <Initiate ARC> message to an adjacent device after the ARC Rx functionality (see Supplement 2) has been activated.

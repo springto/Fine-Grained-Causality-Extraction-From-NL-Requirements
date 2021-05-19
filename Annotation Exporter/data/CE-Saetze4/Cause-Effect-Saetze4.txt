@@ -1,0 +1,166 @@
+T1	VARIABLE 15 38	a zero-touch deployment
+T2	VARIABLE 40 59	the DC feed voltage
+T3	CONDITION 60 89	will be present onto the loop
+T4	VARIABLE 95 123	operating the legacy service
+T5	KEY_C 90 94	when
+T6	CAUSE 90 123	when operating the legacy service
+T7	KEY_C 0 14	In the case of
+T8	CAUSE 0 38	In the case of a zero-touch deployment
+T9	STATEMENT 40 89	the DC feed voltage will be present onto the loop
+T10	CAUSE_EFFECT_RELATION 0 123	In the case of a zero-touch deployment, the DC feed voltage will be present onto the loop when operating the legacy service
+T11	ROOT_SENTENCE 0 124	In the case of a zero-touch deployment, the DC feed voltage will be present onto the loop when operating the legacy service.
+T12	KEY_C 126 140	In the case of
+T13	VARIABLE 141 173	a POTS service from the exchange
+T14	VARIABLE 175 194	the DC feed voltage
+T15	CONDITION 195 242	will be present in the POTS Adapter bypass mode
+T16	STATEMENT 175 242	the DC feed voltage will be present in the POTS Adapter bypass mode
+T17	CAUSE 126 173	In the case of a POTS service from the exchange
+T18	CAUSE_EFFECT_RELATION 126 242	In the case of a POTS service from the exchange, the DC feed voltage will be present in the POTS Adapter bypass mode
+T19	ROOT_SENTENCE 126 243	In the case of a POTS service from the exchange, the DC feed voltage will be present in the POTS Adapter bypass mode.
+T20	KEY_C 245 259	In the case of
+T21	VARIABLE 260 283	a zero-touch deployment
+T22	VARIABLE 290 308	reverse power feed
+T23	CONDITION 309 334	is not applied to the DPU
+T24	KEY_C 285 289	when
+T25	STATEMENT 290 334	reverse power feed is not applied to the DPU
+T26	CAUSE 285 334	when reverse power feed is not applied to the DPU
+T27	VARIABLE 336 354	the ringing signal
+T28	CONDITION 355 392	may be present up to 2s consecutively
+T29	CONDITION 397 456	have a pause of no more than 2s before starting a new cycle
+T30	STATEMENT 336 392	the ringing signal may be present up to 2s consecutively
+T31	AND 336 456	the ringing signal may be present up to 2s consecutively and have a pause of no more than 2s before starting a new cycle
+T32	CAUSE 245 283	In the case of a zero-touch deployment
+T33	AND 245 334	In the case of a zero-touch deployment, when reverse power feed is not applied to the DPU
+T34	CAUSE_EFFECT_RELATION 245 456	In the case of a zero-touch deployment, when reverse power feed is not applied to the DPU, the ringing signal may be present up to 2s consecutively and have a pause of no more than 2s before starting a new cycle
+T35	ROOT_SENTENCE 245 457	In the case of a zero-touch deployment, when reverse power feed is not applied to the DPU, the ringing signal may be present up to 2s consecutively and have a pause of no more than 2s before starting a new cycle.
+T36	KEY_C 8497 8511	In the case of
+T37	VARIABLE 8512 8531	a broadcast message
+T38	VARIABLE 8536 8541	slave
+T39	CONDITION 8542 8563	shall return a packet
+T40	STATEMENT 8536 8563	slave shall return a packet
+T41	NEGATION 8533 8563	no slave shall return a packet
+T42	CAUSE 8497 8531	In the case of a broadcast message
+T43	CAUSE_EFFECT_RELATION 8497 8563	In the case of a broadcast message, no slave shall return a packet
+T44	ROOT_SENTENCE 8497 8564	In the case of a broadcast message, no slave shall return a packet.
+T45	KEY_C 3097 3114	In the case where
+T46	VARIABLE 3115 3129	multiple bands
+T47	CONDITION 3130 3172	are mapped on common single-band connector
+T48	VARIABLE 3174 3196	the test configuration
+T49	CONDITION 3197 3213	in table 4.8.3-1
+T50	CONDITION 3214 3227	shall be used
+T51	KEY_C 891 905	In the case of
+T52	VARIABLE 906 929	a zero-touch deployment
+T53	VARIABLE 936 954	reverse power feed
+T54	CONDITION 955 981	is not applied to the loop
+T55	VARIABLE 983 1005	the DPU power splitter
+T56	CONDITION 1006 1080	shall limit the voltage drop from the U-O2O interface to the U-O interface
+T57	KEY_C 931 935	when
+T58	STATEMENT 936 981	reverse power feed is not applied to the loop
+T59	STATEMENT 983 1080	the DPU power splitter shall limit the voltage drop from the U-O2O interface to the U-O interface
+T60	CAUSE 891 929	In the case of a zero-touch deployment
+T61	CAUSE 931 981	when reverse power feed is not applied to the loop
+T62	AND 891 981	In the case of a zero-touch deployment, when reverse power feed is not applied to the loop
+T63	CAUSE_EFFECT_RELATION 891 1080	In the case of a zero-touch deployment, when reverse power feed is not applied to the loop, the DPU power splitter shall limit the voltage drop from the U-O2O interface to the U-O interface
+T64	ROOT_SENTENCE 891 1081	In the case of a zero-touch deployment, when reverse power feed is not applied to the loop, the DPU power splitter shall limit the voltage drop from the U-O2O interface to the U-O interface.
+T65	VARIABLE 1291 1313	The DPU POTS Adapter-E
+T66	CONDITION 1314 1369	also needs to meet the POTS insertion loss requirements
+T67	KEY_C 1370 1384	in the case of
+T68	VARIABLE 1385 1408	a zero-touch deployment
+T69	NONE_CAUSAL 1413 1452	to support the POTS Adapter bypass mode
+T70	CAUSE 1370 1408	in the case of a zero-touch deployment
+T71	STATEMENT 1291 1369	The DPU POTS Adapter-E also needs to meet the POTS insertion loss requirements
+T72	KEY_C 1983 1997	In the case of
+T73	VARIABLE 1998 2020	the heavy ringing load
+T74	VARIABLE 2022 2037	the application
+T75	CONDITION 2038 2088	will be limited to a single telephone in the house
+T76	STATEMENT 2022 2088	the application will be limited to a single telephone in the house
+T77	CAUSE 1983 2020	In the case of the heavy ringing load
+T78	CAUSE_EFFECT_RELATION 1983 2088	In the case of the heavy ringing load, the application will be limited to a single telephone in the house
+T79	ROOT_SENTENCE 1983 2089	In the case of the heavy ringing load, the application will be limited to a single telephone in the house.
+T80	AND 3197 3227	in table 4.8.3-1 shall be used
+T81	STATEMENT 3174 3227	the test configuration in table 4.8.3-1 shall be used
+T82	STATEMENT 3115 3172	multiple bands are mapped on common single-band connector
+T83	CAUSE 3097 3172	In the case where multiple bands are mapped on common single-band connector
+T84	CAUSE_EFFECT_RELATION 3097 3227	In the case where multiple bands are mapped on common single-band connector, the test configuration in table 4.8.3-1 shall be used
+T85	ROOT_SENTENCE 3097 3228	In the case where multiple bands are mapped on common single-band connector, the test configuration in table 4.8.3-1 shall be used.
+T86	KEY_C 3742 3756	In the case of
+T87	VARIABLE 3757 3783	integral antenna equipment
+T88	VARIABLE 3785 3794	this port
+T89	CONDITION 3795 3831	is inseparable from the antenna port
+T90	STATEMENT 3785 3831	this port is inseparable from the antenna port
+T91	CAUSE 3742 3783	In the case of integral antenna equipment
+T92	CAUSE_EFFECT_RELATION 3742 3831	In the case of integral antenna equipment, this port is inseparable from the antenna port
+T93	ROOT_SENTENCE 3742 3832	In the case of integral antenna equipment, this port is inseparable from the antenna port.
+T94	CAUSE_EFFECT_RELATION 1291 1408	The DPU POTS Adapter-E also needs to meet the POTS insertion loss requirements in the case of a zero-touch deployment
+T95	ROOT_SENTENCE 1291 1453	The DPU POTS Adapter-E also needs to meet the POTS insertion loss requirements in the case of a zero-touch deployment, or to support the POTS Adapter bypass mode.
+T96	KEY_C 4577 4594	In the case where
+T97	VARIABLE 4595 4600	a Sap
+T98	CONDITION 4601 4646	is exposed by a VNF external connection point
+T99	CONDITION 4648 4679	a PNF external connection point
+T100	CONDITION 4683 4705	a Sap of the nested NS
+T101	VARIABLE 4707 4724	the Sap node type
+T102	CONDITION 4734 4739	apply
+T103	NEGATION 4725 4739	does not apply
+T104	STATEMENT 4707 4739	the Sap node type does not apply
+T105	OR 4648 4705	a PNF external connection point or a Sap of the nested NS
+T106	OR 4601 4705	is exposed by a VNF external connection point, a PNF external connection point or a Sap of the nested NS
+T107	STATEMENT 4595 4705	a Sap is exposed by a VNF external connection point, a PNF external connection point or a Sap of the nested NS
+T108	CAUSE 4577 4705	In the case where a Sap is exposed by a VNF external connection point, a PNF external connection point or a Sap of the nested NS
+T109	CAUSE_EFFECT_RELATION 4577 4739	In the case where a Sap is exposed by a VNF external connection point, a PNF external connection point or a Sap of the nested NS, the Sap node type does not apply
+T110	ROOT_SENTENCE 4577 4740	In the case where a Sap is exposed by a VNF external connection point, a PNF external connection point or a Sap of the nested NS, the Sap node type does not apply.
+T111	VARIABLE 5651 5657	The UE
+T112	CONDITION 5658 5704	is configured with a guard period of Y symbols
+T113	VARIABLE 5718 5744	the SRS resources of a set
+T114	CONDITION 5745 5777	are transmitted in the same slot
+T115	KEY_C 5706 5717	in the case
+T116	STATEMENT 5718 5777	the SRS resources of a set are transmitted in the same slot
+T117	CAUSE 5706 5777	in the case the SRS resources of a set are transmitted in the same slot
+T118	STATEMENT 5651 5704	The UE is configured with a guard period of Y symbols
+T119	CAUSE_EFFECT_RELATION 5651 5777	The UE is configured with a guard period of Y symbols, in the case the SRS resources of a set are transmitted in the same slot
+T120	ROOT_SENTENCE 5651 5778	The UE is configured with a guard period of Y symbols, in the case the SRS resources of a set are transmitted in the same slot.
+T121	KEY_C 5780 5797	In the case where
+T122	VARIABLE 5798 5812	multiple bands
+T123	CONDITION 5813 5847	are mapped on an antenna connector
+T124	VARIABLE 5849 5863	the exclusions
+T125	VARIABLE 5867 5903	provisions for multi-band capable BS
+T126	CONDITION 5904 5944	are applicable to this antenna connector
+T127	OR 5849 5903	the exclusions or provisions for multi-band capable BS
+T128	STATEMENT 5849 5944	the exclusions or provisions for multi-band capable BS are applicable to this antenna connector
+T129	STATEMENT 5798 5847	multiple bands are mapped on an antenna connector
+T130	CAUSE 5780 5847	In the case where multiple bands are mapped on an antenna connector
+T131	CAUSE_EFFECT_RELATION 5780 5944	In the case where multiple bands are mapped on an antenna connector, the exclusions or provisions for multi-band capable BS are applicable to this antenna connector
+T132	ROOT_SENTENCE 5780 5945	In the case where multiple bands are mapped on an antenna connector, the exclusions or provisions for multi-band capable BS are applicable to this antenna connector.
+T133	VARIABLE 6728 6748	The DeletePO request
+T134	CONDITION 6749 6772	shall only be supported
+T135	KEY_C 6773 6787	in the case of
+T136	VARIABLE 6788 6809	a preservation scheme
+T137	CONDITION 6810 6822	with storage
+T138	STATEMENT 6788 6822	a preservation scheme with storage
+T139	CAUSE 6773 6822	in the case of a preservation scheme with storage
+T140	STATEMENT 6728 6772	The DeletePO request shall only be supported
+T141	CAUSE_EFFECT_RELATION 6728 6822	The DeletePO request shall only be supported in the case of a preservation scheme with storage
+T142	ROOT_SENTENCE 6728 6823	The DeletePO request shall only be supported in the case of a preservation scheme with storage.
+T143	KEY_C 11297 11311	In the case of
+T144	VARIABLE 11312 11330	a transmitter test
+T145	KEY_C 11331 11346	this means that
+T146	VARIABLE 11350 11362	more packets
+T147	CONDITION 11363 11383	shall be transmitted
+T148	STATEMENT 11350 11383	more packets shall be transmitted
+T149	NEGATION 11347 11383	no more packets shall be transmitted
+T150	EFFECT 11331 11383	this means that no more packets shall be transmitted
+T151	STATEMENT 11297 11330	In the case of a transmitter test
+T152	CAUSE_EFFECT_RELATION 11297 11383	In the case of a transmitter test this means that no more packets shall be transmitted
+T153	ROOT_SENTENCE 11297 11384	In the case of a transmitter test this means that no more packets shall be transmitted.
+T154	KEY_C 11386 11403	In the case where
+T155	VARIABLE 11404 11424	multiple ATT bearers
+T156	CONDITION 11425 11445	from the same device
+T157	CONDITION 11446 11478	are supported by the GATT server
+T158	VARIABLE 11480 11495	each ATT bearer
+T159	CONDITION 11496 11555	shall be considered to have a separate GATT client instance
+T160	AND 11425 11478	from the same device are supported by the GATT server
+T161	STATEMENT 11480 11555	each ATT bearer shall be considered to have a separate GATT client instance
+T162	STATEMENT 11404 11478	multiple ATT bearers from the same device are supported by the GATT server
+T163	CAUSE 11386 11478	In the case where multiple ATT bearers from the same device are supported by the GATT server
+T164	CAUSE_EFFECT_RELATION 11386 11555	In the case where multiple ATT bearers from the same device are supported by the GATT server, each ATT bearer shall be considered to have a separate GATT client instance
+T165	ROOT_SENTENCE 11386 11556	In the case where multiple ATT bearers from the same device are supported by the GATT server, each ATT bearer shall be considered to have a separate GATT client instance.
+T169	OR 1291 1452	The DPU POTS Adapter-E also needs to meet the POTS insertion loss requirements in the case of a zero-touch deployment, or to support the POTS Adapter bypass mode

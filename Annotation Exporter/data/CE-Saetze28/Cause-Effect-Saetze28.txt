@@ -1,0 +1,916 @@
+T1	VARIABLE 0 8	Channels
+T2	CONDITION 9 57	shall only be created over the BR/EDR Controller
+T3	KEY_C 58 60	if
+T4	VARIABLE 61 80	both L2CAP entities
+T5	CONDITION 81 127	support Extended Flow Specification for BR/EDR
+T6	STATEMENT 61 127	both L2CAP entities support Extended Flow Specification for BR/EDR
+T7	CAUSE 58 127	if both L2CAP entities support Extended Flow Specification for BR/EDR
+T8	STATEMENT 0 57	Channels shall only be created over the BR/EDR Controller
+T9	CAUSE_EFFECT_RELATION 0 127	Channels shall only be created over the BR/EDR Controller if both L2CAP entities support Extended Flow Specification for BR/EDR
+T10	ROOT_SENTENCE 0 128	Channels shall only be created over the BR/EDR Controller if both L2CAP entities support Extended Flow Specification for BR/EDR.
+T11	VARIABLE 854 895	the Extended Flow Specification aggregate
+T12	CONDITION 896 925	are modified for a Controller
+T13	KEY_C 926 930	then
+T14	KEY_C 851 853	If
+T15	VARIABLE 931 962	a logical link modify operation
+T16	CONDITION 963 1001	shall be performed for that Controller
+T17	STATEMENT 931 1001	a logical link modify operation shall be performed for that Controller
+T18	EFFECT 926 1001	then a logical link modify operation shall be performed for that Controller
+T19	STATEMENT 854 925	the Extended Flow Specification aggregate are modified for a Controller
+T20	CAUSE 851 925	If the Extended Flow Specification aggregate are modified for a Controller
+T21	CAUSE_EFFECT_RELATION 851 1001	If the Extended Flow Specification aggregate are modified for a Controller then a logical link modify operation shall be performed for that Controller
+T22	ROOT_SENTENCE 851 1002	If the Extended Flow Specification aggregate are modified for a Controller then a logical link modify operation shall be performed for that Controller.
+T23	KEY_C 1168 1170	If
+T24	VARIABLE 1171 1222	the result code in the Move Channel Response packet
+T25	CONDITION 1223 1235	is “refused”
+T26	VARIABLE 1236 1238	it
+T27	CONDITION 1239 1329	shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T28	STATEMENT 1171 1235	the result code in the Move Channel Response packet is “refused”
+T29	CAUSE 1168 1235	If the result code in the Move Channel Response packet is “refused”
+T30	STATEMENT 1236 1329	it shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T31	CAUSE_EFFECT_RELATION 1168 1329	If the result code in the Move Channel Response packet is “refused” it shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T32	ROOT_SENTENCE 1168 1330	If the result code in the Move Channel Response packet is “refused” it shall send a Move Channel Confirmation packet with result code “failure” to the other side.
+T33	KEY_C 14874 14876	If
+T34	VARIABLE 14877 14891	this path cost
+T35	CONDITION 14892 14902	is greater
+T36	VARIABLE 14904 14935	the route request command frame
+T37	CONDITION 14936 14946	is dropped
+T38	VARIABLE 14954 14972	further processing
+T39	CONDITION 14973 14984	is required
+T40	STATEMENT 14954 14984	further processing is required
+T41	NEGATION 14951 14984	no further processing is required
+T42	STATEMENT 14904 14946	the route request command frame is dropped
+T43	AND 14904 14984	the route request command frame is dropped and no further processing is required
+T44	STATEMENT 14877 14902	this path cost is greater
+T45	CAUSE 14874 14902	If this path cost is greater
+T46	CAUSE_EFFECT_RELATION 14874 14984	If this path cost is greater, the route request command frame is dropped and no further processing is required
+T47	ROOT_SENTENCE 14874 14985	If this path cost is greater, the route request command frame is dropped and no further processing is required.
+T48	KEY_C 14731 14733	If
+T49	VARIABLE 14734 14744	this value
+T50	CONDITION 14745 14805	is greater than the value in the route discovery table entry
+T51	VARIABLE 14807 14816	the frame
+T52	CONDITION 14817 14833	shall be dropped
+T53	VARIABLE 14841 14859	further processing
+T54	CONDITION 14860 14871	is required
+T55	STATEMENT 14841 14871	further processing is required
+T56	NEGATION 14838 14871	no further processing is required
+T57	STATEMENT 14807 14833	the frame shall be dropped
+T58	AND 14807 14871	the frame shall be dropped and no further processing is required
+T59	STATEMENT 14734 14805	this value is greater than the value in the route discovery table entry
+T60	CAUSE 14731 14805	If this value is greater than the value in the route discovery table entry
+T61	CAUSE_EFFECT_RELATION 14731 14871	If this value is greater than the value in the route discovery table entry, the frame shall be dropped and no further processing is required
+T62	ROOT_SENTENCE 14731 14872	If this value is greater than the value in the route discovery table entry, the frame shall be dropped and no further processing is required.
+T63	KEY_C 14571 14573	If
+T64	VARIABLE 14574 14591	either the device
+T65	VARIABLE 14595 14625	one of its end device children
+T66	CONDITION 14626 14679	is the destination of the route request command frame
+T67	VARIABLE 14681 14683	it
+T68	CONDITION 14684 14728	shall reply with a route reply command frame
+T69	STATEMENT 14681 14728	it shall reply with a route reply command frame
+T70	OR 14574 14625	either the device or one of its end device children
+T71	STATEMENT 14574 14679	either the device or one of its end device children is the destination of the route request command frame
+T72	CAUSE 14571 14679	If either the device or one of its end device children is the destination of the route request command frame
+T73	CAUSE_EFFECT_RELATION 14571 14728	If either the device or one of its end device children is the destination of the route request command frame, it shall reply with a route reply command frame
+T74	ROOT_SENTENCE 14571 14729	If either the device or one of its end device children is the destination of the route request command frame, it shall reply with a route reply command frame.
+T75	VARIABLE 14416 14426	The device
+T76	CONDITION 14427 14493	shall also establish the corresponding route discovery table entry
+T77	KEY_C 14494 14496	if
+T78	VARIABLE 14497 14524	one with the same initiator
+T79	VARIABLE 14529 14545	route request ID
+T80	AND 14497 14545	one with the same initiator and route request ID
+T81	CONDITION 14555 14568	already exist
+T82	NEGATION 14546 14568	does not already exist
+T83	STATEMENT 14497 14568	one with the same initiator and route request ID does not already exist
+T84	CAUSE 14494 14568	if one with the same initiator and route request ID does not already exist
+T85	STATEMENT 14416 14493	The device shall also establish the corresponding route discovery table entry
+T86	CAUSE_EFFECT_RELATION 14416 14568	The device shall also establish the corresponding route discovery table entry if one with the same initiator and route request ID does not already exist
+T87	ROOT_SENTENCE 14416 14569	The device shall also establish the corresponding route discovery table entry if one with the same initiator and route request ID does not already exist.
+T88	KEY_C 14317 14319	If
+T89	VARIABLE 14320 14333	the addresses
+T90	CONDITION 14341 14346	match
+T91	NEGATION 14334 14346	do not match
+T92	STATEMENT 14320 14346	the addresses do not match
+T93	CAUSE 14317 14346	If the addresses do not match
+T94	VARIABLE 14348 14357	the frame
+T95	CONDITION 14358 14376	shall be discarded
+T96	VARIABLE 14384 14398	further action
+T97	CONDITION 14399 14413	shall be taken
+T98	STATEMENT 14384 14413	further action shall be taken
+T99	NEGATION 14381 14413	no further action shall be taken
+T100	STATEMENT 14348 14376	the frame shall be discarded
+T101	AND 14348 14413	the frame shall be discarded and no further action shall be taken
+T102	CAUSE_EFFECT_RELATION 14317 14413	If the addresses do not match, the frame shall be discarded and no further action shall be taken
+T103	ROOT_SENTENCE 14317 14414	If the addresses do not match, the frame shall be discarded and no further action shall be taken.
+T104	KEY_C 13884 13886	If
+T105	VARIABLE 13887 13895	there is
+T106	CONDITION 13896 13919	at least one relay node
+T107	VARIABLE 13921 13980	the source route flag of the NWK header frame control field
+T108	CONDITION 13981 13993	shall be set
+T109	VARIABLE 13999 14035	the NWK header source route subframe
+T110	CONDITION 14036 14052	shall be present
+T111	STATEMENT 13999 14052	the NWK header source route subframe shall be present
+T112	STATEMENT 13921 13993	the source route flag of the NWK header frame control field shall be set
+T113	AND 13921 14052	the source route flag of the NWK header frame control field shall be set, and the NWK header source route subframe shall be present
+T114	STATEMENT 13887 13919	there is at least one relay node
+T115	CAUSE 13884 13919	If there is at least one relay node
+T116	CAUSE_EFFECT_RELATION 13884 14052	If there is at least one relay node, the source route flag of the NWK header frame control field shall be set, and the NWK header source route subframe shall be present
+T117	ROOT_SENTENCE 13884 14053	If there is at least one relay node, the source route flag of the NWK header frame control field shall be set, and the NWK header source route subframe shall be present.
+T118	KEY_C 13765 13767	If
+T119	VARIABLE 13768 13798	the receiver's network address
+T120	CONDITION 13799 13842	falls within the range covered by the frame
+T121	KEY_C 13844 13848	then
+T122	VARIABLE 13849 13869	the link status list
+T123	CONDITION 13870 13881	is searched
+T124	STATEMENT 13849 13881	the link status list is searched
+T125	EFFECT 13844 13881	then the link status list is searched
+T126	STATEMENT 13768 13842	the receiver's network address falls within the range covered by the frame
+T127	CAUSE 13765 13842	If the receiver's network address falls within the range covered by the frame
+T128	CAUSE_EFFECT_RELATION 13765 13881	If the receiver's network address falls within the range covered by the frame, then the link status list is searched
+T129	ROOT_SENTENCE 13765 13882	If the receiver's network address falls within the range covered by the frame, then the link status list is searched.
+T130	KEY_C 13600 13602	If
+T131	VARIABLE 13603 13654	the no route cache field of the routing table entry
+T132	CONDITION 13655 13675	has a value of FALSE
+T133	KEY_C 13677 13681	then
+T134	VARIABLE 13682 13740	the route record required field of the routing table entry
+T135	CONDITION 13741 13762	shall be set to FALSE
+T136	STATEMENT 13682 13762	the route record required field of the routing table entry shall be set to FALSE
+T137	EFFECT 13677 13762	then the route record required field of the routing table entry shall be set to FALSE
+T138	STATEMENT 13603 13675	the no route cache field of the routing table entry has a value of FALSE
+T139	CAUSE 13600 13675	If the no route cache field of the routing table entry has a value of FALSE
+T140	CAUSE_EFFECT_RELATION 13600 13762	If the no route cache field of the routing table entry has a value of FALSE, then the route record required field of the routing table entry shall be set to FALSE
+T141	ROOT_SENTENCE 13600 13763	If the no route cache field of the routing table entry has a value of FALSE, then the route record required field of the routing table entry shall be set to FALSE.
+T142	KEY_C 13062 13064	If
+T143	VARIABLE 13065 13073	there is
+T144	CONDITION 13074 13087	such an entry
+T145	VARIABLE 13089 13099	the device
+T146	CONDITION 13100 13147	may route the frame directly to the destination
+T147	CONDITION 13148 13217	using the MCPS-DATA.request primitive as described in section 3.6.2.1
+T148	AND 13100 13217	may route the frame directly to the destination using the MCPS-DATA.request primitive as described in section 3.6.2.1
+T149	STATEMENT 13089 13217	the device may route the frame directly to the destination using the MCPS-DATA.request primitive as described in section 3.6.2.1
+T150	STATEMENT 13065 13087	there is such an entry
+T151	CAUSE 13062 13087	If there is such an entry
+T152	CAUSE_EFFECT_RELATION 13062 13217	If there is such an entry, the device may route the frame directly to the destination using the MCPS-DATA.request primitive as described in section 3.6.2.1
+T153	ROOT_SENTENCE 13062 13218	If there is such an entry, the device may route the frame directly to the destination using the MCPS-DATA.request primitive as described in section 3.6.2.1.
+T154	KEY_C 12933 12935	If
+T155	VARIABLE 12936 12945	the frame
+T156	CONDITION 12946 12970	is routed along the tree
+T157	VARIABLE 12972 13038	the discover route sub-field of the NWK header frame control field
+T158	CONDITION 13039 13059	shall be set to 0x00
+T159	STATEMENT 12972 13059	the discover route sub-field of the NWK header frame control field shall be set to 0x00
+T160	STATEMENT 12936 12970	the frame is routed along the tree
+T161	CAUSE 12933 12970	If the frame is routed along the tree
+T162	CAUSE_EFFECT_RELATION 12933 13059	If the frame is routed along the tree, the discover route sub-field of the NWK header frame control field shall be set to 0x00
+T163	ROOT_SENTENCE 12933 13060	If the frame is routed along the tree, the discover route sub-field of the NWK header frame control field shall be set to 0x00.
+T164	KEY_C 12855 12857	If
+T165	VARIABLE 12861 12879	continuation state
+T166	CONDITION 12880 12912	is to be provided in the request
+T167	STATEMENT 12861 12912	continuation state is to be provided in the request
+T168	NEGATION 12858 12912	no continuation state is to be provided in the request
+T169	VARIABLE 12914 12915	N
+T170	CONDITION 12916 12930	shall set to 0
+T171	STATEMENT 12914 12930	N shall set to 0
+T172	CAUSE 12855 12912	If no continuation state is to be provided in the request
+T173	CAUSE_EFFECT_RELATION 12855 12930	If no continuation state is to be provided in the request, N shall set to 0
+T174	ROOT_SENTENCE 12855 12931	If no continuation state is to be provided in the request, N shall set to 0.
+T175	VARIABLE 12502 12528	Address conflict detection
+T176	CONDITION 12529 12545	shall be enabled
+T177	KEY_C 12546 12548	if
+T178	VARIABLE 12549 12580	the NIB attribute nwkUniqueAddr
+T179	CONDITION 12581 12589	is FALSE
+T180	STATEMENT 12549 12589	the NIB attribute nwkUniqueAddr is FALSE
+T181	CAUSE 12546 12589	if the NIB attribute nwkUniqueAddr is FALSE
+T182	STATEMENT 12502 12545	Address conflict detection shall be enabled
+T183	CAUSE_EFFECT_RELATION 12502 12589	Address conflict detection shall be enabled if the NIB attribute nwkUniqueAddr is FALSE
+T184	ROOT_SENTENCE 12502 12590	Address conflict detection shall be enabled if the NIB attribute nwkUniqueAddr is FALSE.
+T185	KEY_C 12334 12336	If
+T186	VARIABLE 12337 12345	a device
+T187	CONDITION 12346 12371	has a Cskip(d) value of 0
+T188	KEY_C 12373 12377	then
+T189	VARIABLE 12378 12380	it
+T190	CONDITION 12391 12423	be capable of accepting children
+T191	CONDITION 12428 12499	shall be treated as a ZigBee end device for purposes of this discussion
+T192	AND 12391 12499	be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion
+T193	NEGATION 12381 12499	shall not be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion
+T194	STATEMENT 12378 12499	it shall not be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion
+T195	EFFECT 12373 12499	then it shall not be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion
+T196	STATEMENT 12337 12371	a device has a Cskip(d) value of 0
+T197	CAUSE 12334 12371	If a device has a Cskip(d) value of 0
+T198	CAUSE_EFFECT_RELATION 12334 12499	If a device has a Cskip(d) value of 0, then it shall not be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion
+T199	ROOT_SENTENCE 12334 12500	If a device has a Cskip(d) value of 0, then it shall not be capable of accepting children and shall be treated as a ZigBee end device for purposes of this discussion.
+T200	KEY_C 12170 12172	If
+T201	VARIABLE 12173 12188	a ZigBee router
+T202	VARIABLE 12192 12210	ZigBee coordinator
+T203	OR 12173 12210	a ZigBee router or ZigBee coordinator
+T204	CONDITION 12211 12236	maintains a routing table
+T205	VARIABLE 12238 12240	it
+T206	CONDITION 12241 12331	shall also maintain a route discovery table containing the information shown in Table 3.58
+T207	STATEMENT 12238 12331	it shall also maintain a route discovery table containing the information shown in Table 3.58
+T208	STATEMENT 12173 12236	a ZigBee router or ZigBee coordinator maintains a routing table
+T209	CAUSE 12170 12236	If a ZigBee router or ZigBee coordinator maintains a routing table
+T210	CAUSE_EFFECT_RELATION 12170 12331	If a ZigBee router or ZigBee coordinator maintains a routing table, it shall also maintain a route discovery table containing the information shown in Table 3.58
+T211	ROOT_SENTENCE 12170 12332	If a ZigBee router or ZigBee coordinator maintains a routing table, it shall also maintain a route discovery table containing the information shown in Table 3.58.
+T212	KEY_C 12036 12038	If
+T213	VARIABLE 12039 12049	the device
+T214	CONDITION 12057 12063	joined
+T215	CONDITION 12068 12081	authenticated
+T216	AND 12057 12081	joined and authenticated
+T217	NEGATION 12050 12081	is not joined and authenticated
+T219	CONDITION 12086 12128	undergoing the Trust Center Rejoin process
+T220	OR 12050 12128	is not joined and authenticated, or undergoing the Trust Center Rejoin process
+T218	STATEMENT 12039 12128	the device is not joined and authenticated, or undergoing the Trust Center Rejoin process
+T221	CAUSE 12036 12128	If the device is not joined and authenticated, or undergoing the Trust Center Rejoin process
+T222	VARIABLE 12130 12132	it
+T223	CONDITION 12133 12167	shall perform the following checks
+T224	STATEMENT 12130 12167	it shall perform the following checks
+T225	CAUSE_EFFECT_RELATION 12036 12167	If the device is not joined and authenticated, or undergoing the Trust Center Rejoin process, it shall perform the following checks
+T226	ROOT_SENTENCE 12036 12168	If the device is not joined and authenticated, or undergoing the Trust Center Rejoin process, it shall perform the following checks.
+T227	KEY_C 11921 11923	If
+T228	VARIABLE 11924 11944	the receiving device
+T229	CONDITION 11945 11961	is an end device
+T230	VARIABLE 11962 11973	the message
+T231	CONDITION 11974 11990	shall be dropped
+T232	VARIABLE 11998 12016	further processing
+T233	CONDITION 12017 12033	shall take place
+T234	STATEMENT 11998 12033	further processing shall take place
+T235	NEGATION 11995 12033	no further processing shall take place
+T236	STATEMENT 11962 11990	the message shall be dropped
+T237	AND 11962 12033	the message shall be dropped and no further processing shall take place
+T238	STATEMENT 11924 11961	the receiving device is an end device
+T239	CAUSE 11921 11961	If the receiving device is an end device
+T240	CAUSE_EFFECT_RELATION 11921 12033	If the receiving device is an end device the message shall be dropped and no further processing shall take place
+T241	ROOT_SENTENCE 11921 12034	If the receiving device is an end device the message shall be dropped and no further processing shall take place.
+T242	KEY_C 11776 11778	If
+T243	VARIABLE 11779 11811	security processing of the frame
+T244	CONDITION 11812 11817	fails
+T245	VARIABLE 11822 11831	the frame
+T246	CONDITION 11832 11858	is a network command frame
+T247	VARIABLE 11860 11862	it
+T248	CONDITION 11863 11875	is discarded
+T249	VARIABLE 11883 11901	further processing
+T250	CONDITION 11902 11918	shall take place
+T251	STATEMENT 11883 11918	further processing shall take place
+T252	NEGATION 11880 11918	no further processing shall take place
+T253	STATEMENT 11860 11875	it is discarded
+T254	AND 11860 11918	it is discarded and no further processing shall take place
+T255	STATEMENT 11822 11858	the frame is a network command frame
+T256	STATEMENT 11779 11817	security processing of the frame fails
+T257	AND 11779 11858	security processing of the frame fails and the frame is a network command frame
+T258	CAUSE 11776 11858	If security processing of the frame fails and the frame is a network command frame
+T259	CAUSE_EFFECT_RELATION 11776 11918	If security processing of the frame fails and the frame is a network command frame, it is discarded and no further processing shall take place
+T260	ROOT_SENTENCE 11776 11919	If security processing of the frame fails and the frame is a network command frame, it is discarded and no further processing shall take place.
+T262	KEY_C 1332 1334	If
+T263	VARIABLE 1335 1386	the result code in the Move Channel Response packet
+T264	CONDITION 1387 1399	is “refused”
+T265	VARIABLE 1400 1402	it
+T266	CONDITION 1403 1493	shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T267	STATEMENT 1400 1493	it shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T268	STATEMENT 1335 1399	the result code in the Move Channel Response packet is “refused”
+T269	CAUSE 1332 1399	If the result code in the Move Channel Response packet is “refused”
+T270	CAUSE_EFFECT_RELATION 1332 1493	If the result code in the Move Channel Response packet is “refused” it shall send a Move Channel Confirmation packet with result code “failure” to the other side
+T271	ROOT_SENTENCE 1332 1494	If the result code in the Move Channel Response packet is “refused” it shall send a Move Channel Confirmation packet with result code “failure” to the other side.
+T272	KEY_C 1496 1498	If
+T273	VARIABLE 1499 1503	both
+T274	CONDITION 1504 1515	are success
+T275	KEY_C 1516 1520	then
+T276	VARIABLE 1521 1574	the result code sent in the Move Channel Confirmation
+T277	CONDITION 1575 1591	shall be success
+T278	VARIABLE 1602 1604	it
+T279	CONDITION 1605 1621	shall be failure
+T280	STATEMENT 1602 1621	it shall be failure
+T281	STATEMENT 1521 1591	the result code sent in the Move Channel Confirmation shall be success
+T282	OR 1521 1621	the result code sent in the Move Channel Confirmation shall be success otherwise it shall be failure
+T283	EFFECT 1516 1621	then the result code sent in the Move Channel Confirmation shall be success otherwise it shall be failure
+T284	STATEMENT 1499 1515	both are success
+T285	CAUSE 1496 1515	If both are success
+T286	CAUSE_EFFECT_RELATION 1496 1621	If both are success then the result code sent in the Move Channel Confirmation shall be success otherwise it shall be failure
+T287	ROOT_SENTENCE 1496 1622	If both are success then the result code sent in the Move Channel Confirmation shall be success otherwise it shall be failure.
+T288	KEY_C 1624 1626	If
+T289	VARIABLE 1627 1642	the result sent
+T290	CONDITION 1643 1653	is success
+T291	KEY_C 1654 1658	then
+T292	VARIABLE 1659 1680	the initiating device
+T293	CONDITION 1681 1715	shall listen on the new Controller
+T294	VARIABLE 1726 1728	it
+T295	CONDITION 1729 1763	shall listen on the old Controller
+T296	STATEMENT 1726 1763	it shall listen on the old Controller
+T297	STATEMENT 1659 1715	the initiating device shall listen on the new Controller
+T298	OR 1659 1763	the initiating device shall listen on the new Controller otherwise it shall listen on the old Controller
+T299	EFFECT 1654 1763	then the initiating device shall listen on the new Controller otherwise it shall listen on the old Controller
+T300	STATEMENT 1627 1653	the result sent is success
+T301	CAUSE 1624 1653	If the result sent is success
+T302	CAUSE_EFFECT_RELATION 1624 1763	If the result sent is success then the initiating device shall listen on the new Controller otherwise it shall listen on the old Controller
+T303	ROOT_SENTENCE 1624 1764	If the result sent is success then the initiating device shall listen on the new Controller otherwise it shall listen on the old Controller.
+T304	VARIABLE 1766 1775	LE-frames
+T305	CONDITION 1776 1814	shall only be sent on an L2CAP channel
+T306	KEY_C 1815 1817	if
+T307	VARIABLE 1818 1828	the device
+T308	CONDITION 1829 1888	has a credit count greater than zero for that L2CAP channel
+T309	STATEMENT 1818 1888	the device has a credit count greater than zero for that L2CAP channel
+T310	CAUSE 1815 1888	if the device has a credit count greater than zero for that L2CAP channel
+T311	STATEMENT 1766 1814	LE-frames shall only be sent on an L2CAP channel
+T312	CAUSE_EFFECT_RELATION 1766 1888	LE-frames shall only be sent on an L2CAP channel if the device has a credit count greater than zero for that L2CAP channel
+T313	ROOT_SENTENCE 1766 1889	LE-frames shall only be sent on an L2CAP channel if the device has a credit count greater than zero for that L2CAP channel.
+T314	KEY_C 1891 1893	If
+T315	VARIABLE 1894 1914	a connection request
+T316	CONDITION 1915 1926	is received
+T317	VARIABLE 1931 1939	there is
+T318	CONDITION 1940 1991	insufficient authentication between the two devices
+T319	VARIABLE 1993 2007	the connection
+T320	CONDITION 2008 2099	shall be rejected with a result value of “Connection refused - insufficient authentication”
+T321	STATEMENT 1993 2099	the connection shall be rejected with a result value of “Connection refused - insufficient authentication”
+T322	STATEMENT 1931 1991	there is insufficient authentication between the two devices
+T323	STATEMENT 1894 1926	a connection request is received
+T324	AND 1894 1991	a connection request is received and there is insufficient authentication between the two devices
+T325	CAUSE 1891 1991	If a connection request is received and there is insufficient authentication between the two devices
+T326	ROOT_SENTENCE 1891 2100	If a connection request is received and there is insufficient authentication between the two devices, the connection shall be rejected with a result value of “Connection refused - insufficient authentication”.
+T327	CAUSE_EFFECT_RELATION 1891 2099	If a connection request is received and there is insufficient authentication between the two devices, the connection shall be rejected with a result value of “Connection refused - insufficient authentication”
+T328	KEY_C 2102 2104	If
+T329	VARIABLE 2105 2115	the client
+T330	VARIABLE 2120 2161	an application associated with the client
+T331	CONDITION 2163 2187	decides to use a service
+T332	VARIABLE 2189 2191	it
+T333	CONDITION 2192 2275	opens a separate connection to the service provider in order to utilize the service
+T334	STATEMENT 2189 2275	it opens a separate connection to the service provider in order to utilize the service
+T335	OR 2105 2161	the client, or an application associated with the client
+T336	STATEMENT 2105 2187	the client, or an application associated with the client, decides to use a service
+T337	CAUSE 2102 2187	If the client, or an application associated with the client, decides to use a service
+T338	CAUSE_EFFECT_RELATION 2102 2275	If the client, or an application associated with the client, decides to use a service, it opens a separate connection to the service provider in order to utilize the service
+T339	ROOT_SENTENCE 2102 2276	If the client, or an application associated with the client, decides to use a service, it opens a separate connection to the service provider in order to utilize the service.
+T340	NONE_CAUSAL 2278 2285	However
+T341	VARIABLE 2287 2297	the client
+T342	CONDITION 2298 2328	can use SDP to poll the server
+T343	CONDITION 2333 2375	may infer that the server is not available
+T344	KEY_C 2376 2378	if
+T345	VARIABLE 2379 2381	it
+T346	CONDITION 2392 2412	responds to requests
+T347	NEGATION 2382 2412	no longer responds to requests
+T348	STATEMENT 2379 2412	it no longer responds to requests
+T349	CAUSE 2376 2412	if it no longer responds to requests
+T350	AND 2298 2375	can use SDP to poll the server and may infer that the server is not available
+T351	STATEMENT 2287 2375	the client can use SDP to poll the server and may infer that the server is not available
+T352	CAUSE_EFFECT_RELATION 2287 2412	the client can use SDP to poll the server and may infer that the server is not available if it no longer responds to requests
+T353	ROOT_SENTENCE 2278 2413	However, the client can use SDP to poll the server and may infer that the server is not available if it no longer responds to requests.
+T354	KEY_C 2691 2693	If
+T355	VARIABLE 2694 2721	more than N service records
+T356	CONDITION 2722 2739	match the request
+T357	VARIABLE 2741 2755	the SDP server
+T358	CONDITION 2756 2766	determines
+T359	CONDITION 2767 2833	which matching service record handles to return in the response(s)
+T360	AND 2756 2833	determines which matching service record handles to return in the response(s)
+T361	STATEMENT 2741 2833	the SDP server determines which matching service record handles to return in the response(s)
+T362	STATEMENT 2694 2739	more than N service records match the request
+T363	CAUSE 2691 2739	If more than N service records match the request
+T364	CAUSE_EFFECT_RELATION 2691 2833	If more than N service records match the request, the SDP server determines which matching service record handles to return in the response(s)
+T365	ROOT_SENTENCE 2691 2834	If more than N service records match the request, the SDP server determines which matching service record handles to return in the response(s).
+T366	NONE_CAUSAL 3048 3056	Normally
+T367	KEY_C 3058 3060	if
+T368	VARIABLE 3061 3074	an SDP server
+T369	CONDITION 3075 3102	has relatively few services
+T370	VARIABLE 3104 3123	all of its services
+T371	CONDITION 3124 3163	will be placed in the root browse group
+T372	STATEMENT 3104 3163	all of its services will be placed in the root browse group
+T373	STATEMENT 3061 3102	an SDP server has relatively few services
+T374	CAUSE 3058 3102	if an SDP server has relatively few services
+T375	CAUSE_EFFECT_RELATION 3058 3163	if an SDP server has relatively few services, all of its services will be placed in the root browse group
+T376	ROOT_SENTENCE 3048 3164	Normally, if an SDP server has relatively few services, all of its services will be placed in the root browse group.
+T377	KEY_C 3166 3168	If
+T378	VARIABLE 3169 3189	the current response
+T379	CONDITION 3190 3201	is complete
+T380	VARIABLE 3203 3217	this parameter
+T381	CONDITION 3218 3260	consists of a single byte with the value 0
+T382	STATEMENT 3203 3260	this parameter consists of a single byte with the value 0
+T383	STATEMENT 3169 3201	the current response is complete
+T384	CAUSE 3166 3201	If the current response is complete
+T385	CAUSE_EFFECT_RELATION 3166 3260	If the current response is complete, this parameter consists of a single byte with the value 0
+T386	ROOT_SENTENCE 3166 3261	If the current response is complete, this parameter consists of a single byte with the value 0.
+T387	KEY_C 3263 3265	If
+T388	VARIABLE 3266 3284	a partial response
+T389	CONDITION 3285 3308	is contained in the PDU
+T390	VARIABLE 3310 3341	the ContinuationState parameter
+T391	CONDITION 3342 3423	may be supplied in a subsequent request to retrieve the remainder of the response
+T392	STATEMENT 3310 3423	the ContinuationState parameter may be supplied in a subsequent request to retrieve the remainder of the response
+T393	STATEMENT 3266 3308	a partial response is contained in the PDU
+T394	CAUSE 3263 3308	If a partial response is contained in the PDU
+T395	CAUSE_EFFECT_RELATION 3263 3423	If a partial response is contained in the PDU, the ContinuationState parameter may be supplied in a subsequent request to retrieve the remainder of the response
+T396	ROOT_SENTENCE 3263 3424	If a partial response is contained in the PDU, the ContinuationState parameter may be supplied in a subsequent request to retrieve the remainder of the response.
+T397	VARIABLE 3426 3436	The device
+T398	CONDITION 3437 3476	shall also disconnect the L2CAP channel
+T399	KEY_C 3477 3479	if
+T400	VARIABLE 3480 3482	it
+T401	CONDITION 3483 3576	receives an LE-frame on an L2CAP channel from the peer device that has a credit count of zero
+T402	STATEMENT 3480 3576	it receives an LE-frame on an L2CAP channel from the peer device that has a credit count of zero
+T403	CAUSE 3477 3576	if it receives an LE-frame on an L2CAP channel from the peer device that has a credit count of zero
+T404	STATEMENT 3426 3476	The device shall also disconnect the L2CAP channel
+T405	CAUSE_EFFECT_RELATION 3426 3576	The device shall also disconnect the L2CAP channel if it receives an LE-frame on an L2CAP channel from the peer device that has a credit count of zero
+T406	ROOT_SENTENCE 3426 3577	The device shall also disconnect the L2CAP channel if it receives an LE-frame on an L2CAP channel from the peer device that has a credit count of zero.
+T407	VARIABLE 3579 3581	It
+T408	CONDITION 3582 3627	can function over a reliable packet transport
+T409	CONDITION 3632 3647	even unreliable
+T410	OR 3582 3647	can function over a reliable packet transport (or even unreliable
+T411	STATEMENT 3579 3647	It can function over a reliable packet transport (or even unreliable
+T412	KEY_C 3649 3651	if
+T413	VARIABLE 3652 3662	the client
+T414	CONDITION 3663 3682	implements timeouts
+T415	CONDITION 3687 3716	repeats requests as necessary
+T416	AND 3663 3716	implements timeouts and repeats requests as necessary
+T417	STATEMENT 3652 3716	the client implements timeouts and repeats requests as necessary
+T418	CAUSE 3649 3716	if the client implements timeouts and repeats requests as necessary
+T419	CAUSE_EFFECT_RELATION 3579 3716	It can function over a reliable packet transport (or even unreliable, if the client implements timeouts and repeats requests as necessary
+T420	ROOT_SENTENCE 3579 3718	It can function over a reliable packet transport (or even unreliable, if the client implements timeouts and repeats requests as necessary).
+T421	KEY_C 3720 3722	If
+T422	VARIABLE 3723 3747	the requested attributes
+T423	CONDITION 3748 3773	require more than N bytes
+T424	VARIABLE 3775 3789	the SDP server
+T425	CONDITION 3790 3824	determines how to segment the list
+T426	STATEMENT 3775 3824	the SDP server determines how to segment the list
+T427	STATEMENT 3723 3773	the requested attributes require more than N bytes
+T428	CAUSE 3720 3773	If the requested attributes require more than N bytes
+T429	CAUSE_EFFECT_RELATION 3720 3824	If the requested attributes require more than N bytes, the SDP server determines how to segment the list
+T430	ROOT_SENTENCE 3720 3825	If the requested attributes require more than N bytes, the SDP server determines how to segment the list.
+T431	KEY_C 3827 3829	If
+T432	VARIABLE 3833 3851	continuation state
+T433	CONDITION 3852 3884	is to be provided in the request
+T434	VARIABLE 3886 3887	N
+T435	CONDITION 3888 3905	shall be set to 0
+T436	STATEMENT 3886 3905	N shall be set to 0
+T437	STATEMENT 3833 3884	continuation state is to be provided in the request
+T438	NEGATION 3830 3884	no continuation state is to be provided in the request
+T439	CAUSE 3827 3884	If no continuation state is to be provided in the request
+T440	CAUSE_EFFECT_RELATION 3827 3905	If no continuation state is to be provided in the request, N shall be set to 0
+T441	ROOT_SENTENCE 3827 3906	If no continuation state is to be provided in the request, N shall be set to 0.
+T442	KEY_C 3908 3910	If
+T443	VARIABLE 3911 3935	the requested attributes
+T444	CONDITION 3936 3961	require more than N bytes
+T445	VARIABLE 3963 3977	the SDP server
+T446	CONDITION 3978 4012	determines how to segment the list
+T447	STATEMENT 3963 4012	the SDP server determines how to segment the list
+T448	STATEMENT 3911 3961	the requested attributes require more than N bytes
+T449	CAUSE 3908 3961	If the requested attributes require more than N bytes
+T450	CAUSE_EFFECT_RELATION 3908 4012	If the requested attributes require more than N bytes, the SDP server determines how to segment the list
+T451	ROOT_SENTENCE 3908 4013	If the requested attributes require more than N bytes, the SDP server determines how to segment the list.
+T452	KEY_C 4015 4017	If
+T453	VARIABLE 4018 4038	the current response
+T454	CONDITION 4039 4050	is complete
+T455	VARIABLE 4052 4066	this parameter
+T456	CONDITION 4067 4109	consists of a single byte with the value 0
+T457	STATEMENT 4052 4109	this parameter consists of a single byte with the value 0
+T458	STATEMENT 4018 4050	the current response is complete
+T459	CAUSE 4015 4050	If the current response is complete
+T460	CAUSE_EFFECT_RELATION 4015 4109	If the current response is complete, this parameter consists of a single byte with the value 0
+T461	ROOT_SENTENCE 4015 4110	If the current response is complete, this parameter consists of a single byte with the value 0.
+T462	NONE_CAUSAL 4112 4119	However
+T463	KEY_C 4121 4123	if
+T464	VARIABLE 4124 4140	a service record
+T465	CONDITION 4141 4220	has a service attribute with an attribute ID allocated to a universal attribute
+T466	VARIABLE 4222 4241	the attribute value
+T467	CONDITION 4242 4295	shall conform to the universal attribute’s definition
+T468	STATEMENT 4222 4295	the attribute value shall conform to the universal attribute’s definition
+T469	STATEMENT 4124 4220	a service record has a service attribute with an attribute ID allocated to a universal attribute
+T470	CAUSE 4121 4220	if a service record has a service attribute with an attribute ID allocated to a universal attribute
+T471	CAUSE_EFFECT_RELATION 4121 4295	if a service record has a service attribute with an attribute ID allocated to a universal attribute, the attribute value shall conform to the universal attribute’s definition
+T472	ROOT_SENTENCE 4112 4296	However, if a service record has a service attribute with an attribute ID allocated to a universal attribute, the attribute value shall conform to the universal attribute’s definition.
+T473	VARIABLE 4298 4308	The handle
+T474	CONDITION 4309 4349	used to reference the service on S1 will
+T475	CONDITION 4351 4377	in general, be meaningless
+T476	KEY_C 4378 4380	if
+T477	VARIABLE 4381 4396	presented to S2
+T478	CAUSE 4378 4396	if presented to S2
+T479	AND 4309 4377	used to reference the service on S1 will, in general, be meaningless
+T480	STATEMENT 4298 4377	The handle used to reference the service on S1 will, in general, be meaningless
+T481	CAUSE_EFFECT_RELATION 4298 4396	The handle used to reference the service on S1 will, in general, be meaningless if presented to S2
+T482	ROOT_SENTENCE 4298 4397	The handle used to reference the service on S1 will, in general, be meaningless if presented to S2.
+T483	VARIABLE 4399 4421	This service attribute
+T484	CONDITION 4422 4444	is particularly useful
+T485	KEY_C 4445 4447	if
+T486	VARIABLE 4448 4464	the same service
+T487	CONDITION 4465 4524	is described by service records in more than one SDP server
+T488	STATEMENT 4448 4524	the same service is described by service records in more than one SDP server
+T489	CAUSE 4445 4524	if the same service is described by service records in more than one SDP server
+T490	STATEMENT 4399 4444	This service attribute is particularly useful
+T491	CAUSE_EFFECT_RELATION 4399 4524	This service attribute is particularly useful if the same service is described by service records in more than one SDP server
+T492	ROOT_SENTENCE 4399 4525	This service attribute is particularly useful if the same service is described by service records in more than one SDP server.
+T493	KEY_C 4527 4529	If
+T494	VARIABLE 4530 4556	the ProtocolDescriptorList
+T495	CONDITION 4557 4581	describes a single stack
+T496	KEY_C 4583 4585	it
+T497	CONDITION 4586 4690	takes the form of a data element sequence in which each element of the sequence is a protocol descriptor
+T498	STATEMENT 4583 4690	it takes the form of a data element sequence in which each element of the sequence is a protocol descriptor
+T499	STATEMENT 4530 4581	the ProtocolDescriptorList describes a single stack
+T500	CAUSE 4527 4581	If the ProtocolDescriptorList describes a single stack
+T501	CAUSE_EFFECT_RELATION 4527 4690	If the ProtocolDescriptorList describes a single stack, it takes the form of a data element sequence in which each element of the sequence is a protocol descriptor
+T502	ROOT_SENTENCE 4527 4691	If the ProtocolDescriptorList describes a single stack, it takes the form of a data element sequence in which each element of the sequence is a protocol descriptor.
+T503	KEY_C 4693 4695	If
+T504	VARIABLE 4696 4743	the AdditionalProtocolDescriptorLists attribute
+T505	CONDITION 4744 4775	is included in a service record
+T506	VARIABLE 4777 4813	the ProtocolDescriptorList attribute
+T507	CONDITION 4814 4830	must be included
+T508	STATEMENT 4777 4830	the ProtocolDescriptorList attribute must be included
+T509	STATEMENT 4696 4775	the AdditionalProtocolDescriptorLists attribute is included in a service record
+T510	CAUSE 4693 4775	If the AdditionalProtocolDescriptorLists attribute is included in a service record
+T511	CAUSE_EFFECT_RELATION 4693 4830	If the AdditionalProtocolDescriptorLists attribute is included in a service record, the ProtocolDescriptorList attribute must be included
+T512	ROOT_SENTENCE 4693 4831	If the AdditionalProtocolDescriptorLists attribute is included in a service record, the ProtocolDescriptorList attribute must be included.
+T513	KEY_C 4833 4835	If
+T514	VARIABLE 4836 4856	incompatible changes
+T515	CONDITION 4857 4872	are made to SDP
+T516	VARIABLE 4874 4898	the major version number
+T517	CONDITION 4899 4918	will be incremented
+T518	STATEMENT 4874 4918	the major version number will be incremented
+T519	STATEMENT 4836 4872	incompatible changes are made to SDP
+T520	CAUSE 4833 4872	If incompatible changes are made to SDP
+T521	CAUSE_EFFECT_RELATION 4833 4918	If incompatible changes are made to SDP, the major version number will be incremented
+T522	ROOT_SENTENCE 4833 4919	If incompatible changes are made to SDP, the major version number will be incremented.
+T523	KEY_C 4921 4923	If
+T524	VARIABLE 5065 5102	The attributes listed in this section
+T525	CONDITION 5103 5117	are only valid
+T526	KEY_C 5118 5120	if
+T527	VARIABLE 5121 5153	the ServiceClassIDList attribute
+T528	CONDITION 5154 5202	contains the BrowseGroupDescriptorServiceClassID
+T529	STATEMENT 5121 5202	the ServiceClassIDList attribute contains the BrowseGroupDescriptorServiceClassID
+T530	CAUSE 5118 5202	if the ServiceClassIDList attribute contains the BrowseGroupDescriptorServiceClassID
+T531	STATEMENT 5065 5117	The attributes listed in this section are only valid
+T532	CAUSE_EFFECT_RELATION 5065 5202	The attributes listed in this section are only valid if the ServiceClassIDList attribute contains the BrowseGroupDescriptorServiceClassID
+T533	ROOT_SENTENCE 5065 5203	The attributes listed in this section are only valid if the ServiceClassIDList attribute contains the BrowseGroupDescriptorServiceClassID.
+T534	KEY_C 5222 5224	if
+T535	VARIABLE 5225 5234	a feature
+T536	CONDITION 5235 5242	is used
+T537	VARIABLE 5244 5246	it
+T538	CONDITION 5247 5276	is used in a specified manner
+T539	STATEMENT 5244 5276	it is used in a specified manner
+T540	STATEMENT 5225 5242	a feature is used
+T541	CAUSE 5222 5242	if a feature is used
+T542	CAUSE_EFFECT_RELATION 5222 5276	if a feature is used, it is used in a specified manner
+T543	VARIABLE 5205 5209	This
+T544	CONDITION 5210 5220	means that
+T545	NONE_CAUSAL 5205 5220	This means that
+T546	ROOT_SENTENCE 5205 5277	This means that, if a feature is used, it is used in a specified manner.
+T547	KEY_C 5279 5281	If
+T548	VARIABLE 5282 5294	the acceptor
+T549	CONDITION 5295 5348	operates according to several profiles simultaneously
+T550	VARIABLE 5350 5362	this profile
+T551	CONDITION 5363 5414	describes generic mechanisms for how to handle this
+T552	STATEMENT 5350 5414	this profile describes generic mechanisms for how to handle this
+T553	STATEMENT 5282 5348	the acceptor operates according to several profiles simultaneously
+T554	CAUSE 5279 5348	If the acceptor operates according to several profiles simultaneously
+T555	CAUSE_EFFECT_RELATION 5279 5414	If the acceptor operates according to several profiles simultaneously, this profile describes generic mechanisms for how to handle this
+T556	ROOT_SENTENCE 5279 5415	If the acceptor operates according to several profiles simultaneously, this profile describes generic mechanisms for how to handle this.
+T557	VARIABLE 5417 5425	A device
+T558	CONDITION 5426 5472	may operate in multiple GAP roles concurrently
+T559	KEY_C 5473 5475	if
+T560	VARIABLE 5476 5503	supported by the Controller
+T561	CAUSE 5473 5503	if supported by the Controller
+T562	STATEMENT 5417 5472	A device may operate in multiple GAP roles concurrently
+T563	CAUSE_EFFECT_RELATION 5417 5503	A device may operate in multiple GAP roles concurrently if supported by the Controller
+T564	ROOT_SENTENCE 5417 5504	A device may operate in multiple GAP roles concurrently if supported by the Controller.
+T565	KEY_C 5506 5508	If
+T566	VARIABLE 5509 5524	a remote device
+T567	CONDITION 5525 5557	has limited display capabilities
+T568	VARIABLE 5559 5561	it
+T569	CONDITION 5562 5598	may use only the first 20 characters
+T570	STATEMENT 5559 5598	it may use only the first 20 characters
+T571	STATEMENT 5509 5557	a remote device has limited display capabilities
+T572	CAUSE 5506 5557	If a remote device has limited display capabilities
+T573	CAUSE_EFFECT_RELATION 5506 5598	If a remote device has limited display capabilities, it may use only the first 20 characters
+T574	ROOT_SENTENCE 5506 5599	If a remote device has limited display capabilities, it may use only the first 20 characters.
+T575	KEY_C 5601 5603	If
+T576	VARIABLE 5604 5611	the PIN
+T577	CONDITION 5612 5639	contains any decimal digits
+T578	VARIABLE 5640 5645	these
+T579	CONDITION 5646 5728	shall be encoded using the Unicode Basic Latin characters (i.e., U+0030 to U+0039)
+T580	STATEMENT 5640 5728	these shall be encoded using the Unicode Basic Latin characters (i.e., U+0030 to U+0039)
+T581	STATEMENT 5604 5639	the PIN contains any decimal digits
+T582	CAUSE 5601 5639	If the PIN contains any decimal digits
+T583	CAUSE_EFFECT_RELATION 5601 5728	If the PIN contains any decimal digits these shall be encoded using the Unicode Basic Latin characters (i.e., U+0030 to U+0039)
+T584	ROOT_SENTENCE 5601 5729	If the PIN contains any decimal digits these shall be encoded using the Unicode Basic Latin characters (i.e., U+0030 to U+0039).
+T585	KEY_C 5731 5733	If
+T586	VARIABLE 5734 5742	a string
+T587	CONDITION 5743 5755	is displayed
+T588	VARIABLE 5757 5768	this string
+T589	CONDITION 5769 5843	should be translated into the language selected by the user for the device
+T590	STATEMENT 5757 5843	this string should be translated into the language selected by the user for the device
+T591	STATEMENT 5734 5755	a string is displayed
+T592	CAUSE 5731 5755	If a string is displayed
+T593	CAUSE_EFFECT_RELATION 5731 5843	If a string is displayed, this string should be translated into the language selected by the user for the device
+T594	ROOT_SENTENCE 5731 5844	If a string is displayed, this string should be translated into the language selected by the user for the device.
+T595	KEY_C 5846 5848	If
+T596	VARIABLE 5849 5874	limited discoverable mode
+T597	CONDITION 5875 5887	is supported
+T598	VARIABLE 5889 5910	non-discoverable mode
+T599	CONDITION 5911 5923	is mandatory
+T600	STATEMENT 5889 5923	non-discoverable mode is mandatory
+T601	STATEMENT 5849 5887	limited discoverable mode is supported
+T602	CAUSE 5846 5887	If limited discoverable mode is supported
+T603	NONE_CAUSAL 5925 5943	otherwise optional
+T604	CAUSE_EFFECT_RELATION 5846 5923	If limited discoverable mode is supported, non-discoverable mode is mandatory
+T605	ROOT_SENTENCE 5846 5944	If limited discoverable mode is supported, non-discoverable mode is mandatory, otherwise optional.
+T606	KEY_C 5946 5948	If
+T607	VARIABLE 5949 5977	two UUIDs of differing sizes
+T608	CONDITION 5978 5996	are to be compared
+T609	VARIABLE 5998 6014	the shorter UUID
+T610	CONDITION 6015 6076	must be converted to the longer UUID format before comparison
+T611	STATEMENT 5998 6076	the shorter UUID must be converted to the longer UUID format before comparison
+T612	STATEMENT 5949 5996	two UUIDs of differing sizes are to be compared
+T613	CAUSE 5946 5996	If two UUIDs of differing sizes are to be compared
+T614	CAUSE_EFFECT_RELATION 5946 6076	If two UUIDs of differing sizes are to be compared, the shorter UUID must be converted to the longer UUID format before comparison
+T615	ROOT_SENTENCE 5946 6077	If two UUIDs of differing sizes are to be compared, the shorter UUID must be converted to the longer UUID format before comparison.
+T616	VARIABLE 6079 6105	The service search pattern
+T617	CONDITION 6106 6113	matches
+T618	KEY_C 6114 6116	if
+T619	VARIABLE 6117 6129	the UUIDs it
+T620	CONDITION 6130 6212	contains constitute a subset of the UUIDs in the service record’s attribute values
+T621	STATEMENT 6117 6212	the UUIDs it contains constitute a subset of the UUIDs in the service record’s attribute values
+T622	CAUSE 6114 6212	if the UUIDs it contains constitute a subset of the UUIDs in the service record’s attribute values
+T623	STATEMENT 6079 6113	The service search pattern matches
+T624	CAUSE_EFFECT_RELATION 6079 6212	The service search pattern matches if the UUIDs it contains constitute a subset of the UUIDs in the service record’s attribute values
+T625	ROOT_SENTENCE 6079 6213	The service search pattern matches if the UUIDs it contains constitute a subset of the UUIDs in the service record’s attribute values.
+T626	KEY_C 6215 6217	If
+T627	VARIABLE 6218 6238	the current response
+T628	CONDITION 6239 6250	is complete
+T629	VARIABLE 6252 6266	this parameter
+T630	CONDITION 6267 6309	consists of a single byte with the value 0
+T631	STATEMENT 6252 6309	this parameter consists of a single byte with the value 0
+T632	STATEMENT 6218 6250	the current response is complete
+T633	CAUSE 6215 6250	If the current response is complete
+T634	CAUSE_EFFECT_RELATION 6215 6309	If the current response is complete, this parameter consists of a single byte with the value 0
+T635	ROOT_SENTENCE 6215 6310	If the current response is complete, this parameter consists of a single byte with the value 0.
+T636	KEY_C 6312 6314	If
+T637	VARIABLE 6315 6322	pairing
+T638	CONDITION 6332 6339	succeed
+T639	NEGATION 6323 6339	does not succeed
+T640	STATEMENT 6315 6339	pairing does not succeed
+T641	CAUSE 6312 6339	If pairing does not succeed
+T642	VARIABLE 6341 6357	the local device
+T643	CONDITION 6368 6404	send a channel establishment request
+T644	NEGATION 6358 6404	shall not send a channel establishment request
+T645	STATEMENT 6341 6404	the local device shall not send a channel establishment request
+T646	CAUSE_EFFECT_RELATION 6312 6404	If pairing does not succeed, the local device shall not send a channel establishment request
+T647	ROOT_SENTENCE 6312 6405	If pairing does not succeed, the local device shall not send a channel establishment request.
+T648	KEY_C 6407 6409	If
+T649	VARIABLE 6410 6444	the channel establishment protocol
+T650	CONDITION 6445 6453	is L2CAP
+T651	STATEMENT 6410 6453	the channel establishment protocol is L2CAP
+T652	CAUSE 6407 6453	If the channel establishment protocol is L2CAP
+T653	KEY_C 6455 6459	then
+T654	VARIABLE 6460 6520	the result code 0x0003 (connection refused - security block)
+T655	CONDITION 6521 6565	shall be sent in the L2CAP_ConnectRsp signal
+T656	STATEMENT 6460 6565	the result code 0x0003 (connection refused - security block) shall be sent in the L2CAP_ConnectRsp signal
+T657	EFFECT 6455 6565	then the result code 0x0003 (connection refused - security block) shall be sent in the L2CAP_ConnectRsp signal
+T658	CAUSE_EFFECT_RELATION 6407 6565	If the channel establishment protocol is L2CAP, then the result code 0x0003 (connection refused - security block) shall be sent in the L2CAP_ConnectRsp signal
+T659	ROOT_SENTENCE 6407 6566	If the channel establishment protocol is L2CAP, then the result code 0x0003 (connection refused - security block) shall be sent in the L2CAP_ConnectRsp signal.
+T660	KEY_C 6568 6570	If
+T661	VARIABLE 6571 6585	authentication
+T662	CONDITION 6595 6602	succeed
+T663	NEGATION 6586 6602	does not succeed
+T664	STATEMENT 6571 6602	authentication does not succeed
+T665	CAUSE 6568 6602	If authentication does not succeed
+T666	KEY_C 6604 6608	then
+T667	VARIABLE 6609 6625	the local device
+T668	CONDITION 6636 6677	send a channel establishment confirmation
+T669	NEGATION 6626 6677	shall not send a channel establishment confirmation
+T670	STATEMENT 6609 6677	the local device shall not send a channel establishment confirmation
+T671	EFFECT 6604 6677	then the local device shall not send a channel establishment confirmation
+T672	CAUSE_EFFECT_RELATION 6568 6677	If authentication does not succeed, then the local device shall not send a channel establishment confirmation
+T673	ROOT_SENTENCE 6568 6678	If authentication does not succeed, then the local device shall not send a channel establishment confirmation.
+T674	KEY_C 6680 6682	If
+T675	VARIABLE 6683 6696	either device
+T676	CONDITION 6697 6733	has received OOB authentication data
+T677	KEY_C 6734 6738	then
+T678	VARIABLE 6739 6764	the OOB association model
+T679	CONDITION 6765 6772	is used
+T680	STATEMENT 6739 6772	the OOB association model is used
+T681	EFFECT 6734 6772	then the OOB association model is used
+T682	STATEMENT 6683 6733	either device has received OOB authentication data
+T683	CAUSE 6680 6733	If either device has received OOB authentication data
+T684	CAUSE_EFFECT_RELATION 6680 6772	If either device has received OOB authentication data then the OOB association model is used
+T685	ROOT_SENTENCE 6680 6773	If either device has received OOB authentication data then the OOB association model is used.
+T686	VARIABLE 7077 7108	A previously generated link key
+T687	CONDITION 7109 7135	is considered “sufficient”
+T688	KEY_C 7136 7138	if
+T689	VARIABLE 7139 7156	the link key type
+T690	CONDITION 7157 7196	is of the type required for the service
+T691	CONDITION 7201 7221	of a higher strength
+T692	OR 7157 7221	is of the type required for the service, or of a higher strength
+T693	STATEMENT 7139 7221	the link key type is of the type required for the service, or of a higher strength
+T694	CAUSE 7136 7221	if the link key type is of the type required for the service, or of a higher strength
+T695	STATEMENT 7077 7135	A previously generated link key is considered “sufficient”
+T696	CAUSE_EFFECT_RELATION 7077 7221	A previously generated link key is considered “sufficient” if the link key type is of the type required for the service, or of a higher strength
+T697	ROOT_SENTENCE 7077 7222	A previously generated link key is considered “sufficient” if the link key type is of the type required for the service, or of a higher strength.
+T698	VARIABLE 7224 7234	This field
+T699	CONDITION 7235 7256	shall only be present
+T700	KEY_C 7257 7259	if
+T701	VARIABLE 7260 7326	the originator IEEE address sub-field of the command options field
+T702	CONDITION 7327 7343	has a value of 1
+T703	STATEMENT 7260 7343	the originator IEEE address sub-field of the command options field has a value of 1
+T704	CAUSE 7257 7343	if the originator IEEE address sub-field of the command options field has a value of 1
+T705	STATEMENT 7224 7256	This field shall only be present
+T706	CAUSE_EFFECT_RELATION 7224 7343	This field shall only be present if the originator IEEE address sub-field of the command options field has a value of 1
+T707	ROOT_SENTENCE 7224 7344	This field shall only be present if the originator IEEE address sub-field of the command options field has a value of 1.
+T708	VARIABLE 7346 7370	The transmission options
+T709	CONDITION 7381 7414	be set to require acknowledgement
+T710	NEGATION 7371 7414	shall not be set to require acknowledgement
+T711	STATEMENT 7346 7414	The transmission options shall not be set to require acknowledgement
+T712	KEY_C 7415 7417	if
+T713	VARIABLE 7418 7445	the destination MAC address
+T714	CONDITION 7446 7477	is the broadcast address 0xffff
+T715	STATEMENT 7418 7477	the destination MAC address is the broadcast address 0xffff
+T716	CAUSE 7415 7477	if the destination MAC address is the broadcast address 0xffff
+T717	CAUSE_EFFECT_RELATION 7346 7477	The transmission options shall not be set to require acknowledgement if the destination MAC address is the broadcast address 0xffff
+T718	ROOT_SENTENCE 7346 7478	The transmission options shall not be set to require acknowledgement if the destination MAC address is the broadcast address 0xffff.
+T723	KEY_C 8211 8213	If
+T724	VARIABLE 8214 8241	the value of this sub-field
+T725	CONDITION 8242 8246	is 1
+T726	VARIABLE 8248 8298	the device that is leaving from its current parent
+T727	CONDITION 8299 8322	will rejoin the network
+T728	STATEMENT 8248 8322	the device that is leaving from its current parent will rejoin the network
+T729	STATEMENT 8214 8246	the value of this sub-field is 1
+T730	CAUSE 8211 8246	If the value of this sub-field is 1
+T731	CAUSE_EFFECT_RELATION 8211 8322	If the value of this sub-field is 1, the device that is leaving from its current parent will rejoin the network
+T732	ROOT_SENTENCE 8211 8323	If the value of this sub-field is 1, the device that is leaving from its current parent will rejoin the network.
+T733	KEY_C 8325 8327	If
+T734	VARIABLE 8328 8355	the value of this sub-field
+T735	CONDITION 8356 8360	is 0
+T736	VARIABLE 8362 8372	the device
+T737	CONDITION 8382 8402	rejoin the net- work
+T738	NEGATION 8373 8402	will not rejoin the net- work
+T739	STATEMENT 8362 8402	the device will not rejoin the net- work
+T740	STATEMENT 8328 8360	the value of this sub-field is 0
+T741	CAUSE 8325 8360	If the value of this sub-field is 0
+T742	CAUSE_EFFECT_RELATION 8325 8402	If the value of this sub-field is 0, the device will not rejoin the net- work
+T743	ROOT_SENTENCE 8325 8403	If the value of this sub-field is 0, the device will not rejoin the net- work.
+T744	KEY_C 8405 8407	If
+T745	VARIABLE 8408 8435	the value of this sub-field
+T746	CONDITION 8436 8440	is 1
+T747	KEY_C 8442 8446	then
+T748	VARIABLE 8447 8470	the leave command frame
+T749	CONDITION 8471 8523	is a request for another device to leave the network
+T750	STATEMENT 8447 8523	the leave command frame is a request for another device to leave the network
+T751	EFFECT 8442 8523	then the leave command frame is a request for another device to leave the network
+T752	STATEMENT 8408 8440	the value of this sub-field is 1
+T753	CAUSE 8405 8440	If the value of this sub-field is 1
+T754	CAUSE_EFFECT_RELATION 8405 8523	If the value of this sub-field is 1, then the leave command frame is a request for another device to leave the network
+T755	ROOT_SENTENCE 8405 8524	If the value of this sub-field is 1, then the leave command frame is a request for another device to leave the network.
+T756	KEY_C 8526 8528	If
+T757	VARIABLE 8529 8556	the value of this sub-field
+T758	CONDITION 8557 8561	is 0
+T759	STATEMENT 8529 8561	the value of this sub-field is 0
+T760	KEY_C 8563 8567	then
+T761	VARIABLE 8568 8593	the leave com- mand frame
+T762	CONDITION 8594 8610	is an indication
+T763	VARIABLE 8616 8634	the sending device
+T764	CONDITION 8635 8661	plans to leave the network
+T765	STATEMENT 8616 8661	the sending device plans to leave the network
+T766	EFFECT 8611 8661	that the sending device plans to leave the network
+T767	STATEMENT 8568 8610	the leave com- mand frame is an indication
+T768	EFFECT 8563 8610	then the leave com- mand frame is an indication
+T769	AND 8563 8661	then the leave com- mand frame is an indication that the sending device plans to leave the network
+T770	CAUSE 8526 8561	If the value of this sub-field is 0
+T771	CAUSE_EFFECT_RELATION 8526 8661	If the value of this sub-field is 0, then the leave com- mand frame is an indication that the sending device plans to leave the network
+T772	ROOT_SENTENCE 8526 8662	If the value of this sub-field is 0, then the leave com- mand frame is an indication that the sending device plans to leave the network.
+T773	KEY_C 8664 8666	If
+T774	VARIABLE 8667 8683	the local device
+T775	CONDITION 8684 8706	knows the IEEE address
+T776	KEY_C 8707 8711	then
+T777	VARIABLE 8712 8721	the field
+T778	CONDITION 8722 8739	shall be set to 1
+T779	VARIABLE 8744 8780	the destination IEEE ad- dress field
+T780	CONDITION 8781 8797	shall be present
+T781	STATEMENT 8712 8739	the field shall be set to 1
+T782	STATEMENT 8744 8797	the destination IEEE ad- dress field shall be present
+T783	AND 8712 8797	the field shall be set to 1 and the destination IEEE ad- dress field shall be present
+T784	EFFECT 8707 8797	then the field shall be set to 1 and the destination IEEE ad- dress field shall be present
+T785	STATEMENT 8667 8706	the local device knows the IEEE address
+T786	CAUSE 8664 8706	If the local device knows the IEEE address
+T787	CAUSE_EFFECT_RELATION 8664 8797	If the local device knows the IEEE address then the field shall be set to 1 and the destination IEEE ad- dress field shall be present
+T788	ROOT_SENTENCE 8664 8798	If the local device knows the IEEE address then the field shall be set to 1 and the destination IEEE ad- dress field shall be present.
+T789	KEY_C 8800 8802	If
+T790	VARIABLE 8803 8819	the route record
+T791	CONDITION 8820 8935	is being initiated as a result of the relaying of a data frame on behalf of one of the device’s end device children
+T792	VARIABLE 8937 8958	the initiating device
+T793	CONDITION 8959 9021	will initialize this field with its own 16-bit network address
+T794	STATEMENT 8937 9021	the initiating device will initialize this field with its own 16-bit network address
+T795	STATEMENT 8803 8935	the route record is being initiated as a result of the relaying of a data frame on behalf of one of the device’s end device children
+T796	CAUSE 8800 8935	If the route record is being initiated as a result of the relaying of a data frame on behalf of one of the device’s end device children
+T797	ROOT_SENTENCE 8800 9022	If the route record is being initiated as a result of the relaying of a data frame on behalf of one of the device’s end device children, the initiating device will initialize this field with its own 16-bit network address.
+T798	CAUSE_EFFECT_RELATION 8800 9021	If the route record is being initiated as a result of the relaying of a data frame on behalf of one of the device’s end device children, the initiating device will initialize this field with its own 16-bit network address
+T799	VARIABLE 9182 9207	The first frame sub-field
+T800	CONDITION 9208 9219	is set to 1
+T801	KEY_C 9220 9222	if
+T802	VARIABLE 9223 9227	this
+T803	CONDITION 9228 9274	is the first frame of the sender's link status
+T804	STATEMENT 9223 9274	this is the first frame of the sender's link status
+T805	CAUSE 9220 9274	if this is the first frame of the sender's link status
+T806	STATEMENT 9182 9219	The first frame sub-field is set to 1
+T807	CAUSE_EFFECT_RELATION 9182 9274	The first frame sub-field is set to 1 if this is the first frame of the sender's link status
+T808	ROOT_SENTENCE 9182 9275	The first frame sub-field is set to 1 if this is the first frame of the sender's link status.
+T809	KEY_C 9478 9480	If
+T810	VARIABLE 9481 9501	all router neighbors
+T811	CONDITION 9509 9530	fit in a single frame
+T812	NEGATION 9502 9530	do not fit in a single frame
+T813	STATEMENT 9481 9530	all router neighbors do not fit in a single frame
+T814	CAUSE 9478 9530	If all router neighbors do not fit in a single frame
+T815	VARIABLE 9532 9547	multiple frames
+T816	CONDITION 9548 9556	are sent
+T817	STATEMENT 9532 9556	multiple frames are sent
+T818	CAUSE_EFFECT_RELATION 9478 9556	If all router neighbors do not fit in a single frame, multiple frames are sent
+T819	ROOT_SENTENCE 9478 9557	If all router neighbors do not fit in a single frame, multiple frames are sent.
+T820	VARIABLE 9559 9624	The destination IEEE address sub-field of the frame control field
+T821	CONDITION 9625 9642	shall be set to 1
+T822	VARIABLE 9648 9682	the destination IEEE address field
+T823	CONDITION 9683 9741	shall be set to the IEEE address of the prospective parent
+T824	KEY_C 9743 9745	if
+T825	VARIABLE 9746 9758	this address
+T826	CONDITION 9759 9767	is known
+T827	STATEMENT 9746 9767	this address is known
+T828	CAUSE 9743 9767	if this address is known
+T829	STATEMENT 9559 9642	The destination IEEE address sub-field of the frame control field shall be set to 1
+T830	STATEMENT 9648 9741	the destination IEEE address field shall be set to the IEEE address of the prospective parent
+T831	AND 9559 9741	The destination IEEE address sub-field of the frame control field shall be set to 1, and the destination IEEE address field shall be set to the IEEE address of the prospective parent
+T832	CAUSE_EFFECT_RELATION 9559 9767	The destination IEEE address sub-field of the frame control field shall be set to 1, and the destination IEEE address field shall be set to the IEEE address of the prospective parent, if this address is known
+T833	ROOT_SENTENCE 9559 9768	The destination IEEE address sub-field of the frame control field shall be set to 1, and the destination IEEE address field shall be set to the IEEE address of the prospective parent, if this address is known.
+T834	KEY_C 9770 9772	If
+T835	VARIABLE 9773 9825	the value of the Report Command Identifier sub-field
+T836	CONDITION 9826 9868	indicates a PAN identifier conflict report
+T837	KEY_C 9869 9873	then
+T838	VARIABLE 9874 9902	the Report Information field
+T839	CONDITION 9903 9944	will have the format shown in Figure 3.27
+T840	STATEMENT 9874 9944	the Report Information field will have the format shown in Figure 3.27
+T841	EFFECT 9869 9944	then the Report Information field will have the format shown in Figure 3.27
+T842	STATEMENT 9773 9868	the value of the Report Command Identifier sub-field indicates a PAN identifier conflict report
+T843	CAUSE 9770 9868	If the value of the Report Command Identifier sub-field indicates a PAN identifier conflict report
+T844	CAUSE_EFFECT_RELATION 9770 9944	If the value of the Report Command Identifier sub-field indicates a PAN identifier conflict report then the Report Information field will have the format shown in Figure 3.27
+T845	ROOT_SENTENCE 9770 9945	If the value of the Report Command Identifier sub-field indicates a PAN identifier conflict report then the Report Information field will have the format shown in Figure 3.27.
+T846	VARIABLE 9947 9951	This
+T847	CONDITION 9952 10031	allows the parent the ability to delete the child entry from the neighbor table
+T848	KEY_C 10032 10034	if
+T849	VARIABLE 10035 10044	the child
+T850	CONDITION 10053 10113	communicated with the parent in the specified amount of time
+T851	NEGATION 10045 10113	has not communicated with the parent in the specified amount of time
+T852	STATEMENT 10035 10113	the child has not communicated with the parent in the specified amount of time
+T853	CAUSE 10032 10113	if the child has not communicated with the parent in the specified amount of time
+T854	STATEMENT 9947 10031	This allows the parent the ability to delete the child entry from the neighbor table
+T855	CAUSE_EFFECT_RELATION 9947 10113	This allows the parent the ability to delete the child entry from the neighbor table if the child has not communicated with the parent in the specified amount of time
+T856	ROOT_SENTENCE 9947 10114	This allows the parent the ability to delete the child entry from the neighbor table if the child has not communicated with the parent in the specified amount of time.
+T857	VARIABLE 10116 10125	This scan
+T858	CONDITION 10133 10142	necessary
+T859	KEY_C 10143 10145	if
+T860	VARIABLE 10146 10154	there is
+T861	CONDITION 10155 10181	only one channel specified
+T862	STATEMENT 10146 10181	there is only one channel specified
+T863	CAUSE 10143 10181	if there is only one channel specified
+T864	NEGATION 10126 10142	is not necessary
+T865	STATEMENT 10116 10142	This scan is not necessary
+T866	CAUSE_EFFECT_RELATION 10116 10181	This scan is not necessary if there is only one channel specified
+T867	ROOT_SENTENCE 10116 10182	This scan is not necessary if there is only one channel specified.
+T868	KEY_C 10184 10186	If
+T869	VARIABLE 10190 10206	suitable channel
+T870	CONDITION 10207 10215	is found
+T871	STATEMENT 10190 10215	suitable channel is found
+T872	NEGATION 10187 10215	no suitable channel is found
+T873	CAUSE 10184 10215	If no suitable channel is found
+T874	VARIABLE 10217 10225	the NLME
+T875	CONDITION 10226 10255	shall terminate the procedure
+T876	CONDITION 10260 10311	notify the next higher layer of the startup failure
+T877	AND 10226 10311	shall terminate the procedure and notify the next higher layer of the startup failure
+T878	STATEMENT 10217 10311	the NLME shall terminate the procedure and notify the next higher layer of the startup failure
+T879	CAUSE_EFFECT_RELATION 10184 10311	If no suitable channel is found, the NLME shall terminate the procedure and notify the next higher layer of the startup failure
+T880	ROOT_SENTENCE 10184 10312	If no suitable channel is found, the NLME shall terminate the procedure and notify the next higher layer of the startup failure.
+T881	KEY_C 10787 10789	If
+T882	VARIABLE 10790 10817	the RejoinNetwork parameter
+T883	CONDITION 10818 10825	is 0x00
+T884	VARIABLE 10830 10856	the JoinAsRouter parameter
+T885	CONDITION 10857 10871	is set to TRUE
+T886	VARIABLE 10873 10883	the device
+T887	CONDITION 10884 10931	will function as a ZigBee router in the network
+T888	STATEMENT 10873 10931	the device will function as a ZigBee router in the network
+T889	STATEMENT 10830 10871	the JoinAsRouter parameter is set to TRUE
+T890	STATEMENT 10790 10825	the RejoinNetwork parameter is 0x00
+T891	AND 10790 10871	the RejoinNetwork parameter is 0x00 and the JoinAsRouter parameter is set to TRUE
+T892	CAUSE 10787 10871	If the RejoinNetwork parameter is 0x00 and the JoinAsRouter parameter is set to TRUE
+T893	CAUSE_EFFECT_RELATION 10787 10931	If the RejoinNetwork parameter is 0x00 and the JoinAsRouter parameter is set to TRUE, the device will function as a ZigBee router in the network
+T894	ROOT_SENTENCE 10787 10932	If the RejoinNetwork parameter is 0x00 and the JoinAsRouter parameter is set to TRUE, the device will function as a ZigBee router in the network.
+T895	KEY_C 10934 10936	If
+T896	VARIABLE 10937 10956	the attempt to join
+T897	CONDITION 10957 10973	was unsuccessful
+T898	VARIABLE 10975 10983	the NLME
+T899	CONDITION 10984 11053	shall attempt to find another suitable parent from the neighbor table
+T900	STATEMENT 10975 11053	the NLME shall attempt to find another suitable parent from the neighbor table
+T901	STATEMENT 10937 10973	the attempt to join was unsuccessful
+T902	CAUSE 10934 10973	If the attempt to join was unsuccessful
+T903	CAUSE_EFFECT_RELATION 10934 11053	If the attempt to join was unsuccessful, the NLME shall attempt to find another suitable parent from the neighbor table
+T904	ROOT_SENTENCE 10934 11054	If the attempt to join was unsuccessful, the NLME shall attempt to find another suitable parent from the neighbor table.
+T719	VARIABLE 4924 4938	this attribute
+T720	CONDITION 4939 4945	exists
+T721	VARIABLE 4947 4956	its value
+T722	CONDITION 4957 4973	shall be changed
+T905	KEY_C 4974 4978	when
+T906	VARIABLE 4979 5011	any of the other service records
+T907	CONDITION 5012 5024	are added to
+T908	CONDITION 5028 5062	deleted from the server's database
+T909	OR 5012 5062	are added to or deleted from the server's database
+T910	STATEMENT 4979 5062	any of the other service records are added to or deleted from the server's database
+T911	CAUSE 4974 5062	when any of the other service records are added to or deleted from the server's database
+T912	STATEMENT 4947 4973	its value shall be changed
+T913	STATEMENT 4924 4945	this attribute exists
+T914	CAUSE_EFFECT_RELATION 4947 5062	its value shall be changed when any of the other service records are added to or deleted from the server's database
+T915	CAUSE 4921 4945	If this attribute exists
+T916	CAUSE_EFFECT_RELATION 4921 5062	If this attribute exists, its value shall be changed when any of the other service records are added to or deleted from the server's database
+T917	ROOT_SENTENCE 4921 5063	If this attribute exists, its value shall be changed when any of the other service records are added to or deleted from the server's database.

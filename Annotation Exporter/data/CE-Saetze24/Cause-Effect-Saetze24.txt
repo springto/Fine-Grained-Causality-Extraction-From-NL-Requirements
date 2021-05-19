@@ -1,0 +1,1013 @@
+T1	VARIABLE 0 22	Some open site testing
+T2	CONDITION 23 38	may be feasible
+T3	KEY_C 39 41	if
+T4	VARIABLE 42 64	prior FCC coordination
+T5	CONDITION 65 80	is accomplished
+T6	STATEMENT 42 80	prior FCC coordination is accomplished
+T7	CAUSE 39 80	if prior FCC coordination is accomplished
+T8	STATEMENT 0 38	Some open site testing may be feasible
+T9	CAUSE_EFFECT_RELATION 0 80	Some open site testing may be feasible if prior FCC coordination is accomplished
+T10	ROOT_SENTENCE 0 81	Some open site testing may be feasible if prior FCC coordination is accomplished.
+T11	KEY_C 83 85	If
+T12	VARIABLE 86 118	the User Location Information IE
+T13	CONDITION 119 182	is included in the PDU SESSION RESOURCE MODIFY RESPONSE message
+T14	VARIABLE 184 191	the AMF
+T15	CONDITION 192 251	shall handle this information as specified in TS 23.501 [9]
+T16	STATEMENT 184 251	the AMF shall handle this information as specified in TS 23.501 [9]
+T17	STATEMENT 86 182	the User Location Information IE is included in the PDU SESSION RESOURCE MODIFY RESPONSE message
+T18	CAUSE 83 182	If the User Location Information IE is included in the PDU SESSION RESOURCE MODIFY RESPONSE message
+T19	CAUSE_EFFECT_RELATION 83 251	If the User Location Information IE is included in the PDU SESSION RESOURCE MODIFY RESPONSE message, the AMF shall handle this information as specified in TS 23.501 [9]
+T20	ROOT_SENTENCE 83 252	If the User Location Information IE is included in the PDU SESSION RESOURCE MODIFY RESPONSE message, the AMF shall handle this information as specified in TS 23.501 [9].
+T21	KEY_C 254 256	If
+T22	VARIABLE 257 289	the User Location Information IE
+T23	CONDITION 290 344	is included in the PDU SESSION RESOURCE NOTIFY message
+T24	VARIABLE 346 353	the AMF
+T25	CONDITION 354 413	shall handle this information as specified in TS 23.501 [9]
+T26	STATEMENT 346 413	the AMF shall handle this information as specified in TS 23.501 [9]
+T27	STATEMENT 257 344	the User Location Information IE is included in the PDU SESSION RESOURCE NOTIFY message
+T28	CAUSE 254 344	If the User Location Information IE is included in the PDU SESSION RESOURCE NOTIFY message
+T29	CAUSE_EFFECT_RELATION 254 413	If the User Location Information IE is included in the PDU SESSION RESOURCE NOTIFY message, the AMF shall handle this information as specified in TS 23.501 [9]
+T30	ROOT_SENTENCE 254 414	If the User Location Information IE is included in the PDU SESSION RESOURCE NOTIFY message, the AMF shall handle this information as specified in TS 23.501 [9].
+T31	VARIABLE 416 423	The AMF
+T32	CONDITION 424 472	may initiate the Initial Context Setup procedure
+T33	KEY_C 473 475	if
+T34	VARIABLE 476 514	a UE- associated logical NG-connection
+T35	CONDITION 515 532	exists for the UE
+T36	KEY_C 536 538	if
+T37	VARIABLE 539 546	the AMF
+T38	KEY_C 965 967	If
+T39	VARIABLE 968 987	Simple Pairing Mode
+T40	CONDITION 995 1002	enabled
+T41	NEGATION 988 1002	is not enabled
+T42	VARIABLE 1007 1021	authentication
+T43	CONDITION 1022 1027	fails
+T44	STATEMENT 1007 1027	authentication fails
+T45	STATEMENT 968 1002	Simple Pairing Mode is not enabled
+T46	AND 968 1027	Simple Pairing Mode is not enabled and authentication fails
+T47	CAUSE 965 1027	If Simple Pairing Mode is not enabled and authentication fails
+T48	VARIABLE 1029 1055	the PIN Code Request event
+T49	CONDITION 1056 1072	may be generated
+T50	STATEMENT 1029 1072	the PIN Code Request event may be generated
+T51	CAUSE_EFFECT_RELATION 965 1072	If Simple Pairing Mode is not enabled and authentication fails, the PIN Code Request event may be generated
+T52	ROOT_SENTENCE 965 1073	If Simple Pairing Mode is not enabled and authentication fails, the PIN Code Request event may be generated.
+T54	KEY_C 1282 1284	If
+T55	VARIABLE 1285 1300	the remote Host
+T56	CONDITION 1301 1335	supported features page is present
+T57	VARIABLE 1337 1390	the Remote Host Supported Features Notification event
+T58	CONDITION 1391 1450	shall be sent before the Remote Name Request Complete event
+T59	STATEMENT 1337 1450	the Remote Host Supported Features Notification event shall be sent before the Remote Name Request Complete event
+T60	STATEMENT 1285 1335	the remote Host supported features page is present
+T61	CAUSE 1282 1335	If the remote Host supported features page is present
+T62	CAUSE_EFFECT_RELATION 1282 1450	If the remote Host supported features page is present, the Remote Host Supported Features Notification event shall be sent before the Remote Name Request Complete event
+T63	ROOT_SENTENCE 1282 1451	If the remote Host supported features page is present, the Remote Host Supported Features Notification event shall be sent before the Remote Name Request Complete event.
+T64	KEY_C 1453 1455	If
+T65	NEGATION 1456 1459	not
+T66	CAUSE 1453 1459	If not
+T67	VARIABLE 1466 1504	the Remote Name Request Complete event
+T68	CONDITION 1505 1518	shall be sent
+T69	STATEMENT 1466 1518	the Remote Name Request Complete event shall be sent
+T70	KEY_C 1521 1523	If
+T71	VARIABLE 1524 1540	the cancellation
+T72	CONDITION 1541 1555	was successful
+T73	VARIABLE 1557 1595	the Remote Name Request Complete event
+T74	CONDITION 1596 1671	shall be generated with the error code Unknown Connection Identifier (0x02)
+T75	STATEMENT 1557 1671	the Remote Name Request Complete event shall be generated with the error code Unknown Connection Identifier (0x02)
+T76	STATEMENT 1524 1555	the cancellation was successful
+T77	CAUSE 1521 1555	If the cancellation was successful
+T78	CAUSE_EFFECT_RELATION 1521 1671	If the cancellation was successful, the Remote Name Request Complete event shall be generated with the error code Unknown Connection Identifier (0x02)
+T79	ROOT_SENTENCE 1521 1672	If the cancellation was successful, the Remote Name Request Complete event shall be generated with the error code Unknown Connection Identifier (0x02).
+T80	KEY_C 1674 1676	If
+T81	VARIABLE 1677 1688	the command
+T82	CONDITION 1689 1714	is requested at the slave
+T83	VARIABLE 1716 1722	the LM
+T84	CONDITION 1723 1767	will immediately send a Command Status event
+T85	CONDITION 1772 1818	a Read Clock Offset Complete event to the Host
+T86	CONDITION 1820 1850	without an exchange of LMP PDU
+T87	AND 1723 1818	will immediately send a Command Status event and a Read Clock Offset Complete event to the Host
+T88	AND 1723 1850	will immediately send a Command Status event and a Read Clock Offset Complete event to the Host, without an exchange of LMP PDU
+T89	STATEMENT 1716 1850	the LM will immediately send a Command Status event and a Read Clock Offset Complete event to the Host, without an exchange of LMP PDU
+T90	STATEMENT 1677 1714	the command is requested at the slave
+T91	CAUSE 1674 1714	If the command is requested at the slave
+T92	CAUSE_EFFECT_RELATION 1674 1850	If the command is requested at the slave, the LM will immediately send a Command Status event and a Read Clock Offset Complete event to the Host, without an exchange of LMP PDU
+T93	ROOT_SENTENCE 1674 1851	If the command is requested at the slave, the LM will immediately send a Command Status event and a Read Clock Offset Complete event to the Host, without an exchange of LMP PDU.
+T94	KEY_C 1853 1855	If
+T95	VARIABLE 1856 1872	the lower layers
+T96	CONDITION 1880 1906	achieve the exact transmit
+T97	CONDITION 1911 1970	receive bandwidth requested subject to the other parameters
+T98	AND 1880 1970	achieve the exact transmit and receive bandwidth requested subject to the other parameters
+T99	KEY_C 1972 1976	then
+T100	VARIABLE 1977 1985	the link
+T101	CONDITION 1986 2003	shall be rejected
+T102	STATEMENT 1977 2003	the link shall be rejected
+T103	EFFECT 1972 2003	then the link shall be rejected
+T104	NEGATION 1873 1970	cannot achieve the exact transmit and receive bandwidth requested subject to the other parameters
+T105	STATEMENT 1856 1970	the lower layers cannot achieve the exact transmit and receive bandwidth requested subject to the other parameters
+T106	CAUSE 1853 1970	If the lower layers cannot achieve the exact transmit and receive bandwidth requested subject to the other parameters
+T107	ROOT_SENTENCE 1853 2004	If the lower layers cannot achieve the exact transmit and receive bandwidth requested subject to the other parameters, then the link shall be rejected.
+T108	CAUSE_EFFECT_RELATION 1853 2003	If the lower layers cannot achieve the exact transmit and receive bandwidth requested subject to the other parameters, then the link shall be rejected
+T109	KEY_C 2006 2008	If
+T110	VARIABLE 2009 2017	all bits
+T111	CONDITION 2018 2050	are set in the packet type field
+T112	KEY_C 2052 2056	then
+T113	VARIABLE 2057 2074	all packets types
+T114	CONDITION 2075 2091	shall be allowed
+T115	STATEMENT 2057 2091	all packets types shall be allowed
+T116	EFFECT 2052 2091	then all packets types shall be allowed
+T117	STATEMENT 2009 2050	all bits are set in the packet type field
+T118	CAUSE 2006 2050	If all bits are set in the packet type field
+T119	CAUSE_EFFECT_RELATION 2006 2091	If all bits are set in the packet type field, then all packets types shall be allowed
+T120	ROOT_SENTENCE 2006 2092	If all bits are set in the packet type field, then all packets types shall be allowed.
+T121	KEY_C 2094 2096	If
+T122	VARIABLE 2097 2134	the Link Type of the incoming request
+T123	CONDITION 2135 2141	is SCO
+T124	KEY_C 2143 2147	then
+T125	VARIABLE 2177 2188	Max_Latency
+T126	VARIABLE 2190 2204	Voice_Settings
+T127	VARIABLE 2210 2228	Packet_Type fields
+T128	AND 2190 2228	Voice_Settings, and Packet_Type fields
+T129	AND 2177 2228	Max_Latency, Voice_Settings, and Packet_Type fields
+T130	VARIABLE 2148 2175	only the Transmit_Bandwidth
+T131	AND 2148 2228	only the Transmit_Bandwidth, Max_Latency, Voice_Settings, and Packet_Type fields
+T132	CONDITION 2229 2238	are valid
+T133	EFFECT 2143 2238	then only the Transmit_Bandwidth, Max_Latency, Voice_Settings, and Packet_Type fields are valid
+T134	STATEMENT 2097 2141	the Link Type of the incoming request is SCO
+T135	CAUSE 2094 2141	If the Link Type of the incoming request is SCO
+T136	CAUSE_EFFECT_RELATION 2094 2238	If the Link Type of the incoming request is SCO, then only the Transmit_Bandwidth, Max_Latency, Voice_Settings, and Packet_Type fields are valid
+T137	ROOT_SENTENCE 2094 2239	If the Link Type of the incoming request is SCO, then only the Transmit_Bandwidth, Max_Latency, Voice_Settings, and Packet_Type fields are valid.
+T138	KEY_C 2241 2243	If
+T139	VARIABLE 2244 2255	the R value
+T140	CONDITION 2263 2318	present in the received OOB data from the remote device
+T141	NEGATION 2256 2318	is not present in the received OOB data from the remote device
+T142	STATEMENT 2244 2318	the R value is not present in the received OOB data from the remote device
+T143	CAUSE 2241 2318	If the R value is not present in the received OOB data from the remote device
+T144	VARIABLE 2320 2328	the Host
+T145	CONDITION 2329 2349	shall set R to zeros
+T146	STATEMENT 2320 2349	the Host shall set R to zeros
+T147	CAUSE_EFFECT_RELATION 2241 2349	If the R value is not present in the received OOB data from the remote device, the Host shall set R to zeros
+T148	ROOT_SENTENCE 2241 2350	If the R value is not present in the received OOB data from the remote device, the Host shall set R to zeros.
+T149	KEY_C 2352 2354	If
+T150	VARIABLE 2355 2369	the Controller
+T151	CONDITION 2370 2423	is set to automatically accept the connection attempt
+T152	VARIABLE 2425 2431	the LM
+T153	CONDITION 2432 2464	should assume default parameters
+T154	STATEMENT 2425 2464	the LM should assume default parameters
+T155	STATEMENT 2355 2423	the Controller is set to automatically accept the connection attempt
+T156	CAUSE 2352 2423	If the Controller is set to automatically accept the connection attempt
+T157	CAUSE_EFFECT_RELATION 2352 2464	If the Controller is set to automatically accept the connection attempt, the LM should assume default parameters
+T158	ROOT_SENTENCE 2352 2465	If the Controller is set to automatically accept the connection attempt, the LM should assume default parameters.
+T159	VARIABLE 2467 2485	The AMP Controller
+T160	CONDITION 2486 2523	may refuse to create the logical link
+T161	KEY_C 2524 2526	if
+T162	VARIABLE 2527 2529	it
+T163	CONDITION 2530 2556	has insufficient resources
+T164	STATEMENT 2527 2556	it has insufficient resources
+T165	CAUSE 2524 2556	if it has insufficient resources
+T166	STATEMENT 2467 2523	The AMP Controller may refuse to create the logical link
+T167	CAUSE_EFFECT_RELATION 2467 2556	The AMP Controller may refuse to create the logical link if it has insufficient resources
+T168	ROOT_SENTENCE 2467 2557	The AMP Controller may refuse to create the logical link if it has insufficient resources.
+T169	KEY_C 2559 2561	If
+T170	VARIABLE 2562 2578	the cancellation
+T171	CONDITION 2579 2593	was successful
+T172	VARIABLE 2595 2627	the Physical Link Complete event
+T173	CONDITION 2628 2703	shall be generated with the error code Unknown Connection Identifier (0x02)
+T174	STATEMENT 2595 2703	the Physical Link Complete event shall be generated with the error code Unknown Connection Identifier (0x02)
+T175	STATEMENT 2562 2593	the cancellation was successful
+T176	CAUSE 2559 2593	If the cancellation was successful
+T177	CAUSE_EFFECT_RELATION 2559 2703	If the cancellation was successful, the Physical Link Complete event shall be generated with the error code Unknown Connection Identifier (0x02)
+T178	ROOT_SENTENCE 2559 2704	If the cancellation was successful, the Physical Link Complete event shall be generated with the error code Unknown Connection Identifier (0x02).
+T179	VARIABLE 2706 2737	The Logical Link Complete event
+T180	CONDITION 2738 2770	contains the Logical Link Handle
+T181	CONDITION 2772 2792	Physical Link Handle
+T182	CONDITION 2798 2828	the corresponding flow spec ID
+T183	AND 2772 2828	Physical Link Handle, and the corresponding flow spec ID
+T184	AND 2738 2828	contains the Logical Link Handle, Physical Link Handle, and the corresponding flow spec ID
+T185	STATEMENT 2706 2828	The Logical Link Complete event contains the Logical Link Handle, Physical Link Handle, and the corresponding flow spec ID
+T186	KEY_C 2829 2831	if
+T187	VARIABLE 2832 2844	this command
+T188	CONDITION 2845 2858	is successful
+T189	STATEMENT 2832 2858	this command is successful
+T190	CAUSE 2829 2858	if this command is successful
+T191	CAUSE_EFFECT_RELATION 2706 2858	The Logical Link Complete event contains the Logical Link Handle, Physical Link Handle, and the corresponding flow spec ID if this command is successful
+T192	ROOT_SENTENCE 2706 2859	The Logical Link Complete event contains the Logical Link Handle, Physical Link Handle, and the corresponding flow spec ID if this command is successful.
+T193	VARIABLE 2861 2879	The AMP Controller
+T194	CONDITION 2880 2917	may refuse to create the logical link
+T195	KEY_C 2918 2920	if
+T196	VARIABLE 2921 2923	it
+T197	CONDITION 2924 2950	has insufficient resources
+T198	STATEMENT 2921 2950	it has insufficient resources
+T199	CAUSE 2918 2950	if it has insufficient resources
+T200	STATEMENT 2861 2917	The AMP Controller may refuse to create the logical link
+T201	CAUSE_EFFECT_RELATION 2861 2950	The AMP Controller may refuse to create the logical link if it has insufficient resources
+T202	ROOT_SENTENCE 2861 2951	The AMP Controller may refuse to create the logical link if it has insufficient resources.
+T203	KEY_C 3164 3166	If
+T204	VARIABLE 3167 3177	the modify
+T205	CONDITION 3178 3183	fails
+T206	STATEMENT 3167 3183	the modify fails
+T207	CAUSE 3164 3183	If the modify fails
+T208	VARIABLE 3185 3200	the Controllers
+T209	CONDITION 3201 3244	shall revert to previously specified values
+T210	STATEMENT 3185 3244	the Controllers shall revert to previously specified values
+T211	CAUSE_EFFECT_RELATION 3164 3244	If the modify fails, the Controllers shall revert to previously specified values
+T212	ROOT_SENTENCE 3164 3245	If the modify fails, the Controllers shall revert to previously specified values.
+T213	KEY_C 3247 3249	If
+T214	VARIABLE 3250 3271	the Connection_Handle
+T215	CONDITION 3272 3293	refers to an ACL link
+T216	KEY_C 3295 3299	then
+T217	VARIABLE 3300 3335	a new synchronous logical transport
+T218	CONDITION 3336 3350	shall be added
+T219	STATEMENT 3300 3350	a new synchronous logical transport shall be added
+T220	EFFECT 3295 3350	then a new synchronous logical transport shall be added
+T221	STATEMENT 3250 3293	the Connection_Handle refers to an ACL link
+T222	CAUSE 3247 3293	If the Connection_Handle refers to an ACL link
+T223	CAUSE_EFFECT_RELATION 3247 3350	If the Connection_Handle refers to an ACL link, then a new synchronous logical transport shall be added
+T224	ROOT_SENTENCE 3247 3351	If the Connection_Handle refers to an ACL link, then a new synchronous logical transport shall be added.
+T225	KEY_C 3353 3355	If
+T226	VARIABLE 3356 3360	both
+T227	CONDITION 3361 3378	are “transparent”
+T228	VARIABLE 3380 3402	the Transmit_Bandwidth
+T229	VARIABLE 3407 3426	the Input_Bandwidth
+T230	CONDITION 3427 3444	shall be the same
+T231	VARIABLE 3449 3463	the Controller
+T232	CONDITION 3474 3515	modify the data sent to the remote device
+T233	NEGATION 3464 3515	shall not modify the data sent to the remote device
+T234	STATEMENT 3449 3515	the Controller shall not modify the data sent to the remote device
+T235	AND 3380 3426	the Transmit_Bandwidth and the Input_Bandwidth
+T236	STATEMENT 3380 3444	the Transmit_Bandwidth and the Input_Bandwidth shall be the same
+T237	AND 3380 3515	the Transmit_Bandwidth and the Input_Bandwidth shall be the same and the Controller shall not modify the data sent to the remote device
+T238	STATEMENT 3356 3378	both are “transparent”
+T239	CAUSE 3353 3378	If both are “transparent”
+T240	CAUSE_EFFECT_RELATION 3353 3515	If both are “transparent”, the Transmit_Bandwidth and the Input_Bandwidth shall be the same and the Controller shall not modify the data sent to the remote device
+T241	ROOT_SENTENCE 3353 3516	If both are “transparent”, the Transmit_Bandwidth and the Input_Bandwidth shall be the same and the Controller shall not modify the data sent to the remote device.
+T242	VARIABLE 3964 4005	The Synchronous Connection Complete event
+T243	CONDITION 4006 4036	contains the Connection_Handle
+T244	KEY_C 4037 4039	if
+T245	VARIABLE 4040 4052	this command
+T246	CONDITION 4053 4066	is successful
+T247	STATEMENT 4040 4066	this command is successful
+T248	CAUSE 4037 4066	if this command is successful
+T249	STATEMENT 3964 4036	The Synchronous Connection Complete event contains the Connection_Handle
+T250	CAUSE_EFFECT_RELATION 3964 4066	The Synchronous Connection Complete event contains the Connection_Handle if this command is successful
+T251	ROOT_SENTENCE 3964 4067	The Synchronous Connection Complete event contains the Connection_Handle if this command is successful.
+T252	KEY_C 4069 4071	If
+T253	VARIABLE 4072 4109	the Link Type of the incoming request
+T254	CONDITION 4110 4116	is SCO
+T255	KEY_C 4118 4122	then
+T256	VARIABLE 4123 4158	the Retransmission Effort parameter
+T257	CONDITION 4159 4175	shall be ignored
+T258	STATEMENT 4123 4175	the Retransmission Effort parameter shall be ignored
+T259	EFFECT 4118 4175	then the Retransmission Effort parameter shall be ignored
+T260	STATEMENT 4072 4116	the Link Type of the incoming request is SCO
+T261	CAUSE 4069 4116	If the Link Type of the incoming request is SCO
+T262	CAUSE_EFFECT_RELATION 4069 4175	If the Link Type of the incoming request is SCO, then the Retransmission Effort parameter shall be ignored
+T263	ROOT_SENTENCE 4069 4176	If the Link Type of the incoming request is SCO, then the Retransmission Effort parameter shall be ignored.
+T264	KEY_C 4178 4180	If
+T265	VARIABLE 4181 4192	the LT_ADDR
+T266	CONDITION 4201 4214	been reserved
+T267	NEGATION 4193 4214	has not been reserved
+T268	STATEMENT 4181 4214	the LT_ADDR has not been reserved
+T269	VARIABLE 4216 4267	the Unknown Connection Identifier (0x02) error code
+T270	CONDITION 4268 4285	shall be returned
+T271	STATEMENT 4216 4285	the Unknown Connection Identifier (0x02) error code shall be returned
+T272	CAUSE 4178 4214	If the LT_ADDR has not been reserved
+T273	CAUSE_EFFECT_RELATION 4178 4285	If the LT_ADDR has not been reserved, the Unknown Connection Identifier (0x02) error code shall be returned
+T274	ROOT_SENTENCE 4178 4286	If the LT_ADDR has not been reserved, the Unknown Connection Identifier (0x02) error code shall be returned.
+T275	KEY_C 4288 4290	If
+T276	VARIABLE 4291 4326	connectionless slave broadcast mode
+T277	CONDITION 4334 4341	enabled
+T278	NEGATION 4327 4341	is not enabled
+T279	STATEMENT 4291 4341	connectionless slave broadcast mode is not enabled
+T280	CAUSE 4288 4341	If connectionless slave broadcast mode is not enabled
+T281	VARIABLE 4343 4383	the Command Disallowed (0x0C) error code
+T282	CONDITION 4384 4401	shall be returned
+T283	STATEMENT 4343 4401	the Command Disallowed (0x0C) error code shall be returned
+T284	CAUSE_EFFECT_RELATION 4288 4401	If connectionless slave broadcast mode is not enabled, the Command Disallowed (0x0C) error code shall be returned
+T285	ROOT_SENTENCE 4288 4402	If connectionless slave broadcast mode is not enabled, the Command Disallowed (0x0C) error code shall be returned.
+T286	KEY_C 4404 4406	If
+T287	VARIABLE 4407 4415	an error
+T288	CONDITION 4416 4422	occurs
+T289	CONDITION 4423 4466	after the Command Status event has occurred
+T290	AND 4416 4466	occurs after the Command Status event has occurred
+T291	STATEMENT 4407 4466	an error occurs after the Command Status event has occurred
+T292	CAUSE 4404 4466	If an error occurs after the Command Status event has occurred
+T293	KEY_C 4468 4472	then
+T294	VARIABLE 4473 4508	the status in the Mode Change event
+T295	CONDITION 4509 4533	shall indicate the error
+T296	STATEMENT 4473 4533	the status in the Mode Change event shall indicate the error
+T297	EFFECT 4468 4533	then the status in the Mode Change event shall indicate the error
+T298	CAUSE_EFFECT_RELATION 4404 4533	If an error occurs after the Command Status event has occurred, then the status in the Mode Change event shall indicate the error
+T299	ROOT_SENTENCE 4404 4534	If an error occurs after the Command Status event has occurred, then the status in the Mode Change event shall indicate the error.
+T300	KEY_C 4536 4538	If
+T301	VARIABLE 4539 4547	an error
+T302	CONDITION 4548 4554	occurs
+T303	CONDITION 4555 4598	after the Command Status event has occurred
+T304	AND 4548 4598	occurs after the Command Status event has occurred
+T305	STATEMENT 4539 4598	an error occurs after the Command Status event has occurred
+T306	CAUSE 4536 4598	If an error occurs after the Command Status event has occurred
+T307	KEY_C 4600 4604	then
+T308	VARIABLE 4605 4640	the status in the Mode Change event
+T309	CONDITION 4641 4665	shall indicate the error
+T310	STATEMENT 4605 4665	the status in the Mode Change event shall indicate the error
+T311	EFFECT 4600 4665	then the status in the Mode Change event shall indicate the error
+T312	CAUSE_EFFECT_RELATION 4536 4665	If an error occurs after the Command Status event has occurred, then the status in the Mode Change event shall indicate the error
+T313	ROOT_SENTENCE 4536 4666	If an error occurs after the Command Status event has occurred, then the status in the Mode Change event shall indicate the error.
+T314	KEY_C 4668 4670	If
+T315	VARIABLE 4671 4685	the Controller
+T316	CONDITION 4686 4706	supports both BR/EDR
+T317	CONDITION 4711 4713	LE
+T318	AND 4686 4713	supports both BR/EDR and LE
+T319	STATEMENT 4671 4713	the Controller supports both BR/EDR and LE
+T320	CAUSE 4668 4713	If the Controller supports both BR/EDR and LE
+T321	KEY_C 4715 4719	then
+T322	VARIABLE 4720 4737	the Reset command
+T323	CONDITION 4738 4766	shall reset the Link Manager
+T324	CONDITION 4768 4776	Baseband
+T325	CONDITION 4781 4791	Link Layer
+T326	AND 4768 4791	Baseband and Link Layer
+T327	AND 4738 4791	shall reset the Link Manager, Baseband and Link Layer
+T328	STATEMENT 4720 4791	the Reset command shall reset the Link Manager, Baseband and Link Layer
+T329	EFFECT 4715 4791	then the Reset command shall reset the Link Manager, Baseband and Link Layer
+T330	CAUSE_EFFECT_RELATION 4668 4791	If the Controller supports both BR/EDR and LE, then the Reset command shall reset the Link Manager, Baseband and Link Layer
+T331	ROOT_SENTENCE 4668 4792	If the Controller supports both BR/EDR and LE, then the Reset command shall reset the Link Manager, Baseband and Link Layer.
+T332	VARIABLE 12860 12864	This
+T333	CONDITION 12865 12887	is an asymmetric value
+T334	VARIABLE 12892 12917	the sender of the Request
+T335	CONDITION 12918 12955	shall specify its flush timeout value
+T336	STATEMENT 12892 12955	the sender of the Request shall specify its flush timeout value
+T337	STATEMENT 12860 12887	This is an asymmetric value
+T338	AND 12860 12955	This is an asymmetric value and the sender of the Request shall specify its flush timeout value
+T339	KEY_C 12956 12958	if
+T340	VARIABLE 12959 12961	it
+T341	CONDITION 12962 13002	differs from the default value of 0xFFFF
+T342	STATEMENT 12959 13002	it differs from the default value of 0xFFFF
+T343	CAUSE 12956 13002	if it differs from the default value of 0xFFFF
+T344	CAUSE_EFFECT_RELATION 12860 13002	This is an asymmetric value and the sender of the Request shall specify its flush timeout value if it differs from the default value of 0xFFFF
+T345	ROOT_SENTENCE 12860 13003	This is an asymmetric value and the sender of the Request shall specify its flush timeout value if it differs from the default value of 0xFFFF.
+T346	KEY_C 12608 12610	If
+T347	VARIABLE 12611 12628	the remote device
+T348	CONDITION 12629 12671	returns a negative response to this option
+T349	VARIABLE 12676 12692	the local device
+T350	CONDITION 12700 12724	honor the proposed value
+T351	NEGATION 12693 12724	cannot honor the proposed value
+T352	KEY_C 12726 12730	then
+T353	VARIABLE 12731 12733	it
+T354	CONDITION 12734 12830	shall either continue the configuration process by sending a new request with the original value
+T355	CONDITION 12835 12857	disconnect the channel
+T356	OR 12734 12857	shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T357	STATEMENT 12731 12857	it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T358	CAUSE 12726 12857	then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T359	STATEMENT 12676 12724	the local device cannot honor the proposed value
+T360	STATEMENT 12611 12671	the remote device returns a negative response to this option
+T361	AND 12611 12724	the remote device returns a negative response to this option and the local device cannot honor the proposed value
+T362	CAUSE 12608 12724	If the remote device returns a negative response to this option and the local device cannot honor the proposed value
+T363	ROOT_SENTENCE 12608 12858	If the remote device returns a negative response to this option and the local device cannot honor the proposed value, then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel.
+T364	CAUSE_EFFECT_RELATION 12608 12857	If the remote device returns a negative response to this option and the local device cannot honor the proposed value, then it shall either continue the configuration process by sending a new request with the original value, or disconnect the channel
+T365	VARIABLE 12533 12544	This option
+T366	CONDITION 12555 12562	be used
+T367	NEGATION 12545 12562	shall not be used
+T368	KEY_C 12563 12565	if
+T369	VARIABLE 12566 12597	the Extended Flow Specification
+T370	CONDITION 12598 12605	is used
+T371	STATEMENT 12566 12605	the Extended Flow Specification is used
+T372	CAUSE 12563 12605	if the Extended Flow Specification is used
+T373	STATEMENT 12533 12562	This option shall not be used
+T374	CAUSE_EFFECT_RELATION 12533 12605	This option shall not be used if the Extended Flow Specification is used
+T375	ROOT_SENTENCE 12533 12606	This option shall not be used if the Extended Flow Specification is used.
+T376	KEY_C 12404 12406	If
+T377	VARIABLE 12407 12426	the configured mode
+T378	CONDITION 12427 12458	is Enhanced Retransmission mode
+T379	CONDITION 12462 12476	Streaming mode
+T380	KEY_C 12478 12482	then
+T381	VARIABLE 12483 12486	MTU
+T382	CONDITION 12497 12530	be reconfigured to a smaller size
+T383	NEGATION 12487 12530	shall not be reconfigured to a smaller size
+T384	STATEMENT 12483 12530	MTU shall not be reconfigured to a smaller size
+T385	EFFECT 12478 12530	then MTU shall not be reconfigured to a smaller size
+T386	OR 12427 12476	is Enhanced Retransmission mode or Streaming mode
+T387	STATEMENT 12407 12476	the configured mode is Enhanced Retransmission mode or Streaming mode
+T388	CAUSE 12404 12476	If the configured mode is Enhanced Retransmission mode or Streaming mode
+T389	CAUSE_EFFECT_RELATION 12404 12530	If the configured mode is Enhanced Retransmission mode or Streaming mode, then MTU shall not be reconfigured to a smaller size
+T390	ROOT_SENTENCE 12404 12531	If the configured mode is Enhanced Retransmission mode or Streaming mode, then MTU shall not be reconfigured to a smaller size.
+T395	VARIABLE 12139 12175	The most significant bit of the type
+T396	CONDITION 12176 12203	determines the action taken
+T397	KEY_C 12204 12206	if
+T398	VARIABLE 12207 12217	the option
+T399	CONDITION 12225 12235	recognized
+T400	NEGATION 12218 12235	is not recognized
+T401	STATEMENT 12207 12235	the option is not recognized
+T402	CAUSE 12204 12235	if the option is not recognized
+T403	STATEMENT 12139 12203	The most significant bit of the type determines the action taken
+T404	CAUSE_EFFECT_RELATION 12139 12235	The most significant bit of the type determines the action taken if the option is not recognized
+T405	ROOT_SENTENCE 12139 12236	The most significant bit of the type determines the action taken if the option is not recognized.
+T406	KEY_C 12054 12056	If
+T407	VARIABLE 12057 12067	the device
+T408	CONDITION 12068 12105	has sent its own Move Channel request
+T409	KEY_C 12107 12111	then
+T410	VARIABLE 12112 12123	a collision
+T411	CONDITION 12124 12136	has occurred
+T412	STATEMENT 12112 12136	a collision has occurred
+T413	EFFECT 12107 12136	then a collision has occurred
+T414	STATEMENT 12057 12105	the device has sent its own Move Channel request
+T415	CAUSE 12054 12105	If the device has sent its own Move Channel request
+T416	CAUSE_EFFECT_RELATION 12054 12136	If the device has sent its own Move Channel request, then a collision has occurred
+T417	ROOT_SENTENCE 12054 12137	If the device has sent its own Move Channel request, then a collision has occurred.
+T418	KEY_C 11996 11998	If
+T419	VARIABLE 11999 12005	result
+T420	CONDITION 12006 12025	is "Not supported,"
+T421	VARIABLE 12029 12033	data
+T422	CONDITION 12034 12051	shall be returned
+T423	STATEMENT 12029 12051	data shall be returned
+T424	NEGATION 12026 12051	no data shall be returned
+T425	STATEMENT 11999 12025	result is "Not supported,"
+T426	CAUSE 11996 12025	If result is "Not supported,"
+T427	CAUSE_EFFECT_RELATION 11996 12051	If result is "Not supported," no data shall be returned
+T428	ROOT_SENTENCE 11996 12052	If result is "Not supported," no data shall be returned.
+T429	KEY_C 11903 11905	If
+T430	VARIABLE 11906 11912	result
+T431	CONDITION 11913 11926	is "Success,"
+T432	VARIABLE 11927 11941	the data field
+T433	CONDITION 11942 11993	contains the information as specified in Table 4.11
+T434	STATEMENT 11927 11993	the data field contains the information as specified in Table 4.11
+T435	STATEMENT 11906 11926	result is "Success,"
+T436	CAUSE 11903 11926	If result is "Success,"
+T437	CAUSE_EFFECT_RELATION 11903 11993	If result is "Success," the data field contains the information as specified in Table 4.11
+T438	ROOT_SENTENCE 11903 11994	If result is "Success," the data field contains the information as specified in Table 4.11.
+T439	VARIABLE 11755 11769	The data field
+T440	VARIABLE 11871 11883	the InfoType
+T441	CONDITION 11891 11900	supported
+T442	NEGATION 11884 11900	is not supported
+T443	STATEMENT 11871 11900	the InfoType is not supported
+T444	CAUSE 11868 11900	if the InfoType is not supported
+T445	KEY_C 11868 11870	if
+T446	CONDITION 11853 11867	shall be empty
+T447	CONDITION 11770 11848	shall contain the value associated with the InfoType field sent in the Request
+T448	OR 11770 11867	shall contain the value associated with the InfoType field sent in the Request, or shall be empty
+T449	STATEMENT 11755 11867	The data field shall contain the value associated with the InfoType field sent in the Request, or shall be empty
+T450	CAUSE_EFFECT_RELATION 11755 11900	The data field shall contain the value associated with the InfoType field sent in the Request, or shall be empty if the InfoType is not supported
+T451	ROOT_SENTENCE 11755 11901	The data field shall contain the value associated with the InfoType field sent in the Request, or shall be empty if the InfoType is not supported.
+T452	VARIABLE 11686 11700	L2CAP entities
+T453	CONDITION 11701 11727	should ignore the contents
+T454	CONDITION 11731 11741	this field
+T455	KEY_C 11742 11744	if
+T456	VARIABLE 11745 11752	present
+T457	CAUSE 11742 11752	if present
+T458	OR 11701 11741	should ignore the contents of this field
+T459	STATEMENT 11686 11741	L2CAP entities should ignore the contents of this field
+T460	CAUSE_EFFECT_RELATION 11686 11752	L2CAP entities should ignore the contents of this field if present
+T461	ROOT_SENTENCE 11686 11753	L2CAP entities should ignore the contents of this field if present.
+T462	KEY_C 11600 11602	If
+T463	VARIABLE 11603 11611	the CIDs
+T464	CONDITION 11619 11624	match
+T465	VARIABLE 11626 11638	the response
+T466	CONDITION 11639 11683	should be silently discarded at the receiver
+T467	STATEMENT 11626 11683	the response should be silently discarded at the receiver
+T468	NEGATION 11612 11624	do not match
+T469	STATEMENT 11603 11624	the CIDs do not match
+T470	CAUSE 11600 11624	If the CIDs do not match
+T471	CAUSE_EFFECT_RELATION 11600 11683	If the CIDs do not match, the response should be silently discarded at the receiver
+T472	ROOT_SENTENCE 11600 11684	If the CIDs do not match, the response should be silently discarded at the receiver.
+T473	KEY_C 11479 11481	If
+T474	VARIABLE 11482 11494	the receiver
+T475	CONDITION 11495 11513	finds a DCID match
+T476	VARIABLE 11518 11526	the SCID
+T477	CONDITION 11527 11555	fails to find the same match
+T478	STATEMENT 11482 11513	the receiver finds a DCID match
+T479	STATEMENT 11518 11555	the SCID fails to find the same match
+T480	VARIABLE 11557 11568	the request
+T481	CONDITION 11569 11597	should be silently discarded
+T482	KEY_C 11333 11335	If
+T483	VARIABLE 11336 11344	the DCID
+T484	CONDITION 11352 11394	recognized by the receiver of this message
+T485	NEGATION 11345 11394	is not recognized by the receiver of this message
+T486	STATEMENT 11336 11394	the DCID is not recognized by the receiver of this message
+T487	VARIABLE 11396 11419	a CommandReject message
+T488	CONDITION 11420 11476	with ’invalid CID’ result code shall be sent in response
+T489	STATEMENT 11396 11476	a CommandReject message with ’invalid CID’ result code shall be sent in response
+T490	CAUSE 11333 11394	If the DCID is not recognized by the receiver of this message
+T491	CAUSE_EFFECT_RELATION 11333 11476	If the DCID is not recognized by the receiver of this message, a CommandReject message with ’invalid CID’ result code shall be sent in response
+T492	VARIABLE 11241 11246	Hints
+T493	CONDITION 11247 11279	are those options in the Request
+T494	CONDITION 11280 11296	that are skipped
+T495	KEY_C 11297 11299	if
+T496	CONDITION 11304 11330	understood (see Section 5)
+T497	NEGATION 11300 11330	not understood (see Section 5)
+T498	CAUSE 11297 11330	if not understood (see Section 5)
+T499	AND 11247 11296	are those options in the Request that are skipped
+T500	STATEMENT 11241 11296	Hints are those options in the Request that are skipped
+T501	CAUSE_EFFECT_RELATION 11241 11330	Hints are those options in the Request that are skipped if not understood (see Section 5)
+T502	ROOT_SENTENCE 11241 11331	Hints are those options in the Request that are skipped if not understood (see Section 5).
+T509	KEY_C 10911 10913	If
+T510	VARIABLE 10914 10925	all options
+T511	CONDITION 10926 10956	fit into the receiver's MTUsig
+T512	KEY_C 10958 10962	then
+T513	VARIABLE 10963 10967	they
+T514	CONDITION 10968 11015	shall be sent in a single configuration request
+T515	CONDITION 11016 11054	with the continuation flag set to zero
+T516	AND 10968 11054	shall be sent in a single configuration request with the continuation flag set to zero
+T517	STATEMENT 10963 11054	they shall be sent in a single configuration request with the continuation flag set to zero
+T518	EFFECT 10958 11054	then they shall be sent in a single configuration request with the continuation flag set to zero
+T519	STATEMENT 10914 10956	all options fit into the receiver's MTUsig
+T520	CAUSE 10911 10956	If all options fit into the receiver's MTUsig
+T521	CAUSE_EFFECT_RELATION 10911 11054	If all options fit into the receiver's MTUsig, then they shall be sent in a single configuration request with the continuation flag set to zero
+T522	ROOT_SENTENCE 10911 11055	If all options fit into the receiver's MTUsig, then they shall be sent in a single configuration request with the continuation flag set to zero.
+T529	KEY_C 10523 10525	If
+T530	VARIABLE 10526 10537	the channel
+T531	CONDITION 10538 10567	is configured to use "No FCS"
+T532	KEY_C 10569 10573	then
+T533	VARIABLE 10574 10581	the PDU
+T534	CONDITION 10582 10629	is considered to have a good FCS (no FCS error)
+T535	STATEMENT 10574 10629	the PDU is considered to have a good FCS (no FCS error)
+T536	EFFECT 10569 10629	then the PDU is considered to have a good FCS (no FCS error)
+T537	STATEMENT 10526 10567	the channel is configured to use "No FCS"
+T538	CAUSE 10523 10567	If the channel is configured to use "No FCS"
+T539	CAUSE_EFFECT_RELATION 10523 10629	If the channel is configured to use "No FCS", then the PDU is considered to have a good FCS (no FCS error)
+T540	ROOT_SENTENCE 10523 10630	If the channel is configured to use "No FCS", then the PDU is considered to have a good FCS (no FCS error).
+T541	KEY_C 10462 10464	If
+T542	VARIABLE 10465 10472	the PDU
+T543	CONDITION 10473 10494	contains an FCS error
+T544	KEY_C 10496 10500	then
+T545	VARIABLE 10501 10503	it
+T546	CONDITION 10504 10520	shall be ignored
+T547	STATEMENT 10501 10520	it shall be ignored
+T548	EFFECT 10496 10520	then it shall be ignored
+T549	STATEMENT 10465 10494	the PDU contains an FCS error
+T550	CAUSE 10462 10494	If the PDU contains an FCS error
+T551	KEY_C 10399 10401	If
+T552	VARIABLE 10402 10409	the PDU
+T553	CONDITION 10410 10433	contains an unknown CID
+T554	KEY_C 10435 10439	then
+T555	VARIABLE 10440 10442	it
+T556	CONDITION 10443 10459	shall be ignored
+T557	STATEMENT 10440 10459	it shall be ignored
+T558	EFFECT 10435 10459	then it shall be ignored
+T559	STATEMENT 10402 10433	the PDU contains an unknown CID
+T560	CAUSE 10399 10433	If the PDU contains an unknown CID
+T561	CAUSE_EFFECT_RELATION 10399 10459	If the PDU contains an unknown CID, then it shall be ignored
+T562	ROOT_SENTENCE 10399 10460	If the PDU contains an unknown CID, then it shall be ignored.
+T563	VARIABLE 10308 10337	Many multiplexed applications
+T564	CONDITION 10338 10355	are better served
+T565	KEY_C 10356 10358	if
+T566	VARIABLE 10359 10364	L2CAP
+T567	CONDITION 10365 10396	has control over the PDU length
+T568	STATEMENT 10359 10396	L2CAP has control over the PDU length
+T569	CAUSE 10356 10396	if L2CAP has control over the PDU length
+T570	STATEMENT 10308 10355	Many multiplexed applications are better served
+T571	CAUSE_EFFECT_RELATION 10308 10396	Many multiplexed applications are better served if L2CAP has control over the PDU length
+T572	ROOT_SENTENCE 10308 10397	Many multiplexed applications are better served if L2CAP has control over the PDU length.
+T573	KEY_C 10190 10192	If
+T574	VARIABLE 10193 10211	this specification
+T575	CONDITION 10219 10282	the final version adopted by Bluetooth SIG’s Board of Directors
+T576	NEGATION 10212 10282	is not the final version adopted by Bluetooth SIG’s Board of Directors
+T577	STATEMENT 10193 10282	this specification is not the final version adopted by Bluetooth SIG’s Board of Directors
+T578	CAUSE 10190 10282	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors
+T579	VARIABLE 10284 10286	it
+T580	CONDITION 10295 10305	be adopted
+T581	NEGATION 10287 10305	may not be adopted
+T582	STATEMENT 10284 10305	it may not be adopted
+T583	CAUSE_EFFECT_RELATION 10190 10305	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors, it may not be adopted
+T584	ROOT_SENTENCE 10190 10306	If this specification is not the final version adopted by Bluetooth SIG’s Board of Directors, it may not be adopted.
+T585	KEY_C 9864 9866	If
+T586	VARIABLE 9867 9877	this check
+T587	CONDITION 9878 9883	fails
+T588	VARIABLE 9885 9887	it
+T589	CONDITION 9888 9897	indicates
+T590	KEY_C 9898 9902	that
+T591	VARIABLE 9903 9924	the initiating device
+T592	CONDITION 9933 9954	confirmed the pairing
+T593	NEGATION 9925 9954	has not confirmed the pairing
+T594	VARIABLE 9960 9972	the protocol
+T595	CONDITION 9973 9988	must be aborted
+T596	STATEMENT 9960 9988	the protocol must be aborted
+T597	STATEMENT 9903 9954	the initiating device has not confirmed the pairing
+T598	AND 9903 9988	the initiating device has not confirmed the pairing, and the protocol must be aborted
+T599	EFFECT 9898 9988	that the initiating device has not confirmed the pairing, and the protocol must be aborted
+T600	STATEMENT 9885 9897	it indicates
+T601	AND 9885 9988	it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted
+T602	STATEMENT 9867 9883	this check fails
+T603	CAUSE 9864 9883	If this check fails
+T604	CAUSE_EFFECT_RELATION 9864 9988	If this check fails, it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted
+T605	ROOT_SENTENCE 9864 9989	If this check fails, it indicates that the initiating device has not confirmed the pairing, and the protocol must be aborted.
+T606	KEY_C 9767 9769	If
+T607	VARIABLE 9770 9778	a device
+T608	CONDITION 9779 9795	has received OOB
+T609	VARIABLE 9797 9799	it
+T610	CONDITION 9800 9861	sets the peer's r value to what was sent by the peer (Step 5)
+T611	STATEMENT 9797 9861	it sets the peer's r value to what was sent by the peer (Step 5)
+T612	STATEMENT 9770 9795	a device has received OOB
+T613	CAUSE 9767 9795	If a device has received OOB
+T614	CAUSE_EFFECT_RELATION 9767 9861	If a device has received OOB, it sets the peer's r value to what was sent by the peer (Step 5)
+T615	ROOT_SENTENCE 9767 9862	If a device has received OOB, it sets the peer's r value to what was sent by the peer (Step 5).
+T616	KEY_C 9652 9654	If
+T617	VARIABLE 9655 9656	r
+T618	CONDITION 9664 9680	sent by a device
+T619	NEGATION 9657 9680	is not sent by a device
+T620	STATEMENT 9655 9680	r is not sent by a device
+T621	CAUSE 9652 9680	If r is not sent by a device
+T622	VARIABLE 9682 9684	it
+T623	CONDITION 9685 9764	is assumed to be 0 by the device receiving the OOB information in step 4a or 4b
+T624	STATEMENT 9682 9764	it is assumed to be 0 by the device receiving the OOB information in step 4a or 4b
+T625	CAUSE_EFFECT_RELATION 9652 9764	If r is not sent by a device, it is assumed to be 0 by the device receiving the OOB information in step 4a or 4b
+T626	ROOT_SENTENCE 9652 9765	If r is not sent by a device, it is assumed to be 0 by the device receiving the OOB information in step 4a or 4b.
+T627	KEY_C 9459 9461	If
+T628	VARIABLE 9462 9474	the attacker
+T629	CONDITION 9475 9524	first exchanges nonces with the responding device
+T630	VARIABLE 9526 9528	it
+T631	CONDITION 9529 9553	must commit to the nonce
+T632	KEY_C 9554 9558	that
+T633	VARIABLE 9559 9561	it
+T634	CONDITION 9562 9649	will use with the initiating device before it sees the nonce from the initiating device
+T635	STATEMENT 9462 9524	the attacker first exchanges nonces with the responding device
+T636	STATEMENT 9559 9649	it will use with the initiating device before it sees the nonce from the initiating device
+T637	EFFECT 9554 9649	that it will use with the initiating device before it sees the nonce from the initiating device
+T638	STATEMENT 9526 9553	it must commit to the nonce
+T639	CAUSE 9459 9524	If the attacker first exchanges nonces with the responding device
+T640	AND 9526 9649	it must commit to the nonce that it will use with the initiating device before it sees the nonce from the initiating device
+T641	CAUSE_EFFECT_RELATION 9459 9649	If the attacker first exchanges nonces with the responding device, it must commit to the nonce that it will use with the initiating device before it sees the nonce from the initiating device
+T642	ROOT_SENTENCE 9459 9650	If the attacker first exchanges nonces with the responding device, it must commit to the nonce that it will use with the initiating device before it sees the nonce from the initiating device.
+T652	KEY_C 8987 8989	If
+T653	VARIABLE 8990 9013	a legacy authentication
+T654	CONDITION 9014 9027	is successful
+T655	VARIABLE 9029 9060	the value of ACO as produced by
+T656	CONDITION 9061 9078	shall be retained
+T657	STATEMENT 9029 9078	the value of ACO as produced by shall be retained
+T658	STATEMENT 8990 9027	a legacy authentication is successful
+T659	CAUSE 8987 9027	If a legacy authentication is successful
+T660	CAUSE_EFFECT_RELATION 8987 9078	If a legacy authentication is successful, the value of ACO as produced by shall be retained
+T661	ROOT_SENTENCE 8987 9079	If a legacy authentication is successful, the value of ACO as produced by shall be retained.
+T662	KEY_C 8870 8872	If
+T663	VARIABLE 8873 8883	the master
+T664	CONDITION 8884 8932	has already negotiated with some of these slaves
+T665	VARIABLE 8934 8936	it
+T666	CONDITION 8937 8984	has knowledge of the sizes that can be accepted
+T667	STATEMENT 8934 8984	it has knowledge of the sizes that can be accepted
+T668	STATEMENT 8873 8932	the master has already negotiated with some of these slaves
+T669	CAUSE 8870 8932	If the master has already negotiated with some of these slaves
+T670	CAUSE_EFFECT_RELATION 8870 8984	If the master has already negotiated with some of these slaves, it has knowledge of the sizes that can be accepted
+T671	ROOT_SENTENCE 8870 8985	If the master has already negotiated with some of these slaves, it has knowledge of the sizes that can be accepted.
+T672	KEY_C 8777 8779	If
+T673	VARIABLE 8780 8800	the current link key
+T674	CONDITION 8801 8816	is a master key
+T675	KEY_C 8818 8822	then
+T676	VARIABLE 8823 8826	COF
+T677	CONDITION 8827 8867	shall be derived from the master BD_ADDR
+T678	STATEMENT 8823 8867	COF shall be derived from the master BD_ADDR
+T679	EFFECT 8818 8867	then COF shall be derived from the master BD_ADDR
+T680	STATEMENT 8780 8816	the current link key is a master key
+T681	CAUSE 8777 8816	If the current link key is a master key
+T682	CAUSE_EFFECT_RELATION 8777 8867	If the current link key is a master key, then COF shall be derived from the master BD_ADDR
+T683	ROOT_SENTENCE 8777 8868	If the current link key is a master key, then COF shall be derived from the master BD_ADDR.
+T684	KEY_C 8648 8650	If
+T685	VARIABLE 8651 8669	the device address
+T686	CONDITION 8670 8683	is kept fixed
+T687	VARIABLE 8685 8725	the waiting interval before the next try
+T688	CONDITION 8726 8774	may be increased exponentially (see Section 5.1)
+T689	STATEMENT 8685 8774	the waiting interval before the next try may be increased exponentially (see Section 5.1)
+T690	STATEMENT 8651 8683	the device address is kept fixed
+T691	CAUSE 8648 8683	If the device address is kept fixed
+T692	CAUSE_EFFECT_RELATION 8648 8774	If the device address is kept fixed, the waiting interval before the next try may be increased exponentially (see Section 5.1)
+T693	ROOT_SENTENCE 8648 8775	If the device address is kept fixed, the waiting interval before the next try may be increased exponentially (see Section 5.1).
+T694	KEY_C 8591 8593	If
+T695	VARIABLE 8594 8606	both devices
+T696	CONDITION 8607 8623	have a fixed PIN
+T697	VARIABLE 8624 8628	they
+T698	CONDITION 8636 8645	be paired
+T699	NEGATION 8629 8645	cannot be paired
+T700	STATEMENT 8624 8645	they cannot be paired
+T701	STATEMENT 8594 8623	both devices have a fixed PIN
+T702	CAUSE 8591 8623	If both devices have a fixed PIN
+T703	CAUSE_EFFECT_RELATION 8591 8645	If both devices have a fixed PIN they cannot be paired
+T704	ROOT_SENTENCE 8591 8646	If both devices have a fixed PIN they cannot be paired.
+T705	KEY_C 8491 8493	If
+T706	VARIABLE 8494 8506	both devices
+T707	CONDITION 8507 8526	have a variable PIN
+T708	VARIABLE 8527 8574	the BD_ADDR of the device that received IN_RAND
+T709	CONDITION 8575 8588	shall be used
+T710	STATEMENT 8527 8588	the BD_ADDR of the device that received IN_RAND shall be used
+T711	STATEMENT 8494 8526	both devices have a variable PIN
+T712	CAUSE 8491 8526	If both devices have a variable PIN
+T713	CAUSE_EFFECT_RELATION 8491 8588	If both devices have a variable PIN the BD_ADDR of the device that received IN_RAND shall be used
+T714	ROOT_SENTENCE 8491 8589	If both devices have a variable PIN the BD_ADDR of the device that received IN_RAND shall be used.
+T715	KEY_C 8412 8414	If
+T716	VARIABLE 8415 8425	one device
+T717	CONDITION 8426 8441	has a fixed PIN
+T718	VARIABLE 8443 8474	the BD_ADDR of the other device
+T719	CONDITION 8475 8488	shall be used
+T720	STATEMENT 8443 8488	the BD_ADDR of the other device shall be used
+T721	STATEMENT 8415 8441	one device has a fixed PIN
+T722	CAUSE 8412 8441	If one device has a fixed PIN
+T723	CAUSE_EFFECT_RELATION 8412 8488	If one device has a fixed PIN, the BD_ADDR of the other device shall be used
+T724	ROOT_SENTENCE 8412 8489	If one device has a fixed PIN, the BD_ADDR of the other device shall be used.
+T725	KEY_C 8284 8286	If
+T726	VARIABLE 8287 8297	encryption
+T727	CONDITION 8298 8312	is implemented
+T728	VARIABLE 8314 8330	the E0 algorithm
+T729	CONDITION 8331 8409	shall be used with the proper encryption key derived from the current link key
+T730	STATEMENT 8314 8409	the E0 algorithm shall be used with the proper encryption key derived from the current link key
+T731	STATEMENT 8287 8312	encryption is implemented
+T732	CAUSE 8284 8312	If encryption is implemented
+T733	CAUSE_EFFECT_RELATION 8284 8409	If encryption is implemented, the E0 algorithm shall be used with the proper encryption key derived from the current link key
+T734	ROOT_SENTENCE 8284 8410	If encryption is implemented, the E0 algorithm shall be used with the proper encryption key derived from the current link key.
+T735	KEY_C 8222 8224	If
+T736	VARIABLE 8228 8231	PIN
+T737	CONDITION 8232 8244	is available
+T738	NEGATION 8225 8244	no PIN is available
+T739	STATEMENT 8228 8244	PIN is available
+T740	CAUSE 8222 8244	If no PIN is available
+T741	VARIABLE 8246 8269	a default value of zero
+T742	CONDITION 8270 8281	may be used
+T743	STATEMENT 8246 8281	a default value of zero may be used
+T744	CAUSE_EFFECT_RELATION 8222 8281	If no PIN is available, a default value of zero may be used
+T745	ROOT_SENTENCE 8222 8282	If no PIN is available, a default value of zero may be used.
+T746	KEY_C 8089 8091	If
+T747	VARIABLE 8092 8103	the command
+T748	KEY_C 8176 8180	then
+T749	VARIABLE 8181 8205	the Physical_Link_Handle
+T750	CONDITION 8206 8219	shall be 0x00
+T751	STATEMENT 8181 8219	the Physical_Link_Handle shall be 0x00
+T752	EFFECT 8176 8219	then the Physical_Link_Handle shall be 0x00
+T753	CONDITION 8104 8174	is being executed outside of the context of any physical link creation
+T754	STATEMENT 8092 8174	the command is being executed outside of the context of any physical link creation
+T755	CAUSE 8089 8174	If the command is being executed outside of the context of any physical link creation
+T756	CAUSE_EFFECT_RELATION 8089 8219	If the command is being executed outside of the context of any physical link creation, then the Physical_Link_Handle shall be 0x00
+T757	ROOT_SENTENCE 8089 8220	If the command is being executed outside of the context of any physical link creation, then the Physical_Link_Handle shall be 0x00.
+T758	VARIABLE 7988 7998	This value
+T759	CONDITION 7999 8012	shall be used
+T760	KEY_C 8013 8015	if
+T761	VARIABLE 8016 8034	the AMP Controller
+T762	CONDITION 8035 8045	is present
+T763	CONDITION 8050 8086	can be powered up by the AMP Manager
+T764	AND 8035 8086	is present and can be powered up by the AMP Manager
+T765	STATEMENT 8016 8086	the AMP Controller is present and can be powered up by the AMP Manager
+T766	CAUSE 8013 8086	if the AMP Controller is present and can be powered up by the AMP Manager
+T767	STATEMENT 7988 8012	This value shall be used
+T768	KEY_C 7874 7876	If
+T769	VARIABLE 7877 7916	the current role of this ACL connection
+T770	CONDITION 7917 7926	is Master
+T771	KEY_C 7928 7932	then
+T772	VARIABLE 7933 7967	the Bluetooth Clock of this device
+T773	CONDITION 7968 7985	shall be returned
+T774	STATEMENT 7933 7985	the Bluetooth Clock of this device shall be returned
+T775	EFFECT 7928 7985	then the Bluetooth Clock of this device shall be returned
+T776	STATEMENT 7877 7926	the current role of this ACL connection is Master
+T777	CAUSE 7874 7926	If the current role of this ACL connection is Master
+T778	CAUSE_EFFECT_RELATION 7874 7985	If the current role of this ACL connection is Master, then the Bluetooth Clock of this device shall be returned
+T779	ROOT_SENTENCE 7874 7986	If the current role of this ACL connection is Master, then the Bluetooth Clock of this device shall be returned.
+T780	KEY_C 7808 7810	If
+T781	VARIABLE 7811 7819	the RSSI
+T782	CONDITION 7827 7834	be read
+T783	NEGATION 7820 7834	cannot be read
+T784	STATEMENT 7811 7834	the RSSI cannot be read
+T785	CAUSE 7808 7834	If the RSSI cannot be read
+T786	VARIABLE 7836 7851	the RSSI metric
+T787	CONDITION 7852 7871	shall be set to 127
+T788	STATEMENT 7836 7871	the RSSI metric shall be set to 127
+T789	CAUSE_EFFECT_RELATION 7808 7871	If the RSSI cannot be read, the RSSI metric shall be set to 127
+T790	ROOT_SENTENCE 7808 7872	If the RSSI cannot be read, the RSSI metric shall be set to 127.
+T791	KEY_C 7705 7707	If
+T792	VARIABLE 7708 7723	this Controller
+T793	CONDITION 7733 7761	have a Public Device Address
+T794	NEGATION 7724 7761	does not have a Public Device Address
+T795	VARIABLE 7763 7787	the value 0x000000000000
+T796	CONDITION 7788 7805	shall be returned
+T797	STATEMENT 7763 7805	the value 0x000000000000 shall be returned
+T798	STATEMENT 7708 7761	this Controller does not have a Public Device Address
+T799	CAUSE 7705 7761	If this Controller does not have a Public Device Address
+T800	CAUSE_EFFECT_RELATION 7705 7805	If this Controller does not have a Public Device Address, the value 0x000000000000 shall be returned
+T801	ROOT_SENTENCE 7705 7806	If this Controller does not have a Public Device Address, the value 0x000000000000 shall be returned.
+T802	KEY_C 7596 7598	If
+T803	VARIABLE 7599 7604	a bit
+T804	CONDITION 7605 7609	is 1
+T805	VARIABLE 7611 7625	the Controller
+T806	CONDITION 7626 7660	supports the corresponding command
+T807	CONDITION 7665 7702	the features required for the command
+T808	AND 7626 7702	supports the corresponding command and the features required for the command
+T809	STATEMENT 7611 7702	the Controller supports the corresponding command and the features required for the command
+T810	STATEMENT 7599 7609	a bit is 1
+T811	CAUSE 7596 7609	If a bit is 1
+T812	CAUSE_EFFECT_RELATION 7596 7702	If a bit is 1, the Controller supports the corresponding command and the features required for the command
+T813	ROOT_SENTENCE 7596 7703	If a bit is 1, the Controller supports the corresponding command and the features required for the command.
+T814	KEY_C 7445 7447	If
+T815	VARIABLE 7448 7457	this time
+T816	CONDITION 7458 7465	expires
+T817	VARIABLE 7470 7487	the remote device
+T818	CONDITION 7496 7535	responded to the page at baseband level
+T819	NEGATION 7488 7535	has not responded to the page at baseband level
+T820	STATEMENT 7470 7535	the remote device has not responded to the page at baseband level
+T821	STATEMENT 7448 7465	this time expires
+T822	AND 7448 7535	this time expires and the remote device has not responded to the page at baseband level
+T823	VARIABLE 7537 7559	the connection attempt
+T824	CONDITION 7560 7593	will be considered to have failed
+T825	STATEMENT 7537 7593	the connection attempt will be considered to have failed
+T826	CAUSE 7445 7535	If this time expires and the remote device has not responded to the page at baseband level
+T827	CAUSE_EFFECT_RELATION 7445 7593	If this time expires and the remote device has not responded to the page at baseband level, the connection attempt will be considered to have failed
+T828	ROOT_SENTENCE 7445 7594	If this time expires and the remote device has not responded to the page at baseband level, the connection attempt will be considered to have failed.
+T829	KEY_C 7323 7325	If
+T830	VARIABLE 7326 7340	the connection
+T831	CONDITION 7341 7356	is in hold mode
+T832	VARIABLE 7358 7391	the Authenticated_Payload_Timeout
+T833	CONDITION 7392 7409	shall be equal to
+T834	CONDITION 7413 7442	greater than the holdTO value
+T835	OR 7392 7442	shall be equal to or greater than the holdTO value
+T836	STATEMENT 7358 7442	the Authenticated_Payload_Timeout shall be equal to or greater than the holdTO value
+T837	STATEMENT 7326 7356	the connection is in hold mode
+T838	CAUSE 7323 7356	If the connection is in hold mode
+T839	CAUSE_EFFECT_RELATION 7323 7442	If the connection is in hold mode, the Authenticated_Payload_Timeout shall be equal to or greater than the holdTO value
+T840	ROOT_SENTENCE 7323 7443	If the connection is in hold mode, the Authenticated_Payload_Timeout shall be equal to or greater than the holdTO value.
+T841	KEY_C 7210 7212	If
+T842	VARIABLE 7213 7227	the connection
+T843	CONDITION 7228 7244	is in sniff mode
+T844	VARIABLE 7246 7279	the Authenticated_Payload_Timeout
+T845	CONDITION 7280 7297	shall be equal to
+T846	CONDITION 7301 7320	greater than Tsniff
+T847	OR 7280 7320	shall be equal to or greater than Tsniff
+T848	STATEMENT 7246 7320	the Authenticated_Payload_Timeout shall be equal to or greater than Tsniff
+T849	STATEMENT 7213 7244	the connection is in sniff mode
+T850	CAUSE 7210 7244	If the connection is in sniff mode
+T851	CAUSE_EFFECT_RELATION 7210 7320	If the connection is in sniff mode, the Authenticated_Payload_Timeout shall be equal to or greater than Tsniff
+T852	ROOT_SENTENCE 7210 7321	If the connection is in sniff mode, the Authenticated_Payload_Timeout shall be equal to or greater than Tsniff.
+T853	KEY_C 7076 7078	If
+T854	VARIABLE 7079 7093	the Controller
+T855	CONDITION 7094 7137	is unable to select a value from this range
+T856	STATEMENT 7079 7137	the Controller is unable to select a value from this range
+T857	CAUSE 7076 7137	If the Controller is unable to select a value from this range
+T858	VARIABLE 7139 7141	it
+T859	CONDITION 7142 7207	shall return the Invalid HCI Command Parameters (0x12) error code
+T860	STATEMENT 7139 7207	it shall return the Invalid HCI Command Parameters (0x12) error code
+T861	CAUSE_EFFECT_RELATION 7076 7207	If the Controller is unable to select a value from this range, it shall return the Invalid HCI Command Parameters (0x12) error code
+T862	ROOT_SENTENCE 7076 7208	If the Controller is unable to select a value from this range, it shall return the Invalid HCI Command Parameters (0x12) error code.
+T863	KEY_C 6944 6946	If
+T864	VARIABLE 6947 6982	connectionless slave broadcast mode
+T865	CONDITION 6983 6998	is still active
+T866	KEY_C 7000 7004	then
+T867	VARIABLE 7005 7019	the Controller
+T868	CONDITION 7020 7073	shall return the Command Disallowed (0x0C) error code
+T869	STATEMENT 7005 7073	the Controller shall return the Command Disallowed (0x0C) error code
+T870	EFFECT 7000 7073	then the Controller shall return the Command Disallowed (0x0C) error code
+T871	STATEMENT 6947 6998	connectionless slave broadcast mode is still active
+T872	CAUSE 6944 6998	If connectionless slave broadcast mode is still active
+T873	CAUSE_EFFECT_RELATION 6944 7073	If connectionless slave broadcast mode is still active, then the Controller shall return the Command Disallowed (0x0C) error code
+T874	ROOT_SENTENCE 6944 7074	If connectionless slave broadcast mode is still active, then the Controller shall return the Command Disallowed (0x0C) error code.
+T875	KEY_C 6765 6767	If
+T876	VARIABLE 6768 6779	the command
+T877	CONDITION 6780 6788	succeeds
+T878	KEY_C 6790 6794	then
+T879	VARIABLE 6795 6815	the reserved LT_ADDR
+T880	KEY_C 6653 6655	If
+T881	VARIABLE 6656 6688	the bit in the Event_Mask_Page_2
+T882	CONDITION 6689 6704	is set to a one
+T883	KEY_C 6706 6710	then
+T884	VARIABLE 6711 6745	the event associated with that bit
+T885	CONDITION 6746 6762	shall be enabled
+T886	STATEMENT 6711 6762	the event associated with that bit shall be enabled
+T887	EFFECT 6706 6762	then the event associated with that bit shall be enabled
+T888	STATEMENT 6656 6704	the bit in the Event_Mask_Page_2 is set to a one
+T889	CAUSE 6653 6704	If the bit in the Event_Mask_Page_2 is set to a one
+T890	CAUSE_EFFECT_RELATION 6653 6762	If the bit in the Event_Mask_Page_2 is set to a one, then the event associated with that bit shall be enabled
+T891	ROOT_SENTENCE 6653 6763	If the bit in the Event_Mask_Page_2 is set to a one, then the event associated with that bit shall be enabled.
+T892	KEY_C 6505 6507	If
+T893	VARIABLE 6508 6529	the BR/EDR Controller
+T894	CONDITION 6530 6544	is powered off
+T895	CONDITION 6548 6553	reset
+T896	OR 6530 6553	is powered off or reset
+T897	STATEMENT 6508 6553	the BR/EDR Controller is powered off or reset
+T898	CAUSE 6505 6553	If the BR/EDR Controller is powered off or reset
+T899	KEY_C 6555 6559	then
+T900	VARIABLE 6560 6576	this information
+T901	CONDITION 6577 6584	is lost
+T902	VARIABLE 6589 6629	the values obtained before the power off
+T903	VARIABLE 6633 6638	reset
+T904	OR 6589 6638	the values obtained before the power off or reset
+T905	CONDITION 6639 6650	are invalid
+T906	STATEMENT 6589 6650	the values obtained before the power off or reset are invalid
+T907	STATEMENT 6560 6584	this information is lost
+T908	AND 6560 6650	this information is lost and the values obtained before the power off or reset are invalid
+T909	EFFECT 6555 6650	then this information is lost and the values obtained before the power off or reset are invalid
+T910	CAUSE_EFFECT_RELATION 6505 6650	If the BR/EDR Controller is powered off or reset, then this information is lost and the values obtained before the power off or reset are invalid
+T911	ROOT_SENTENCE 6505 6651	If the BR/EDR Controller is powered off or reset, then this information is lost and the values obtained before the power off or reset are invalid.
+T912	KEY_C 6373 6375	If
+T913	VARIABLE 6376 6388	this command
+T914	CONDITION 6389 6396	is used
+T915	VARIABLE 6398 6405	updates
+T916	CONDITION 6406 6502	should be sent within 10 seconds of the Host knowing that the channel classification has changed
+T917	STATEMENT 6398 6502	updates should be sent within 10 seconds of the Host knowing that the channel classification has changed
+T918	STATEMENT 6376 6396	this command is used
+T919	CAUSE 6373 6396	If this command is used
+T920	CAUSE_EFFECT_RELATION 6373 6502	If this command is used, updates should be sent within 10 seconds of the Host knowing that the channel classification has changed
+T921	ROOT_SENTENCE 6373 6503	If this command is used, updates should be sent within 10 seconds of the Host knowing that the channel classification has changed.
+T922	KEY_C 5701 5703	If
+T923	VARIABLE 5704 5713	this time
+T924	CONDITION 5714 5721	expires
+T925	VARIABLE 5726 5743	the remote device
+T926	CONDITION 5752 5791	responded to the page at baseband level
+T927	NEGATION 5744 5791	has not responded to the page at baseband level
+T928	STATEMENT 5726 5791	the remote device has not responded to the page at baseband level
+T929	STATEMENT 5704 5721	this time expires
+T930	AND 5704 5791	this time expires and the remote device has not responded to the page at baseband level
+T931	VARIABLE 5793 5815	the connection attempt
+T932	CONDITION 5816 5849	will be considered to have failed
+T933	STATEMENT 5793 5849	the connection attempt will be considered to have failed
+T934	CAUSE 5701 5791	If this time expires and the remote device has not responded to the page at baseband level
+T935	CAUSE_EFFECT_RELATION 5701 5849	If this time expires and the remote device has not responded to the page at baseband level, the connection attempt will be considered to have failed
+T936	ROOT_SENTENCE 5701 5850	If this time expires and the remote device has not responded to the page at baseband level, the connection attempt will be considered to have failed.
+T937	KEY_C 5594 5596	If
+T938	VARIABLE 5600 5616	additional space
+T939	CONDITION 5617 5654	is available in the BR/EDR Controller
+T940	KEY_C 5655 5659	then
+T941	VARIABLE 5663 5683	additional link keys
+T942	CONDITION 5684 5698	will be stored
+T943	STATEMENT 5663 5698	additional link keys will be stored
+T944	NEGATION 5660 5698	no additional link keys will be stored
+T945	EFFECT 5655 5698	then no additional link keys will be stored
+T946	STATEMENT 5600 5654	additional space is available in the BR/EDR Controller
+T947	NEGATION 5597 5654	no additional space is available in the BR/EDR Controller
+T948	CAUSE 5594 5654	If no additional space is available in the BR/EDR Controller
+T949	CAUSE_EFFECT_RELATION 5594 5698	If no additional space is available in the BR/EDR Controller then no additional link keys will be stored
+T950	ROOT_SENTENCE 5594 5699	If no additional space is available in the BR/EDR Controller then no additional link keys will be stored.
+T951	KEY_C 5475 5477	If
+T952	VARIABLE 5478 5491	Read_All_Flag
+T953	CONDITION 5492 5501	indicates
+T954	VARIABLE 5507 5520	all Link Keys
+T955	CONDITION 5521 5539	are to be returned
+T956	STATEMENT 5507 5539	all Link Keys are to be returned
+T957	STATEMENT 5478 5501	Read_All_Flag indicates
+T958	KEY_C 5502 5506	that
+T959	CAUSE 5502 5539	that all Link Keys are to be returned
+T960	CAUSE 5475 5501	If Read_All_Flag indicates
+T961	KEY_C 5541 5545	then
+T962	VARIABLE 5546 5575	the BD_ADDR command parameter
+T963	CONDITION 5576 5591	must be ignored
+T964	STATEMENT 5546 5591	the BD_ADDR command parameter must be ignored
+T965	EFFECT 5541 5591	then the BD_ADDR command parameter must be ignored
+T966	AND 5475 5539	If Read_All_Flag indicates that all Link Keys are to be returned
+T967	CAUSE_EFFECT_RELATION 5475 5591	If Read_All_Flag indicates that all Link Keys are to be returned, then the BD_ADDR command parameter must be ignored
+T968	ROOT_SENTENCE 5475 5592	If Read_All_Flag indicates that all Link Keys are to be returned, then the BD_ADDR command parameter must be ignored.
+T969	KEY_C 5369 5371	If
+T970	VARIABLE 5372 5380	there is
+T971	CONDITION 5381 5418	a contradiction between event filters
+T972	VARIABLE 5420 5447	the latest set event filter
+T973	CONDITION 5448 5472	will override older ones
+T974	STATEMENT 5420 5472	the latest set event filter will override older ones
+T975	STATEMENT 5372 5418	there is a contradiction between event filters
+T976	CAUSE 5369 5418	If there is a contradiction between event filters
+T977	CAUSE_EFFECT_RELATION 5369 5472	If there is a contradiction between event filters, the latest set event filter will override older ones
+T978	ROOT_SENTENCE 5369 5473	If there is a contradiction between event filters, the latest set event filter will override older ones.
+T979	KEY_C 5193 5195	If
+T980	VARIABLE 5196 5204	the Host
+T981	CONDITION 5205 5267	tries to set more filters than the BR/EDR Controller can store
+T982	VARIABLE 5269 5290	the BR/EDR Controller
+T983	CONDITION 5291 5329	will return the Memory Full error code
+T984	VARIABLE 5334 5344	the filter
+T985	CONDITION 5354 5366	be installed
+T986	NEGATION 5345 5366	will not be installed
+T987	STATEMENT 5334 5366	the filter will not be installed
+T988	STATEMENT 5269 5329	the BR/EDR Controller will return the Memory Full error code
+T989	AND 5269 5366	the BR/EDR Controller will return the Memory Full error code and the filter will not be installed
+T990	STATEMENT 5196 5267	the Host tries to set more filters than the BR/EDR Controller can store
+T991	CAUSE 5193 5267	If the Host tries to set more filters than the BR/EDR Controller can store
+T992	CAUSE_EFFECT_RELATION 5193 5366	If the Host tries to set more filters than the BR/EDR Controller can store, the BR/EDR Controller will return the Memory Full error code and the filter will not be installed
+T993	ROOT_SENTENCE 5193 5367	If the Host tries to set more filters than the BR/EDR Controller can store, the BR/EDR Controller will return the Memory Full error code and the filter will not be installed.
+T53	KEY_C 1461 1465	only
+T994	EFFECT 1461 1518	only the Remote Name Request Complete event shall be sent
+T995	CAUSE_EFFECT_RELATION 1453 1518	If not, only the Remote Name Request Complete event shall be sent
+T996	ROOT_SENTENCE 1453 1519	If not, only the Remote Name Request Complete event shall be sent.
+T997	CONDITION 547 614	has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message
+T998	KEY_C 618 620	if
+T999	VARIABLE 621 636	the NG-RAN node
+T1000	CONDITION 637 696	has already initiated a UE-associated logical NG-connection
+T1001	CONDITION 697 737	by sending an INITIAL UE MESSAGE message
+T1002	CONDITION 738 771	via another NG interface instance
+T1003	AND 697 771	by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1004	AND 637 771	has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1005	STATEMENT 621 771	the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1006	CAUSE 618 771	if the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1007	STATEMENT 539 614	the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message
+T1008	CAUSE 536 614	if the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message
+T1009	STATEMENT 476 532	a UE- associated logical NG-connection exists for the UE
+T1010	CAUSE 473 532	if a UE- associated logical NG-connection exists for the UE
+T1011	STATEMENT 416 472	The AMF may initiate the Initial Context Setup procedure
+T1012	OR 536 771	if the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message or if the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1013	OR 473 771	if a UE- associated logical NG-connection exists for the UE or if the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message or if the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1014	CAUSE_EFFECT_RELATION 416 771	The AMF may initiate the Initial Context Setup procedure if a UE- associated logical NG-connection exists for the UE or if the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message or if the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance
+T1015	ROOT_SENTENCE 416 772	The AMF may initiate the Initial Context Setup procedure if a UE- associated logical NG-connection exists for the UE or if the AMF has received the RAN UE NGAP ID IE in an INITIAL UE MESSAGE message or if the NG-RAN node has already initiated a UE-associated logical NG-connection by sending an INITIAL UE MESSAGE message via another NG interface instance.
+T1016	CONDITION 6816 6829	shall be used
+T1017	KEY_C 6830 6834	when
+T1018	VARIABLE 6835 6893	issuing subsequent Set Connectionless Slave Broadcast Data
+T1019	VARIABLE 6898 6941	Set Connectionless Slave Broadcast commands
+T1020	AND 6835 6941	issuing subsequent Set Connectionless Slave Broadcast Data and Set Connectionless Slave Broadcast commands
+T1021	CAUSE 6830 6941	when issuing subsequent Set Connectionless Slave Broadcast Data and Set Connectionless Slave Broadcast commands
+T1022	STATEMENT 6795 6829	the reserved LT_ADDR shall be used
+T1023	EFFECT 6790 6829	then the reserved LT_ADDR shall be used
+T1024	CAUSE_EFFECT_RELATION 6790 6941	then the reserved LT_ADDR shall be used when issuing subsequent Set Connectionless Slave Broadcast Data and Set Connectionless Slave Broadcast commands
+T1025	STATEMENT 6768 6788	the command succeeds
+T1026	CAUSE 6765 6788	If the command succeeds
+T1027	CAUSE_EFFECT_RELATION 6765 6941	If the command succeeds, then the reserved LT_ADDR shall be used when issuing subsequent Set Connectionless Slave Broadcast Data and Set Connectionless Slave Broadcast commands
+T1028	ROOT_SENTENCE 6765 6942	If the command succeeds, then the reserved LT_ADDR shall be used when issuing subsequent Set Connectionless Slave Broadcast Data and Set Connectionless Slave Broadcast commands.
+T1029	CAUSE_EFFECT_RELATION 7988 8086	This value shall be used if the AMP Controller is present and can be powered up by the AMP Manager
+T1030	ROOT_SENTENCE 7988 8087	This value shall be used if the AMP Controller is present and can be powered up by the AMP Manager.
+T643	CAUSE_EFFECT_RELATION 10462 10520	If the PDU contains an FCS error, then it shall be ignored
+T644	ROOT_SENTENCE 10462 10521	If the PDU contains an FCS error, then it shall be ignored.
+T523	ROOT_SENTENCE 11333 11477	If the DCID is not recognized by the receiver of this message, a CommandReject message with ’invalid CID’ result code shall be sent in response.
+T524	STATEMENT 11557 11597	the request should be silently discarded
+T525	AND 11482 11555	the receiver finds a DCID match but the SCID fails to find the same match
+T526	CAUSE 11479 11555	If the receiver finds a DCID match but the SCID fails to find the same match
+T527	CAUSE_EFFECT_RELATION 11479 11597	If the receiver finds a DCID match but the SCID fails to find the same match, the request should be silently discarded
+T528	ROOT_SENTENCE 11479 11598	If the receiver finds a DCID match but the SCID fails to find the same match, the request should be silently discarded.

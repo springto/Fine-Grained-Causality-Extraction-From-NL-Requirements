@@ -1,0 +1,1116 @@
+T1	VARIABLE 3 12	the check
+T3	CONDITION 13 26	is successful
+T4	KEY_C 0 2	If
+T5	CAUSE 0 26	If the check is successful
+T2	STATEMENT 3 26	the check is successful
+T6	VARIABLE 27 154	the applicable Netted area AC Position for each of the control areas subject to cross-load-frequency-control-area redispatching
+T7	CONDITION 155 204	shall be the Netted area AC position from the IGM
+T8	STATEMENT 27 204	the applicable Netted area AC Position for each of the control areas subject to cross-load-frequency-control-area redispatching shall be the Netted area AC position from the IGM
+T9	ROOT_SENTENCE 0 205	If the check is successful the applicable Netted area AC Position for each of the control areas subject to cross-load-frequency-control-area redispatching shall be the Netted area AC position from the IGM.
+T10	CAUSE_EFFECT_RELATION 0 204	If the check is successful the applicable Netted area AC Position for each of the control areas subject to cross-load-frequency-control-area redispatching shall be the Netted area AC position from the IGM
+T11	VARIABLE 210 221	discrepancy
+T13	KEY_C 287 291	then
+T14	VARIABLE 292 335	a balance adjustment by adjusting the loads
+T15	CONDITION 336 350	has to be done
+T16	STATEMENT 292 350	a balance adjustment by adjusting the loads has to be done
+T17	EFFECT 287 350	then a balance adjustment by adjusting the loads has to be done
+T12	CONDITION 222 236	exists for one
+T18	KEY_C 207 209	If
+T19	STATEMENT 210 285	discrepancy exists for one or more scheduling areas, between the two values
+T20	CAUSE 207 285	If discrepancy exists for one or more scheduling areas, between the two values
+T21	CAUSE_EFFECT_RELATION 207 350	If discrepancy exists for one or more scheduling areas, between the two values, then a balance adjustment by adjusting the loads has to be done
+T22	ROOT_SENTENCE 207 351	If discrepancy exists for one or more scheduling areas, between the two values, then a balance adjustment by adjusting the loads has to be done.
+T23	VARIABLE 356 406	the active power injection in the global slack bus
+T24	CONDITION 407 439	exceeds a configurable threshold
+T25	KEY_C 353 355	If
+T26	VARIABLE 441 468	this active power injection
+T27	CONDITION 469 640	shall be redistributed on all generation units in the synchronous area proportional to the reserve margin, respecting the reactive power limits of all the Generating Units
+T28	VARIABLE 645 659	the power flow
+T29	CONDITION 660 679	is calculated again
+T30	STATEMENT 645 679	the power flow is calculated again
+T31	STATEMENT 441 640	this active power injection shall be redistributed on all generation units in the synchronous area proportional to the reserve margin, respecting the reactive power limits of all the Generating Units
+T32	STATEMENT 356 439	the active power injection in the global slack bus exceeds a configurable threshold
+T33	CAUSE 353 439	If the active power injection in the global slack bus exceeds a configurable threshold
+T34	AND 441 679	this active power injection shall be redistributed on all generation units in the synchronous area proportional to the reserve margin, respecting the reactive power limits of all the Generating Units and the power flow is calculated again
+T35	CAUSE_EFFECT_RELATION 353 679	If the active power injection in the global slack bus exceeds a configurable threshold, this active power injection shall be redistributed on all generation units in the synchronous area proportional to the reserve margin, respecting the reactive power limits of all the Generating Units and the power flow is calculated again
+T36	VARIABLE 685 707	the load flow solution
+T38	VARIABLE 764 775	the process
+T39	CONDITION 776 792	shall be aborted
+T40	VARIABLE 797 809	the Operator
+T41	CONDITION 810 827	shall be informed
+T42	STATEMENT 797 827	the Operator shall be informed
+T43	STATEMENT 764 792	the process shall be aborted
+T44	AND 764 827	the process shall be aborted and the Operator shall be informed
+T45	KEY_C 682 684	If
+T46	CAUSE 682 762	If the load flow solution cannot be found by the means specified in VMA1 or VMA2
+T47	STATEMENT 685 762	the load flow solution cannot be found by the means specified in VMA1 or VMA2
+T48	CAUSE_EFFECT_RELATION 682 827	If the load flow solution cannot be found by the means specified in VMA1 or VMA2, the process shall be aborted and the Operator shall be informed
+T49	ROOT_SENTENCE 682 828	If the load flow solution cannot be found by the means specified in VMA1 or VMA2, the process shall be aborted and the Operator shall be informed.
+T50	VARIABLE 1302 1307	there
+T51	CONDITION 1308 1342	is already a REL address for a RMP
+T52	VARIABLE 1344 1349	there
+T53	CONDITION 1350 1409	is no request for an address match from the Address Service
+T54	STATEMENT 1344 1409	there is no request for an address match from the Address Service
+T55	STATEMENT 1302 1342	there is already a REL address for a RMP
+T56	KEY_C 1299 1301	If
+T57	CAUSE 1299 1342	If there is already a REL address for a RMP
+T58	CAUSE_EFFECT_RELATION 1299 1409	If there is already a REL address for a RMP, there is no request for an address match from the Address Service
+T59	ROOT_SENTENCE 1299 1410	If there is already a REL address for a RMP, there is no request for an address match from the Address Service.
+T60	VARIABLE 1415 1490	the unique GB address identifier of both RMPs related to a single comms hub
+T62	KEY_C 1412 1414	If
+T63	STATEMENT 1415 1506	the unique GB address identifier of both RMPs related to a single comms hub is not the same
+T64	CAUSE 1412 1506	If the unique GB address identifier of both RMPs related to a single comms hub is not the same
+T65	KEY_C 1508 1512	then
+T66	VARIABLE 1513 1516	CSS
+T67	CONDITION 1517 1566	queues this Address Issue for manual intervention
+T68	STATEMENT 1513 1566	CSS queues this Address Issue for manual intervention
+T69	EFFECT 1508 1566	then CSS queues this Address Issue for manual intervention
+T70	CAUSE_EFFECT_RELATION 1412 1566	If the unique GB address identifier of both RMPs related to a single comms hub is not the same, then CSS queues this Address Issue for manual intervention
+T71	ROOT_SENTENCE 1412 1567	If the unique GB address identifier of both RMPs related to a single comms hub is not the same, then CSS queues this Address Issue for manual intervention.
+T72	VARIABLE 1572 1595	the CSS operations user
+T74	KEY_C 1569 1571	If
+T75	KEY_C 1613 1617	then
+T76	VARIABLE 1618 1627	the entry
+T77	CONDITION 1628 1648	is left on the queue
+T78	STATEMENT 1618 1648	the entry is left on the queue
+T79	EFFECT 1613 1648	then the entry is left on the queue
+T80	STATEMENT 1572 1611	the CSS operations user takes no action
+T81	CAUSE 1569 1611	If the CSS operations user takes no action
+T82	CAUSE_EFFECT_RELATION 1569 1648	If the CSS operations user takes no action, then the entry is left on the queue
+T83	ROOT_SENTENCE 1569 1649	If the CSS operations user takes no action, then the entry is left on the queue.
+T84	VARIABLE 1654 1658	none
+T85	CONDITION 1659 1667	is found
+T86	KEY_C 1669 1673	then
+T87	KEY_C 1651 1653	If
+T88	VARIABLE 1674 1677	CSS
+T90	STATEMENT 1674 1720	CSS takes no action with respect to this entry
+T91	STATEMENT 1654 1667	none is found
+T92	CAUSE 1651 1667	If none is found
+T93	EFFECT 1669 1720	then CSS takes no action with respect to this entry
+T94	CAUSE_EFFECT_RELATION 1651 1720	If none is found, then CSS takes no action with respect to this entry
+T95	ROOT_SENTENCE 1651 1721	If none is found, then CSS takes no action with respect to this entry.
+T96	KEY_C 1783 1785	if
+T97	VARIABLE 1786 1824	the Enterprise Data Hub implementation
+T99	CONDITION 1876 1886	timescales
+T100	OR 1832 1886	meet the switching programme requirement or timescales
+T101	STATEMENT 1786 1886	the Enterprise Data Hub implementation cannot meet the switching programme requirement or timescales
+T102	CAUSE 1783 1886	if the Enterprise Data Hub implementation cannot meet the switching programme requirement or timescales
+T103	VARIABLE 1723 1743	The fall-back option
+T104	CONDITION 1744 1782	will be to transfer data by secure FTP
+T105	STATEMENT 1723 1782	The fall-back option will be to transfer data by secure FTP
+T106	CAUSE_EFFECT_RELATION 1723 1886	The fall-back option will be to transfer data by secure FTP if the Enterprise Data Hub implementation cannot meet the switching programme requirement or timescales
+T107	ROOT_SENTENCE 1723 1887	The fall-back option will be to transfer data by secure FTP if the Enterprise Data Hub implementation cannot meet the switching programme requirement or timescales.
+T108	NONE_CAUSAL 1889 1900	For example
+T109	VARIABLE 1902 1918	a Switch Request
+T110	CONDITION 1919 1934	may be rejected
+T111	KEY_C 1935 1937	if
+T112	VARIABLE 1938 1975	a change to shipper-supplier alliance
+T113	CONDITION 1976 1992	has been applied
+T114	CONDITION 1998 2020	invalidates the switch
+T115	AND 1976 2020	has been applied that invalidates the switch
+T116	STATEMENT 1938 2020	a change to shipper-supplier alliance has been applied that invalidates the switch
+T117	CAUSE 1935 2020	if a change to shipper-supplier alliance has been applied that invalidates the switch
+T118	STATEMENT 1902 1934	a Switch Request may be rejected
+T119	CAUSE_EFFECT_RELATION 1902 2020	a Switch Request may be rejected if a change to shipper-supplier alliance has been applied that invalidates the switch
+T120	ROOT_SENTENCE 1889 2021	For example, a Switch Request may be rejected if a change to shipper-supplier alliance has been applied that invalidates the switch.
+T37	CONDITION 715 754	be found by the means specified in VMA1
+T121	CONDITION 758 762	VMA2
+T122	OR 715 762	be found by the means specified in VMA1 or VMA2
+T123	NEGATION 708 762	cannot be found by the means specified in VMA1 or VMA2
+T98	CONDITION 1832 1872	meet the switching programme requirement
+T125	KEY_C 916 918	If
+T126	VARIABLE 919 943	the communication module
+T127	CONDITION 951 958	enabled
+T128	NEGATION 944 958	is not enabled
+T129	CONDITION 965 996	external client for dumping log
+T130	CONDITION 1001 1027	trace message is connected
+T131	AND 965 1027	external client for dumping log and trace message is connected
+T132	NEGATION 962 1027	no external client for dumping log and trace message is connected
+T133	OR 944 1027	is not enabled or no external client for dumping log and trace message is connected
+T134	STATEMENT 919 1027	the communication module is not enabled or no external client for dumping log and trace message is connected
+T135	CAUSE 916 1027	If the communication module is not enabled or no external client for dumping log and trace message is connected
+T136	VARIABLE 1029 1032	log
+T137	VARIABLE 1037 1051	trace messages
+T138	CONDITION 1052 1094	shall be stored locally in a memory buffer
+T139	AND 1029 1051	log and trace messages
+T140	STATEMENT 1029 1094	log and trace messages shall be stored locally in a memory buffer
+T141	CAUSE_EFFECT_RELATION 916 1094	If the communication module is not enabled or no external client for dumping log and trace message is connected, log and trace messages shall be stored locally in a memory buffer
+T142	ROOT_SENTENCE 916 1095	If the communication module is not enabled or no external client for dumping log and trace message is connected, log and trace messages shall be stored locally in a memory buffer.
+T145	KEY_C 1097 1099	If
+T146	VARIABLE 1100 1103	one
+T147	CONDITION 1104 1112	is found
+T148	VARIABLE 1114 1117	CSS
+T149	CONDITION 1118 1153	stores this address against the RMP
+T150	STATEMENT 1114 1153	CSS stores this address against the RMP
+T151	STATEMENT 1100 1112	one is found
+T152	CAUSE 1097 1112	If one is found
+T153	CAUSE_EFFECT_RELATION 1097 1296	If one is found, CSS stores this address against the RMP, where it becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market
+T154	ROOT_SENTENCE 1097 1297	If one is found, CSS stores this address against the RMP, where it becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market.
+T155	KEY_C 2023 2025	If
+T156	VARIABLE 2026 2038	a laboratory
+T157	CONDITION 2039 2086	has a valid certification according to ISO 9001
+T158	CONDITION 2090 2099	ISO 15189
+T159	CONDITION 2104 2113	ISO 17025
+T160	AND 2090 2113	ISO 15189 and ISO 17025
+T161	OR 2039 2113	has a valid certification according to ISO 9001 or ISO 15189 and ISO 17025
+T162	STATEMENT 2026 2113	a laboratory has a valid certification according to ISO 9001 or ISO 15189 and ISO 17025
+T163	CAUSE 2023 2113	If a laboratory has a valid certification according to ISO 9001 or ISO 15189 and ISO 17025
+T164	VARIABLE 2115 2143	the requirement of section 4
+T165	CONDITION 2144 2157	is met per se
+T166	STATEMENT 2115 2157	the requirement of section 4 is met per se
+T167	CAUSE_EFFECT_RELATION 2023 2157	If a laboratory has a valid certification according to ISO 9001 or ISO 15189 and ISO 17025, the requirement of section 4 is met per se
+T168	ROOT_SENTENCE 2023 2158	If a laboratory has a valid certification according to ISO 9001 or ISO 15189 and ISO 17025, the requirement of section 4 is met per se.
+T169	KEY_C 2160 2162	If
+T170	VARIABLE 2163 2177	the laboratory
+T171	CONDITION 2187 2225	meet this limit figure in a given year
+T172	NEGATION 2178 2225	does not meet this limit figure in a given year
+T173	STATEMENT 2163 2225	the laboratory does not meet this limit figure in a given year
+T174	CAUSE 2160 2225	If the laboratory does not meet this limit figure in a given year
+T175	VARIABLE 2227 2250	actions for improvement
+T176	CONDITION 2251 2269	shall be initiated
+T177	STATEMENT 2227 2269	actions for improvement shall be initiated
+T178	CAUSE_EFFECT_RELATION 2160 2269	If the laboratory does not meet this limit figure in a given year, actions for improvement shall be initiated
+T179	ROOT_SENTENCE 2160 2270	If the laboratory does not meet this limit figure in a given year, actions for improvement shall be initiated.
+T180	VARIABLE 1161 1163	it
+T181	CONDITION 1220 1296	referred to by consumers and all parties engaged in the retail energy market
+T143	STATEMENT 1161 1296	it becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market
+T144	AND 1114 1296	CSS stores this address against the RMP, where it becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market
+T182	KEY_C 2272 2274	If
+T183	VARIABLE 2275 2289	the laboratory
+T184	CONDITION 2290 2354	fails to meet the limit figure in at least two consecutive years
+T185	VARIABLE 2356 2358	it
+T186	CONDITION 2359 2426	shall appoint an external expert to carry out a joint quality audit
+T187	STATEMENT 2356 2426	it shall appoint an external expert to carry out a joint quality audit
+T188	STATEMENT 2275 2354	the laboratory fails to meet the limit figure in at least two consecutive years
+T189	CAUSE 2272 2354	If the laboratory fails to meet the limit figure in at least two consecutive years
+T190	CAUSE_EFFECT_RELATION 2272 2426	If the laboratory fails to meet the limit figure in at least two consecutive years, it shall appoint an external expert to carry out a joint quality audit
+T191	ROOT_SENTENCE 2272 2427	If the laboratory fails to meet the limit figure in at least two consecutive years, it shall appoint an external expert to carry out a joint quality audit.
+T192	KEY_C 2429 2431	If
+T193	VARIABLE 2432 2451	cryopreserved cells
+T194	VARIABLE 2455 2462	tissues
+T195	OR 2432 2462	cryopreserved cells or tissues
+T196	CONDITION 2463 2471	are used
+T197	STATEMENT 2432 2471	cryopreserved cells or tissues are used
+T198	CAUSE 2429 2471	If cryopreserved cells or tissues are used
+T199	VARIABLE 2473 2510	traceability back to cryopreservation
+T200	VARIABLE 2515 2558	the process steps immediately prior to that
+T201	AND 2473 2558	traceability back to cryopreservation and the process steps immediately prior to that
+T202	CONDITION 2559 2574	must be ensured
+T203	STATEMENT 2473 2574	traceability back to cryopreservation and the process steps immediately prior to that must be ensured
+T204	CAUSE_EFFECT_RELATION 2429 2574	If cryopreserved cells or tissues are used, traceability back to cryopreservation and the process steps immediately prior to that must be ensured
+T205	ROOT_SENTENCE 2429 2575	If cryopreserved cells or tissues are used, traceability back to cryopreservation and the process steps immediately prior to that must be ensured.
+T206	KEY_C 2577 2579	If
+T207	VARIABLE 2580 2590	procedures
+T208	CONDITION 2591 2643	are used that are not covered in the ESHRE Guideline
+T209	CONDITION 2647 2662	other standards
+T210	OR 2591 2662	are used that are not covered in the ESHRE Guideline or other standards
+T211	STATEMENT 2580 2662	procedures are used that are not covered in the ESHRE Guideline or other standards
+T212	CAUSE 2577 2662	If procedures are used that are not covered in the ESHRE Guideline or other standards
+T213	VARIABLE 2664 2678	the laboratory
+T214	CONDITION 2679 2746	must provide evidence to show that the procedure has been validated
+T215	CONDITION 2751 2783	should retain validation records
+T216	AND 2679 2783	must provide evidence to show that the procedure has been validated and should retain validation records
+T217	STATEMENT 2664 2783	the laboratory must provide evidence to show that the procedure has been validated and should retain validation records
+T218	CAUSE_EFFECT_RELATION 2577 2783	If procedures are used that are not covered in the ESHRE Guideline or other standards, the laboratory must provide evidence to show that the procedure has been validated and should retain validation records
+T219	ROOT_SENTENCE 2577 2784	If procedures are used that are not covered in the ESHRE Guideline or other standards, the laboratory must provide evidence to show that the procedure has been validated and should retain validation records.
+T220	KEY_C 2786 2788	If
+T221	VARIABLE 2789 2821	software-specific customisations
+T222	CONDITION 2822 2878	prove necessary in order to achieve the desired function
+T223	VARIABLE 2880 2884	they
+T224	CONDITION 2885 2996	will be implemented using HTML, CSS, and Javascript technologies in accordance with Microsoft’s recommendations
+T225	CONDITION 3001 3019	using an APP model
+T226	OR 2885 3019	will be implemented using HTML, CSS, and Javascript technologies in accordance with Microsoft’s recommendations, or using an APP model
+T227	STATEMENT 2880 3019	they will be implemented using HTML, CSS, and Javascript technologies in accordance with Microsoft’s recommendations, or using an APP model
+T228	STATEMENT 2789 2878	software-specific customisations prove necessary in order to achieve the desired function
+T229	CAUSE 2786 2878	If software-specific customisations prove necessary in order to achieve the desired function
+T230	CAUSE_EFFECT_RELATION 2786 3019	If software-specific customisations prove necessary in order to achieve the desired function, they will be implemented using HTML, CSS, and Javascript technologies in accordance with Microsoft’s recommendations, or using an APP model
+T231	ROOT_SENTENCE 2786 3020	If software-specific customisations prove necessary in order to achieve the desired function, they will be implemented using HTML, CSS, and Javascript technologies in accordance with Microsoft’s recommendations, or using an APP model.
+T232	VARIABLE 3022 3028	Others
+T233	CONDITION 3029 3048	will be implemented
+T234	KEY_C 3049 3051	if
+T235	VARIABLE 3052 3056	they
+T236	CONDITION 3057 3105	have no significant impact on the project budget
+T237	CONDITION 3109 3117	schedule
+T238	OR 3057 3117	have no significant impact on the project budget or schedule
+T239	STATEMENT 3052 3117	they have no significant impact on the project budget or schedule
+T240	CAUSE 3049 3117	if they have no significant impact on the project budget or schedule
+T241	STATEMENT 3022 3048	Others will be implemented
+T242	CAUSE_EFFECT_RELATION 3022 3117	Others will be implemented if they have no significant impact on the project budget or schedule
+T243	ROOT_SENTENCE 3022 3118	Others will be implemented if they have no significant impact on the project budget or schedule.
+T244	KEY_C 3120 3122	If
+T245	VARIABLE 3123 3139	any of the above
+T246	CONDITION 3140 3155	are unavailable
+T247	KEY_C 3157 3161	then
+T248	VARIABLE 3162 3178	the use of files
+T249	CONDITION 3179 3214	can be used instead of direct calls
+T250	ROOT_SENTENCE 3120 3215	If any of the above are unavailable, then the use of files can be used instead of direct calls.
+T251	STATEMENT 3162 3214	the use of files can be used instead of direct calls
+T252	EFFECT 3157 3214	then the use of files can be used instead of direct calls
+T253	STATEMENT 3123 3155	any of the above are unavailable
+T254	CAUSE 3120 3155	If any of the above are unavailable
+T255	CAUSE_EFFECT_RELATION 3120 3214	If any of the above are unavailable, then the use of files can be used instead of direct calls
+T256	KEY_C 3217 3219	If
+T257	VARIABLE 3220 3270	a connection between a TPM and the web application
+T258	CONDITION 3271 3285	already exists
+T259	VARIABLE 3287 3310	the existing connection
+T260	CONDITION 3311 3318	is used
+T261	STATEMENT 3220 3285	a connection between a TPM and the web application already exists
+T262	CAUSE 3217 3285	If a connection between a TPM and the web application already exists
+T263	STATEMENT 3287 3318	the existing connection is used
+T264	CAUSE_EFFECT_RELATION 3217 3318	If a connection between a TPM and the web application already exists, the existing connection is used
+T266	KEY_C 3321 3323	If
+T267	VARIABLE 3324 3332	the user
+T268	CONDITION 3333 3361	clicks on a TPM in dashboard
+T269	VARIABLE 3363 3377	another window
+T270	CONDITION 3378 3385	is open
+T271	CONDITION 3386 3413	showing details for the TPM
+T272	AND 3378 3413	is open showing details for the TPM
+T273	STATEMENT 3363 3413	another window is open showing details for the TPM
+T274	STATEMENT 3324 3361	the user clicks on a TPM in dashboard
+T275	CAUSE 3321 3361	If the user clicks on a TPM in dashboard
+T276	CAUSE_EFFECT_RELATION 3321 3413	If the user clicks on a TPM in dashboard, another window is open showing details for the TPM
+T277	KEY_C 3506 3508	If
+T278	VARIABLE 3509 3517	the user
+T279	CONDITION 3518 3547	clicks on a TPM’s temperature
+T280	VARIABLE 3549 3563	another window
+T281	CONDITION 3564 3571	is open
+T282	CONDITION 3572 3603	showing the history for the TPM
+T283	AND 3564 3603	is open showing the history for the TPM
+T284	STATEMENT 3549 3603	another window is open showing the history for the TPM
+T285	STATEMENT 3509 3547	the user clicks on a TPM’s temperature
+T286	CAUSE 3506 3547	If the user clicks on a TPM’s temperature
+T287	CAUSE_EFFECT_RELATION 3506 3604	If the user clicks on a TPM’s temperature, another window is open showing the history for the TPM.
+T288	ROOT_SENTENCE 3506 3604	If the user clicks on a TPM’s temperature, another window is open showing the history for the TPM.
+T289	VARIABLE 3606 3623	The second circle
+T290	CONDITION 3624 3633	is yellow
+T291	KEY_C 3634 3636	if
+T292	VARIABLE 3637 3663	one of the FPGA on the TPM
+T293	CONDITION 3664 3687	is on programming state
+T294	VARIABLE 3689 3710	the other two circles
+T295	CONDITION 3711 3719	are grey
+T296	NONE_CAUSAL 3689 3719	the other two circles are grey
+T297	STATEMENT 3606 3633	The second circle is yellow
+T298	STATEMENT 3637 3687	one of the FPGA on the TPM is on programming state
+T299	CAUSE 3634 3687	if one of the FPGA on the TPM is on programming state
+T300	CAUSE_EFFECT_RELATION 3606 3687	The second circle is yellow if one of the FPGA on the TPM is on programming state
+T301	ROOT_SENTENCE 3606 3721	The second circle is yellow if one of the FPGA on the TPM is on programming state (the other two circles are grey).
+T302	KEY_C 3723 3725	If
+T303	VARIABLE 3726 3736	a location
+T304	CONDITION 3737 3761	has inadequate resources
+T305	VARIABLE 3763 3806	the minimal data required for CEAP analyses
+T306	CONDITION 3807 3825	will be identified
+T307	VARIABLE 3830 3843	the data team
+T308	CONDITION 3844 3892	will provide additional support to that location
+T309	STATEMENT 3763 3825	the minimal data required for CEAP analyses will be identified
+T310	STATEMENT 3830 3892	the data team will provide additional support to that location
+T311	AND 3763 3892	the minimal data required for CEAP analyses will be identified and the data team will provide additional support to that location
+T312	STATEMENT 3726 3761	a location has inadequate resources
+T313	CAUSE 3723 3761	If a location has inadequate resources
+T314	CAUSE_EFFECT_RELATION 3723 3892	If a location has inadequate resources, the minimal data required for CEAP analyses will be identified and the data team will provide additional support to that location
+T315	ROOT_SENTENCE 3723 3893	If a location has inadequate resources, the minimal data required for CEAP analyses will be identified and the data team will provide additional support to that location.
+T316	KEY_C 3895 3897	If
+T317	VARIABLE 3898 3910	that funding
+T319	CONDITION 3933 3961	insufficient in future years
+T320	OR 3911 3961	were not available or insufficient in future years
+T321	STATEMENT 3898 3961	that funding were not available or insufficient in future years
+T322	CAUSE 3895 3961	If that funding were not available or insufficient in future years
+T323	VARIABLE 3963 3990	base funds at the locations
+T324	VARIABLE 3995 4028	discretionary funds from the Area
+T325	VARIABLE 4033 4051	Headquarters funds
+T326	AND 3995 4051	discretionary funds from the Area and Headquarters funds
+T327	AND 3963 4051	base funds at the locations and discretionary funds from the Area and Headquarters funds
+T328	CONDITION 4052 4078	would support the activity
+T329	STATEMENT 3963 4078	base funds at the locations and discretionary funds from the Area and Headquarters funds would support the activity
+T330	KEY_NC 4079 4082	but
+T331	VARIABLE 4083 4096	the timelines
+T332	CONDITION 4097 4114	would be adjusted
+T333	NONE_CAUSAL 4079 4114	but the timelines would be adjusted
+T334	CAUSE_EFFECT_RELATION 3895 4078	If that funding were not available or insufficient in future years, base funds at the locations and discretionary funds from the Area and Headquarters funds would support the activity
+T335	ROOT_SENTENCE 3895 4115	If that funding were not available or insufficient in future years, base funds at the locations and discretionary funds from the Area and Headquarters funds would support the activity but the timelines would be adjusted.
+T336	KEY_C 4117 4119	If
+T337	VARIABLE 4120 4124	this
+T338	CONDITION 4125 4131	occurs
+T339	VARIABLE 4133 4155	the CEAP database team
+T340	CONDITION 4156 4192	will evaluate conversion of metadata
+T341	STATEMENT 4133 4192	the CEAP database team will evaluate conversion of metadata
+T342	STATEMENT 4120 4131	this occurs
+T343	CAUSE 4117 4131	If this occurs
+T344	CAUSE_EFFECT_RELATION 4117 4192	If this occurs, the CEAP database team will evaluate conversion of metadata
+T345	ROOT_SENTENCE 4117 4193	If this occurs, the CEAP database team will evaluate conversion of metadata.
+T346	KEY_C 4195 4197	If
+T347	VARIABLE 4198 4206	the user
+T348	CONDITION 4207 4229	requests a large image
+T349	CONDITION 4230 4256	with a short response time
+T350	AND 4207 4256	requests a large image with a short response time
+T351	STATEMENT 4198 4256	the user requests a large image with a short response time
+T352	CAUSE 4195 4256	If the user requests a large image with a short response time
+T353	VARIABLE 4258 4260	it
+T354	CONDITION 4261 4361	is acceptable for the ARS data system to advise the user that the target response time cannot be met
+T355	STATEMENT 4258 4361	it is acceptable for the ARS data system to advise the user that the target response time cannot be met
+T356	ROOT_SENTENCE 4195 4362	If the user requests a large image with a short response time, it is acceptable for the ARS data system to advise the user that the target response time cannot be met.
+T357	KEY_C 4364 4366	If
+T358	VARIABLE 4367 4390	network reconfiguration
+T359	VARIABLE 4394 4409	other mechanism
+T360	CONDITION 4410 4424	manages a peak
+T361	OR 4367 4409	network reconfiguration or other mechanism
+T362	STATEMENT 4367 4424	network reconfiguration or other mechanism manages a peak
+T363	CAUSE 4364 4424	If network reconfiguration or other mechanism manages a peak
+T364	KEY_C 4426 4430	then
+T365	VARIABLE 4431 4435	this
+T366	CONDITION 4436 4485	just marks the peak as being “managed externally”
+T367	STATEMENT 4431 4485	this just marks the peak as being “managed externally”
+T369	EFFECT 4426 4485	then this just marks the peak as being “managed externally”
+T370	CAUSE_EFFECT_RELATION 4364 4486	If network reconfiguration or other mechanism manages a peak, then this just marks the peak as being “managed externally”.
+T371	ROOT_SENTENCE 4364 4486	If network reconfiguration or other mechanism manages a peak, then this just marks the peak as being “managed externally”.
+T372	NEGATION 1491 1506	is not the same
+T373	NEGATION 1596 1611	takes no action
+T374	NEGATION 1678 1720	takes no action with respect to this entry
+T124	NEGATION 1825 1886	cannot meet the switching programme requirement or timescales
+T375	VARIABLE 4488 4492	This
+T376	CONDITION 4493 4544	may be an avenue for other organisations to explore
+T377	KEY_C 4545 4547	if
+T378	CONDITION 4553 4575	have different polices
+T379	VARIABLE 4548 4552	they
+T380	CONDITION 4580 4618	priorities for commercial optimisation
+T381	AND 4553 4618	have different polices and priorities for commercial optimisation
+T382	STATEMENT 4548 4618	they have different polices and priorities for commercial optimisation
+T383	CAUSE 4545 4618	if they have different polices and priorities for commercial optimisation
+T384	STATEMENT 4488 4544	This may be an avenue for other organisations to explore
+T385	CAUSE_EFFECT_RELATION 4488 4618	This may be an avenue for other organisations to explore if they have different polices and priorities for commercial optimisation
+T386	ROOT_SENTENCE 4488 4619	This may be an avenue for other organisations to explore if they have different polices and priorities for commercial optimisation.
+T387	KEY_C 4621 4623	If
+T388	VARIABLE 4624 4628	this
+T389	CONDITION 4636 4644	the case
+T390	NEGATION 4629 4644	is not the case
+T391	KEY_C 4645 4649	then
+T392	VARIABLE 4650 4691	a deadline to find an acceptable solution
+T393	CONDITION 4692 4711	will be implemented
+T394	STATEMENT 4624 4644	this is not the case
+T395	CAUSE 4621 4644	If this is not the case
+T396	STATEMENT 4650 4711	a deadline to find an acceptable solution will be implemented
+T397	EFFECT 4645 4711	then a deadline to find an acceptable solution will be implemented
+T398	CAUSE_EFFECT_RELATION 4621 4711	If this is not the case then a deadline to find an acceptable solution will be implemented
+T399	ROOT_SENTENCE 4621 4712	If this is not the case then a deadline to find an acceptable solution will be implemented.
+T400	KEY_C 4714 4716	If
+T401	VARIABLE 4717 4732	the flight plan
+T402	CONDITION 4741 4756	fulfil any rule
+T403	VARIABLE 4758 4779	its “possible runway”
+T404	CONDITION 4780 4812	will be the first one in service
+T405	STATEMENT 4717 4756	the flight plan doesn’t fulfil any rule
+T406	CAUSE 4714 4756	If the flight plan doesn’t fulfil any rule
+T407	STATEMENT 4758 4812	its “possible runway” will be the first one in service
+T408	CAUSE_EFFECT_RELATION 4714 4812	If the flight plan doesn’t fulfil any rule, its “possible runway” will be the first one in service
+T409	ROOT_SENTENCE 4714 4813	If the flight plan doesn’t fulfil any rule, its “possible runway” will be the first one in service.
+T410	KEY_C 4815 4817	If
+T411	VARIABLE 4818 4823	there
+T412	CONDITION 4824 4871	is a change in the aerodrome runways in service
+T413	VARIABLE 4873 4905	the flight plan’s optimum runway
+T414	CONDITION 4906 4922	shall be checked
+T415	KEY_NC 4923 4928	as if
+T416	VARIABLE 4929 4952	an update from each one
+T417	CONDITION 4953 4970	had been received
+T418	STATEMENT 4929 4970	an update from each one had been received
+T419	NONE_CAUSAL 4923 4970	as if an update from each one had been received
+T420	STATEMENT 4818 4871	there is a change in the aerodrome runways in service
+T421	STATEMENT 4873 4922	the flight plan’s optimum runway shall be checked
+T422	CAUSE 4815 4871	If there is a change in the aerodrome runways in service
+T423	CAUSE_EFFECT_RELATION 4815 4922	If there is a change in the aerodrome runways in service, the flight plan’s optimum runway shall be checked
+T424	ROOT_SENTENCE 4815 4971	If there is a change in the aerodrome runways in service, the flight plan’s optimum runway shall be checked as if an update from each one had been received.
+T425	KEY_C 5105 5107	If
+T426	VARIABLE 5108 5113	count
+T427	CONDITION 5114 5128	increased by 6
+T428	VARIABLE 5130 5138	the user
+T429	CONDITION 5139 5202	could access more documents by sliding the documents panel left
+T430	STATEMENT 5130 5211	the user could access more documents by sliding the documents panel left or right
+T431	STATEMENT 5108 5128	count increased by 6
+T432	CAUSE 5105 5128	If count increased by 6
+T433	CAUSE_EFFECT_RELATION 5105 5211	If count increased by 6, the user could access more documents by sliding the documents panel left or right
+T434	ROOT_SENTENCE 5105 5212	If count increased by 6, the user could access more documents by sliding the documents panel left or right.
+T435	KEY_C 5275 5277	if
+T436	VARIABLE 5278 5287	necessary
+T437	VARIABLE 5214 5219	Links
+T438	CONDITION 5220 5273	will be part of the content to download any documents
+T439	STATEMENT 5214 5273	Links will be part of the content to download any documents
+T440	CAUSE 5275 5287	if necessary
+T441	CAUSE_EFFECT_RELATION 5214 5287	Links will be part of the content to download any documents, if necessary
+T442	ROOT_SENTENCE 5214 5288	Links will be part of the content to download any documents, if necessary.
+T443	KEY_C 5290 5292	If
+T444	VARIABLE 5293 5308	the target page
+T446	VARIABLE 5329 5358	a simple HTML with some links
+T447	VARIABLE 5362 5371	documents
+T448	OR 5329 5371	a simple HTML with some links or documents
+T449	CONDITION 5372 5405	will be presented to the end user
+T450	STATEMENT 5329 5405	a simple HTML with some links or documents will be presented to the end user
+T451	STATEMENT 5293 5328	the target page was not CRM related
+T452	CAUSE 5290 5328	If the target page was not CRM related
+T453	CAUSE_EFFECT_RELATION 5290 5405	If the target page was not CRM related a simple HTML with some links or documents will be presented to the end user
+T454	ROOT_SENTENCE 5290 5406	If the target page was not CRM related a simple HTML with some links or documents will be presented to the end user.
+T466	KEY_C 5501 5503	If
+T467	VARIABLE 5504 5525	a given data consumer
+T472	CAUSE 5578 5629	because of a communications or other system failure
+T473	AND 5501 5629	If a given data consumer is unable to receive data that it has subscribed to because of a communications or other system failure
+T474	VARIABLE 5631 5651	the data in question
+T475	CONDITION 5652 5663	may be lost
+T476	STATEMENT 5631 5663	the data in question may be lost
+T479	CAUSE_EFFECT_RELATION 5501 5663	If a given data consumer is unable to receive data that it has subscribed to because of a communications or other system failure, the data in question may be lost
+T480	ROOT_SENTENCE 5501 5664	If a given data consumer is unable to receive data that it has subscribed to because of a communications or other system failure, the data in question may be lost.
+T481	KEY_C 5666 5668	If
+T482	VARIABLE 5669 5673	they
+T483	CONDITION 5681 5708	know the correct Consultant
+T484	VARIABLE 5710 5720	the system
+T485	CONDITION 5721 5791	must send the mortality details onwards to the appropriate M&M meeting
+T486	STATEMENT 5710 5791	the system must send the mortality details onwards to the appropriate M&M meeting
+T487	STATEMENT 5669 5708	they do not know the correct Consultant
+T488	CAUSE 5666 5708	If they do not know the correct Consultant
+T489	CAUSE_EFFECT_RELATION 5666 5791	If they do not know the correct Consultant, the system must send the mortality details onwards to the appropriate M&M meeting
+T490	ROOT_SENTENCE 5666 5792	If they do not know the correct Consultant, the system must send the mortality details onwards to the appropriate M&M meeting.
+T491	VARIABLE 5794 5804	The system
+T492	CONDITION 5805 5824	must allow an entry
+T493	KEY_C 5825 5827	if
+T494	VARIABLE 5828 5837	the death
+T495	CONDITION 5838 5875	is being recorded as 30 Day Mortality
+T496	ROOT_SENTENCE 5794 5876	The system must allow an entry if the death is being recorded as 30 Day Mortality.
+T497	STATEMENT 5794 5824	The system must allow an entry
+T498	STATEMENT 5828 5875	the death is being recorded as 30 Day Mortality
+T499	CAUSE 5825 5875	if the death is being recorded as 30 Day Mortality
+T500	CAUSE_EFFECT_RELATION 5794 5875	The system must allow an entry if the death is being recorded as 30 Day Mortality
+T501	CAUSE_EFFECT_RELATION 4195 4361	If the user requests a large image with a short response time, it is acceptable for the ARS data system to advise the user that the target response time cannot be met
+T502	ROOT_SENTENCE 3321 3414	If the user clicks on a TPM in dashboard, another window is open showing details for the TPM.
+T503	KEY_C 5878 5880	If
+T504	VARIABLE 5881 5916	digital signatures of medical staff
+T505	CONDITION 5917 5934	become widespread
+T506	VARIABLE 5936 5946	the system
+T507	CONDITION 5947 5988	must be able to accommodate that facility
+T508	STATEMENT 5881 5934	digital signatures of medical staff become widespread
+T509	CAUSE 5878 5934	If digital signatures of medical staff become widespread
+T510	STATEMENT 5936 5988	the system must be able to accommodate that facility
+T511	CAUSE_EFFECT_RELATION 5878 5988	If digital signatures of medical staff become widespread, the system must be able to accommodate that facility
+T512	ROOT_SENTENCE 5878 5989	If digital signatures of medical staff become widespread, the system must be able to accommodate that facility.
+T513	VARIABLE 5991 6001	The system
+T514	CONDITION 6002 6034	must allow an alert to be raised
+T515	KEY_C 6035 6037	if
+T516	VARIABLE 6038 6063	this recording of a death
+T518	STATEMENT 5991 6034	The system must allow an alert to be raised
+T519	STATEMENT 6038 6080	this recording of a death is not completed
+T520	CAUSE 6035 6080	if this recording of a death is not completed
+T521	CAUSE_EFFECT_RELATION 5991 6080	The system must allow an alert to be raised if this recording of a death is not completed
+T522	ROOT_SENTENCE 5991 6081	The system must allow an alert to be raised if this recording of a death is not completed.
+T523	KEY_C 6083 6085	If
+T524	VARIABLE 6086 6089	you
+T525	CONDITION 6090 6117	wish to label the partition
+T526	VARIABLE 6119 6126	GParted
+T527	CONDITION 6127 6156	lets you do so in this dialog
+T528	STATEMENT 6086 6117	you wish to label the partition
+T529	STATEMENT 6119 6156	GParted lets you do so in this dialog
+T530	CAUSE 6083 6117	If you wish to label the partition
+T531	CAUSE_EFFECT_RELATION 6083 6156	If you wish to label the partition, GParted lets you do so in this dialog
+T532	ROOT_SENTENCE 6083 6157	If you wish to label the partition, GParted lets you do so in this dialog.
+T533	KEY_C 6159 6161	If
+T534	VARIABLE 6162 6168	that’s
+T535	CONDITION 6169 6173	fine
+T536	VARIABLE 6175 6229	click OK on the warning window that is being displayed
+T537	STATEMENT 6162 6173	that’s fine
+T538	CAUSE 6159 6173	If that’s fine
+T539	CAUSE_EFFECT_RELATION 6159 6229	If that’s fine, click OK on the warning window that is being displayed
+T540	ROOT_SENTENCE 6159 6230	If that’s fine, click OK on the warning window that is being displayed.
+T541	KEY_C 6347 6349	If
+T542	VARIABLE 6350 6356	a user
+T543	CONDITION 6364 6377	be identified
+T544	VARIABLE 6379 6383	they
+T545	CONDITION 6393 6408	be given access
+T546	STATEMENT 6379 6408	they will not be given access
+T547	STATEMENT 6350 6377	a user cannot be identified
+T548	CAUSE 6347 6377	If a user cannot be identified
+T549	CAUSE_EFFECT_RELATION 6347 6408	If a user cannot be identified, they will not be given access
+T550	ROOT_SENTENCE 6347 6409	If a user cannot be identified, they will not be given access.
+T551	NONE_CAUSAL 6411 6427	Please note that
+T552	KEY_C 6428 6430	if
+T553	VARIABLE 6431 6458	the implementation strategy
+T554	CONDITION 6459 6506	is to generalize the ECAL function of WEB-GRAPE
+T555	VARIABLE 6508 6520	the solution
+T556	CONDITION 6521 6667	would need to employ the IDL Virtual Machine, the freely available IDL runtime environment that needs to be installed on the system at Version 6.4
+T557	STATEMENT 6508 6677	the solution would need to employ the IDL Virtual Machine, the freely available IDL runtime environment that needs to be installed on the system at Version 6.4 or higher
+T558	STATEMENT 6431 6506	the implementation strategy is to generalize the ECAL function of WEB-GRAPE
+T559	CAUSE 6428 6506	if the implementation strategy is to generalize the ECAL function of WEB-GRAPE
+T560	CAUSE_EFFECT_RELATION 6428 6677	if the implementation strategy is to generalize the ECAL function of WEB-GRAPE, the solution would need to employ the IDL Virtual Machine, the freely available IDL runtime environment that needs to be installed on the system at Version 6.4 or higher
+T561	ROOT_SENTENCE 6411 6678	Please note that if the implementation strategy is to generalize the ECAL function of WEB-GRAPE, the solution would need to employ the IDL Virtual Machine, the freely available IDL runtime environment that needs to be installed on the system at Version 6.4 or higher.
+T562	CONDITION 6671 6677	higher
+T563	OR 6521 6677	would need to employ the IDL Virtual Machine, the freely available IDL runtime environment that needs to be installed on the system at Version 6.4 or higher
+T564	VARIABLE 6792 6814	The system required ID
+T565	CONDITION 6815 6830	is coloured red
+T566	KEY_C 6831 6833	if
+T567	VARIABLE 6834 6867	the associated system requirement
+T568	CONDITION 6868 6906	refers to a value yet to be determined
+T569	STATEMENT 6834 6906	the associated system requirement refers to a value yet to be determined
+T570	CAUSE 6831 6906	if the associated system requirement refers to a value yet to be determined
+T571	STATEMENT 6792 6830	The system required ID is coloured red
+T572	CAUSE_EFFECT_RELATION 6792 6906	The system required ID is coloured red if the associated system requirement refers to a value yet to be determined
+T573	ROOT_SENTENCE 6792 6907	The system required ID is coloured red if the associated system requirement refers to a value yet to be determined.
+T574	KEY_C 6910 6912	If
+T575	VARIABLE 6913 6924	the anomaly
+T576	CONDITION 6925 6955	can be corrected in the SL TAC
+T577	VARIABLE 6957 6977	the production chain
+T578	CONDITION 6978 6990	is run again
+T579	STATEMENT 6957 6990	the production chain is run again
+T580	STATEMENT 6913 6955	the anomaly can be corrected in the SL TAC
+T581	CAUSE 6910 6955	If the anomaly can be corrected in the SL TAC
+T582	CAUSE_EFFECT_RELATION 6910 6990	If the anomaly can be corrected in the SL TAC, the production chain is run again
+T583	ROOT_SENTENCE 6910 6991	If the anomaly can be corrected in the SL TAC, the production chain is run again.
+T584	KEY_C 6993 6995	If
+T585	VARIABLE 6996 7010	the FTP server
+T586	CONDITION 7011 7016	fails
+T587	VARIABLE 7018 7029	an incident
+T588	CONDITION 7030 7078	has to be reported to the SL TAC Service Manager
+T589	STATEMENT 7018 7078	an incident has to be reported to the SL TAC Service Manager
+T590	STATEMENT 6996 7016	the FTP server fails
+T591	CAUSE 6993 7016	If the FTP server fails
+T592	CAUSE_EFFECT_RELATION 6993 7078	If the FTP server fails, an incident has to be reported to the SL TAC Service Manager
+T593	ROOT_SENTENCE 6993 7079	If the FTP server fails, an incident has to be reported to the SL TAC Service Manager.
+T594	KEY_C 7278 7280	if
+T595	VARIABLE 7281 7287	wanted
+T596	VARIABLE 7190 7214	The feature of searching
+T597	CONDITION 7215 7247	can be applied in just one group
+T598	CONDITION 7256 7277	in the whole database
+T599	AND 7215 7277	can be applied in just one group and not in the whole database
+T600	NEGATION 7252 7277	not in the whole database
+T601	STATEMENT 7190 7277	The feature of searching can be applied in just one group and not in the whole database
+T602	CAUSE 7278 7287	if wanted
+T603	CAUSE_EFFECT_RELATION 7190 7287	The feature of searching can be applied in just one group and not in the whole database if wanted
+T604	ROOT_SENTENCE 7190 7288	The feature of searching can be applied in just one group and not in the whole database if wanted.
+T605	KEY_C 7290 7292	If
+T606	VARIABLE 7293 7295	he
+T607	CONDITION 7296 7334	already has download languages packets
+T608	VARIABLE 7336 7338	he
+T609	CONDITION 7339 7361	can choose one of them
+T610	STATEMENT 7336 7361	he can choose one of them
+T611	STATEMENT 7293 7334	he already has download languages packets
+T612	CAUSE 7290 7334	If he already has download languages packets
+T613	CAUSE_EFFECT_RELATION 7290 7361	If he already has download languages packets, he can choose one of them
+T614	ROOT_SENTENCE 7290 7362	If he already has download languages packets, he can choose one of them.
+T615	NEGATION 6357 6377	cannot be identified
+T616	NEGATION 6384 6408	will not be given access
+T617	NEGATION 6064 6080	is not completed
+T618	NEGATION 5674 5708	do not know the correct Consultant
+T619	NEGATION 5526 5551	is unable to receive data
+T620	NEGATION 5309 5328	was not CRM related
+T621	NEGATION 4733 4756	doesn’t fulfil any rule
+T622	NEGATION 3911 3929	were not available
+T623	KEY_C 7364 7366	If
+T624	VARIABLE 7367 7377	a sequence
+T625	CONDITION 7378 7397	is more than a line
+T626	VARIABLE 7398 7400	it
+T627	CONDITION 7408 7415	be used
+T628	NEGATION 7401 7415	cannot be used
+T629	KEY_C 7420 7430	in case of
+T630	VARIABLE 7431 7444	two sequences
+T631	CONDITION 7445 7460	in one ’s field
+T632	VARIABLE 7461 7479	only the first one
+T633	CONDITION 7480 7487	is used
+T634	STATEMENT 7431 7460	two sequences in one ’s field
+T635	STATEMENT 7461 7487	only the first one is used
+T636	CAUSE 7420 7460	in case of two sequences in one ’s field
+T637	CAUSE_EFFECT_RELATION 7420 7487	in case of two sequences in one ’s field only the first one is used
+T638	STATEMENT 7398 7415	it cannot be used
+T639	STATEMENT 7367 7397	a sequence is more than a line
+T640	CAUSE 7364 7397	If a sequence is more than a line
+T641	CAUSE_EFFECT_RELATION 7364 7415	If a sequence is more than a line it cannot be used
+T642	AND 7364 7487	If a sequence is more than a line it cannot be used and in case of two sequences in one ’s field only the first one is used
+T643	ROOT_SENTENCE 7364 7488	If a sequence is more than a line it cannot be used and in case of two sequences in one ’s field only the first one is used.
+T644	KEY_C 7490 7492	If
+T645	VARIABLE 7493 7501	the file
+T646	CONDITION 7502 7509	is lost
+T647	CONDITION 7514 7539	there are no copies of it
+T648	AND 7502 7539	is lost and there are no copies of it
+T649	STATEMENT 7493 7539	the file is lost and there are no copies of it
+T650	CAUSE 7490 7539	If the file is lost and there are no copies of it
+T651	VARIABLE 7541 7549	all data
+T652	CONDITION 7550 7566	are gone forever
+T653	VARIABLE 7571 7579	database
+T654	CONDITION 7580 7599	never unlocks again
+T655	STATEMENT 7571 7599	database never unlocks again
+T656	STATEMENT 7541 7566	all data are gone forever
+T657	AND 7541 7599	all data are gone forever and database never unlocks again
+T658	CAUSE_EFFECT_RELATION 7490 7599	If the file is lost and there are no copies of it, all data are gone forever and database never unlocks again
+T659	ROOT_SENTENCE 7490 7600	If the file is lost and there are no copies of it, all data are gone forever and database never unlocks again.
+T660	KEY_C 7602 7604	If
+T661	NONE_CAUSAL 7605 7621	in the meanwhile
+T662	VARIABLE 7622 7624	it
+T663	CONDITION 7632 7647	pasted anywhere
+T664	NEGATION 7625 7647	is not pasted anywhere
+T665	VARIABLE 7649 7651	it
+T666	CONDITION 7652 7672	must be copied again
+T667	STATEMENT 7649 7672	it must be copied again
+T668	STATEMENT 7622 7647	it is not pasted anywhere
+T669	CAUSE 7602 7647	If in the meanwhile it is not pasted anywhere
+T670	CAUSE_EFFECT_RELATION 7602 7672	If in the meanwhile it is not pasted anywhere, it must be copied again
+T671	ROOT_SENTENCE 7602 7673	If in the meanwhile it is not pasted anywhere, it must be copied again.
+T672	KEY_C 7675 7677	If
+T673	VARIABLE 7678 7709	any of these three requirements
+T674	CONDITION 7717 7726	satisfied
+T675	NEGATION 7710 7726	is not satisfied
+T676	VARIABLE 7728 7759	the value delivered to the user
+T677	CONDITION 7760 7785	can be greatly diminished
+T678	STATEMENT 7728 7785	the value delivered to the user can be greatly diminished
+T679	STATEMENT 7678 7726	any of these three requirements is not satisfied
+T680	CAUSE 7675 7726	If any of these three requirements is not satisfied
+T681	CAUSE_EFFECT_RELATION 7675 7785	If any of these three requirements is not satisfied, the value delivered to the user can be greatly diminished
+T682	ROOT_SENTENCE 7675 7786	If any of these three requirements is not satisfied, the value delivered to the user can be greatly diminished.
+T683	KEY_C 7788 7790	If
+T684	VARIABLE 7791 7795	they
+T685	CONDITION 7796 7811	have to be open
+T686	VARIABLE 7813 7817	they
+T687	CONDITION 7818 7867	must be equipped with an automatic closing device
+T688	CONDITION 7868 7902	connected to the fire alarm system
+T689	AND 7818 7902	must be equipped with an automatic closing device connected to the fire alarm system
+T690	STATEMENT 7813 7902	they must be equipped with an automatic closing device connected to the fire alarm system
+T691	STATEMENT 7791 7811	they have to be open
+T692	CAUSE 7788 7811	If they have to be open
+T693	CAUSE_EFFECT_RELATION 7788 7902	If they have to be open, they must be equipped with an automatic closing device connected to the fire alarm system
+T694	ROOT_SENTENCE 7788 7903	If they have to be open, they must be equipped with an automatic closing device connected to the fire alarm system.
+T61	CONDITION 1164 1215	becomes the authoritative address to be relied upon
+T73	AND 1164 1296	becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market
+T89	CONDITION 5206 5211	right
+T368	OR 5139 5211	could access more documents by sliding the documents panel left or right
+T445	KEY_C 5552 5556	that
+T468	VARIABLE 5557 5559	it
+T695	CONDITION 5560 5577	has subscribed to
+T469	STATEMENT 5557 5577	it has subscribed to
+T696	CAUSE 5552 5577	that it has subscribed to
+T697	KEY_C 5578 5588	because of
+T698	VARIABLE 5589 5605	a communications
+T699	VARIABLE 5609 5629	other system failure
+T700	OR 5589 5629	a communications or other system failure
+T470	STATEMENT 5504 5551	a given data consumer is unable to receive data
+T471	CAUSE 5501 5551	If a given data consumer is unable to receive data
+T701	AND 5501 5577	If a given data consumer is unable to receive data that it has subscribed to
+T477	CONDITION 6071 6080	completed
+T478	KEY_C 7905 7907	If
+T517	VARIABLE 7908 7933	another transport company
+T702	CONDITION 7934 7942	is hired
+T703	VARIABLE 7943 7967	each individual shipment
+T704	CONDITION 7968 7985	must be inspected
+T705	STATEMENT 7943 7985	each individual shipment must be inspected
+T706	STATEMENT 7908 7942	another transport company is hired
+T707	CAUSE 7905 7942	If another transport company is hired
+T708	CAUSE_EFFECT_RELATION 7905 7985	If another transport company is hired each individual shipment must be inspected
+T709	ROOT_SENTENCE 7905 7986	If another transport company is hired each individual shipment must be inspected.
+T710	VARIABLE 7988 7990	We
+T711	CONDITION 7991 8016	used open-ended questions
+T712	KEY_C 8017 8019	if
+T713	VARIABLE 8020 8035	the interviewee
+T714	CONDITION 8036 8091	was to have the opportunity to provide personal details
+T715	STATEMENT 8020 8091	the interviewee was to have the opportunity to provide personal details
+T716	STATEMENT 7988 8016	We used open-ended questions
+T717	CAUSE 8017 8091	if the interviewee was to have the opportunity to provide personal details
+T718	CAUSE_EFFECT_RELATION 7988 8091	We used open-ended questions if the interviewee was to have the opportunity to provide personal details
+T719	ROOT_SENTENCE 7988 8092	We used open-ended questions if the interviewee was to have the opportunity to provide personal details.
+T720	VARIABLE 8094 8113	Personal interviews
+T721	CONDITION 8114 8129	are recommended
+T722	KEY_C 8130 8132	if
+T723	VARIABLE 8133 8136	one
+T724	CONDITION 8137 8239	can assume that the presence of an interviewer motivates the target group to participate in the survey	
+T726	STATEMENT 8133 8239	one can assume that the presence of an interviewer motivates the target group to participate in the survey
+T727	STATEMENT 8094 8129	Personal interviews are recommended
+T728	CAUSE 8130 8239	if one can assume that the presence of an interviewer motivates the target group to participate in the survey
+T729	CAUSE_EFFECT_RELATION 8094 8239	Personal interviews are recommended if one can assume that the presence of an interviewer motivates the target group to participate in the survey
+T730	ROOT_SENTENCE 8094 8240	Personal interviews are recommended if one can assume that the presence of an interviewer motivates the target group to participate in the survey.
+T731	KEY_C 8242 8244	If
+T732	VARIABLE 8245 8251	labels
+T733	CONDITION 8252 8263	are applied
+T734	VARIABLE 8265 8269	this
+T735	CONDITION 8270 8316	is in most cases awarded by external assessors
+T736	STATEMENT 8265 8316	this is in most cases awarded by external assessors
+T737	STATEMENT 8245 8263	labels are applied
+T738	CAUSE 8242 8263	If labels are applied
+T739	CAUSE_EFFECT_RELATION 8242 8316	If labels are applied, this is in most cases awarded by external assessors
+T740	ROOT_SENTENCE 8242 8317	If labels are applied, this is in most cases awarded by external assessors.
+T741	KEY_C 8320 8322	If
+T742	VARIABLE 8323 8355	the overall web application mode
+T743	CONDITION 8356 8371	is being chosen
+T744	VARIABLE 8373 8378	there
+T745	CONDITION 8379 8438	shall be an option defining the maximum number of web pages
+T746	KEY_C 8439 8443	that
+T747	CONDITION 8444 8460	will be examined
+T748	STATEMENT 8373 8438	there shall be an option defining the maximum number of web pages
+T749	EFFECT 8439 8460	that will be examined
+T750	AND 8373 8460	there shall be an option defining the maximum number of web pages that will be examined
+T751	STATEMENT 8323 8371	the overall web application mode is being chosen
+T752	CAUSE 8320 8371	If the overall web application mode is being chosen
+T753	CAUSE_EFFECT_RELATION 8320 8460	If the overall web application mode is being chosen, there shall be an option defining the maximum number of web pages that will be examined
+T754	ROOT_SENTENCE 8320 8461	If the overall web application mode is being chosen, there shall be an option defining the maximum number of web pages that will be examined.
+T755	KEY_C 8463 8465	If
+T756	VARIABLE 8466 8474	a permit
+T757	CONDITION 8475 8521	is requested near the boundary of the District
+T758	VARIABLE 8523 8574	the ability to view data from the adjacent District
+T759	CONDITION 8575 8636	would be helpful in determining the impacts of the new permit
+T760	STATEMENT 8523 8636	the ability to view data from the adjacent District would be helpful in determining the impacts of the new permit
+T761	STATEMENT 8466 8521	a permit is requested near the boundary of the District
+T762	CAUSE 8463 8521	If a permit is requested near the boundary of the District
+T763	CAUSE_EFFECT_RELATION 8463 8636	If a permit is requested near the boundary of the District, the ability to view data from the adjacent District would be helpful in determining the impacts of the new permit
+T764	ROOT_SENTENCE 8463 8637	If a permit is requested near the boundary of the District, the ability to view data from the adjacent District would be helpful in determining the impacts of the new permit.
+T765	KEY_C 8639 8641	If
+T766	VARIABLE 8642 8647	there
+T767	CONDITION 8648 8715	are any preexisting peering arrangements (for a long term scenario)
+T768	KEY_C 8716 8720	then
+T769	VARIABLE 8721 8726	these
+T770	CONDITION 8727 8757	will be returned at this point
+T771	STATEMENT 8642 8715	there are any preexisting peering arrangements (for a long term scenario)
+T772	CAUSE 8639 8715	If there are any preexisting peering arrangements (for a long term scenario)
+T773	STATEMENT 8721 8757	these will be returned at this point
+T774	EFFECT 8716 8757	then these will be returned at this point
+T775	CAUSE_EFFECT_RELATION 8639 8757	If there are any preexisting peering arrangements (for a long term scenario) then these will be returned at this point
+T776	ROOT_SENTENCE 8639 8758	If there are any preexisting peering arrangements (for a long term scenario) then these will be returned at this point.
+T777	KEY_C 8760 8762	If
+T778	VARIABLE 8763 8765	it
+T779	CONDITION 8766 8783	is a new resource
+T780	VARIABLE 8785 8808	its service information
+T781	CONDITION 8809 8855	is registered in the SR with a new resource ID
+T782	STATEMENT 8785 8855	its service information is registered in the SR with a new resource ID
+T783	STATEMENT 8763 8783	it is a new resource
+T784	CAUSE 8760 8783	If it is a new resource
+T785	CAUSE_EFFECT_RELATION 8760 8855	If it is a new resource, its service information is registered in the SR with a new resource ID
+T786	ROOT_SENTENCE 8760 8856	If it is a new resource, its service information is registered in the SR with a new resource ID.
+T787	KEY_C 8858 8860	If
+T788	VARIABLE 8861 8871	a resource
+T789	CONDITION 8872 8877	fails
+T790	VARIABLE 8879 8902	its service information
+T791	CONDITION 8903 8921	is removed from SR
+T792	CONDITION 8926 8964	the resource ID counter is decremented
+T793	AND 8903 8964	is removed from SR and the resource ID counter is decremented
+T794	STATEMENT 8879 8964	its service information is removed from SR and the resource ID counter is decremented
+T795	STATEMENT 8861 8877	a resource fails
+T796	CAUSE 8858 8877	If a resource fails
+T797	CAUSE_EFFECT_RELATION 8858 8964	If a resource fails, its service information is removed from SR and the resource ID counter is decremented
+T798	ROOT_SENTENCE 8858 8965	If a resource fails, its service information is removed from SR and the resource ID counter is decremented.
+T799	KEY_C 8967 8969	If
+T800	VARIABLE 8970 8978	the user
+T801	CONDITION 8979 9014	requests experience service timeout
+T802	VARIABLE 9016 9034	initiation request
+T803	CONDITION 9035 9047	is cancelled
+T804	STATEMENT 8970 9014	the user requests experience service timeout
+T805	STATEMENT 9016 9047	initiation request is cancelled
+T806	CAUSE 8967 9014	If the user requests experience service timeout
+T807	CAUSE_EFFECT_RELATION 8967 9047	If the user requests experience service timeout, initiation request is cancelled
+T808	ROOT_SENTENCE 8967 9048	If the user requests experience service timeout, initiation request is cancelled.
+T809	KEY_C 9050 9052	If
+T810	VARIABLE 9053 9074	a peered CDN provider
+T812	VARIABLE 9108 9135	a given peering arrangement
+T813	CONDITION 9136 9142	ceases
+T814	STATEMENT 9108 9142	a given peering arrangement ceases
+T815	STATEMENT 9053 9106	a peered CDN provider refuses to accept user requests
+T816	CAUSE 9050 9106	If a peered CDN provider refuses to accept user requests
+T817	CAUSE_EFFECT_RELATION 9050 9142	If a peered CDN provider refuses to accept user requests, a given peering arrangement ceases
+T818	ROOT_SENTENCE 9050 9143	If a peered CDN provider refuses to accept user requests, a given peering arrangement ceases.
+T819	KEY_C 9145 9147	If
+T820	VARIABLE 9148 9157	connected
+T821	VARIABLE 9159 9181	an adequate protection
+T822	CONDITION 9182 9224	is guaranteed for the operator workstation
+T823	CONDITION 9241 9284	allow outside sources to access the product
+T824	AND 9182 9284	is guaranteed for the operator workstation, which will not allow outside sources to access the product
+T825	STATEMENT 9159 9284	an adequate protection is guaranteed for the operator workstation, which will not allow outside sources to access the product
+T826	CAUSE 9145 9157	If connected
+T827	CAUSE_EFFECT_RELATION 9145 9284	If connected, an adequate protection is guaranteed for the operator workstation, which will not allow outside sources to access the product
+T828	ROOT_SENTENCE 9145 9285	If connected, an adequate protection is guaranteed for the operator workstation, which will not allow outside sources to access the product.
+T829	NONE_CAUSAL 9287 9294	However
+T830	VARIABLE 9296 9365	the measurement of the work performed within the limits of tolerances
+T831	CONDITION 9366 9419	shall be the measurement of actual work done in place
+T832	KEY_C 9421 9423	if
+T833	VARIABLE 9424 9440	their dimensions
+T834	CONDITION 9441 9479	are less than what have been specified
+T835	STATEMENT 9424 9509	their dimensions are less than what have been specified or instructed by the Engineer
+T836	STATEMENT 9296 9419	the measurement of the work performed within the limits of tolerances shall be the measurement of actual work done in place
+T837	CAUSE 9421 9509	if their dimensions are less than what have been specified or instructed by the Engineer
+T838	CAUSE_EFFECT_RELATION 9296 9509	the measurement of the work performed within the limits of tolerances shall be the measurement of actual work done in place, if their dimensions are less than what have been specified or instructed by the Engineer
+T839	ROOT_SENTENCE 9287 9510	However, the measurement of the work performed within the limits of tolerances shall be the measurement of actual work done in place, if their dimensions are less than what have been specified or instructed by the Engineer.
+T840	KEY_C 9512 9514	If
+T841	VARIABLE 9515 9529	the Contractor
+T842	CONDITION 9530 9563	requests a change in the sequence
+T843	VARIABLE 9568 9579	such change
+T844	CONDITION 9580 9607	is approved by the Engineer
+T845	STATEMENT 9568 9607	such change is approved by the Engineer
+T846	STATEMENT 9515 9563	the Contractor requests a change in the sequence
+T847	AND 9515 9607	the Contractor requests a change in the sequence and such change is approved by the Engineer
+T848	CAUSE 9512 9607	If the Contractor requests a change in the sequence and such change is approved by the Engineer
+T849	VARIABLE 9609 9623	the Contractor
+T850	NEGATION 9624 9730	shall have no claim as per the Conditions of Contract for delay arising from such revisions to the program
+T851	STATEMENT 9609 9730	the Contractor shall have no claim as per the Conditions of Contract for delay arising from such revisions to the program
+T852	CAUSE_EFFECT_RELATION 9512 9730	If the Contractor requests a change in the sequence and such change is approved by the Engineer, the Contractor shall have no claim as per the Conditions of Contract for delay arising from such revisions to the program
+T853	ROOT_SENTENCE 9512 9731	If the Contractor requests a change in the sequence and such change is approved by the Engineer, the Contractor shall have no claim as per the Conditions of Contract for delay arising from such revisions to the program.
+T854	KEY_C 9750 9752	if
+T855	CONDITION 9753 9760	granted
+T856	VARIABLE 9733 9748	Such permission
+T857	KEY_C 9793 9804	under which
+T858	VARIABLE 9805 9815	the change
+T859	CONDITION 9816 9827	may be made
+T860	STATEMENT 9805 9827	the change may be made
+T861	EFFECT 9793 9827	under which the change may be made
+T862	CONDITION 9762 9792	shall set forth the conditions
+T863	AND 9762 9827	shall set forth the conditions under which the change may be made
+T864	CAUSE 9750 9760	if granted
+T865	CAUSE_EFFECT_RELATION 9733 9827	Such permission, if granted, shall set forth the conditions under which the change may be made
+T866	ROOT_SENTENCE 9733 9828	Such permission, if granted, shall set forth the conditions under which the change may be made.
+T867	KEY_C 9830 9832	If
+T868	VARIABLE 9833 9865	the product of any source proves
+T869	CONDITION 9866 9878	unacceptable
+T870	VARIABLE 9880 9894	the Contractor
+T871	CONDITION 9895 9966	shall make necessary arrangements for the supply of acceptable material
+T872	STATEMENT 9880 9966	the Contractor shall make necessary arrangements for the supply of acceptable material
+T873	STATEMENT 9833 9878	the product of any source proves unacceptable
+T874	CAUSE 9830 9878	If the product of any source proves unacceptable
+T875	CAUSE_EFFECT_RELATION 9830 9966	If the product of any source proves unacceptable, the Contractor shall make necessary arrangements for the supply of acceptable material
+T876	ROOT_SENTENCE 9830 9967	If the product of any source proves unacceptable, the Contractor shall make necessary arrangements for the supply of acceptable material.
+T877	KEY_C 9969 9971	If
+T878	VARIABLE 9972 9979	pallets
+T879	CONDITION 9980 9988	are used
+T880	VARIABLE 9990 9994	they
+T881	CONDITION 9995 10060	shall be constructed so that bags are not damaged during handling
+T882	CONDITION 10065 10073	stacking
+T883	AND 9995 10073	shall be constructed so that bags are not damaged during handling and stacking
+T884	STATEMENT 9990 10073	they shall be constructed so that bags are not damaged during handling and stacking
+T885	STATEMENT 9972 9988	pallets are used
+T886	CAUSE 9969 9988	If pallets are used
+T887	CAUSE_EFFECT_RELATION 9969 10073	If pallets are used, they shall be constructed so that bags are not damaged during handling and stacking
+T888	ROOT_SENTENCE 9969 10074	If pallets are used, they shall be constructed so that bags are not damaged during handling and stacking.
+T889	KEY_C 10076 10078	If
+T890	VARIABLE 10079 10108	the aggregate from any source
+T891	CONDITION 10109 10120	is variable
+T892	VARIABLE 10122 10146	the frequency of testing
+T893	CONDITION 10147 10195	shall be increased as instructed by the Engineer
+T894	STATEMENT 10122 10195	the frequency of testing shall be increased as instructed by the Engineer
+T895	STATEMENT 10079 10120	the aggregate from any source is variable
+T896	CAUSE 10076 10120	If the aggregate from any source is variable
+T897	CAUSE_EFFECT_RELATION 10076 10195	If the aggregate from any source is variable, the frequency of testing shall be increased as instructed by the Engineer
+T898	ROOT_SENTENCE 10076 10196	If the aggregate from any source is variable, the frequency of testing shall be increased as instructed by the Engineer.
+T899	KEY_C 10198 10200	If
+T900	VARIABLE 10201 10210	necessary
+T901	VARIABLE 10212 10217	trees
+T902	CONDITION 10218 10265	shall be cut in sections from the top downwards
+T903	STATEMENT 10212 10265	trees shall be cut in sections from the top downwards
+T904	CAUSE 10198 10210	If necessary
+T905	CAUSE_EFFECT_RELATION 10198 10265	If necessary, trees shall be cut in sections from the top downwards
+T906	ROOT_SENTENCE 10198 10266	If necessary, trees shall be cut in sections from the top downwards.
+T907	KEY_C 10268 10270	If
+T908	CONDITION 10275 10291	used immediately
+T909	VARIABLE 10293 10304	the topsoil
+T910	CONDITION 10305 10325	shall be transported
+T911	CONDITION 10330 10367	deposited in stockpiles for later use
+T912	AND 10305 10367	shall be transported and deposited in stockpiles for later use
+T913	STATEMENT 10293 10367	the topsoil shall be transported and deposited in stockpiles for later use
+T914	CAUSE 10268 10291	If not used immediately
+T915	CAUSE_EFFECT_RELATION 10268 10367	If not used immediately, the topsoil shall be transported and deposited in stockpiles for later use
+T916	ROOT_SENTENCE 10268 10368	If not used immediately, the topsoil shall be transported and deposited in stockpiles for later use.
+T917	KEY_C 10370 10372	If
+T918	VARIABLE 10373 10378	rocks
+T919	VARIABLE 10382 10390	boulders
+T920	OR 10373 10390	rocks or boulders
+T921	CONDITION 10391 10418	are found during excavation
+T922	STATEMENT 10373 10418	rocks or boulders are found during excavation
+T923	CAUSE 10370 10418	If rocks or boulders are found during excavation
+T924	VARIABLE 10420 10424	they
+T925	CONDITION 10425 10442	should be removed
+T926	VARIABLE 10447 10461	the bed trench
+T927	CONDITION 10462 10479	shall be levelled
+T928	CONDITION 10484 10520	made hard by consolidating the earth
+T929	AND 10462 10520	shall be levelled and made hard by consolidating the earth
+T930	STATEMENT 10420 10442	they should be removed
+T931	NONE_CAUSAL 10522 10538	at no extra cost
+T932	STATEMENT 10447 10520	the bed trench shall be levelled and made hard by consolidating the earth
+T933	AND 10420 10520	they should be removed and the bed trench shall be levelled and made hard by consolidating the earth
+T934	CAUSE_EFFECT_RELATION 10370 10520	If rocks or boulders are found during excavation, they should be removed and the bed trench shall be levelled and made hard by consolidating the earth
+T935	ROOT_SENTENCE 10370 10539	If rocks or boulders are found during excavation, they should be removed and the bed trench shall be levelled and made hard by consolidating the earth, at no extra cost.
+T936	KEY_C 10541 10543	If
+T937	VARIABLE 10544 10555	hand-mixing
+T938	CONDITION 10556 10566	is allowed
+T939	VARIABLE 10568 10581	the operation
+T940	CONDITION 10582 10633	shall be carried out on a clear watertight platform
+T941	STATEMENT 10568 10633	the operation shall be carried out on a clear watertight platform
+T942	STATEMENT 10544 10566	hand-mixing is allowed
+T943	CAUSE 10541 10566	If hand-mixing is allowed
+T944	CAUSE_EFFECT_RELATION 10541 10633	If hand-mixing is allowed, the operation shall be carried out on a clear watertight platform
+T945	ROOT_SENTENCE 10541 10634	If hand-mixing is allowed, the operation shall be carried out on a clear watertight platform.
+T946	KEY_C 10636 10638	If
+T947	VARIABLE 10639 10647	boulders
+T948	CONDITION 10648 10656	are used
+T949	VARIABLE 10658 10662	they
+T950	CONDITION 10663 10698	shall be broken into angular pieces
+T951	STATEMENT 10658 10698	they shall be broken into angular pieces
+T952	STATEMENT 10639 10656	boulders are used
+T953	CAUSE 10636 10656	If boulders are used
+T954	CAUSE_EFFECT_RELATION 10636 10698	If boulders are used, they shall be broken into angular pieces
+T955	ROOT_SENTENCE 10636 10699	If boulders are used, they shall be broken into angular pieces.
+T956	KEY_C 10701 10703	If
+T957	VARIABLE 10704 10724	the volume of spalls
+T958	VARIABLE 10729 10736	mortars
+T959	AND 10704 10736	the volume of spalls and mortars
+T960	CONDITION 10737 10770	is more than the specified volume
+T961	VARIABLE 10775 10785	the joints
+T962	CONDITION 10794 10823	filled completely with mortar
+T963	NEGATION 10786 10823	are not filled completely with mortar
+T964	STATEMENT 10775 10823	the joints are not filled completely with mortar
+T965	STATEMENT 10704 10770	the volume of spalls and mortars is more than the specified volume
+T966	AND 10704 10823	the volume of spalls and mortars is more than the specified volume and the joints are not filled completely with mortar
+T967	CAUSE 10701 10823	If the volume of spalls and mortars is more than the specified volume and the joints are not filled completely with mortar
+T968	KEY_C 10825 10829	then
+T969	VARIABLE 10830 10845	the entire work
+T970	VARIABLE 10852 10862	the sample
+T971	VARIABLE 10867 10871	test
+T972	CONDITION 10882 10899	shall be rejected
+T973	CONDITION 10872 10881	represent
+T974	AND 10852 10871	the sample and test
+T975	STATEMENT 10852 10881	the sample and test represent
+T976	AND 10830 10881	the entire work which the sample and test represent
+T977	EFFECT 10825 10899	then the entire work which the sample and test represent shall be rejected
+T978	CAUSE_EFFECT_RELATION 10701 10899	If the volume of spalls and mortars is more than the specified volume and the joints are not filled completely with mortar, then the entire work which the sample and test represent shall be rejected
+T979	ROOT_SENTENCE 10701 10900	If the volume of spalls and mortars is more than the specified volume and the joints are not filled completely with mortar, then the entire work which the sample and test represent shall be rejected.
+T980	KEY_C 10902 10904	If
+T981	VARIABLE 10905 10916	bulk cement
+T982	CONDITION 10917 10924	is used
+T983	VARIABLE 10926 10935	the scale
+T984	VARIABLE 10940 10964	weight hopper for cement
+T985	CONDITION 10965 10997	shall be distinct from the scale
+T986	CONDITION 11002 11030	weight hopper for aggregates
+T987	AND 10965 11030	shall be distinct from the scale and weight hopper for aggregates
+T988	AND 10926 10964	the scale and weight hopper for cement
+T989	STATEMENT 10926 11030	the scale and weight hopper for cement shall be distinct from the scale and weight hopper for aggregates
+T990	STATEMENT 10905 10924	bulk cement is used
+T991	CAUSE 10902 10924	If bulk cement is used
+T992	CAUSE_EFFECT_RELATION 10902 11030	If bulk cement is used, the scale and weight hopper for cement shall be distinct from the scale and weight hopper for aggregates
+T993	ROOT_SENTENCE 10902 11031	If bulk cement is used, the scale and weight hopper for cement shall be distinct from the scale and weight hopper for aggregates.
+T994	KEY_C 11033 11035	If
+T995	VARIABLE 11036 11048	any fissures
+T996	CONDITION 11049 11070	have been cleaned out
+T997	VARIABLE 11072 11076	they
+T998	CONDITION 11077 11104	shall be filled with mortar
+T999	CONDITION 11108 11151	with concrete as instructed by the Engineer
+T1000	OR 11077 11151	shall be filled with mortar or with concrete as instructed by the Engineer
+T1001	STATEMENT 11072 11151	they shall be filled with mortar or with concrete as instructed by the Engineer
+T1002	STATEMENT 11036 11070	any fissures have been cleaned out
+T1003	CAUSE 11033 11070	If any fissures have been cleaned out
+T1004	CAUSE_EFFECT_RELATION 11033 11151	If any fissures have been cleaned out, they shall be filled with mortar or with concrete as instructed by the Engineer
+T1005	ROOT_SENTENCE 11033 11152	If any fissures have been cleaned out, they shall be filled with mortar or with concrete as instructed by the Engineer.
+T1006	KEY_C 11154 11156	If
+T1007	VARIABLE 11157 11195	the level of concrete in a tremie pipe
+T1008	CONDITION 11196 11260	is allowed to fall to such extent that the water enters the pipe
+T1009	VARIABLE 11262 11272	the latter
+T1010	CONDITION 11273 11303	shall be removed from the pour
+T1011	CONDITION 11308 11381	filled with concrete before being again lowered into the placing position
+T1012	AND 11273 11381	shall be removed from the pour and filled with concrete before being again lowered into the placing position
+T1013	STATEMENT 11262 11381	the latter shall be removed from the pour and filled with concrete before being again lowered into the placing position
+T1014	STATEMENT 11157 11260	the level of concrete in a tremie pipe is allowed to fall to such extent that the water enters the pipe
+T1015	CAUSE 11154 11260	If the level of concrete in a tremie pipe is allowed to fall to such extent that the water enters the pipe
+T1016	CAUSE_EFFECT_RELATION 11154 11381	If the level of concrete in a tremie pipe is allowed to fall to such extent that the water enters the pipe, the latter shall be removed from the pour and filled with concrete before being again lowered into the placing position
+T1017	ROOT_SENTENCE 11154 11382	If the level of concrete in a tremie pipe is allowed to fall to such extent that the water enters the pipe, the latter shall be removed from the pour and filled with concrete before being again lowered into the placing position.
+T1018	NEGATION 9075 9106	refuses to accept user requests
+T811	NEGATION 9232 9284	will not allow outside sources to access the product
+T1019	NEGATION 10271 10291	not used immediately
+T1030	KEY_C 11849 11851	If
+T1031	VARIABLE 11852 11878	instructed by the Engineer
+T1032	VARIABLE 11880 11907	the surface of the concrete
+T1033	CONDITION 11908 12079	shall be thoroughly brushed with a thin layer of mortar composed of one part of cement to two parts of sand by weight immediately prior to the deposition of fresh concrete
+T1034	STATEMENT 11880 12079	the surface of the concrete shall be thoroughly brushed with a thin layer of mortar composed of one part of cement to two parts of sand by weight immediately prior to the deposition of fresh concrete
+T1035	CAUSE 11849 11878	If instructed by the Engineer
+T1036	CAUSE_EFFECT_RELATION 11849 12079	If instructed by the Engineer, the surface of the concrete shall be thoroughly brushed with a thin layer of mortar composed of one part of cement to two parts of sand by weight immediately prior to the deposition of fresh concrete
+T1037	ROOT_SENTENCE 11849 12080	If instructed by the Engineer, the surface of the concrete shall be thoroughly brushed with a thin layer of mortar composed of one part of cement to two parts of sand by weight immediately prior to the deposition of fresh concrete.
+T1038	KEY_C 12337 12339	If
+T1039	VARIABLE 12340 12352	any movement
+T1040	CONDITION 12353 12360	noticed
+T1041	VARIABLE 12362 12374	the formwork
+T1042	CONDITION 12375 12405	shall be set right immediately
+T1043	STATEMENT 12362 12405	the formwork shall be set right immediately
+T1044	STATEMENT 12340 12360	any movement noticed
+T1045	CAUSE 12337 12360	If any movement noticed
+T1046	CAUSE_EFFECT_RELATION 12337 12405	If any movement noticed, the formwork shall be set right immediately
+T1047	ROOT_SENTENCE 12337 12406	If any movement noticed, the formwork shall be set right immediately.
+T1048	KEY_C 12433 12435	if
+T1049	VARIABLE 12436 12471	cement other than ordinary Portland
+T1050	CONDITION 12472 12484	are involved
+T1051	VARIABLE 12486 12498	the Engineer
+T1052	CONDITION 12499 12526	may instruct longer periods
+T1053	STATEMENT 12486 12526	the Engineer may instruct longer periods
+T1054	KEY_C 12408 12410	At
+T1055	VARIABLE 12411 12429	lower temperatures
+T1056	CAUSE 12408 12429	At lower temperatures
+T1057	STATEMENT 12436 12484	cement other than ordinary Portland are involved
+T1058	CAUSE 12433 12484	if cement other than ordinary Portland are involved
+T1059	OR 12408 12484	At lower temperatures or if cement other than ordinary Portland are involved
+T1060	CAUSE_EFFECT_RELATION 12408 12526	At lower temperatures or if cement other than ordinary Portland are involved, the Engineer may instruct longer periods
+T1061	ROOT_SENTENCE 12408 12527	At lower temperatures or if cement other than ordinary Portland are involved, the Engineer may instruct longer periods.
+T1062	KEY_C 12529 12531	If
+T1063	VARIABLE 12532 12542	any damage
+T1064	VARIABLE 12546 12569	defects during delivery
+T1065	VARIABLE 12573 12598	after fitting in position
+T1066	OR 12532 12569	any damage or defects during delivery
+T1067	OR 12532 12598	any damage or defects during delivery or after fitting in position
+T1068	CONDITION 12599 12608	are found
+T1069	STATEMENT 12532 12608	any damage or defects during delivery or after fitting in position are found
+T1070	CAUSE 12529 12608	If any damage or defects during delivery or after fitting in position are found
+T1071	VARIABLE 12610 12621	the defects
+T1072	CONDITION 12622 12652	shall be rectified immediately
+T1073	CONDITION 12656 12692	replaced at the Contractor’s expense
+T1074	OR 12622 12692	shall be rectified immediately or replaced at the Contractor’s expense
+T1075	STATEMENT 12610 12692	the defects shall be rectified immediately or replaced at the Contractor’s expense
+T1076	CAUSE_EFFECT_RELATION 12529 12692	If any damage or defects during delivery or after fitting in position are found, the defects shall be rectified immediately or replaced at the Contractor’s expense
+T1077	ROOT_SENTENCE 12529 12693	If any damage or defects during delivery or after fitting in position are found, the defects shall be rectified immediately or replaced at the Contractor’s expense.
+T1078	VARIABLE 12695 12709	The Contractor
+T1079	CONDITION 12710 12748	shall replace the fly mesh immediately
+T1080	CONDITION 12749 12770	at no additional cost
+T1081	KEY_C 12771 12773	if
+T1082	AND 12710 12770	shall replace the fly mesh immediately at no additional cost
+T1083	STATEMENT 12695 12770	The Contractor shall replace the fly mesh immediately at no additional cost
+T1084	VARIABLE 12774 12786	the fly mesh
+T1085	CONDITION 12787 12823	is found to be damaged after fitting
+T1086	CONDITION 12828 12846	fixing in position
+T1087	AND 12787 12846	is found to be damaged after fitting and fixing in position
+T1088	STATEMENT 12774 12846	the fly mesh is found to be damaged after fitting and fixing in position
+T1089	CAUSE 12771 12846	if the fly mesh is found to be damaged after fitting and fixing in position
+T1090	CAUSE_EFFECT_RELATION 12695 12846	The Contractor shall replace the fly mesh immediately at no additional cost if the fly mesh is found to be damaged after fitting and fixing in position
+T1091	ROOT_SENTENCE 12695 12847	The Contractor shall replace the fly mesh immediately at no additional cost if the fly mesh is found to be damaged after fitting and fixing in position.
+T1092	KEY_C 12849 12851	If
+T1093	VARIABLE 12852 12868	type of pointing
+T1094	CONDITION 12876 12900	mentioned on the Drawing
+T1095	NEGATION 12869 12900	is not mentioned on the Drawing
+T1096	VARIABLE 12901 12909	the same
+T1097	CONDITION 12910 12933	shall be ruled pointing
+T1098	STATEMENT 12901 12933	the same shall be ruled pointing
+T1099	STATEMENT 12852 12900	type of pointing is not mentioned on the Drawing
+T1100	CAUSE 12849 12900	If type of pointing is not mentioned on the Drawing
+T1101	CAUSE_EFFECT_RELATION 12849 12933	If type of pointing is not mentioned on the Drawing the same shall be ruled pointing
+T1102	ROOT_SENTENCE 12849 12934	If type of pointing is not mentioned on the Drawing the same shall be ruled pointing.
+T1103	KEY_C 12936 12938	If
+T1104	VARIABLE 12939 12952	the old Paint
+T1105	CONDITION 12953 12965	is blistered
+T1106	CONDITION 12970 12976	flaked
+T1107	AND 12953 12976	is blistered and flaked
+T1108	STATEMENT 12939 12976	the old Paint is blistered and flaked
+T1109	CAUSE 12936 12976	If the old Paint is blistered and flaked
+T1110	VARIABLE 12978 12980	it
+T1111	CONDITION 12981 13008	shall be completely removed
+T1112	STATEMENT 12978 13008	it shall be completely removed
+T1113	CAUSE_EFFECT_RELATION 12936 13008	If the old Paint is blistered and flaked, it shall be completely removed
+T1114	ROOT_SENTENCE 12936 13009	If the old Paint is blistered and flaked, it shall be completely removed.
+T1115	CONDITION 240 261	more scheduling areas
+T1116	OR 222 261	exists for one or more scheduling areas
+T1117	CONDITION 263 285	between the two values
+T1118	AND 222 285	exists for one or more scheduling areas, between the two values
+T1119	KEY_C 1155 1160	where
+T1120	EFFECT 1155 1296	where it becomes the authoritative address to be relied upon and referred to by consumers and all parties engaged in the retail energy market
+T1121	KEY_C 1993 1997	that
+T1122	CAUSE 1993 2020	that invalidates the switch
+T1123	VARIABLE 3419 3427	the user
+T1124	CONDITION 3428 3448	clicks on an antenna
+T1125	VARIABLE 3449 3481	plots (bandpass and spectrogram)
+T1126	CONDITION 3482 3503	are shown to the user
+T1127	KEY_C 3416 3418	If
+T1128	STATEMENT 3419 3448	the user clicks on an antenna
+T1129	CAUSE 3416 3448	If the user clicks on an antenna
+T1130	STATEMENT 3449 3503	plots (bandpass and spectrogram) are shown to the user
+T1131	CAUSE_EFFECT_RELATION 3416 3503	If the user clicks on an antenna plots (bandpass and spectrogram) are shown to the user
+T1132	ROOT_SENTENCE 3416 3504	If the user clicks on an antenna plots (bandpass and spectrogram) are shown to the user.
+T318	CONDITION 5317 5328	CRM related
+T1133	CONDITION 9086 9106	accept user requests
+T1134	KEY_C 9226 9231	which
+T1135	EFFECT 9226 9284	which will not allow outside sources to access the product
+T1136	CONDITION 9483 9509	instructed by the Engineer
+T1137	OR 9441 9509	are less than what have been specified or instructed by the Engineer
+T1138	ROOT_SENTENCE 353 680	If the active power injection in the global slack bus exceeds a configurable threshold, this active power injection shall be redistributed on all generation units in the synchronous area proportional to the reserve margin, respecting the reactive power limits of all the Generating Units and the power flow is calculated again.
+T265	ROOT_SENTENCE 3217 3319	If a connection between a TPM and the web application already exists, the existing connection is used.

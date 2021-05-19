@@ -1,0 +1,168 @@
+T1	VARIABLE 3 11	an alarm
+T2	CONDITION 12 72	has occurred for either network (firewall, routers, bridges)
+T3	CONDITION 76 82	server
+T4	VARIABLE 84 100	the icon buttons
+T5	CONDITION 101 125	are to have a red border
+T6	KEY_C 0 2	If
+T7	STATEMENT 84 125	the icon buttons are to have a red border
+T8	OR 12 82	has occurred for either network (firewall, routers, bridges) or server
+T9	STATEMENT 3 82	an alarm has occurred for either network (firewall, routers, bridges) or server
+T10	CAUSE 0 82	If an alarm has occurred for either network (firewall, routers, bridges) or server
+T11	CAUSE_EFFECT_RELATION 0 125	If an alarm has occurred for either network (firewall, routers, bridges) or server, the icon buttons are to have a red border
+T12	ROOT_SENTENCE 0 126	If an alarm has occurred for either network (firewall, routers, bridges) or server, the icon buttons are to have a red border.
+T13	KEY_C 128 130	If
+T14	VARIABLE 131 153	additional information
+T15	CONDITION 154 165	is required
+T16	VARIABLE 167 175	a report
+T17	CONDITION 176 210	can be selected from the menu area
+T18	STATEMENT 131 165	additional information is required
+T19	STATEMENT 167 210	a report can be selected from the menu area
+T20	CAUSE 128 165	If additional information is required
+T21	CAUSE_EFFECT_RELATION 128 210	If additional information is required, a report can be selected from the menu area
+T22	ROOT_SENTENCE 128 211	If additional information is required, a report can be selected from the menu area.
+T23	KEY_C 916 918	If
+T24	VARIABLE 919 947	more than one of these codes
+T25	CONDITION 948 962	are applicable
+T26	VARIABLE 964 971	the one
+T27	KEY_C 972 977	which
+T28	CONDITION 978 1001	is the most descriptive
+T29	CONDITION 1005 1016	significant
+T30	CONDITION 1017 1045	shall be assigned to the ECP
+T31	OR 978 1016	is the most descriptive or significant
+T32	CAUSE 972 1016	which is the most descriptive or significant
+T33	CAUSE_EFFECT_RELATION 964 1045	the one which is the most descriptive or significant shall be assigned to the ECP
+T34	STATEMENT 919 962	more than one of these codes are applicable
+T35	CAUSE 916 962	If more than one of these codes are applicable
+T36	CAUSE_EFFECT_RELATION 916 1045	If more than one of these codes are applicable, the one which is the most descriptive or significant shall be assigned to the ECP
+T37	ROOT_SENTENCE 916 1046	If more than one of these codes are applicable, the one which is the most descriptive or significant shall be assigned to the ECP.
+T38	KEY_C 1544 1546	If
+T39	VARIABLE 1547 1558	a prototype
+T40	VARIABLE 1562 1583	preproduction article
+T41	NEGATION 1584 1599	is not produced
+T42	OR 1547 1583	a prototype or preproduction article
+T43	STATEMENT 1547 1599	a prototype or preproduction article is not produced
+T44	VARIABLE 1601 1614	the test data
+T45	CONDITION 1615 1680	shall be that collected from test of the first production article
+T46	CAUSE 1544 1599	If a prototype or preproduction article is not produced
+T47	STATEMENT 1601 1680	the test data shall be that collected from test of the first production article
+T48	CAUSE_EFFECT_RELATION 1544 1680	If a prototype or preproduction article is not produced, the test data shall be that collected from test of the first production article
+T49	ROOT_SENTENCE 1544 1681	If a prototype or preproduction article is not produced, the test data shall be that collected from test of the first production article.
+T50	KEY_C 1683 1685	If
+T51	VARIABLE 1686 1700	such equipment
+T52	CONDITION 1701 1726	is a part of your program
+T53	VARIABLE 1728 1744	this requirement
+T54	CONDITION 1745 1800	must be invoked specifically for the equipment involved
+T55	STATEMENT 1728 1800	this requirement must be invoked specifically for the equipment involved
+T56	STATEMENT 1686 1726	such equipment is a part of your program
+T57	CAUSE 1683 1726	If such equipment is a part of your program
+T58	CAUSE_EFFECT_RELATION 1683 1800	If such equipment is a part of your program, this requirement must be invoked specifically for the equipment involved
+T59	ROOT_SENTENCE 1683 1801	If such equipment is a part of your program, this requirement must be invoked specifically for the equipment involved.
+T60	KEY_C 1967 1969	If
+T61	VARIABLE 1970 1987	a virtual meeting
+T62	CONDITION 1988 1995	is used
+T63	VARIABLE 1997 2027	access to the business systems
+T64	CONDITION 2028 2046	should be provided
+T65	KEY_C 2047 2051	when
+T66	VARIABLE 2052 2064	participants
+T67	CONDITION 2065 2095	lack the necessary permissions
+T68	STATEMENT 2052 2095	participants lack the necessary permissions
+T69	CAUSE 2047 2095	when participants lack the necessary permissions
+T70	STATEMENT 1997 2046	access to the business systems should be provided
+T71	CAUSE_EFFECT_RELATION 1997 2095	access to the business systems should be provided when participants lack the necessary permissions
+T72	STATEMENT 1970 1995	a virtual meeting is used
+T73	CAUSE 1967 1995	If a virtual meeting is used
+T74	CAUSE_EFFECT_RELATION 1967 2095	If a virtual meeting is used, access to the business systems should be provided when participants lack the necessary permissions
+T75	ROOT_SENTENCE 1967 2096	If a virtual meeting is used, access to the business systems should be provided when participants lack the necessary permissions.
+T76	KEY_C 2098 2100	If
+T77	VARIABLE 2101 2120	a second inspection
+T78	CONDITION 2121 2132	is employed
+T79	VARIABLE 2134 2157	the inspection approach
+T80	CONDITION 2169 2214	be an exact duplicate of the first inspection
+T81	NEGATION 2158 2214	should not be an exact duplicate of the first inspection
+T82	STATEMENT 2134 2214	the inspection approach should not be an exact duplicate of the first inspection
+T83	STATEMENT 2101 2132	a second inspection is employed
+T84	CAUSE 2098 2132	If a second inspection is employed
+T85	CAUSE_EFFECT_RELATION 2098 2214	If a second inspection is employed, the inspection approach should not be an exact duplicate of the first inspection
+T86	ROOT_SENTENCE 2098 2215	If a second inspection is employed, the inspection approach should not be an exact duplicate of the first inspection.
+T87	KEY_C 2217 2219	If
+T88	VARIABLE 2220 2228	auditors
+T89	CONDITION 2243 2263	considered qualified
+T90	NEGATION 2229 2263	are no longer considered qualified
+T91	VARIABLE 2265 2269	they
+T92	CONDITION 2270 2303	shall receive additional training
+T93	CONDITION 2308 2317	mentoring
+T94	CONDITION 2318 2354	before continuing the audit activity
+T95	AND 2308 2354	mentoring before continuing the audit activity
+T96	AND 2270 2354	shall receive additional training and mentoring before continuing the audit activity
+T97	STATEMENT 2265 2354	they shall receive additional training and mentoring before continuing the audit activity
+T98	STATEMENT 2220 2263	auditors are no longer considered qualified
+T99	CAUSE 2217 2263	If auditors are no longer considered qualified
+T100	CAUSE_EFFECT_RELATION 2217 2354	If auditors are no longer considered qualified, they shall receive additional training and mentoring before continuing the audit activity
+T101	ROOT_SENTENCE 2217 2355	If auditors are no longer considered qualified, they shall receive additional training and mentoring before continuing the audit activity.
+T102	VARIABLE 4760 4790	less than 1 percent of the lot
+T103	CONDITION 4791 4796	fails
+T104	VARIABLE 4804 4821	any of the 5 runs
+T105	VARIABLE 4823 4830	the lot
+T106	CONDITION 4831 4846	may be accepted
+T107	CAUSE 4797 4821	during any of the 5 runs
+T108	KEY_C 4797 4803	during
+T109	STATEMENT 4823 4846	the lot may be accepted
+T110	STATEMENT 4760 4796	less than 1 percent of the lot fails
+T111	CAUSE 4757 4796	If less than 1 percent of the lot fails
+T112	AND 4757 4821	If less than 1 percent of the lot fails during any of the 5 runs
+T113	CAUSE_EFFECT_RELATION 4757 4846	If less than 1 percent of the lot fails during any of the 5 runs, the lot may be accepted
+T114	ROOT_SENTENCE 4757 4847	If less than 1 percent of the lot fails during any of the 5 runs, the lot may be accepted.
+T115	VARIABLE 13913 13920	the ‘h’
+T116	CONDITION 13921 13931	is dropped
+T117	KEY_C 13908 13912	then
+T118	VARIABLE 13879 13884	there
+T119	CONDITION 13891 13906	parallel runway
+T120	NEGATION 13885 13906	is no parallel runway
+T121	STATEMENT 13913 13931	the ‘h’ is dropped
+T122	EFFECT 13908 13931	then the ‘h’ is dropped
+T123	STATEMENT 13879 13906	there is no parallel runway
+T124	CAUSE 13876 13906	If there is no parallel runway
+T125	CAUSE_EFFECT_RELATION 13876 13931	If there is no parallel runway, then the ‘h’ is dropped
+T126	ROOT_SENTENCE 13876 13932	If there is no parallel runway, then the ‘h’ is dropped.
+T127	VARIABLE 13937 13959	accelerated life tests
+T128	CONDITION 13960 13971	are planned
+T129	VARIABLE 13973 13987	the contractor
+T130	CONDITION 13988 14011	shall identify the test
+T131	CONDITION 14016 14032	analysis methods
+T132	CONDITION 14034 14052	statistical models
+T133	CONDITION 14058 14077	acceleration factor
+T134	KEY_C 13934 13936	If
+T135	STATEMENT 13937 13971	accelerated life tests are planned
+T136	AND 14034 14077	statistical models, and acceleration factor
+T137	AND 14016 14077	analysis methods, statistical models, and acceleration factor
+T138	AND 13988 14077	shall identify the test and analysis methods, statistical models, and acceleration factor
+T139	STATEMENT 13973 14077	the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T140	CAUSE 13934 13971	If accelerated life tests are planned
+T141	CAUSE_EFFECT_RELATION 13934 14077	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor
+T142	ROOT_SENTENCE 13934 14078	If accelerated life tests are planned, the contractor shall identify the test and analysis methods, statistical models, and acceleration factor.
+T143	VARIABLE 13811 13820	the guard
+T144	CONDITION 13821 13839	evaluates to false
+T145	VARIABLE 13846 13860	the transition
+T146	CONDITION 13868 13873	taken
+T147	NEGATION 13861 13873	is not taken
+T148	STATEMENT 13846 13873	the transition is not taken
+T149	EFFECT 13841 13873	then the transition is not taken
+T150	KEY_C 13841 13845	then
+T151	KEY_C 13808 13810	If
+T152	STATEMENT 13811 13839	the guard evaluates to false
+T153	CAUSE 13808 13839	If the guard evaluates to false
+T154	CAUSE_EFFECT_RELATION 13808 13873	If the guard evaluates to false, then the transition is not taken
+T155	ROOT_SENTENCE 13808 13874	If the guard evaluates to false, then the transition is not taken.
+T156	VARIABLE 14083 14102	a delivery schedule
+T157	CONDITION 14110 14131	specified in the CDRL
+T158	NEGATION 14103 14131	is not specified in the CDRL
+T159	VARIABLE 14133 14170	the Failure Analysis Reports on parts
+T160	VARIABLE 14174 14183	materials
+T161	CONDITION 14184 14233	shall be included with the failure closure report
+T162	OR 14133 14183	the Failure Analysis Reports on parts or materials
+T163	STATEMENT 14133 14233	the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T164	STATEMENT 14083 14131	a delivery schedule is not specified in the CDRL
+T165	KEY_C 14080 14082	If
+T166	CAUSE 14080 14131	If a delivery schedule is not specified in the CDRL
+T167	CAUSE_EFFECT_RELATION 14080 14233	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report
+T168	ROOT_SENTENCE 14080 14234	If a delivery schedule is not specified in the CDRL, the Failure Analysis Reports on parts or materials shall be included with the failure closure report.

@@ -1,0 +1,141 @@
+T1	VARIABLE 8 19	symbol sets
+T2	CONDITION 20 67	can assign different meaning to the same symbol
+T3	VARIABLE 69 83	an application
+T4	CONDITION 84 128	does not mix symbol sets on the same display
+T5	KEY_C 0 7	Because
+T6	STATEMENT 8 67	symbol sets can assign different meaning to the same symbol
+T7	CAUSE 0 67	Because symbol sets can assign different meaning to the same symbol
+T8	STATEMENT 69 128	an application does not mix symbol sets on the same display
+T9	CAUSE_EFFECT_RELATION 0 128	Because symbol sets can assign different meaning to the same symbol, an application does not mix symbol sets on the same display
+T10	ROOT_SENTENCE 0 129	Because symbol sets can assign different meaning to the same symbol, an application does not mix symbol sets on the same display.
+T11	VARIABLE 139 154	these languages
+T16	VARIABLE 289 309	their character sets
+T17	CONDITION 310 341	can be encoded in a single-byte
+T18	STATEMENT 289 341	their character sets can be encoded in a single-byte
+T20	KEY_C 131 138	Because
+T22	CAUSE_EFFECT_RELATION 131 341	Because these languages contain fewer than 200 basic characters (i.e., the 26 letters in the alphabet, with upper case, lower case, and accented variations), their character sets can be encoded in a single-byte
+T23	ROOT_SENTENCE 131 342	Because these languages contain fewer than 200 basic characters (i.e., the 26 letters in the alphabet, with upper case, lower case, and accented variations), their character sets can be encoded in a single-byte.
+T24	VARIABLE 1969 1988	both of these areas
+T25	CONDITION 1989 2014	are highly mission unique
+T37	VARIABLE 1643 1659	their complexity
+T38	KEY_C 1632 1642	Because of
+T39	CAUSE 1632 1659	Because of their complexity
+T40	VARIABLE 1661 1671	ideographs
+T41	CONDITION 1672 1725	require more space to display the strokes within them
+T42	STATEMENT 1661 1725	ideographs require more space to display the strokes within them
+T43	CAUSE_EFFECT_RELATION 1632 1725	Because of their complexity, ideographs require more space to display the strokes within them
+T44	ROOT_SENTENCE 1632 1726	Because of their complexity, ideographs require more space to display the strokes within them.
+T45	KEY_C 1961 1968	Because
+T46	CAUSE 1961 2014	Because both of these areas are highly mission unique
+T47	STATEMENT 1969 2014	both of these areas are highly mission unique
+T48	VARIABLE 352 379	the direction of text entry
+T49	CONDITION 380 421	may change from one character to the next
+T50	STATEMENT 352 421	the direction of text entry may change from one character to the next
+T51	KEY_C 344 351	Because
+T52	CAUSE 344 421	Because the direction of text entry may change from one character to the next
+T53	VARIABLE 423 459	appropriate text handling procedures
+T54	CONDITION 460 499	must be available in both right-to-left
+T55	STATEMENT 423 522	appropriate text handling procedures must be available in both right-to-left and left-to-right text
+T56	CONDITION 504 522	left-to-right text
+T57	AND 460 522	must be available in both right-to-left and left-to-right text
+T58	CAUSE_EFFECT_RELATION 344 522	Because the direction of text entry may change from one character to the next, appropriate text handling procedures must be available in both right-to-left and left-to-right text
+T59	ROOT_SENTENCE 344 523	Because the direction of text entry may change from one character to the next, appropriate text handling procedures must be available in both right-to-left and left-to-right text.
+T60	VARIABLE 533 542	languages
+T61	CONDITION 543 598	differ in their structural rules for character handling
+T62	STATEMENT 533 598	languages differ in their structural rules for character handling
+T63	KEY_C 525 532	Because
+T64	CAUSE 525 598	Because languages differ in their structural rules for character handling
+T66	CONDITION 652 672	may be inappropriate
+T65	VARIABLE 600 616	assumptions made
+T67	VARIABLE 622 651	processing a US character set
+T68	KEY_C 617 621	when
+T69	CAUSE 617 651	when processing a US character set
+T70	CONDITION 676 686	inaccurate
+T72	VARIABLE 692 738	applied to a language with extended characters
+T73	KEY_C 687 691	when
+T74	CAUSE 687 738	when applied to a language with extended characters
+T71	CAUSE_EFFECT_RELATION 600 672	assumptions made when processing a US character set may be inappropriate
+T75	CAUSE_EFFECT_RELATION 676 738	inaccurate when applied to a language with extended characters
+T76	OR 600 738	assumptions made when processing a US character set may be inappropriate or inaccurate when applied to a language with extended characters
+T77	CAUSE_EFFECT_RELATION 525 738	Because languages differ in their structural rules for character handling, assumptions made when processing a US character set may be inappropriate or inaccurate when applied to a language with extended characters
+T78	ROOT_SENTENCE 525 739	Because languages differ in their structural rules for character handling, assumptions made when processing a US character set may be inappropriate or inaccurate when applied to a language with extended characters.
+T79	VARIABLE 1023 1058	the order of items in a sorted list
+T80	CONDITION 1059 1096	usually changes following translation
+T81	KEY_C 1015 1022	Because
+T82	STATEMENT 1023 1096	the order of items in a sorted list usually changes following translation
+T83	CAUSE 1015 1096	Because the order of items in a sorted list usually changes following translation
+T84	VARIABLE 1098 1145	references to the position of items in the list
+T85	CONDITION 1146 1176	are removed from documentation
+T86	STATEMENT 1098 1176	references to the position of items in the list are removed from documentation
+T87	CAUSE_EFFECT_RELATION 1015 1176	Because the order of items in a sorted list usually changes following translation, references to the position of items in the list are removed from documentation
+T88	ROOT_SENTENCE 1015 1177	Because the order of items in a sorted list usually changes following translation, references to the position of items in the list are removed from documentation.
+T89	VARIABLE 2016 2053	the intent is to identify conventions
+T90	CONDITION 2054 2084	that are common among programs
+T91	CONDITION 2089 2118	can be applied to all equally
+T92	STATEMENT 2016 2118	the intent is to identify conventions that are common among programs and can be applied to all equally
+T93	AND 2054 2118	that are common among programs and can be applied to all equally
+T94	CAUSE_EFFECT_RELATION 1961 2118	Because both of these areas are highly mission unique, the intent is to identify conventions that are common among programs and can be applied to all equally
+T95	ROOT_SENTENCE 1961 2119	Because both of these areas are highly mission unique, the intent is to identify conventions that are common among programs and can be applied to all equally.
+T96	VARIABLE 1391 1415	bi-directional languages
+T97	CONDITION 1416 1448	write text in both right-to-left
+T98	CONDITION 1453 1477	left-to-right directions
+T99	STATEMENT 1391 1477	bi-directional languages write text in both right-to-left and left-to-right directions
+T100	AND 1416 1477	write text in both right-to-left and left-to-right directions
+T101	KEY_C 1383 1390	Because
+T102	CAUSE 1383 1477	Because bi-directional languages write text in both right-to-left and left-to-right directions
+T103	VARIABLE 1479 1489	text entry
+T104	CONDITION 1490 1526	may be performed in either direction
+T105	KEY_C 1528 1540	depending on
+T106	VARIABLE 1541 1567	the contents of a text box
+T107	CAUSE 1528 1567	depending on the contents of a text box
+T108	CAUSE_EFFECT_RELATION 1573 1629	may require input in both directions within a single box
+T109	STATEMENT 1479 1526	text entry may be performed in either direction
+T110	CAUSE_EFFECT_RELATION 1479 1567	text entry may be performed in either direction, depending on the contents of a text box
+T111	AND 1479 1629	text entry may be performed in either direction, depending on the contents of a text box, and may require input in both directions within a single box
+T112	CAUSE_EFFECT_RELATION 1383 1629	Because bi-directional languages write text in both right-to-left and left-to-right directions, text entry may be performed in either direction, depending on the contents of a text box, and may require input in both directions within a single box
+T113	ROOT_SENTENCE 1383 1630	Because bi-directional languages write text in both right-to-left and left-to-right directions, text entry may be performed in either direction, depending on the contents of a text box, and may require input in both directions within a single box.
+T114	VARIABLE 749 758	languages
+T115	CONDITION 759 811	differ in the meaning assigned to special characters
+T116	STATEMENT 749 811	languages differ in the meaning assigned to special characters
+T117	KEY_C 741 748	Because
+T118	CAUSE 741 811	Because languages differ in the meaning assigned to special characters
+T119	VARIABLE 813 829	a US application
+T120	CONDITION 943 967	may require modification
+T121	CONDITION 835 901	uses characters such as apostrophes as delimiters in a text string
+T122	CONDITION 906 942	restricts their use to this function
+T123	CONDITION 973 1012	converted to certain European languages
+T124	KEY_C 968 972	when
+T125	CAUSE 968 1012	when converted to certain European languages
+T126	KEY_C 830 834	that
+T127	CAUSE 830 942	that uses characters such as apostrophes as delimiters in a text string and restricts their use to this function
+T128	AND 835 942	uses characters such as apostrophes as delimiters in a text string and restricts their use to this function
+T129	CAUSE_EFFECT_RELATION 813 967	a US application that uses characters such as apostrophes as delimiters in a text string and restricts their use to this function may require modification
+T130	VARIABLE 1187 1196	computers
+T131	CONDITION 1197 1236	respond to specific physical keypresses
+T132	STATEMENT 1256 1283	markings appear on the keys
+T133	KEY_NC 1237 1255	regardless of what
+T134	NONE_CAUSAL 1237 1283	regardless of what markings appear on the keys
+T135	KEY_C 1179 1186	Because
+T136	CAUSE 1179 1236	Because computers respond to specific physical keypresses
+T137	VARIABLE 1285 1305	a different keyboard
+T138	CONDITION 1314 1325	be required
+T139	KEY_C 1326 1330	when
+T140	VARIABLE 1331 1380	converting a US application into another language
+T141	CAUSE 1326 1380	when converting a US application into another language
+T142	STATEMENT 1285 1325	a different keyboard may not be required
+T143	CAUSE_EFFECT_RELATION 1285 1380	a different keyboard may not be required when converting a US application into another language
+T144	CAUSE_EFFECT_RELATION 1179 1380	Because computers respond to specific physical keypresses regardless of what markings appear on the keys, a different keyboard may not be required when converting a US application into another language
+T145	ROOT_SENTENCE 1179 1381	Because computers respond to specific physical keypresses regardless of what markings appear on the keys, a different keyboard may not be required when converting a US application into another language.
+T12	CONDITION 155 287	contain fewer than 200 basic characters (i.e., the 26 letters in the alphabet, with upper case, lower case, and accented variations)
+T13	STATEMENT 139 287	these languages contain fewer than 200 basic characters (i.e., the 26 letters in the alphabet, with upper case, lower case, and accented variations)
+T14	CAUSE 131 287	Because these languages contain fewer than 200 basic characters (i.e., the 26 letters in the alphabet, with upper case, lower case, and accented variations)
+T15	CAUSE_EFFECT_RELATION 813 1012	a US application that uses characters such as apostrophes as delimiters in a text string and restricts their use to this function may require modification when converted to certain European languages
+T19	CAUSE_EFFECT_RELATION 741 1012	Because languages differ in the meaning assigned to special characters, a US application that uses characters such as apostrophes as delimiters in a text string and restricts their use to this function may require modification when converted to certain European languages
+T21	ROOT_SENTENCE 741 1013	Because languages differ in the meaning assigned to special characters, a US application that uses characters such as apostrophes as delimiters in a text string and restricts their use to this function may require modification when converted to certain European languages.
+T146	CONDITION 1573 1609	may require input in both directions
+T147	VARIABLE 1617 1629	a single box
+T148	KEY_C 1610 1616	within
+T149	CAUSE 1610 1629	within a single box
+T150	VARIABLE 1256 1264	markings
+T151	CONDITION 1265 1283	appear on the keys
+T152	NEGATION 1306 1325	may not be required

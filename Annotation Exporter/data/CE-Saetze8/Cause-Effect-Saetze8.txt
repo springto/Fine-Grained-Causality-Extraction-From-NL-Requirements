@@ -1,0 +1,916 @@
+T1	VARIABLE 0 10	All timber
+T2	CONDITION 11 47	shall be free from live barer beetle
+T3	CONDITION 51 70	other insect attack
+T4	STATEMENT 0 70	All timber shall be free from live barer beetle or other insect attack
+T5	OR 11 70	shall be free from live barer beetle or other insect attack
+T6	KEY_C 71 75	when
+T7	CONDITION 76 97	brought upon the Site
+T8	CAUSE 71 97	when brought upon the Site
+T9	CAUSE_EFFECT_RELATION 0 97	All timber shall be free from live barer beetle or other insect attack when brought upon the Site
+T10	ROOT_SENTENCE 0 98	All timber shall be free from live barer beetle or other insect attack when brought upon the Site.
+T14	KEY_C 16048 16052	when
+T15	VARIABLE 16053 16059	system
+T16	CONDITION 16060 16093	is taken off-line for maintenance
+T17	STATEMENT 16053 16093	system is taken off-line for maintenance
+T18	CAUSE 16048 16093	when system is taken off-line for maintenance
+T19	VARIABLE 15947 15985	The NAS ground-based navigational aids
+T20	CONDITION 15986 16047	shall terminate transmittal of a unique identification signal
+T21	STATEMENT 15947 16047	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal
+T22	CAUSE_EFFECT_RELATION 15947 16093	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal when system is taken off-line for maintenance
+T23	ROOT_SENTENCE 15947 16094	The NAS ground-based navigational aids shall terminate transmittal of a unique identification signal when system is taken off-line for maintenance.
+T24	VARIABLE 15879 15886	The NAS
+T25	CONDITION 15887 15904	shall alert users
+T26	STATEMENT 15879 15904	The NAS shall alert users
+T27	KEY_C 15905 15909	when
+T28	VARIABLE 15910 15938	a navigation guidance system
+T29	CONDITION 15939 15944	fails
+T30	STATEMENT 15910 15944	a navigation guidance system fails
+T31	CAUSE 15905 15944	when a navigation guidance system fails
+T32	CAUSE_EFFECT_RELATION 15879 15944	The NAS shall alert users when a navigation guidance system fails
+T33	ROOT_SENTENCE 15879 15945	The NAS shall alert users when a navigation guidance system fails.
+T34	VARIABLE 15822 15829	The NAS
+T35	CONDITION 15830 15856	shall alert the specialist
+T36	KEY_C 15857 15861	when
+T37	VARIABLE 15862 15870	a system
+T38	CONDITION 15871 15876	fails
+T39	STATEMENT 15862 15876	a system fails
+T40	CAUSE 15857 15876	when a system fails
+T41	STATEMENT 15822 15856	The NAS shall alert the specialist
+T42	CAUSE_EFFECT_RELATION 15822 15876	The NAS shall alert the specialist when a system fails
+T43	ROOT_SENTENCE 15822 15877	The NAS shall alert the specialist when a system fails.
+T44	KEY_C 15696 15700	when
+T45	CONDITION 15801 15819	exceeds 15 minutes
+T46	VARIABLE 15664 15671	The NAS
+T47	CONDITION 15672 15695	shall alert specialists
+T48	STATEMENT 15664 15695	The NAS shall alert specialists
+T49	VARIABLE 15701 15800	the time for re-establishing contact with an aircraft operating over NAS-designated hazardous areas
+T50	STATEMENT 15701 15819	the time for re-establishing contact with an aircraft operating over NAS-designated hazardous areas exceeds 15 minutes
+T51	CAUSE 15696 15819	when the time for re-establishing contact with an aircraft operating over NAS-designated hazardous areas exceeds 15 minutes
+T52	CAUSE_EFFECT_RELATION 15664 15819	The NAS shall alert specialists when the time for re-establishing contact with an aircraft operating over NAS-designated hazardous areas exceeds 15 minutes
+T53	ROOT_SENTENCE 15664 15820	The NAS shall alert specialists when the time for re-establishing contact with an aircraft operating over NAS-designated hazardous areas exceeds 15 minutes.
+T54	VARIABLE 15508 15515	The NAS
+T55	CONDITION 15516 15543	shall alert ATC specialists
+T56	CONDITION 15544 15586	at the proposed destination of an aircraft
+T57	AND 15516 15586	shall alert ATC specialists at the proposed destination of an aircraft
+T58	STATEMENT 15508 15586	The NAS shall alert ATC specialists at the proposed destination of an aircraft
+T59	KEY_C 15587 15591	when
+T60	VARIABLE 15592 15649	an apparent failure of on board air-ground communications
+T61	CONDITION 15650 15661	is detected
+T62	STATEMENT 15592 15661	an apparent failure of on board air-ground communications is detected
+T63	CAUSE 15587 15661	when an apparent failure of on board air-ground communications is detected
+T64	CAUSE_EFFECT_RELATION 15508 15661	The NAS shall alert ATC specialists at the proposed destination of an aircraft when an apparent failure of on board air-ground communications is detected
+T65	ROOT_SENTENCE 15508 15662	The NAS shall alert ATC specialists at the proposed destination of an aircraft when an apparent failure of on board air-ground communications is detected.
+T66	VARIABLE 15349 15356	The NAS
+T67	CONDITION 15357 15430	shall alert other ATC specialists along the proposed route of an aircraft
+T68	KEY_C 15431 15435	when
+T69	VARIABLE 15436 15493	an apparent failure of on board air-ground communications
+T70	CONDITION 15494 15505	is detected
+T71	STATEMENT 15436 15505	an apparent failure of on board air-ground communications is detected
+T72	CAUSE 15431 15505	when an apparent failure of on board air-ground communications is detected
+T73	STATEMENT 15349 15430	The NAS shall alert other ATC specialists along the proposed route of an aircraft
+T74	CAUSE_EFFECT_RELATION 15349 15505	The NAS shall alert other ATC specialists along the proposed route of an aircraft when an apparent failure of on board air-ground communications is detected
+T75	ROOT_SENTENCE 15349 15506	The NAS shall alert other ATC specialists along the proposed route of an aircraft when an apparent failure of on board air-ground communications is detected.
+T76	VARIABLE 15262 15269	The NAS
+T77	CONDITION 15270 15287	shall alert users
+T78	KEY_C 15288 15292	when
+T79	VARIABLE 15293 15334	a change in status of a navigation system
+T80	CONDITION 15335 15346	is detected
+T81	STATEMENT 15293 15346	a change in status of a navigation system is detected
+T82	CAUSE 15288 15346	when a change in status of a navigation system is detected
+T83	STATEMENT 15262 15287	The NAS shall alert users
+T84	CAUSE_EFFECT_RELATION 15262 15346	The NAS shall alert users when a change in status of a navigation system is detected
+T85	ROOT_SENTENCE 15262 15347	The NAS shall alert users when a change in status of a navigation system is detected.
+T86	VARIABLE 15177 15184	The NAS
+T87	CONDITION 15185 15208	shall notify specialist
+T88	KEY_C 15209 15213	when
+T91	STATEMENT 15214 15259	known traffic approaches special use airspace
+T92	CAUSE 15209 15259	when known traffic approaches special use airspace
+T93	STATEMENT 15177 15208	The NAS shall notify specialist
+T94	CAUSE_EFFECT_RELATION 15177 15259	The NAS shall notify specialist when known traffic approaches special use airspace
+T95	ROOT_SENTENCE 15177 15260	The NAS shall notify specialist when known traffic approaches special use airspace.
+T108	VARIABLE 14920 14927	The NAS
+T109	CONDITION 14928 14955	shall notify the controller
+T110	KEY_C 14956 14960	when
+T111	VARIABLE 14961 14974	known traffic
+T112	CONDITION 14975 15006	approaches special use airspace
+T89	VARIABLE 15214 15227	known traffic
+T113	CONDITION 15228 15259	approaches special use airspace
+T90	STATEMENT 14961 15006	known traffic approaches special use airspace
+T114	CAUSE 14956 15006	when known traffic approaches special use airspace
+T115	STATEMENT 14920 14955	The NAS shall notify the controller
+T116	CAUSE_EFFECT_RELATION 14920 15006	The NAS shall notify the controller when known traffic approaches special use airspace
+T117	ROOT_SENTENCE 14920 15007	The NAS shall notify the controller when known traffic approaches special use airspace.
+T118	VARIABLE 14777 14784	The NAS
+T119	CONDITION 14785 14817	shall consider local environment
+T120	KEY_C 14818 14822	when
+T121	VARIABLE 14823 14853	generating avoidance maneuvers
+T122	CONDITION 14854 14917	for predicted aircraft-obstacle separation standards violations
+T123	STATEMENT 14823 14917	generating avoidance maneuvers for predicted aircraft-obstacle separation standards violations
+T124	CAUSE 14818 14917	when generating avoidance maneuvers for predicted aircraft-obstacle separation standards violations
+T125	STATEMENT 14777 14817	The NAS shall consider local environment
+T126	CAUSE_EFFECT_RELATION 14777 14917	The NAS shall consider local environment when generating avoidance maneuvers for predicted aircraft-obstacle separation standards violations
+T127	ROOT_SENTENCE 14777 14918	The NAS shall consider local environment when generating avoidance maneuvers for predicted aircraft-obstacle separation standards violations.
+T131	VARIABLE 13129 13136	The NAS
+T132	CONDITION 13137 13155	shall notify users
+T133	KEY_C 13156 13160	when
+T134	VARIABLE 13161 13174	a flight plan
+T135	CONDITION 13175 13192	has been accepted
+T136	STATEMENT 13161 13192	a flight plan has been accepted
+T137	CAUSE 13156 13192	when a flight plan has been accepted
+T138	STATEMENT 13129 13155	The NAS shall notify users
+T139	CAUSE_EFFECT_RELATION 13129 13192	The NAS shall notify users when a flight plan has been accepted
+T140	ROOT_SENTENCE 13129 13193	The NAS shall notify users when a flight plan has been accepted.
+T141	VARIABLE 13195 13202	The NAS
+T142	CONDITION 13203 13227	shall notify specialists
+T143	KEY_C 13228 13232	when
+T144	VARIABLE 13233 13246	a flight plan
+T145	CONDITION 13247 13264	has been accepted
+T146	STATEMENT 13233 13264	a flight plan has been accepted
+T147	CAUSE 13228 13264	when a flight plan has been accepted
+T148	STATEMENT 13195 13227	The NAS shall notify specialists
+T149	CAUSE_EFFECT_RELATION 13195 13264	The NAS shall notify specialists when a flight plan has been accepted
+T150	ROOT_SENTENCE 13195 13265	The NAS shall notify specialists when a flight plan has been accepted.
+T151	VARIABLE 13267 13274	The NAS
+T152	CONDITION 13275 13307	shall update active flight plans
+T153	KEY_C 13308 13312	when
+T154	VARIABLE 13313 13323	amendments
+T155	CONDITION 13324 13348	are accepted immediately
+T156	STATEMENT 13313 13348	amendments are accepted immediately
+T157	CAUSE 13308 13348	when amendments are accepted immediately
+T158	STATEMENT 13267 13307	The NAS shall update active flight plans
+T159	CAUSE_EFFECT_RELATION 13267 13348	The NAS shall update active flight plans when amendments are accepted immediately
+T160	ROOT_SENTENCE 13267 13349	The NAS shall update active flight plans when amendments are accepted immediately.
+T161	VARIABLE 13351 13358	The NAS
+T162	KEY_C 13442 13446	when
+T163	VARIABLE 13447 13459	this traffic
+T164	CONDITION 13460 13500	is using supplemental navigation systems
+T165	STATEMENT 13447 13500	this traffic is using supplemental navigation systems
+T166	CAUSE 13442 13500	when this traffic is using supplemental navigation systems
+T167	CONDITION 13359 13441	shall separate aircraft operating outside the independent surveillance environment
+T168	STATEMENT 13351 13441	The NAS shall separate aircraft operating outside the independent surveillance environment
+T169	CAUSE_EFFECT_RELATION 13351 13500	The NAS shall separate aircraft operating outside the independent surveillance environment when this traffic is using supplemental navigation systems
+T170	ROOT_SENTENCE 13351 13501	The NAS shall separate aircraft operating outside the independent surveillance environment when this traffic is using supplemental navigation systems.
+T171	VARIABLE 13503 13510	The NAS
+T172	CONDITION 13511 13534	shall alert specialists
+T173	KEY_C 13535 13539	when
+T174	VARIABLE 13540 13590	the projected flight path of a controlled aircraft
+T175	VARIABLE 13595 13621	that of any other aircraft
+T176	CONDITION 13622 13681	are predicted to have less than standard minimum separation
+T177	AND 13540 13621	the projected flight path of a controlled aircraft and that of any other aircraft
+T178	STATEMENT 13540 13681	the projected flight path of a controlled aircraft and that of any other aircraft are predicted to have less than standard minimum separation
+T179	CAUSE 13535 13681	when the projected flight path of a controlled aircraft and that of any other aircraft are predicted to have less than standard minimum separation
+T180	STATEMENT 13503 13534	The NAS shall alert specialists
+T181	CAUSE_EFFECT_RELATION 13503 13681	The NAS shall alert specialists when the projected flight path of a controlled aircraft and that of any other aircraft are predicted to have less than standard minimum separation
+T182	ROOT_SENTENCE 13503 13682	The NAS shall alert specialists when the projected flight path of a controlled aircraft and that of any other aircraft are predicted to have less than standard minimum separation.
+T183	VARIABLE 13684 13691	The NAS
+T184	CONDITION 13692 13715	shall alert specialists
+T185	KEY_C 13716 13720	when
+T186	VARIABLE 13721 13759	a controlled aircraft's track position
+T187	CONDITION 13760 13851	is outside of the preset altitude conformance bounds of its current flight trajectory model
+T188	STATEMENT 13721 13851	a controlled aircraft's track position is outside of the preset altitude conformance bounds of its current flight trajectory model
+T189	CAUSE 13716 13851	when a controlled aircraft's track position is outside of the preset altitude conformance bounds of its current flight trajectory model
+T190	STATEMENT 13684 13715	The NAS shall alert specialists
+T191	CAUSE_EFFECT_RELATION 13684 13851	The NAS shall alert specialists when a controlled aircraft's track position is outside of the preset altitude conformance bounds of its current flight trajectory model
+T192	ROOT_SENTENCE 13684 13852	The NAS shall alert specialists when a controlled aircraft's track position is outside of the preset altitude conformance bounds of its current flight trajectory model.
+T193	VARIABLE 13854 13861	The NAS
+T194	CONDITION 13862 13888	shall alert the specialist
+T195	KEY_C 13889 13893	when
+T196	VARIABLE 13894 13932	a controlled aircraft's track position
+T197	CONDITION 13933 14010	is outside of the preset conformance bounds of its clearance-based trajectory
+T198	CONDITION 14011 14035	in the lateral direction
+T199	AND 13933 14035	is outside of the preset conformance bounds of its clearance-based trajectory in the lateral direction
+T200	STATEMENT 13894 14035	a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the lateral direction
+T201	CAUSE 13889 14035	when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the lateral direction
+T202	STATEMENT 13854 13888	The NAS shall alert the specialist
+T203	CAUSE_EFFECT_RELATION 13854 14035	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the lateral direction
+T204	ROOT_SENTENCE 13854 14036	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the lateral direction.
+T205	VARIABLE 14038 14045	The NAS
+T206	CONDITION 14046 14072	shall alert the specialist
+T207	KEY_C 14073 14077	when
+T208	VARIABLE 14078 14116	a controlled aircraft's track position
+T209	CONDITION 14117 14210	is outside of the preset lateral conformance bounds of its current clearance-based trajectory
+T210	STATEMENT 14078 14210	a controlled aircraft's track position is outside of the preset lateral conformance bounds of its current clearance-based trajectory
+T211	CAUSE 14073 14210	when a controlled aircraft's track position is outside of the preset lateral conformance bounds of its current clearance-based trajectory
+T212	STATEMENT 14038 14072	The NAS shall alert the specialist
+T213	CAUSE_EFFECT_RELATION 14038 14210	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset lateral conformance bounds of its current clearance-based trajectory
+T214	ROOT_SENTENCE 14038 14211	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset lateral conformance bounds of its current clearance-based trajectory.
+T215	VARIABLE 14213 14220	The NAS
+T216	CONDITION 14221 14247	shall alert the specialist
+T217	KEY_C 14248 14252	when
+T218	VARIABLE 14253 14291	a controlled aircraft's track position
+T219	CONDITION 14292 14369	is outside of the preset conformance bounds of its clearance-based trajectory
+T220	CONDITION 14370 14395	in the vertical direction
+T221	AND 14292 14395	is outside of the preset conformance bounds of its clearance-based trajectory in the vertical direction
+T222	STATEMENT 14253 14395	a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the vertical direction
+T223	CAUSE 14248 14395	when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the vertical direction
+T224	STATEMENT 14213 14247	The NAS shall alert the specialist
+T225	CAUSE_EFFECT_RELATION 14213 14395	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the vertical direction
+T226	ROOT_SENTENCE 14213 14396	The NAS shall alert the specialist when a controlled aircraft's track position is outside of the preset conformance bounds of its clearance-based trajectory in the vertical direction.
+T227	KEY_C 12681 12685	When
+T228	VARIABLE 12686 12691	tests
+T229	CONDITION 12692 12737	are perfocmed at different ambient conditions
+T230	VARIABLE 12739 12769	appropriate correction factors
+T231	CONDITION 12770 12798	shall be applied to the flow
+T232	CONDITION 12803 12821	pressure encodings
+T233	AND 12770 12821	shall be applied to the flow and pressure encodings
+T234	STATEMENT 12739 12821	appropriate correction factors shall be applied to the flow and pressure encodings
+T235	STATEMENT 12686 12737	tests are perfocmed at different ambient conditions
+T236	CAUSE 12681 12737	When tests are perfocmed at different ambient conditions
+T237	CAUSE_EFFECT_RELATION 12681 12821	When tests are perfocmed at different ambient conditions, appropriate correction factors shall be applied to the flow and pressure encodings
+T238	ROOT_SENTENCE 12681 12822	When tests are perfocmed at different ambient conditions, appropriate correction factors shall be applied to the flow and pressure encodings.
+T244	KEY_C 12351 12355	When
+T245	VARIABLE 12356 12373	a non-conformance
+T246	CONDITION 12374 12382	is found
+T247	VARIABLE 12384 12395	a mechanism
+T248	CONDITION 12396 12463	must be in place to increase inspection (preferably to 100 percent)
+T249	STATEMENT 12384 12463	a mechanism must be in place to increase inspection (preferably to 100 percent)
+T250	STATEMENT 12356 12382	a non-conformance is found
+T251	CAUSE 12351 12382	When a non-conformance is found
+T252	CAUSE_EFFECT_RELATION 12351 12463	When a non-conformance is found, a mechanism must be in place to increase inspection (preferably to 100 percent)
+T253	ROOT_SENTENCE 12351 12464	When a non-conformance is found, a mechanism must be in place to increase inspection (preferably to 100 percent).
+T254	VARIABLE 12186 12211	Sustained process control
+T255	CONDITION 12212 12231	is considered to be
+T256	KEY_C 12232 12236	when
+T257	VARIABLE 12237 12248	a Cpk level
+T258	CONDITION 12249 12253	of 5
+T259	CONDITION 12257 12275	higher is achieved
+T260	OR 12249 12275	of 5 or higher is achieved
+T261	STATEMENT 12237 12275	a Cpk level of 5 or higher is achieved
+T262	CAUSE 12232 12275	when a Cpk level of 5 or higher is achieved
+T263	VARIABLE 12277 12284	a level
+T264	CONDITION 12285 12347	sufficient to demonstrate an equivalent nonconformance of zero
+T265	STATEMENT 12277 12347	a level sufficient to demonstrate an equivalent nonconformance of zero
+T266	NONE_CAUSAL 12276 12348	(a level sufficient to demonstrate an equivalent nonconformance of zero)
+T267	STATEMENT 12186 12231	Sustained process control is considered to be
+T268	CAUSE_EFFECT_RELATION 12186 12348	Sustained process control is considered to be when a Cpk level of 5 or higher is achieved (a level sufficient to demonstrate an equivalent nonconformance of zero)
+T269	ROOT_SENTENCE 12186 12349	Sustained process control is considered to be when a Cpk level of 5 or higher is achieved (a level sufficient to demonstrate an equivalent nonconformance of zero).
+T270	KEY_C 12018 12022	When
+T271	VARIABLE 12023 12046	an environmental margin
+T272	CONDITION 12047 12077	is included in the loss budget
+T273	VARIABLE 12079 12089	the margin
+T274	CONDITION 12090 12183	provides a buffer to absorb any environmentally induced losses in the fiber optic cable plant
+T275	STATEMENT 12079 12183	the margin provides a buffer to absorb any environmentally induced losses in the fiber optic cable plant
+T276	STATEMENT 12023 12077	an environmental margin is included in the loss budget
+T277	CAUSE 12018 12077	When an environmental margin is included in the loss budget
+T278	CAUSE_EFFECT_RELATION 12018 12183	When an environmental margin is included in the loss budget, the margin provides a buffer to absorb any environmentally induced losses in the fiber optic cable plant
+T279	ROOT_SENTENCE 12018 12184	When an environmental margin is included in the loss budget, the margin provides a buffer to absorb any environmentally induced losses in the fiber optic cable plant.
+T280	KEY_C 11877 11881	When
+T281	VARIABLE 11882 11891	specified
+T282	VARIABLE 11900 11915	sufficient data
+T283	CONDITION 11916 11956	exists to allow end of life calculations
+T284	STATEMENT 11900 11956	sufficient data exists to allow end of life calculations
+T285	CAUSE 11895 11956	when sufficient data exists to allow end of life calculations
+T286	KEY_C 11895 11899	when
+T287	CAUSE 11877 11891	When specified
+T288	OR 11877 11956	When specified or when sufficient data exists to allow end of life calculations
+T289	VARIABLE 11958 11969	statistical
+T290	VARIABLE 11973 12002	numerical (simulation) method
+T291	CONDITION 12003 12015	may be cited
+T292	OR 11958 12002	statistical or numerical (simulation) method
+T293	STATEMENT 11958 12015	statistical or numerical (simulation) method may be cited
+T294	CAUSE_EFFECT_RELATION 11877 12015	When specified or when sufficient data exists to allow end of life calculations, statistical or numerical (simulation) method may be cited
+T295	ROOT_SENTENCE 11877 12016	When specified or when sufficient data exists to allow end of life calculations, statistical or numerical (simulation) method may be cited.
+T296	KEY_C 11753 11757	When
+T297	VARIABLE 11758 11779	the statistical model
+T298	CONDITION 11780 11793	is calculated
+T299	KEY_C 11795 11799	then
+T300	VARIABLE 11800 11818	a worst case model
+T301	CONDITION 11819 11838	shall be calculated
+T302	CONDITION 11843 11874	used as the basis of comparison
+T303	AND 11819 11874	shall be calculated and used as the basis of comparison
+T304	STATEMENT 11800 11874	a worst case model shall be calculated and used as the basis of comparison
+T305	EFFECT 11795 11874	then a worst case model shall be calculated and used as the basis of comparison
+T306	STATEMENT 11758 11793	the statistical model is calculated
+T307	CAUSE 11753 11793	When the statistical model is calculated
+T308	CAUSE_EFFECT_RELATION 11753 11875	When the statistical model is calculated, then a worst case model shall be calculated and used as the basis of comparison.
+T309	ROOT_SENTENCE 11753 11875	When the statistical model is calculated, then a worst case model shall be calculated and used as the basis of comparison.
+T310	KEY_C 11577 11581	When
+T311	VARIABLE 11582 11612	the multiple termini connector
+T312	CONDITION 11613 11667	has the insert for the pin terminus configuration only
+T313	KEY_C 11669 11673	then
+T314	VARIABLE 11674 11708	retention of the alignment sleeves
+T315	CONDITION 11709 11750	shall be done in the connector receptacle
+T316	STATEMENT 11674 11750	retention of the alignment sleeves shall be done in the connector receptacle
+T317	EFFECT 11669 11750	then retention of the alignment sleeves shall be done in the connector receptacle
+T318	STATEMENT 11582 11667	the multiple termini connector has the insert for the pin terminus configuration only
+T319	CAUSE 11577 11667	When the multiple termini connector has the insert for the pin terminus configuration only
+T320	CAUSE_EFFECT_RELATION 11577 11750	When the multiple termini connector has the insert for the pin terminus configuration only, then retention of the alignment sleeves shall be done in the connector receptacle
+T321	ROOT_SENTENCE 11577 11751	When the multiple termini connector has the insert for the pin terminus configuration only, then retention of the alignment sleeves shall be done in the connector receptacle.
+T322	KEY_C 11424 11428	When
+T323	CONDITION 11453 11481	is used at the same location
+T324	VARIABLE 11429 11452	more than one connector
+T325	STATEMENT 11429 11481	more than one connector is used at the same location
+T326	CAUSE 11424 11481	When more than one connector is used at the same location
+T327	VARIABLE 11483 11502	connector selection
+T328	CONDITION 11503 11574	shall be implemented in the order listed in 5.2.4.2.1 through 5.2.4.2.3
+T329	STATEMENT 11483 11574	connector selection shall be implemented in the order listed in 5.2.4.2.1 through 5.2.4.2.3
+T330	CAUSE_EFFECT_RELATION 11424 11574	When more than one connector is used at the same location, connector selection shall be implemented in the order listed in 5.2.4.2.1 through 5.2.4.2.3
+T331	ROOT_SENTENCE 11424 11575	When more than one connector is used at the same location, connector selection shall be implemented in the order listed in 5.2.4.2.1 through 5.2.4.2.3.
+T332	VARIABLE 11382 11409	the proper cleaning process
+T333	CONDITION 11410 11421	is enforced
+T334	STATEMENT 11382 11421	the proper cleaning process is enforced
+T335	VARIABLE 11336 11370	a connector on a fiber capable box
+T336	CONDITION 11371 11380	is opened
+T337	VARIABLE 11313 11317	This
+T338	CONDITION 11318 11330	ensures that
+T339	NONE_CAUSAL 11313 11330	This ensures that
+T340	KEY_C 11331 11335	when
+T341	STATEMENT 11336 11380	a connector on a fiber capable box is opened
+T342	CAUSE 11331 11380	when a connector on a fiber capable box is opened
+T343	CAUSE_EFFECT_RELATION 11313 11421	This ensures that when a connector on a fiber capable box is opened, the proper cleaning process is enforced
+T344	ROOT_SENTENCE 11313 11422	This ensures that when a connector on a fiber capable box is opened, the proper cleaning process is enforced.
+T345	KEY_C 11209 11213	When
+T346	VARIABLE 11214 11223	specified
+T347	VARIABLE 11225 11236	this sleeve
+T348	CONDITION 11237 11289	shall be placed on the exterior of the cable harness
+T349	CONDITION 11293 11310	convoluted tubing
+T350	OR 11237 11310	shall be placed on the exterior of the cable harness or convoluted tubing
+T351	STATEMENT 11225 11310	this sleeve shall be placed on the exterior of the cable harness or convoluted tubing
+T352	CAUSE 11209 11223	When specified
+T353	CAUSE_EFFECT_RELATION 11209 11310	When specified, this sleeve shall be placed on the exterior of the cable harness or convoluted tubing
+T354	ROOT_SENTENCE 11209 11311	When specified, this sleeve shall be placed on the exterior of the cable harness or convoluted tubing.
+T355	KEY_C 11125 11129	then
+T356	KEY_C 11033 11037	When
+T357	VARIABLE 11038 11068	the multiple termini connector
+T358	CONDITION 11069 11123	has the insert for the pin terminus configuration only
+T359	VARIABLE 11130 11164	retention of the alignment sleeves
+T360	CONDITION 11165 11206	shall be done in the connector receptacle
+T361	STATEMENT 11130 11206	retention of the alignment sleeves shall be done in the connector receptacle
+T362	EFFECT 11125 11206	then retention of the alignment sleeves shall be done in the connector receptacle
+T363	STATEMENT 11038 11123	the multiple termini connector has the insert for the pin terminus configuration only
+T364	CAUSE 11033 11123	When the multiple termini connector has the insert for the pin terminus configuration only
+T365	CAUSE_EFFECT_RELATION 11033 11206	When the multiple termini connector has the insert for the pin terminus configuration only, then retention of the alignment sleeves shall be done in the connector receptacle
+T366	ROOT_SENTENCE 11033 11207	When the multiple termini connector has the insert for the pin terminus configuration only, then retention of the alignment sleeves shall be done in the connector receptacle.
+T367	KEY_C 10880 10884	When
+T368	VARIABLE 10885 10908	more than one connector
+T369	CONDITION 10909 10937	is used at the same location
+T370	STATEMENT 10885 10937	more than one connector is used at the same location
+T371	CAUSE 10880 10937	When more than one connector is used at the same location
+T372	VARIABLE 10939 10958	connector selection
+T373	CONDITION 10959 11030	shall be implemented in the order listed in A.5.7.3.1 through A.5.7.3.3
+T374	STATEMENT 10939 11030	connector selection shall be implemented in the order listed in A.5.7.3.1 through A.5.7.3.3
+T375	CAUSE_EFFECT_RELATION 10880 11030	When more than one connector is used at the same location, connector selection shall be implemented in the order listed in A.5.7.3.1 through A.5.7.3.3
+T376	ROOT_SENTENCE 10880 11031	When more than one connector is used at the same location, connector selection shall be implemented in the order listed in A.5.7.3.1 through A.5.7.3.3.
+T377	KEY_C 10712 10716	When
+T378	VARIABLE 10717 10734	the donut grommet
+T379	CONDITION 10735 10743	is split
+T380	CONDITION 10748 10772	for caterpillar grommets
+T381	AND 10735 10772	is split and for caterpillar grommets
+T382	STATEMENT 10717 10772	the donut grommet is split and for caterpillar grommets
+T383	CAUSE 10712 10772	When the donut grommet is split and for caterpillar grommets
+T384	VARIABLE 10774 10783	the split
+T385	CONDITION 10784 10807	shall be a diagonal cut
+T386	VARIABLE 10497 10517	The term "spot ties"
+T387	CONDITION 10518 10537	becomes appropriate
+T388	STATEMENT 10497 10537	The term "spot ties" becomes appropriate
+T389	KEY_C 10538 10542	when
+T390	VARIABLE 10543 10554	lacing tape
+T391	CONDITION 10555 10605	is used to separate a number of fiber optic cables
+T392	VARIABLE 10609 10622	cable bundles
+T393	CONDITION 10623 10645	within a cable harness
+T394	VARIABLE 10649 10666	convoluted tubing
+T395	CONDITION 10667 10709	(as a separator and not a means to secure)
+T396	STATEMENT 10543 10605	lacing tape is used to separate a number of fiber optic cables
+T397	STATEMENT 10609 10645	cable bundles within a cable harness
+T398	STATEMENT 10649 10709	convoluted tubing (as a separator and not a means to secure)
+T399	OR 10609 10709	cable bundles within a cable harness or convoluted tubing (as a separator and not a means to secure)
+T400	OR 10543 10709	lacing tape is used to separate a number of fiber optic cables or cable bundles within a cable harness or convoluted tubing (as a separator and not a means to secure)
+T401	CAUSE 10538 10709	when lacing tape is used to separate a number of fiber optic cables or cable bundles within a cable harness or convoluted tubing (as a separator and not a means to secure)
+T402	CAUSE_EFFECT_RELATION 10497 10709	The term "spot ties" becomes appropriate when lacing tape is used to separate a number of fiber optic cables or cable bundles within a cable harness or convoluted tubing (as a separator and not a means to secure)
+T403	ROOT_SENTENCE 10497 10710	The term "spot ties" becomes appropriate when lacing tape is used to separate a number of fiber optic cables or cable bundles within a cable harness or convoluted tubing (as a separator and not a means to secure).
+T404	KEY_C 10321 10325	When
+T405	VARIABLE 10326 10337	the cabling
+T406	VARIABLE 10339 10352	cable bundles
+T407	VARIABLE 10356 10363	harness
+T408	OR 10339 10363	cable bundles or harness
+T409	OR 10326 10363	the cabling, cable bundles or harness
+T410	CONDITION 10364 10376	is a part of
+T411	CONDITION 10380 10410	placed in rigid tubing/conduit
+T412	OR 10364 10410	is a part of or placed in rigid tubing/conduit
+T413	STATEMENT 10326 10410	the cabling, cable bundles or harness is a part of or placed in rigid tubing/conduit
+T414	CAUSE 10321 10410	When the cabling, cable bundles or harness is a part of or placed in rigid tubing/conduit
+T415	KEY_C 10412 10416	then
+T416	VARIABLE 10417 10434	spacing intervals
+T417	CONDITION 10435 10450	may be extended
+T418	CONDITION 10466 10494	exceed 106.68 cm (42 inches)
+T419	NEGATION 10452 10494	but shall not exceed 106.68 cm (42 inches)
+T420	AND 10435 10494	may be extended, but shall not exceed 106.68 cm (42 inches)
+T421	STATEMENT 10417 10494	spacing intervals may be extended, but shall not exceed 106.68 cm (42 inches)
+T422	EFFECT 10412 10494	then spacing intervals may be extended, but shall not exceed 106.68 cm (42 inches)
+T423	CAUSE_EFFECT_RELATION 10321 10494	When the cabling, cable bundles or harness is a part of or placed in rigid tubing/conduit, then spacing intervals may be extended, but shall not exceed 106.68 cm (42 inches)
+T424	ROOT_SENTENCE 10321 10495	When the cabling, cable bundles or harness is a part of or placed in rigid tubing/conduit, then spacing intervals may be extended, but shall not exceed 106.68 cm (42 inches).
+T425	KEY_C 10164 10168	When
+T426	VARIABLE 10169 10177	a splice
+T427	CONDITION 10178 10185	is used
+T428	STATEMENT 10169 10185	a splice is used
+T429	CAUSE 10164 10185	When a splice is used
+T430	VARIABLE 10187 10227	the portion of the cable after the break
+T431	CONDITION 10228 10267	is removed (including its end terminus)
+T432	CONDITION 10272 10318	replaced with a prefabricated terminus pigtail
+T433	AND 10228 10318	is removed (including its end terminus) and replaced with a prefabricated terminus pigtail
+T434	STATEMENT 10187 10318	the portion of the cable after the break is removed (including its end terminus) and replaced with a prefabricated terminus pigtail
+T435	CAUSE_EFFECT_RELATION 10164 10318	When a splice is used, the portion of the cable after the break is removed (including its end terminus) and replaced with a prefabricated terminus pigtail
+T436	ROOT_SENTENCE 10164 10319	When a splice is used, the portion of the cable after the break is removed (including its end terminus) and replaced with a prefabricated terminus pigtail.
+T437	VARIABLE 10037 10056	Risk of signal loss
+T438	CONDITION 10057 10067	is reduced
+T439	KEY_C 10068 10072	when
+T440	VARIABLE 10073 10096	cause of fiber breakage
+T441	CONDITION 10097 10145	may extend to multiple fibers in the same bundle
+T442	CONDITION 10149 10161	routing path
+T443	OR 10097 10161	may extend to multiple fibers in the same bundle or routing path
+T444	STATEMENT 10073 10161	cause of fiber breakage may extend to multiple fibers in the same bundle or routing path
+T445	CAUSE 10068 10161	when cause of fiber breakage may extend to multiple fibers in the same bundle or routing path
+T446	STATEMENT 10037 10067	Risk of signal loss is reduced
+T447	CAUSE_EFFECT_RELATION 10037 10161	Risk of signal loss is reduced when cause of fiber breakage may extend to multiple fibers in the same bundle or routing path
+T448	ROOT_SENTENCE 10037 10162	Risk of signal loss is reduced when cause of fiber breakage may extend to multiple fibers in the same bundle or routing path.
+T450	KEY_C 9751 9756	Under
+T449	VARIABLE 9764 9784	operating conditions
+T451	CAUSE 9751 9784	Under normal operating conditions
+T452	VARIABLE 9786 9855	the laser diode found in an optical fiber communication system (OFCS)
+T453	CONDITION 9856 9888	is inherently an eye safe system
+T454	STATEMENT 9786 9888	the laser diode found in an optical fiber communication system (OFCS) is inherently an eye safe system
+T455	KEY_C 9895 9899	when
+T456	VARIABLE 9900 9927	an optical fiber connection
+T457	CONDITION 9928 9937	is broken
+T458	CONDITION 9970 9978	are used
+T459	AND 9900 9978	an optical fiber connection is broken and optical viewing instruments are used
+T460	STATEMENT 9900 9937	an optical fiber connection is broken
+T461	CAUSE 9895 9978	when an optical fiber connection is broken and optical viewing instruments are used
+T462	CAUSE_EFFECT_RELATION 9751 9888	Under normal operating conditions, the laser diode found in an optical fiber communication system (OFCS) is inherently an eye safe system
+T463	KEY_C 9597 9601	When
+T464	VARIABLE 9386 9397	such models
+T465	CONDITION 9398 9420	shall produce accurate
+T466	CONDITION 9425 9462	empirically repeatable, valid outputs
+T467	AND 9398 9462	shall produce accurate and empirically repeatable, valid outputs
+T468	STATEMENT 9386 9462	such models shall produce accurate and empirically repeatable, valid outputs
+T469	KEY_C 9351 9355	When
+T470	VARIABLE 9356 9384	used for predictive purposes
+T471	CAUSE 9351 9384	When used for predictive purposes
+T472	CAUSE_EFFECT_RELATION 9351 9462	When used for predictive purposes, such models shall produce accurate and empirically repeatable, valid outputs
+T473	ROOT_SENTENCE 9351 9463	When used for predictive purposes, such models shall produce accurate and empirically repeatable, valid outputs.
+T474	KEY_C 8518 8522	when
+T477	VARIABLE 8537 8571	agreeing on the test documentation
+T480	CAUSE 8518 8571	when reviewing and agreeing on the test documentation
+T481	VARIABLE 8497 8509	Verification
+T482	CONDITION 8510 8517	is done
+T483	STATEMENT 8497 8517	Verification is done
+T484	CAUSE_EFFECT_RELATION 8497 8571	Verification is done when reviewing and agreeing on the test documentation
+T485	ROOT_SENTENCE 8497 8572	Verification is done when reviewing and agreeing on the test documentation.
+T486	VARIABLE 8574 8597	Reliability predictions
+T487	CONDITION 8598 8621	are quantitative values
+T488	CONDITION 8627 8674	are usually calculated at an early design stage
+T489	KEY_C 8675 8679	when
+T490	VARIABLE 8680 8716	little directly applicable test data
+T491	CONDITION 8717 8730	are available
+T492	STATEMENT 8680 8730	little directly applicable test data are available
+T493	CAUSE 8675 8730	when little directly applicable test data are available
+T494	KEY_C 8140 8144	When
+T495	VARIABLE 8145 8158	the procedure
+T496	CONDITION 8159 8171	is automated
+T497	VARIABLE 8173 8211	the listing of the automated procedure
+T498	CONDITION 8212 8231	shall be documented
+T499	CONDITION 8232 8283	to a level allowing consistency check with the TPRO
+T500	CONDITION 8288 8296	the TPSE
+T501	AND 8232 8296	to a level allowing consistency check with the TPRO and the TPSE
+T502	AND 8212 8296	shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T503	STATEMENT 8173 8296	the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T504	STATEMENT 8145 8171	the procedure is automated
+T505	CAUSE 8140 8171	When the procedure is automated
+T506	CAUSE_EFFECT_RELATION 8140 8296	When the procedure is automated, the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE
+T507	ROOT_SENTENCE 8140 8297	When the procedure is automated, the listing of the automated procedure shall be documented to a level allowing consistency check with the TPRO and the TPSE.
+T508	VARIABLE 7998 8021	a space segment element
+T509	CONDITION 8029 8056	transported fully assembled
+T510	CONDITION 8060 8084	is subsequently disabled
+T511	NEGATION 8022 8056	is not transported fully assembled
+T512	OR 8022 8084	is not transported fully assembled or is subsequently disabled
+T513	STATEMENT 7998 8084	a space segment element is not transported fully assembled or is subsequently disabled
+T514	CAUSE 7993 8084	When a space segment element is not transported fully assembled or is subsequently disabled
+T515	KEY_C 7993 7997	When
+T516	VARIABLE 8086 8119	the final assembly at launch site
+T517	CONDITION 8120 8137	shall be retested
+T518	STATEMENT 8086 8137	the final assembly at launch site shall be retested
+T519	CAUSE_EFFECT_RELATION 7993 8137	When a space segment element is not transported fully assembled or is subsequently disabled, the final assembly at launch site shall be retested
+T520	ROOT_SENTENCE 7993 8138	When a space segment element is not transported fully assembled or is subsequently disabled, the final assembly at launch site shall be retested.
+T521	KEY_C 7850 7854	When
+T522	CONDITION 7855 7865	performing
+T523	VARIABLE 7866 7896	space segment element EMC test
+T524	STATEMENT 7855 7896	performing space segment element EMC test
+T525	CAUSE 7850 7896	When performing space segment element EMC test
+T526	VARIABLE 7897 7933	the compatibility tests with carrier
+T527	VARIABLE 7937 7967	carried space segment elements
+T528	OR 7897 7967	the compatibility tests with carrier or carried space segment elements
+T529	CONDITION 7968 7990	shall also be included
+T530	STATEMENT 7897 7990	the compatibility tests with carrier or carried space segment elements shall also be included
+T531	CAUSE_EFFECT_RELATION 7850 7990	When performing space segment element EMC test the compatibility tests with carrier or carried space segment elements shall also be included
+T532	ROOT_SENTENCE 7850 7991	When performing space segment element EMC test the compatibility tests with carrier or carried space segment elements shall also be included.
+T533	KEY_C 7672 7676	When
+T534	VARIABLE 7677 7710	the fully assembled configuration
+T535	CONDITION 7711 7766	precludes accessibility to perform requirement 6.5.3.4a
+T536	STATEMENT 7677 7766	the fully assembled configuration precludes accessibility to perform requirement 6.5.3.4a
+T537	CAUSE 7672 7766	When the fully assembled configuration precludes accessibility to perform requirement 6.5.3.4a
+T538	VARIABLE 7768 7778	leak tests
+T539	CONDITION 7779 7847	shall be conducted on a configuration to be agreed with the customer
+T540	STATEMENT 7768 7847	leak tests shall be conducted on a configuration to be agreed with the customer
+T541	CAUSE_EFFECT_RELATION 7672 7847	When the fully assembled configuration precludes accessibility to perform requirement 6.5.3.4a, leak tests shall be conducted on a configuration to be agreed with the customer
+T542	ROOT_SENTENCE 7672 7848	When the fully assembled configuration precludes accessibility to perform requirement 6.5.3.4a, leak tests shall be conducted on a configuration to be agreed with the customer.
+T543	KEY_C 7464 7468	When
+T544	VARIABLE 7469 7486	a dummy structure
+T545	CONDITION 7487 7518	is used in the static load test
+T546	VARIABLE 7520 7522	it
+T547	CONDITION 7523 7592	shall be demonstrated that it is representative in terms of stiffness
+T548	CONDITION 7597 7669	as far as the constraints of the replaced flight component are concerned
+T549	AND 7523 7669	shall be demonstrated that it is representative in terms of stiffness and as far as the constraints of the replaced flight component are concerned
+T550	STATEMENT 7520 7669	it shall be demonstrated that it is representative in terms of stiffness and as far as the constraints of the replaced flight component are concerned
+T551	STATEMENT 7469 7518	a dummy structure is used in the static load test
+T552	CAUSE 7464 7518	When a dummy structure is used in the static load test
+T553	CAUSE_EFFECT_RELATION 7464 7669	When a dummy structure is used in the static load test, it shall be demonstrated that it is representative in terms of stiffness and as far as the constraints of the replaced flight component are concerned
+T554	ROOT_SENTENCE 7464 7670	When a dummy structure is used in the static load test, it shall be demonstrated that it is representative in terms of stiffness and as far as the constraints of the replaced flight component are concerned.
+T555	KEY_C 7309 7313	When
+T556	VARIABLE 7314 7339	part of the qualification
+T557	CONDITION 7340 7369	is obtained on other model(s)
+T558	KEY_C 7371 7375	then
+T559	VARIABLE 7376 7383	the PFM
+T560	CONDITION 7384 7461	shall be tested in accordance with Table 5‐3 for the relevant type(s) of test
+T561	STATEMENT 7376 7461	the PFM shall be tested in accordance with Table 5‐3 for the relevant type(s) of test
+T562	EFFECT 7371 7461	then the PFM shall be tested in accordance with Table 5‐3 for the relevant type(s) of test
+T563	STATEMENT 7314 7369	part of the qualification is obtained on other model(s)
+T564	CAUSE 7309 7369	When part of the qualification is obtained on other model(s)
+T565	CAUSE_EFFECT_RELATION 7309 7461	When part of the qualification is obtained on other model(s), then the PFM shall be tested in accordance with Table 5‐3 for the relevant type(s) of test
+T567	KEY_C 7142 7146	When
+T568	VARIABLE 7147 7149	it
+T569	CONDITION 7157 7216	feasible to test a space segment element as a single entity
+T570	NEGATION 7150 7216	is not feasible to test a space segment element as a single entity
+T571	STATEMENT 7147 7216	it is not feasible to test a space segment element as a single entity
+T572	CAUSE 7142 7216	When it is not feasible to test a space segment element as a single entity
+T573	VARIABLE 7218 7220	it
+T574	CONDITION 7221 7279	may be tested separately as several space segment elements
+T575	CONDITION 7283 7306	space segment equipment
+T576	OR 7221 7306	may be tested separately as several space segment elements or space segment equipment
+T577	STATEMENT 7218 7306	it may be tested separately as several space segment elements or space segment equipment
+T578	CAUSE_EFFECT_RELATION 7142 7306	When it is not feasible to test a space segment element as a single entity, it may be tested separately as several space segment elements or space segment equipment
+T579	ROOT_SENTENCE 7142 7307	When it is not feasible to test a space segment element as a single entity, it may be tested separately as several space segment elements or space segment equipment.
+T580	KEY_C 6759 6763	when
+T581	VARIABLE 6764 6780	functional tests
+T582	CONDITION 6789 6798	performed
+T583	NEGATION 6781 6798	are not performed
+T584	STATEMENT 6764 6798	functional tests are not performed
+T585	CAUSE 6759 6798	when functional tests are not performed
+T586	VARIABLE 6715 6737	Detailed visual checks
+T587	CONDITION 6738 6758	shall be carried out
+T588	STATEMENT 6715 6758	Detailed visual checks shall be carried out
+T589	CAUSE_EFFECT_RELATION 6715 6798	Detailed visual checks shall be carried out when functional tests are not performed
+T590	ROOT_SENTENCE 6715 6799	Detailed visual checks shall be carried out when functional tests are not performed.
+T591	KEY_C 6482 6486	When
+T592	VARIABLE 6487 6499	a centrifuge
+T593	CONDITION 6500 6507	is used
+T594	STATEMENT 6487 6507	a centrifuge is used
+T595	CAUSE 6482 6507	When a centrifuge is used
+T596	VARIABLE 6509 6511	it
+T600	STATEMENT 6509 6712	it shall be ensured that the length of the arm (measured to the geometric centre of the space segment equipment) is at least five times the dimension of the space segment equipment measured along the arm
+T601	CAUSE_EFFECT_RELATION 6482 6712	When a centrifuge is used, it shall be ensured that the length of the arm (measured to the geometric centre of the space segment equipment) is at least five times the dimension of the space segment equipment measured along the arm
+T597	CONDITION 6512 6712	shall be ensured that the length of the arm (measured to the geometric centre of the space segment equipment) is at least five times the dimension of the space segment equipment measured along the arm
+T598	ROOT_SENTENCE 6482 6713	When a centrifuge is used, it shall be ensured that the length of the arm (measured to the geometric centre of the space segment equipment) is at least five times the dimension of the space segment equipment measured along the arm.
+T599	KEY_C 6426 6430	When
+T602	VARIABLE 6431 6441	accessible
+T603	CAUSE 6426 6441	When accessible
+T604	VARIABLE 6443 6463	protection functions
+T605	CONDITION 6464 6479	shall be tested
+T606	STATEMENT 6443 6479	protection functions shall be tested
+T607	CAUSE_EFFECT_RELATION 6426 6479	When accessible, protection functions shall be tested
+T608	ROOT_SENTENCE 6426 6480	When accessible, protection functions shall be tested.
+T609	VARIABLE 6310 6331	Qualification testing
+T610	CONDITION 6332 6384	shall be conducted on dedicated qualification models
+T611	STATEMENT 6310 6384	Qualification testing shall be conducted on dedicated qualification models
+T612	KEY_C 6155 6159	When
+T613	CONDITION 6160 6169	preparing
+T614	VARIABLE 6170 6223	the overall test programme of a space segment element
+T615	STATEMENT 6160 6223	preparing the overall test programme of a space segment element
+T616	CAUSE 6155 6223	When preparing the overall test programme of a space segment element
+T617	VARIABLE 6224 6265	tests linked to compatibility with ground
+T618	VARIABLE 6270 6284	launch segment
+T619	AND 6224 6284	tests linked to compatibility with ground and launch segment
+T620	CONDITION 6285 6307	shall also be included
+T621	STATEMENT 6224 6307	tests linked to compatibility with ground and launch segment shall also be included
+T622	CAUSE_EFFECT_RELATION 6155 6307	When preparing the overall test programme of a space segment element tests linked to compatibility with ground and launch segment shall also be included
+T623	ROOT_SENTENCE 6155 6308	When preparing the overall test programme of a space segment element tests linked to compatibility with ground and launch segment shall also be included.
+T624	KEY_C 1476 1480	when
+T625	VARIABLE 1481 1513	the air temperature in the shade
+T626	CONDITION 1514 1530	is less than 3°C
+T627	STATEMENT 1481 1530	the air temperature in the shade is less than 3°C
+T628	CAUSE 1476 1530	when the air temperature in the shade is less than 3°C
+T629	VARIABLE 1450 1457	Masonry
+T630	CONDITION 1468 1475	be laid
+T631	NEGATION 1458 1475	shall not be laid
+T632	STATEMENT 1450 1475	Masonry shall not be laid
+T633	CAUSE_EFFECT_RELATION 1450 1530	Masonry shall not be laid when the air temperature in the shade is less than 3°C
+T634	ROOT_SENTENCE 1450 1531	Masonry shall not be laid when the air temperature in the shade is less than 3°C.
+T635	KEY_C 1575 1579	when
+T636	VARIABLE 1580 1634	the level of the surrounding mortared masonry surround
+T637	CONDITION 1635 1677	has reached the top of the dry stone inset
+T638	STATEMENT 1580 1677	the level of the surrounding mortared masonry surround has reached the top of the dry stone inset
+T639	CAUSE 1575 1677	when the level of the surrounding mortared masonry surround has reached the top of the dry stone inset
+T640	VARIABLE 1533 1553	The dry stone insets
+T641	CONDITION 1554 1574	shall be constructed
+T642	STATEMENT 1533 1574	The dry stone insets shall be constructed
+T643	CAUSE_EFFECT_RELATION 1533 1677	The dry stone insets shall be constructed when the level of the surrounding mortared masonry surround has reached the top of the dry stone inset
+T644	ROOT_SENTENCE 1533 1678	The dry stone insets shall be constructed when the level of the surrounding mortared masonry surround has reached the top of the dry stone inset.
+T645	KEY_C 5632 5636	when
+T646	CONDITION 5637 5657	directed to do so by
+T647	VARIABLE 5658 5670	the operator
+T648	STATEMENT 5637 5670	directed to do so by the operator
+T649	CAUSE 5632 5670	when directed to do so by the operator
+T650	VARIABLE 5547 5593	A part of the on-line diagnostic test function
+T651	CONDITION 5594 5631	shall provide hardware status reports
+T652	STATEMENT 5547 5631	A part of the on-line diagnostic test function shall provide hardware status reports
+T653	CAUSE_EFFECT_RELATION 5547 5670	A part of the on-line diagnostic test function shall provide hardware status reports when directed to do so by the operator
+T654	ROOT_SENTENCE 5547 5671	A part of the on-line diagnostic test function shall provide hardware status reports when directed to do so by the operator.
+T655	KEY_C 3645 3649	when
+T656	VARIABLE 3650 3662	the concrete
+T657	CONDITION 3663 3674	is vibrated
+T658	STATEMENT 3650 3674	the concrete is vibrated
+T659	CAUSE 3645 3674	when the concrete is vibrated
+T660	VARIABLE 3537 3539	It
+T661	CONDITION 3540 3570	shall consist of wooden boards
+T662	CONDITION 3572 3584	sheet metals
+T663	CONDITION 3590 3644	any other suitable material that prevent loss of grout
+T664	AND 3572 3644	sheet metals, and any other suitable material that prevent loss of grout
+T665	AND 3540 3644	shall consist of wooden boards, sheet metals, and any other suitable material that prevent loss of grout
+T666	STATEMENT 3537 3644	It shall consist of wooden boards, sheet metals, and any other suitable material that prevent loss of grout
+T667	CAUSE_EFFECT_RELATION 3537 3674	It shall consist of wooden boards, sheet metals, and any other suitable material that prevent loss of grout when the concrete is vibrated
+T668	ROOT_SENTENCE 3537 3675	It shall consist of wooden boards, sheet metals, and any other suitable material that prevent loss of grout when the concrete is vibrated.
+T669	KEY_C 3831 3835	when
+T670	VARIABLE 3836 3844	concrete
+T671	CONDITION 3845 3867	is placed against them
+T672	STATEMENT 3836 3867	concrete is placed against them
+T673	CAUSE 3831 3867	when concrete is placed against them
+T674	VARIABLE 3677 3690	Such elements
+T675	CONDITION 3691 3716	shall be set true to line
+T676	CONDITION 3721 3795	level within the tolerances prescribed for the appropriate class of finish
+T677	CONDITION 3800 3830	fixed so that they cannot move
+T678	AND 3721 3830	level within the tolerances prescribed for the appropriate class of finish and fixed so that they cannot move
+T679	AND 3691 3830	shall be set true to line and level within the tolerances prescribed for the appropriate class of finish and fixed so that they cannot move
+T680	STATEMENT 3677 3830	Such elements shall be set true to line and level within the tolerances prescribed for the appropriate class of finish and fixed so that they cannot move
+T681	CAUSE_EFFECT_RELATION 3677 3867	Such elements shall be set true to line and level within the tolerances prescribed for the appropriate class of finish and fixed so that they cannot move when concrete is placed against them
+T682	ROOT_SENTENCE 3677 3868	Such elements shall be set true to line and level within the tolerances prescribed for the appropriate class of finish and fixed so that they cannot move when concrete is placed against them.
+T683	KEY_C 5389 5393	When
+T684	VARIABLE 5394 5411	the end of a tube
+T685	CONDITION 5419 5496	automatically sealed by virtue of its connection be welding to another member
+T686	NEGATION 5412 5496	is not automatically sealed by virtue of its connection be welding to another member
+T687	STATEMENT 5394 5496	the end of a tube is not automatically sealed by virtue of its connection be welding to another member
+T688	CAUSE 5389 5496	When the end of a tube is not automatically sealed by virtue of its connection be welding to another member
+T689	VARIABLE 5497 5504	the end
+T690	CONDITION 5505 5522	shall be properly
+T691	CONDITION 5527 5544	completely sealed
+T692	AND 5505 5544	shall be properly and completely sealed
+T693	STATEMENT 5497 5544	the end shall be properly and completely sealed
+T694	NONE_CAUSAL 5370 5386	Sealing of Tubes
+T695	CAUSE_EFFECT_RELATION 5370 5544	Sealing of Tubes : When the end of a tube is not automatically sealed by virtue of its connection be welding to another member the end shall be properly and completely sealed
+T696	ROOT_SENTENCE 5370 5545	Sealing of Tubes : When the end of a tube is not automatically sealed by virtue of its connection be welding to another member the end shall be properly and completely sealed.
+T697	KEY_C 5199 5203	When
+T698	VARIABLE 5204 5239	the first half of the strip of felt
+T699	CONDITION 5240 5267	has been bonded to the roof
+T700	STATEMENT 5204 5267	the first half of the strip of felt has been bonded to the roof
+T701	CAUSE 5199 5267	When the first half of the strip of felt has been bonded to the roof
+T702	VARIABLE 5269 5283	the other half
+T703	CONDITION 5284 5302	shall be rolled up
+T704	CONDITION 5307 5367	then unrolled on to the hot bonding material in the same way
+T705	AND 5284 5367	shall be rolled up and then unrolled on to the hot bonding material in the same way
+T706	STATEMENT 5269 5367	the other half shall be rolled up and then unrolled on to the hot bonding material in the same way
+T707	ROOT_SENTENCE 5199 5368	When the first half of the strip of felt has been bonded to the roof, the other half shall be rolled up and then unrolled on to the hot bonding material in the same way.
+T708	CAUSE_EFFECT_RELATION 5199 5367	When the first half of the strip of felt has been bonded to the roof, the other half shall be rolled up and then unrolled on to the hot bonding material in the same way
+T709	KEY_C 5166 5170	when
+T710	VARIABLE 5171 5196	tapped with wooden mallet
+T711	CAUSE 5166 5196	when tapped with wooden mallet
+T712	VARIABLE 5124 5142	The finished floor
+T713	CONDITION 5153 5165	sound hollow
+T714	NEGATION 5143 5165	shall not sound hollow
+T715	STATEMENT 5124 5165	The finished floor shall not sound hollow
+T716	CAUSE_EFFECT_RELATION 5124 5196	The finished floor shall not sound hollow when tapped with wooden mallet
+T717	ROOT_SENTENCE 5124 5197	The finished floor shall not sound hollow when tapped with wooden mallet.
+T718	KEY_C 5051 5055	when
+T719	VARIABLE 5056 5078	handling the chemicals
+T720	CONDITION 5079 5102	whether in concentrated
+T721	CONDITION 5106 5121	in diluted form
+T722	OR 5079 5121	whether in concentrated or in diluted form
+T723	STATEMENT 5056 5121	handling the chemicals whether in concentrated or in diluted form
+T724	CAUSE 5051 5121	when handling the chemicals whether in concentrated or in diluted form
+T725	VARIABLE 4953 4998	Persons carrying out chemical soil treatments
+T726	CONDITION 4999 5028	should familiarize themselves
+T727	CONDITION 5033 5050	exercise due care
+T728	AND 4999 5050	should familiarize themselves and exercise due care
+T729	STATEMENT 4953 5050	Persons carrying out chemical soil treatments should familiarize themselves and exercise due care
+T730	CAUSE_EFFECT_RELATION 4953 5121	Persons carrying out chemical soil treatments should familiarize themselves and exercise due care when handling the chemicals whether in concentrated or in diluted form
+T731	ROOT_SENTENCE 4953 5122	Persons carrying out chemical soil treatments should familiarize themselves and exercise due care when handling the chemicals whether in concentrated or in diluted form.
+T732	KEY_C 4668 4672	when
+T733	VARIABLE 4673 4678	level
+T734	CONDITION 4686 4710	maintained in excavation
+T735	NEGATION 4679 4710	is not maintained in excavation
+T736	STATEMENT 4673 4710	level is not maintained in excavation
+T737	CAUSE 4668 4710	when level is not maintained in excavation
+T738	VARIABLE 4631 4650	mud on sand filling
+T739	CONDITION 4651 4667	shall be allowed
+T740	STATEMENT 4631 4667	mud on sand filling shall be allowed
+T741	NEGATION 4628 4667	No mud on sand filling shall be allowed
+T742	CAUSE_EFFECT_RELATION 4628 4710	No mud on sand filling shall be allowed when level is not maintained in excavation
+T743	ROOT_SENTENCE 4628 4711	No mud on sand filling shall be allowed when level is not maintained in excavation.
+T744	VARIABLE 6397 6423	using protoflight approach
+T745	KEY_C 6392 6396	when
+T746	CAUSE 6392 6423	when using protoflight approach
+T747	NEGATION 6385 6423	except when using protoflight approach
+T748	CAUSE_EFFECT_RELATION 6310 6423	Qualification testing shall be conducted on dedicated qualification models except when using protoflight approach
+T749	ROOT_SENTENCE 6310 6424	Qualification testing shall be conducted on dedicated qualification models except when using protoflight approach.
+T750	KEY_C 8622 8626	that
+T751	EFFECT 8622 8674	that are usually calculated at an early design stage
+T752	NONE_CAUSAL 8574 8621	Reliability predictions are quantitative values
+T753	CAUSE_EFFECT_RELATION 8622 8730	that are usually calculated at an early design stage when little directly applicable test data are available
+T754	ROOT_SENTENCE 8574 8731	Reliability predictions are quantitative values that are usually calculated at an early design stage when little directly applicable test data are available.
+T475	VARIABLE 8523 8532	reviewing
+T476	AND 8523 8571	reviewing and agreeing on the test documentation
+T755	VARIABLE 934 943	The Brick
+T756	CONDITION 944 1020	shall be first class chimney made bricks of quality approved by the Engineer
+T757	CONDITION 1025 1039	free from grit
+T758	CONDITION 1044 1060	other impurities
+T759	CONDITION 1061 1073	such as lime
+T760	CONDITION 1075 1079	iron
+T761	CONDITION 1084 1107	other deleterious salts
+T762	CONDITION 1109 1124	conforming NS 1
+T763	CONDITION 1129 1150	hard with sharp edges
+T764	CONDITION 1155 1179	shall emit ringing sound
+T765	KEY_C 1180 1184	when
+T766	VARIABLE 1185 1205	struck with a mallet
+T767	CAUSE 1180 1205	when struck with a mallet
+T768	AND 1129 1179	hard with sharp edges and shall emit ringing sound
+T769	AND 1109 1179	conforming NS 1 and hard with sharp edges and shall emit ringing sound
+T770	AND 1075 1107	iron and other deleterious salts
+T771	AND 1061 1107	such as lime, iron and other deleterious salts
+T772	AND 1025 1060	free from grit and other impurities
+T773	AND 1025 1179	free from grit and other impurities such as lime, iron and other deleterious salts, conforming NS 1 and hard with sharp edges and shall emit ringing sound
+T774	AND 944 1179	shall be first class chimney made bricks of quality approved by the Engineer and free from grit and other impurities such as lime, iron and other deleterious salts, conforming NS 1 and hard with sharp edges and shall emit ringing sound
+T775	STATEMENT 934 1179	The Brick shall be first class chimney made bricks of quality approved by the Engineer and free from grit and other impurities such as lime, iron and other deleterious salts, conforming NS 1 and hard with sharp edges and shall emit ringing sound
+T776	CAUSE_EFFECT_RELATION 934 1205	The Brick shall be first class chimney made bricks of quality approved by the Engineer and free from grit and other impurities such as lime, iron and other deleterious salts, conforming NS 1 and hard with sharp edges and shall emit ringing sound when struck with a mallet
+T777	ROOT_SENTENCE 934 1206	The Brick shall be first class chimney made bricks of quality approved by the Engineer and free from grit and other impurities such as lime, iron and other deleterious salts, conforming NS 1 and hard with sharp edges and shall emit ringing sound when struck with a mallet.
+T778	KEY_C 2149 2153	When
+T779	VARIABLE 2154 2183	the correct quantity of water
+T780	CONDITION 2185 2227	determined as set out in the Specification
+T781	CONDITION 2229 2254	has been added to the mix
+T782	AND 2185 2254	determined as set out in the Specification, has been added to the mix
+T783	STATEMENT 2154 2254	the correct quantity of water, determined as set out in the Specification, has been added to the mix
+T784	CAUSE 2149 2254	When the correct quantity of water, determined as set out in the Specification, has been added to the mix
+T787	CONDITION 2289 2309	either during mixing
+T788	CONDITION 2313 2325	subsequently
+T789	OR 2289 2325	either during mixing or subsequently
+T785	VARIABLE 2259 2272	further water
+T790	CONDITION 2273 2287	shall be added
+T791	AND 2273 2325	shall be added, either during mixing or subsequently
+T792	STATEMENT 2259 2325	further water shall be added, either during mixing or subsequently
+T793	NEGATION 2256 2325	no further water shall be added, either during mixing or subsequently
+T786	CAUSE_EFFECT_RELATION 2149 2325	When the correct quantity of water, determined as set out in the Specification, has been added to the mix, no further water shall be added, either during mixing or subsequently
+T794	ROOT_SENTENCE 2149 2326	When the correct quantity of water, determined as set out in the Specification, has been added to the mix, no further water shall be added, either during mixing or subsequently.
+T795	VARIABLE 2328 2355	Any under drain constructed
+T796	CONDITION 2356 2403	for this purpose shall be completely grouted up
+T797	KEY_C 2404 2408	when
+T798	VARIABLE 2409 2413	they
+T799	CONDITION 2428 2471	required by a method agreed by the Engineer
+T800	NEGATION 2414 2471	are no longer required by a method agreed by the Engineer
+T801	STATEMENT 2409 2471	they are no longer required by a method agreed by the Engineer
+T802	CAUSE 2404 2471	when they are no longer required by a method agreed by the Engineer
+T803	STATEMENT 2328 2403	Any under drain constructed for this purpose shall be completely grouted up
+T804	CAUSE_EFFECT_RELATION 2328 2471	Any under drain constructed for this purpose shall be completely grouted up when they are no longer required by a method agreed by the Engineer
+T805	ROOT_SENTENCE 2328 2472	Any under drain constructed for this purpose shall be completely grouted up when they are no longer required by a method agreed by the Engineer.
+T806	KEY_C 2608 2612	When
+T807	VARIABLE 2613 2621	concrete
+T808	CONDITION 2622 2677	is discharged from the place above its final deposition
+T809	VARIABLE 2679 2690	segregation
+T810	CONDITION 2691 2709	shall be prevented
+T811	CONDITION 2710 2730	by the use of chutes
+T812	CONDITION 2732 2742	down pipes
+T813	CONDITION 2744 2752	trunking
+T814	CONDITION 2754 2761	baffles
+T815	CONDITION 2765 2790	other appropriate devices
+T816	OR 2754 2790	baffles or other appropriate devices
+T817	OR 2744 2790	trunking, baffles or other appropriate devices
+T818	OR 2732 2790	down pipes, trunking, baffles or other appropriate devices
+T819	OR 2710 2790	by the use of chutes, down pipes, trunking, baffles or other appropriate devices
+T820	AND 2691 2790	shall be prevented by the use of chutes, down pipes, trunking, baffles or other appropriate devices
+T821	STATEMENT 2679 2790	segregation shall be prevented by the use of chutes, down pipes, trunking, baffles or other appropriate devices
+T822	STATEMENT 2613 2677	concrete is discharged from the place above its final deposition
+T823	CAUSE 2608 2677	When concrete is discharged from the place above its final deposition
+T824	CAUSE_EFFECT_RELATION 2608 2790	When concrete is discharged from the place above its final deposition, segregation shall be prevented by the use of chutes, down pipes, trunking, baffles or other appropriate devices
+T825	ROOT_SENTENCE 2608 2791	When concrete is discharged from the place above its final deposition, segregation shall be prevented by the use of chutes, down pipes, trunking, baffles or other appropriate devices.
+T826	VARIABLE 4889 4907	The primed surface
+T827	KEY_C 4908 4912	when
+T828	VARIABLE 4913 4916	dry
+T829	CAUSE 4908 4916	when dry
+T830	CONDITION 4917 4950	shall be sand papered by using No
+T831	CAUSE_EFFECT_RELATION 4889 4950	The primed surface when dry shall be sand papered by using No
+T832	ROOT_SENTENCE 4889 4951	The primed surface when dry shall be sand papered by using No.
+T833	KEY_C 5876 5880	When
+T834	VARIABLE 5881 5917	the provisions of the DOD FAR clause
+T835	VARIABLE 5921 5981	data requirements (currently DOD FAR Supplement 52.227-7031)
+T836	CONDITION 5982 5993	are invoked
+T837	VARIABLE 5998 6014	the DD Form 1423
+T838	CONDITION 6022 6026	used
+T839	VARIABLE 6028 6052	the data specified below
+T841	CONDITION 6125 6152	purchase order requirements
+T842	AND 6053 6152	shall be delivered by the contractor in accordance with the contract or purchase order requirements
+T843	STATEMENT 6028 6152	the data specified below shall be delivered by the contractor in accordance with the contract or purchase order requirements
+T840	CONDITION 6053 6108	shall be delivered by the contractor in accordance with
+T844	CONDITION 6109 6121	the contract
+T845	OR 6109 6152	the contract or purchase order requirements
+T846	OR 5881 5981	the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031)
+T847	STATEMENT 5881 5993	the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031) are invoked
+T848	NEGATION 6015 6026	is not used
+T849	STATEMENT 5998 6026	the DD Form 1423 is not used
+T850	AND 5881 6026	the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031) are invoked and the DD Form 1423 is not used
+T851	CAUSE 5876 6026	When the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031) are invoked and the DD Form 1423 is not used
+T852	CAUSE_EFFECT_RELATION 5876 6152	When the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031) are invoked and the DD Form 1423 is not used, the data specified below shall be delivered by the contractor in accordance with the contract or purchase order requirements
+T853	ROOT_SENTENCE 5876 6153	When the provisions of the DOD FAR clause or data requirements (currently DOD FAR Supplement 52.227-7031) are invoked and the DD Form 1423 is not used, the data specified below shall be delivered by the contractor in accordance with the contract or purchase order requirements.
+T854	VARIABLE 5673 5687	The contractor
+T855	CONDITION 5688 5700	shall detail
+T856	CONDITION 5702 5725	on a case-by-case basis
+T857	CONDITION 5727 5807	his specific approach to the documentation of modified purchased/vendor software
+T858	KEY_C 5808 5812	when
+T859	VARIABLE 5813 5815	he
+T860	CONDITION 5816 5873	requests Government approval for the use of such software
+T861	STATEMENT 5813 5873	he requests Government approval for the use of such software
+T862	CAUSE 5808 5873	when he requests Government approval for the use of such software
+T863	AND 5702 5807	on a case-by-case basis, his specific approach to the documentation of modified purchased/vendor software
+T864	AND 5688 5807	shall detail, on a case-by-case basis, his specific approach to the documentation of modified purchased/vendor software
+T865	STATEMENT 5673 5807	The contractor shall detail, on a case-by-case basis, his specific approach to the documentation of modified purchased/vendor software
+T866	ROOT_SENTENCE 5673 5874	The contractor shall detail, on a case-by-case basis, his specific approach to the documentation of modified purchased/vendor software when he requests Government approval for the use of such software.
+T867	CAUSE_EFFECT_RELATION 5673 5873	The contractor shall detail, on a case-by-case basis, his specific approach to the documentation of modified purchased/vendor software when he requests Government approval for the use of such software
+T868	KEY_C 8299 8303	When
+T869	VARIABLE 8304 8313	preparing
+T870	CONDITION 8314 8422	the verification close‐out document (VCD) against the tailored standard derived from this standard (see D.2)
+T871	VARIABLE 8423 8425	it
+T872	CONDITION 8433 8494	considered necessary to have a close‐out for all requirements
+T873	NEGATION 8426 8494	is not considered necessary to have a close‐out for all requirements
+T874	STATEMENT 8423 8494	it is not considered necessary to have a close‐out for all requirements
+T875	STATEMENT 8304 8422	preparing the verification close‐out document (VCD) against the tailored standard derived from this standard (see D.2)
+T876	CAUSE 8299 8422	When preparing the verification close‐out document (VCD) against the tailored standard derived from this standard (see D.2)
+T877	CAUSE_EFFECT_RELATION 8299 8494	When preparing the verification close‐out document (VCD) against the tailored standard derived from this standard (see D.2) it is not considered necessary to have a close‐out for all requirements
+T878	ROOT_SENTENCE 8299 8495	When preparing the verification close‐out document (VCD) against the tailored standard derived from this standard (see D.2) it is not considered necessary to have a close‐out for all requirements.
+T879	VARIABLE 8964 8976	Life testing
+T880	CONDITION 8977 9033	shall be performed after Preliminary Design Review (PDR)
+T881	CONDITION 9035 9076	but prior to Critical Design Review (CDR)
+T882	KEY_C 9078 9082	when
+T883	VARIABLE 9083 9114	flight- like surrogate hardware
+T884	CONDITION 9115 9127	is available
+T885	STATEMENT 9083 9127	flight- like surrogate hardware is available
+T886	CAUSE 9078 9127	when flight- like surrogate hardware is available
+T887	AND 8977 9076	shall be performed after Preliminary Design Review (PDR), but prior to Critical Design Review (CDR)
+T888	STATEMENT 8964 9076	Life testing shall be performed after Preliminary Design Review (PDR), but prior to Critical Design Review (CDR)
+T889	CAUSE_EFFECT_RELATION 8964 9127	Life testing shall be performed after Preliminary Design Review (PDR), but prior to Critical Design Review (CDR), when flight- like surrogate hardware is available
+T890	ROOT_SENTENCE 8964 9128	Life testing shall be performed after Preliminary Design Review (PDR), but prior to Critical Design Review (CDR), when flight- like surrogate hardware is available.
+T891	NONE_CAUSAL 9130 9142	Additionally
+T892	KEY_C 9144 9148	when
+T893	VARIABLE 9149 9160	appropriate
+T894	CAUSE 9144 9160	when appropriate
+T895	VARIABLE 9162 9216	the use of rapid prototyping of user interface designs
+T896	VARIABLE 9218 9284	the use of task network and workload models to evaluate procedures
+T897	VARIABLE 9290 9313	other forms of modeling
+T898	VARIABLE 9318 9328	simulation
+T899	AND 9290 9328	other forms of modeling and simulation
+T900	AND 9218 9328	the use of task network and workload models to evaluate procedures, and other forms of modeling and simulation
+T901	AND 9162 9328	the use of rapid prototyping of user interface designs, the use of task network and workload models to evaluate procedures, and other forms of modeling and simulation
+T902	CONDITION 9329 9348	shall be considered
+T903	STATEMENT 9162 9348	the use of rapid prototyping of user interface designs, the use of task network and workload models to evaluate procedures, and other forms of modeling and simulation shall be considered
+T904	CAUSE_EFFECT_RELATION 9144 9348	when appropriate, the use of rapid prototyping of user interface designs, the use of task network and workload models to evaluate procedures, and other forms of modeling and simulation shall be considered
+T905	ROOT_SENTENCE 9130 9349	Additionally, when appropriate, the use of rapid prototyping of user interface designs, the use of task network and workload models to evaluate procedures, and other forms of modeling and simulation shall be considered.
+T906	KEY_C 9465 9469	When
+T907	VARIABLE 9470 9472	it
+T908	CONDITION 9473 9504	is necessary to obtain the data
+T909	STATEMENT 9470 9504	it is necessary to obtain the data
+T910	CAUSE 9465 9504	When it is necessary to obtain the data
+T911	VARIABLE 9506 9525	the applicable DIDs
+T912	CONDITION 9526 9594	must be listed on the Contract Data Requirements List (DD Form 1423)
+T913	STATEMENT 9506 9594	the applicable DIDs must be listed on the Contract Data Requirements List (DD Form 1423)
+T914	CAUSE_EFFECT_RELATION 9465 9594	When it is necessary to obtain the data, the applicable DIDs must be listed on the Contract Data Requirements List (DD Form 1423)
+T915	ROOT_SENTENCE 9465 9595	When it is necessary to obtain the data, the applicable DIDs must be listed on the Contract Data Requirements List (DD Form 1423).
+T916	VARIABLE 9602 9607	there
+T917	CONDITION 9608 9686	is a conflict between this document and the platform specification or contract
+T918	VARIABLE 9688 9714	the platform specification
+T919	VARIABLE 9718 9726	contract
+T920	CONDITION 9727 9748	shall take precedence
+T921	OR 9688 9726	the platform specification or contract
+T922	STATEMENT 9602 9686	there is a conflict between this document and the platform specification or contract
+T923	CAUSE 9597 9686	When there is a conflict between this document and the platform specification or contract
+T924	STATEMENT 9688 9748	the platform specification or contract shall take precedence
+T925	CAUSE_EFFECT_RELATION 9597 9748	When there is a conflict between this document and the platform specification or contract, the platform specification or contract shall take precedence
+T926	ROOT_SENTENCE 9597 9749	When there is a conflict between this document and the platform specification or contract, the platform specification or contract shall take precedence.
+T11	CONDITION 10813 10877	leaves a gap at the split ends no wider than 1.60 mm (.063 inch)
+T12	AND 10784 10877	shall be a diagonal cut that leaves a gap at the split ends no wider than 1.60 mm (.063 inch)
+T13	STATEMENT 10774 10877	the split shall be a diagonal cut that leaves a gap at the split ends no wider than 1.60 mm (.063 inch)
+T478	CAUSE_EFFECT_RELATION 10712 10877	When the donut grommet is split and for caterpillar grommets, the split shall be a diagonal cut that leaves a gap at the split ends no wider than 1.60 mm (.063 inch)
+T479	ROOT_SENTENCE 10712 10878	When the donut grommet is split and for caterpillar grommets, the split shall be a diagonal cut that leaves a gap at the split ends no wider than 1.60 mm (.063 inch).
+T128	CONDITION 9757 9763	normal
+T129	STATEMENT 9757 9784	normal operating conditions
+T130	VARIABLE 9942 9969	optical viewing instruments
+T927	STATEMENT 9942 9978	optical viewing instruments are used
+T928	VARIABLE 9980 9982	it
+T929	CONDITION 9983 10034	is possible that hazardous energy can enter the eye
+T930	STATEMENT 9980 10034	it is possible that hazardous energy can enter the eye
+T931	CAUSE_EFFECT_RELATION 9895 10034	when an optical fiber connection is broken and optical viewing instruments are used, it is possible that hazardous energy can enter the eye
+T932	AND 9751 10034	Under normal operating conditions, the laser diode found in an optical fiber communication system (OFCS) is inherently an eye safe system; but, when an optical fiber connection is broken and optical viewing instruments are used, it is possible that hazardous energy can enter the eye
+T933	ROOT_SENTENCE 9751 10035	Under normal operating conditions, the laser diode found in an optical fiber communication system (OFCS) is inherently an eye safe system; but, when an optical fiber connection is broken and optical viewing instruments are used, it is possible that hazardous energy can enter the eye.
+T239	ROOT_SENTENCE 7309 7462	When part of the qualification is obtained on other model(s), then the PFM shall be tested in accordance with Table 5‐3 for the relevant type(s) of test.

@@ -1,0 +1,552 @@
+T1	KEY_C 288 290	If
+T2	VARIABLE 291 316	the baseline requirements
+T3	CONDITION 317 333	in this standard
+T4	CONDITION 342 366	tailored by the contract
+T5	NEGATION 334 366	are not tailored by the contract
+T6	VARIABLE 368 372	they
+T7	CONDITION 373 389	stand as written
+T8	STATEMENT 368 389	they stand as written
+T9	AND 317 366	in this standard are not tailored by the contract
+T10	STATEMENT 291 366	the baseline requirements in this standard are not tailored by the contract
+T11	CAUSE 288 366	If the baseline requirements in this standard are not tailored by the contract
+T12	CAUSE_EFFECT_RELATION 288 389	If the baseline requirements in this standard are not tailored by the contract, they stand as written
+T13	ROOT_SENTENCE 288 390	If the baseline requirements in this standard are not tailored by the contract, they stand as written.
+T14	VARIABLE 395 410	shock isolators
+T15	CONDITION 411 419	are used
+T16	CONDITION 424 452	have resonances below 100 Hz
+T17	KEY_C 454 458	then
+T18	AND 411 452	are used and have resonances below 100 Hz
+T19	VARIABLE 459 468	the range
+T20	CONDITION 469 515	starts below the isolation resonance frequency
+T21	STATEMENT 459 515	the range starts below the isolation resonance frequency
+T22	EFFECT 454 515	then the range starts below the isolation resonance frequency
+T23	STATEMENT 395 452	shock isolators are used and have resonances below 100 Hz
+T24	CAUSE 392 452	If shock isolators are used and have resonances below 100 Hz
+T25	CAUSE_EFFECT_RELATION 392 515	If shock isolators are used and have resonances below 100 Hz, then the range starts below the isolation resonance frequency
+T26	ROOT_SENTENCE 392 516	If shock isolators are used and have resonances below 100 Hz, then the range starts below the isolation resonance frequency.
+T27	VARIABLE 518 535	A mechanical unit
+T28	CONDITION 536 572	is considered a structural component
+T29	KEY_C 573 575	if
+T30	VARIABLE 576 578	it
+T31	CONDITION 579 592	sustains load
+T32	CONDITION 596 604	pressure
+T33	CONDITION 608 627	maintains alignment
+T34	OR 579 604	sustains load or pressure
+T35	OR 579 627	sustains load or pressure or maintains alignment
+T36	STATEMENT 576 627	it sustains load or pressure or maintains alignment
+T37	CAUSE 573 627	if it sustains load or pressure or maintains alignment
+T38	STATEMENT 518 572	A mechanical unit is considered a structural component
+T39	CAUSE_EFFECT_RELATION 518 627	A mechanical unit is considered a structural component if it sustains load or pressure or maintains alignment
+T40	ROOT_SENTENCE 518 628	A mechanical unit is considered a structural component if it sustains load or pressure or maintains alignment.
+T41	KEY_C 630 632	If
+T42	VARIABLE 633 646	the equipment
+T43	CONDITION 647 685	is to be used by more than one program
+T44	CONDITION 689 719	in different vehicle locations
+T45	VARIABLE 721 751	the acceptance test conditions
+T46	CONDITION 752 793	shall envelop the worst-case environments
+T47	STATEMENT 721 793	the acceptance test conditions shall envelop the worst-case environments
+T48	OR 647 719	is to be used by more than one program or in different vehicle locations
+T49	STATEMENT 633 719	the equipment is to be used by more than one program or in different vehicle locations
+T50	CAUSE 630 719	If the equipment is to be used by more than one program or in different vehicle locations
+T51	CAUSE_EFFECT_RELATION 630 793	If the equipment is to be used by more than one program or in different vehicle locations, the acceptance test conditions shall envelop the worst-case environments
+T52	ROOT_SENTENCE 630 794	If the equipment is to be used by more than one program or in different vehicle locations, the acceptance test conditions shall envelop the worst-case environments.
+T53	VARIABLE 799 811	the hardware
+T54	CONDITION 812 850	is to be used by more than one program
+T55	CONDITION 854 903	in different applications within the same program
+T56	VARIABLE 905 938	the qualification test conditions
+T57	CONDITION 939 980	should envelop the worst-case application
+T58	KEY_C 796 798	If
+T59	OR 812 903	is to be used by more than one program or in different applications within the same program
+T60	STATEMENT 905 980	the qualification test conditions should envelop the worst-case application
+T61	STATEMENT 799 903	the hardware is to be used by more than one program or in different applications within the same program
+T62	CAUSE 796 903	If the hardware is to be used by more than one program or in different applications within the same program
+T63	CAUSE_EFFECT_RELATION 796 980	If the hardware is to be used by more than one program or in different applications within the same program, the qualification test conditions should envelop the worst-case application
+T64	ROOT_SENTENCE 796 981	If the hardware is to be used by more than one program or in different applications within the same program, the qualification test conditions should envelop the worst-case application.
+T65	VARIABLE 1485 1494	Retesting
+T66	CONDITION 1495 1513	shall be necessary
+T67	KEY_C 1514 1516	if
+T68	VARIABLE 1517 1535	a test discrepancy
+T69	VARIABLE 1539 1556	test item failure
+T70	CONDITION 1557 1563	occurs
+T71	KEY_C 1564 1569	while
+T72	VARIABLE 1570 1614	performing any of the required testing steps
+T73	CAUSE 1564 1614	while performing any of the required testing steps
+T74	OR 1517 1556	a test discrepancy or test item failure
+T75	STATEMENT 1517 1563	a test discrepancy or test item failure occurs
+T76	CAUSE 1514 1563	if a test discrepancy or test item failure occurs
+T77	AND 1514 1614	if a test discrepancy or test item failure occurs while performing any of the required testing steps
+T78	STATEMENT 1485 1513	Retesting shall be necessary
+T79	CAUSE_EFFECT_RELATION 1485 1614	Retesting shall be necessary if a test discrepancy or test item failure occurs while performing any of the required testing steps
+T80	ROOT_SENTENCE 1485 1615	Retesting shall be necessary if a test discrepancy or test item failure occurs while performing any of the required testing steps.
+T81	KEY_C 1156 1158	If
+T82	VARIABLE 1159 1172	the equipment
+T83	CONDITION 1173 1211	is to be used by more than one program
+T84	CONDITION 1215 1264	in different applications within the same program
+T85	VARIABLE 1266 1285	the test conditions
+T86	CONDITION 1286 1327	should envelop the worst-case application
+T87	STATEMENT 1266 1327	the test conditions should envelop the worst-case application
+T88	OR 1173 1264	is to be used by more than one program or in different applications within the same program
+T89	STATEMENT 1159 1264	the equipment is to be used by more than one program or in different applications within the same program
+T90	CAUSE 1156 1264	If the equipment is to be used by more than one program or in different applications within the same program
+T91	CAUSE_EFFECT_RELATION 1156 1327	If the equipment is to be used by more than one program or in different applications within the same program, the test conditions should envelop the worst-case application
+T92	ROOT_SENTENCE 1156 1328	If the equipment is to be used by more than one program or in different applications within the same program, the test conditions should envelop the worst-case application.
+T93	VARIABLE 16200 16220	Thermal conditioning
+T94	CONDITION 16221 16237	may be simulated
+T95	KEY_C 16239 16241	if
+T96	VARIABLE 16242 16244	it
+T97	CONDITION 16245 16315	is impractical to simulate long coast periods under space environments
+T98	VARIABLE 16321 16349	the sequence of coast events
+T99	CONDITION 16350 16365	may be modified
+T100	KEY_C 16367 16375	provided
+T101	VARIABLE 16376 16398	all critical sequences
+T102	CONDITION 16399 16409	are tested
+T103	STATEMENT 16376 16409	all critical sequences are tested
+T104	CAUSE 16367 16409	provided all critical sequences are tested
+T105	STATEMENT 16321 16365	the sequence of coast events may be modified
+T106	STATEMENT 16200 16237	Thermal conditioning may be simulated
+T107	STATEMENT 16242 16315	it is impractical to simulate long coast periods under space environments
+T108	CAUSE 16239 16315	if it is impractical to simulate long coast periods under space environments
+T109	CAUSE_EFFECT_RELATION 16200 16315	Thermal conditioning may be simulated, if it is impractical to simulate long coast periods under space environments
+T110	CAUSE_EFFECT_RELATION 16321 16409	the sequence of coast events may be modified, provided all critical sequences are tested
+T111	AND 16200 16409	Thermal conditioning may be simulated, if it is impractical to simulate long coast periods under space environments, and the sequence of coast events may be modified, provided all critical sequences are tested
+T112	ROOT_SENTENCE 16200 16410	Thermal conditioning may be simulated, if it is impractical to simulate long coast periods under space environments, and the sequence of coast events may be modified, provided all critical sequences are tested.
+T113	KEY_C 16055 16057	If
+T114	VARIABLE 16058 16062	data
+T115	CONDITION 16063 16096	for the configuration in question
+T116	CONDITION 16097 16114	are not available
+T117	KEY_C 16116 16120	then
+T118	VARIABLE 16121 16129	analysis
+T119	VARIABLE 16133 16148	scaling of data
+T120	CONDITION 16149 16181	from a similar LRE configuration
+T121	CONDITION 16182 16197	may be utilized
+T122	AND 16149 16197	from a similar LRE configuration may be utilized
+T123	OR 16121 16148	analysis or scaling of data
+T124	STATEMENT 16121 16197	analysis or scaling of data from a similar LRE configuration may be utilized
+T125	EFFECT 16116 16197	then analysis or scaling of data from a similar LRE configuration may be utilized
+T126	AND 16063 16114	for the configuration in question are not available
+T127	STATEMENT 16058 16114	data for the configuration in question are not available
+T128	CAUSE 16055 16114	If data for the configuration in question are not available
+T129	CAUSE_EFFECT_RELATION 16055 16197	If data for the configuration in question are not available, then analysis or scaling of data from a similar LRE configuration may be utilized
+T130	ROOT_SENTENCE 16055 16198	If data for the configuration in question are not available, then analysis or scaling of data from a similar LRE configuration may be utilized.
+T131	VARIABLE 15759 15794	Flight-like component-level testing
+T132	CONDITION 15795 15813	may be substituted
+T133	KEY_C 15814 15816	if
+T134	VARIABLE 15817 15819	it
+T135	CONDITION 15820 15854	is impractical to test the maximum
+T136	CONDITION 15859 15884	minimum values on the LRE
+T137	AND 15820 15884	is impractical to test the maximum and minimum values on the LRE
+T138	STATEMENT 15817 15884	it is impractical to test the maximum and minimum values on the LRE
+T139	CAUSE 15814 15884	if it is impractical to test the maximum and minimum values on the LRE
+T140	STATEMENT 15759 15813	Flight-like component-level testing may be substituted
+T141	CAUSE_EFFECT_RELATION 15759 15884	Flight-like component-level testing may be substituted if it is impractical to test the maximum and minimum values on the LRE
+T142	ROOT_SENTENCE 15759 15885	Flight-like component-level testing may be substituted if it is impractical to test the maximum and minimum values on the LRE.
+T143	KEY_C 15887 15889	If
+T144	VARIABLE 15890 15906	amplitude margin
+T145	CONDITION 15914 15952	be applied in a straightforward manner
+T146	CONDITION 15953 15969	at the LRE level
+T147	AND 15914 15969	be applied in a straightforward manner at the LRE level
+T148	NEGATION 15907 15969	cannot be applied in a straightforward manner at the LRE level
+T149	VARIABLE 15971 15991	shaker table testing
+T150	CONDITION 15992 16014	at the component level
+T151	CONDITION 16015 16052	is recommended in these circumstances
+T152	AND 15992 16052	at the component level is recommended in these circumstances
+T153	STATEMENT 15971 16052	shaker table testing at the component level is recommended in these circumstances
+T154	STATEMENT 15890 15969	amplitude margin cannot be applied in a straightforward manner at the LRE level
+T155	CAUSE 15887 15969	If amplitude margin cannot be applied in a straightforward manner at the LRE level
+T156	CAUSE_EFFECT_RELATION 15887 16052	If amplitude margin cannot be applied in a straightforward manner at the LRE level, shaker table testing at the component level is recommended in these circumstances
+T157	ROOT_SENTENCE 15887 16053	If amplitude margin cannot be applied in a straightforward manner at the LRE level, shaker table testing at the component level is recommended in these circumstances.
+T158	KEY_C 13343 13345	If
+T159	VARIABLE 13346 13348	it
+T160	CONDITION 13349 13371	is conducted too early
+T161	VARIABLE 13373 13385	the end item
+T162	CONDITION 13386 13396	for review
+T163	CONDITION 13406 13427	be adequately defined
+T164	NEGATION 13397 13427	will not be adequately defined
+T165	AND 13386 13427	for review will not be adequately defined
+T166	STATEMENT 13373 13427	the end item for review will not be adequately defined
+T167	STATEMENT 13346 13371	it is conducted too early
+T168	CAUSE 13343 13371	If it is conducted too early
+T169	CAUSE_EFFECT_RELATION 13343 13427	If it is conducted too early, the end item for review will not be adequately defined
+T170	ROOT_SENTENCE 13343 13428	If it is conducted too early, the end item for review will not be adequately defined.
+T171	KEY_C 14693 14695	If
+T172	VARIABLE 14696 14698	it
+T173	CONDITION 14699 14744	is impractical to apply the Table 4-3 factors
+T174	VARIABLE 14746 14783	concurrence of the Approval Authority
+T175	CONDITION 14784 14795	is required
+T176	STATEMENT 14746 14795	concurrence of the Approval Authority is required
+T177	STATEMENT 14696 14744	it is impractical to apply the Table 4-3 factors
+T178	CAUSE 14693 14744	If it is impractical to apply the Table 4-3 factors
+T179	CAUSE_EFFECT_RELATION 14693 14795	If it is impractical to apply the Table 4-3 factors, concurrence of the Approval Authority is required
+T180	ROOT_SENTENCE 14693 14796	If it is impractical to apply the Table 4-3 factors, concurrence of the Approval Authority is required.
+T181	KEY_C 13430 13432	If
+T182	VARIABLE 13433 13464	the outcome of such an analysis
+T183	CONDITION 13465 13476	is positive
+T184	KEY_C 13478 13495	it is likely that
+T185	VARIABLE 13496 13506	USCRN data
+T186	CONDITION 13507 13563	can be classified in one of the higher classes in future
+T187	STATEMENT 13496 13563	USCRN data can be classified in one of the higher classes in future
+T188	EFFECT 13478 13563	it is likely that USCRN data can be classified in one of the higher classes in future
+T189	STATEMENT 13433 13476	the outcome of such an analysis is positive
+T190	CAUSE 13430 13476	If the outcome of such an analysis is positive
+T191	CAUSE_EFFECT_RELATION 13430 13563	If the outcome of such an analysis is positive, it is likely that USCRN data can be classified in one of the higher classes in future
+T192	ROOT_SENTENCE 13430 13564	If the outcome of such an analysis is positive, it is likely that USCRN data can be classified in one of the higher classes in future.
+T193	KEY_C 13814 13816	If
+T194	VARIABLE 13817 13819	it
+T195	CONDITION 13820 13842	is impractical to test
+T196	CONDITION 13846 13898	simulate a particular flight condition on the ground
+T197	KEY_C 13900 13904	then
+T198	VARIABLE 13905 13922	additional margin
+T199	CONDITION 13923 13941	may be appropriate
+T200	STATEMENT 13905 13941	additional margin may be appropriate
+T201	EFFECT 13900 13941	then additional margin may be appropriate
+T202	OR 13820 13898	is impractical to test or simulate a particular flight condition on the ground
+T203	STATEMENT 13817 13898	it is impractical to test or simulate a particular flight condition on the ground
+T204	CAUSE 13814 13898	If it is impractical to test or simulate a particular flight condition on the ground
+T205	CAUSE_EFFECT_RELATION 13814 13941	If it is impractical to test or simulate a particular flight condition on the ground, then additional margin may be appropriate
+T206	ROOT_SENTENCE 13814 13942	If it is impractical to test or simulate a particular flight condition on the ground, then additional margin may be appropriate.
+T207	KEY_C 14581 14583	If
+T208	VARIABLE 14584 14601	sufficient margin
+T209	CONDITION 14602 14617	is demonstrated
+T210	VARIABLE 14619 14653	the functional objectives approach
+T211	CONDITION 14654 14690	provides protection against unknowns
+T212	STATEMENT 14619 14690	the functional objectives approach provides protection against unknowns
+T213	STATEMENT 14584 14617	sufficient margin is demonstrated
+T214	CAUSE 14581 14617	If sufficient margin is demonstrated
+T215	CAUSE_EFFECT_RELATION 14581 14690	If sufficient margin is demonstrated, the functional objectives approach provides protection against unknowns
+T216	ROOT_SENTENCE 14581 14691	If sufficient margin is demonstrated, the functional objectives approach provides protection against unknowns.
+T217	VARIABLE 14959 14986	Damage tolerance evaluation
+T218	CONDITION 14987 15014	can be verified by analysis
+T219	KEY_C 15015 15017	if
+T220	VARIABLE 15018 15036	the engine element
+T221	CONDITION 15037 15060	is in the elastic range
+T222	CONDITION 15061 15085	through its service life
+T223	AND 15037 15085	is in the elastic range through its service life
+T224	STATEMENT 15018 15085	the engine element is in the elastic range through its service life
+T225	CAUSE 15015 15085	if the engine element is in the elastic range through its service life
+T226	STATEMENT 14959 15014	Damage tolerance evaluation can be verified by analysis
+T227	CAUSE_EFFECT_RELATION 14959 15085	Damage tolerance evaluation can be verified by analysis if the engine element is in the elastic range through its service life
+T228	ROOT_SENTENCE 14959 15086	Damage tolerance evaluation can be verified by analysis if the engine element is in the elastic range through its service life.
+T229	VARIABLE 15249 15268	The extreme thermal
+T230	VARIABLE 15270 15278	pressure
+T231	VARIABLE 15284 15304	dynamic environments
+T232	CONDITION 15305 15328	during engine operation
+T233	CONDITION 15329 15346	can cause failure
+T234	VARIABLE 15350 15367	workmanship flaws
+T235	CONDITION 15368 15373	exist
+T236	KEY_C 15347 15349	if
+T237	STATEMENT 15350 15373	workmanship flaws exist
+T238	CAUSE 15347 15373	if workmanship flaws exist
+T239	AND 15249 15278	The extreme thermal, pressure
+T240	AND 15249 15304	The extreme thermal, pressure, and dynamic environments
+T241	AND 15305 15346	during engine operation can cause failure
+T242	STATEMENT 15249 15346	The extreme thermal, pressure, and dynamic environments during engine operation can cause failure
+T243	CAUSE_EFFECT_RELATION 15249 15373	The extreme thermal, pressure, and dynamic environments during engine operation can cause failure if workmanship flaws exist
+T244	ROOT_SENTENCE 15249 15374	The extreme thermal, pressure, and dynamic environments during engine operation can cause failure if workmanship flaws exist.
+T245	KEY_C 1790 1792	If
+T246	VARIABLE 1793 1801	the unit
+T247	CONDITION 1802 1816	being replaced
+T248	CONDITION 1817 1896	was included in an engine acceptance test firing as part of its acceptance test
+T249	AND 1802 1896	being replaced was included in an engine acceptance test firing as part of its acceptance test
+T250	KEY_C 1898 1902	then
+T251	VARIABLE 1903 1923	the replacement unit
+T252	CONDITION 1937 1977	be subjected to such a test on an engine
+T253	CONDITION 1982 2036	shall undergo equivalent unit-level acceptance testing
+T254	OR 1924 2036	shall either be subjected to such a test on an engine, or shall undergo equivalent unit-level acceptance testing
+T255	STATEMENT 1903 2036	the replacement unit shall either be subjected to such a test on an engine, or shall undergo equivalent unit-level acceptance testing
+T256	EFFECT 1898 2036	then the replacement unit shall either be subjected to such a test on an engine, or shall undergo equivalent unit-level acceptance testing
+T257	STATEMENT 1793 1896	the unit being replaced was included in an engine acceptance test firing as part of its acceptance test
+T258	CAUSE 1790 1896	If the unit being replaced was included in an engine acceptance test firing as part of its acceptance test
+T259	CAUSE_EFFECT_RELATION 1790 2036	If the unit being replaced was included in an engine acceptance test firing as part of its acceptance test, then the replacement unit shall either be subjected to such a test on an engine, or shall undergo equivalent unit-level acceptance testing
+T260	ROOT_SENTENCE 1790 2037	If the unit being replaced was included in an engine acceptance test firing as part of its acceptance test, then the replacement unit shall either be subjected to such a test on an engine, or shall undergo equivalent unit-level acceptance testing.
+T261	KEY_C 2267 2269	If
+T262	VARIABLE 2270 2297	a unit’s qualification test
+T263	CONDITION 2298 2405	was performed with a baseplate temperature higher than 10ºC above the acceptance baseplate test temperature
+T264	KEY_C 2407 2411	then
+T265	VARIABLE 2412 2426	the 10ºC limit
+T266	CONDITION 2427 2442	specified above
+T267	CONDITION 2443 2516	may be increased to the corresponding higher baseplate temperature margin
+T268	AND 2427 2516	specified above may be increased to the corresponding higher baseplate temperature margin
+T269	STATEMENT 2412 2516	the 10ºC limit specified above may be increased to the corresponding higher baseplate temperature margin
+T270	EFFECT 2407 2516	then the 10ºC limit specified above may be increased to the corresponding higher baseplate temperature margin
+T271	STATEMENT 2270 2405	a unit’s qualification test was performed with a baseplate temperature higher than 10ºC above the acceptance baseplate test temperature
+T272	CAUSE 2267 2405	If a unit’s qualification test was performed with a baseplate temperature higher than 10ºC above the acceptance baseplate test temperature
+T273	CAUSE_EFFECT_RELATION 2267 2516	If a unit’s qualification test was performed with a baseplate temperature higher than 10ºC above the acceptance baseplate test temperature, then the 10ºC limit specified above may be increased to the corresponding higher baseplate temperature margin
+T274	VARIABLE 2519 2538	Ambient temperature
+T275	CONDITION 2539 2567	shall be used for operations
+T276	KEY_C 2568 2570	if
+T277	VARIABLE 2571 2590	the test objectives
+T278	CONDITION 2591 2601	can be met
+T279	STATEMENT 2571 2601	the test objectives can be met
+T280	CAUSE 2568 2601	if the test objectives can be met
+T281	STATEMENT 2519 2567	Ambient temperature shall be used for operations
+T282	CAUSE_EFFECT_RELATION 2519 2601	Ambient temperature shall be used for operations if the test objectives can be met
+T283	ROOT_SENTENCE 2519 2602	Ambient temperature shall be used for operations if the test objectives can be met.
+T284	KEY_C 2604 2606	If
+T285	VARIABLE 2607 2640	appropriate to mission operations
+T286	VARIABLE 2642 2660	the leak rate test
+T287	CONDITION 2661 2704	shall be conducted under dynamic conditions
+T288	STATEMENT 2642 2704	the leak rate test shall be conducted under dynamic conditions
+T289	CAUSE 2604 2640	If appropriate to mission operations
+T290	CAUSE_EFFECT_RELATION 2604 2704	If appropriate to mission operations, the leak rate test shall be conducted under dynamic conditions
+T291	ROOT_SENTENCE 2604 2705	If appropriate to mission operations, the leak rate test shall be conducted under dynamic conditions.
+T292	KEY_C 2707 2709	If
+T293	VARIABLE 2710 2729	a shock application
+T294	CONDITION 2737 2801	concurrently satisfy requirements in both directions of any axis
+T295	NEGATION 2730 2801	cannot concurrently satisfy requirements in both directions of any axis
+T296	VARIABLE 2803 2811	the test
+T297	CONDITION 2812 2872	shall be conducted separately in each direction of that axis
+T298	STATEMENT 2803 2872	the test shall be conducted separately in each direction of that axis
+T299	STATEMENT 2710 2801	a shock application cannot concurrently satisfy requirements in both directions of any axis
+T300	CAUSE 2707 2801	If a shock application cannot concurrently satisfy requirements in both directions of any axis
+T301	CAUSE_EFFECT_RELATION 2707 2872	If a shock application cannot concurrently satisfy requirements in both directions of any axis, the test shall be conducted separately in each direction of that axis
+T302	ROOT_SENTENCE 2707 2873	If a shock application cannot concurrently satisfy requirements in both directions of any axis, the test shall be conducted separately in each direction of that axis.
+T303	KEY_C 3241 3243	If
+T304	VARIABLE 3244 3252	the unit
+T305	CONDITION 3253 3278	is to be mounted on shock
+T306	CONDITION 3282 3316	vibration isolators in the vehicle
+T307	OR 3253 3316	is to be mounted on shock or vibration isolators in the vehicle
+T308	VARIABLE 3318 3326	the unit
+T309	CONDITION 3327 3362	shall be mounted on these isolators
+T310	CAUSE 3363 3392	during the qualification test
+T311	KEY_C 3363 3369	during
+T312	VARIABLE 3370 3392	the qualification test
+T313	STATEMENT 3318 3362	the unit shall be mounted on these isolators
+T314	STATEMENT 3244 3316	the unit is to be mounted on shock or vibration isolators in the vehicle
+T315	CAUSE_EFFECT_RELATION 3318 3392	the unit shall be mounted on these isolators during the qualification test
+T316	CAUSE 3241 3316	If the unit is to be mounted on shock or vibration isolators in the vehicle
+T317	CAUSE_EFFECT_RELATION 3241 3392	If the unit is to be mounted on shock or vibration isolators in the vehicle, the unit shall be mounted on these isolators during the qualification test
+T318	ROOT_SENTENCE 3241 3393	If the unit is to be mounted on shock or vibration isolators in the vehicle, the unit shall be mounted on these isolators during the qualification test.
+T319	KEY_C 3395 3397	If
+T320	VARIABLE 3398 3426	the hot survival temperature
+T321	CONDITION 3427 3459	is an operational survival limit
+T322	VARIABLE 3461 3469	the unit
+T323	CONDITION 3470 3490	shall be operational
+T324	VARIABLE 3498 3513	this transition
+T325	KEY_C 3491 3497	during
+T326	CAUSE 3491 3513	during this transition
+T327	STATEMENT 3461 3490	the unit shall be operational
+T328	STATEMENT 3398 3459	the hot survival temperature is an operational survival limit
+T329	CAUSE 3395 3459	If the hot survival temperature is an operational survival limit
+T330	CAUSE_EFFECT_RELATION 3461 3513	the unit shall be operational during this transition
+T331	CAUSE_EFFECT_RELATION 3395 3513	If the hot survival temperature is an operational survival limit, the unit shall be operational during this transition
+T332	ROOT_SENTENCE 3395 3514	If the hot survival temperature is an operational survival limit, the unit shall be operational during this transition.
+T333	KEY_C 3516 3518	If
+T334	VARIABLE 3519 3547	the hot survival temperature
+T335	CONDITION 3548 3574	is a non-operational limit
+T336	VARIABLE 3576 3584	the unit
+T337	CONDITION 3585 3634	shall be turned on at the hot turn-on temperature
+T338	VARIABLE 3642 3684	the transition to the hot test temperature
+T339	CAUSE 3635 3684	during the transition to the hot test temperature
+T340	KEY_C 3635 3641	during
+T341	STATEMENT 3576 3634	the unit shall be turned on at the hot turn-on temperature
+T342	STATEMENT 3519 3574	the hot survival temperature is a non-operational limit
+T343	CAUSE 3516 3574	If the hot survival temperature is a non-operational limit
+T344	CAUSE_EFFECT_RELATION 3576 3684	the unit shall be turned on at the hot turn-on temperature during the transition to the hot test temperature
+T345	CAUSE_EFFECT_RELATION 3516 3684	If the hot survival temperature is a non-operational limit, the unit shall be turned on at the hot turn-on temperature during the transition to the hot test temperature
+T346	ROOT_SENTENCE 3516 3685	If the hot survival temperature is a non-operational limit, the unit shall be turned on at the hot turn-on temperature during the transition to the hot test temperature.
+T347	KEY_C 3826 3828	If
+T348	VARIABLE 3829 3831	it
+T349	CONDITION 3832 3848	had been removed
+T350	VARIABLE 3850 3858	the unit
+T351	CONDITION 3859 3899	shall be placed back in the test chamber
+T352	VARIABLE 3901 3916	the temperature
+T353	CONDITION 3917 3935	increased to +35°C
+T354	STATEMENT 3901 3935	the temperature increased to +35°C
+T355	STATEMENT 3850 3899	the unit shall be placed back in the test chamber
+T356	AND 3850 3935	the unit shall be placed back in the test chamber, the temperature increased to +35°C
+T357	STATEMENT 3829 3848	it had been removed
+T358	CAUSE 3826 3848	If it had been removed
+T359	CAUSE_EFFECT_RELATION 3826 3935	If it had been removed, the unit shall be placed back in the test chamber, the temperature increased to +35°C
+T360	ROOT_SENTENCE 3826 3936	If it had been removed, the unit shall be placed back in the test chamber, the temperature increased to +35°C.
+T361	VARIABLE 4597 4614	additional margin
+T362	CONDITION 4615 4626	is required
+T363	KEY_C 4627 4629	if
+T364	VARIABLE 4630 4655	the Reference 21-1 levels
+T365	CONDITION 4656 4706	already have the required margin for the interface
+T366	STATEMENT 4630 4706	the Reference 21-1 levels already have the required margin for the interface
+T367	CAUSE 4627 4706	if the Reference 21-1 levels already have the required margin for the interface
+T368	NEGATION 4594 4626	No additional margin is required
+T369	STATEMENT 4597 4626	additional margin is required
+T370	CAUSE_EFFECT_RELATION 4594 4706	No additional margin is required if the Reference 21-1 levels already have the required margin for the interface
+T371	ROOT_SENTENCE 4594 4707	No additional margin is required if the Reference 21-1 levels already have the required margin for the interface.
+T372	KEY_C 5072 5074	If
+T373	VARIABLE 5075 5111	simulation of the ascent environment
+T374	CONDITION 5112 5124	is desirable
+T375	VARIABLE 5128 5153	the beginning of the test
+T376	KEY_C 5125 5127	at
+T377	CAUSE 5125 5153	at the beginning of the test
+T378	STATEMENT 5075 5124	simulation of the ascent environment is desirable
+T379	CAUSE 5072 5124	If simulation of the ascent environment is desirable
+T380	VARIABLE 5155 5170	the first cycle
+T381	CONDITION 5171 5228	may begin with a transition to a cold thermal environment
+T382	CONDITION 5241 5266	a hot thermal environment
+T383	NEGATION 5229 5266	rather than a hot thermal environment
+T384	AND 5171 5266	may begin with a transition to a cold thermal environment rather than a hot thermal environment
+T385	STATEMENT 5155 5266	the first cycle may begin with a transition to a cold thermal environment rather than a hot thermal environment
+T386	AND 5072 5153	If simulation of the ascent environment is desirable at the beginning of the test
+T387	CAUSE_EFFECT_RELATION 5072 5266	If simulation of the ascent environment is desirable at the beginning of the test, the first cycle may begin with a transition to a cold thermal environment rather than a hot thermal environment
+T388	ROOT_SENTENCE 5072 5267	If simulation of the ascent environment is desirable at the beginning of the test, the first cycle may begin with a transition to a cold thermal environment rather than a hot thermal environment.
+T389	VARIABLE 5700 5724	Acceptance level testing
+T390	CONDITION 5725 5744	should be performed
+T391	KEY_C 5745 5753	first if
+T392	VARIABLE 5754 5762	hardware
+T393	CONDITION 5763 5795	is more sensitive to peak stress
+T394	STATEMENT 5754 5795	hardware is more sensitive to peak stress
+T395	CAUSE 5745 5795	first if hardware is more sensitive to peak stress
+T396	STATEMENT 5700 5744	Acceptance level testing should be performed
+T397	CAUSE_EFFECT_RELATION 5700 5795	Acceptance level testing should be performed first if hardware is more sensitive to peak stress
+T398	ROOT_SENTENCE 5700 5796	Acceptance level testing should be performed first if hardware is more sensitive to peak stress.
+T399	VARIABLE 5904 5918	A leakage test
+T400	VARIABLE 5923 5944	charge retention test
+T401	CONDITION 5945 5983	shall be performed post-vibration test
+T402	KEY_C 5984 5986	if
+T403	VARIABLE 5987 6004	acceleration test
+T404	CONDITION 6012 6021	performed
+T405	NEGATION 6005 6021	is not performed
+T406	STATEMENT 5987 6021	acceleration test is not performed
+T407	CAUSE 5984 6021	if acceleration test is not performed
+T408	AND 5904 5944	A leakage test and charge retention test
+T409	STATEMENT 5904 5983	A leakage test and charge retention test shall be performed post-vibration test
+T410	CAUSE_EFFECT_RELATION 5904 6021	A leakage test and charge retention test shall be performed post-vibration test if acceleration test is not performed
+T411	ROOT_SENTENCE 5904 6022	A leakage test and charge retention test shall be performed post-vibration test if acceleration test is not performed.
+T412	KEY_C 6362 6364	If
+T413	VARIABLE 6365 6384	energy measurements
+T414	CONDITION 6385 6398	are performed
+T415	VARIABLE 6400 6410	capability
+T416	CONDITION 6411 6438	for on-orbit reconditioning
+T417	CONDITION 6439 6457	shall be available
+T418	AND 6411 6457	for on-orbit reconditioning shall be available
+T419	STATEMENT 6400 6457	capability for on-orbit reconditioning shall be available
+T420	STATEMENT 6365 6398	energy measurements are performed
+T421	CAUSE 6362 6398	If energy measurements are performed
+T422	CAUSE_EFFECT_RELATION 6362 6457	If energy measurements are performed, capability for on-orbit reconditioning shall be available
+T423	ROOT_SENTENCE 6362 6458	If energy measurements are performed, capability for on-orbit reconditioning shall be available.
+T424	VARIABLE 6460 6477	A proof load test
+T425	CONDITION 6478 6515	can be waived for metallic structures
+T426	KEY_C 6516 6518	if
+T427	VARIABLE 6519 6556	the acceptance-level proof load paths
+T428	CONDITION 6557 6591	are encompassed in an acceleration
+T429	VARIABLE 6595 6609	vibration test
+T430	VARIABLE 6614 6630	the test fixture
+T431	CONDITION 6631 6684	accurately simulates spacecraft level mounting points
+T432	AND 6595 6630	vibration test and the test fixture
+T433	STATEMENT 6595 6684	vibration test and the test fixture accurately simulates spacecraft level mounting points
+T434	STATEMENT 6519 6591	the acceptance-level proof load paths are encompassed in an acceleration
+T435	OR 6519 6684	the acceptance-level proof load paths are encompassed in an acceleration or vibration test and the test fixture accurately simulates spacecraft level mounting points
+T436	CAUSE 6516 6684	if the acceptance-level proof load paths are encompassed in an acceleration or vibration test and the test fixture accurately simulates spacecraft level mounting points
+T437	STATEMENT 6460 6515	A proof load test can be waived for metallic structures
+T438	CAUSE_EFFECT_RELATION 6460 6684	A proof load test can be waived for metallic structures if the acceptance-level proof load paths are encompassed in an acceleration or vibration test and the test fixture accurately simulates spacecraft level mounting points
+T439	ROOT_SENTENCE 6460 6685	A proof load test can be waived for metallic structures if the acceptance-level proof load paths are encompassed in an acceleration or vibration test and the test fixture accurately simulates spacecraft level mounting points.
+T440	KEY_C 10191 10198	If only
+T441	VARIABLE 10199 10214	thermal cycling
+T442	CONDITION 10215 10222	is done
+T443	VARIABLE 10224 10246	a minimum of 14 cycles
+T444	CONDITION 10247 10283	shall be applied between the maximum
+T445	CONDITION 10288 10318	minimum predicted temperatures
+T446	AND 10247 10318	shall be applied between the maximum and minimum predicted temperatures
+T447	STATEMENT 10224 10318	a minimum of 14 cycles shall be applied between the maximum and minimum predicted temperatures
+T448	STATEMENT 10199 10222	thermal cycling is done
+T449	CAUSE 10191 10222	If only thermal cycling is done
+T450	CAUSE_EFFECT_RELATION 10191 10318	If only thermal cycling is done, a minimum of 14 cycles shall be applied between the maximum and minimum predicted temperatures
+T451	ROOT_SENTENCE 10191 10319	If only thermal cycling is done, a minimum of 14 cycles shall be applied between the maximum and minimum predicted temperatures.
+T452	KEY_C 9647 9649	If
+T453	VARIABLE 9650 9669	static load testing
+T454	CONDITION 9670 9681	is required
+T455	VARIABLE 9683 9699	the static loads
+T456	CONDITION 9700 9735	should be 1.25 times the limit load
+T457	VARIABLE 9741 9766	the structural components
+T458	CONDITION 9767 9801	should withstand the applied loads
+T459	CONDITION 9810 9824	gross yielding
+T460	CONDITION 9826 9842	gross deflection
+T461	CONDITION 9844 9851	rupture
+T462	CONDITION 9856 9864	collapse
+T463	OR 9844 9864	rupture, or collapse
+T464	OR 9826 9864	gross deflection, rupture, or collapse
+T465	OR 9810 9864	gross yielding, gross deflection, rupture, or collapse
+T466	NEGATION 9802 9864	without gross yielding, gross deflection, rupture, or collapse
+T467	AND 9767 9864	should withstand the applied loads without gross yielding, gross deflection, rupture, or collapse
+T468	STATEMENT 9741 9864	the structural components should withstand the applied loads without gross yielding, gross deflection, rupture, or collapse
+T469	STATEMENT 9683 9735	the static loads should be 1.25 times the limit load
+T470	AND 9683 9864	the static loads should be 1.25 times the limit load, and the structural components should withstand the applied loads without gross yielding, gross deflection, rupture, or collapse
+T471	STATEMENT 9650 9681	static load testing is required
+T472	CAUSE 9647 9681	If static load testing is required
+T473	CAUSE_EFFECT_RELATION 9647 9864	If static load testing is required, the static loads should be 1.25 times the limit load, and the structural components should withstand the applied loads without gross yielding, gross deflection, rupture, or collapse
+T474	ROOT_SENTENCE 9647 9865	If static load testing is required, the static loads should be 1.25 times the limit load, and the structural components should withstand the applied loads without gross yielding, gross deflection, rupture, or collapse.
+T475	KEY_C 11178 11180	If
+T476	VARIABLE 11181 11200	the lithium content
+T477	CONDITION 11201 11226	exceeds 8.0 g per battery
+T478	VARIABLE 11228 11252	transportation packaging
+T479	CONDITION 11253 11278	shall have caution labels
+T480	CONDITION 11279 11312	in accordance with 49 CFR 173.185
+T481	AND 11253 11312	shall have caution labels in accordance with 49 CFR 173.185
+T482	STATEMENT 11228 11312	transportation packaging shall have caution labels in accordance with 49 CFR 173.185
+T483	STATEMENT 11181 11226	the lithium content exceeds 8.0 g per battery
+T484	CAUSE 11178 11226	If the lithium content exceeds 8.0 g per battery
+T485	CAUSE_EFFECT_RELATION 11178 11312	If the lithium content exceeds 8.0 g per battery, transportation packaging shall have caution labels in accordance with 49 CFR 173.185
+T486	ROOT_SENTENCE 11178 11313	If the lithium content exceeds 8.0 g per battery, transportation packaging shall have caution labels in accordance with 49 CFR 173.185.
+T487	KEY_C 12632 12634	If
+T488	VARIABLE 12635 12653	a test discrepancy
+T489	CONDITION 12654 12660	occurs
+T490	VARIABLE 12668 12686	an acceptance test
+T491	KEY_C 12661 12667	during
+T492	VARIABLE 12688 12696	the test
+T493	CONDITION 12697 12717	shall be interrupted
+T494	VARIABLE 12722 12737	the discrepancy
+T495	CONDITION 12738 12746	verified
+T496	STATEMENT 12722 12746	the discrepancy verified
+T497	STATEMENT 12688 12717	the test shall be interrupted
+T498	AND 12688 12746	the test shall be interrupted and the discrepancy verified
+T499	STATEMENT 12635 12660	a test discrepancy occurs
+T500	CAUSE 12661 12686	during an acceptance test
+T501	CAUSE 12632 12660	If a test discrepancy occurs
+T502	AND 12632 12686	If a test discrepancy occurs during an acceptance test
+T503	CAUSE_EFFECT_RELATION 12632 12746	If a test discrepancy occurs during an acceptance test, the test shall be interrupted and the discrepancy verified
+T504	ROOT_SENTENCE 12632 12747	If a test discrepancy occurs during an acceptance test, the test shall be interrupted and the discrepancy verified.
+T505	KEY_C 9381 9383	If
+T506	VARIABLE 9384 9391	testing
+T507	CONDITION 9392 9403	is required
+T508	VARIABLE 9405 9418	any isolators
+T509	CONDITION 9439 9482	shall be included in the test configuration
+T510	CAUSE 9419 9438	used on the battery
+T511	VARIABLE 9424 9438	on the battery
+T512	KEY_C 9419 9423	used
+T513	STATEMENT 9384 9403	testing is required
+T514	CAUSE 9381 9403	If testing is required
+T515	CAUSE_EFFECT_RELATION 9405 9482	any isolators used on the battery shall be included in the test configuration
+T516	CAUSE_EFFECT_RELATION 9381 9482	If testing is required, any isolators used on the battery shall be included in the test configuration
+T517	ROOT_SENTENCE 9381 9483	If testing is required, any isolators used on the battery shall be included in the test configuration.
+T518	KEY_C 10935 10946	However, if
+T519	VARIABLE 10947 10963	battery charging
+T520	CONDITION 10964 10971	is done
+T521	CONDITION 10972 10986	on the vehicle
+T522	AND 10964 10986	is done on the vehicle
+T523	KEY_C 10988 10992	then
+T524	VARIABLE 10993 11014	cell-level monitoring
+T525	CAUSE 11015 11030	during charging
+T526	CONDITION 11031 11042	is required
+T527	KEY_C 11015 11021	during
+T528	VARIABLE 11022 11030	charging
+T529	EFFECT 10988 11014	then cell-level monitoring
+T530	CAUSE_EFFECT_RELATION 10988 11042	then cell-level monitoring during charging is required
+T531	STATEMENT 10947 10986	battery charging is done on the vehicle
+T532	CAUSE 10935 10986	However, if battery charging is done on the vehicle
+T533	CAUSE_EFFECT_RELATION 10935 11042	However, if battery charging is done on the vehicle, then cell-level monitoring during charging is required
+T534	ROOT_SENTENCE 10935 11043	However, if battery charging is done on the vehicle, then cell-level monitoring during charging is required.
+T535	KEY_C 11315 11317	If
+T536	VARIABLE 11318 11342	the referenced documents
+T537	CONDITION 11350 11396	provide the contractually required reliability
+T538	CONDITION 11398 11411	quality level
+T539	CONDITION 11416 11437	technical performance
+T540	OR 11398 11437	quality level, or technical performance
+T541	OR 11350 11437	provide the contractually required reliability, quality level, or technical performance
+T542	NEGATION 11343 11437	do not provide the contractually required reliability, quality level, or technical performance
+T543	VARIABLE 11439 11443	they
+T544	CONDITION 11444 11490	should be interpreted as limiting the physical
+T545	CONDITION 11495 11516	functional parameters
+T546	AND 11444 11516	should be interpreted as limiting the physical and functional parameters
+T547	STATEMENT 11439 11516	they should be interpreted as limiting the physical and functional parameters
+T548	STATEMENT 11318 11437	the referenced documents do not provide the contractually required reliability, quality level, or technical performance
+T549	CAUSE 11315 11437	If the referenced documents do not provide the contractually required reliability, quality level, or technical performance
+T550	CAUSE_EFFECT_RELATION 11315 11516	If the referenced documents do not provide the contractually required reliability, quality level, or technical performance, they should be interpreted as limiting the physical and functional parameters
+T551	ROOT_SENTENCE 11315 11517	If the referenced documents do not provide the contractually required reliability, quality level, or technical performance, they should be interpreted as limiting the physical and functional parameters.
+T552	ROOT_SENTENCE 2267 2517	If a unit’s qualification test was performed with a baseplate temperature higher than 10ºC above the acceptance baseplate test temperature, then the 10ºC limit specified above may be increased to the corresponding higher baseplate temperature margin.

@@ -1,0 +1,1035 @@
+T1	VARIABLE 0 21	Any kind of user type
+T2	CONDITION 22 35	can be chosen
+T3	STATEMENT 0 35	Any kind of user type can be chosen
+T4	KEY_C 36 40	when
+T5	VARIABLE 41 83	setting up your users in the INSIST system
+T6	CAUSE 36 83	when setting up your users in the INSIST system
+T7	CAUSE_EFFECT_RELATION 0 83	Any kind of user type can be chosen when setting up your users in the INSIST system
+T8	ROOT_SENTENCE 0 84	Any kind of user type can be chosen when setting up your users in the INSIST system.
+T9	VARIABLE 91 123	referencing an external document
+T10	CONDITION 127 149	has to be entered here
+T11	VARIABLE 124 126	it
+T12	KEY_C 86 90	When
+T13	CAUSE 86 123	When referencing an external document
+T14	STATEMENT 124 149	it has to be entered here
+T15	ROOT_SENTENCE 86 150	When referencing an external document it has to be entered here.
+T16	VARIABLE 219 246	defining prototype statuses
+T17	KEY_C 214 218	when
+T18	CAUSE 214 246	when defining prototype statuses
+T19	VARIABLE 202 212	applicable
+T20	KEY_C 199 201	if
+T21	CAUSE 199 212	if applicable
+T22	VARIABLE 152 161	Reference
+T23	CONDITION 162 197	is to be made to existing standards
+T24	STATEMENT 152 197	Reference is to be made to existing standards
+T25	AND 199 246	if applicable, when defining prototype statuses
+T26	CAUSE_EFFECT_RELATION 152 246	Reference is to be made to existing standards, if applicable, when defining prototype statuses
+T27	ROOT_SENTENCE 152 247	Reference is to be made to existing standards, if applicable, when defining prototype statuses.
+T28	KEY_C 317 319	if
+T29	VARIABLE 320 324	they
+T30	CONDITION 325 355	are relevant to the contractor
+T31	VARIABLE 250 281	The generally valid definitions
+T32	CONDITION 282 316	should be listed in "CRS Module I"
+T33	STATEMENT 250 316	The generally valid definitions should be listed in "CRS Module I"
+T34	STATEMENT 320 355	they are relevant to the contractor
+T35	CAUSE 317 355	if they are relevant to the contractor
+T36	CAUSE_EFFECT_RELATION 250 355	The generally valid definitions should be listed in "CRS Module I" if they are relevant to the contractor
+T37	ROOT_SENTENCE 250 356	The generally valid definitions should be listed in "CRS Module I" if they are relevant to the contractor.
+T38	VARIABLE 520 524	they
+T39	CONDITION 525 549	should be specified here
+T40	STATEMENT 520 549	they should be specified here
+T41	KEY_C 358 360	If
+T42	VARIABLE 501 508	the car
+T43	CONDITION 509 518	is parked
+T44	STATEMENT 501 518	the car is parked
+T45	KEY_NC 491 500	even when
+T46	NONE_CAUSAL 491 518	even when the car is parked
+T47	STATEMENT 361 426	there are customer-specified increased requirements on components
+T48	VARIABLE 361 366	there
+T49	CONDITION 367 426	are customer-specified increased requirements on components
+T50	CAUSE 358 426	If there are customer-specified increased requirements on components
+T51	KEY_C 427 432	whose
+T52	CONDITION 433 490	power supplies are connected to the battery (terminal 30)
+T53	CAUSE 427 490	whose power supplies are connected to the battery (terminal 30)
+T54	AND 358 490	If there are customer-specified increased requirements on components whose power supplies are connected to the battery (terminal 30)
+T55	CAUSE_EFFECT_RELATION 358 549	If there are customer-specified increased requirements on components whose power supplies are connected to the battery (terminal 30) even when the car is parked, they should be specified here
+T56	ROOT_SENTENCE 358 550	If there are customer-specified increased requirements on components whose power supplies are connected to the battery (terminal 30) even when the car is parked, they should be specified here.
+T57	VARIABLE 552 570	Memory constraints
+T58	CONDITION 571 590	will come into play
+T59	STATEMENT 552 590	Memory constraints will come into play
+T60	VARIABLE 596 613	the size of MySQL
+T61	CONDITION 614 642	grows to a considerable size
+T62	KEY_C 591 595	when
+T63	CAUSE 591 642	when the size of MySQL grows to a considerable size
+T64	CAUSE_EFFECT_RELATION 552 642	Memory constraints will come into play when the size of MySQL grows to a considerable size
+T65	ROOT_SENTENCE 552 643	Memory constraints will come into play when the size of MySQL grows to a considerable size.
+T84	VARIABLE 650 656	a user
+T85	CONDITION 657 684	clicks a search result link
+T86	VARIABLE 686 690	they
+T87	CONDITION 691 753	should be taken to the page corresponding to the search result
+T88	KEY_C 645 649	When
+T89	CAUSE 645 684	When a user clicks a search result link
+T90	STATEMENT 650 684	a user clicks a search result link
+T91	STATEMENT 686 753	they should be taken to the page corresponding to the search result
+T92	ROOT_SENTENCE 645 754	When a user clicks a search result link, they should be taken to the page corresponding to the search result.
+T93	VARIABLE 6604 6613	a message
+T94	CONDITION 6614 6638	is received from UK Link
+T95	CONDITION 6642 6646	MPAS
+T96	CONDITION 6647 6772	containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator)
+T97	KEY_C 6599 6603	When
+T98	STATEMENT 6604 6772	a message is received from UK Link or MPAS containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator)
+T99	OR 6614 6646	is received from UK Link or MPAS
+T100	CAUSE 6599 6772	When a message is received from UK Link or MPAS containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator)
+T101	AND 6614 6772	is received from UK Link or MPAS containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator)
+T102	VARIABLE 6774 6777	CSS
+T103	CONDITION 6778 6824	replicates the agent held for the relevant RMP
+T104	STATEMENT 6774 6824	CSS replicates the agent held for the relevant RMP
+T105	CAUSE_EFFECT_RELATION 6599 6824	When a message is received from UK Link or MPAS containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator), CSS replicates the agent held for the relevant RMP
+T106	ROOT_SENTENCE 6599 6825	When a message is received from UK Link or MPAS containing details of a change to an agent (MEM - Metering Equipment Manager, or DC - Data Collector or DA - Data Aggregator), CSS replicates the agent held for the relevant RMP.
+T107	VARIABLE 761 767	a page
+T108	CONDITION 768 778	is created
+T109	VARIABLE 780 788	the user
+T110	CONDITION 804 824	course administrator
+T111	CONDITION 825 885	should be able to toggle whether notifications are turned on
+T112	KEY_C 756 760	When
+T113	STATEMENT 761 778	a page is created
+T114	CAUSE 756 778	When a page is created
+T115	KEY_C 789 803	in the role of
+T116	CAUSE 789 824	in the role of course administrator
+T117	CAUSE_EFFECT_RELATION 780 885	the user in the role of course administrator should be able to toggle whether notifications are turned on
+T118	CAUSE_EFFECT_RELATION 756 885	When a page is created, the user in the role of course administrator should be able to toggle whether notifications are turned on
+T119	ROOT_SENTENCE 756 886	When a page is created, the user in the role of course administrator should be able to toggle whether notifications are turned on.
+T120	VARIABLE 888 902	This statement
+T121	CONDITION 903 942	provides a general sense of reliability
+T122	KEY_C 943 947	when
+T123	VARIABLE 948 958	the system
+T124	CONDITION 959 972	is under load
+T125	STATEMENT 948 972	the system is under load
+T126	CAUSE 943 972	when the system is under load
+T127	STATEMENT 888 942	This statement provides a general sense of reliability
+T128	CAUSE_EFFECT_RELATION 888 972	This statement provides a general sense of reliability when the system is under load
+T129	ROOT_SENTENCE 888 973	This statement provides a general sense of reliability when the system is under load.
+T138	VARIABLE 13792 13795	PPE
+T139	VARIABLE 13771 13790	a tailored standard
+T140	KEY_C 13756 13770	In the case of
+T141	CAUSE 13756 13790	In the case of a tailored standard
+T146	VARIABLE 4153 4195	Full details of the implementation of this
+T147	CONDITION 4196 4226	will be derived from [SECPLAN]
+T148	VARIABLE 4232 4245	that document
+T149	CONDITION 4246 4263	has been approved
+T150	KEY_C 4227 4231	when
+T151	CAUSE 4227 4263	when that document has been approved
+T152	STATEMENT 4232 4263	that document has been approved
+T153	STATEMENT 4153 4226	Full details of the implementation of this will be derived from [SECPLAN]
+T154	CAUSE_EFFECT_RELATION 4153 4263	Full details of the implementation of this will be derived from [SECPLAN] when that document has been approved
+T155	ROOT_SENTENCE 4153 4264	Full details of the implementation of this will be derived from [SECPLAN] when that document has been approved.
+T156	VARIABLE 4279 4296	a Workspace Owner
+T157	CONDITION 4297 4313	must be informed
+T158	VARIABLE 4319 4329	a new user
+T159	CONDITION 4330 4357	is added to their workspace
+T160	KEY_C 4314 4318	when
+T161	CAUSE 4314 4357	when a new user is added to their workspace
+T162	STATEMENT 4319 4357	a new user is added to their workspace
+T163	STATEMENT 4279 4313	a Workspace Owner must be informed
+T164	NONE_CAUSAL 4266 4277	For example
+T165	VARIABLE 4359 4383	existing workspace users
+T166	CONDITION 4384 4416	probably don't need to know this
+T168	CAUSE_EFFECT_RELATION 4279 4416	a Workspace Owner must be informed when a new user is added to their workspace, existing workspace users probably don't need to know this
+T167	STATEMENT 4359 4416	existing workspace users probably don't need to know this
+T169	ROOT_SENTENCE 4266 4417	For example, a Workspace Owner must be informed when a new user is added to their workspace, existing workspace users probably don't need to know this.
+T170	VARIABLE 4424 4427	all
+T171	CONDITION 4428 4461	is setup for a particular biotope
+T172	VARIABLE 4463 4488	a Start Simulation button
+T173	CONDITION 4489 4510	will become available
+T174	STATEMENT 4463 4510	a Start Simulation button will become available
+T175	STATEMENT 4424 4461	all is setup for a particular biotope
+T176	KEY_C 4419 4423	When
+T177	CAUSE 4419 4461	When all is setup for a particular biotope
+T178	CAUSE_EFFECT_RELATION 4419 4510	When all is setup for a particular biotope, a Start Simulation button will become available
+T179	ROOT_SENTENCE 4419 4511	When all is setup for a particular biotope, a Start Simulation button will become available.
+T180	VARIABLE 4518 4528	the system
+T181	CONDITION 4529 4556	is being used by an AI game
+T182	KEY_C 4513 4517	When
+T183	CAUSE 4513 4556	When the system is being used by an AI game
+T184	STATEMENT 4518 4556	the system is being used by an AI game
+T185	VARIABLE 4557 4561	this
+T186	VARIABLE 4566 4574	the game
+T187	CONDITION 4575 4604	are going to work in parallel
+T188	STATEMENT 4557 4604	this and the game are going to work in parallel
+T189	AND 4557 4574	this and the game
+T190	CAUSE_EFFECT_RELATION 4513 4604	When the system is being used by an AI game this and the game are going to work in parallel
+T191	ROOT_SENTENCE 4513 4605	When the system is being used by an AI game this and the game are going to work in parallel.
+T192	VARIABLE 1074 1079	There
+T193	CONDITION 1080 1113	will be no bootstrapping required
+T194	KEY_C 1114 1118	when
+T195	VARIABLE 1119 1195	switching production from the legacy system to the Property View application
+T196	CAUSE 1114 1195	when switching production from the legacy system to the Property View application
+T197	STATEMENT 1074 1113	There will be no bootstrapping required
+T198	CAUSE_EFFECT_RELATION 1074 1195	There will be no bootstrapping required when switching production from the legacy system to the Property View application
+T199	ROOT_SENTENCE 1074 1196	There will be no bootstrapping required when switching production from the legacy system to the Property View application.
+T200	VARIABLE 1198 1213	The application
+T201	CONDITION 1214 1257	provides the option to create a new project
+T202	CONDITION 1263 1271	launched
+T203	KEY_C 1258 1262	when
+T204	CAUSE 1258 1271	when launched
+T205	STATEMENT 1198 1257	The application provides the option to create a new project
+T206	CAUSE_EFFECT_RELATION 1198 1271	The application provides the option to create a new project when launched
+T207	ROOT_SENTENCE 1198 1272	The application provides the option to create a new project when launched.
+T208	VARIABLE 1279 1285	a user
+T209	CONDITION 1286 1317	selects to create a new project
+T210	VARIABLE 1322 1341	the current project
+T211	CONDITION 1342 1366	contains unsaved changes
+T212	VARIABLE 1368 1383	the application
+T213	CONDITION 1384 1448	prompts the user whether any unsaved changes should be abandoned
+T214	STATEMENT 1368 1448	the application prompts the user whether any unsaved changes should be abandoned
+T215	KEY_C 1274 1278	When
+T216	STATEMENT 1279 1317	a user selects to create a new project
+T217	CAUSE 1274 1366	When a user selects to create a new project and the current project contains unsaved changes
+T218	STATEMENT 1322 1366	the current project contains unsaved changes
+T219	AND 1279 1366	a user selects to create a new project and the current project contains unsaved changes
+T220	CAUSE_EFFECT_RELATION 1274 1448	When a user selects to create a new project and the current project contains unsaved changes, the application prompts the user whether any unsaved changes should be abandoned
+T221	ROOT_SENTENCE 1274 1449	When a user selects to create a new project and the current project contains unsaved changes, the application prompts the user whether any unsaved changes should be abandoned.
+T222	VARIABLE 1456 1484	the option to load a project
+T223	CONDITION 1485 1496	is selected
+T224	VARIABLE 1498 1533	a list of previously saved projects
+T225	CONDITION 1534 1542	is shown
+T226	STATEMENT 1498 1542	a list of previously saved projects is shown
+T227	STATEMENT 1456 1496	the option to load a project is selected
+T228	KEY_C 1451 1455	When
+T229	CAUSE 1451 1496	When the option to load a project is selected
+T230	CAUSE_EFFECT_RELATION 1451 1542	When the option to load a project is selected, a list of previously saved projects is shown
+T231	ROOT_SENTENCE 1451 1543	When the option to load a project is selected, a list of previously saved projects is shown.
+T232	VARIABLE 1559 1576	the project state
+T233	VARIABLE 1581 1595	workspace view
+T234	CONDITION 1596 1625	match the most recently saved
+T235	AND 1559 1595	the project state and workspace view
+T236	STATEMENT 1559 1625	the project state and workspace view match the most recently saved
+T237	CONDITION 1551 1557	loaded
+T238	KEY_C 1546 1550	When
+T239	CAUSE 1546 1557	When loaded
+T240	CAUSE_EFFECT_RELATION 1546 1625	When loaded, the project state and workspace view match the most recently saved
+T241	ROOT_SENTENCE 1546 1626	When loaded, the project state and workspace view match the most recently saved.
+T242	VARIABLE 1633 1639	a user
+T243	CONDITION 1640 1665	selects to load a project
+T244	VARIABLE 1670 1689	the current project
+T245	CONDITION 1690 1714	contains unsaved changes
+T246	VARIABLE 1716 1731	the application
+T247	CONDITION 1732 1796	prompts the user whether any unsaved changes should be abandoned
+T248	STATEMENT 1716 1796	the application prompts the user whether any unsaved changes should be abandoned
+T249	STATEMENT 1670 1714	the current project contains unsaved changes
+T250	STATEMENT 1633 1665	a user selects to load a project
+T251	KEY_C 1628 1632	When
+T252	AND 1633 1714	a user selects to load a project and the current project contains unsaved changes
+T253	CAUSE 1628 1714	When a user selects to load a project and the current project contains unsaved changes
+T254	CAUSE_EFFECT_RELATION 1628 1796	When a user selects to load a project and the current project contains unsaved changes, the application prompts the user whether any unsaved changes should be abandoned
+T255	ROOT_SENTENCE 1628 1797	When a user selects to load a project and the current project contains unsaved changes, the application prompts the user whether any unsaved changes should be abandoned.
+T256	VARIABLE 1799 1813	A default name
+T257	CONDITION 1814 1825	is provided
+T258	VARIABLE 1831 1841	the widget
+T259	CONDITION 1842 1850	is added
+T260	STATEMENT 1831 1850	the widget is added
+T261	KEY_C 1826 1830	when
+T262	CAUSE 1826 1850	when the widget is added
+T263	STATEMENT 1799 1825	A default name is provided
+T264	CAUSE_EFFECT_RELATION 1799 1850	A default name is provided when the widget is added
+T265	ROOT_SENTENCE 1799 1851	A default name is provided when the widget is added.
+T266	VARIABLE 1853 1867	A default name
+T267	CONDITION 1868 1879	is provided
+T268	VARIABLE 1885 1894	the glyph
+T269	CONDITION 1895 1903	is added
+T270	STATEMENT 1885 1903	the glyph is added
+T271	KEY_C 1880 1884	when
+T272	CAUSE 1880 1903	when the glyph is added
+T273	STATEMENT 1853 1879	A default name is provided
+T274	CAUSE_EFFECT_RELATION 1853 1903	A default name is provided when the glyph is added
+T275	ROOT_SENTENCE 1853 1904	A default name is provided when the glyph is added.
+T276	VARIABLE 1906 1919	A click event
+T277	CONDITION 1927 1942	fires an action
+T278	KEY_C 1943 1947	when
+T279	VARIABLE 1948 1954	a user
+T280	CONDITION 1955 1973	clicks on a widget
+T281	STATEMENT 1948 1973	a user clicks on a widget
+T282	CAUSE 1943 1973	when a user clicks on a widget
+T283	VARIABLE 1976 1979	One
+T284	VARIABLE 1983 1995	more actions
+T285	CONDITION 1996 2004	to occur
+T286	VARIABLE 2010 2019	the event
+T287	CONDITION 2020 2032	is triggered
+T288	KEY_C 2005 2009	when
+T289	CAUSE 2005 2032	when the event is triggered
+T290	STATEMENT 2010 2032	the event is triggered
+T291	STATEMENT 1976 2004	One or more actions to occur
+T292	OR 1976 1995	One or more actions
+T293	CAUSE_EFFECT_RELATION 1976 2032	One or more actions to occur when the event is triggered
+T294	ROOT_SENTENCE 1976 2033	One or more actions to occur when the event is triggered.
+T295	VARIABLE 2035 2043	The user
+T296	CONDITION 2044 2103	must supply a Google Universal Analytics (UA) tracking code
+T297	CONDITION 2108 2125	an event category
+T298	VARIABLE 2131 2176	associating Google Analytics with the project
+T299	KEY_C 2126 2130	when
+T300	CAUSE 2126 2176	when associating Google Analytics with the project
+T301	STATEMENT 2035 2125	The user must supply a Google Universal Analytics (UA) tracking code and an event category
+T302	AND 2044 2125	must supply a Google Universal Analytics (UA) tracking code and an event category
+T303	CAUSE_EFFECT_RELATION 2035 2176	The user must supply a Google Universal Analytics (UA) tracking code and an event category when associating Google Analytics with the project
+T304	ROOT_SENTENCE 2035 2177	The user must supply a Google Universal Analytics (UA) tracking code and an event category when associating Google Analytics with the project.
+T305	VARIABLE 2182 2187	there
+T306	CONDITION 2188 2226	are any unsaved changes in the project
+T307	KEY_C 2227 2231	when
+T308	KEY_C 2179 2181	If
+T309	VARIABLE 2232 2254	the New Project button
+T310	CONDITION 2255 2265	is clicked
+T311	STATEMENT 2232 2265	the New Project button is clicked
+T312	STATEMENT 2182 2226	there are any unsaved changes in the project
+T313	VARIABLE 2267 2275	the user
+T314	CONDITION 2276 2325	is prompted to either discard the unsaved changes
+T315	CONDITION 2329 2346	cancel the action
+T316	STATEMENT 2267 2346	the user is prompted to either discard the unsaved changes or cancel the action
+T317	OR 2276 2346	is prompted to either discard the unsaved changes or cancel the action
+T318	CAUSE 2227 2265	when the New Project button is clicked
+T319	CAUSE 2179 2226	If there are any unsaved changes in the project
+T320	AND 2179 2265	If there are any unsaved changes in the project when the New Project button is clicked
+T321	CAUSE_EFFECT_RELATION 2179 2346	If there are any unsaved changes in the project when the New Project button is clicked, the user is prompted to either discard the unsaved changes or cancel the action
+T322	ROOT_SENTENCE 2179 2347	If there are any unsaved changes in the project when the New Project button is clicked, the user is prompted to either discard the unsaved changes or cancel the action.
+T323	VARIABLE 2349 2371	The undo functionality
+T324	CONDITION 2372 2383	is disabled
+T325	KEY_C 2384 2388	when
+T326	VARIABLE 2392 2399	changes
+T327	CONDITION 2400 2409	were made
+T328	STATEMENT 2392 2409	changes were made
+T329	NEGATION 2389 2409	no changes were made
+T330	STATEMENT 2349 2383	The undo functionality is disabled
+T331	CAUSE 2384 2409	when no changes were made
+T332	CAUSE_EFFECT_RELATION 2349 2409	The undo functionality is disabled when no changes were made
+T333	ROOT_SENTENCE 2349 2410	The undo functionality is disabled when no changes were made.
+T334	VARIABLE 2412 2434	The redo functionality
+T335	CONDITION 2435 2446	is disabled
+T336	KEY_C 2447 2451	when
+T337	VARIABLE 2455 2462	changes
+T338	CONDITION 2463 2476	were reverted
+T339	STATEMENT 2455 2476	changes were reverted
+T340	NEGATION 2452 2476	no changes were reverted
+T341	CAUSE 2447 2476	when no changes were reverted
+T342	STATEMENT 2412 2446	The redo functionality is disabled
+T343	CAUSE_EFFECT_RELATION 2412 2476	The redo functionality is disabled when no changes were reverted
+T344	ROOT_SENTENCE 2412 2477	The redo functionality is disabled when no changes were reverted.
+T345	VARIABLE 2484 2520	creating a software development tool
+T346	VARIABLE 2580 2600	citing this document
+T347	KEY_C 2575 2579	When
+T348	CAUSE 2575 2600	When citing this document
+T349	VARIABLE 2609 2713	use the following wording: Webb, S. and McGoohan, C. (2015), Digital Repository of Ireland: Requirements
+T350	VARIABLE 2716 2726	The system
+T351	CONDITION 2727 2763	must be able to increase performance
+T352	VARIABLE 2769 2782	new resources
+T353	CONDITION 2783 2792	are added
+T354	KEY_C 2764 2768	when
+T355	STATEMENT 2769 2792	new resources are added
+T356	CAUSE 2764 2792	when new resources are added
+T357	STATEMENT 2716 2763	The system must be able to increase performance
+T358	CAUSE_EFFECT_RELATION 2716 2792	The system must be able to increase performance when new resources are added
+T359	ROOT_SENTENCE 2716 2793	The system must be able to increase performance when new resources are added.
+T360	CONDITION 2866 2878	will be read
+T361	VARIABLE 2884 2896	the pipeline
+T362	CONDITION 2897 2908	is executed
+T363	KEY_C 2879 2883	when
+T364	STATEMENT 2884 2908	the pipeline is executed
+T365	CAUSE 2879 2908	when the pipeline is executed
+T366	KEY_C 2860 2865	which
+T367	VARIABLE 2795 2799	User
+T368	CONDITION 2800 2821	can create a pipeline
+T369	CONDITION 2826 2859	write a configuration file for it
+T371	NONE_CAUSAL 2795 2859	User can create a pipeline and write a configuration file for it
+T372	EFFECT 2860 2878	which will be read
+T373	CAUSE_EFFECT_RELATION 2860 2908	which will be read when the pipeline is executed
+T374	ROOT_SENTENCE 2795 2909	User can create a pipeline and write a configuration file for it which will be read when the pipeline is executed.
+T375	VARIABLE 4607 4635	Developing custom dissectors
+T376	CONDITION 4636 4649	are difficult
+T377	CONDITION 4654 4668	time consuming
+T378	KEY_C 4669 4684	especially when
+T379	VARIABLE 4685 4723	the associated protocol specifications
+T380	CONDITION 4724 4741	are not available
+T381	STATEMENT 4685 4741	the associated protocol specifications are not available
+T382	CAUSE 4669 4741	especially when the associated protocol specifications are not available
+T383	STATEMENT 4607 4668	Developing custom dissectors are difficult and time consuming
+T384	AND 4636 4668	are difficult and time consuming
+T385	CAUSE_EFFECT_RELATION 4607 4741	Developing custom dissectors are difficult and time consuming especially when the associated protocol specifications are not available
+T386	ROOT_SENTENCE 4607 4742	Developing custom dissectors are difficult and time consuming especially when the associated protocol specifications are not available.
+T387	CONDITION 4749 4764	fully assembled
+T388	VARIABLE 4765 4771	the VC
+T389	VARIABLE 4776 4802	the enclosed magnet system
+T390	CONDITION 4803 4841	weigh approximately 6200 lbs (2812 kg)
+T391	STATEMENT 4765 4841	the VC and the enclosed magnet system weigh approximately 6200 lbs (2812 kg)
+T392	AND 4765 4802	the VC and the enclosed magnet system
+T393	KEY_C 4744 4748	When
+T394	CAUSE 4744 4764	When fully assembled
+T395	CAUSE_EFFECT_RELATION 4744 4841	When fully assembled the VC and the enclosed magnet system weigh approximately 6200 lbs (2812 kg)
+T396	ROOT_SENTENCE 4744 4842	When fully assembled the VC and the enclosed magnet system weigh approximately 6200 lbs (2812 kg).
+T397	VARIABLE 2916 2928	the scenario
+T398	CONDITION 2929 2940	is executed
+T399	VARIABLE 2942 2949	the spy
+T400	CONDITION 2950 2980	should see the incoming signal
+T401	CONDITION 2985 3019	validate that its level is correct
+T402	STATEMENT 2942 3019	the spy should see the incoming signal and validate that its level is correct
+T403	AND 2950 3019	should see the incoming signal and validate that its level is correct
+T404	KEY_C 2911 2915	When
+T405	CAUSE 2911 2940	When the scenario is executed
+T406	CAUSE_EFFECT_RELATION 2911 3019	When the scenario is executed, the spy should see the incoming signal and validate that its level is correct
+T407	ROOT_SENTENCE 2911 3020	When the scenario is executed, the spy should see the incoming signal and validate that its level is correct.
+T408	VARIABLE 3022 3039	This type of data
+T409	CONDITION 3040 3067	is used for testing purpose
+T410	KEY_C 3068 3072	when
+T411	VARIABLE 3076 3080	data
+T412	CONDITION 3081 3093	is available
+T413	STATEMENT 3076 3093	data is available
+T414	NEGATION 3073 3093	no data is available
+T415	CAUSE 3068 3093	when no data is available
+T416	STATEMENT 3022 3067	This type of data is used for testing purpose
+T417	CAUSE_EFFECT_RELATION 3022 3093	This type of data is used for testing purpose when no data is available
+T418	ROOT_SENTENCE 3022 3094	This type of data is used for testing purpose when no data is available.
+T419	VARIABLE 3101 3113	the scenario
+T420	CONDITION 3114 3125	is executed
+T421	VARIABLE 3127 3134	the spy
+T422	CONDITION 3135 3171	should see the incoming stimulations
+T423	STATEMENT 3127 3171	the spy should see the incoming stimulations
+T424	STATEMENT 3101 3125	the scenario is executed
+T425	KEY_C 3096 3100	When
+T426	CAUSE 3096 3125	When the scenario is executed
+T427	CAUSE_EFFECT_RELATION 3096 3171	When the scenario is executed, the spy should see the incoming stimulations
+T428	ROOT_SENTENCE 3096 3172	When the scenario is executed, the spy should see the incoming stimulations.
+T429	VARIABLE 3179 3191	the scenario
+T430	CONDITION 3192 3203	is executed
+T431	VARIABLE 3205 3218	a stimulation
+T432	CONDITION 3219 3238	should be triggered
+T433	VARIABLE 3245 3262	all of the signal
+T434	CONDITION 3263 3302	has been read plus the “timeout” amount
+T435	KEY_C 3239 3244	after
+T436	STATEMENT 3245 3302	all of the signal has been read plus the “timeout” amount
+T437	CAUSE 3239 3302	after all of the signal has been read plus the “timeout” amount
+T438	STATEMENT 3205 3238	a stimulation should be triggered
+T439	KEY_C 3174 3178	When
+T440	CAUSE 3174 3203	When the scenario is executed
+T441	STATEMENT 3179 3203	the scenario is executed
+T442	CAUSE_EFFECT_RELATION 3205 3302	a stimulation should be triggered after all of the signal has been read plus the “timeout” amount
+T443	CAUSE_EFFECT_RELATION 3174 3302	When the scenario is executed, a stimulation should be triggered after all of the signal has been read plus the “timeout” amount
+T444	ROOT_SENTENCE 3174 3303	When the scenario is executed, a stimulation should be triggered after all of the signal has been read plus the “timeout” amount.
+T445	VARIABLE 3305 3315	The system
+T446	CONDITION 3316 3370	must provide functionalities to generate a stimulation
+T447	KEY_C 3371 3375	when
+T448	VARIABLE 3376 3397	the input signal sign
+T449	CONDITION 3398 3405	changes
+T450	STATEMENT 3376 3405	the input signal sign changes
+T451	CAUSE 3371 3405	when the input signal sign changes
+T452	STATEMENT 3305 3370	The system must provide functionalities to generate a stimulation
+T453	CAUSE_EFFECT_RELATION 3305 3405	The system must provide functionalities to generate a stimulation when the input signal sign changes
+T454	ROOT_SENTENCE 3305 3406	The system must provide functionalities to generate a stimulation when the input signal sign changes.
+T455	VARIABLE 3408 3417	Averaging
+T456	KEY_C 3418 3427	increases
+T457	VARIABLE 3428 3438	robustness
+T458	KEY_C 3439 3443	when
+T459	CAUSE 3408 3427	Averaging increases
+T460	VARIABLE 3444 3480	working with signal containing noise
+T461	CAUSE 3439 3480	when working with signal containing noise
+T462	CAUSE_EFFECT_RELATION 3408 3438	Averaging increases robustness
+T463	CAUSE_EFFECT_RELATION 3408 3480	Averaging increases robustness when working with signal containing noise
+T464	ROOT_SENTENCE 3408 3481	Averaging increases robustness when working with signal containing noise.
+T468	VARIABLE 3644 3649	DAFNI
+T469	CONDITION 3650 3708	must provide the capability to tear down an IaaS Workspace
+T470	VARIABLE 3714 3734	the research project
+T471	CONDITION 3747 3765	has been completed
+T472	CONDITION 3738 3746	supports
+T473	KEY_C 3735 3737	it
+T474	CAUSE 3735 3746	it supports
+T475	KEY_C 3709 3713	when
+T476	STATEMENT 3644 3708	DAFNI must provide the capability to tear down an IaaS Workspace
+T477	CAUSE 3709 3765	when the research project it supports has been completed
+T478	NONE_CAUSAL 2602 2608	please
+T479	STATEMENT 2602 2713	please use the following wording: Webb, S. and McGoohan, C. (2015), Digital Repository of Ireland: Requirements
+T480	CAUSE_EFFECT_RELATION 2575 2713	When citing this document, please use the following wording: Webb, S. and McGoohan, C. (2015), Digital Repository of Ireland: Requirements
+T481	ROOT_SENTENCE 2575 2714	When citing this document, please use the following wording: Webb, S. and McGoohan, C. (2015), Digital Repository of Ireland: Requirements.
+T482	VARIABLE 2521 2543	targeted at developers
+T483	KEY_C 2479 2483	When
+T484	CAUSE 2479 2543	When creating a software development tool targeted at developers
+T485	AND 2484 2543	creating a software development tool targeted at developers
+T486	VARIABLE 2545 2558	documentation
+T487	CONDITION 2559 2572	is imperative
+T488	STATEMENT 2545 2572	documentation is imperative
+T489	CAUSE_EFFECT_RELATION 2479 2572	When creating a software development tool targeted at developers, documentation is imperative
+T490	ROOT_SENTENCE 2479 2573	When creating a software development tool targeted at developers, documentation is imperative.
+T491	KEY_C 1921 1926	which
+T492	VARIABLE 5016 5079	refinement (i.e. model improvement and more accurate forecasts)
+T493	CONDITION 5080 5095	can be achieved
+T494	VARIABLE 5099 5168	updating these views with more recent and more up-to-date information
+T495	KEY_C 5096 5098	by
+T496	CAUSE 5096 5168	by updating these views with more recent and more up-to-date information
+T497	STATEMENT 5016 5095	refinement (i.e. model improvement and more accurate forecasts) can be achieved
+T498	CAUSE_EFFECT_RELATION 5016 5168	refinement (i.e. model improvement and more accurate forecasts) can be achieved by updating these views with more recent and more up-to-date information
+T499	KEY_C 4844 4848	When
+T500	VARIABLE 4849 4880	starting with a case year ahead
+T501	KEY_C 4882 4890	in which
+T502	VARIABLE 4891 4907	planned projects
+T503	VARIABLE 4912 4934	planned unavailability
+T504	CONDITION 4935 4947	are included
+T505	STATEMENT 4891 4947	planned projects and planned unavailability are included
+T506	CAUSE 4882 4947	in which planned projects and planned unavailability are included
+T507	AND 4891 4934	planned projects and planned unavailability
+T508	KEY_C 4952 4961	for which
+T509	VARIABLE 4962 4973	assumptions
+T510	CONDITION 4974 5014	are used to forecast load and generation
+T511	STATEMENT 4962 5014	assumptions are used to forecast load and generation
+T512	CAUSE 4952 5014	for which assumptions are used to forecast load and generation
+T513	AND 4882 5014	in which planned projects and planned unavailability are included and for which assumptions are used to forecast load and generation
+T514	CAUSE 4844 4880	When starting with a case year ahead
+T515	AND 4844 5014	When starting with a case year ahead, in which planned projects and planned unavailability are included and for which assumptions are used to forecast load and generation
+T516	CAUSE_EFFECT_RELATION 4844 5168	When starting with a case year ahead, in which planned projects and planned unavailability are included and for which assumptions are used to forecast load and generation, refinement (i.e. model improvement and more accurate forecasts) can be achieved by updating these views with more recent and more up-to-date information
+T517	VARIABLE 5171 5207	The ControlArea.netInterchange value
+T518	CONDITION 5208 5267	is to be checked against the target Netted Area AC Position
+T519	KEY_C 5268 5277	only when
+T520	VARIABLE 5278 5287	the merge
+T521	CONDITION 5288 5348	is done prior to any cross-control-area redispatch modelling
+T522	STATEMENT 5278 5348	the merge is done prior to any cross-control-area redispatch modelling
+T523	CAUSE 5268 5348	only when the merge is done prior to any cross-control-area redispatch modelling
+T524	STATEMENT 5171 5267	The ControlArea.netInterchange value is to be checked against the target Netted Area AC Position
+T525	CAUSE_EFFECT_RELATION 5171 5348	The ControlArea.netInterchange value is to be checked against the target Netted Area AC Position only when the merge is done prior to any cross-control-area redispatch modelling
+T526	ROOT_SENTENCE 5171 5349	The ControlArea.netInterchange value is to be checked against the target Netted Area AC Position only when the merge is done prior to any cross-control-area redispatch modelling.
+T527	VARIABLE 5602 5638	Calling the initialization procedure
+T528	CONDITION 5639 5662	at earliest is possible
+T529	VARIABLE 5668 5684	the program code
+T530	CONDITION 5685 5723	is executed within the main event loop
+T531	KEY_C 5663 5667	when
+T532	STATEMENT 5668 5723	the program code is executed within the main event loop
+T533	CAUSE 5663 5723	when the program code is executed within the main event loop
+T534	STATEMENT 5602 5662	Calling the initialization procedure at earliest is possible
+T535	CAUSE_EFFECT_RELATION 5602 5723	Calling the initialization procedure at earliest is possible when the program code is executed within the main event loop
+T536	ROOT_SENTENCE 5602 5724	Calling the initialization procedure at earliest is possible when the program code is executed within the main event loop.
+T537	VARIABLE 5845 5854	Customers
+T538	CONDITION 5855 5886	are expected to specify the REL
+T539	KEY_C 5887 5891	when
+T540	VARIABLE 5892 5921	identifying the energy supply
+T541	KEY_C 5922 5926	they
+T542	CONDITION 5927 5941	wish to switch
+T543	CAUSE 5922 5941	they wish to switch
+T544	CAUSE 5887 5921	when identifying the energy supply
+T545	AND 5887 5941	when identifying the energy supply they wish to switch
+T546	STATEMENT 5845 5886	Customers are expected to specify the REL
+T547	CAUSE_EFFECT_RELATION 5845 5941	Customers are expected to specify the REL when identifying the energy supply they wish to switch
+T548	ROOT_SENTENCE 5845 5942	Customers are expected to specify the REL when identifying the energy supply they wish to switch.
+T557	VARIABLE 6427 6433	an RMP
+T558	CONDITION 6434 6466	has been created in MPAS/UK Link
+T559	CONDITION 6471 6490	synchronised to CSS
+T560	VARIABLE 6497 6556	submission of an Initial Registration Request by a supplier
+T561	KEY_C 6492 6496	upon
+T562	VARIABLE 6558 6572	a Registration
+T563	CONDITION 6573 6596	is created for that RMP
+T564	STATEMENT 6558 6596	a Registration is created for that RMP
+T565	CAUSE 6492 6556	upon submission of an Initial Registration Request by a supplier
+T566	KEY_C 6422 6426	When
+T567	STATEMENT 6427 6490	an RMP has been created in MPAS/UK Link and synchronised to CSS
+T568	AND 6434 6490	has been created in MPAS/UK Link and synchronised to CSS
+T569	CAUSE 6422 6490	When an RMP has been created in MPAS/UK Link and synchronised to CSS
+T570	AND 6422 6556	When an RMP has been created in MPAS/UK Link and synchronised to CSS, upon submission of an Initial Registration Request by a supplier
+T571	CAUSE_EFFECT_RELATION 6422 6596	When an RMP has been created in MPAS/UK Link and synchronised to CSS, upon submission of an Initial Registration Request by a supplier, a Registration is created for that RMP
+T572	ROOT_SENTENCE 6422 6597	When an RMP has been created in MPAS/UK Link and synchronised to CSS, upon submission of an Initial Registration Request by a supplier, a Registration is created for that RMP.
+T573	VARIABLE 9707 9710	CSS
+T574	CONDITION 9711 9756	passes to the Address Service the MPL Address
+T575	KEY_C 9757 9761	when
+T576	VARIABLE 9762 9764	it
+T577	CONDITION 9765 9781	requests a match
+T578	STATEMENT 9762 9781	it requests a match
+T579	CAUSE 9757 9781	when it requests a match
+T580	STATEMENT 9707 9756	CSS passes to the Address Service the MPL Address
+T581	CAUSE_EFFECT_RELATION 9707 9781	CSS passes to the Address Service the MPL Address when it requests a match
+T582	ROOT_SENTENCE 9707 9782	CSS passes to the Address Service the MPL Address when it requests a match.
+T583	KEY_C 9592 9596	When
+T584	VARIABLE 9597 9600	CSS
+T585	CONDITION 9601 9657	receives an Initial Registration request from a supplier
+T586	VARIABLE 9659 9662	CSS
+T587	CONDITION 9663 9689	determines the REL Address
+T588	CONDITION 9694 9704	records it
+T589	STATEMENT 9659 9704	CSS determines the REL Address and records it
+T590	AND 9663 9704	determines the REL Address and records it
+T591	STATEMENT 9597 9657	CSS receives an Initial Registration request from a supplier
+T592	CAUSE 9592 9657	When CSS receives an Initial Registration request from a supplier
+T593	CAUSE_EFFECT_RELATION 9592 9704	When CSS receives an Initial Registration request from a supplier, CSS determines the REL Address and records it
+T594	ROOT_SENTENCE 9592 9705	When CSS receives an Initial Registration request from a supplier, CSS determines the REL Address and records it.
+T595	KEY_C 6988 6992	When
+T596	VARIABLE 6993 7024	an Initial Registration Request
+T597	CONDITION 7025 7036	is received
+T598	VARIABLE 7038 7040	it
+T599	CONDITION 7041 7102	is stored by CSS as Registration Request with state Submitted
+T603	STATEMENT 7038 7102	it is stored by CSS as Registration Request with state Submitted
+T605	STATEMENT 6993 7036	an Initial Registration Request is received
+T606	CAUSE 6988 7036	When an Initial Registration Request is received
+T607	CAUSE_EFFECT_RELATION 6988 7102	When an Initial Registration Request is received, it is stored by CSS as Registration Request with state Submitted
+T608	ROOT_SENTENCE 6988 7103	When an Initial Registration Request is received, it is stored by CSS as Registration Request with state Submitted.
+T609	KEY_C 7105 7109	When
+T610	VARIABLE 7110 7125	the system time
+T611	CONDITION 7126 7192	reaches the Completion Scheduler time for the Registration Request
+T612	VARIABLE 7194 7197	CSS
+T613	CONDITION 7198 7246	sets the Registration Request state to Completed
+T614	CONDITION 7251 7283	the Registration state to Active
+T615	KEY_C 7285 7299	NOTE that when
+T616	VARIABLE 7300 7316	the same process
+T617	CONDITION 7317 7344	is carried out for a switch
+T618	VARIABLE 7346 7384	the state of the previous Registration
+T619	CONDITION 7385 7416	is additionally set to Inactive
+T620	STATEMENT 7346 7416	the state of the previous Registration is additionally set to Inactive
+T621	STATEMENT 7300 7344	the same process is carried out for a switch
+T622	CAUSE 7285 7344	NOTE that when the same process is carried out for a switch
+T623	STATEMENT 7110 7192	the system time reaches the Completion Scheduler time for the Registration Request
+T624	CAUSE 7105 7192	When the system time reaches the Completion Scheduler time for the Registration Request
+T625	STATEMENT 7194 7283	CSS sets the Registration Request state to Completed and the Registration state to Active
+T626	AND 7198 7283	sets the Registration Request state to Completed and the Registration state to Active
+T627	CAUSE_EFFECT_RELATION 7105 7283	When the system time reaches the Completion Scheduler time for the Registration Request, CSS sets the Registration Request state to Completed and the Registration state to Active
+T628	CAUSE_EFFECT_RELATION 7284 7417	(NOTE that when the same process is carried out for a switch, the state of the previous Registration is additionally set to Inactive)
+T629	AND 7105 7417	When the system time reaches the Completion Scheduler time for the Registration Request, CSS sets the Registration Request state to Completed and the Registration state to Active (NOTE that when the same process is carried out for a switch, the state of the previous Registration is additionally set to Inactive)
+T630	ROOT_SENTENCE 7105 7418	When the system time reaches the Completion Scheduler time for the Registration Request, CSS sets the Registration Request state to Completed and the Registration state to Active (NOTE that when the same process is carried out for a switch, the state of the previous Registration is additionally set to Inactive).
+T631	KEY_C 7420 7424	When
+T632	VARIABLE 7425 7437	a Withdrawal
+T633	CONDITION 7438 7449	is received
+T634	STATEMENT 7425 7449	a Withdrawal is received
+T635	CAUSE 7420 7449	When a Withdrawal is received
+T636	VARIABLE 7451 7454	CSS
+T637	CONDITION 7455 7467	validates it
+T638	STATEMENT 7451 7467	CSS validates it
+T639	KEY_C 7472 7474	if
+T640	VARIABLE 7475 7480	valid
+T641	CONDITION 7482 7530	sets the Registration Request state to Withdrawn
+T642	CONDITION 7535 7570	the Registration state to Cancelled
+T643	CAUSE 7472 7480	if valid
+T644	AND 7482 7570	sets the Registration Request state to Withdrawn and the Registration state to Cancelled
+T645	CAUSE_EFFECT_RELATION 7472 7570	if valid, sets the Registration Request state to Withdrawn and the Registration state to Cancelled
+T646	CAUSE_EFFECT_RELATION 7420 7570	When a Withdrawal is received, CSS validates it and if valid, sets the Registration Request state to Withdrawn and the Registration state to Cancelled
+T647	VARIABLE 7578 7600	a Deactivation Request
+T648	CONDITION 7601 7612	is received
+T649	STATEMENT 7578 7612	a Deactivation Request is received
+T650	CAUSE 7573 7612	When a Deactivation Request is received
+T651	VARIABLE 7614 7617	CSS
+T652	CONDITION 7618 7630	validates it
+T653	KEY_C 7635 7637	if
+T654	VARIABLE 7638 7643	valid
+T655	CONDITION 7644 7683	sets the Registration state to Inactive
+T656	CAUSE 7635 7643	if valid
+T657	CAUSE_EFFECT_RELATION 7635 7683	if valid sets the Registration state to Inactive
+T658	STATEMENT 7614 7630	CSS validates it
+T659	CAUSE_EFFECT_RELATION 7573 7683	When a Deactivation Request is received, CSS validates it and if valid sets the Registration state to Inactive
+T660	KEY_C 7573 7577	When
+T661	KEY_C 7686 7690	When
+T662	VARIABLE 7691 7694	CSS
+T663	CONDITION 7695 7727	completes processing an override
+T664	VARIABLE 7729 7731	it
+T665	CONDITION 7732 7776	shall send out the relevant synchronisations
+T666	CONDITION 7781 7822	notifications as per the standard process
+T667	STATEMENT 7729 7822	it shall send out the relevant synchronisations and notifications as per the standard process
+T668	AND 7732 7822	shall send out the relevant synchronisations and notifications as per the standard process
+T669	STATEMENT 7691 7727	CSS completes processing an override
+T670	CAUSE 7686 7727	When CSS completes processing an override
+T671	CAUSE_EFFECT_RELATION 7686 7822	When CSS completes processing an override, it shall send out the relevant synchronisations and notifications as per the standard process
+T672	ROOT_SENTENCE 7686 7823	When CSS completes processing an override, it shall send out the relevant synchronisations and notifications as per the standard process.
+T673	KEY_C 7825 7829	When
+T674	VARIABLE 7830 7846	a Switch Request
+T675	CONDITION 7847 7858	is received
+T676	STATEMENT 7830 7858	a Switch Request is received
+T677	CAUSE 7825 7858	When a Switch Request is received
+T678	VARIABLE 7860 7863	CSS
+T679	CONDITION 7864 7876	validates it
+T680	KEY_C 7881 7883	if
+T681	VARIABLE 7884 7889	valid
+T682	CONDITION 7891 7948	records it as a Registration Request with state Validated
+T686	CONDITION 7950 7991	creates a Registration with state Pending
+T690	CONDITION 7996 8031	an entry in the Objection Scheduler
+T691	CONDITION 8036 8103	sends out an Invitation to Intervene message to the losing supplier
+T692	STATEMENT 7860 7876	CSS validates it
+T693	CAUSE 7881 7889	if valid
+T696	AND 7996 8103	an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T697	AND 7950 8103	creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T698	AND 7891 8103	records it as a Registration Request with state Validated, creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T699	CAUSE_EFFECT_RELATION 7881 8103	if valid, records it as a Registration Request with state Validated, creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T700	CAUSE_EFFECT_RELATION 7825 8103	When a Switch Request is received, CSS validates it and if valid, records it as a Registration Request with state Validated, creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T701	KEY_C 8522 8540	In this case, when
+T702	VARIABLE 8541 8561	an Annulment Request
+T703	CONDITION 8562 8573	is received
+T704	VARIABLE 8575 8578	CSS
+T705	CONDITION 8579 8604	responds with a rejection
+T706	STATEMENT 8575 8629	CSS responds with a rejection together with the reason
+T707	STATEMENT 8541 8573	an Annulment Request is received
+T708	CAUSE 8522 8573	In this case, when an Annulment Request is received
+T709	CAUSE_EFFECT_RELATION 8522 8629	In this case, when an Annulment Request is received, CSS responds with a rejection together with the reason
+T710	ROOT_SENTENCE 8522 8630	In this case, when an Annulment Request is received, CSS responds with a rejection together with the reason.
+T711	KEY_C 8632 8636	When
+T712	VARIABLE 8637 8659	a Registration Request
+T713	CONDITION 8660 8673	changes state
+T714	VARIABLE 8675 8689	a notification
+T715	CONDITION 8690 8712	may be sent out to one
+T716	CONDITION 8716 8728	more parties
+T717	STATEMENT 8675 8728	a notification may be sent out to one or more parties
+T718	OR 8690 8728	may be sent out to one or more parties
+T719	STATEMENT 8637 8673	a Registration Request changes state
+T720	CAUSE 8632 8673	When a Registration Request changes state
+T721	CAUSE_EFFECT_RELATION 8632 8728	When a Registration Request changes state, a notification may be sent out to one or more parties
+T722	ROOT_SENTENCE 8632 8729	When a Registration Request changes state, a notification may be sent out to one or more parties.
+T723	KEY_C 8731 8735	When
+T724	VARIABLE 8736 8758	a Registration Request
+T725	CONDITION 8759 8772	changes state
+T726	VARIABLE 8774 8799	a synchronisation message
+T727	CONDITION 8800 8822	may be sent out to one
+T728	CONDITION 8826 8838	more parties
+T729	STATEMENT 8774 8838	a synchronisation message may be sent out to one or more parties
+T730	OR 8800 8838	may be sent out to one or more parties
+T731	STATEMENT 8736 8772	a Registration Request changes state
+T732	CAUSE 8731 8772	When a Registration Request changes state
+T733	CAUSE_EFFECT_RELATION 8731 8838	When a Registration Request changes state, a synchronisation message may be sent out to one or more parties
+T734	ROOT_SENTENCE 8731 8839	When a Registration Request changes state, a synchronisation message may be sent out to one or more parties.
+T735	KEY_C 8373 8377	When
+T736	VARIABLE 8378 8398	an Annulment Request
+T737	CONDITION 8399 8410	is received
+T738	KEY_C 8412 8414	if
+T739	VARIABLE 8415 8420	valid
+T740	VARIABLE 8422 8425	CSS
+T741	CONDITION 8426 8467	sets the Registration Request to Annulled
+T742	CONDITION 8472 8519	remove any relevant entries from the Schedulers
+T743	STATEMENT 8422 8519	CSS sets the Registration Request to Annulled and remove any relevant entries from the Schedulers
+T744	AND 8426 8519	sets the Registration Request to Annulled and remove any relevant entries from the Schedulers
+T745	STATEMENT 8378 8410	an Annulment Request is received
+T746	CAUSE 8373 8410	When an Annulment Request is received
+T747	CAUSE 8412 8420	if valid
+T748	AND 8373 8420	When an Annulment Request is received, if valid
+T749	CAUSE_EFFECT_RELATION 8373 8519	When an Annulment Request is received, if valid, CSS sets the Registration Request to Annulled and remove any relevant entries from the Schedulers
+T750	ROOT_SENTENCE 8373 8520	When an Annulment Request is received, if valid, CSS sets the Registration Request to Annulled and remove any relevant entries from the Schedulers.
+T751	NONE_CAUSAL 8841 8891	Synchronisations to all parties are message-based:
+T752	VARIABLE 8892 8912	each synchronisation
+T753	VARIABLE 8841 8872	Synchronisations to all parties
+T754	CONDITION 8873 8890	are message-based
+T755	CONDITION 8913 8961	is sent over the relevant interface individually
+T756	KEY_C 8963 8967	when
+T757	VARIABLE 8968 8970	it
+T758	CONDITION 8971 8977	occurs
+T759	STATEMENT 8968 8977	it occurs
+T760	CAUSE 8963 8977	when it occurs
+T761	STATEMENT 8892 8961	each synchronisation is sent over the relevant interface individually
+T762	CAUSE_EFFECT_RELATION 8892 8977	each synchronisation is sent over the relevant interface individually, when it occurs
+T763	ROOT_SENTENCE 8841 8978	Synchronisations to all parties are message-based: each synchronisation is sent over the relevant interface individually, when it occurs.
+T764	KEY_C 9278 9282	When
+T765	VARIABLE 9283 9286	CSS
+T766	CONDITION 9287 9319	completes processing an override
+T767	VARIABLE 9321 9323	it
+T768	CONDITION 9324 9368	shall send out the relevant synchronisations
+T769	CONDITION 9373 9414	notifications as per the standard process
+T770	STATEMENT 9321 9414	it shall send out the relevant synchronisations and notifications as per the standard process
+T771	AND 9324 9414	shall send out the relevant synchronisations and notifications as per the standard process
+T772	STATEMENT 9283 9319	CSS completes processing an override
+T773	CAUSE 9278 9319	When CSS completes processing an override
+T774	CAUSE_EFFECT_RELATION 9278 9414	When CSS completes processing an override, it shall send out the relevant synchronisations and notifications as per the standard process
+T775	ROOT_SENTENCE 9278 9415	When CSS completes processing an override, it shall send out the relevant synchronisations and notifications as per the standard process.
+T776	KEY_C 9535 9539	when
+T777	VARIABLE 9540 9569	identifying the energy supply
+T778	KEY_C 9570 9574	they
+T779	CONDITION 9575 9589	wish to switch
+T780	CAUSE 9570 9589	they wish to switch
+T781	CAUSE 9535 9569	when identifying the energy supply
+T782	AND 9535 9589	when identifying the energy supply they wish to switch
+T783	VARIABLE 9423 9444	the principal address
+T784	CONDITION 9450 9534	consumers are expected to provide (e.g. to a supplier or a Price Comparison Website)
+T785	KEY_C 9445 9449	that
+T786	NONE_CAUSAL 9417 9422	It is
+T787	VARIABLE 9977 9996	the Address Service
+T788	CONDITION 9997 10008	returns one
+T789	CONDITION 10012 10033	many possible matches
+T790	VARIABLE 10035 10038	CSS
+T791	CONDITION 10039 10052	displays them
+T792	CONDITION 10057 10092	their associated data on the screen
+T793	STATEMENT 10035 10092	CSS displays them and their associated data on the screen
+T794	AND 10039 10092	displays them and their associated data on the screen
+T795	KEY_C 9972 9976	When
+T796	STATEMENT 9977 10033	the Address Service returns one or many possible matches
+T798	OR 9997 10033	returns one or many possible matches
+T797	CAUSE 9972 10033	When the Address Service returns one or many possible matches
+T799	CAUSE_EFFECT_RELATION 9972 10092	When the Address Service returns one or many possible matches, CSS displays them and their associated data on the screen
+T800	ROOT_SENTENCE 9972 10093	When the Address Service returns one or many possible matches, CSS displays them and their associated data on the screen.
+T801	VARIABLE 10095 10106	Information
+T802	CONDITION 10107 10138	is received from Smart Metering
+T803	KEY_C 10139 10148	each time
+T804	VARIABLE 10149 10181	a communications hub (comms hub)
+T805	CONDITION 10182 10206	has a meter joined to it
+T806	KEY_C 10208 10212	when
+T807	VARIABLE 10213 10218	there
+T808	CONDITION 10219 10261	is already at least one meter joined to it
+T809	STATEMENT 10213 10261	there is already at least one meter joined to it
+T810	CAUSE 10208 10261	when there is already at least one meter joined to it
+T811	STATEMENT 10149 10206	a communications hub (comms hub) has a meter joined to it
+T812	CAUSE 10139 10206	each time a communications hub (comms hub) has a meter joined to it
+T813	STATEMENT 10095 10138	Information is received from Smart Metering
+T814	CAUSE_EFFECT_RELATION 10095 10206	Information is received from Smart Metering each time a communications hub (comms hub) has a meter joined to it
+T815	CAUSE_EFFECT_RELATION 10095 10261	Information is received from Smart Metering each time a communications hub (comms hub) has a meter joined to it, when there is already at least one meter joined to it
+T816	ROOT_SENTENCE 10095 10262	Information is received from Smart Metering each time a communications hub (comms hub) has a meter joined to it, when there is already at least one meter joined to it.
+T817	VARIABLE 10264 10267	CSS
+T818	CONDITION 10268 10299	loads the Switching Domain Data
+T819	KEY_C 10300 10302	at
+T820	VARIABLE 10303 10326	any time during the day
+T821	KEY_C 10328 10342	including when
+T822	VARIABLE 10343 10356	registrations
+T823	VARIABLE 10361 10369	switches
+T824	CONDITION 10370 10386	are entering CSS
+T825	CONDITION 10391 10406	being processed
+T826	STATEMENT 10343 10406	registrations and switches are entering CSS and being processed
+T827	AND 10343 10369	registrations and switches
+T828	AND 10370 10406	are entering CSS and being processed
+T829	CAUSE 10328 10406	including when registrations and switches are entering CSS and being processed
+T830	STATEMENT 10264 10299	CSS loads the Switching Domain Data
+T831	CAUSE 10300 10326	at any time during the day
+T832	OR 10300 10406	at any time during the day, including when registrations and switches are entering CSS and being processed
+T833	CAUSE_EFFECT_RELATION 10264 10406	CSS loads the Switching Domain Data at any time during the day, including when registrations and switches are entering CSS and being processed
+T834	ROOT_SENTENCE 10264 10407	CSS loads the Switching Domain Data at any time during the day, including when registrations and switches are entering CSS and being processed.
+T835	VARIABLE 10409 10418	Consumers
+T836	CONDITION 10419 10458	are expected to specify the REL Address
+T837	KEY_C 10459 10463	when
+T838	VARIABLE 10464 10483	identifying the RMP
+T839	KEY_C 10484 10488	they
+T840	VARIABLE 10489 10503	wish to switch
+T841	CAUSE 10459 10483	when identifying the RMP
+T842	CAUSE 10484 10503	they wish to switch
+T843	AND 10459 10503	when identifying the RMP they wish to switch
+T844	STATEMENT 10409 10458	Consumers are expected to specify the REL Address
+T845	CAUSE_EFFECT_RELATION 10409 10503	Consumers are expected to specify the REL Address when identifying the RMP they wish to switch
+T846	ROOT_SENTENCE 10409 10504	Consumers are expected to specify the REL Address when identifying the RMP they wish to switch.
+T847	VARIABLE 10506 10535	The identity of both partners
+T848	CONDITION 10536 10553	must be traceable
+T849	KEY_C 10554 10568	in the case of
+T850	VARIABLE 10569 10590	cryopreserved embryos
+T851	CAUSE 10554 10590	in the case of cryopreserved embryos
+T852	STATEMENT 10506 10553	The identity of both partners must be traceable
+T853	CAUSE_EFFECT_RELATION 10506 10590	The identity of both partners must be traceable in the case of cryopreserved embryos
+T854	ROOT_SENTENCE 10506 10591	The identity of both partners must be traceable in the case of cryopreserved embryos.
+T855	VARIABLE 10593 10616	The Core2Core Subsystem
+T856	CONDITION 10617 10691	shall provide facility backup of a variable subset of Core System services
+T857	KEY_C 10692 10706	in the case of
+T858	VARIABLE 10707 10761	partially unavailability to an interfacing Core System
+T859	CAUSE 10692 10761	in the case of partially unavailability to an interfacing Core System
+T860	STATEMENT 10593 10691	The Core2Core Subsystem shall provide facility backup of a variable subset of Core System services
+T861	CAUSE_EFFECT_RELATION 10593 10761	The Core2Core Subsystem shall provide facility backup of a variable subset of Core System services in the case of partially unavailability to an interfacing Core System
+T862	ROOT_SENTENCE 10593 10762	The Core2Core Subsystem shall provide facility backup of a variable subset of Core System services in the case of partially unavailability to an interfacing Core System.
+T863	KEY_C 11123 11137	In the case of
+T864	VARIABLE 11138 11146	concrete
+T865	CONDITION 11147 11187	having a maximum aggregate size of 20 mm
+T866	VARIABLE 11189 11201	150 mm cubes
+T867	CONDITION 11202 11215	shall be used
+T868	STATEMENT 11189 11215	150 mm cubes shall be used
+T869	STATEMENT 11138 11187	concrete having a maximum aggregate size of 20 mm
+T870	CAUSE 11123 11187	In the case of concrete having a maximum aggregate size of 20 mm
+T871	CAUSE_EFFECT_RELATION 11123 11215	In the case of concrete having a maximum aggregate size of 20 mm, 150 mm cubes shall be used
+T872	ROOT_SENTENCE 11123 11216	In the case of concrete having a maximum aggregate size of 20 mm, 150 mm cubes shall be used.
+T873	KEY_C 11546 11560	In the case of
+T874	VARIABLE 11561 11571	arch rings
+T875	VARIABLE 11573 11588	the natural bed
+T876	CONDITION 11589 11604	shall be radial
+T877	STATEMENT 11573 11604	the natural bed shall be radial
+T878	CAUSE 11546 11571	In the case of arch rings
+T879	CAUSE_EFFECT_RELATION 11546 11604	In the case of arch rings, the natural bed shall be radial
+T880	ROOT_SENTENCE 11546 11605	In the case of arch rings, the natural bed shall be radial.
+T881	KEY_C 11607 11621	In the case of
+T882	VARIABLE 11622 11633	large areas
+T883	VARIABLE 11637 11653	continuous pours
+T884	VARIABLE 11655 11657	it
+T885	CONDITION 11658 11709	shall commence on the completed Section of the pour
+T886	KEY_C 11710 11716	before
+T887	VARIABLE 11717 11737	the rest of the pour
+T888	CONDITION 11738 11749	is finished
+T889	STATEMENT 11717 11749	the rest of the pour is finished
+T890	NEGATION 11710 11749	before the rest of the pour is finished
+T891	CAUSE 11607 11653	In the case of large areas or continuous pours
+T892	OR 11622 11653	large areas or continuous pours
+T893	STATEMENT 11655 11709	it shall commence on the completed Section of the pour
+T894	VARIABLE 11434 11444	The mortar
+T895	CONDITION 11445 11486	shall be mixed for at least three minutes
+T896	EFFECT 1906 1942	A click event, which fires an action
+T897	CAUSE_EFFECT_RELATION 1906 1973	A click event, which fires an action when a user clicks on a widget
+T898	ROOT_SENTENCE 1906 1974	A click event, which fires an action when a user clicks on a widget.
+T899	CAUSE_EFFECT_RELATION 3644 3765	DAFNI must provide the capability to tear down an IaaS Workspace when the research project it supports has been completed
+T900	ROOT_SENTENCE 3644 3766	DAFNI must provide the capability to tear down an IaaS Workspace when the research project it supports has been completed.
+T901	VARIABLE 3768 3773	DAFNI
+T902	CONDITION 3774 3831	must provide the capability to tear down a PaaS Workspace
+T903	KEY_C 3832 3836	when
+T904	STATEMENT 3768 3831	DAFNI must provide the capability to tear down a PaaS Workspace
+T905	VARIABLE 3837 3857	the research project
+T906	KEY_C 3858 3860	it
+T907	CONDITION 3861 3869	supports
+T908	CONDITION 3870 3888	has been completed
+T909	CAUSE 3858 3869	it supports
+T910	CAUSE 3832 3888	when the research project it supports has been completed
+T911	CAUSE_EFFECT_RELATION 3768 3888	DAFNI must provide the capability to tear down a PaaS Workspace when the research project it supports has been completed
+T912	ROOT_SENTENCE 3768 3889	DAFNI must provide the capability to tear down a PaaS Workspace when the research project it supports has been completed.
+T914	KEY_C 11487 11492	after
+T915	VARIABLE 11493 11510	addition of water
+T916	KEY_C 11511 11525	in the case of
+T917	VARIABLE 11526 11543	mechanical mixing
+T918	CAUSE 11511 11543	in the case of mechanical mixing
+T913	CAUSE 11487 11510	after addition of water
+T919	AND 11487 11543	after addition of water in the case of mechanical mixing
+T920	STATEMENT 11434 11486	The mortar shall be mixed for at least three minutes
+T921	CAUSE_EFFECT_RELATION 11434 11543	The mortar shall be mixed for at least three minutes after addition of water in the case of mechanical mixing
+T922	ROOT_SENTENCE 11434 11544	The mortar shall be mixed for at least three minutes after addition of water in the case of mechanical mixing.
+T923	KEY_C 12021 12035	In the case of
+T924	VARIABLE 12036 12047	sand gravel
+T925	CAUSE 12021 12047	In the case of sand gravel
+T926	VARIABLE 12048 12050	it
+T927	CONDITION 12051 12103	shall consist of a material approved by the Engineer
+T928	STATEMENT 12048 12103	it shall consist of a material approved by the Engineer
+T929	CAUSE_EFFECT_RELATION 12021 12103	In the case of sand gravel it shall consist of a material approved by the Engineer
+T930	ROOT_SENTENCE 12021 12104	In the case of sand gravel it shall consist of a material approved by the Engineer.
+T931	EFFECT 9423 9534	the principal address that consumers are expected to provide (e.g. to a supplier or a Price Comparison Website)
+T932	CAUSE_EFFECT_RELATION 9417 9589	It is the principal address that consumers are expected to provide (e.g. to a supplier or a Price Comparison Website) when identifying the energy supply they wish to switch
+T933	ROOT_SENTENCE 9417 9590	It is the principal address that consumers are expected to provide (e.g. to a supplier or a Price Comparison Website) when identifying the energy supply they wish to switch.
+T934	KEY_C 9784 9788	When
+T935	VARIABLE 9789 9792	CSS
+T936	CONDITION 9793 9839	receives an update to an MPL Address from MPAS
+T937	CONDITION 9843 9850	UK Link
+T938	STATEMENT 9789 9850	CSS receives an update to an MPL Address from MPAS or UK Link
+T939	OR 9793 9850	receives an update to an MPL Address from MPAS or UK Link
+T940	CAUSE 9784 9850	When CSS receives an update to an MPL Address from MPAS or UK Link
+T941	VARIABLE 9852 9855	CSS
+T942	CONDITION 9856 9902	applies the update to the relevant MPL Address
+T943	VARIABLE 9904 9969	retaining a record of the previous MPL Address for audit purposes
+T944	STATEMENT 9852 9902	CSS applies the update to the relevant MPL Address
+T945	AND 9852 9969	CSS applies the update to the relevant MPL Address, retaining a record of the previous MPL Address for audit purposes
+T946	CAUSE_EFFECT_RELATION 9784 9969	When CSS receives an update to an MPL Address from MPAS or UK Link, CSS applies the update to the relevant MPL Address, retaining a record of the previous MPL Address for audit purposes
+T947	ROOT_SENTENCE 9784 9970	When CSS receives an update to an MPL Address from MPAS or UK Link, CSS applies the update to the relevant MPL Address, retaining a record of the previous MPL Address for audit purposes.
+T948	KEY_C 13261 13275	In the case of
+T949	VARIABLE 13276 13296	a grounded conductor
+T950	VARIABLE 13298 13317	the charge released
+T951	CONDITION 13318 13357	is the total absolute spacecraft charge
+T952	CAUSE 13261 13296	In the case of a grounded conductor
+T953	STATEMENT 13298 13357	the charge released is the total absolute spacecraft charge
+T954	CAUSE_EFFECT_RELATION 13261 13357	In the case of a grounded conductor, the charge released is the total absolute spacecraft charge
+T955	ROOT_SENTENCE 13261 13358	In the case of a grounded conductor, the charge released is the total absolute spacecraft charge.
+T956	CONDITION 13796 13852	will provide justification against the original standard
+T957	KEY_C 13853 13863	from which
+T958	CONDITION 13864 13902	the tailored standard was derived from
+T959	CAUSE 13853 13902	from which the tailored standard was derived from
+T960	STATEMENT 13792 13852	PPE will provide justification against the original standard
+T961	CAUSE_EFFECT_RELATION 13756 13902	In the case of a tailored standard, PPE will provide justification against the original standard from which the tailored standard was derived from
+T962	ROOT_SENTENCE 13756 13903	In the case of a tailored standard, PPE will provide justification against the original standard from which the tailored standard was derived from.
+T142	KEY_C 13360 13374	In the case of
+T143	VARIABLE 13375 13397	any apparent conflicts
+T963	CONDITION 13398 13467	between content in Section 3.1 and requirements housed in Section 3.2
+T144	CONDITION 13471 13499	other requirements documents
+T145	VARIABLE 13501 13513	requirements
+T964	CONDITION 13514 13549	shall supersede Section 3.1 content
+T965	STATEMENT 13375 13499	any apparent conflicts between content in Section 3.1 and requirements housed in Section 3.2 or other requirements documents
+T966	OR 13398 13499	between content in Section 3.1 and requirements housed in Section 3.2 or other requirements documents
+T967	STATEMENT 13501 13549	requirements shall supersede Section 3.1 content
+T968	CAUSE 13360 13499	In the case of any apparent conflicts between content in Section 3.1 and requirements housed in Section 3.2 or other requirements documents
+T969	CAUSE_EFFECT_RELATION 13360 13549	In the case of any apparent conflicts between content in Section 3.1 and requirements housed in Section 3.2 or other requirements documents, requirements shall supersede Section 3.1 content
+T970	ROOT_SENTENCE 13360 13550	In the case of any apparent conflicts between content in Section 3.1 and requirements housed in Section 3.2 or other requirements documents, requirements shall supersede Section 3.1 content.
+T66	KEY_C 6188 6192	When
+T67	VARIABLE 6193 6203	a consumer
+T68	VARIABLE 6204 6225	switches the supplier
+T69	STATEMENT 6193 6225	a consumer switches the supplier
+T70	CAUSE 6188 6225	When a consumer switches the supplier
+T71	VARIABLE 6227 6247	the gaining supplier
+T72	CONDITION 6248 6272	submits a Switch Request
+T73	KEY_C 6274 6279	which
+T74	VARIABLE 6280 6287	the CSS
+T75	CONDITION 6288 6321	records as a Registration Request
+T76	KEY_C 6327 6332	which
+T77	CONDITION 6333 6419	passes through different states during the switch process, from Submitted to Completed
+T78	ROOT_SENTENCE 7825 8104	When a Switch Request is received, CSS validates it and if valid, records it as a Registration Request with state Validated, creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier.
+T79	AND 7451 7570	CSS validates it and if valid, sets the Registration Request state to Withdrawn and the Registration state to Cancelled
+T80	AND 7614 7683	CSS validates it and if valid sets the Registration state to Inactive
+T81	AND 7860 8103	CSS validates it and if valid, records it as a Registration Request with state Validated, creates a Registration with state Pending and an entry in the Objection Scheduler and sends out an Invitation to Intervene message to the losing supplier
+T82	VARIABLE 10914 10930	Such differences
+T83	CONDITION 10931 10949	are to be expected
+T465	VARIABLE 10955 10960	tools
+T466	CONDITION 10961 11034	will have to support users to help them create easy-to-use configurations
+T467	KEY_C 11035 11051	in the case that
+T549	VARIABLE 11052 11074	the same logical value
+T550	CONDITION 11075 11120	should go to multiple inconsistent parameters
+T551	STATEMENT 11052 11120	the same logical value should go to multiple inconsistent parameters
+T552	CAUSE 11035 11120	in the case that the same logical value should go to multiple inconsistent parameters
+T553	STATEMENT 10914 10949	Such differences are to be expected
+T554	STATEMENT 10955 11034	tools will have to support users to help them create easy-to-use configurations
+T555	AND 10914 11034	Such differences are to be expected, and tools will have to support users to help them create easy-to-use configurations
+T556	CAUSE_EFFECT_RELATION 10914 11120	Such differences are to be expected, and tools will have to support users to help them create easy-to-use configurations in the case that the same logical value should go to multiple inconsistent parameters
+T600	ROOT_SENTENCE 10914 11121	Such differences are to be expected, and tools will have to support users to help them create easy-to-use configurations in the case that the same logical value should go to multiple inconsistent parameters.
+T601	KEY_C 5351 5355	When
+T602	VARIABLE 5356 5400	cross-load-frequency-control-area redispatch
+T604	CONDITION 5401 5426	has already been modelled
+T683	STATEMENT 5356 5426	cross-load-frequency-control-area redispatch has already been modelled
+T684	CAUSE 5351 5426	When cross-load-frequency-control-area redispatch has already been modelled
+T685	VARIABLE 5428 5466	the total balance of the control areas
+T687	CONDITION 5479 5526	cross-load-frequency control area redispatching
+T688	ROOT_SENTENCE 7420 7571	When a Withdrawal is received, CSS validates it and if valid, sets the Registration Request state to Withdrawn and the Registration state to Cancelled.
+T689	ROOT_SENTENCE 7573 7684	When a Deactivation Request is received, CSS validates it and if valid sets the Registration state to Inactive.
+T694	CONDITION 5527 5599	is checked against the sum of the target balances of these control areas
+T695	STATEMENT 6227 6272	the gaining supplier submits a Switch Request
+T971	STATEMENT 6280 6321	the CSS records as a Registration Request
+T972	KEY_C 5467 5478	affected by
+T973	CAUSE 5467 5526	affected by cross-load-frequency control area redispatching
+T974	STATEMENT 5428 5599	the total balance of the control areas affected by cross-load-frequency control area redispatching is checked against the sum of the target balances of these control areas
+T975	CAUSE_EFFECT_RELATION 5351 5599	When cross-load-frequency-control-area redispatch has already been modelled, the total balance of the control areas affected by cross-load-frequency control area redispatching is checked against the sum of the target balances of these control areas
+T976	ROOT_SENTENCE 5351 5600	When cross-load-frequency-control-area redispatch has already been modelled, the total balance of the control areas affected by cross-load-frequency control area redispatching is checked against the sum of the target balances of these control areas.
+T977	KEY_C 6827 6831	When
+T978	VARIABLE 6832 6841	a message
+T979	CONDITION 6842 6866	is received from UK Link
+T980	CONDITION 6870 6874	MPAS
+T981	CONDITION 6875 6923	containing details of a change to the owning MAP
+T982	STATEMENT 6832 6923	a message is received from UK Link or MPAS containing details of a change to the owning MAP
+T983	OR 6842 6874	is received from UK Link or MPAS
+T984	CAUSE 6827 6923	When a message is received from UK Link or MPAS containing details of a change to the owning MAP
+T985	AND 6842 6923	is received from UK Link or MPAS containing details of a change to the owning MAP
+T986	VARIABLE 6925 6928	CSS
+T989	CONDITION 6929 6985	replicates the information it holds for the relevant RMP
+T991	STATEMENT 6925 6985	CSS replicates the information it holds for the relevant RMP
+T987	CAUSE_EFFECT_RELATION 6827 6985	When a message is received from UK Link or MPAS containing details of a change to the owning MAP, CSS replicates the information it holds for the relevant RMP
+T988	ROOT_SENTENCE 6827 6986	When a message is received from UK Link or MPAS containing details of a change to the owning MAP, CSS replicates the information it holds for the relevant RMP.
+T990	VARIABLE 12359 12382	All non-essential loads
+T992	CONDITION 12383 12418	shall be switched off automatically
+T993	KEY_C 12419 12433	in the case of
+T994	VARIABLE 12434 12439	a bus
+T995	VARIABLE 12443 12463	battery undervoltage
+T996	CONDITION 12464 12541	of more than 10 % below minimal range value for a duration of more than 50 ms
+T997	STATEMENT 12359 12418	All non-essential loads shall be switched off automatically
+T998	STATEMENT 12443 12541	battery undervoltage of more than 10 % below minimal range value for a duration of more than 50 ms
+T999	OR 12434 12541	a bus or battery undervoltage of more than 10 % below minimal range value for a duration of more than 50 ms
+T1000	CAUSE 12419 12541	in the case of a bus or battery undervoltage of more than 10 % below minimal range value for a duration of more than 50 ms
+T1001	CAUSE_EFFECT_RELATION 12359 12541	All non-essential loads shall be switched off automatically in the case of a bus or battery undervoltage of more than 10 % below minimal range value for a duration of more than 50 ms
+T1002	ROOT_SENTENCE 12359 12542	All non-essential loads shall be switched off automatically in the case of a bus or battery undervoltage of more than 10 % below minimal range value for a duration of more than 50 ms.
+T1003	VARIABLE 12544 12576	Changing the beam former weights
+T1004	CONDITION 12577 12617	shall be possible every 60 seconds (TBC)
+T1005	KEY_C 12618 12632	in the case of
+T1006	VARIABLE 12633 12662	scheduled switching sequences
+T1007	CAUSE 12618 12662	in the case of scheduled switching sequences
+T1008	STATEMENT 12544 12617	Changing the beam former weights shall be possible every 60 seconds (TBC)
+T1009	CAUSE_EFFECT_RELATION 12544 12662	Changing the beam former weights shall be possible every 60 seconds (TBC) in the case of scheduled switching sequences
+T1010	ROOT_SENTENCE 12544 12663	Changing the beam former weights shall be possible every 60 seconds (TBC) in the case of scheduled switching sequences.
+T1011	AND 2800 2859	can create a pipeline and write a configuration file for it
+T370	EFFECT 6274 6321	which the CSS records as a Registration Request
+T1012	EFFECT 6327 6419	which passes through different states during the switch process, from Submitted to Completed
+T1013	AND 6274 6419	which the CSS records as a Registration Request, and which passes through different states during the switch process, from Submitted to Completed
+T1014	AND 6227 6419	the gaining supplier submits a Switch Request, which the CSS records as a Registration Request, and which passes through different states during the switch process, from Submitted to Completed
+T1015	CAUSE_EFFECT_RELATION 6188 6419	When a consumer switches the supplier, the gaining supplier submits a Switch Request, which the CSS records as a Registration Request, and which passes through different states during the switch process, from Submitted to Completed
+T1016	ROOT_SENTENCE 6188 6420	When a consumer switches the supplier, the gaining supplier submits a Switch Request, which the CSS records as a Registration Request, and which passes through different states during the switch process, from Submitted to Completed.
+T1017	CAUSE_EFFECT_RELATION 11655 11749	it shall commence on the completed Section of the pour before the rest of the pour is finished
+T1018	CAUSE_EFFECT_RELATION 11607 11749	In the case of large areas or continuous pours, it shall commence on the completed Section of the pour before the rest of the pour is finished
+T1019	ROOT_SENTENCE 11607 11750	In the case of large areas or continuous pours, it shall commence on the completed Section of the pour before the rest of the pour is finished.
+T1020	VARIABLE 8111 8126	the system time
+T1021	CONDITION 8127 8178	reaches that of an entry in the Objection Scheduler
+T1022	VARIABLE 8187 8199	an objection
+T1023	CONDITION 8200 8218	having been raised
+T1024	STATEMENT 8187 8218	an objection having been raised
+T1025	KEY_C 8106 8110	When
+T1026	KEY_C 8179 8186	without
+T1027	NEGATION 8179 8218	without an objection having been raised
+T1028	STATEMENT 8111 8178	the system time reaches that of an entry in the Objection Scheduler
+T1029	CAUSE 8106 8178	When the system time reaches that of an entry in the Objection Scheduler
+T1030	AND 8106 8218	When the system time reaches that of an entry in the Objection Scheduler without an objection having been raised
+T1031	VARIABLE 8220 8223	CSS
+T1032	CONDITION 8224 8266	sets the Registration Request to Confirmed
+T1033	CONDITION 8268 8323	removes the relevant entry from the Objection Scheduler
+T1034	CONDITION 8328 8370	creates an entry in the Securing Scheduler
+T1035	AND 8268 8370	removes the relevant entry from the Objection Scheduler and creates an entry in the Securing Scheduler
+T1036	AND 8224 8370	sets the Registration Request to Confirmed, removes the relevant entry from the Objection Scheduler and creates an entry in the Securing Scheduler
+T1037	STATEMENT 8220 8370	CSS sets the Registration Request to Confirmed, removes the relevant entry from the Objection Scheduler and creates an entry in the Securing Scheduler
+T1038	CAUSE_EFFECT_RELATION 8106 8370	When the system time reaches that of an entry in the Objection Scheduler without an objection having been raised, CSS sets the Registration Request to Confirmed, removes the relevant entry from the Objection Scheduler and creates an entry in the Securing Scheduler
+T1039	ROOT_SENTENCE 8106 8371	When the system time reaches that of an entry in the Objection Scheduler without an objection having been raised, CSS sets the Registration Request to Confirmed, removes the relevant entry from the Objection Scheduler and creates an entry in the Securing Scheduler.
+T1040	CONDITION 8614 8629	with the reason
+T1041	AND 8579 8629	responds with a rejection together with the reason
+T1042	CAUSE_EFFECT_RELATION 13792 13902	PPE will provide justification against the original standard from which the tailored standard was derived from
+T130	ROOT_SENTENCE 4844 5169	When starting with a case year ahead, in which planned projects and planned unavailability are included and for which assumptions are used to forecast load and generation, refinement (i.e. model improvement and more accurate forecasts) can be achieved by updating these views with more recent and more up-to-date information.

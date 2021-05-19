@@ -1,0 +1,915 @@
+T1	VARIABLE 3 24	development test data
+T2	CONDITION 25 67	is intended to be used to qualify hardware
+T3	KEY_C 0 2	If
+T4	STATEMENT 3 67	development test data is intended to be used to qualify hardware
+T5	CAUSE 0 67	If development test data is intended to be used to qualify hardware
+T6	VARIABLE 69 79	its intent
+T7	CONDITION 80 100	shall be predeclared
+T8	STATEMENT 69 100	its intent shall be predeclared
+T9	CAUSE_EFFECT_RELATION 0 100	If development test data is intended to be used to qualify hardware, its intent shall be predeclared
+T10	ROOT_SENTENCE 0 101	If development test data is intended to be used to qualify hardware, its intent shall be predeclared.
+T11	VARIABLE 106 128	actual flight hardware
+T12	CONDITION 129 162	is used for qualification testing
+T13	KEY_C 103 105	If
+T14	VARIABLE 164 166	it
+T15	CONDITION 167 210	shall be in accordance with <TBD-L2-GW-069>
+T16	STATEMENT 164 210	it shall be in accordance with <TBD-L2-GW-069>
+T17	STATEMENT 106 162	actual flight hardware is used for qualification testing
+T18	CAUSE 103 162	If actual flight hardware is used for qualification testing
+T19	CAUSE_EFFECT_RELATION 103 210	If actual flight hardware is used for qualification testing, it shall be in accordance with <TBD-L2-GW-069>
+T20	ROOT_SENTENCE 103 211	If actual flight hardware is used for qualification testing, it shall be in accordance with <TBD-L2-GW-069>.
+T21	VARIABLE 216 225	the audit
+T22	CONDITION 226 266	requires additional analysis to complete
+T23	STATEMENT 216 266	the audit requires additional analysis to complete
+T24	VARIABLE 268 270	it
+T25	CONDITION 271 301	should be verified by analysis
+T26	STATEMENT 268 301	it should be verified by analysis
+T27	KEY_C 213 215	If
+T28	CAUSE 213 266	If the audit requires additional analysis to complete
+T29	CAUSE_EFFECT_RELATION 213 301	If the audit requires additional analysis to complete, it should be verified by analysis
+T30	ROOT_SENTENCE 213 302	If the audit requires additional analysis to complete, it should be verified by analysis.
+T31	VARIABLE 307 322	the solar array
+T32	CONDITION 323 360	is rotating in the space vehicle axes
+T33	KEY_C 304 306	If
+T34	VARIABLE 362 381	separate evaluation
+T35	CONDITION 382 419	for the main body and the solar array
+T36	STATEMENT 362 419	separate evaluation for the main body and the solar array
+T37	STATEMENT 307 360	the solar array is rotating in the space vehicle axes
+T38	CAUSE 304 360	If the solar array is rotating in the space vehicle axes
+T39	CAUSE_EFFECT_RELATION 304 419	If the solar array is rotating in the space vehicle axes, separate evaluation for the main body and the solar array
+T40	ROOT_SENTENCE 304 420	If the solar array is rotating in the space vehicle axes, separate evaluation for the main body and the solar array.
+T41	PUNCT 419 420	.
+T42	VARIABLE 425 438	the structure
+T43	CONDITION 439 473	is used as the return current path
+T44	KEY_C 422 424	If
+T45	VARIABLE 475 493	bonding provisions
+T46	CONDITION 494 583	shall be such that DC and AC voltage drops along power paths comply with clause 4.2.10.2c
+T47	STATEMENT 475 583	bonding provisions shall be such that DC and AC voltage drops along power paths comply with clause 4.2.10.2c
+T48	STATEMENT 425 473	the structure is used as the return current path
+T49	CAUSE 422 473	If the structure is used as the return current path
+T50	CAUSE_EFFECT_RELATION 422 583	If the structure is used as the return current path, bonding provisions shall be such that DC and AC voltage drops along power paths comply with clause 4.2.10.2c
+T51	ROOT_SENTENCE 422 584	If the structure is used as the return current path, bonding provisions shall be such that DC and AC voltage drops along power paths comply with clause 4.2.10.2c.
+T52	PUNCT 583 584	.
+T59	KEY_C 709 711	If
+T60	VARIABLE 712 727	the return line
+T61	CONDITION 728 806	is grounded at the power source in the actual installation (star distribution)
+T62	VARIABLE 808 835	the return line of the LISN
+T63	CONDITION 836 878	shall be grounded on the power source side
+T64	STATEMENT 808 878	the return line of the LISN shall be grounded on the power source side
+T65	KEY_C 1388 1390	If
+T66	VARIABLE 1391 1406	the power leads
+T67	CONDITION 1407 1445	are twisted in the actual installation
+T68	STATEMENT 1391 1445	the power leads are twisted in the actual installation
+T69	CAUSE 1388 1445	If the power leads are twisted in the actual installation
+T70	VARIABLE 1447 1451	they
+T71	CONDITION 1452 1484	shall be twisted up to the LISNs
+T72	STATEMENT 1447 1484	they shall be twisted up to the LISNs
+T73	CAUSE_EFFECT_RELATION 1388 1484	If the power leads are twisted in the actual installation, they shall be twisted up to the LISNs
+T74	PUNCT 1484 1485	.
+T75	ROOT_SENTENCE 1388 1485	If the power leads are twisted in the actual installation, they shall be twisted up to the LISNs.
+T76	VARIABLE 1490 1505	EUT performance
+T77	CONDITION 1506 1571	is monitored through installation of special circuitry in the EUT
+T78	STATEMENT 1490 1571	EUT performance is monitored through installation of special circuitry in the EUT
+T79	KEY_C 1487 1489	If
+T80	CAUSE 1487 1571	If EUT performance is monitored through installation of special circuitry in the EUT
+T82	CONDITION 1591 1623	shall not influence test results
+T83	STATEMENT 1573 1623	the modifications shall not influence test results
+T84	CAUSE_EFFECT_RELATION 1487 1623	If EUT performance is monitored through installation of special circuitry in the EUT, the modifications shall not influence test results
+T85	PUNCT 1623 1624	.
+T86	ROOT_SENTENCE 1487 1624	If EUT performance is monitored through installation of special circuitry in the EUT, the modifications shall not influence test results.
+T87	KEY_C 2001 2003	If
+T88	VARIABLE 2004 2032	a controlled video bandwidth
+T89	CONDITION 2033 2073	is available on the measurement receiver
+T90	STATEMENT 2004 2073	a controlled video bandwidth is available on the measurement receiver
+T91	CAUSE 2001 2073	If a controlled video bandwidth is available on the measurement receiver
+T92	VARIABLE 2075 2077	it
+T93	CONDITION 2078 2112	shall be set to its greatest value
+T94	STATEMENT 2075 2112	it shall be set to its greatest value
+T95	CAUSE_EFFECT_RELATION 2001 2112	If a controlled video bandwidth is available on the measurement receiver, it shall be set to its greatest value
+T96	ROOT_SENTENCE 2001 2113	If a controlled video bandwidth is available on the measurement receiver, it shall be set to its greatest value.
+T97	KEY_C 2115 2117	If
+T98	VARIABLE 2118 2137	receiver bandwidths
+T99	CONDITION 2138 2177	larger that those in Table 5?2 are used
+T100	STATEMENT 2118 2177	receiver bandwidths larger that those in Table 5?2 are used
+T101	CAUSE 2115 2177	If receiver bandwidths larger that those in Table 5?2 are used
+T102	VARIABLE 2182 2210	bandwidth correction factors
+T103	CONDITION 2211 2276	shall be applied to test data due to the use of larger bandwidths
+T104	STATEMENT 2182 2276	bandwidth correction factors shall be applied to test data due to the use of larger bandwidths
+T105	NEGATION 2179 2276	no bandwidth correction factors shall be applied to test data due to the use of larger bandwidths
+T106	CAUSE_EFFECT_RELATION 2115 2276	If receiver bandwidths larger that those in Table 5?2 are used, no bandwidth correction factors shall be applied to test data due to the use of larger bandwidths
+T107	ROOT_SENTENCE 2115 2277	If receiver bandwidths larger that those in Table 5?2 are used, no bandwidth correction factors shall be applied to test data due to the use of larger bandwidths.
+T108	KEY_C 2279 2281	If
+T109	VARIABLE 2282 2296	susceptibility
+T110	CONDITION 2297 2308	is observed
+T111	STATEMENT 2282 2308	susceptibility is observed
+T112	CAUSE 2279 2308	If susceptibility is observed
+T113	VARIABLE 2310 2345	determined levels of susceptibility
+T114	CAUSE 2346 2382	shall be recorded in the test report
+T115	STATEMENT 2310 2382	determined levels of susceptibility shall be recorded in the test report
+T116	CAUSE_EFFECT_RELATION 2279 2382	If susceptibility is observed, determined levels of susceptibility shall be recorded in the test report
+T117	ROOT_SENTENCE 2279 2383	If susceptibility is observed, determined levels of susceptibility shall be recorded in the test report.
+T118	VARIABLE 2388 2402	the spacecraft
+T119	CONDITION 2403 2431	is not powered during launch
+T120	KEY_C 2385 2387	If
+T121	CONDITION 2477 2489	be performed
+T122	NEGATION 2473 2489	not be performed
+T123	VARIABLE 2433 2467	EMC testing with the launch system
+T124	CONDITION 2468 2489	need not be performed
+T125	STATEMENT 2433 2489	EMC testing with the launch system need not be performed
+T126	STATEMENT 2388 2431	the spacecraft is not powered during launch
+T127	CAUSE 2385 2431	If the spacecraft is not powered during launch
+T128	CAUSE_EFFECT_RELATION 2385 2489	If the spacecraft is not powered during launch, EMC testing with the launch system need not be performed
+T129	ROOT_SENTENCE 2385 2490	If the spacecraft is not powered during launch, EMC testing with the launch system need not be performed.
+T133	KEY_C 13766 13768	If
+T134	VARIABLE 13769 13781	virtual fill
+T135	CONDITION 13782 13789	is used
+T136	STATEMENT 13769 13789	virtual fill is used
+T137	CAUSE 13766 13789	If virtual fill is used
+T138	VARIABLE 13791 13830	the length of the transmitted codeblock
+T139	CONDITION 13831 13875	is reduced by the length of the virtual fill
+T140	STATEMENT 13791 13875	the length of the transmitted codeblock is reduced by the length of the virtual fill
+T141	CAUSE_EFFECT_RELATION 13766 13875	If virtual fill is used, the length of the transmitted codeblock is reduced by the length of the virtual fill
+T142	ROOT_SENTENCE 13766 13876	If virtual fill is used, the length of the transmitted codeblock is reduced by the length of the virtual fill.
+T143	VARIABLE 13615 13622	a frame
+T145	NEGATION 13623 13652	is not correctly synchronized
+T146	STATEMENT 13615 13652	a frame is not correctly synchronized
+T147	KEY_C 13612 13614	If
+T148	CAUSE 13612 13652	If a frame is not correctly synchronized
+T149	KEY_C 13654 13658	then
+T150	VARIABLE 13659 13683	the Reed?Solomon decoder
+T151	CONDITION 13684 13739	can perform a meaningless error correction of the frame
+T152	CONDITION 13744 13763	deliver it as valid
+T153	AND 13684 13763	can perform a meaningless error correction of the frame and deliver it as valid
+T155	EFFECT 13654 13763	then the Reed?Solomon decoder can perform a meaningless error correction of the frame and deliver it as valid
+T156	CAUSE_EFFECT_RELATION 13612 13763	If a frame is not correctly synchronized, then the Reed?Solomon decoder can perform a meaningless error correction of the frame and deliver it as valid
+T157	ROOT_SENTENCE 13612 13764	If a frame is not correctly synchronized, then the Reed?Solomon decoder can perform a meaningless error correction of the frame and deliver it as valid.
+T158	VARIABLE 13506 13539	The Reed?Solomon frame validation
+T159	CONDITION 13540 13570	can only deliver a valid frame
+T160	KEY_C 13571 13573	if
+T161	VARIABLE 13574 13583	the frame
+T162	CONDITION 13584 13609	is correctly synchronized
+T163	STATEMENT 13574 13609	the frame is correctly synchronized
+T164	CAUSE 13571 13609	if the frame is correctly synchronized
+T165	STATEMENT 13506 13570	The Reed?Solomon frame validation can only deliver a valid frame
+T166	CAUSE_EFFECT_RELATION 13506 13609	The Reed?Solomon frame validation can only deliver a valid frame if the frame is correctly synchronized
+T167	ROOT_SENTENCE 13506 13610	The Reed?Solomon frame validation can only deliver a valid frame if the frame is correctly synchronized.
+T168	KEY_C 13403 13405	If
+T169	VARIABLE 13406 13441	the decoder?s correction capability
+T170	CONDITION 13442 13453	is exceeded
+T171	STATEMENT 13406 13453	the decoder?s correction capability is exceeded
+T172	CAUSE 13403 13453	If the decoder?s correction capability is exceeded
+T173	VARIABLE 13455 13478	undetected burst errors
+T174	CONDITION 13479 13503	can appear in the output
+T175	STATEMENT 13455 13503	undetected burst errors can appear in the output
+T176	CAUSE_EFFECT_RELATION 13403 13503	If the decoder?s correction capability is exceeded, undetected burst errors can appear in the output
+T177	ROOT_SENTENCE 13403 13504	If the decoder?s correction capability is exceeded, undetected burst errors can appear in the output.
+T178	VARIABLE 13319 13338	certain information
+T179	CONDITION 13339 13370	is available from other sources
+T180	KEY_C 13316 13318	If
+T181	STATEMENT 13319 13370	certain information is available from other sources
+T182	CAUSE 13316 13370	If certain information is available from other sources
+T183	VARIABLE 13372 13385	certain tests
+T184	CONDITION 13386 13400	can be deleted
+T185	STATEMENT 13372 13400	certain tests can be deleted
+T186	CAUSE_EFFECT_RELATION 13316 13400	If certain information is available from other sources, certain tests can be deleted
+T187	ROOT_SENTENCE 13316 13401	If certain information is available from other sources, certain tests can be deleted.
+T188	VARIABLE 13141 13164	the characteristic time
+T189	CONDITION 13172 13177	known
+T190	NEGATION 13165 13177	is not known
+T191	STATEMENT 13141 13177	the characteristic time is not known
+T192	KEY_C 13138 13140	If
+T193	CAUSE 13138 13177	If the characteristic time is not known
+T194	CONDITION 13255 13313	shall be performed in order to establish the test duration
+T195	VARIABLE 13179 13254	an analysis of the susceptibility of the material to hydrogen embrittlement
+T196	STATEMENT 13179 13313	an analysis of the susceptibility of the material to hydrogen embrittlement shall be performed in order to establish the test duration
+T197	CAUSE_EFFECT_RELATION 13138 13313	If the characteristic time is not known, an analysis of the susceptibility of the material to hydrogen embrittlement shall be performed in order to establish the test duration
+T199	KEY_C 13039 13041	If
+T200	VARIABLE 13042 13084	the transition temperatures of the polymer
+T201	CONDITION 13093 13098	known
+T202	NEGATION 13085 13098	are not known
+T203	STATEMENT 13042 13098	the transition temperatures of the polymer are not known
+T204	CAUSE 13039 13098	If the transition temperatures of the polymer are not known
+T205	VARIABLE 13100 13103	TGA
+T206	VARIABLE 13107 13116	DSC tests
+T207	CONDITION 13117 13135	shall be performed
+T208	STATEMENT 13107 13135	DSC tests shall be performed
+T209	OR 13100 13135	TGA or DSC tests shall be performed
+T210	CAUSE_EFFECT_RELATION 13039 13135	If the transition temperatures of the polymer are not known, TGA or DSC tests shall be performed
+T211	ROOT_SENTENCE 13039 13136	If the transition temperatures of the polymer are not known, TGA or DSC tests shall be performed.
+T212	VARIABLE 12924 12936	Requirements
+T213	CONDITION 12937 12973	shall be defined for the test set?up
+T214	STATEMENT 12924 12973	Requirements shall be defined for the test set?up
+T215	KEY_C 12974 12976	if
+T216	VARIABLE 12977 13006	gas dissolution in the liquid
+T217	CONDITION 13007 13036	is a parameter to be measured
+T218	STATEMENT 12977 13036	gas dissolution in the liquid is a parameter to be measured
+T219	CAUSE 12974 13036	if gas dissolution in the liquid is a parameter to be measured
+T220	CAUSE_EFFECT_RELATION 12924 13036	Requirements shall be defined for the test set?up if gas dissolution in the liquid is a parameter to be measured
+T221	ROOT_SENTENCE 12924 13037	Requirements shall be defined for the test set?up if gas dissolution in the liquid is a parameter to be measured.
+T222	KEY_C 12802 12804	If
+T223	VARIABLE 12805 12821	the requirements
+T224	CONDITION 12822 12861	specified in clause 4.1.2 cannot be met
+T225	VARIABLE 12863 12874	the samples
+T226	CONDITION 12875 12921	to be tested shall be approved by the customer
+T227	STATEMENT 12863 12921	the samples to be tested shall be approved by the customer
+T228	CAUSE 12802 12861	If the requirements specified in clause 4.1.2 cannot be met
+T229	CAUSE_EFFECT_RELATION 12802 12921	If the requirements specified in clause 4.1.2 cannot be met, the samples to be tested shall be approved by the customer
+T230	ROOT_SENTENCE 12802 12922	If the requirements specified in clause 4.1.2 cannot be met, the samples to be tested shall be approved by the customer.
+T248	KEY_C 2951 2953	if
+T249	VARIABLE 2954 2957	SHF
+T251	CONDITION 2974 2985	are present
+T252	STATEMENT 2961 2985	EHF payloads are present
+T253	OR 2954 2985	SHF or EHF payloads are present
+T254	CAUSE 2951 2985	if SHF or EHF payloads are present
+T255	VARIABLE 2903 2926	Additional requirements
+T256	CONDITION 2927 2950	can apply beyond 18 GHz
+T257	STATEMENT 2903 2950	Additional requirements can apply beyond 18 GHz
+T258	CAUSE_EFFECT_RELATION 2903 2985	Additional requirements can apply beyond 18 GHz if SHF or EHF payloads are present
+T259	ROOT_SENTENCE 2903 2986	Additional requirements can apply beyond 18 GHz if SHF or EHF payloads are present.
+T260	KEY_C 2988 2990	If
+T261	VARIABLE 2991 3004	suitable data
+T262	CONDITION 3013 3022	available
+T263	NEGATION 3005 3022	are not available
+T264	STATEMENT 2991 3022	suitable data are not available
+T265	CAUSE 2988 3022	If suitable data are not available
+T266	KEY_C 3024 3028	then
+T268	CONDITION 3055 3075	shall be implemented
+T269	STATEMENT 3029 3075	a material test programme shall be implemented
+T270	EFFECT 3024 3075	then a material test programme shall be implemented
+T271	CAUSE_EFFECT_RELATION 2988 3075	If suitable data are not available, then a material test programme shall be implemented
+T272	ROOT_SENTENCE 2988 3076	If suitable data are not available, then a material test programme shall be implemented.
+T273	KEY_C 3078 3080	If
+T274	VARIABLE 3081 3101	burst pressure tests
+T275	CONDITION 3102 3133	are performed at sub-unit level
+T276	STATEMENT 3081 3133	burst pressure tests are performed at sub-unit level
+T277	CAUSE 3078 3133	If burst pressure tests are performed at sub-unit level
+T278	VARIABLE 3135 3168	the burst pressure test processes
+T280	STATEMENT 3135 3249	the burst pressure test processes shall include all parts of the product including all joints, welds, end fittings
+T281	CAUSE_EFFECT_RELATION 3078 3249	If burst pressure tests are performed at sub-unit level, the burst pressure test processes shall include all parts of the product including all joints, welds, end fittings
+T282	ROOT_SENTENCE 3078 3250	If burst pressure tests are performed at sub-unit level, the burst pressure test processes shall include all parts of the product including all joints, welds, end fittings.
+T283	VARIABLE 3296 3317	constant acceleration
+T284	VARIABLE 3322 3336	acoustic tests
+T285	CONDITION 3337 3355	shall be performed
+T286	STATEMENT 3322 3355	acoustic tests shall be performed
+T287	AND 3296 3355	constant acceleration and acoustic tests shall be performed
+T288	KEY_C 12456 12458	If
+T289	VARIABLE 12459 12470	a component
+T290	CONDITION 12471 12543	has undergone a surface treatment to meet the compatibility requirements
+T291	STATEMENT 12459 12543	a component has undergone a surface treatment to meet the compatibility requirements
+T292	CAUSE 12456 12542	If a component has undergone a surface treatment to meet the compatibility requirement
+T293	VARIABLE 12545 12559	this component
+T294	CONDITION 12560 12639	shall undergo compatibility testing in conformance with clauses 4.1.2 and 4.1.3
+T295	STATEMENT 12545 12639	this component shall undergo compatibility testing in conformance with clauses 4.1.2 and 4.1.3
+T296	CAUSE_EFFECT_RELATION 12456 12639	If a component has undergone a surface treatment to meet the compatibility requirements, this component shall undergo compatibility testing in conformance with clauses 4.1.2 and 4.1.3
+T297	KEY_C 3252 3254	If
+T298	KEY_C 3358 3360	If
+T299	VARIABLE 3361 3372	the product
+T300	CONDITION 3373 3414	is independent and totally self-contained
+T301	KEY_NC 3416 3420	i.e.
+T302	CONDITION 3421 3456	able to match the final user’s need
+T303	NONE_CAUSAL 3416 3456	i.e. able to match the final user’s need
+T304	STATEMENT 3361 3414	the product is independent and totally self-contained
+T305	CAUSE 3358 3414	If the product is independent and totally self-contained
+T306	VARIABLE 3458 3460	it
+T307	CONDITION 3461 3485	should be so stated here
+T308	STATEMENT 3458 3485	it should be so stated here
+T309	CAUSE_EFFECT_RELATION 3358 3485	If the product is independent and totally self-contained, i.e. able to match the final user’s need, it should be so stated here
+T310	ROOT_SENTENCE 3358 3486	If the product is independent and totally self-contained, i.e. able to match the final user’s need, it should be so stated here.
+T311	KEY_C 3488 3490	If
+T312	VARIABLE 3491 3497	the TS
+T313	CONDITION 3498 3559	defines a product that is a component of a higher tier system
+T314	STATEMENT 3491 3559	the TS defines a product that is a component of a higher tier system
+T315	CAUSE 3488 3559	If the TS defines a product that is a component of a higher tier system
+T316	VARIABLE 3561 3567	the TS
+T317	CONDITION 3568 3620	shall recall the related needs of that larger system
+T318	CONDITION 3625 3701	shall describe the identified interfaces between that system and the product
+T319	STATEMENT 3561 3620	the TS shall recall the related needs of that larger system
+T320	AND 3561 3701	the TS shall recall the related needs of that larger system and shall describe the identified interfaces between that system and the product
+T321	CAUSE_EFFECT_RELATION 3488 3701	If the TS defines a product that is a component of a higher tier system, the TS shall recall the related needs of that larger system and shall describe the identified interfaces between that system and the product
+T322	VARIABLE 3704 3725	The inspection report
+T323	CONDITION 3726 3760	may be embedded in the Test Report
+T324	KEY_C 3761 3763	if
+T325	VARIABLE 3764 3794	the verification by Inspection
+T326	CONDITION 3795 3837	is carried-out in combination with Testing
+T327	STATEMENT 3764 3837	the verification by Inspection is carried-out in combination with Testing
+T328	CAUSE 3761 3837	if the verification by Inspection is carried-out in combination with Testing
+T329	STATEMENT 3704 3760	The inspection report may be embedded in the Test Report
+T330	CAUSE_EFFECT_RELATION 3704 3837	The inspection report may be embedded in the Test Report if the verification by Inspection is carried-out in combination with Testing
+T331	ROOT_SENTENCE 3704 3838	The inspection report may be embedded in the Test Report if the verification by Inspection is carried-out in combination with Testing.
+T332	KEY_C 4057 4059	If
+T333	VARIABLE 4060 4065	tests
+T334	CONDITION 4066 4097	are performed at assembly level
+T335	STATEMENT 4060 4097	tests are performed at assembly level
+T336	CAUSE 4057 4097	If tests are performed at assembly level
+T337	VARIABLE 4099 4111	measurements
+T339	STATEMENT 4099 4189	measurements shall be performed to verify the load paths in the tested composite component
+T340	CAUSE_EFFECT_RELATION 4057 4189	If tests are performed at assembly level, measurements shall be performed to verify the load paths in the tested composite component
+T341	ROOT_SENTENCE 4057 4190	If tests are performed at assembly level, measurements shall be performed to verify the load paths in the tested composite component.
+T342	KEY_C 4252 4254	if
+T343	CONDITION 4255 4279	agreed with the customer
+T344	CAUSE 4252 4279	if agreed with the customer
+T345	VARIABLE 4192 4211	Composite structure
+T346	CONDITION 4212 4251	may be exempted from acceptance testing
+T347	STATEMENT 4192 4251	Composite structure may be exempted from acceptance testing
+T348	CAUSE_EFFECT_RELATION 4192 4279	Composite structure may be exempted from acceptance testing if agreed with the customer
+T349	ROOT_SENTENCE 4192 4280	Composite structure may be exempted from acceptance testing if agreed with the customer.
+T350	KEY_C 4282 4284	If
+T351	VARIABLE 4285 4308	the delivered CAD model
+T352	CONDITION 4309 4351	includes the 2D drawings for manufacturing
+T353	CONDITION 4355 4363	assembly
+T354	STATEMENT 4285 4351	the delivered CAD model includes the 2D drawings for manufacturing
+T355	OR 4285 4363	the delivered CAD model includes the 2D drawings for manufacturing or assembly
+T356	CAUSE 4282 4363	If the delivered CAD model includes the 2D drawings for manufacturing or assembly
+T357	VARIABLE 4365 4385	their identification
+T358	CONDITION 4386 4401	shall be listed
+T359	CONDITION 4406 4431	present the latest issues
+T360	STATEMENT 4365 4401	their identification shall be listed
+T361	AND 4365 4431	their identification shall be listed and present the latest issues
+T362	CAUSE_EFFECT_RELATION 4282 4431	If the delivered CAD model includes the 2D drawings for manufacturing or assembly, their identification shall be listed and present the latest issues
+T363	ROOT_SENTENCE 4282 4432	If the delivered CAD model includes the 2D drawings for manufacturing or assembly, their identification shall be listed and present the latest issues.
+T364	VARIABLE 4514 4518	this
+T365	CONDITION 4519 4537	shall be indicated
+T366	STATEMENT 4514 4537	this shall be indicated
+T367	KEY_C 4434 4436	If
+T368	VARIABLE 4437 4446	the model
+T369	CONDITION 4447 4512	can be used with more than a specific code and or version thereof
+T370	STATEMENT 4437 4512	the model can be used with more than a specific code and or version thereof
+T371	CAUSE 4434 4512	If the model can be used with more than a specific code and or version thereof
+T372	CAUSE_EFFECT_RELATION 4434 4537	If the model can be used with more than a specific code and or version thereof, this shall be indicated
+T373	ROOT_SENTENCE 4434 4538	If the model can be used with more than a specific code and or version thereof, this shall be indicated.
+T374	VARIABLE 4609 4613	this
+T375	CONDITION 4614 4640	shall be explicitly stated
+T376	STATEMENT 4609 4640	this shall be explicitly stated
+T377	KEY_C 4540 4542	If
+T378	VARIABLE 4546 4569	significant assumptions
+T379	CONDITION 4570 4607	are used in the modelling of the item
+T380	STATEMENT 4546 4607	significant assumptions are used in the modelling of the item
+T381	NEGATION 4543 4607	no significant assumptions are used in the modelling of the item
+T382	CAUSE 4540 4607	If no significant assumptions are used in the modelling of the item
+T383	CAUSE_EFFECT_RELATION 4540 4640	If no significant assumptions are used in the modelling of the item, this shall be explicitly stated
+T384	ROOT_SENTENCE 4540 4641	If no significant assumptions are used in the modelling of the item, this shall be explicitly stated.
+T385	VARIABLE 4646 4660	balance masses
+T386	CONDITION 4661 4685	are present in the model
+T387	VARIABLE 4687 4700	a description
+T388	CONDITION 4701 4732	shall be provided in the CADMDD
+T389	STATEMENT 4687 4732	a description shall be provided in the CADMDD
+T390	STATEMENT 4646 4685	balance masses are present in the model
+T391	KEY_C 4643 4645	If
+T392	CAUSE 4643 4685	If balance masses are present in the model
+T393	CAUSE_EFFECT_RELATION 4643 4732	If balance masses are present in the model, a description shall be provided in the CADMDD
+T394	ROOT_SENTENCE 4643 4733	If balance masses are present in the model, a description shall be provided in the CADMDD.
+T395	VARIABLE 4738 4762	the structure properties
+T396	VARIABLE 4766 4794	the environmental conditions
+T397	CONDITION 4795 4807	have changed
+T398	STATEMENT 4766 4807	the environmental conditions have changed
+T399	OR 4738 4807	the structure properties or the environmental conditions have changed
+T400	CAUSE 4735 4807	If the structure properties or the environmental conditions have changed
+T401	VARIABLE 4809 4847	the subclauses affected by the changes
+T402	CONDITION 4848 4866	shall be indicated
+T403	CONDITION 4871 4901	the changes shall be described
+T404	STATEMENT 4809 4866	the subclauses affected by the changes shall be indicated
+T405	AND 4809 4901	the subclauses affected by the changes shall be indicated and the changes shall be described
+T406	CAUSE_EFFECT_RELATION 4735 4901	If the structure properties or the environmental conditions have changed, the subclauses affected by the changes shall be indicated and the changes shall be described
+T407	ROOT_SENTENCE 4735 4902	If the structure properties or the environmental conditions have changed, the subclauses affected by the changes shall be indicated and the changes shall be described.
+T408	VARIABLE 4907 4916	the model
+T409	CONDITION 4917 4959	can be used with more than a specific code
+T410	CONDITION 4967 4985	shall be indicated
+T411	VARIABLE 4961 4966	these
+T412	STATEMENT 4961 4985	these shall be indicated
+T413	STATEMENT 4907 4959	the model can be used with more than a specific code
+T414	KEY_C 4904 4906	If
+T415	CAUSE 4904 4959	If the model can be used with more than a specific code
+T416	CAUSE_EFFECT_RELATION 4904 4985	If the model can be used with more than a specific code, these shall be indicated
+T417	ROOT_SENTENCE 4904 4986	If the model can be used with more than a specific code, these shall be indicated.
+T418	VARIABLE 4991 5009	special parameters
+T419	CONDITION 5010 5070	are required to correctly use the model with a specific code
+T420	STATEMENT 4991 5070	special parameters are required to correctly use the model with a specific code
+T421	KEY_C 4988 4990	If
+T422	CAUSE 4988 5070	If special parameters are required to correctly use the model with a specific code
+T423	VARIABLE 5077 5093	these parameters
+T424	CONDITION 5094 5112	shall be specified
+T425	STATEMENT 5077 5112	these parameters shall be specified
+T426	KEY_C 5072 5076	then
+T427	EFFECT 5072 5112	then these parameters shall be specified
+T428	CAUSE_EFFECT_RELATION 4988 5112	If special parameters are required to correctly use the model with a specific code, then these parameters shall be specified
+T430	KEY_C 5115 5117	If
+T431	VARIABLE 5121 5144	significant assumptions
+T432	CONDITION 5145 5188	have been used in the modelling of the item
+T433	STATEMENT 5121 5188	significant assumptions have been used in the modelling of the item
+T434	NEGATION 5118 5188	no significant assumptions have been used in the modelling of the item
+T435	CAUSE 5115 5188	If no significant assumptions have been used in the modelling of the item
+T440	VARIABLE 5317 5332	structural mass
+T441	CONDITION 5333 5357	is included in the model
+T442	STATEMENT 5317 5357	structural mass is included in the model
+T443	NEGATION 5314 5357	no structural mass is included in the model
+T444	CAUSE 5311 5357	If no structural mass is included in the model
+T445	KEY_C 5311 5313	If
+T446	VARIABLE 5359 5363	this
+T447	CONDITION 5364 5392	shall be explicitly declared
+T448	STATEMENT 5359 5392	this shall be explicitly declared
+T449	CAUSE_EFFECT_RELATION 5311 5392	If no structural mass is included in the model, this shall be explicitly declared
+T450	ROOT_SENTENCE 5311 5393	If no structural mass is included in the model, this shall be explicitly declared.
+T451	VARIABLE 5458 5471	a description
+T452	CONDITION 5472 5489	shall be provided
+T453	STATEMENT 5458 5489	a description shall be provided
+T454	VARIABLE 5398 5431	distributed non?structural masses
+T455	CONDITION 5432 5456	are present in the model
+T456	STATEMENT 5398 5456	distributed non?structural masses are present in the model
+T457	CAUSE 5395 5456	If distributed non?structural masses are present in the model
+T458	CAUSE_EFFECT_RELATION 5395 5489	If distributed non?structural masses are present in the model, a description shall be provided
+T459	ROOT_SENTENCE 5395 5490	If distributed non?structural masses are present in the model, a description shall be provided.
+T460	KEY_C 5395 5397	If
+T461	VARIABLE 5495 5502	a model
+T462	CONDITION 5503 5510	changes
+T463	VARIABLE 5512 5523	the changes
+T464	CONDITION 5524 5542	shall be described
+T465	STATEMENT 5512 5542	the changes shall be described
+T466	STATEMENT 5495 5510	a model changes
+T468	CAUSE 5492 5510	If a model changes
+T467	KEY_C 5492 5494	If
+T469	CAUSE_EFFECT_RELATION 5492 5542	If a model changes, the changes shall be described
+T470	ROOT_SENTENCE 5492 5543	If a model changes, the changes shall be described.
+T471	VARIABLE 5548 5571	additional model checks
+T472	CONDITION 5572 5614	have been performed on the delivered model
+T473	STATEMENT 5548 5614	additional model checks have been performed on the delivered model
+T474	KEY_C 5545 5547	If
+T475	CAUSE 5545 5614	If additional model checks have been performed on the delivered model
+T476	VARIABLE 5621 5638	the check results
+T477	CONDITION 5639 5658	shall be documented
+T478	CONDITION 5660 5668	numbered
+T479	CONDITION 5673 5682	addressed
+T480	KEY_C 5616 5620	then
+T481	STATEMENT 5621 5658	the check results shall be documented
+T482	AND 5621 5668	the check results shall be documented, numbered
+T483	AND 5621 5682	the check results shall be documented, numbered and addressed
+T484	EFFECT 5616 5682	then the check results shall be documented, numbered and addressed
+T485	CAUSE_EFFECT_RELATION 5545 5682	If additional model checks have been performed on the delivered model, then the check results shall be documented, numbered and addressed
+T486	ROOT_SENTENCE 5545 5683	If additional model checks have been performed on the delivered model, then the check results shall be documented, numbered and addressed.
+T487	VARIABLE 5926 5949	significant assumptions
+T488	CONDITION 5950 5993	have been used in the modelling of the item
+T489	VARIABLE 5995 5999	this
+T490	CONDITION 6000 6029	shall be explicitly indicated
+T491	STATEMENT 5995 6029	this shall be explicitly indicated
+T492	STATEMENT 5926 5993	significant assumptions have been used in the modelling of the item
+T493	NEGATION 5923 5993	no significant assumptions have been used in the modelling of the item
+T494	CAUSE 5920 5993	If no significant assumptions have been used in the modelling of the item
+T495	KEY_C 5920 5922	If
+T496	CAUSE_EFFECT_RELATION 5920 6029	If no significant assumptions have been used in the modelling of the item, this shall be explicitly indicated
+T497	ROOT_SENTENCE 5920 6030	If no significant assumptions have been used in the modelling of the item, this shall be explicitly indicated.
+T498	VARIABLE 6035 6072	any other yield and failure criterion
+T499	CONDITION 6073 6083	is applied
+T500	STATEMENT 6035 6083	any other yield and failure criterion is applied
+T501	CAUSE 6032 6083	If any other yield and failure criterion is applied
+T502	KEY_C 6032 6034	If
+T503	VARIABLE 6085 6111	proper stress index values
+T504	CONDITION 6112 6131	shall be documented
+T505	KEY_NC 6133 6137	e.g.
+T506	VARIABLE 6138 6151	failure index
+T507	CONDITION 6152 6166	for composites
+T508	NONE_CAUSAL 6133 6166	e.g. failure index for composites
+T509	STATEMENT 6085 6131	proper stress index values shall be documented
+T510	CAUSE_EFFECT_RELATION 6032 6167	If any other yield and failure criterion is applied, proper stress index values shall be documented (e.g. failure index for composites)
+T511	ROOT_SENTENCE 6032 6168	If any other yield and failure criterion is applied, proper stress index values shall be documented (e.g. failure index for composites).
+T512	VARIABLE 6170 6177	The SSA
+T513	CONDITION 6187 6226	include the information in this section
+T514	NEGATION 6178 6226	need not include the information in this section
+T515	STATEMENT 6170 6226	The SSA need not include the information in this section
+T516	KEY_C 6227 6229	if
+T517	VARIABLE 6230 6247	fracture analysis
+T518	CONDITION 6255 6264	performed
+T519	NEGATION 6248 6264	is not performed
+T520	STATEMENT 6230 6264	fracture analysis is not performed
+T521	CAUSE 6227 6264	if fracture analysis is not performed
+T522	CAUSE_EFFECT_RELATION 6170 6264	The SSA need not include the information in this section if fracture analysis is not performed
+T523	ROOT_SENTENCE 6170 6265	The SSA need not include the information in this section if fracture analysis is not performed.
+T524	VARIABLE 6270 6290	a mathematical model
+T525	CONDITION 6291 6327	is used to perform buckling analysis
+T526	KEY_C 6267 6269	If
+T527	STATEMENT 6270 6327	a mathematical model is used to perform buckling analysis
+T528	CAUSE 6267 6327	If a mathematical model is used to perform buckling analysis
+T529	VARIABLE 6329 6345	the related MMDD
+T530	CONDITION 6346 6365	shall be referenced
+T531	STATEMENT 6329 6365	the related MMDD shall be referenced
+T532	CAUSE_EFFECT_RELATION 6267 6365	If a mathematical model is used to perform buckling analysis, the related MMDD shall be referenced
+T533	ROOT_SENTENCE 6267 6366	If a mathematical model is used to perform buckling analysis, the related MMDD shall be referenced.
+T534	VARIABLE 6368 6377	Reference
+T535	CONDITION 6378 6415	shall be made to applicable documents
+T536	CONDITION 6420 6429	available
+T537	KEY_C 6417 6419	if
+T538	CAUSE 6417 6429	if available
+T539	STATEMENT 6368 6415	Reference shall be made to applicable documents
+T540	CAUSE_EFFECT_RELATION 6368 6429	Reference shall be made to applicable documents, if available
+T541	ROOT_SENTENCE 6368 6430	Reference shall be made to applicable documents, if available.
+T542	KEY_C 6432 6434	If
+T543	VARIABLE 6435 6462	test analytical predictions
+T544	CONDITION 6463 6484	have been carried out
+T545	STATEMENT 6435 6484	test analytical predictions have been carried out
+T546	CAUSE 6432 6484	If test analytical predictions have been carried out
+T547	VARIABLE 6486 6492	the TE
+T548	CONDITION 6493 6533	shall summarize the main aspects of them
+T549	CONDITION 6538 6580	reference documentation shall be indicated
+T550	STATEMENT 6486 6533	the TE shall summarize the main aspects of them
+T551	AND 6486 6580	the TE shall summarize the main aspects of them and reference documentation shall be indicated
+T552	CAUSE_EFFECT_RELATION 6432 6580	If test analytical predictions have been carried out, the TE shall summarize the main aspects of them and reference documentation shall be indicated
+T553	ROOT_SENTENCE 6432 6581	If test analytical predictions have been carried out, the TE shall summarize the main aspects of them and reference documentation shall be indicated.
+T554	KEY_C 6583 6585	If
+T555	VARIABLE 6586 6613	configuration discrepancies
+T556	CONDITION 6614 6626	were present
+T557	VARIABLE 6628 6634	the TE
+T560	STATEMENT 6586 6626	configuration discrepancies were present
+T561	CAUSE 6583 6626	If configuration discrepancies were present
+T562	CAUSE_EFFECT_RELATION 6583 6725	If configuration discrepancies were present, the TE shall include copies of the formal discrepancy reports, including rationale for acceptance
+T563	ROOT_SENTENCE 6583 6726	If configuration discrepancies were present, the TE shall include copies of the formal discrepancy reports, including rationale for acceptance.
+T564	VARIABLE 6731 6739	4.2.3.5a
+T565	CONDITION 6747 6750	met
+T566	NEGATION 6740 6750	is not met
+T567	STATEMENT 6731 6750	4.2.3.5a is not met
+T568	CAUSE 6728 6750	If 4.2.3.5a is not met
+T569	KEY_C 6728 6730	If
+T570	VARIABLE 6752 6764	the hardware
+T571	CONDITION 6765 6859	shall be submitted to re?acceptance as specified in clause 4.2.4.3 prior to acceptance for use
+T572	STATEMENT 6752 6859	the hardware shall be submitted to re?acceptance as specified in clause 4.2.4.3 prior to acceptance for use
+T573	CAUSE_EFFECT_RELATION 6728 6860	If 4.2.3.5a is not met, the hardware shall be submitted to re?acceptance as specified in clause 4.2.4.3 prior to acceptance for use.
+T574	ROOT_SENTENCE 6728 6860	If 4.2.3.5a is not met, the hardware shall be submitted to re?acceptance as specified in clause 4.2.4.3 prior to acceptance for use.
+T582	KEY_C 7336 7338	If
+T583	VARIABLE 7339 7363	single points of failure
+T584	CONDITION 7371 7381	be avoided
+T585	NEGATION 7364 7381	cannot be avoided
+T586	STATEMENT 7339 7381	single points of failure cannot be avoided
+T587	CAUSE 7336 7381	If single points of failure cannot be avoided
+T588	VARIABLE 7383 7387	they
+T589	CONDITION 7388 7422	shall be justified by the supplier
+T590	CONDITION 7427 7451	approved by the customer
+T591	AND 7388 7451	shall be justified by the supplier and approved by the customer
+T592	STATEMENT 7383 7451	they shall be justified by the supplier and approved by the customer
+T593	CAUSE_EFFECT_RELATION 7336 7451	If single points of failure cannot be avoided, they shall be justified by the supplier and approved by the customer
+T594	ROOT_SENTENCE 7336 7452	If single points of failure cannot be avoided, they shall be justified by the supplier and approved by the customer.
+T595	KEY_C 7454 7456	If
+T596	VARIABLE 7457 7480	operational constraints
+T597	CONDITION 7481 7509	are imposed by the mechanism
+T598	STATEMENT 7457 7509	operational constraints are imposed by the mechanism
+T599	CAUSE 7454 7509	If operational constraints are imposed by the mechanism
+T600	VARIABLE 7511 7515	they
+T601	CONDITION 7516 7535	shall be identified
+T602	CONDITION 7537 7546	justified
+T603	CONDITION 7551 7575	approved by the customer
+T604	AND 7537 7575	justified and approved by the customer
+T605	AND 7516 7575	shall be identified, justified and approved by the customer
+T606	STATEMENT 7511 7575	they shall be identified, justified and approved by the customer
+T607	CAUSE_EFFECT_RELATION 7454 7575	If operational constraints are imposed by the mechanism, they shall be identified, justified and approved by the customer
+T608	ROOT_SENTENCE 7454 7576	If operational constraints are imposed by the mechanism, they shall be identified, justified and approved by the customer.
+T609	KEY_C 7835 7837	If
+T610	VARIABLE 7838 7853	bearing preload
+T611	CONDITION 7861 7900	measured after final mechanism assembly
+T612	NEGATION 7854 7900	is not measured after final mechanism assembly
+T613	STATEMENT 7838 7900	bearing preload is not measured after final mechanism assembly
+T614	CAUSE 7835 7900	If bearing preload is not measured after final mechanism assembly
+T615	VARIABLE 7902 7904	it
+T616	CONDITION 7905 7972	shall be assessed by means of measurements approved by the customer
+T617	STATEMENT 7902 7972	it shall be assessed by means of measurements approved by the customer
+T618	CAUSE_EFFECT_RELATION 7835 7972	If bearing preload is not measured after final mechanism assembly, it shall be assessed by means of measurements approved by the customer
+T619	KEY_C 8035 8037	if
+T620	VARIABLE 8038 8046	latching
+T621	CONDITION 8054 8098	achieved on the initial completion of motion
+T622	NEGATION 8047 8098	is not achieved on the initial completion of motion
+T623	CAUSE 8035 8098	if latching is not achieved on the initial completion of motion
+T624	VARIABLE 7975 7985	The design
+T625	CONDITION 7996 8034	prevent subsequent successful latching
+T626	NEGATION 7986 8034	shall not prevent subsequent successful latching
+T627	STATEMENT 7975 8034	The design shall not prevent subsequent successful latching
+T628	STATEMENT 8038 8098	latching is not achieved on the initial completion of motion
+T629	CAUSE_EFFECT_RELATION 7975 8098	The design shall not prevent subsequent successful latching if latching is not achieved on the initial completion of motion
+T630	ROOT_SENTENCE 7975 8099	The design shall not prevent subsequent successful latching if latching is not achieved on the initial completion of motion.
+T631	KEY_C 12259 12261	If
+T632	VARIABLE 12262 12271	the label
+T633	CONDITION 12279 12331	be placed between the inner and outer packaging film
+T634	NEGATION 12272 12331	cannot be placed between the inner and outer packaging film
+T635	STATEMENT 12262 12331	the label cannot be placed between the inner and outer packaging film
+T636	CAUSE 12259 12331	If the label cannot be placed between the inner and outer packaging film
+T637	VARIABLE 12333 12342	the label
+T638	CONDITION 12343 12377	shall be enclosed in a plastic bag
+T639	CONDITION 12381 12411	between layers of plastic film
+T640	CONDITION 12416 12453	secured to the outside of the package
+T641	OR 12343 12411	shall be enclosed in a plastic bag or between layers of plastic film
+T642	AND 12343 12453	shall be enclosed in a plastic bag or between layers of plastic film and secured to the outside of the package
+T643	STATEMENT 12333 12453	the label shall be enclosed in a plastic bag or between layers of plastic film and secured to the outside of the package
+T644	CAUSE_EFFECT_RELATION 12259 12453	If the label cannot be placed between the inner and outer packaging film, the label shall be enclosed in a plastic bag or between layers of plastic film and secured to the outside of the package
+T645	ROOT_SENTENCE 12259 12454	If the label cannot be placed between the inner and outer packaging film, the label shall be enclosed in a plastic bag or between layers of plastic film and secured to the outside of the package.
+T646	VARIABLE 12135 12145	desiccants
+T647	VARIABLE 12149 12168	humidity indicators
+T648	OR 12135 12168	desiccants or humidity indicators
+T649	CONDITION 12169 12217	are required for additional corrosion protection
+T650	KEY_C 12132 12134	If
+T651	CAUSE 12132 12217	If desiccants or humidity indicators are required for additional corrosion protection
+T652	VARIABLE 12219 12223	they
+T653	CONDITION 12224 12256	shall be placed in the outer bag
+T654	STATEMENT 12219 12256	they shall be placed in the outer bag
+T655	CAUSE_EFFECT_RELATION 12132 12256	If desiccants or humidity indicators are required for additional corrosion protection, they shall be placed in the outer bag
+T656	ROOT_SENTENCE 12132 12257	If desiccants or humidity indicators are required for additional corrosion protection, they shall be placed in the outer bag.
+T657	KEY_C 11986 11988	If
+T658	VARIABLE 11992 12002	filtration
+T659	CONDITION 12003 12033	is used in determining the NVR
+T660	STATEMENT 11992 12033	filtration is used in determining the NVR
+T661	NEGATION 11989 12033	no filtration is used in determining the NVR
+T662	CAUSE 11986 12033	If no filtration is used in determining the NVR
+T663	VARIABLE 12035 12084	the requirements on the maximum allowed NVR level
+T664	CONDITION 12085 12129	shall be the same as when filtration is used
+T665	STATEMENT 12035 12129	the requirements on the maximum allowed NVR level shall be the same as when filtration is used
+T666	CAUSE_EFFECT_RELATION 11986 12129	If no filtration is used in determining the NVR, the requirements on the maximum allowed NVR level shall be the same as when filtration is used
+T667	ROOT_SENTENCE 11986 12130	If no filtration is used in determining the NVR, the requirements on the maximum allowed NVR level shall be the same as when filtration is used.
+T668	KEY_C 11943 11945	if
+T669	VARIABLE 11946 11983	required for the specific application
+T670	CAUSE 11943 11983	if required for the specific application
+T671	VARIABLE 11879 11887	The oven
+T672	CONDITION 11888 11903	shall be closed
+T673	CONDITION 11905 11911	purged
+T674	CONDITION 11916 11942	filled with inert test gas
+T675	AND 11905 11942	purged and filled with inert test gas
+T676	AND 11888 11942	shall be closed, purged and filled with inert test gas
+T677	STATEMENT 11879 11942	The oven shall be closed, purged and filled with inert test gas
+T678	CAUSE_EFFECT_RELATION 11879 11983	The oven shall be closed, purged and filled with inert test gas if required for the specific application
+T679	ROOT_SENTENCE 11879 11984	The oven shall be closed, purged and filled with inert test gas if required for the specific application.
+T682	KEY_C 11695 11702	only if
+T683	VARIABLE 11703 11726	the process of abrasion
+T684	CONDITION 11736 11789	lead to unacceptable damage of the item being cleaned
+T685	NEGATION 11727 11789	does not lead to unacceptable damage of the item being cleaned
+T686	STATEMENT 11703 11789	the process of abrasion does not lead to unacceptable damage of the item being cleaned
+T687	CAUSE 11695 11789	only if the process of abrasion does not lead to unacceptable damage of the item being cleaned
+T688	VARIABLE 11652 11675	Mechanical pre?cleaning
+T689	CONDITION 11676 11694	shall be performed
+T690	STATEMENT 11652 11694	Mechanical pre?cleaning shall be performed
+T691	KEY_C 11527 11529	If
+T692	VARIABLE 11530 11547	the final rinsing
+T693	CONDITION 11555 11610	compatible with the operational fluid in the operations
+T694	NEGATION 11548 11610	is not compatible with the operational fluid in the operations
+T695	STATEMENT 11530 11610	the final rinsing is not compatible with the operational fluid in the operations
+T696	CAUSE 11527 11610	If the final rinsing is not compatible with the operational fluid in the operations
+T697	VARIABLE 11612 11649	remove any residual rinsing solutions
+T698	CAUSE_EFFECT_RELATION 11527 11649	If the final rinsing is not compatible with the operational fluid in the operations, remove any residual rinsing solutions
+T699	ROOT_SENTENCE 11527 11650	If the final rinsing is not compatible with the operational fluid in the operations, remove any residual rinsing solutions.
+T706	KEY_C 11240 11242	if
+T707	VARIABLE 11247 11268	functionally required
+T708	NEGATION 11243 11268	not functionally required
+T709	CAUSE 11240 11268	if not functionally required
+T710	VARIABLE 11196 11202	Valves
+T711	VARIABLE 11207 11217	regulators
+T712	AND 11196 11217	Valves and regulators
+T713	CONDITION 11218 11238	shall avoid cavities
+T714	STATEMENT 11196 11238	Valves and regulators shall avoid cavities
+T715	CAUSE_EFFECT_RELATION 11196 11268	Valves and regulators shall avoid cavities, if not functionally required
+T716	ROOT_SENTENCE 11196 11269	Valves and regulators shall avoid cavities, if not functionally required.
+T717	KEY_C 11042 11044	If
+T718	VARIABLE 11045 11066	the operational loads
+T719	CONDITION 11067 11117	are higher than the standardized environment loads
+T720	STATEMENT 11045 11117	the operational loads are higher than the standardized environment loads
+T721	CAUSE 11042 11117	If the operational loads are higher than the standardized environment loads
+T723	CONDITION 11173 11193	shall be carried out
+T724	STATEMENT 11119 11193	complementary qualification linked to these overloads shall be carried out
+T725	CAUSE_EFFECT_RELATION 11042 11193	If the operational loads are higher than the standardized environment loads, complementary qualification linked to these overloads shall be carried out
+T726	ROOT_SENTENCE 11042 11194	If the operational loads are higher than the standardized environment loads, complementary qualification linked to these overloads shall be carried out.
+T727	KEY_C 10958 10960	If
+T728	VARIABLE 10961 10980	closed loop systems
+T729	CONDITION 10981 10989	are used
+T730	VARIABLE 10991 11002	the sensors
+T731	CONDITION 11003 11025	shall be characterized
+T732	CONDITION 11030 11039	validated
+T733	AND 11003 11039	shall be characterized and validated
+T734	STATEMENT 10991 11039	the sensors shall be characterized and validated
+T735	STATEMENT 10961 10989	closed loop systems are used
+T736	CAUSE 10958 10989	If closed loop systems are used
+T737	CAUSE_EFFECT_RELATION 10958 11039	If closed loop systems are used, the sensors shall be characterized and validated
+T738	ROOT_SENTENCE 10958 11040	If closed loop systems are used, the sensors shall be characterized and validated.
+T739	KEY_NC 10816 10822	During
+T740	VARIABLE 10823 10832	transient
+T741	NONE_CAUSAL 10816 10832	During transient
+T742	KEY_C 10834 10836	if
+T743	VARIABLE 10837 10848	coincidence
+T744	CONDITION 10849 10856	appears
+T745	STATEMENT 10837 10856	coincidence appears
+T746	CAUSE 10834 10856	if coincidence appears
+T747	VARIABLE 10858 10935	the life of the concerned component (in terms of number of cycle and duration
+T748	CONDITION 10937 10955	shall be justified
+T749	STATEMENT 10858 10955	the life of the concerned component (in terms of number of cycle and duration) shall be justified
+T750	CAUSE_EFFECT_RELATION 10816 10955	During transient, if coincidence appears, the life of the concerned component (in terms of number of cycle and duration) shall be justified
+T751	ROOT_SENTENCE 10816 10956	During transient, if coincidence appears, the life of the concerned component (in terms of number of cycle and duration) shall be justified.
+T752	KEY_C 10657 10659	If
+T753	VARIABLE 10660 10665	there
+T754	CONDITION 10666 10730	are specific requirements on the angular position of the igniter
+T755	VARIABLE 10732 10742	the design
+T756	CONDITION 10743 10756	shall be such
+T757	KEY_NC 10757 10761	that
+T758	NONE_CAUSAL 10757 10813	that mounting can only be done in the specified position
+T759	STATEMENT 10732 10756	the design shall be such
+T760	STATEMENT 10660 10730	there are specific requirements on the angular position of the igniter
+T761	CAUSE 10657 10730	If there are specific requirements on the angular position of the igniter
+T762	CAUSE_EFFECT_RELATION 10657 10813	If there are specific requirements on the angular position of the igniter, the design shall be such that mounting can only be done in the specified position
+T763	ROOT_SENTENCE 10657 10814	If there are specific requirements on the angular position of the igniter, the design shall be such that mounting can only be done in the specified position.
+T764	KEY_C 10519 10521	If
+T765	VARIABLE 10522 10548	a liquid propulsion system
+T766	CONDITION 10549 10601	is expected to be activated after a ballistic flight
+T767	STATEMENT 10522 10601	a liquid propulsion system is expected to be activated after a ballistic flight
+T768	CAUSE 10519 10601	If a liquid propulsion system is expected to be activated after a ballistic flight
+T769	VARIABLE 10603 10633	a propellant settling analysis
+T770	CONDITION 10634 10654	shall be carried out
+T771	STATEMENT 10603 10654	a propellant settling analysis shall be carried out
+T772	CAUSE_EFFECT_RELATION 10519 10654	If a liquid propulsion system is expected to be activated after a ballistic flight, a propellant settling analysis shall be carried out
+T773	ROOT_SENTENCE 10519 10655	If a liquid propulsion system is expected to be activated after a ballistic flight, a propellant settling analysis shall be carried out.
+T774	KEY_C 10293 10295	If
+T775	VARIABLE 10296 10314	in?flight draining
+T776	CONDITION 10322 10407	be performed through the flow paths for the normal operation of the propulsion system
+T777	NEGATION 10315 10407	cannot be performed through the flow paths for the normal operation of the propulsion system
+T778	STATEMENT 10296 10407	in?flight draining cannot be performed through the flow paths for the normal operation of the propulsion system
+T779	CAUSE 10293 10407	If in?flight draining cannot be performed through the flow paths for the normal operation of the propulsion system
+T780	VARIABLE 10409 10423	specific lines
+T781	VARIABLE 10427 10433	valves
+T782	CONDITION 10434 10516	shall be incorporated in the liquid propulsion system to enable in?flight draining
+T783	OR 10409 10433	specific lines or valves
+T784	STATEMENT 10409 10516	specific lines or valves shall be incorporated in the liquid propulsion system to enable in?flight draining
+T785	CAUSE_EFFECT_RELATION 10293 10516	If in?flight draining cannot be performed through the flow paths for the normal operation of the propulsion system, specific lines or valves shall be incorporated in the liquid propulsion system to enable in?flight draining
+T786	KEY_C 10102 10104	If
+T787	VARIABLE 10105 10114	the AR?Tr
+T788	CONDITION 10115 10142	is split in several volumes
+T789	STATEMENT 10105 10142	the AR?Tr is split in several volumes
+T790	CAUSE 10102 10142	If the AR?Tr is split in several volumes
+T791	VARIABLE 10144 10155	each volume
+T792	CONDITION 10156 10203	shall clearly cross?reference the other volumes
+T793	KEY_NC 10205 10214	including
+T794	NONE_CAUSAL 10205 10290	including their revision status and relation to the applicable design definition file
+T795	STATEMENT 10144 10203	each volume shall clearly cross?reference the other volumes
+T796	CAUSE_EFFECT_RELATION 10102 10290	If the AR?Tr is split in several volumes, each volume shall clearly cross?reference the other volumes, including their revision status and relation to the applicable design definition file
+T797	ROOT_SENTENCE 10102 10291	If the AR?Tr is split in several volumes, each volume shall clearly cross?reference the other volumes, including their revision status and relation to the applicable design definition file.
+T798	VARIABLE 10035 10044	modelling
+T799	KEY_C 10032 10034	If
+T800	CONDITION 10045 10052	is used
+T801	STATEMENT 10035 10052	modelling is used
+T802	CAUSE 10032 10052	If modelling is used
+T803	VARIABLE 10054 10064	the models
+T804	CONDITION 10065 10084	shall be referenced
+T805	CONDITION 10089 10099	summarized
+T806	AND 10065 10099	shall be referenced and summarized
+T807	STATEMENT 10054 10099	the models shall be referenced and summarized
+T808	CAUSE_EFFECT_RELATION 10032 10099	If modelling is used, the models shall be referenced and summarized
+T809	ROOT_SENTENCE 10032 10100	If modelling is used, the models shall be referenced and summarized.
+T810	VARIABLE 9916 9935	data from modelling
+T811	CONDITION 9941 9967	within the project is used
+T812	NEGATION 9937 9967	not within the project is used
+T813	STATEMENT 9916 9967	data from modelling, not within the project is used
+T814	KEY_C 9913 9915	If
+T815	CAUSE 9913 9967	If data from modelling, not within the project is used
+T817	CONDITION 10010 10029	shall be referenced
+T818	STATEMENT 9969 10029	the models from which this data results, shall be referenced
+T819	CAUSE_EFFECT_RELATION 9913 10029	If data from modelling, not within the project is used, the models from which this data results, shall be referenced
+T820	ROOT_SENTENCE 9913 10030	If data from modelling, not within the project is used, the models from which this data results, shall be referenced.
+T821	KEY_C 9811 9813	If
+T822	VARIABLE 9814 9837	experimental input data
+T823	CONDITION 9838 9845	is used
+T824	STATEMENT 9814 9845	experimental input data is used
+T825	CAUSE 9811 9845	If experimental input data is used
+T826	VARIABLE 9847 9883	a description of the test conditions
+T827	CONDITION 9884 9910	shall be given in the AR?P
+T828	STATEMENT 9847 9910	a description of the test conditions shall be given in the AR?P
+T829	CAUSE_EFFECT_RELATION 9811 9910	If experimental input data is used, a description of the test conditions shall be given in the AR?P
+T830	ROOT_SENTENCE 9811 9911	If experimental input data is used, a description of the test conditions shall be given in the AR?P.
+T831	KEY_C 9598 9600	If
+T832	VARIABLE 9601 9624	experimental input data
+T833	CONDITION 9625 9632	is used
+T834	VARIABLE 9634 9647	the test plan
+T835	VARIABLE 9649 9664	test procedures
+T836	VARIABLE 9666 9699	individual test item descriptions
+T837	VARIABLE 9705 9788	existing deviations from the generic design on which the experimental data is based
+T838	AND 9666 9788	individual test item descriptions, and existing deviations from the generic design on which the experimental data is based
+T839	AND 9649 9788	test procedures, individual test item descriptions, and existing deviations from the generic design on which the experimental data is based
+T840	AND 9634 9788	the test plan, test procedures, individual test item descriptions, and existing deviations from the generic design on which the experimental data is based
+T841	CONDITION 9789 9808	shall be referenced
+T842	STATEMENT 9634 9808	the test plan, test procedures, individual test item descriptions, and existing deviations from the generic design on which the experimental data is based shall be referenced
+T843	STATEMENT 9601 9632	experimental input data is used
+T844	CAUSE 9598 9632	If experimental input data is used
+T845	CAUSE_EFFECT_RELATION 9598 9808	If experimental input data is used, the test plan, test procedures, individual test item descriptions, and existing deviations from the generic design on which the experimental data is based shall be referenced
+T846	ROOT_SENTENCE 9598 9809	If experimental input data is used, the test plan, test procedures, individual test item descriptions, and existing deviations from the generic design on which the experimental data is based shall be referenced.
+T847	VARIABLE 9486 9509	experimental input data
+T848	CONDITION 9510 9517	is used
+T849	STATEMENT 9486 9517	experimental input data is used
+T850	KEY_C 9483 9485	If
+T851	CAUSE 9483 9517	If experimental input data is used
+T852	VARIABLE 9519 9533	the data sheet
+T853	VARIABLE 9537 9549	test results
+T854	CONDITION 9550 9569	shall be referenced
+T855	CONDITION 9573 9595	reproduced in the AR?P
+T856	OR 9550 9595	shall be referenced or reproduced in the AR?P
+T857	OR 9519 9549	the data sheet or test results
+T858	STATEMENT 9519 9595	the data sheet or test results shall be referenced or reproduced in the AR?P
+T859	CAUSE_EFFECT_RELATION 9483 9595	If experimental input data is used, the data sheet or test results shall be referenced or reproduced in the AR?P
+T860	ROOT_SENTENCE 9483 9596	If experimental input data is used, the data sheet or test results shall be referenced or reproduced in the AR?P.
+T861	VARIABLE 9343 9350	the GSE
+T862	CONDITION 9351 9427	is intended to be used in the vicinity of inflammable or explosive materials
+T863	STATEMENT 9343 9427	the GSE is intended to be used in the vicinity of inflammable or explosive materials
+T864	KEY_C 9340 9342	If
+T865	CAUSE 9340 9427	If the GSE is intended to be used in the vicinity of inflammable or explosive materials
+T866	VARIABLE 9429 9461	inadvertent electrical discharge
+T867	CONDITION 9462 9480	shall be prevented
+T868	STATEMENT 9429 9480	inadvertent electrical discharge shall be prevented
+T869	CAUSE_EFFECT_RELATION 9340 9480	If the GSE is intended to be used in the vicinity of inflammable or explosive materials, inadvertent electrical discharge shall be prevented
+T870	ROOT_SENTENCE 9340 9481	If the GSE is intended to be used in the vicinity of inflammable or explosive materials, inadvertent electrical discharge shall be prevented.
+T871	KEY_C 9138 9140	If
+T872	KEY_C 9015 9017	If
+T873	KEY_C 8878 8880	If
+T874	KEY_C 8708 8710	If
+T875	KEY_C 8513 8515	If
+T877	VARIABLE 9141 9147	fluids
+T878	CONDITION 9148 9166	are used to dilute
+T879	CONDITION 9168 9177	ventilate
+T880	CONDITION 9181 9264	purge areas where hazardous concentrations of fluids can be expected due to leakage
+T881	OR 9168 9264	ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage
+T882	OR 9148 9264	are used to dilute, ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage
+T883	STATEMENT 9141 9264	fluids are used to dilute, ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage
+T884	CAUSE 9138 9264	If fluids are used to dilute, ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage
+T885	VARIABLE 9266 9292	the amount of these fluids
+T886	CONDITION 9293 9337	shall be accounted for in the leakage budget
+T887	STATEMENT 9266 9337	the amount of these fluids shall be accounted for in the leakage budget
+T888	CAUSE_EFFECT_RELATION 9138 9337	If fluids are used to dilute, ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage, the amount of these fluids shall be accounted for in the leakage budget
+T889	ROOT_SENTENCE 9138 9338	If fluids are used to dilute, ventilate or purge areas where hazardous concentrations of fluids can be expected due to leakage, the amount of these fluids shall be accounted for in the leakage budget.
+T890	VARIABLE 9018 9043	nuclear generator systems
+T891	CONDITION 9044 9056	are employed
+T892	STATEMENT 9018 9056	nuclear generator systems are employed
+T893	CAUSE 9015 9056	If nuclear generator systems are employed
+T894	VARIABLE 9058 9112	the effects of radiation from them on crew and systems
+T895	CONDITION 9113 9135	are carefully assessed
+T896	STATEMENT 9058 9135	the effects of radiation from them on crew and systems are carefully assessed
+T897	CAUSE_EFFECT_RELATION 9015 9135	If nuclear generator systems are employed, the effects of radiation from them on crew and systems are carefully assessed
+T898	ROOT_SENTENCE 9015 9136	If nuclear generator systems are employed, the effects of radiation from them on crew and systems are carefully assessed.
+T899	VARIABLE 8881 8893	test results
+T900	CONDITION 8901 8918	match predictions
+T901	NEGATION 8894 8918	do not match predictions
+T902	STATEMENT 8881 8918	test results do not match predictions
+T903	CAUSE 8878 8918	If test results do not match predictions
+T904	VARIABLE 8920 8950	the reason of the disagreement
+T905	CONDITION 8951 8965	shall be found
+T906	STATEMENT 8920 8965	the reason of the disagreement shall be found
+T907	VARIABLE 8971 8983	the analysis
+T908	CONDITION 8984 9012	shall be updated accordingly
+T909	STATEMENT 8971 9012	the analysis shall be updated accordingly
+T910	AND 8920 9012	the reason of the disagreement shall be found, and the analysis shall be updated accordingly
+T911	CAUSE_EFFECT_RELATION 8878 9012	If test results do not match predictions, the reason of the disagreement shall be found, and the analysis shall be updated accordingly
+T912	ROOT_SENTENCE 8878 9013	If test results do not match predictions, the reason of the disagreement shall be found, and the analysis shall be updated accordingly.
+T913	VARIABLE 8711 8733	the sampling frequency
+T914	CONDITION 8734 8773	results in aliasing of the sampled data
+T915	STATEMENT 8711 8773	the sampling frequency results in aliasing of the sampled data
+T916	CAUSE 8708 8773	If the sampling frequency results in aliasing of the sampled data
+T917	VARIABLE 8775 8861	an anti?aliasing filter to reduce the bandwidth of the analogue signal (to be sampled)
+T918	CONDITION 8862 8875	shall be used
+T919	STATEMENT 8775 8875	an anti?aliasing filter to reduce the bandwidth of the analogue signal (to be sampled) shall be used
+T920	CAUSE_EFFECT_RELATION 8708 8875	If the sampling frequency results in aliasing of the sampled data, an anti?aliasing filter to reduce the bandwidth of the analogue signal (to be sampled) shall be used
+T921	ROOT_SENTENCE 8708 8876	If the sampling frequency results in aliasing of the sampled data, an anti?aliasing filter to reduce the bandwidth of the analogue signal (to be sampled) shall be used.
+T922	VARIABLE 8516 8526	electronic
+T923	VARIABLE 8530 8551	electrical components
+T924	OR 8516 8551	electronic or electrical components
+T925	CONDITION 8552 8577	are mounted internally to
+T926	CONDITION 8581 8608	externally on the mechanism
+T927	OR 8552 8608	are mounted internally to or externally on the mechanism
+T928	STATEMENT 8516 8608	electronic or electrical components are mounted internally to or externally on the mechanism
+T929	CAUSE 8513 8608	If electronic or electrical components are mounted internally to or externally on the mechanism
+T930	VARIABLE 8609 8631	a ground bonding strap
+T931	CONDITION 8632 8675	shall be used between the mechanism housing
+T932	CONDITION 8680 8705	the mounting ground plane
+T933	AND 8632 8705	shall be used between the mechanism housing and the mounting ground plane
+T934	STATEMENT 8609 8705	a ground bonding strap shall be used between the mechanism housing and the mounting ground plane
+T935	CAUSE_EFFECT_RELATION 8513 8705	If electronic or electrical components are mounted internally to or externally on the mechanism a ground bonding strap shall be used between the mechanism housing and the mounting ground plane
+T936	ROOT_SENTENCE 8513 8706	If electronic or electrical components are mounted internally to or externally on the mechanism a ground bonding strap shall be used between the mechanism housing and the mounting ground plane.
+T53	STATEMENT 712 806	the return line is grounded at the power source in the actual installation (star distribution)
+T54	CAUSE 709 806	If the return line is grounded at the power source in the actual installation (star distribution)
+T55	CAUSE_EFFECT_RELATION 709 878	If the return line is grounded at the power source in the actual installation (star distribution), the return line of the LISN shall be grounded on the power source side
+T56	ROOT_SENTENCE 709 879	If the return line is grounded at the power source in the actual installation (star distribution), the return line of the LISN shall be grounded on the power source side.
+T57	VARIABLE 3255 3265	meaningful
+T58	VARIABLE 3270 3294	agreed with the customer
+T130	AND 3255 3294	meaningful and agreed with the customer
+T131	CAUSE 3252 3294	If meaningful and agreed with the customer
+T132	CAUSE_EFFECT_RELATION 3252 3355	If meaningful and agreed with the customer, constant acceleration and acoustic tests shall be performed
+T238	ROOT_SENTENCE 3252 3356	If meaningful and agreed with the customer, constant acceleration and acoustic tests shall be performed.
+T239	ROOT_SENTENCE 3488 3702	If the TS defines a product that is a component of a higher tier system, the TS shall recall the related needs of that larger system and shall describe the identified interfaces between that system and the product.
+T240	VARIABLE 5227 5308	introducing the following sentence: “No special assumptions are to be underlined”
+T241	KEY_C 5224 5226	by
+T242	VARIABLE 5190 5194	this
+T243	CONDITION 5195 5222	shall be explicitly written
+T244	EFFECT 5224 5308	by introducing the following sentence: “No special assumptions are to be underlined”
+T245	STATEMENT 5190 5222	this shall be explicitly written
+T246	AND 5190 5308	this shall be explicitly written, by introducing the following sentence: “No special assumptions are to be underlined”
+T247	CAUSE_EFFECT_RELATION 5115 5308	If no significant assumptions have been used in the modelling of the item, this shall be explicitly written, by introducing the following sentence: “No special assumptions are to be underlined”
+T436	ROOT_SENTENCE 5115 5309	If no significant assumptions have been used in the modelling of the item, this shall be explicitly written, by introducing the following sentence: “No special assumptions are to be underlined”.
+T437	ROOT_SENTENCE 7835 7973	If bearing preload is not measured after final mechanism assembly, it shall be assessed by means of measurements approved by the customer.
+T438	ROOT_SENTENCE 10293 10517	If in?flight draining cannot be performed through the flow paths for the normal operation of the propulsion system, specific lines or valves shall be incorporated in the liquid propulsion system to enable in?flight draining.
+T439	CAUSE_EFFECT_RELATION 11652 11789	Mechanical pre?cleaning shall be performed only if the process of abrasion does not lead to unacceptable damage of the item being cleaned
+T575	ROOT_SENTENCE 11652 11790	Mechanical pre?cleaning shall be performed only if the process of abrasion does not lead to unacceptable damage of the item being cleaned.
+T576	ROOT_SENTENCE 12456 12640	If a component has undergone a surface treatment to meet the compatibility requirements, this component shall undergo compatibility testing in conformance with clauses 4.1.2 and 4.1.3.
+T231	VARIABLE 2961 2973	EHF payloads
+T232	ROOT_SENTENCE 4988 5113	If special parameters are required to correctly use the model with a specific code, then these parameters shall be specified.
+T233	CONDITION 6635 6725	shall include copies of the formal discrepancy reports, including rationale for acceptance
+T234	STATEMENT 6628 6725	the TE shall include copies of the formal discrepancy reports, including rationale for acceptance
+T235	CONDITION 3169 3249	shall include all parts of the product including all joints, welds, end fittings
+T236	CONDITION 4112 4189	shall be performed to verify the load paths in the tested composite component
+T237	VARIABLE 11119 11172	complementary qualification linked to these overloads
+T250	VARIABLE 9969 10008	the models from which this data results
+T267	VARIABLE 3029 3054	a material test programme
+T81	VARIABLE 1573 1590	the modifications
+T198	ROOT_SENTENCE 13138 13314	If the characteristic time is not known, an analysis of the susceptibility of the material to hydrogen embrittlement shall be performed in order to establish the test duration.
+T154	STATEMENT 13659 13763	the Reed?Solomon decoder can perform a meaningless error correction of the frame and deliver it as valid
+T144	CONDITION 13630 13652	correctly synchronized
